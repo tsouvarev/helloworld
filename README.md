@@ -14,7 +14,7 @@ $ python -m lib.cmd all
 
 ```bash
 $ npm install stylus@latest -g
-$ stylus -w -c dist/index.styl
+$ make css
 ```
 
 ## format and lint

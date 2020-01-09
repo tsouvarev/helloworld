@@ -1,0 +1,193 @@
+day = 15px
+
+full()
+    height 100%
+    width 100%
+
+*, *:before, *:after
+    box-sizing: border-box;
+
+h1
+    margin 80px 0 40px !important
+
+html, body, #app
+    full()
+    margin 0
+
+body.active
+    #app
+        transform scale(1) !important
+        visibility visible
+    #blocker
+        opacity 0
+
+#app
+    display flex
+    flex-flow column
+
+#app > article
+    flex 0 1 auto
+
+#app > header
+    display flex
+    flex 0 0 100px
+    flex-direction row
+    flex-nowrap nowrap
+    align-items center
+    overflow hidden
+
+    size = 50px
+
+    .icon
+        line-height size
+        font-size size
+
+    .title
+        font-size size
+        line-height size
+        white-space nowrap
+        padding 0 50px 0 20px
+        margin 0 !important
+
+.gant
+    full()
+    overflow auto
+    position relative
+
+    &__container
+        position relative
+        background-image url('./bg.gif')
+        background-repeat repeat
+        background-attachment local
+
+    &__pointer
+        height inherit
+        width 1px
+        background #D50000
+        position absolute
+        top 0
+
+    &__months
+        top 0
+        z-index 2
+        width 100%
+        position -webkit-sticky
+        position sticky
+        display table
+        table-layout fixed
+        box-shadow 0 5px 15px 0 rgba(0, 0, 0, .1)
+        background-color white
+
+
+.gant__month
+    display table-cell
+    overflow visible
+    cursor default
+
+    &__name
+        display block
+        line-height 30px
+        height 30px
+        padding 0 10px
+
+    &__days
+        user-select none
+        font-size 9px
+        overflow hidden
+        text-align center
+        color #777
+
+        &__day
+            float left
+            width day
+            height day
+            height 100%
+
+            &--is_weekend
+                color #F44336
+
+            &--is_today
+                background-color #DD2C00
+                font-weight bold
+                color white
+
+
+.gant__event
+    border-radius 5px
+    color #444
+    background-clip padding-box
+    border 2px solid transparent
+    padding 6px
+    font-size 11px
+    line-height 1.2
+    margin-top 60px
+    margin-bottom 5px
+    position absolute
+    max-height 52px
+    min-height @max-height
+    overflow hidden
+    cursor pointer
+    transition box-shadow .2s
+
+    &:hover
+        background-clip initial
+        max-height 300px
+        min-width 200px
+        box-shadow 0 10px 20px 0px rgba(0,0,0,.3)
+        color white
+        background-color #D50000
+        z-index 5
+
+    &__dates
+        font-weight bold
+
+    for num in (0..40)
+        &--v{num}
+            top num * (@max-height + @margin-bottom)
+
+    &--orangeked
+        background-color #FFF3E0
+
+    &--pik
+        background-color #edf8ff
+
+.days
+    for num in (1..100)
+        &--w{num}
+            width num * day
+
+.tags
+    overflow hidden
+    user-select none
+
+    &__offset
+        margin -10px 0 0 -10px
+        overflow hidden
+
+    &__tag
+        float left
+        overflow hidden
+        opacity .5
+        margin 10px 0 0 10px
+
+        &.active
+            opacity 1
+
+        &__inner
+            padding 0px 15px
+            border-radius 3px
+            color #0066ff
+            background lighten(@color, 90%)
+            cursor pointer
+            font-size 14px
+
+            &:hover
+                background lighten(@color, 95%)
+
+        input
+            position absolute
+            visibility hidden
+
+            &:checked + div
+                background #0066ff
+                color white

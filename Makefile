@@ -1,3 +1,6 @@
+css :
+	stylus -w -c www/index.styl
+
 isort :
 	isort -rc -y lib
 

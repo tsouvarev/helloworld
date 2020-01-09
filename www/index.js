@@ -1,0 +1,236 @@
+const dateFormat = 'DD.MM.YYYY',
+      dayWidth = 15,
+      monthNames = [
+        'Январь',
+        'Февраль',
+        'Март',
+        'Апрель',
+        'Май',
+        'Июнь',
+        'Июль',
+        'Август',
+        'Сентябрь',
+        'Октябрь',
+        'Ноябрь',
+        'Декабрь',
+    ]
+;
+
+function renderTripper(weekendList, eventSource, tagGroups){
+    // Calendar first month
+    const now = moment(),
+          firstMonth = getFirstMonth(moment(eventSource[0].start, dateFormat)),
+          eventList = getEvents(firstMonth, eventSource),
+          lastMonth = getLastMonth(eventList)
+    ;
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            // Marks weeks with bg image by settings it to Monday
+            bgOffset: (firstMonth.isoWeekday() + 1) * dayWidth,
+            months: getMonths(now, firstMonth, lastMonth, weekendList),
+            events: eventList,
+            tags: tagGroups,
+            selectedTags: [],
+        },
+        filters: {
+            pluralize: function(value, one, two, three){
+                const cases = [2, 0, 1, 1, 1, 2],
+                     titles = [one, two, three],
+                        key = (value % 100 > 4 && value % 100 < 20) ? 2 : cases[(value % 10 < 5) ? value % 10 : 5]
+                ;
+                return titles[key];
+            }
+        },
+        computed: {
+            eventFilter(){
+                let self = this,
+                    events = this.events
+                ;
+
+                let selectedTags = 0;
+                this.selectedTags.forEach((b) => selectedTags |= b);
+
+                if (!selectedTags){
+                    this.tags.forEach(function(g){
+                        g.tags.forEach((t) => t.active = true);
+                    });
+                } else {
+                    this.tags.forEach(function(g){
+                        // Collects possible events
+                        let groupEvents = self.events;
+                        self.tags.forEach(function(j){
+                            let bits = selectedTags & j.bits;
+                            if (bits && j.bits != g.bits) {
+                                groupEvents = groupEvents.filter((e) => bits & e.tags)
+                            }
+                        });
+
+                        // Marks active tags
+                        let eventsMask = 0;
+                        groupEvents.forEach((e) => eventsMask |= e.tags);
+                        g.tags.forEach((t) => t.active = eventsMask & t.bit);
+
+                        // Filters gant events
+                        let applyBits = selectedTags & g.bits;
+                        if (applyBits) {
+                            events = events.filter((e) => applyBits & e.tags);
+                        }
+                    });
+                }
+                return masonry(events);
+            }
+        }
+    });
+
+    const gantPointer = document.querySelector('.gant__pointer'),
+          gantContainer = document.querySelector('.gant__container');
+
+    // Set size: todo: should drop
+    gantContainer.style.height = gantContainer.scrollHeight + 'px';
+    gantContainer.style.width = gantContainer.scrollWidth + 'px';
+
+    // Folows pointer
+    gantContainer.addEventListener('mousemove', function(e){
+        gantPointer.style.left = e.pageX + gantContainer.offsetParent.scrollLeft - 1 + 'px';
+    });
+}
+
+function getFirstMonth(now) {
+    let firstMonth = moment(now);
+    firstMonth.startOf('month');
+    return firstMonth;
+}
+
+function getLastMonth(eventList) {
+    // Founds last available month from eventList
+    let lastMonth = eventList[eventList.length - 1].end;
+    for (let i = 0; i < eventList.length; i++) {
+        let event = eventList[i];
+        if (event.end > lastMonth) {
+            lastMonth = event.end;
+        }
+    }
+    lastMonth = lastMonth.clone();
+    lastMonth.startOf('month');
+    return lastMonth;
+}
+
+function getEvents(firstMonth, eventSource, tagGroups) {
+    let eventList = [];
+
+    for (let i = 0; i < eventSource.length; i++){
+        let source = eventSource[i];
+        start = moment(source.start, dateFormat);
+        end = moment(source.end, dateFormat);
+
+        // Skips old events
+        if (end < firstMonth) {
+            continue;
+        }
+
+        event = Object.assign(source, {
+               id: 'gant__event--' + i,
+            index: i,
+            start: start,
+              end: end,
+            level: source.level || 3,
+             days: end.diff(start, 'days') + 1,
+           hoffset: (start.diff(firstMonth, 'days') + firstMonth.date() - 1) * dayWidth,
+           voffset: 0,
+        });
+
+        eventList.push(event);
+    }
+
+    // Must sort events
+    // Smallest left, biggest right
+    return eventList.sort(function(a,b) {
+        if (a.start > b.start) {
+            return 1;
+        } else if (a.start.isSame(b.start)) {
+            // Puts longest first
+            return b.end - a.end;
+        }
+        return -1;
+    });
+}
+
+function getMonths(now, firstMonth, lastMonth, weekendList){
+    let monthList = [];
+
+    // Creates months rule
+    const monthLen = lastMonth.diff(firstMonth, 'months');
+    for (let i = 0; ; i++) {
+        let month = moment(firstMonth),
+            days = [];
+        month.add(i, 'month');
+
+        let total = month.daysInMonth();
+        for (let y = 0; y < total; y++){
+            let d = moment(month);
+            d.date(y + 1)
+            days.push({
+                date: d,
+                is_weekend: d.isoWeekday() >= 6 || weekendList.indexOf(d.format(dateFormat)) > -1,
+                is_today: d.format(dateFormat) == now.format(dateFormat),
+            });
+        }
+
+        let name = monthNames[month.month()];
+        if (month.month() == 0 && month.year() > now.year()) {
+            name = name + ' ' + month.year()
+        }
+
+        monthList.push({
+            name: name,
+            days: days,
+        });
+
+        // Fixme: validate corner cases
+        // May come infinite loop
+        if (month >= lastMonth) {
+            break;
+        }
+    }
+
+    return monthList;
+}
+
+function masonry(eventList){
+    let events = [],
+        seen = [];
+    for (let i = 0; i < eventList.length; i++) {
+        let event = Object.assign({}, eventList[i]);
+
+        // Moves event down
+        // if row place is already taken.
+        let found = false;
+        for (let y = 0; y < seen.length; y++) {
+            let other = seen[y];
+            if (other.end < event.start) {
+                seen[y] = event;
+                event.voffset = y;
+                found = true;
+                break;
+            }
+        }
+
+        // If row is empty
+        // sets event's end as right border
+        if (!found){
+            event.voffset = seen.length;
+            seen.push(event);
+        }
+        events.push(event)
+    }
+    return events
+}
+
+renderTripper(weekendList, eventSource, tagGroups);
+document.body.classList.add('active');
+setTimeout(function(){
+    let blocker = document.getElementById('blocker');
+    blocker.parentNode.removeChild(blocker);
+}, 300);

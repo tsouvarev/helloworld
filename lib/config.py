@@ -7,7 +7,7 @@ import click
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 info = partial(click.secho, color='white', bold=True)
 
-DIST_DATA = abs_path('../dist/data.js')
+DIST_DATA = abs_path('../www/data.js')
 SRC_PIK = abs_path('../src/pik.json')
 SRC_ORANGEKED = abs_path('../src/orangeked.json')
 
