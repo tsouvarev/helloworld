@@ -1,0 +1,8 @@
+click
+funcy
+httpx
+simplejson
+flake8
+black
+isort
+unify
