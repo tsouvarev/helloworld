@@ -1,14 +1,17 @@
 import asyncio
 
-from ..config import SRC_PIK
+from ..config import SRC_ORANGEKED, SRC_PIK
 from ..utils import json_dumps
+from .orangeked import parse_orangeked
 from .pik import parse_pik
 
 
 async def parse_async():
-    result = json_dumps(await parse_pik())
+    with open(SRC_ORANGEKED, 'w+') as r:
+        r.write(json_dumps(await parse_orangeked()))
+
     with open(SRC_PIK, 'w+') as r:
-        r.write(result)
+        r.write(json_dumps(await parse_pik()))
 
 
 def parse():
