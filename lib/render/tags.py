@@ -7,7 +7,14 @@ from typing import Dict
 
 from funcy import post_processing
 
-from ..config import CITYESCAPE, ORANGEKED, PIK, SHORT_DURATION
+from ..config import (
+    CITYESCAPE,
+    LEVELS,
+    ORANGEKED,
+    PIK,
+    SHORT_DURATION,
+    ZOVGOR,
+)
 
 bits = partial(next, count(1))
 
@@ -31,6 +38,9 @@ class TagGroup:
     def __getitem__(self, item: str):
         return self.tags[item]
 
+    def __iter__(self):
+        return iter(self.tags.values())
+
     def for_json(self):
         tags = self.tags.values()
         return {
@@ -47,9 +57,10 @@ VENDORS = TagGroup(
     Tag(slug=PIK, text='пик'),
     Tag(slug=ORANGEKED, text='оранжевый кед'),
     Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
+    Tag(slug=ZOVGOR, text='зов гор'),
 )
 
-LEVELS = TagGroup(
+LEVELS_TAGS = TagGroup(
     Tag(slug='level_1', text='очень просто'),
     Tag(slug='level_2', text='просто'),
     Tag(slug='level_3', text='средней сложности'),
@@ -59,7 +70,7 @@ LEVELS = TagGroup(
 
 TAGS = (
     VENDORS,
-    LEVELS,
+    LEVELS_TAGS,
     TagGroup(SHORT, LONG),
     TagGroup(KIDS),
 )
@@ -72,7 +83,10 @@ def reduce_bits(tags):
 @post_processing(reduce_bits)
 def get_tags(src: dict):
     yield VENDORS[src['vendor']]
-    yield LEVELS['level_{level}'.format_map(src)]
+
+    for bit, tag in zip(LEVELS, LEVELS_TAGS):
+        if bit & src['level']:
+            yield tag
 
     # fixme: kids tag duck style
     if re.findall(r'(семей|\([0-9]+\+\))', src['title'], re.I):

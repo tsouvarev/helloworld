@@ -6,6 +6,7 @@ import httpx
 from funcy import compose, first, keep
 from lxml import html
 
+from ..config import LEVELS
 from ..models import ItemOrangeked
 
 MONTHS = (
@@ -34,7 +35,7 @@ async def parse_page(path: str) -> ItemOrangeked:
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
     )
     return ItemOrangeked(
-        level=level, start=start, end=end, url=url, title=title,
+        level=LEVELS[level - 1], start=start, end=end, url=url, title=title,
     )
 
 

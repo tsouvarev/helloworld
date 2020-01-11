@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from .config import CITYESCAPE, ORANGEKED, PIK
+from .config import CITYESCAPE, MIDDLE, ORANGEKED, PIK, ZOVGOR
 
 
 class BaseItem(BaseModel):
@@ -11,7 +11,7 @@ class BaseItem(BaseModel):
     title: str
     start: datetime
     end: datetime
-    level: int = 3
+    level: int = MIDDLE
     url: str = '#'
 
 
@@ -25,3 +25,7 @@ class ItemOrangeked(BaseItem):
 
 class ItemCityescape(BaseItem):
     vendor: str = CITYESCAPE
+
+
+class ItemZovgor(BaseItem):
+    vendor: str = ZOVGOR

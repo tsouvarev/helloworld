@@ -14,3 +14,9 @@ flake8 :
 	flake8 lib
 
 zbs : isort black unify flake8
+
+parse:
+	python -m lib.cmd parse
+
+render:
+	python -m lib.cmd render

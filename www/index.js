@@ -135,7 +135,7 @@ function getEvents(firstMonth, eventSource, tagGroups) {
             index: i,
             start: start,
               end: end,
-            level: source.level || 3,
+            level: source.level,
              days: end.diff(start, 'days') + 1,
            hoffset: (start.diff(firstMonth, 'days') + firstMonth.date() - 1) * dayWidth,
            voffset: 0,

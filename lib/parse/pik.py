@@ -5,16 +5,17 @@ from datetime import datetime
 import httpx
 from funcy import cat, compose, first
 
+from ..config import EASY, HARD, MIDDLE, VERY_EASY, VERY_HARD
 from ..models import ItemPik
 
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
 LEVELS = {
-    'very_easy': 1,
-    'easy': 2,
-    'middle': 3,
-    'hard': 4,
-    'very_hard': 5,
+    'very_easy': VERY_EASY,
+    'easy': EASY,
+    'middle': MIDDLE,
+    'hard': HARD,
+    'very_hard': VERY_HARD,
 }
 parse_dates = compose(
     first, re.compile(r'^с (\d+) ?(\w{3})? ?по (\d+) (\w{3}) (\d{4})').findall

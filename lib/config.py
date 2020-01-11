@@ -13,7 +13,8 @@ DIST_DATA = abs_path('../www/data.js')
 ORANGEKED = 'orangeked'
 PIK = 'pik'
 CITYESCAPE = 'cityescape'
-VENDORS = (ORANGEKED, PIK, CITYESCAPE)
+ZOVGOR = 'zovgor'
+VENDORS = (ORANGEKED, PIK, CITYESCAPE, ZOVGOR)
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
@@ -34,3 +35,16 @@ WEEKENDS = [
     '12.06.2020',
     '04.11.2020',
 ]
+
+VERY_EASY = 1 << 1
+EASY = 1 << 2
+MIDDLE = 1 << 3
+HARD = 1 << 4
+VERY_HARD = 1 << 5
+LEVELS = (
+    VERY_EASY,
+    EASY,
+    MIDDLE,
+    HARD,
+    VERY_HARD,
+)
