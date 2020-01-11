@@ -28,7 +28,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
         el: '#app',
         data: {
             // Marks weeks with bg image by settings it to Monday
-            bgOffset: firstMonth.isoWeekday() * dayWidth,
+            bgOffset: (firstMonth.isoWeekday() + 2) * dayWidth,
             months: getMonths(now, firstMonth, lastMonth, weekendList),
             events: eventList,
             tags: tagGroups,
