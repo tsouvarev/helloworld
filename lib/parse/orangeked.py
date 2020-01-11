@@ -6,6 +6,8 @@ import httpx
 from funcy import compose, first, keep
 from lxml import html
 
+from ..models import ItemOrangeked
+
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
     'сентября октября ноября декабря'.split()
@@ -22,7 +24,7 @@ async def parse_orangeked():
     return await asyncio.gather(*keep(parse_page, links))
 
 
-async def parse_page(path: str) -> dict:
+async def parse_page(path: str) -> ItemOrangeked:
     url = 'http://orangeked.ru' + path
     page = await httpx.get(url)
     tree = html.fromstring(page.text.encode())
@@ -31,15 +33,9 @@ async def parse_page(path: str) -> dict:
     start, end = parse_date(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
     )
-    data = {
-        'vendor': 'orangeked',
-        'level': level,
-        'start': start,
-        'end': end,
-        'url': url,
-        'title': title,
-    }
-    return data
+    return ItemOrangeked(
+        level=level, start=start, end=end, url=url, title=title,
+    )
 
 
 def parse_date(src: str):
