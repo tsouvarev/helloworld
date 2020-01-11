@@ -1,5 +1,6 @@
 import click
 
+from lib.config import VENDORS
 from lib.parse import parse
 from lib.render import render
 
@@ -15,7 +16,15 @@ def all_():
     render()
 
 
-cmd.command()(parse)
+cmd.command()(
+    click.option(
+        '--vendor',
+        '-v',
+        multiple=True,
+        type=click.Choice(VENDORS),
+        required=False,
+    )(parse)
+)
 cmd.command()(render)
 
 if __name__ == '__main__':

@@ -1,23 +1,32 @@
 import asyncio
 
-from ..config import SRC_ORANGEKED, SRC_PIK
+from ..config import CITYESCAPE, ORANGEKED, PIK, info, src_path
 from ..utils import json_dumps
+from .cityescape import parse_cityescape
 from .orangeked import parse_orangeked
 from .pik import parse_pik
 
-
-async def parse_async():
-    with open(SRC_ORANGEKED, 'w+') as r:
-        r.write(json_dumps(await parse_orangeked()))
-
-    with open(SRC_PIK, 'w+') as r:
-        r.write(json_dumps(await parse_pik()))
+VENDORS = {
+    ORANGEKED: parse_orangeked,
+    PIK: parse_pik,
+    CITYESCAPE: parse_cityescape,
+}
 
 
-def parse():
+async def parse_async(*args: str):
+    vendors = args or VENDORS
+    for name in vendors:
+        with open(src_path(name + '.json'), 'w+') as r:
+            info(f'Parsing {name}...')
+            items = list(await VENDORS[name]())
+            info(f'Loaded {len(items)} items from {name}!')
+            r.write(json_dumps(items))
+
+
+def parse(vendor=()):
     """
     Loads data from websites.
     """
 
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(parse_async())
+    loop.run_until_complete(parse_async(*vendor))

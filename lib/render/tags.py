@@ -7,7 +7,7 @@ from typing import Dict
 
 from funcy import post_processing
 
-from ..config import SHORT_DURATION
+from ..config import CITYESCAPE, ORANGEKED, PIK, SHORT_DURATION
 
 bits = partial(next, count(1))
 
@@ -15,7 +15,6 @@ bits = partial(next, count(1))
 @dataclass
 class Tag:
     for_json = asdict
-
     slug: str
     text: str
     title: str = ''
@@ -40,20 +39,23 @@ class TagGroup:
         }
 
 
-PIK = Tag(slug='pik', text='пик')
-ORANGEKED = Tag(slug='orangeked', text='оранжевый кед')
-LEVEL_1 = Tag(slug='level_1', text='очень просто')
-LEVEL_2 = Tag(slug='level_2', text='просто')
-LEVEL_3 = Tag(slug='level_3', text='средней сложности')
-LEVEL_4 = Tag(slug='level_4', text='сложно')
-LEVEL_5 = Tag(slug='level_5', text='очень сложно')
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
 
-VENDORS = TagGroup(PIK, ORANGEKED,)
+VENDORS = TagGroup(
+    Tag(slug=PIK, text='пик'),
+    Tag(slug=ORANGEKED, text='оранжевый кед'),
+    Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
+)
 
-LEVELS = TagGroup(LEVEL_1, LEVEL_2, LEVEL_3, LEVEL_4, LEVEL_5,)
+LEVELS = TagGroup(
+    Tag(slug='level_1', text='очень просто'),
+    Tag(slug='level_2', text='просто'),
+    Tag(slug='level_3', text='средней сложности'),
+    Tag(slug='level_4', text='сложно'),
+    Tag(slug='level_5', text='очень сложно'),
+)
 
 TAGS = (
     VENDORS,

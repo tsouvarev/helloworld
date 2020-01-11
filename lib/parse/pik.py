@@ -5,8 +5,6 @@ from datetime import datetime
 import httpx
 from funcy import cat, compose, first
 
-from ..config import info
-
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
 LEVELS = {
@@ -29,7 +27,6 @@ async def get_page(page) -> dict:
 async def parse_pik(batch=10) -> map:
     items = {}
     start = 1
-    info('Parsing pik...')
     while True:
         coros = map(get_page, range(start, start + batch))
         done = False
@@ -39,7 +36,6 @@ async def parse_pik(batch=10) -> map:
             items[item['id']] = item
 
         if done:
-            info('Loaded %d items from pik!' % len(items))
             return map(parse_item, items.values())
         start += batch
 

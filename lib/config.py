@@ -4,12 +4,16 @@ from functools import partial
 
 import click
 
-abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 info = partial(click.secho, color='white', bold=True)
 
+abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
+src_path = partial(abs_path, '../src')
 DIST_DATA = abs_path('../www/data.js')
-SRC_PIK = abs_path('../src/pik.json')
-SRC_ORANGEKED = abs_path('../src/orangeked.json')
+
+ORANGEKED = 'orangeked'
+PIK = 'pik'
+CITYESCAPE = 'cityescape'
+VENDORS = (ORANGEKED, PIK, CITYESCAPE)
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
