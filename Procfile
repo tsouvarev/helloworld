@@ -1,1 +1,1 @@
-web: uwsgi --check-static www
+web: bin/boot
