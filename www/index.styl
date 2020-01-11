@@ -200,10 +200,22 @@ body.active
             &:hover
                 background lighten(@color, 95%)
 
+        &.zovgor &__inner
+            background zovgor
+
+        &.orangeked &__inner
+            background orangeked
+
+        &.pik &__inner
+            background pik
+
+        &.cityescape &__inner
+            background cityescape
+
         input
             position absolute
             visibility hidden
 
             &:checked + div
-                background #0066ff
+                background #0066ff !important
                 color white
