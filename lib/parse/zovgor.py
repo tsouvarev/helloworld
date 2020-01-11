@@ -4,14 +4,13 @@ import httpx
 from funcy import chain, lmap, partial
 from lxml import html
 
-from ..config import EASY, HARD, MIDDLE, VERY_EASY, VERY_HARD
+from ..config import EASY, HARD, MIDDLE
 from ..models import ItemZovgor
 
-# fixme: adapt
 LEVELS = {
-    'низкая': VERY_EASY | EASY,
+    'низкая': EASY,
     'средняя': MIDDLE,
-    'высокая': HARD | VERY_HARD,
+    'высокая': HARD,
 }
 
 

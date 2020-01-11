@@ -20,3 +20,6 @@ parse:
 
 render:
 	python -m lib.cmd render
+
+all:
+	python -m lib.cmd all
