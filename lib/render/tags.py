@@ -29,6 +29,9 @@ class Tag:
     bit: int = field(default_factory=lambda: 1 << bits())
     active: bool = True
 
+    def __int__(self):
+        return self.bit
+
 
 class TagGroup:
     tags: Dict[str, Tag]
@@ -70,16 +73,22 @@ LEVELS_TAGS = TagGroup(
     Tag(slug='level_5', text='очень сложно'),
 )
 
+MONTHS_NAMES = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
+MONTHS = TagGroup(
+    *(Tag(slug=f'month_{m}', text=MONTHS_NAMES[m - 1]) for m in range(1, 13))
+)
+
 TAGS = (
     VENDORS,
     LEVELS_TAGS,
     TagGroup(SHORT, LONG),
     TagGroup(KIDS),
+    MONTHS,
 )
 
 
 def reduce_bits(tags):
-    return reduce(operator.or_, (t.bit for t in tags))
+    return reduce(operator.or_, map(int, tags))
 
 
 @post_processing(reduce_bits)
@@ -99,3 +108,14 @@ def get_tags(src: dict):
         yield SHORT
     else:
         yield LONG
+
+    months = 1
+    for m, month in enumerate(MONTHS, 1):
+        in_month = (
+            src['start'].month == m
+            or src['end'].month == m
+            or src['start'].month <= m <= src['end'].month
+        )
+        if in_month:
+            months |= month.bit
+    yield months
