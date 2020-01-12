@@ -4,8 +4,8 @@ import httpx
 from funcy import chain, lmap, partial
 from lxml import html
 
-from ..config import EASY, HARD, MIDDLE
-from ..models import ItemZovgor
+from ..config import EASY, HARD, MIDDLE, ZOVGOR
+from ..models import Item
 
 LEVELS = {
     'низкая': EASY,
@@ -43,7 +43,8 @@ def parse_page(text):
     data = zip(titles, urls, dates, levels)
     for title, url, date, level in data:
         start, end = map(parse_dt, date.split('-', 1))
-        yield ItemZovgor(
+        yield Item(
+            vendor=ZOVGOR,
             title=title,
             url='https://zovgor.com/' + url,
             level=LEVELS[level],

@@ -2,10 +2,10 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from .config import CITYESCAPE, MIDDLE, ORANGEKED, PIK, ZOVGOR
+from .config import MIDDLE
 
 
-class BaseItem(BaseModel):
+class Item(BaseModel):
     for_json = BaseModel.dict
     vendor: str
     title: str
@@ -13,19 +13,3 @@ class BaseItem(BaseModel):
     end: datetime
     level: int = MIDDLE
     url: str = '#'
-
-
-class ItemPik(BaseItem):
-    vendor: str = PIK
-
-
-class ItemOrangeked(BaseItem):
-    vendor: str = ORANGEKED
-
-
-class ItemCityescape(BaseItem):
-    vendor: str = CITYESCAPE
-
-
-class ItemZovgor(BaseItem):
-    vendor: str = ZOVGOR

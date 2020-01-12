@@ -3,6 +3,7 @@ orangeked = #FFF3E0
 pik = #edf8ff
 cityescape = #fcefff
 zovgor = #ecf9eb
+napravlenie = #ffeaea
 
 full()
     height 100%
@@ -167,6 +168,9 @@ body.active
     &--zovgor
         background-color zovgor
 
+    &--napravlenie
+        background-color napravlenie
+
 .days
     for num in (1..100)
         &--w{num}
@@ -211,6 +215,9 @@ body.active
 
         &.cityescape &__inner
             background cityescape
+
+        &.napravlenie &__inner
+            background napravlenie
 
         input
             position absolute

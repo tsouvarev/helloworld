@@ -14,7 +14,8 @@ ORANGEKED = 'orangeked'
 PIK = 'pik'
 CITYESCAPE = 'cityescape'
 ZOVGOR = 'zovgor'
-VENDORS = (ORANGEKED, PIK, CITYESCAPE, ZOVGOR)
+NAPRAVLENIE = 'napravlenie'
+VENDORS = (ORANGEKED, PIK, CITYESCAPE, ZOVGOR, NAPRAVLENIE)
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)

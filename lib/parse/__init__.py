@@ -1,8 +1,17 @@
 import asyncio
 
-from ..config import CITYESCAPE, ORANGEKED, PIK, ZOVGOR, info, src_path
+from ..config import (
+    CITYESCAPE,
+    NAPRAVLENIE,
+    ORANGEKED,
+    PIK,
+    ZOVGOR,
+    info,
+    src_path,
+)
 from ..utils import json_dumps
 from .cityescape import parse_cityescape
+from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .pik import parse_pik
 from .zovgor import parse_zovgor
@@ -12,6 +21,7 @@ VENDORS = {
     PIK: parse_pik,
     CITYESCAPE: parse_cityescape,
     ZOVGOR: parse_zovgor,
+    NAPRAVLENIE: parse_napravlenie,
 }
 
 

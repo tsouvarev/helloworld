@@ -5,7 +5,8 @@ from datetime import datetime, timedelta
 import httpx
 from funcy import chain, chunks
 
-from ..models import ItemCityescape
+from ..config import CITYESCAPE
+from ..models import Item
 
 CITYESCAPE_URL = 'https://cityescape.ru/wp-admin/admin-ajax.php'
 RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
@@ -35,8 +36,9 @@ async def parse_cityescape():
     return map(parse_item, items)
 
 
-def parse_item(item: dict) -> ItemCityescape:
-    return ItemCityescape(
+def parse_item(item: dict) -> Item:
+    return Item(
+        vendor=CITYESCAPE,
         start=datetime.strptime(item['start'], '%m/%d/%Y %M:%H:%S'),
         end=datetime.strptime(item['end'], '%m/%d/%Y %M:%H:%S'),
         title=item['title'],

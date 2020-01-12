@@ -10,6 +10,7 @@ from funcy import post_processing
 from ..config import (
     CITYESCAPE,
     LEVELS,
+    NAPRAVLENIE,
     ORANGEKED,
     PIK,
     SHORT_DURATION,
@@ -58,6 +59,7 @@ VENDORS = TagGroup(
     Tag(slug=ORANGEKED, text='оранжевый кед'),
     Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
     Tag(slug=ZOVGOR, text='зов гор'),
+    Tag(slug=NAPRAVLENIE, text='направление'),
 )
 
 LEVELS_TAGS = TagGroup(

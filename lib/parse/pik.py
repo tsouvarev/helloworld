@@ -5,8 +5,8 @@ from datetime import datetime
 import httpx
 from funcy import cat, compose, first
 
-from ..config import EASY, HARD, MIDDLE, VERY_EASY, VERY_HARD
-from ..models import ItemPik
+from ..config import EASY, HARD, MIDDLE, PIK, VERY_EASY, VERY_HARD
+from ..models import Item
 
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
@@ -57,10 +57,10 @@ def parse_date(src: str):
     yield datetime(end_year, end_month, int(end_day))
 
 
-def parse_item(item: ItemPik) -> ItemPik:
+def parse_item(item: Item) -> Item:
     start, end = parse_date(item['duration_explained'])
-    return ItemPik(
-        vendor='pik',
+    return Item(
+        vendor=PIK,
         start=start,
         end=end,
         title=item['name'],
