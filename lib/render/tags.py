@@ -16,7 +16,7 @@ from ..config import (
     ZOVGOR,
 )
 
-bits = partial(next, count(1))
+bits = partial(next, count())
 
 
 @dataclass
