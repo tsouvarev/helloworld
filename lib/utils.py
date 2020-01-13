@@ -21,5 +21,7 @@ json_dumps = partial(
     default=dumps_default,
     iterable_as_array=True,
     for_json=True,
-    separators=(',', ':'),
+    sort_keys=True,
+    indent=4,
+    separators=(',', ': '),
 )
