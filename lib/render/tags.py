@@ -1,7 +1,6 @@
-import operator
 import re
 from dataclasses import asdict, dataclass, field
-from functools import partial, reduce
+from functools import partial
 from itertools import count
 from typing import Dict
 
@@ -27,10 +26,7 @@ class Tag:
     text: str
     title: str = ''
     bit: int = field(default_factory=lambda: 1 << bits())
-    active: bool = True
-
-    def __int__(self):
-        return self.bit
+    active: bool = False
 
 
 class TagGroup:
@@ -88,7 +84,11 @@ TAGS = (
 
 
 def reduce_bits(tags):
-    return reduce(operator.or_, map(int, tags))
+    result = 1
+    for tag in tags:
+        tag.active = True
+        result |= tag.bit
+    return result
 
 
 @post_processing(reduce_bits)
@@ -109,7 +109,6 @@ def get_tags(src: dict):
     else:
         yield LONG
 
-    months = 1
     for m, month in enumerate(MONTHS, 1):
         in_month = (
             src['start'].month == m
@@ -117,5 +116,4 @@ def get_tags(src: dict):
             or src['start'].month <= m <= src['end'].month
         )
         if in_month:
-            months |= month.bit
-    yield months
+            yield month

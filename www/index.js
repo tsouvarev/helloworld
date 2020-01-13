@@ -19,8 +19,8 @@ const dateFormat = 'DD.MM.YYYY',
 function renderTripper(weekendList, eventSource, tagGroups){
     // Calendar first month
     const now = moment(),
-          firstMonth = getFirstMonth(moment(eventSource[0].start, dateFormat)),
-          eventList = getEvents(firstMonth, eventSource),
+          eventList = getEvents(now, eventSource),
+          firstMonth = monthBeginning(eventList[0].start),
           lastMonth = getLastMonth(eventList)
     ;
 
@@ -30,7 +30,6 @@ function renderTripper(weekendList, eventSource, tagGroups){
             // Marks weeks with bg image by settings it to Monday
             bgOffset: (firstMonth.isoWeekday() + 2) * dayWidth,
             months: getMonths(now, firstMonth, lastMonth, weekendList),
-            events: eventList,
             tags: tagGroups,
             selectedTags: [],
         },
@@ -46,7 +45,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
         computed: {
             eventFilter(){
                 let self = this,
-                    events = this.events
+                    events = eventList
                 ;
 
                 let selectedTags = 0;
@@ -59,7 +58,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 } else {
                     this.tags.forEach(function(g){
                         // Collects possible events
-                        let groupEvents = self.events;
+                        let groupEvents = eventList;
                         self.tags.forEach(function(j){
                             let bits = selectedTags & j.bits;
                             if (bits && j.bits != g.bits) {
@@ -79,7 +78,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
                         }
                     });
                 }
-                return masonry(events);
+
+                events = masonry(events);
+                return events;
             }
         }
     });
@@ -91,16 +92,16 @@ function renderTripper(weekendList, eventSource, tagGroups){
     gantContainer.style.height = gantContainer.scrollHeight + 'px';
     gantContainer.style.width = gantContainer.scrollWidth + 'px';
 
-    // Folows pointer
+    // Follows pointer
     gantContainer.addEventListener('mousemove', function(e){
         gantPointer.style.left = e.pageX + gantContainer.offsetParent.scrollLeft - 1 + 'px';
     });
 }
 
-function getFirstMonth(now) {
-    let firstMonth = moment(now);
-    firstMonth.startOf('month');
-    return firstMonth;
+function monthBeginning(date) {
+    let beginning = date.clone();
+    beginning.startOf('month');
+    return beginning;
 }
 
 function getLastMonth(eventList) {
@@ -112,9 +113,7 @@ function getLastMonth(eventList) {
             lastMonth = event.end;
         }
     }
-    lastMonth = lastMonth.clone();
-    lastMonth.startOf('month');
-    return lastMonth;
+    return monthBeginning(lastMonth);
 }
 
 function getEvents(firstMonth, eventSource, tagGroups) {
