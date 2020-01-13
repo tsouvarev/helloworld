@@ -84,7 +84,7 @@ TAGS = (
 
 
 def reduce_bits(tags):
-    result = 1
+    result = 0
     for tag in tags:
         tag.active = True
         result |= tag.bit
