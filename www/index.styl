@@ -18,6 +18,7 @@ h1
 html, body, #app
     full()
     margin 0
+    overflow hidden
 
 body.active
     #app
@@ -30,17 +31,18 @@ body.active
     display flex
     flex-flow column
 
-#app > article
-    flex 0 1 auto
+article
+    flex 0 0 auto
 
-#app > header
+header
     display flex
     flex 0 0 100px
     flex-direction row
-    flex-nowrap nowrap
+    flex-wrap nowrap
     align-items center
     overflow hidden
     padding 0 50px
+    width 100%
 
     size = 50px
 
@@ -60,6 +62,7 @@ body.active
             display inline-block
             font-weight normal
             font-size 34px
+
 
 .gant
     full()
@@ -179,14 +182,16 @@ body.active
 
 .tags
     overflow hidden
+    position relative
     user-select none
+    font-size 0
 
     &__offset
         margin -10px 0 0 -10px
         overflow hidden
 
     &__tag
-        float left
+        display inline-block
         overflow hidden
         opacity .5
         margin 10px 0 0 10px
@@ -227,3 +232,26 @@ body.active
             &:checked + div
                 background #0066ff !important
                 color white
+
+
+@media only screen and (max-width: 1100px)
+    header
+        flex 0 0 auto
+        padding 0
+
+        .icon, .title
+            display none
+
+        .tags
+            &__offset
+                padding 15px
+                overflow-x auto
+                width 100%
+                white-space nowrap
+
+            &__tag__inner
+                padding 1px 13px
+                font-size 14px
+
+    .gant__pointer
+        display none

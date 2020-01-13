@@ -88,14 +88,18 @@ function renderTripper(weekendList, eventSource, tagGroups){
     const gantPointer = document.querySelector('.gant__pointer'),
           gantContainer = document.querySelector('.gant__container');
 
-    // Set size: todo: should drop
-    gantContainer.style.height = gantContainer.scrollHeight + 'px';
-    gantContainer.style.width = gantContainer.scrollWidth + 'px';
+    resizeGant(gantContainer);
+    window.addEventListener('resize', function(){resizeGant(gantContainer)});
 
     // Follows pointer
     gantContainer.addEventListener('mousemove', function(e){
         gantPointer.style.left = e.pageX + gantContainer.offsetParent.scrollLeft - 1 + 'px';
     });
+}
+
+function resizeGant(gant) {
+    gant.style.height = gant.scrollHeight + 'px';
+    gant.style.width = gant.scrollWidth + 'px';
 }
 
 function monthBeginning(date) {
