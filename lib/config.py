@@ -2,10 +2,6 @@ import os.path
 from datetime import timedelta
 from functools import partial
 
-import click
-
-info = partial(click.secho, color='white', bold=True)
-
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 src_path = partial(abs_path, '../src')
 DIST_DATA = abs_path('../www/data.js')

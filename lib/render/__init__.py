@@ -4,8 +4,8 @@ from operator import itemgetter
 
 from funcy import post_processing
 
-from ..config import DIST_DATA, VENDORS, WEEKENDS, info, src_path
-from ..utils import json_dumps, strptime
+from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
+from ..utils import info, json_dumps, strptime
 from .tags import TAGS, get_tags
 
 sort_data = partial(sorted, key=itemgetter('start'))

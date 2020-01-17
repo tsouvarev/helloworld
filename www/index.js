@@ -21,15 +21,15 @@ function renderTripper(weekendList, eventSource, tagGroups){
     const now = moment(),
           eventList = getEvents(now, eventSource),
           firstMonth = monthBeginning(eventList[0].start),
-          lastMonth = getLastMonth(eventList)
+          lastMonth = getLastMonth(eventList),
+          months = getMonths(now, firstMonth, lastMonth, weekendList)
     ;
 
     const app = new Vue({
         el: '#app',
         data: {
-            // Marks weeks with bg image by settings it to Monday
             bgOffset: (firstMonth.isoWeekday() + 2) * dayWidth,
-            months: getMonths(now, firstMonth, lastMonth, weekendList),
+            months: months,
             tags: tagGroups,
             selectedTags: [],
         },
@@ -85,22 +85,28 @@ function renderTripper(weekendList, eventSource, tagGroups){
         }
     });
 
-    const gantPointer = document.querySelector('.gant__pointer'),
-          gantContainer = document.querySelector('.gant__container');
+    const gantWidth = months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
+    const gantContainer = document.querySelector('.gant__container');
+    gantContainer.style.height = gantContainer.scrollHeight + 'px';
+    gantContainer.style.width = gantWidth + 'px';
 
-    resizeGant(gantContainer);
-    window.addEventListener('resize', function(){resizeGant(gantContainer)});
-
-    // Follows pointer
-    gantContainer.addEventListener('mousemove', function(e){
-        gantPointer.style.left = e.pageX + gantContainer.offsetParent.scrollLeft - 1 + 'px';
-    });
+//    const canvas = document.createElement('canvas');
+//    canvas.height = 1;
+//    canvas.width = gantWidth;
+//    const ctx = canvas.getContext("2d");
+//
+//    let z = 0;
+//    for (let x = 0; x < months.length; x++){
+//        const m = months[x];
+//        for (let y = 0; y < m.days.length; y++){
+//            ctx.fillStyle = m.days[y].is_weekend ? '#fff7f7' : 'white';
+//            ctx.fillRect(z * dayWidth, 0, dayWidth, 1);
+//            z++
+//        }
+//    }
+//    gantContainer.style.backgroundImage = 'url(' + canvas.toDataURL("image/png") + ')'
 }
 
-function resizeGant(gant) {
-    gant.style.height = gant.scrollHeight + 'px';
-    gant.style.width = gant.scrollWidth + 'px';
-}
 
 function monthBeginning(date) {
     let beginning = date.clone();

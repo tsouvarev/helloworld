@@ -5,6 +5,7 @@ from lxml import html
 
 from lib.config import NAPRAVLENIE
 from lib.models import Item
+from lib.utils import silent
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -17,6 +18,7 @@ async def parse_napravlenie():
     return parse_page(page.text)
 
 
+@silent
 def parse_page(text):
     tree = html.fromstring(text)
     dates = tree.xpath('//*[@class="text-center cell date"]/div/text()')

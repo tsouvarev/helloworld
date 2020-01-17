@@ -1,11 +1,12 @@
 from datetime import datetime
 
 import httpx
-from funcy import chain, lmap, partial
+from funcy import chain, partial
 from lxml import html
 
 from ..config import EASY, HARD, MIDDLE, ZOVGOR
 from ..models import Item
+from ..utils import mapv
 
 LEVELS = {
     'низкая': EASY,
@@ -54,7 +55,7 @@ def parse_page(text):
 
 
 def parse_date(now_year: int, src: str) -> datetime:
-    date = lmap(int, src.split('.'))
+    date = mapv(int, src.split('.'))
     if len(date) == 2:
         (day, month), year = date, now_year
     else:

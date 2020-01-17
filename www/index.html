@@ -47,23 +47,22 @@
         </div>
     </header>
     <article class="gant">
-        <div class="gant__container" :style="`background-position: ${bgOffset}px 0`">
-            <div class="gant__pointer"></div>
-            <div class="gant__months">
-                <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
-                    <div class="gant__month__name">{{ month.name }}</div>
-                    <div class="gant__month__days">
-                        <span
-                            class="gant__month__days__day"
-                            :class="{
-                                'gant__month__days__day--is_weekend': day.is_weekend,
-                                'gant__month__days__day--is_today': day.is_today,
-                            }"
-                            v-for="day in month.days"
-                        >{{ day.date.format('DD') }}</span>
-                    </div>
+        <div class="gant__months">
+            <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
+                <div class="gant__month__name">{{ month.name }}</div>
+                <div class="gant__month__days">
+                    <span
+                        class="gant__month__days__day"
+                        :class="{
+                            'gant__month__days__day--is_weekend': day.is_weekend,
+                            'gant__month__days__day--is_today': day.is_today,
+                        }"
+                        v-for="day in month.days"
+                    >{{ day.date.format('DD') }}</span>
                 </div>
             </div>
+        </div>
+        <div class="gant__container" :style="`background-position: ${bgOffset}px 0`">
             <div class="gant__events">
                 <a
                     v-for="event in eventFilter"

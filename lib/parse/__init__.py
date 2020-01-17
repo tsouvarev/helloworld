@@ -1,15 +1,7 @@
 import asyncio
 
-from ..config import (
-    CITYESCAPE,
-    NAPRAVLENIE,
-    ORANGEKED,
-    PIK,
-    ZOVGOR,
-    info,
-    src_path,
-)
-from ..utils import json_dumps
+from ..config import CITYESCAPE, NAPRAVLENIE, ORANGEKED, PIK, ZOVGOR, src_path
+from ..utils import compactv, info, json_dumps
 from .cityescape import parse_cityescape
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
@@ -30,7 +22,7 @@ async def parse_async(*args: str):
     for name in vendors:
         with open(src_path(name + '.json'), 'w+') as r:
             info(f'Parsing {name}...')
-            items = list(await VENDORS[name]())
+            items = compactv(await VENDORS[name]())
             info(f'Loaded {len(items)} items from {name}!')
             r.write(json_dumps(items))
 

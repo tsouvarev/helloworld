@@ -1,9 +1,19 @@
+from contextlib import contextmanager
 from datetime import date, datetime
-from functools import partial
+from functools import partial, update_wrapper
+from inspect import iscoroutinefunction
 
+import click
 import simplejson
+from funcy import compose
 
 from .config import DATE_FORMAT
+
+info = partial(click.secho, color='white', bold=True)
+error = partial(click.secho, color='red', err=True)
+compact = partial(filter, bool)
+compactv = compose(list, compact)
+mapv = compose(list, map)
 
 
 def strptime(src: str) -> datetime:
@@ -25,3 +35,30 @@ json_dumps = partial(
     indent=4,
     separators=(',', ': '),
 )
+
+
+@contextmanager
+def log_exception(func, args, kwargs):
+    try:
+        yield
+    except Exception as e:
+        error(
+            f'"{func.__name__}" failed with "{e}", '
+            f'called with {args} and {kwargs}'
+        )
+
+
+def silent(func):
+    if iscoroutinefunction(func):
+
+        async def inner(*args, **kwargs):
+            with log_exception(func, args, kwargs):
+                return await func(*args, **kwargs)
+
+    else:
+
+        def inner(*args, **kwargs):
+            with log_exception(func, args, kwargs):
+                return func(*args, **kwargs)
+
+    return update_wrapper(inner, func)
