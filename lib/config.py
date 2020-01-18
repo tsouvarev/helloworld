@@ -4,7 +4,8 @@ from functools import partial
 
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 src_path = partial(abs_path, '../src')
-DIST_DATA = abs_path('../www/data.js')
+www_path = partial(abs_path, '../www')
+DIST_DATA = www_path('data.js')
 
 ORANGEKED = 'orangeked'
 PIK = 'pik'

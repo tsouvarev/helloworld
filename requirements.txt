@@ -8,3 +8,4 @@ isort
 unify
 uwsgi
 pydantic
+fastapi

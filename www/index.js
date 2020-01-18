@@ -85,10 +85,10 @@ function renderTripper(weekendList, eventSource, tagGroups){
         }
     });
 
-    const gantWidth = months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
-    const gantContainer = document.querySelector('.gant__container');
-    gantContainer.style.height = gantContainer.scrollHeight + 'px';
-    gantContainer.style.width = gantWidth + 'px';
+//    const gantWidth = months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
+//    const gantContainer = document.querySelector('.gant__events');
+//    gantContainer.style.height = gantContainer.scrollHeight + 'px';
+//    gantContainer.style.width = gantWidth + 'px';
 
 //    const canvas = document.createElement('canvas');
 //    canvas.height = 1;

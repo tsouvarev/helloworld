@@ -47,6 +47,7 @@
         </div>
     </header>
     <article class="gant">
+        <div class="gant__container">
         <div class="gant__months">
             <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
                 <div class="gant__month__name">{{ month.name }}</div>
@@ -62,21 +63,20 @@
                 </div>
             </div>
         </div>
-        <div class="gant__container" :style="`background-position: ${bgOffset}px 0`">
-            <div class="gant__events">
-                <a
-                    v-for="event in eventFilter"
-                    class = "gant__event"
-                    target="_blank"
-                    :id="event.id"
-                    :href="`${event.url}`"
-                    :class="`gant__event--${event.vendor} days--w${event.days} gant__event--v${event.voffset}`"
-                    :style="`left:${event.hoffset}px`"
-                >
-                    <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&nbsp;&mdash; {{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
-                    <div class="gant__event__title">{{ event.title }}</div>
-                </a>
-            </div>
+        <div class="gant__events" :style="`background-position: ${bgOffset}px 0`">
+            <a
+                v-for="event in eventFilter"
+                class = "gant__event"
+                target="_blank"
+                :id="event.id"
+                :href="`${event.url}`"
+                :class="`gant__event--${event.vendor} days--w${event.days} gant__event--v${event.voffset}`"
+                :style="`left:${event.hoffset}px`"
+            >
+                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&nbsp;&mdash; {{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
+                <div class="gant__event__title">{{ event.title }}</div>
+            </a>
+        </div>
         </div>
     </article>
     </div>

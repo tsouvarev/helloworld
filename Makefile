@@ -23,3 +23,6 @@ render:
 
 all:
 	python -m lib.cmd all
+
+serve:
+	uvicorn lib.app:app --host 0.0.0.0 --port 80

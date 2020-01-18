@@ -66,24 +66,29 @@ header
 
 .gant
     full()
-    overflow auto
-    position relative
+    overflow-x auto
 
     &__container
-        position relative
-        background-repeat repeat
-        background-image url('./bg.gif')
+        width fit-content
+        height 100%
+        display flex
+        flex-flow column nowrap
 
     &__months
-        top 0
-        z-index 2
+        z-index 100
         width 100%
-        position -webkit-sticky
-        position sticky
         display table
         table-layout fixed
         box-shadow 0 5px 15px 0 rgba(0, 0, 0, .1)
         background-color white
+        flex 0 0 44px
+
+    &__events
+        flex 1
+        overflow-y auto
+        position relative
+        background-repeat repeat
+        background-image url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAABCAQAAAB3LEiGAAAADklEQVR42mP48J9hmAEAlfEB8D0JY6IAAAAASUVORK5CYII=')
 
 
 .gant__month
