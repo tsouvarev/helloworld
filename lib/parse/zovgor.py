@@ -1,7 +1,8 @@
 from datetime import datetime
+from itertools import zip_longest
 
 import httpx
-from funcy import chain, partial
+from funcy import chain, partial, collecting
 from lxml import html
 
 from ..config import EASY, HARD, MIDDLE, ZOVGOR
@@ -21,32 +22,23 @@ async def parse_zovgor():
 
 
 def parse_page(text):
-    tree = html.fromstring(text.encode())
-    titles = chain(
-        tree.xpath('//*[@class="row-a"]/td[1]/a/text()'),
-        tree.xpath('//*[@class="row-b"]/td[1]/a/text()'),
-    )
-    urls = chain(
-        tree.xpath('//*[@class="row-a"]/td[1]/a/@href'),
-        tree.xpath('//*[@class="row-b"]/td[1]/a/@href'),
-    )
-    dates = chain(
-        tree.xpath('//*[@class="row-a"]/td[2]/text()'),
-        tree.xpath('//*[@class="row-b"]/td[2]/text()'),
-    )
-
-    levels = chain(
-        tree.xpath('//*[@class="row-a"]/td[4]/text()'),
-        tree.xpath('//*[@class="row-b"]/td[4]/text()'),
-    )
-
     parse_dt = partial(parse_date, datetime.now().year)
-    data = zip(titles, urls, dates, levels)
-    for title, url, date, level in data:
+    tree = html.fromstring(text.encode())
+    path = f'//*[@id="main"]/table/tbody/tr[position()>1]/'
+    data = zip_longest(
+        tree.xpath(path + 'td[1]/a[1]/text()'),
+        tree.xpath(path + 'td[1]/a[2]/text()'),
+        tree.xpath(path + 'td[1]/a[1]/@href'),
+        tree.xpath(path + 'td[2]/text()'),
+        tree.xpath(path + 'td[4]/text()'),
+        fillvalue='',
+    )
+
+    for title, title2, url, date, level in data:
         start, end = map(parse_dt, date.split('-', 1))
         yield Item(
             vendor=ZOVGOR,
-            title=title,
+            title=title + title2,
             url='https://zovgor.com/' + url,
             level=LEVELS[level],
             start=start,
