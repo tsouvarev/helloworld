@@ -1,9 +1,13 @@
 import asyncio
 from datetime import timedelta
+from functools import partial
+from operator import attrgetter
+
+from funcy import compose
 
 from ..config import CITYESCAPE, NAPRAVLENIE, ORANGEKED, PIK, ZOVGOR, src_path
 from ..models import Item
-from ..utils import compact, filterv, info, json_dumps
+from ..utils import compact, info, json_dumps
 from .cityescape import parse_cityescape
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
@@ -27,12 +31,19 @@ def short_item(item: Item):
     return is_short
 
 
+prepare_items = compose(
+    partial(sorted, key=attrgetter('start')),
+    partial(filter, short_item),
+    compact,
+)
+
+
 async def parse_async(*args: str):
     vendors = args or VENDORS
     for name in vendors:
         with open(src_path(name + '.json'), 'w+') as r:
             info(f'Parsing {name}...')
-            items = filterv(short_item, compact(await VENDORS[name]()))
+            items = prepare_items(await VENDORS[name]())
             info(f'Loaded {len(items)} items from {name}!')
             r.write(json_dumps(items))
 

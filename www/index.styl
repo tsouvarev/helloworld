@@ -25,9 +25,9 @@ body.active
         flex 0 0 270px
 
 .aside
+    display none
     height 100%
     overflow-y auto
-    display flex
     flex-direction column
     border-right 1px solid #eee
 
@@ -213,6 +213,6 @@ body.active
 html, body, article, #app
     height 100vh
 
-@media only screen and (max-width: 600px)
-    aside
-        display none
+@media only screen and (min-width: 800px)
+    .aside
+        display flex
