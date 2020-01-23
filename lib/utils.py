@@ -13,6 +13,7 @@ info = partial(click.secho, color='white', bold=True)
 error = partial(click.secho, color='red', err=True)
 compact = partial(filter, bool)
 compactv = compose(list, compact)
+filterv = compose(list, filter)
 mapv = compose(list, map)
 
 

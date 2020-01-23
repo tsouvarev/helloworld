@@ -13,7 +13,7 @@ RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
 
 
 async def get_page(**kwargs):
-    return await httpx.post(CITYESCAPE_URL, data=kwargs)
+    return await httpx.post(CITYESCAPE_URL, data=kwargs, timeout=20)
 
 
 async def get_event(item: dict) -> dict:

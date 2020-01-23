@@ -31,9 +31,11 @@ class Tag:
 
 class TagGroup:
     tags: Dict[str, Tag]
+    title: str
 
-    def __init__(self, *tags: Tag):
+    def __init__(self, *tags: Tag, title=''):
         self.tags = {t.slug: t for t in tags}
+        self.title = title
 
     def __getitem__(self, item: str):
         return self.tags[item]
@@ -44,6 +46,7 @@ class TagGroup:
     def for_json(self):
         tags = self.tags.values()
         return {
+            'title': self.title,
             'tags': tags,
             'bits': reduce_bits(tags),
         }
@@ -67,18 +70,20 @@ LEVELS_TAGS = TagGroup(
     Tag(slug='level_3', text='средней сложности'),
     Tag(slug='level_4', text='сложно'),
     Tag(slug='level_5', text='очень сложно'),
+    title='Сложность',
 )
 
 MONTHS_NAMES = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
 MONTHS = TagGroup(
-    *(Tag(slug=f'month_{m}', text=MONTHS_NAMES[m - 1]) for m in range(1, 13))
+    *(Tag(slug=f'month_{m}', text=MONTHS_NAMES[m - 1]) for m in range(1, 13)),
+    title='Месяц',
 )
 
 TAGS = (
     VENDORS,
     LEVELS_TAGS,
-    TagGroup(SHORT, LONG),
     TagGroup(KIDS),
+    TagGroup(SHORT, LONG, title='Продолжительность'),
     MONTHS,
 )
 

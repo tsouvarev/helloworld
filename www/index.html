@@ -32,22 +32,28 @@
 <body>
     <div id="blocker"><div class="before">загружаюсь…</div></div>
     <div id="app" style="">
-    <header>
-        <div class="icon">⛰️</div>
-        <h1 class="title title--xxxl">hello world <sup>{{ eventFilter.length }}</sup></h1>
-        <div class="tags">
-            <div class="tags__offset">
-                <template v-for="group in tags">
-                    <label v-for="tag in group.tags" class="tags__tag" :for="tag.slug" :class="[{active: tag.active}, tag.slug]" :title="tag.title || tag.text">
-                        <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="selectedTags">
-                        <div class="tags__tag__inner">{{ tag.text }}</div>
-                    </label>
-                </template>
+    <aside class="aside">
+        <div class="aside__content">
+            <h1 class="title title--xxxl">
+                🏕️&nbsp;{{ eventFilter.length }}
+            </h1>
+            <div class="tags">
+                <div class="tags__offset">
+                    <template v-for="group in tags">
+                        <div v-if="group.title" class="tags__title">{{ group.title }}</div>
+                        <label v-for="tag in group.tags" class="tags__tag" :for="tag.slug" :class="[{active: tag.active}, tag.slug]" :title="tag.title || tag.text">
+                            <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="selectedTags">
+                            <div class="tags__tag__inner">{{ tag.text }}</div>
+                        </label>
+                    </template>
+                </div>
             </div>
         </div>
-    </header>
+        <div class="aside__footer">
+            <a target="_blank" href="https://github.com/tsouvarev/helloworld">Github</a>
+        </div>
+    </aside>
     <article class="gant">
-        <div class="gant__container">
         <div class="gant__months">
             <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
                 <div class="gant__month__name">{{ month.name }}</div>
@@ -63,28 +69,26 @@
                 </div>
             </div>
         </div>
-        <div class="gant__events" :style="`background-position: ${bgOffset}px 0`">
+        <div class="gant__events" :style="`background-image:url(${bgUrl});width:${width}px;height:${height}px`">
             <a
                 v-for="event in eventFilter"
-                class = "gant__event"
-                target="_blank"
                 :id="event.id"
-                :href="`${event.url}`"
-                :class="`gant__event--${event.vendor} days--w${event.days} gant__event--v${event.voffset}`"
-                :style="`left:${event.hoffset}px`"
+                :class="`gant__event gant__event--${event.vendor}`"
+                :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
+                target="_blank"
+                :href="event.url"
             >
                 <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&nbsp;&mdash; {{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
                 <div class="gant__event__title">{{ event.title }}</div>
             </a>
-        </div>
         </div>
     </article>
     </div>
 </body>
 <link rel="stylesheet" href="./tent.min.css">
 <link rel="stylesheet" href="./index.css">
-<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./data.js"></script>
 <script src="./index.js"></script>

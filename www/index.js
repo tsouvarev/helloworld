@@ -1,5 +1,6 @@
 const dateFormat = 'DD.MM.YYYY',
-      dayWidth = 15,
+      dayWidth = 25,
+      eventHeight = 65,
       monthNames = [
         'Январь',
         'Февраль',
@@ -19,19 +20,18 @@ const dateFormat = 'DD.MM.YYYY',
 function renderTripper(weekendList, eventSource, tagGroups){
     // Calendar first month
     const now = moment(),
-          eventList = getEvents(now, eventSource),
-          firstMonth = monthBeginning(eventList[0].start),
-          lastMonth = getLastMonth(eventList),
-          months = getMonths(now, firstMonth, lastMonth, weekendList)
+          eventList = getEvents(now, eventSource)
     ;
 
     const app = new Vue({
         el: '#app',
         data: {
-            bgOffset: (firstMonth.isoWeekday() + 2) * dayWidth,
-            months: months,
+            width: 0,
+            height: 0,
+            bgUrl: '',
             tags: tagGroups,
             selectedTags: [],
+            months: [],
         },
         filters: {
             pluralize: function(value, one, two, three){
@@ -80,31 +80,34 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 }
 
                 events = masonry(events);
+
+                let firstMonth = monthBeginning(events[0].start);
+                let lastMonth = monthBeginning(events.reduce((r, e) => r < e.end ? e.end : r, firstMonth));
+
+                this.months = getMonths(now, firstMonth, lastMonth, weekendList);
+                this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
+                this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
+
+                const canvas = document.createElement('canvas');
+                canvas.height = 1;
+                canvas.width = this.width;
+                const ctx = canvas.getContext("2d");
+
+                let z = 0;
+                for (let x = 0; x < this.months.length; x++){
+                    const m = this.months[x];
+                    for (let y = 0; y < m.days.length; y++){
+                        ctx.fillStyle = m.days[y].is_weekend ? '#fafafa' : '#fff';
+                        ctx.fillRect(z * dayWidth, 0, dayWidth, 1);
+                        z++
+                    }
+                }
+
+                this.bgUrl = canvas.toDataURL("image/png");
                 return events;
             }
         }
     });
-
-//    const gantWidth = months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
-//    const gantContainer = document.querySelector('.gant__events');
-//    gantContainer.style.height = gantContainer.scrollHeight + 'px';
-//    gantContainer.style.width = gantWidth + 'px';
-
-//    const canvas = document.createElement('canvas');
-//    canvas.height = 1;
-//    canvas.width = gantWidth;
-//    const ctx = canvas.getContext("2d");
-//
-//    let z = 0;
-//    for (let x = 0; x < months.length; x++){
-//        const m = months[x];
-//        for (let y = 0; y < m.days.length; y++){
-//            ctx.fillStyle = m.days[y].is_weekend ? '#fff7f7' : 'white';
-//            ctx.fillRect(z * dayWidth, 0, dayWidth, 1);
-//            z++
-//        }
-//    }
-//    gantContainer.style.backgroundImage = 'url(' + canvas.toDataURL("image/png") + ')'
 }
 
 
@@ -112,18 +115,6 @@ function monthBeginning(date) {
     let beginning = date.clone();
     beginning.startOf('month');
     return beginning;
-}
-
-function getLastMonth(eventList) {
-    // Founds last available month from eventList
-    let lastMonth = eventList[eventList.length - 1].end;
-    for (let i = 0; i < eventList.length; i++) {
-        let event = eventList[i];
-        if (event.end > lastMonth) {
-            lastMonth = event.end;
-        }
-    }
-    return monthBeginning(lastMonth);
 }
 
 function getEvents(firstMonth, eventSource, tagGroups) {
@@ -139,15 +130,17 @@ function getEvents(firstMonth, eventSource, tagGroups) {
             continue;
         }
 
+        const days = end.diff(start, 'days') + 1;
         event = Object.assign(source, {
                id: 'gant__event--' + i,
             index: i,
             start: start,
               end: end,
             level: source.level,
-             days: end.diff(start, 'days') + 1,
-           hoffset: (start.diff(firstMonth, 'days') + firstMonth.date() - 1) * dayWidth,
-           voffset: 0,
+             days: days,
+          hoffset: 0,
+          voffset: 0,
+            width: days * dayWidth,
         });
 
         eventList.push(event);
@@ -209,18 +202,23 @@ function getMonths(now, firstMonth, lastMonth, weekendList){
 
 function masonry(eventList){
     let events = [],
-        seen = [];
+        seen = [],
+        startDate = monthBeginning(eventList[0].start)
+    ;
+
     for (let i = 0; i < eventList.length; i++) {
         let event = Object.assign({}, eventList[i]);
+        event.hoffset = event.start.diff(startDate, 'days') * dayWidth;
 
         // Moves event down
         // if row place is already taken.
         let found = false;
         for (let y = 0; y < seen.length; y++) {
             let other = seen[y];
+
             if (other.end < event.start) {
                 seen[y] = event;
-                event.voffset = y;
+                event.voffset = y * eventHeight;
                 found = true;
                 break;
             }
@@ -229,7 +227,7 @@ function masonry(eventList){
         // If row is empty
         // sets event's end as right border
         if (!found){
-            event.voffset = seen.length;
+            event.voffset = seen.length * eventHeight;
             seen.push(event);
         }
         events.push(event)

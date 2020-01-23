@@ -1,5 +1,8 @@
 # hello world
 
+Это календарь для удобного планирования походов, 
+посмотреть можно [здесь](https://tsouvarev.github.io/helloworld/www/).
+
 ## cmd 
 
 load and parse, render data.js, all together 
