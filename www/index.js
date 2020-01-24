@@ -19,8 +19,8 @@ const dateFormat = 'DD.MM.YYYY',
 
 function renderTripper(weekendList, eventSource, tagGroups){
     // Calendar first month
-    const now = moment(),
-          eventList = getEvents(now, eventSource)
+    const today = moment().startOf('day'),
+          eventList = getEvents(today, eventSource)
     ;
 
     const app = new Vue({
@@ -49,9 +49,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     events = eventList
                 ;
 
-                let find = this.applySearch.toLowerCase();
                 if (this.applySearch){
-                    events = events.filter((e) => e.title.toLowerCase().indexOf(find) != -1);
+                    let find = this.applySearch.toLowerCase();
+                    events = events.filter((e) => e.search.indexOf(find) != -1);
                 }
 
                 let applyTags = 0;
@@ -87,7 +87,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 let firstMonth = monthBeginning(events[0].start);
                 let lastMonth = monthBeginning(events.reduce((r, e) => r < e.end ? e.end : r, firstMonth));
 
-                this.months = getMonths(now, firstMonth, lastMonth, weekendList);
+                this.months = getMonths(today, firstMonth, lastMonth, weekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
                 this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
 
@@ -144,6 +144,7 @@ function getEvents(firstMonth, eventSource, tagGroups) {
           hoffset: 0,
           voffset: 0,
             width: days * dayWidth,
+           search: source.title.toLowerCase(),
         });
 
         eventList.push(event);
@@ -162,7 +163,7 @@ function getEvents(firstMonth, eventSource, tagGroups) {
     });
 }
 
-function getMonths(now, firstMonth, lastMonth, weekendList){
+function getMonths(today, firstMonth, lastMonth, weekendList){
     let monthList = [];
 
     // Creates months rule
@@ -179,12 +180,12 @@ function getMonths(now, firstMonth, lastMonth, weekendList){
             days.push({
                 date: d,
                 is_weekend: d.isoWeekday() >= 6 || weekendList.indexOf(d.format(dateFormat)) > -1,
-                is_today: d.format(dateFormat) == now.format(dateFormat),
+                is_today: d.format(dateFormat) == today.format(dateFormat),
             });
         }
 
         let name = monthNames[month.month()];
-        if (month.month() == 0 && month.year() > now.year()) {
+        if (month.month() == 0 && month.year() > today.year()) {
             name = name + ' ' + month.year()
         }
 

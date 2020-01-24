@@ -1,9 +1,12 @@
 day = 25px
-orangeked = #FFF3E0
-pik = #edf8ff
-cityescape = #fcefff
-zovgor = #ecf9eb
-napravlenie = #ffeaea
+vendors = {
+    orangeked: #FFF3E0,
+    pik: #edf8ff,
+    cityescape: #fcefff,
+    zovgor: #ecf9eb,
+    napravlenie: #ffeaea,
+    teamtrip: #f3f0f7
+}
 
 *, *:before, *:after
     box-sizing: border-box;
@@ -131,20 +134,9 @@ body.active
     &__dates
         font-weight bold
 
-    &--orangeked
-        background-color orangeked
-
-    &--pik
-        background-color pik
-
-    &--cityescape
-        background-color cityescape
-
-    &--zovgor
-        background-color zovgor
-
-    &--napravlenie
-        background-color napravlenie
+    for key, value in vendors
+        &--{key}
+            background-color value
 
 .days
     for num in (1..100)
@@ -186,20 +178,9 @@ body.active
             &:hover
                 background lighten(@color, 95%)
 
-        &.zovgor &__inner
-            background zovgor
-
-        &.orangeked &__inner
-            background orangeked
-
-        &.pik &__inner
-            background pik
-
-        &.cityescape &__inner
-            background cityescape
-
-        &.napravlenie &__inner
-            background napravlenie
+        for key, value in vendors
+            &.{key} &__inner
+                background value
 
         input
             position absolute

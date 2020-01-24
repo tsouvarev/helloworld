@@ -13,6 +13,7 @@ from ..config import (
     ORANGEKED,
     PIK,
     SHORT_DURATION,
+    TEAMTRIP,
     ZOVGOR,
 )
 
@@ -62,6 +63,7 @@ VENDORS = TagGroup(
     Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
     Tag(slug=ZOVGOR, text='зов гор'),
     Tag(slug=NAPRAVLENIE, text='направление'),
+    Tag(slug=TEAMTRIP, text='team trip'),
 )
 
 LEVELS_TAGS = TagGroup(

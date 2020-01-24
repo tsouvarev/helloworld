@@ -2,7 +2,7 @@ from datetime import datetime
 from itertools import zip_longest
 
 import httpx
-from funcy import chain, collecting, partial
+from funcy import partial
 from lxml import html
 
 from ..config import EASY, HARD, MIDDLE, ZOVGOR
