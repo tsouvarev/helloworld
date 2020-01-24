@@ -30,7 +30,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
             height: 0,
             bgUrl: '',
             tags: tagGroups,
-            selectedTags: [],
+            applyTags: [],
+            applySearch: '',
             months: [],
         },
         filters: {
@@ -48,35 +49,37 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     events = eventList
                 ;
 
-                let selectedTags = 0;
-                this.selectedTags.forEach((b) => selectedTags |= b);
+                let find = this.applySearch.toLowerCase();
+                if (this.applySearch){
+                    events = events.filter((e) => e.title.toLowerCase().indexOf(find) != -1);
+                }
 
-                if (!selectedTags){
-                    this.tags.forEach(function(g){
-                        g.tags.forEach((t) => t.active = true);
-                    });
-                } else {
-                    this.tags.forEach(function(g){
-                        // Collects possible events
-                        let groupEvents = eventList;
-                        self.tags.forEach(function(j){
-                            let bits = selectedTags & j.bits;
-                            if (bits && j.bits != g.bits) {
-                                groupEvents = groupEvents.filter((e) => bits & e.tags)
-                            }
-                        });
-
-                        // Marks active tags
-                        let eventsMask = 0;
-                        groupEvents.forEach((e) => eventsMask |= e.tags);
-                        g.tags.forEach((t) => t.active = eventsMask & t.bit);
-
-                        // Filters gant events
-                        let applyBits = selectedTags & g.bits;
-                        if (applyBits) {
-                            events = events.filter((e) => applyBits & e.tags);
+                let applyTags = 0;
+                this.applyTags.forEach((b) => applyTags |= b);
+                this.tags.forEach(function(g){
+                    // Collects possible events
+                    let groupEvents = events;
+                    self.tags.forEach(function(j){
+                        let bits = applyTags & j.bits;
+                        if (bits && j.bits != g.bits) {
+                            groupEvents = groupEvents.filter((e) => bits & e.tags)
                         }
                     });
+
+                    // Marks active tags
+                    let eventsMask = 0;
+                    groupEvents.forEach((e) => eventsMask |= e.tags);
+                    g.tags.forEach((t) => t.active = eventsMask & t.bit);
+
+                    // Filters gant events
+                    let applyBits = applyTags & g.bits;
+                    if (applyBits) {
+                        events = events.filter((e) => applyBits & e.tags);
+                    }
+                });
+
+                if (!events.length) {
+                    return events;
                 }
 
                 events = masonry(events);
@@ -240,4 +243,4 @@ document.body.classList.add('active');
 setTimeout(function(){
     let blocker = document.getElementById('blocker');
     blocker.parentNode.removeChild(blocker);
-}, 300);
+}, 400);
