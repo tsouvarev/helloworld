@@ -1,13 +1,12 @@
 import re
 from datetime import datetime
-from itertools import zip_longest
 
 import httpx
 from lxml import html
 
 from lib.config import TEAMTRIP
 from lib.models import Item
-from lib.utils import error
+from lib.utils import error, mapv
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -22,15 +21,16 @@ async def parse_teamtrip():
 
 def parse_page(text):
     tree = html.fromstring(text.encode())
-    data = zip_longest(
-        tree.xpath('//*[@class="t404__tag"]/text()'),
-        tree.xpath('//*[@class="t404__title t-heading t-heading_xs"]/text()'),
-        tree.xpath('//*[@class="t404__link"]/@href'),
-        fillvalue='',
+    paths = (
+        '//*[@class="t404__tag"]/text()',
+        '//*[@class="t404__title t-heading t-heading_xs"]/text()',
+        '//*[@class="t404__link"]/@href',
     )
+    data = mapv(tree.xpath, paths)
+    assert len(set(map(len, data))) == 1
 
     now = datetime.now()
-    for dates, title, url in data:
+    for dates, title, url in zip(*data):
         for date in re.sub(r'\,\s+([0-9]{,2}[\s-])', r'/\1', dates).split(
             '/'
         ):

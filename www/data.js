@@ -1346,7 +1346,7 @@ let weekendList = [
         "level": 4,
         "start": "01.05.2020",
         "tags": 263236,
-        "title": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447\u0410\u043b\u0442\u0430\u0439)",
+        "title": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
         "url": "https://zovgor.com/thach.html",
         "vendor": "zovgor"
     },
@@ -1355,7 +1355,7 @@ let weekendList = [
         "level": 8,
         "start": "01.05.2020",
         "tags": 264260,
-        "title": "\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437 \u0410\u043b\u0442\u0430\u0439)",
+        "title": "\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437 ",
         "url": "https://zovgor.com/teberda-arhyz.html",
         "vendor": "zovgor"
     },
@@ -1364,7 +1364,7 @@ let weekendList = [
         "level": 8,
         "start": "01.05.2020",
         "tags": 264260,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438\u0410\u043b\u0442\u0430\u0439)",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
         "url": "https://zovgor.com/pohod-po-severnoi-osetii.html",
         "vendor": "zovgor"
     },
@@ -1373,7 +1373,7 @@ let weekendList = [
         "level": 4,
         "start": "01.05.2020",
         "tags": 263236,
-        "title": "\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)\u0410\u043b\u0442\u0430\u0439)",
+        "title": "\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
         "url": "https://zovgor.com/kodor.html",
         "vendor": "zovgor"
     },
@@ -1670,7 +1670,7 @@ let weekendList = [
         "level": 4,
         "start": "10.05.2020",
         "tags": 263236,
-        "title": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447\u0410\u043b\u0442\u0430\u0439)",
+        "title": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
         "url": "https://zovgor.com/thach.html",
         "vendor": "zovgor"
     },
@@ -2336,7 +2336,7 @@ let weekendList = [
         "level": 8,
         "start": "23.06.2020",
         "tags": 1574980,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
         "url": "https://zovgor.com/pohod_na_altai.html",
         "vendor": "zovgor"
     },
@@ -2705,7 +2705,7 @@ let weekendList = [
         "level": 8,
         "start": "09.07.2020",
         "tags": 1050692,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
         "url": "https://zovgor.com/pohod_na_altai.html",
         "vendor": "zovgor"
     },
@@ -3236,7 +3236,7 @@ let weekendList = [
         "level": 8,
         "start": "25.07.2020",
         "tags": 3147844,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
         "url": "https://zovgor.com/pohod_na_altai.html",
         "vendor": "zovgor"
     },
@@ -4019,7 +4019,7 @@ let weekendList = [
         "level": 8,
         "start": "11.08.2020",
         "tags": 2099268,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
         "url": "https://zovgor.com/pohod_na_altai.html",
         "vendor": "zovgor"
     },
@@ -4343,7 +4343,7 @@ let weekendList = [
         "level": 8,
         "start": "21.08.2020",
         "tags": 6293572,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (",
+        "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
         "url": "https://zovgor.com/pohod_na_altai.html",
         "vendor": "zovgor"
     },
@@ -5392,21 +5392,21 @@ let weekendList = [
         "vendor": "teamtrip"
     },
     {
-        "end": "13.11.2020",
-        "level": 2,
-        "start": "01.11.2020",
-        "tags": 16777748,
-        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
-        "url": "http://orangeked.ru/tours/item/74-vietnam",
-        "vendor": "orangeked"
-    },
-    {
         "end": "12.11.2020",
         "level": 2,
         "start": "01.11.2020",
         "tags": 16777748,
         "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
         "url": "http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
+        "vendor": "orangeked"
+    },
+    {
+        "end": "13.11.2020",
+        "level": 2,
+        "start": "01.11.2020",
+        "tags": 16777748,
+        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
+        "url": "http://orangeked.ru/tours/item/74-vietnam",
         "vendor": "orangeked"
     },
     {

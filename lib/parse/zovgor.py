@@ -1,5 +1,4 @@
 from datetime import datetime
-from itertools import zip_longest
 
 import httpx
 from funcy import partial
@@ -24,21 +23,21 @@ async def parse_zovgor():
 def parse_page(text):
     parse_dt = partial(parse_date, datetime.now().year)
     tree = html.fromstring(text.encode())
-    path = f'//*[@id="main"]/table/tbody/tr[position()>1]/'
-    data = zip_longest(
-        tree.xpath(path + 'td[1]/a[1]/text()'),
-        tree.xpath(path + 'td[1]/a[2]/text()'),
-        tree.xpath(path + 'td[1]/a[1]/@href'),
-        tree.xpath(path + 'td[2]/text()'),
-        tree.xpath(path + 'td[4]/text()'),
-        fillvalue='',
+    path = '//*[@id="main"]/table/tbody/tr[position()>1]/'
+    tails = (
+        'td[1]',
+        'td[1]/a[1]/@href',
+        'td[2]/text()',
+        'td[4]/text()',
     )
+    data = [tree.xpath(path + t) for t in tails]
+    assert len(set(map(len, data))) == 1
 
-    for title, title2, url, date, level in data:
+    for title, url, date, level in zip(*data):
         start, end = map(parse_dt, date.split('-', 1))
         yield Item(
             vendor=ZOVGOR,
-            title=title + title2,
+            title=title.text_content(),
             url='https://zovgor.com/' + url,
             level=LEVELS[level],
             start=start,
