@@ -85,7 +85,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 events = masonry(events);
 
                 let firstMonth = events[0].start.clone();
-                let lastMonth = monthBeginning(events.reduce((r, e) => r < e.end ? e.end : r, firstMonth));
+                let lastMonth = events.reduce((r, e) => r < e.end ? e.end : r, firstMonth);
 
                 this.months = getMonths(today, firstMonth, lastMonth, weekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
@@ -111,13 +111,6 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         }
     });
-}
-
-
-function monthBeginning(date) {
-    let beginning = date.clone();
-    beginning.startOf('month');
-    return beginning;
 }
 
 function getEvents(eventSource, tagGroups) {
@@ -172,7 +165,7 @@ function getMonths(today, firstMonth, lastMonth, weekendList){
             let d = moment(month);
             d.date(y + 1)
 
-            if (d < firstMonth) {
+            if (d < firstMonth || d > lastMonth) {
                 continue
             }
 
