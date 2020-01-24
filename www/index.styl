@@ -67,7 +67,24 @@ body.active
     &__events
         min-height calc(100% - 44px)
         position relative
-        background-repeat repeat
+
+    &__stripes
+        position absolute
+        display table
+        table-layout fixed
+        top 0
+        left 0
+        height 100%
+        width 100%
+        z-index -1
+
+
+.gant__stripe
+    display table-cell
+
+    &--is_weekend
+        background #fafafa
+
 
 .gant__month
     display inline-block
@@ -120,10 +137,10 @@ body.active
     min-height @max-height
     overflow hidden
     cursor pointer
-    transition box-shadow .2s
+    transition box-shadow .2s, border-width .2s
 
     &:hover
-        background-clip initial
+        border-width 0
         max-height 300px
         min-width 200px
         box-shadow 0 10px 20px 0px rgba(0,0,0,.3)

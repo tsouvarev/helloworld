@@ -28,11 +28,11 @@ function renderTripper(weekendList, eventSource, tagGroups){
         data: {
             width: 0,
             height: 0,
-            bgUrl: '',
             tags: tagGroups,
             applyTags: [],
             applySearch: '',
             months: [],
+            stripes: [],
         },
         filters: {
             pluralize: function(value, one, two, three){
@@ -91,22 +91,22 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
                 this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
 
-                const canvas = document.createElement('canvas');
-                canvas.height = 1;
-                canvas.width = this.width;
-                const ctx = canvas.getContext("2d");
-
-                let z = 0;
-                for (let x = 0; x < this.months.length; x++){
-                    const m = this.months[x];
-                    for (let y = 0; y < m.days.length; y++){
-                        ctx.fillStyle = m.days[y].is_weekend ? '#fafafa' : '#fff';
-                        ctx.fillRect(z * dayWidth, 0, dayWidth, 1);
-                        z++
-                    }
-                }
-
-                this.bgUrl = canvas.toDataURL("image/png");
+                // Renders background weekend stripes
+                let strip_i = 0;
+                this.stripes = []
+                this.months.map(function(month){
+                    month.days.map(function(day){
+                        if (strip_i && self.stripes[strip_i - 1].is_weekend === day.is_weekend){
+                            self.stripes[strip_i - 1].width += dayWidth;
+                        } else {
+                            self.stripes.push({
+                                is_weekend: day.is_weekend,
+                                width: dayWidth,
+                            })
+                            strip_i++;
+                        }
+                    });
+                });
                 return events;
             }
         }

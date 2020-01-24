@@ -80,7 +80,14 @@
                 </div>
             </div>
         </div>
-        <div class="gant__events" :style="`background-image:url(${bgUrl});width:${width}px;height:${height}px`">
+        <div class="gant__events" :style="`width:${width}px;height:${height}px`">
+            <div class="gant__stripes">
+                <div v-for="stripe in stripes"
+                     class="gant__stripe"
+                     :class="{ 'gant__stripe--is_weekend': stripe.is_weekend }"
+                     :style="{ width: stripe.width + 'px'}"
+                ></div>
+            </div>
             <a
                 v-for="event in eventFilter"
                 :id="event.id"
