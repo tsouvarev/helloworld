@@ -787,7 +787,7 @@ let weekendList = [
         "end": "28.03.2020",
         "level": 8,
         "start": "21.03.2020",
-        "tags": 67844,
+        "tags": 67845,
         "title": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438 \u0441\u043b\u043e\u043d\u044b",
         "url": "https://team-trip.ru/srilankacamp",
         "vendor": "teamtrip"
@@ -841,7 +841,7 @@ let weekendList = [
         "end": "04.04.2020",
         "level": 8,
         "start": "28.03.2020",
-        "tags": 198916,
+        "tags": 198917,
         "title": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438 \u0441\u043b\u043e\u043d\u044b",
         "url": "https://team-trip.ru/srilankacamp",
         "vendor": "teamtrip"
