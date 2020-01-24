@@ -28,15 +28,6 @@ let weekendList = [
     "04.11.2021"
 ], eventSource = [
     {
-        "end": "26.01.2020",
-        "level": 4,
-        "start": "24.01.2020",
-        "tags": 8714,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u0434\u043b\u044f \u043e\u0434\u0438\u043d\u043e\u043a\u0438\u0445 \u0441\u0435\u0440\u0434\u0435\u0446",
-        "url": "https://turclub-pik.ru/pohod/pokhod-dlya-odinokikh-serdec/1867/",
-        "vendor": "pik"
-    },
-    {
         "end": "25.01.2020",
         "level": 8,
         "start": "25.01.2020",

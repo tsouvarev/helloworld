@@ -4,9 +4,17 @@
     <title>hello world</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
+        html, body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
         body {
             transition: transform .3s ease-out;
             transform: scale(.9);
+        }
+        #app {
+            position: absolute;
         }
         #blocker {
             width: 100%;
@@ -22,6 +30,7 @@
         }
         #blocker .before {
             font-family: "Helvetica Neue",sans-serif;
+            line-height: 1;
             display: block;
             margin: auto;
             font-size: 80px;
@@ -89,8 +98,8 @@
 </body>
 <link rel="stylesheet" href="./tent.min.css">
 <link rel="stylesheet" href="./index.css">
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./data.js"></script>
 <script src="./index.js"></script>
