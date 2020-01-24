@@ -27,6 +27,7 @@ body.active
     .aside
         flex 0 0 270px
 
+
 .aside
     display none
     height 100%
@@ -37,12 +38,13 @@ body.active
     z-index 3
 
     &__content
-        padding 20px
+        padding 0 20px
 
-        .title
-            margin 20px 0 30px !important
+        .tags, .search, .title
+            margin 30px 0 !important
 
     &__footer
+        font-size 14px
         margin-top auto
         padding 15px 20px
         border-top 1px solid #eee
@@ -208,24 +210,22 @@ body.active
                 color white
 
 
-.search
-    margin-top 30px
+input.search__input
+    margin 0
+    border none
+    border-radius 8px
+    width 100%
+    padding 10px 10px 10px 35px
+    background-color #f5f5f5
+    background-image url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAACD0lEQVR42u2XO2gUURSGZzcb0ASsojHgIxgJYhUEC0EQREihWFnoKtFaIVqphToWSeNudv7z3/UxWEQLCUkhiI0WKghpFBRUhA26DIiVERfU7IrjHhsLo8lm7uxqofNPeQ/nu+eeF+M4iRL9G5KVZo85zrNyCofNlqm2Frr22znEaerPH2bFSF9rbr4DJSpf8gy257vcjN9h+k2WE6whlILf0ZRzTfE06nxl9mrq17NCD66gzufF9U0AOELlRK5zsXMziArfYF1c90eovOqmG9l4A6jg2djyGO4vruUn3l+6WswgVfJxknudc15vpEh9hIUNlu4LPQjpRbVljbS9/wmq6Y+crUm+a5yr3wG3UbIoh0NUb8AKgEBuWAA2UTlkB6jiQnTrXCeVJ+164BtHrKaVyjk7wAcWLeLtpnLY7oke457NQKRyt10VGXweXxbZ+jzq+S67J9pFxf5otm6aM3ho2WhTbZzhk2jNI/uoctB6FpkslUcjuF+BQF64mTjL5i6q2LpkpDcRmm2x9gG6UcZsI4TfzmvWBTov/D6UUZVjC+eiuJHTVFSiDfVFdGmV3KHyqcnO31qyWQxr+Ii3VARNITTFAyhROScP5LKMMsdJvqbyK8ZljdeLoGmE47hp7hTwEd8j5BcEcovDxdU/tnJrEA0Xf4L4DxHlGJPJAlFG6Q8CHMfNtPTnJFGiv6XvYLshbxzX5ncAAAAASUVORK5CYII=")
+    background-repeat no-repeat
+    background-position 5px center
+    background-size 24px
+    font-size 14px
 
-    input
-        margin 0
-        border none
-        border-radius 8px
-        width 100%
-        padding 10px 10px 10px 35px
-        background-color #f5f5f5
-        background-image url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAACD0lEQVR42u2XO2gUURSGZzcb0ASsojHgIxgJYhUEC0EQREihWFnoKtFaIVqphToWSeNudv7z3/UxWEQLCUkhiI0WKghpFBRUhA26DIiVERfU7IrjHhsLo8lm7uxqofNPeQ/nu+eeF+M4iRL9G5KVZo85zrNyCofNlqm2Frr22znEaerPH2bFSF9rbr4DJSpf8gy257vcjN9h+k2WE6whlILf0ZRzTfE06nxl9mrq17NCD66gzufF9U0AOELlRK5zsXMziArfYF1c90eovOqmG9l4A6jg2djyGO4vruUn3l+6WswgVfJxknudc15vpEh9hIUNlu4LPQjpRbVljbS9/wmq6Y+crUm+a5yr3wG3UbIoh0NUb8AKgEBuWAA2UTlkB6jiQnTrXCeVJ+164BtHrKaVyjk7wAcWLeLtpnLY7oke457NQKRyt10VGXweXxbZ+jzq+S67J9pFxf5otm6aM3ho2WhTbZzhk2jNI/uoctB6FpkslUcjuF+BQF64mTjL5i6q2LpkpDcRmm2x9gG6UcZsI4TfzmvWBTov/D6UUZVjC+eiuJHTVFSiDfVFdGmV3KHyqcnO31qyWQxr+Ii3VARNITTFAyhROScP5LKMMsdJvqbyK8ZljdeLoGmE47hp7hTwEd8j5BcEcovDxdU/tnJrEA0Xf4L4DxHlGJPJAlFG6Q8CHMfNtPTnJFGiv6XvYLshbxzX5ncAAAAASUVORK5CYII=")
-        background-repeat no-repeat
-        background-position 5px center
-        background-size 24px
-
-        &:focus
-            outline none
-            color #000
+    &:focus
+        outline none
+        color #000
 
 
 html, body, article, #app, .gant

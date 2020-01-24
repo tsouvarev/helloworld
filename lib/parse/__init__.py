@@ -25,7 +25,6 @@ from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
 
 NOW = datetime.now()
-THIS_MONTH = NOW.replace(day=1)
 TOO_LONG = timedelta(days=30)
 TOO_FAR = NOW + timedelta(days=365)
 VENDORS = {
@@ -43,7 +42,7 @@ def is_valid(item: Optional[Item]):
         # Failed to parse and silented
         return False
 
-    if item.start < THIS_MONTH:
+    if item.end < NOW:
         info(f'Skip already started "{item.url}"')
         return False
 

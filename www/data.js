@@ -28,51 +28,6 @@ let weekendList = [
     "04.11.2021"
 ], eventSource = [
     {
-        "end": "08.01.2020",
-        "level": 8,
-        "start": "05.01.2020",
-        "tags": 18690,
-        "title": "\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432 \u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
-        "url": "https://team-trip.ru/teriberka",
-        "vendor": "teamtrip"
-    },
-    {
-        "end": "08.01.2020",
-        "level": 8,
-        "start": "05.01.2020",
-        "tags": 18690,
-        "title": "\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432 \u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
-        "url": "https://team-trip.ru/teriberka2021",
-        "vendor": "teamtrip"
-    },
-    {
-        "end": "18.01.2020",
-        "level": 8,
-        "start": "10.01.2020",
-        "tags": 18692,
-        "title": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u0434\u0438\u043a\u0430\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u0430 \u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u044e\u0433\u0430",
-        "url": "https://team-trip.ru/namibia",
-        "vendor": "teamtrip"
-    },
-    {
-        "end": "25.01.2020",
-        "level": 8,
-        "start": "19.01.2020",
-        "tags": 18692,
-        "title": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f: \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0432\u0443\u043b\u043a\u0430\u043d \u042d\u0440\u0442\u0430 \u0410\u043b\u0435 \u0438 \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435 \u043d\u0438\u0437\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0414\u0430\u043b\u043b\u043e\u043b",
-        "url": "https://team-trip.ru/ethiopia",
-        "vendor": "teamtrip"
-    },
-    {
-        "end": "25.01.2020",
-        "level": 8,
-        "start": "25.01.2020",
-        "tags": 18466,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u0432 \u0414\u0435\u0432\u044f\u0442\u043e\u0432\u0441\u043a\u0443\u044e \u043a\u0430\u043c\u0435\u043d\u043e\u043b\u043e\u043c\u043d\u044e",
-        "url": "https://cityescape.ru/silikaty/",
-        "vendor": "cityescape"
-    },
-    {
         "end": "26.01.2020",
         "level": 8,
         "start": "25.01.2020",
@@ -80,24 +35,6 @@ let weekendList = [
         "title": "\u0428\u043a\u043e\u043b\u0430 \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c\u0430",
         "url": "https://cityescape.ru/rock-climbing/",
         "vendor": "cityescape"
-    },
-    {
-        "end": "25.01.2020",
-        "level": 8,
-        "start": "25.01.2020",
-        "tags": 18466,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \"\u041c\u0430\u0448\u0438\u043d\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438, \u0438\u043b\u0438 \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0432 18 \u0432\u0435\u043a\"",
-        "url": "https://cityescape.ru/poxod-mashina-vremeni-ili-progulka-v-xviii-vek/",
-        "vendor": "cityescape"
-    },
-    {
-        "end": "30.01.2020",
-        "level": 8,
-        "start": "25.01.2020",
-        "tags": 18500,
-        "title": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "url": "https://zovgor.com/krym-nalegke.html",
-        "vendor": "zovgor"
     },
     {
         "end": "07.02.2020",

@@ -20,7 +20,7 @@ const dateFormat = 'DD.MM.YYYY',
 function renderTripper(weekendList, eventSource, tagGroups){
     // Calendar first month
     const today = moment().startOf('day'),
-          eventList = getEvents(today, eventSource)
+          eventList = getEvents(eventSource)
     ;
 
     const app = new Vue({
@@ -84,7 +84,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
 
                 events = masonry(events);
 
-                let firstMonth = monthBeginning(events[0].start);
+                let firstMonth = events[0].start.clone();
                 let lastMonth = monthBeginning(events.reduce((r, e) => r < e.end ? e.end : r, firstMonth));
 
                 this.months = getMonths(today, firstMonth, lastMonth, weekendList);
@@ -120,19 +120,13 @@ function monthBeginning(date) {
     return beginning;
 }
 
-function getEvents(firstMonth, eventSource, tagGroups) {
+function getEvents(eventSource, tagGroups) {
     let eventList = [];
 
     for (let i = 0; i < eventSource.length; i++){
         let source = eventSource[i];
         start = moment(source.start, dateFormat);
         end = moment(source.end, dateFormat);
-
-        // Skips old events
-        if (end < firstMonth) {
-            continue;
-        }
-
         const days = end.diff(start, 'days') + 1;
         event = Object.assign(source, {
                id: 'gant__event--' + i,
@@ -177,6 +171,11 @@ function getMonths(today, firstMonth, lastMonth, weekendList){
         for (let y = 0; y < total; y++){
             let d = moment(month);
             d.date(y + 1)
+
+            if (d < firstMonth) {
+                continue
+            }
+
             days.push({
                 date: d,
                 is_weekend: d.isoWeekday() >= 6 || weekendList.indexOf(d.format(dateFormat)) > -1,
@@ -207,11 +206,11 @@ function getMonths(today, firstMonth, lastMonth, weekendList){
 function masonry(eventList){
     let events = [],
         seen = [],
-        startDate = monthBeginning(eventList[0].start)
+        startDate = eventList[0].start
     ;
 
     for (let i = 0; i < eventList.length; i++) {
-        let event = Object.assign({}, eventList[i]);
+        let event = eventList[i];
         event.hoffset = event.start.diff(startDate, 'days') * dayWidth;
 
         // Moves event down
