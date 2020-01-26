@@ -1,6 +1,6 @@
 import pytest
 
-from lib.render.tags import normalize
+from lib.utils import normalize
 
 
 @pytest.mark.parametrize('source, expected', (
