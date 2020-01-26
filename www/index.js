@@ -51,7 +51,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
 
                 if (this.applySearch){
                     let find = this.applySearch.toLowerCase();
-                    events = events.filter((e) => e.search.indexOf(find) != -1);
+                    events = events.filter((e) => e.norm.indexOf(find) != -1);
                 }
 
                 let applyTags = 0;
@@ -84,10 +84,10 @@ function renderTripper(weekendList, eventSource, tagGroups){
 
                 events = masonry(events);
 
-                let firstMonth = events[0].start.clone();
-                let lastMonth = events.reduce((r, e) => r < e.end ? e.end : r, firstMonth);
+                let firstDate = events[0].start.clone();
+                let lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate);
 
-                this.months = getMonths(today, firstMonth, lastMonth, weekendList);
+                this.months = getMonths(today, firstDate, lastDate, weekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
                 this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
 
@@ -131,7 +131,6 @@ function getEvents(eventSource, tagGroups) {
           hoffset: 0,
           voffset: 0,
             width: days * dayWidth,
-           search: source.title.toLowerCase(),
         });
 
         eventList.push(event);
@@ -150,13 +149,13 @@ function getEvents(eventSource, tagGroups) {
     });
 }
 
-function getMonths(today, firstMonth, lastMonth, weekendList){
+function getMonths(today, firstDate, lastDate, weekendList){
     let monthList = [];
 
     // Creates months rule
-    const monthLen = lastMonth.diff(firstMonth, 'months');
-    for (let i = 0; ; i++) {
-        let month = moment(firstMonth),
+    const monthLen = lastDate.clone().startOf('month').diff(firstDate.clone().startOf('month'), 'months');
+    for (let i = 0; i <= monthLen; i++) {
+        let month = moment(firstDate),
             days = [];
         month.add(i, 'month');
 
@@ -165,7 +164,7 @@ function getMonths(today, firstMonth, lastMonth, weekendList){
             let d = moment(month);
             d.date(y + 1)
 
-            if (d < firstMonth || d > lastMonth) {
+            if (d < firstDate || d > lastDate) {
                 continue
             }
 
@@ -185,12 +184,6 @@ function getMonths(today, firstMonth, lastMonth, weekendList){
             name: name,
             days: days,
         });
-
-        // Fixme: validate corner cases
-        // May come infinite loop
-        if (month >= lastMonth) {
-            break;
-        }
     }
 
     return monthList;

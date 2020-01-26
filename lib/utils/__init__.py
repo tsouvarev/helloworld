@@ -7,13 +7,13 @@ import click
 import simplejson
 from funcy import compose
 
-from .config import DATE_FORMAT
+from ..config import DATE_FORMAT
+from .text import normalize  # noqa
 
 info = partial(click.secho, color='white', bold=True)
 error = partial(click.secho, color='red', err=True)
-compact = partial(filter, bool)
-compactv = compose(list, compact)
 filterv = compose(list, filter)
+compactv = partial(filterv, bool)
 mapv = compose(list, map)
 
 
@@ -63,3 +63,7 @@ def silent(func):
                 return func(*args, **kwargs)
 
     return update_wrapper(inner, func)
+
+
+def sorter(func):
+    return partial(sorted, key=func)

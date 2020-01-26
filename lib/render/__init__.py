@@ -1,26 +1,49 @@
 import json
-from functools import partial
+from datetime import datetime, timedelta
 from operator import itemgetter
 
-from funcy import post_processing
+from funcy import first
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
-from ..utils import info, json_dumps, strptime
+from ..utils import info, json_dumps, normalize, sorter, strptime
 from .tags import TAGS, get_tags
 
-sort_data = partial(sorted, key=itemgetter('start'))
+NOW = datetime.now()
+TOO_LONG = timedelta(days=30)
+TOO_FAR = NOW + timedelta(days=365)
 JS_TEMPLATE = 'let weekendList = {}, eventSource = {}; tagGroups = {}'
+sort_items = sorter(itemgetter('start'))
+
+
+def pre_filter(item: dict):
+    if item['end'] > TOO_FAR:
+        info('Skip too far "{url}"'.format_map(item))
+        return False
+
+    is_long = item['end'] - item['start'] >= TOO_LONG
+    if is_long:
+        info('Skip too long "{url}"'.format_map(item))
+        return False
+    return True
+
+
+def post_filter(now, item: dict):
+    if item['start'] < now:
+        info('Skip already started "{url}"'.format_map(item))
+        return False
+    return True
 
 
 def parse_item(item: dict):
     item.update(
-        start=strptime(item['start']), end=strptime(item['end']),
+        start=strptime(item['start']),
+        end=strptime(item['end']),
+        norm=normalize(item['title']),
     )
-    item['tags'] = get_tags(item)
+    item.update(tags=get_tags(item))
     return item
 
 
-@post_processing(sort_data)
 def get_source():
     for v in VENDORS:
         with open(src_path(v + '.json'), 'r') as f:
@@ -34,7 +57,15 @@ def render():
 
     info('Rendering...')
     with open(DIST_DATA, 'w+') as f:
+        # - sorts and drops long items
+        # - find earliest active
+        # - filters items from earliest to make it pretty
+        items = sort_items(filter(pre_filter, get_source()))
+        earliest = first(x['start'] for x in items if x['end'] > NOW)
+        filtered = json_dumps(x for x in items if post_filter(earliest, x))
+
+        # Writes data.js
         template = JS_TEMPLATE.format(
-            json_dumps(WEEKENDS), json_dumps(get_source()), json_dumps(TAGS),
+            json_dumps(WEEKENDS), filtered, json_dumps(TAGS),
         )
         f.write(template)

@@ -98,25 +98,7 @@ def reduce_bits(tags):
     return result
 
 
-EN_RU = str.maketrans(
-    {
-        'e': 'е',
-        'y': 'у',
-        'o': 'о',
-        'p': 'р',
-        'a': 'а',
-        'h': 'н',
-        'k': 'к',
-        'x': 'х',
-        'c': 'с',
-        'b': 'в',
-        'm': 'м',
-    }
-)
-
-
-def to_ru(string: str):
-    return string.lower().translate(EN_RU)
+RE_KIDS = re.compile(r'(семьи|семей|\([0-9]+\+\))', re.I).findall
 
 
 @post_processing(reduce_bits)
@@ -128,7 +110,7 @@ def get_tags(src: dict):
             yield tag
 
     # fixme: kids tag duck style
-    if re.findall(r'(семей|\([0-9]+\+\))', to_ru(src['title']), re.I):
+    if RE_KIDS(src['norm']):
         yield KIDS
 
     # duration
