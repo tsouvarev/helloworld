@@ -152,15 +152,11 @@ body.active
 
     &__dates
         font-weight bold
+        font-size 10px
 
     for key, value in vendors
         &--{key}
             background-color value
-
-.days
-    for num in (1..100)
-        &--w{num}
-            width num * day
 
 .tags
     overflow hidden

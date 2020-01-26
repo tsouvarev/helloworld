@@ -1,12 +1,11 @@
-import asyncio
 import re
 from datetime import datetime, timedelta
 
 import httpx
-from funcy import chain, chunks
 
 from ..config import CITYESCAPE
 from ..models import Item
+from ..utils import gather_chunks, silent
 
 CITYESCAPE_URL = 'https://cityescape.ru/wp-admin/admin-ajax.php'
 RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
@@ -14,11 +13,6 @@ RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
 
 async def get_page(**kwargs):
     return await httpx.post(CITYESCAPE_URL, data=kwargs, timeout=20)
-
-
-async def get_event(item: dict) -> dict:
-    resp = await get_page(action='get_event', id=item['id'])
-    return resp.json()
 
 
 async def parse_cityescape():
@@ -30,17 +24,17 @@ async def parse_cityescape():
         end=int(end.timestamp()),
     )
 
-    items = []
-    for chunk in chunks(5, resp.json()):
-        items = chain(items, await asyncio.gather(*map(get_event, chunk)))
-    return map(parse_item, items)
+    return await gather_chunks(5, *map(parse_page, resp.json()))
 
 
-def parse_item(item: dict) -> Item:
+@silent
+async def parse_page(item: dict) -> Item:
+    resp = await get_page(action='get_event', id=item['id'])
+    data = resp.json()
     return Item(
         vendor=CITYESCAPE,
-        start=datetime.strptime(item['start'], '%m/%d/%Y %M:%H:%S'),
-        end=datetime.strptime(item['end'], '%m/%d/%Y %M:%H:%S'),
-        title=item['title'],
-        url=RE_URL(item['content'])[0][1],
+        start=datetime.strptime(data['start'], '%m/%d/%Y %M:%H:%S'),
+        end=datetime.strptime(data['end'], '%m/%d/%Y %M:%H:%S'),
+        title=data['title'],
+        url=RE_URL(data['content'])[0][1],
     )

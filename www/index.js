@@ -224,7 +224,10 @@ function masonry(eventList){
     return events
 }
 
-renderTripper(weekendList, eventSource, tagGroups);
+// Init
+renderTripper(DATA.weekendList, DATA.eventSource, DATA.tagGroups);
+
+// Displays gant and hides loader
 document.body.classList.add('active');
 setTimeout(function(){
     let blocker = document.getElementById('blocker');

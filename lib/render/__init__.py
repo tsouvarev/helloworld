@@ -2,34 +2,36 @@ import json
 from datetime import datetime, timedelta
 from operator import itemgetter
 
-from funcy import first
+from funcy import first, pluck
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
-from ..utils import info, json_dumps, normalize, sorter, strptime
+from ..utils import debug, error, json_dumps, normalize, sorter, strptime
 from .tags import TAGS, get_tags
 
 NOW = datetime.now()
 TOO_LONG = timedelta(days=30)
 TOO_FAR = NOW + timedelta(days=365)
-JS_TEMPLATE = 'let weekendList = {}, eventSource = {}; tagGroups = {}'
+JS_TEMPLATE = (
+    'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
+)
 sort_items = sorter(itemgetter('start'))
 
 
 def pre_filter(item: dict):
     if item['end'] > TOO_FAR:
-        info('Skip too far "{url}"'.format_map(item))
+        debug('Skip too far "{url}"'.format_map(item))
         return False
 
     is_long = item['end'] - item['start'] >= TOO_LONG
     if is_long:
-        info('Skip too long "{url}"'.format_map(item))
+        debug('Skip too long "{url}"'.format_map(item))
         return False
     return True
 
 
 def post_filter(now, item: dict):
     if item['start'] < now:
-        info('Skip already started "{url}"'.format_map(item))
+        debug('Skip already started "{url}"'.format_map(item))
         return False
     return True
 
@@ -55,17 +57,29 @@ def render():
     Renders data.json for index.html.
     """
 
-    info('Rendering...')
-    with open(DIST_DATA, 'w+') as f:
+    with open(DIST_DATA, 'r+') as f:
+        try:
+            file = f.read()[11:-1]
+            seen = set(pluck('url', json.loads(file)['eventSource']))
+        except Exception as e:
+            error(e)
+            seen = set()
+        finally:
+            f.seek(0)
+
         # - sorts and drops long items
         # - find earliest active
         # - filters items from earliest to make it pretty
         items = sort_items(filter(pre_filter, get_source()))
         earliest = first(x['start'] for x in items if x['end'] > NOW)
-        filtered = json_dumps(x for x in items if post_filter(earliest, x))
+        filtered = [x for x in items if post_filter(earliest, x)]
+
+        # todo: send to telegram
+        arrived = set(pluck('url', filtered))
+        for url in arrived - seen:
+            debug(f'New item found! 🎉 "{url}"')
 
         # Writes data.js
-        template = JS_TEMPLATE.format(
-            json_dumps(WEEKENDS), filtered, json_dumps(TAGS),
-        )
+        dumped = map(json_dumps, (WEEKENDS, filtered, TAGS))
+        template = JS_TEMPLATE.format(*dumped)
         f.write(template)

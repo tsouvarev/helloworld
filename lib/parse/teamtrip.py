@@ -6,7 +6,7 @@ from lxml import html
 
 from lib.config import TEAMTRIP
 from lib.models import Item
-from lib.utils import error, mapv
+from lib.utils import error, zip_safe
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -26,11 +26,8 @@ def parse_page(text):
         '//*[@class="t404__title t-heading t-heading_xs"]/text()',
         '//*[@class="t404__link"]/@href',
     )
-    data = mapv(tree.xpath, paths)
-    assert len(set(map(len, data))) == 1
-
     now = datetime.now()
-    for dates, title, url in zip(*data):
+    for dates, title, url in zip_safe(*map(tree.xpath, paths)):
         for date in re.sub(r'\,\s+([0-9]{,2}[\s-])', r'/\1', dates).split(
             '/'
         ):

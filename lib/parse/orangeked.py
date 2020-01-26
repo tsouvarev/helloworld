@@ -1,14 +1,13 @@
-import asyncio
 import re
 from datetime import datetime
 
 import httpx
-from funcy import cat, chunks, compose, first, keep
+from funcy import compose, first
 from lxml import html
 
 from ..config import LEVELS, ORANGEKED
 from ..models import Item
-from ..utils import silent
+from ..utils import gather_chunks, silent
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -23,8 +22,7 @@ async def parse_orangeked():
     listing = await httpx.get('http://orangeked.ru/tours')
     tree = html.fromstring(listing.text.encode())
     links = set(tree.xpath('//*[@id="tourList"]/div/div/div/a/@href'))
-    chunked = chunks(5, keep(parse_page, links))
-    return cat([await asyncio.gather(*c) for c in chunked])
+    return await gather_chunks(5, *map(parse_page, links))
 
 
 @silent

@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import EASY, HARD, MIDDLE, ZOVGOR
 from ..models import Item
-from ..utils import mapv
+from ..utils import mapv, zip_safe
 
 LEVELS = {
     'низкая': EASY,
@@ -30,10 +30,8 @@ def parse_page(text):
         'td[2]/text()',
         'td[4]/text()',
     )
-    data = [tree.xpath(path + t) for t in tails]
-    assert len(set(map(len, data))) == 1
-
-    for title, url, date, level in zip(*data):
+    data = (tree.xpath(path + t) for t in tails)
+    for title, url, date, level in zip_safe(*data):
         start, end = map(parse_dt, date.split('-', 1))
         yield Item(
             vendor=ZOVGOR,

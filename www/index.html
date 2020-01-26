@@ -96,7 +96,7 @@
                 target="_blank"
                 :href="event.url"
             >
-                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&nbsp;&mdash; {{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
+                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&mdash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
                 <div class="gant__event__title">{{ event.title }}</div>
             </a>
         </div>
