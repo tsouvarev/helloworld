@@ -43,6 +43,21 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 return titles[key];
             }
         },
+        created: function() {
+            const self = this,
+                  urlParams = new URLSearchParams(window.location.search),
+                  tags = parseInt(urlParams.get('tags'));
+
+            if (tags){
+                this.tags.map(function(g){
+                    g.tags.map(function(t){
+                        if (t.bit & tags) {
+                            self.applyTags.push(t.bit);
+                        }
+                    });
+                });
+            }
+        },
         computed: {
             eventFilter(){
                 let self = this,
@@ -54,8 +69,13 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     events = events.filter((e) => e.norm.indexOf(find) != -1);
                 }
 
-                let applyTags = 0;
-                this.applyTags.forEach((b) => applyTags |= b);
+                let applyTags = this.applyTags.reduce((r, b) => r |= b, 0);
+                let newUrl = window.location.href.split('?')[0];
+                if (applyTags) {
+                    newUrl += '?tags=' + applyTags;
+                }
+                window.history.replaceState({}, null, newUrl);
+
                 this.tags.forEach(function(g){
                     // Collects possible events
                     let groupEvents = events;
