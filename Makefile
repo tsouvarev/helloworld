@@ -16,13 +16,13 @@ flake8 :
 zbs : isort black unify flake8
 
 parse:
-	python -m lib.cmd parse
+	python -m lib.cli parse
 
 render:
-	python -m lib.cmd render
+	python -m lib.cli render
 
 all:
-	python -m lib.cmd all
+	python -m lib.cli all
 
 serve:
 	uvicorn lib.app:app --host 0.0.0.0 --port 80

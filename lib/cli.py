@@ -6,17 +6,17 @@ from lib.render import render
 
 
 @click.group()
-def cmd():
+def cli():
     pass
 
 
-@cmd.command(name='all')
+@cli.command(name='all')
 def all_():
     parse()
     render()
 
 
-cmd.command()(
+cli.command()(
     click.option(
         '--vendor',
         '-v',
@@ -25,7 +25,7 @@ cmd.command()(
         required=False,
     )(parse)
 )
-cmd.command()(render)
+cli.command()(render)
 
 if __name__ == '__main__':
-    cmd()
+    cli()

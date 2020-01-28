@@ -75,9 +75,10 @@ def render():
         filtered = [x for x in items if post_filter(earliest, x)]
 
         # todo: send to telegram
-        arrived = set(pluck('url', filtered))
-        for url in arrived - seen:
-            debug(f'New item found! 🎉 "{url}"')
+        arrived = set(pluck('url', filtered)) - seen
+        if arrived:
+            urls = ', '.join(arrived)
+            debug(f'New items found! 🎉 "{urls}"')
 
         # Writes data.js
         dumped = map(json_dumps, (WEEKENDS, filtered, TAGS))
