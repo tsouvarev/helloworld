@@ -46,7 +46,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
         created: function() {
             const self = this,
                   urlParams = new URLSearchParams(window.location.search),
-                  tags = parseInt(urlParams.get('tags'));
+                  tags = parseInt(urlParams.get('tags')),
+                  search = urlParams.get('q');
 
             if (tags){
                 this.tags.map(function(g){
@@ -57,30 +58,44 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     });
                 });
             }
+
+            if (search){
+                this.applySearch = search.trim();
+            }
         },
         computed: {
             eventFilter(){
                 let self = this,
-                    events = eventList
+                    events = eventList,
+                    params = {
+                        q: this.applySearch.trim().toLowerCase(),
+                        tags: 0,
+                    }
                 ;
 
-                if (this.applySearch){
-                    let find = this.applySearch.toLowerCase();
-                    events = events.filter((e) => e.norm.indexOf(find) != -1);
-                }
+                params.tags = this.applyTags.reduce((r, b) => r |= b, params.tags);
+                let newUrl = window.location.href.split('?')[0],
+                    newParams = Object.entries(params)
+                        .filter(([k, v]) => v)
+                        .map((i) => i.join('='))
+                        .join('&')
+                ;
 
-                let applyTags = this.applyTags.reduce((r, b) => r |= b, 0);
-                let newUrl = window.location.href.split('?')[0];
-                if (applyTags) {
-                    newUrl += '?tags=' + applyTags;
+                window.history.replaceState(
+                    {},
+                    null,
+                    newParams ? newUrl += '?' + newParams: newUrl
+                );
+
+                if (params.q){
+                    events = events.filter((e) => e.norm.indexOf(params.q) != -1);
                 }
-                window.history.replaceState({}, null, newUrl);
 
                 this.tags.forEach(function(g){
                     // Collects possible events
                     let groupEvents = events;
                     self.tags.forEach(function(j){
-                        let bits = applyTags & j.bits;
+                        let bits = params.tags & j.bits;
                         if (bits && j.bits != g.bits) {
                             groupEvents = groupEvents.filter((e) => bits & e.tags)
                         }
@@ -92,7 +107,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     g.tags.forEach((t) => t.active = eventsMask & t.bit);
 
                     // Filters gant events
-                    let applyBits = applyTags & g.bits;
+                    let applyBits = params.tags & g.bits;
                     if (applyBits) {
                         events = events.filter((e) => applyBits & e.tags);
                     }
