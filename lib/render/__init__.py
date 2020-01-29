@@ -62,7 +62,7 @@ def render():
             file = f.read()[11:-1]
             seen = set(pluck('url', json.loads(file)['eventSource']))
         except Exception as e:
-            error(e)
+            error(str(e))
             seen = set()
         finally:
             f.seek(0)
@@ -76,7 +76,7 @@ def render():
 
         # todo: send to telegram
         arrived = set(pluck('url', filtered)) - seen
-        if arrived:
+        if seen and arrived:
             urls = ', '.join(arrived)
             debug(f'New items found! 🎉 "{urls}"')
 
