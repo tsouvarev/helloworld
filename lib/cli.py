@@ -10,12 +10,6 @@ def cli():
     pass
 
 
-@cli.command(name='all')
-def all_():
-    parse()
-    render()
-
-
 cli.command()(
     click.option(
         '--vendor',

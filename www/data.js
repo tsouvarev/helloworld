@@ -38,16 +38,6 @@ const DATA={"weekendList": [
         "vendor": "teamtrip"
     },
     {
-        "end": "02.02.2020",
-        "level": 4,
-        "norm": "\u043f\u043e\u0445\u043e\u0434 \u0434\u043b\u044f \u043e\u0434\u0438\u043d\u043e\u043a\u0438\u0445 \u0441\u0435\u0440\u0434\u0435\u0446",
-        "start": "31.01.2020",
-        "tags": 50186,
-        "title": "\u041f\u043e\u0445\u043e\u0434 \u0434\u043b\u044f \u043e\u0434\u0438\u043d\u043e\u043a\u0438\u0445 \u0441\u0435\u0440\u0434\u0435\u0446",
-        "url": "https://turclub-pik.ru/pohod/pokhod-dlya-odinokikh-serdec/1874/",
-        "vendor": "pik"
-    },
-    {
         "end": "07.02.2020",
         "level": 8,
         "norm": "\u043b\u0435\u0434 \u0438 \u043a\u0430\u043c\u043d\u0438",
@@ -116,16 +106,6 @@ const DATA={"weekendList": [
         "title": "\u0417\u0438\u043c\u043d\u0435\u0435 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u042d\u043b\u044c\u0431\u0440\u0443\u0441",
         "url": "https://cityescape.ru/zimnee-vosxozhdenie-na-elbrus/",
         "vendor": "cityescape"
-    },
-    {
-        "end": "16.02.2020",
-        "level": 8,
-        "norm": "\u043a\u0430\u043b\u0443\u0436\u0441\u043a\u0438\u0435 \u0437\u0430\u0441\u0435\u043a\u0438 \u0432 \u0433\u043e\u0441\u0442\u0438 \u043a \u0437\u0443\u0431\u0440\u0430\u043c",
-        "start": "14.02.2020",
-        "tags": 35074,
-        "title": "\u041a\u0430\u043b\u0443\u0436\u0441\u043a\u0438\u0435 \u0417\u0430\u0441\u0435\u043a\u0438: \u0412 \u0433\u043e\u0441\u0442\u0438 \u043a \u0437\u0443\u0431\u0440\u0430\u043c",
-        "url": "https://team-trip.ru/zubriki",
-        "vendor": "teamtrip"
     },
     {
         "end": "16.02.2020",
@@ -258,16 +238,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "22.02.2020",
-        "level": 8,
-        "norm": "\u043c\u0430\u0440\u0448 \u0431\u0440\u043e\u0441\u043e\u043a \u043a \u0437\u043c\u0435\u0438\u043d\u043e\u043c\u0443 \u043a\u0430\u043c\u043d\u044e",
-        "start": "22.02.2020",
-        "tags": 34850,
-        "title": "\u041c\u0430\u0440\u0448-\u0431\u0440\u043e\u0441\u043e\u043a \u043a \u0417\u043c\u0435\u0438\u043d\u043e\u043c\u0443 \u043a\u0430\u043c\u043d\u044e",
-        "url": "https://cityescape.ru/marsh-brosok-k-zmeinomu-kamnyu/",
-        "vendor": "cityescape"
-    },
-    {
         "end": "23.02.2020",
         "level": 8,
         "norm": "\u043a\u0443\u0440\u0441 \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
@@ -275,6 +245,16 @@ const DATA={"weekendList": [
         "tags": 34850,
         "title": "\u041a\u0443\u0440\u0441 \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f (\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430)",
         "url": "https://cityescape.ru/survival/",
+        "vendor": "cityescape"
+    },
+    {
+        "end": "22.02.2020",
+        "level": 8,
+        "norm": "\u043c\u0430\u0440\u0448 \u0431\u0440\u043e\u0441\u043e\u043a \u043a \u0437\u043c\u0435\u0438\u043d\u043e\u043c\u0443 \u043a\u0430\u043c\u043d\u044e",
+        "start": "22.02.2020",
+        "tags": 34850,
+        "title": "\u041c\u0430\u0440\u0448-\u0431\u0440\u043e\u0441\u043e\u043a \u043a \u0417\u043c\u0435\u0438\u043d\u043e\u043c\u0443 \u043a\u0430\u043c\u043d\u044e",
+        "url": "https://cityescape.ru/marsh-brosok-k-zmeinomu-kamnyu/",
         "vendor": "cityescape"
     },
     {
@@ -696,6 +676,16 @@ const DATA={"weekendList": [
         "title": "\u041a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
         "url": "https://zovgor.com/nepal.html",
         "vendor": "zovgor"
+    },
+    {
+        "end": "22.03.2020",
+        "level": 8,
+        "norm": "\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u044b \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 v2 2020",
+        "start": "12.03.2020",
+        "tags": 67716,
+        "title": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b. \u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 v2/ 2020",
+        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/maldivy-perezagruzka-v2-2020/",
+        "vendor": "napravlenie"
     },
     {
         "end": "24.03.2020",
@@ -2148,6 +2138,16 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
+        "end": "14.06.2020",
+        "level": 8,
+        "norm": "\u043a\u0440\u0430\u0441\u043e\u0442\u0430 \u0434\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0430\u043b\u044c\u043f \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+        "start": "06.06.2020",
+        "tags": 526468,
+        "title": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0414\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0410\u043b\u044c\u043f. \u0422\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/krasota-dolomitovykh-alp-tur-bez-ryukzakov-/",
+        "vendor": "napravlenie"
+    },
+    {
         "end": "13.06.2020",
         "level": 8,
         "norm": "\u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435",
@@ -2186,16 +2186,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
         "url": "https://zovgor.com/prielbrusie2.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "14.06.2020",
-        "level": 8,
-        "norm": "\u043a\u0440\u0430\u0441\u043e\u0442\u0430 \u0434\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0430\u043b\u044c\u043f \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "start": "10.06.2020",
-        "tags": 526468,
-        "title": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0414\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0410\u043b\u044c\u043f. \u0422\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/krasota-dolomitovykh-alp-tur-bez-ryukzakov-/",
-        "vendor": "napravlenie"
     },
     {
         "end": "14.06.2020",
@@ -2258,16 +2248,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "14.06.2020",
-        "level": 8,
-        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0432\u0435\u0440\u0446\u0430",
-        "start": "12.06.2020",
-        "tags": 526370,
-        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
-        "url": "https://cityescape.ru/splav-po-reke-tverca/",
-        "vendor": "cityescape"
-    },
-    {
         "end": "15.06.2020",
         "level": 8,
         "norm": "\u043f\u043e\u0445\u043e\u0434 \u043a \u0433\u043e\u0440\u0435 \u0432\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430",
@@ -2275,6 +2255,16 @@ const DATA={"weekendList": [
         "tags": 526370,
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430",
         "url": "https://cityescape.ru/poxod-k-gore-vottovaara/",
+        "vendor": "cityescape"
+    },
+    {
+        "end": "14.06.2020",
+        "level": 8,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0432\u0435\u0440\u0446\u0430",
+        "start": "12.06.2020",
+        "tags": 526370,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
+        "url": "https://cityescape.ru/splav-po-reke-tverca/",
         "vendor": "cityescape"
     },
     {
@@ -2608,16 +2598,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "04.07.2020",
-        "level": 8,
-        "norm": "\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0442\u0435\u0442\u043d\u0443\u043b\u044c\u0434 \u0441\u0432\u0430\u043d\u0435\u0442\u0438\u044f",
-        "start": "26.06.2020",
-        "tags": 1574948,
-        "title": "\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0422\u0435\u0442\u043d\u0443\u043b\u044c\u0434 (\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f)",
-        "url": "https://cityescape.ru/vosxozhdenie-na-tetnuld/",
-        "vendor": "cityescape"
-    },
-    {
         "end": "05.07.2020",
         "level": 8,
         "norm": "\u0432\u0435\u043b\u043e\u0433\u0440\u0443\u0437\u0438\u044f \u0442\u0431\u0438\u043b\u0438\u0441\u0438 \u0431\u0430\u0442\u0443\u043c\u0438",
@@ -2708,6 +2688,16 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
+        "end": "03.07.2020",
+        "level": 8,
+        "norm": "\u043f\u043e \u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
+        "start": "28.06.2020",
+        "tags": 1574980,
+        "title": "\u041f\u043e \u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
+        "url": "https://zovgor.com/2rope.html",
+        "vendor": "zovgor"
+    },
+    {
         "end": "10.07.2020",
         "level": 8,
         "norm": "\u0441\u0430\u0445\u0430\u043b\u0438\u043d \u043e\u0441\u0442\u0440\u043e\u0432 \u043c\u043e\u043d\u0435\u0440\u043e\u043d",
@@ -2755,16 +2745,6 @@ const DATA={"weekendList": [
         "tags": 1577028,
         "title": "\u0413\u043e\u0440\u044b \u0413\u0438\u0433\u0430\u043d\u0442\u043e\u0432 (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
         "url": "https://zovgor.com/norway.html",
-        "vendor": "zovgor"
-    },
-    {
-        "end": "03.07.2020",
-        "level": 8,
-        "norm": "\u043f\u043e \u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
-        "start": "29.06.2020",
-        "tags": 1574980,
-        "title": "\u041f\u043e \u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
-        "url": "https://zovgor.com/2rope.html",
         "vendor": "zovgor"
     },
     {
@@ -5868,7 +5848,7 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "10.10.2020",
+        "end": "09.10.2020",
         "level": 8,
         "norm": "\u043f\u043e \u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
         "start": "04.10.2020",
@@ -6108,16 +6088,6 @@ const DATA={"weekendList": [
         "vendor": "teamtrip"
     },
     {
-        "end": "13.11.2020",
-        "level": 2,
-        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u0443 \u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
-        "start": "01.11.2020",
-        "tags": 16777748,
-        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
-        "url": "http://orangeked.ru/tours/item/74-vietnam",
-        "vendor": "orangeked"
-    },
-    {
         "end": "12.11.2020",
         "level": 2,
         "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u043c\u0430\u0440\u043e\u043a\u043a\u043e",
@@ -6125,6 +6095,16 @@ const DATA={"weekendList": [
         "tags": 16777748,
         "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
         "url": "http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
+        "vendor": "orangeked"
+    },
+    {
+        "end": "13.11.2020",
+        "level": 2,
+        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u0443 \u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
+        "start": "01.11.2020",
+        "tags": 16777748,
+        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
+        "url": "http://orangeked.ru/tours/item/74-vietnam",
         "vendor": "orangeked"
     },
     {
@@ -6599,6 +6579,48 @@ const DATA={"weekendList": [
                 "active": true,
                 "bit": 1048576,
                 "slug": "month_7",
+                "text": "\u0438\u044e\u043b",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 2097152,
+                "slug": "month_8",
+                "text": "\u0430\u0432\u0433",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 4194304,
+                "slug": "month_9",
+                "text": "\u0441\u0435\u043d",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 8388608,
+                "slug": "month_10",
+                "text": "\u043e\u043a\u0442",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 16777216,
+                "slug": "month_11",
+                "text": "\u043d\u043e\u044f",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 33554432,
+                "slug": "month_12",
+                "text": "\u0434\u0435\u043a",
+                "title": ""
+            }
+        ],
+        "title": "\u041c\u0435\u0441\u044f\u0446"
+    }
+]};,
                 "text": "\u0438\u044e\u043b",
                 "title": ""
             },

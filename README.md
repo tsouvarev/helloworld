@@ -5,12 +5,11 @@
 
 ## cmd 
 
-load and parse, render data.js, all together 
+load and parse, render data.js 
 
 ```bash
 $ python -m lib.cmd parse
 $ python -m lib.cmd render
-$ python -m lib.cmd all
 ```
 
 ## compile css 

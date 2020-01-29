@@ -1,12 +1,13 @@
 import re
 from datetime import datetime
+from functools import partial
 
 import httpx
 from lxml import html
 
 from lib.config import TEAMTRIP
 from lib.models import Item
-from lib.utils import error, zip_safe
+from lib.utils import error, mapv, zip_safe
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -28,9 +29,7 @@ def parse_page(text):
     )
     now = datetime.now()
     for dates, title, url in zip_safe(*map(tree.xpath, paths)):
-        for date in re.sub(r'\,\s+([0-9]{,2}[\s-])', r'/\1', dates).split(
-            '/'
-        ):
+        for date in split_dates(dates):
             try:
                 start, end = parse_dates(now, date)
             except Exception as e:
@@ -44,6 +43,23 @@ def parse_page(text):
                 title=title,
                 url='https://team-trip.ru' + url,
             )
+
+
+RE_BY_YEAR = partial(
+    # 2020 01 -- missing slash
+    re.compile(r'([0-9]{4})\s+([0-9]{2})').sub,
+    r'\1/\2',
+)
+
+RE_BY_COMMA = partial(
+    # comma instead of slash
+    re.compile(r'\,\s+([0-9]{1,2}[\s-])').sub,
+    r'/\1',
+)
+
+
+def split_dates(src: str):
+    return mapv(str.strip, RE_BY_YEAR(RE_BY_COMMA(src)).split('/'))
 
 
 def parse_dates(now: datetime, src: str):
