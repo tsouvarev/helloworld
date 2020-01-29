@@ -218,10 +218,13 @@ input.search__input
     background-position 5px center
     background-size 24px
     font-size 14px
+    outline none !important
 
-    &:focus
-        outline none
+    &:not(:placeholder-shown)
         color #000
+
+        &::-webkit-search-cancel-button
+            opacity 1 !important
 
 
 html, body, article, #app, .gant
