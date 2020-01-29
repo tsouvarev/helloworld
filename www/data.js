@@ -6088,16 +6088,6 @@ const DATA={"weekendList": [
         "vendor": "teamtrip"
     },
     {
-        "end": "12.11.2020",
-        "level": 2,
-        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u043c\u0430\u0440\u043e\u043a\u043a\u043e",
-        "start": "01.11.2020",
-        "tags": 16777748,
-        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
-        "url": "http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
-        "vendor": "orangeked"
-    },
-    {
         "end": "13.11.2020",
         "level": 2,
         "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u0443 \u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
@@ -6105,6 +6095,16 @@ const DATA={"weekendList": [
         "tags": 16777748,
         "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
         "url": "http://orangeked.ru/tours/item/74-vietnam",
+        "vendor": "orangeked"
+    },
+    {
+        "end": "12.11.2020",
+        "level": 2,
+        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u043c\u0430\u0440\u043e\u043a\u043a\u043e",
+        "start": "01.11.2020",
+        "tags": 16777748,
+        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
+        "url": "http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
         "vendor": "orangeked"
     },
     {
@@ -6579,48 +6579,6 @@ const DATA={"weekendList": [
                 "active": true,
                 "bit": 1048576,
                 "slug": "month_7",
-                "text": "\u0438\u044e\u043b",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 2097152,
-                "slug": "month_8",
-                "text": "\u0430\u0432\u0433",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 4194304,
-                "slug": "month_9",
-                "text": "\u0441\u0435\u043d",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 8388608,
-                "slug": "month_10",
-                "text": "\u043e\u043a\u0442",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 16777216,
-                "slug": "month_11",
-                "text": "\u043d\u043e\u044f",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 33554432,
-                "slug": "month_12",
-                "text": "\u0434\u0435\u043a",
-                "title": ""
-            }
-        ],
-        "title": "\u041c\u0435\u0441\u044f\u0446"
-    }
-]};,
                 "text": "\u0438\u044e\u043b",
                 "title": ""
             },
