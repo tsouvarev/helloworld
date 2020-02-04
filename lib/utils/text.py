@@ -20,7 +20,7 @@ NORM = str.maketrans(
 )
 
 RE_MISTYPES = re.compile(r'\b()\b', re.I)
-RE_SPLIT = re.compile(r'\W+', re.U).split
+RE_SPLIT = re.compile(r'[^\w\+-]+', re.U).split
 RE_CYRILLIC = re.compile(r'[а-яё]').findall
 
 

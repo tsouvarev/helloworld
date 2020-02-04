@@ -1,19 +1,22 @@
-css :
+css:
 	stylus -w -c www/index.styl
 
-isort :
+isort:
 	isort -rc -y lib tests
 
-black :
+black:
 	black -S -l 78 lib tests
 
-unify :
+unify:
 	unify -r --quote="'" lib tests
 
-flake8 :
+flake8:
 	flake8 lib tests
 
-zbs : isort black unify flake8
+fmt: isort black unify
+
+test: flake8
+	PYTHONPATH="$(PYTHONPATH):$(PWD)" pytest tests
 
 parse:
 	python -m lib.cli parse

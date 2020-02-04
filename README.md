@@ -19,8 +19,9 @@ $ npm install stylus@latest -g
 $ make css
 ```
 
-## format and lint
+## format and test
 
 ```bash
-$ make zbs
+$ make fmt
+$ make test
 ```

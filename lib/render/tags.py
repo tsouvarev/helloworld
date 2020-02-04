@@ -98,7 +98,7 @@ def reduce_bits(tags):
     return result
 
 
-RE_KIDS = re.compile(r'(семьи|семей|\([0-9]+\+\))', re.I).findall
+RE_KIDS = re.compile(r'(семьи|семей|[0-9]+\+)', re.I).findall
 
 
 @post_processing(reduce_bits)
