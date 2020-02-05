@@ -260,16 +260,6 @@ const DATA={"weekendList": [
     {
         "end": "24.02.2020",
         "level": 8,
-        "norm": "\u0432\u0435\u043b\u0438\u043a\u0438\u0439 \u043d\u043e\u0432\u0433\u043e\u0440\u043e\u0434 \u0441\u0442\u0430\u0440\u0430\u044f \u0440\u0443\u0441\u0441\u0430 \u043e\u0437\u0435\u0440\u043e \u0438\u043b\u044c\u043c\u0435\u043d\u044c",
-        "start": "22.02.2020",
-        "tags": 34946,
-        "title": "\u0412\u0435\u043b\u0438\u043a\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434, \u0421\u0442\u0430\u0440\u0430\u044f \u0420\u0443\u0441\u0441\u0430, \u043e\u0437\u0435\u0440\u043e \u0418\u043b\u044c\u043c\u0435\u043d\u044c",
-        "url": "https://www.napravlenie.info/catalog/weekend/velikiy-novgorod-staraya-russa-ozero-ilmen/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "24.02.2020",
-        "level": 8,
         "norm": "\u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432 \u0437\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
         "start": "22.02.2020",
         "tags": 35074,
@@ -1474,7 +1464,7 @@ const DATA={"weekendList": [
         "start": "01.05.2020",
         "tags": 264322,
         "title": "\u041b\u0435\u0433\u043a\u0438\u0439 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0418\u0441\u043b\u043e\u0447\u044c, \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f ",
-        "url": "https://www.napravlenie.info/catalog/may_tours/legkiy-splav-po-reke-isloch-belorussiya-/",
+        "url": "https://www.napravlenie.info/catalog/weekend/legkiy-splav-po-reke-isloch-belorussiya-/",
         "vendor": "napravlenie"
     },
     {
@@ -1764,7 +1754,7 @@ const DATA={"weekendList": [
         "start": "09.05.2020",
         "tags": 264322,
         "title": "\u0421\u043f\u043b\u0430\u0432-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u0440\u0435\u043a\u0435 \u041e\u0432\u0441\u044f\u043d\u043a\u0430, \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-        "url": "https://www.napravlenie.info/catalog/may_tours/splav-priklyuchenie-po-reke-ovsyanka-belorussiya/",
+        "url": "https://www.napravlenie.info/catalog/weekend/splav-priklyuchenie-po-reke-ovsyanka-belorussiya/",
         "vendor": "napravlenie"
     },
     {
@@ -3925,16 +3915,6 @@ const DATA={"weekendList": [
         "tags": 3146250,
         "title": "\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b - \u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
         "url": "https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/1914/",
-        "vendor": "pik"
-    },
-    {
-        "end": "11.08.2020",
-        "level": 32,
-        "norm": "\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
-        "start": "01.08.2020",
-        "tags": 2105356,
-        "title": "\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
-        "url": "https://turclub-pik.ru/pohod/elbrus-s-severa/1688/",
         "vendor": "pik"
     },
     {
@@ -6178,16 +6158,6 @@ const DATA={"weekendList": [
         "vendor": "teamtrip"
     },
     {
-        "end": "13.11.2020",
-        "level": 2,
-        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u0443 \u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
-        "start": "01.11.2020",
-        "tags": 16777748,
-        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
-        "url": "http://orangeked.ru/tours/item/74-vietnam",
-        "vendor": "orangeked"
-    },
-    {
         "end": "12.11.2020",
         "level": 2,
         "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u043c\u0430\u0440\u043e\u043a\u043a\u043e",
@@ -6195,6 +6165,16 @@ const DATA={"weekendList": [
         "tags": 16777748,
         "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
         "url": "http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
+        "vendor": "orangeked"
+    },
+    {
+        "end": "13.11.2020",
+        "level": 2,
+        "norm": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u0443 \u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
+        "start": "01.11.2020",
+        "tags": 16777748,
+        "title": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0421\u0435\u0432\u0435\u0440\u0443 \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0430",
+        "url": "http://orangeked.ru/tours/item/74-vietnam",
         "vendor": "orangeked"
     },
     {
@@ -6669,6 +6649,48 @@ const DATA={"weekendList": [
                 "active": true,
                 "bit": 1048576,
                 "slug": "month_7",
+                "text": "\u0438\u044e\u043b",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 2097152,
+                "slug": "month_8",
+                "text": "\u0430\u0432\u0433",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 4194304,
+                "slug": "month_9",
+                "text": "\u0441\u0435\u043d",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 8388608,
+                "slug": "month_10",
+                "text": "\u043e\u043a\u0442",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 16777216,
+                "slug": "month_11",
+                "text": "\u043d\u043e\u044f",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 33554432,
+                "slug": "month_12",
+                "text": "\u0434\u0435\u043a",
+                "title": ""
+            }
+        ],
+        "title": "\u041c\u0435\u0441\u044f\u0446"
+    }
+]}; "slug": "month_7",
                 "text": "\u0438\u044e\u043b",
                 "title": ""
             },
