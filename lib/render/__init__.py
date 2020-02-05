@@ -67,6 +67,9 @@ def render():
         finally:
             f.seek(0)
 
+        # clean shit
+        f.truncate()
+
         # - sorts and drops long items
         # - find earliest active
         # - filters items from earliest to make it pretty

@@ -6690,46 +6690,4 @@ const DATA={"weekendList": [
         ],
         "title": "\u041c\u0435\u0441\u044f\u0446"
     }
-]}; "slug": "month_7",
-                "text": "\u0438\u044e\u043b",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 2097152,
-                "slug": "month_8",
-                "text": "\u0430\u0432\u0433",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 4194304,
-                "slug": "month_9",
-                "text": "\u0441\u0435\u043d",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 8388608,
-                "slug": "month_10",
-                "text": "\u043e\u043a\u0442",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 16777216,
-                "slug": "month_11",
-                "text": "\u043d\u043e\u044f",
-                "title": ""
-            },
-            {
-                "active": true,
-                "bit": 33554432,
-                "slug": "month_12",
-                "text": "\u0434\u0435\u043a",
-                "title": ""
-            }
-        ],
-        "title": "\u041c\u0435\u0441\u044f\u0446"
-    }
 ]};
