@@ -28,26 +28,6 @@ const DATA={"weekendList": [
     "04.11.2021"
 ], "eventSource": [
     {
-        "end": "21.02.2020",
-        "level": 8,
-        "norm": "\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0431\u0440\u0430\u0437\u0438\u043b\u0438\u044f \u043d\u043e\u0432\u044b\u0435 \u043a\u0440\u0430\u0441\u043a\u0438",
-        "start": "06.02.2020",
-        "tags": 34884,
-        "title": "\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \"\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f. \u041d\u043e\u0432\u044b\u0435 \u043a\u0440\u0430\u0441\u043a\u0438\"",
-        "url": "https://zovgor.com/trekking-brasil.html",
-        "vendor": "zovgor"
-    },
-    {
-        "end": "13.02.2020",
-        "level": 8,
-        "norm": "\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u043a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "start": "08.02.2020",
-        "tags": 34884,
-        "title": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "url": "https://zovgor.com/krym-nalegke.html",
-        "vendor": "zovgor"
-    },
-    {
         "end": "23.02.2020",
         "level": 8,
         "norm": "\u0437\u0438\u043c\u043d\u0435\u0435 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u044d\u043b\u044c\u0431\u0440\u0443\u0441",
@@ -135,16 +115,6 @@ const DATA={"weekendList": [
         "tags": 34826,
         "title": "\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
         "url": "https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/1857/",
-        "vendor": "pik"
-    },
-    {
-        "end": "24.02.2020",
-        "level": 4,
-        "norm": "\u0437\u0438\u043c\u0430 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 \u0448\u0445\u0435\u0440\u044b \u0438 \u0441\u043a\u0430\u043b\u044b \u043b\u0430\u0434\u043e\u0433\u0438",
-        "start": "22.02.2020",
-        "tags": 33802,
-        "title": "\u0417\u0438\u043c\u0430 \u0432 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0428\u0445\u0435\u0440\u044b \u0438 \u0441\u043a\u0430\u043b\u044b \u041b\u0430\u0434\u043e\u0433\u0438",
-        "url": "https://turclub-pik.ru/pohod/zima-v-karelii-shkhery-i-skaly-ladogi/1931/",
         "vendor": "pik"
     },
     {
@@ -246,16 +216,6 @@ const DATA={"weekendList": [
         "title": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f: \u0437\u0435\u0440\u043a\u0430\u043b\u043e \u0423\u044e\u043d\u0438",
         "url": "https://team-trip.ru/bolivia",
         "vendor": "teamtrip"
-    },
-    {
-        "end": "09.03.2020",
-        "level": 8,
-        "norm": "\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u044b \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
-        "start": "27.02.2020",
-        "tags": 100484,
-        "title": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b. \u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/maldivy-perezagruzka/",
-        "vendor": "napravlenie"
     },
     {
         "end": "04.03.2020",
@@ -388,16 +348,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "14.03.2020",
-        "level": 8,
-        "norm": "\u043a\u0440\u0430\u0441\u043a\u0438 \u0440\u0430\u0434\u0436\u0430\u0441\u0442\u0430\u043d\u0430 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432 \u0438\u043d\u0434\u0438\u044e \u043d\u0430 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a \u0445\u043e\u043b\u0438",
-        "start": "01.03.2020",
-        "tags": 67716,
-        "title": "\u041a\u0440\u0430\u0441\u043a\u0438 \u0420\u0430\u0434\u0436\u0430\u0441\u0442\u0430\u043d\u0430. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432 \u0418\u043d\u0434\u0438\u044e \u043d\u0430 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a \u0425\u043e\u043b\u0438",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/kraski-radzhastana/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "08.03.2020",
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
@@ -448,16 +398,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "08.03.2020",
-        "level": 8,
-        "norm": "\u044f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435 \u043d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
-        "start": "07.03.2020",
-        "tags": 67594,
-        "title": "\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
-        "url": "https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/1858/",
-        "vendor": "pik"
-    },
-    {
         "end": "09.03.2020",
         "level": 4,
         "norm": "\u0437\u0438\u043c\u0430 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 \u0448\u0445\u0435\u0440\u044b \u0438 \u0441\u043a\u0430\u043b\u044b \u043b\u0430\u0434\u043e\u0433\u0438",
@@ -496,26 +436,6 @@ const DATA={"weekendList": [
         "title": "\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438 \u043c\u043e\u0440\u0435\u043c",
         "url": "https://zovgor.com/sky.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "20.03.2020",
-        "level": 8,
-        "norm": "\u0432\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0435 \u0441\u043a\u0430\u0437\u043a\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "07.03.2020",
-        "tags": 67716,
-        "title": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0435 \u0441\u043a\u0430\u0437\u043a\u0438. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/vetnamskie-skazki-aktivnyy-avtorskiy-tur-2020/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "09.03.2020",
-        "level": 8,
-        "norm": "\u043c\u0430\u0440\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430 \u0432 \u0432\u044b\u0431\u043e\u0440\u0433\u0435 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "07.03.2020",
-        "tags": 67714,
-        "title": "\u041c\u0430\u0440\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430 \u0432 \u0412\u044b\u0431\u043e\u0440\u0433\u0435. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/weekend/martovskaya-romantika-v-vyborge-avtorskiy-tur/",
-        "vendor": "napravlenie"
     },
     {
         "end": "09.03.2020",
@@ -558,16 +478,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "14.03.2020",
-        "level": 2,
-        "norm": "\u0441\u043a\u0438-\u0432\u044b\u0435\u0437\u0434 \u043d\u0430 \u0434\u043e\u043c\u0431\u0430\u0439",
-        "start": "08.03.2020",
-        "tags": 66060,
-        "title": "\u0421\u043a\u0438-\u0432\u044b\u0435\u0437\u0434 \u043d\u0430 \u0414\u043e\u043c\u0431\u0430\u0439",
-        "url": "https://turclub-pik.ru/pohod/ski-vyezd-na-dombai/1875/",
-        "vendor": "pik"
-    },
-    {
         "end": "09.03.2020",
         "level": 8,
         "norm": "\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0442\u0435\u043f\u043b\u043e\u043c \u0434\u043e\u043c\u0435",
@@ -586,16 +496,6 @@ const DATA={"weekendList": [
         "title": "\u041a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
         "url": "https://zovgor.com/nepal.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "22.03.2020",
-        "level": 8,
-        "norm": "\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u044b \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 v2 2020",
-        "start": "12.03.2020",
-        "tags": 67716,
-        "title": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b. \u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 v2/ 2020",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/maldivy-perezagruzka-v2-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "24.03.2020",
@@ -656,16 +556,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e \u0418\u043e\u0440\u0434\u0430\u043d\u0438\u0438",
         "url": "https://zovgor.com/pohod-po-iordanii.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "30.03.2020",
-        "level": 8,
-        "norm": "\u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u0430\u044f \u0438\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "15.03.2020",
-        "tags": 67716,
-        "title": "\u041d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u0430\u044f \u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/neveroyatnaya-indoneziya-avtorskiy-tur-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "02.04.2020",
@@ -738,16 +628,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "02.04.2020",
-        "level": 8,
-        "norm": "\u0441\u0432\u044f\u0449\u0435\u043d\u043d\u044b\u0435 \u043f\u0443\u0442\u0438 \u0438\u043d\u0434\u0438\u0438 \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "22.03.2020",
-        "tags": 198788,
-        "title": "\u0421\u0432\u044f\u0449\u0435\u043d\u043d\u044b\u0435 \u043f\u0443\u0442\u0438 \u0418\u043d\u0434\u0438\u0438. \u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/svyashchennye-puti-indii-unikalnyy-avtorskiy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "28.03.2020",
         "level": 8,
         "norm": "\u043f\u043e\u0445\u043e\u0434 \u043a \u0440\u0430\u0434\u0438\u043e\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043e\u0431\u0441\u0435\u0440\u0432\u0430\u0442\u043e\u0440\u0438\u0438",
@@ -800,16 +680,6 @@ const DATA={"weekendList": [
     {
         "end": "04.04.2020",
         "level": 8,
-        "norm": "\u0446\u0432\u0435\u0442\u0435\u043d\u0438\u0435 \u043a\u0440\u043e\u043a\u0443\u0441\u043e\u0432 \u0432 \u0442\u0430\u0442\u0440\u0430\u0445 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "29.03.2020",
-        "tags": 198788,
-        "title": "\u0426\u0432\u0435\u0442\u0435\u043d\u0438\u0435 \u043a\u0440\u043e\u043a\u0443\u0441\u043e\u0432 \u0432 \u0422\u0430\u0442\u0440\u0430\u0445. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/tsvetenie-krokusov-v-tatrakh-avtorskiy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "04.04.2020",
-        "level": 8,
         "norm": "\u043f\u043e\u0445\u043e\u0434 \u043a \u0432\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u043c\u0443 \u043e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
         "start": "04.04.2020",
         "tags": 133154,
@@ -826,16 +696,6 @@ const DATA={"weekendList": [
         "title": "\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
         "url": "https://zovgor.com/central.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "15.04.2020",
-        "level": 8,
-        "norm": "\u044f\u043f\u043e\u043d\u0438\u044f \u0432 \u0446\u0432\u0435\u0442\u0443 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430 \u0441\u0435\u0437\u043e\u043d \u0441\u0430\u043a\u0443\u0440\u044b",
-        "start": "04.04.2020",
-        "tags": 133252,
-        "title": "\u042f\u043f\u043e\u043d\u0438\u044f \u0432 \u0446\u0432\u0435\u0442\u0443. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430 \u0441\u0435\u0437\u043e\u043d \u0441\u0430\u043a\u0443\u0440\u044b",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/yaponiya-v-tsvetu-avtorskiy-tur-na-sezon-sakury/",
-        "vendor": "napravlenie"
     },
     {
         "end": "10.04.2020",
@@ -938,16 +798,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "19.04.2020",
-        "level": 8,
-        "norm": "\u0434\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u043a\u0430\u0432\u043a\u0430\u0437\u0430 \u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
-        "start": "13.04.2020",
-        "tags": 133252,
-        "title": "\u0414\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u041a\u0430\u0432\u043a\u0430\u0437\u0430 \u2013 \u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/dolmeny-severnogo-kavkaza-mesta-sily/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "24.04.2020",
         "level": 8,
         "norm": "\u043a\u0438\u043f\u0440 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438 \u0433\u043e\u0440\u044b \u043a\u0438\u0440\u0438\u043d\u0438\u044f",
@@ -956,16 +806,6 @@ const DATA={"weekendList": [
         "title": "\u041a\u0438\u043f\u0440 \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439. \u041a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438 \u0433\u043e\u0440\u044b \u041a\u0438\u0440\u0438\u043d\u0438\u044f",
         "url": "https://turclub-pik.ru/pohod/severnyi-kipr/1737/",
         "vendor": "pik"
-    },
-    {
-        "end": "30.04.2020",
-        "level": 8,
-        "norm": "\u0432\u0435\u0441\u0435\u043d\u043d\u044f\u044f \u043f\u0440\u0435\u043b\u0435\u0441\u0442\u044c \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "start": "16.04.2020",
-        "tags": 133252,
-        "title": "\u0412\u0435\u0441\u0435\u043d\u043d\u044f\u044f \u043f\u0440\u0435\u043b\u0435\u0441\u0442\u044c \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "url": "https://www.napravlenie.info/catalog/zimnie-pokhody/vesennyaya-prelest-kamchatki-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "26.04.2020",
@@ -1198,26 +1038,6 @@ const DATA={"weekendList": [
         "vendor": "cityescape"
     },
     {
-        "end": "05.05.2020",
-        "level": 8,
-        "norm": "\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043c\u0443\u043d\u043a\u0443-\u0441\u0430\u0440\u0434\u044b\u043a",
-        "start": "30.04.2020",
-        "tags": 395396,
-        "title": "\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u041c\u0443\u043d\u043a\u0443-\u0421\u0430\u0440\u0434\u044b\u043a ",
-        "url": "https://www.napravlenie.info/catalog/may_tours/voskhozhdenie-na-munku-sardyk-/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "05.05.2020",
-        "level": 8,
-        "norm": "\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043c\u0438\u043d\u0432\u043e\u0434\u044b",
-        "start": "30.04.2020",
-        "tags": 395396,
-        "title": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u041c\u0438\u043d\u0432\u043e\u0434\u044b ",
-        "url": "https://www.napravlenie.info/catalog/weekend/istochnik-zdorovya-aktivnyy-tur-v-minvody-2020-/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "11.05.2020",
         "level": 16,
         "norm": "\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u044e\u0433\u0430 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432 \u043e\u0442\u0435\u043b\u0435",
@@ -1428,66 +1248,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "04.05.2020",
-        "level": 8,
-        "norm": "\u043b\u0435\u0433\u043a\u0438\u0439 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0438\u0441\u043b\u043e\u0447\u044c \u0431\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-        "start": "01.05.2020",
-        "tags": 264322,
-        "title": "\u041b\u0435\u0433\u043a\u0438\u0439 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0418\u0441\u043b\u043e\u0447\u044c, \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-        "url": "https://www.napravlenie.info/catalog/weekend/legkiy-splav-po-reke-isloch-belorussiya-/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "10.05.2020",
-        "level": 8,
-        "norm": "\u043b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 \u0432\u0434\u043e\u043b\u044c \u0441\u0440\u0435\u0434\u0438\u0437\u0435\u043c\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-        "start": "01.05.2020",
-        "tags": 264324,
-        "title": "\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430. \u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u0432\u0434\u043e\u043b\u044c \u0421\u0440\u0435\u0434\u0438\u0437\u0435\u043c\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-        "url": "https://www.napravlenie.info/catalog/may_tours/likiyskaya-tropa-treking-vdol-sredizemnogo-morya/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "10.05.2020",
-        "level": 8,
-        "norm": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0438\u0440\u043b\u0430\u043d\u0434\u0438\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "01.05.2020",
-        "tags": 264324,
-        "title": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/may_tours/5-znamenitykh-vershin-irlandii-aktivnyy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "10.05.2020",
-        "level": 8,
-        "norm": "\u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0435\u0433\u0438\u043f\u0435\u0442 \u043f\u043e\u0437\u043d\u0430\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "01.05.2020",
-        "tags": 264324,
-        "title": "\u041c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0415\u0433\u0438\u043f\u0435\u0442. \u041f\u043e\u0437\u043d\u0430\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/misticheskiy-egipet-poznavatelnyy-avtorskiy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "14.05.2020",
-        "level": 8,
-        "norm": "\u043c\u0430\u0433\u0438\u044f \u043c\u0430\u0440\u043e\u043a\u043a\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-        "start": "01.05.2020",
-        "tags": 264324,
-        "title": "\u041c\u0430\u0433\u0438\u044f \u041c\u0430\u0440\u043e\u043a\u043a\u043e. \u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/magiya-marokko-bolshoe-avtorskoe-puteshestvie/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "10.05.2020",
-        "level": 8,
-        "norm": "\u043f\u0435\u0448\u0435-\u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e \u0443\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0443 \u0438 \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d\u0443",
-        "start": "01.05.2020",
-        "tags": 264324,
-        "title": "\u041f\u0435\u0448\u0435-\u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0443 \u0438 \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d\u0443",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/peshe-velotur-po-uzbekistanu-i-tadzhikistanu-2020/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "11.05.2020",
         "level": 8,
         "norm": "\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u044b \u0432\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
@@ -1566,16 +1326,6 @@ const DATA={"weekendList": [
         "title": "\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
         "url": "https://zovgor.com/central.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "16.05.2020",
-        "level": 8,
-        "norm": "\u043d\u0430 \u043a\u0440\u044b\u043b\u044c\u044f\u0445 \u043a\u043e\u043d\u0434\u043e\u0440\u0430 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u043f\u0435\u0440\u0443",
-        "start": "02.05.2020",
-        "tags": 264324,
-        "title": "\u041d\u0430 \u043a\u0440\u044b\u043b\u044c\u044f\u0445 \u043a\u043e\u043d\u0434\u043e\u0440\u0430. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u041f\u0435\u0440\u0443",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/na-krylyakh-kondora-avtorskiy-tur-po-peru-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "09.05.2020",
@@ -1728,36 +1478,6 @@ const DATA={"weekendList": [
         "vendor": "cityescape"
     },
     {
-        "end": "11.05.2020",
-        "level": 8,
-        "norm": "\u0441\u043f\u043b\u0430\u0432-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0432\u0441\u044f\u043d\u043a\u0430 \u0431\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-        "start": "09.05.2020",
-        "tags": 264322,
-        "title": "\u0421\u043f\u043b\u0430\u0432-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u0440\u0435\u043a\u0435 \u041e\u0432\u0441\u044f\u043d\u043a\u0430, \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f ",
-        "url": "https://www.napravlenie.info/catalog/weekend/splav-priklyuchenie-po-reke-ovsyanka-belorussiya/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "11.05.2020",
-        "level": 8,
-        "norm": "\u043b\u0435\u0433\u0435\u043d\u0434\u044b \u0436\u0438\u0433\u0443\u043b\u0435\u0432\u0441\u043a\u0438\u0445 \u0433\u043e\u0440 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "09.05.2020",
-        "tags": 264322,
-        "title": "\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0416\u0438\u0433\u0443\u043b\u0435\u0432\u0441\u043a\u0438\u0445 \u0433\u043e\u0440. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/weekend/legendy-zhigulevskikh-gor-aktivnyy-tur-/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "23.05.2020",
-        "level": 8,
-        "norm": "\u043a\u0438\u0442\u0430\u0439 \u0442\u0443\u0440 \u043f\u043e \u0440\u043e\u0441\u043a\u043e\u0448\u043d\u043e\u0439 \u0441\u044b\u0447\u0443\u0430\u043d\u0438",
-        "start": "09.05.2020",
-        "tags": 264324,
-        "title": "\u041a\u0438\u0442\u0430\u0439. \u0422\u0443\u0440 \u043f\u043e \u0440\u043e\u0441\u043a\u043e\u0448\u043d\u043e\u0439 \u0421\u044b\u0447\u0443\u0430\u043d\u0438",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/kitay-tur-po-roskoshnoy-sychuani-2020/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "16.05.2020",
         "level": 8,
         "norm": "\u0430\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
@@ -1906,16 +1626,6 @@ const DATA={"weekendList": [
         "title": "\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u0438 \u0442\u0430\u0440\u0437\u0430\u043d\u043a\u0430",
         "url": "https://turclub-pik.ru/pohod/yastrebinoe/1929/",
         "vendor": "pik"
-    },
-    {
-        "end": "26.05.2020",
-        "level": 8,
-        "norm": "\u0432\u043e\u0437\u0434\u0443\u0448\u043d\u044b\u0435 \u0448\u0430\u0440\u044b \u043d\u0430\u0434 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u0435\u0439 \u0442\u0443\u0440-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435",
-        "start": "22.05.2020",
-        "tags": 264324,
-        "title": "\u0412\u043e\u0437\u0434\u0443\u0448\u043d\u044b\u0435 \u0448\u0430\u0440\u044b \u043d\u0430\u0434 \u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u0435\u0439. \u0422\u0443\u0440-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/vozdushnye-shary-nad-kappadokiey-tur-priklyuchenie/",
-        "vendor": "napravlenie"
     },
     {
         "end": "24.05.2020",
@@ -2098,16 +1808,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "15.06.2020",
-        "level": 8,
-        "norm": "\u043e\u0442 \u0448\u0430\u043d\u0445\u0430\u044f \u0434\u043e \u0446\u0432\u0435\u0442\u043d\u044b\u0445 \u0433\u043e\u0440 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u043a\u0438\u0442\u0430\u044e",
-        "start": "31.05.2020",
-        "tags": 788612,
-        "title": "\u041e\u0442 \u0428\u0430\u043d\u0445\u0430\u044f \u0434\u043e \u0426\u0432\u0435\u0442\u043d\u044b\u0445 \u0433\u043e\u0440. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u041a\u0438\u0442\u0430\u044e",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/ot-shankhaya-do-tsvetnykh-gor-avtorskiy-tur-po-kitayu/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "10.06.2020",
         "level": 4,
         "norm": "\u0442\u0440\u0435\u043a\u0438\u043d\u0433 \u043d\u0430 \u043c\u0430\u0434\u0435\u0439\u0440\u0435 \u043f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f",
@@ -2178,16 +1878,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "14.06.2020",
-        "level": 8,
-        "norm": "\u043a\u0440\u0430\u0441\u043e\u0442\u0430 \u0434\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0430\u043b\u044c\u043f \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "start": "06.06.2020",
-        "tags": 526468,
-        "title": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0414\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0410\u043b\u044c\u043f. \u0422\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/krasota-dolomitovykh-alp-tur-bez-ryukzakov-/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "13.06.2020",
         "level": 8,
         "norm": "\u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435",
@@ -2226,16 +1916,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
         "url": "https://zovgor.com/prielbrusie2.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "14.06.2020",
-        "level": 8,
-        "norm": "\u043e\u0441\u0442\u0440\u043e\u0432 \u0441\u0430\u0430\u0440\u0435\u043c\u0430\u0430 \u043b\u0435\u0442\u043e\u043c \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "10.06.2020",
-        "tags": 526468,
-        "title": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0421\u0430\u0430\u0440\u0435\u043c\u0430\u0430 \u043b\u0435\u0442\u043e\u043c. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/weekend/ostrov-saaremaa-letom-aktivnyy-tur/",
-        "vendor": "napravlenie"
     },
     {
         "end": "21.06.2020",
@@ -2326,16 +2006,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043a \u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430",
         "url": "https://cityescape.ru/poxod-k-gore-vottovaara/",
         "vendor": "cityescape"
-    },
-    {
-        "end": "25.06.2020",
-        "level": 8,
-        "norm": "\u043d\u0430 \u043a\u0440\u044b\u0448\u0435 \u043c\u0438\u0440\u0430 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u043f\u0430\u043c\u0438\u0440\u0443",
-        "start": "12.06.2020",
-        "tags": 526468,
-        "title": "\u041d\u0430 \u041a\u0440\u044b\u0448\u0435 \u043c\u0438\u0440\u0430. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u041f\u0430\u043c\u0438\u0440\u0443",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/na-kryshe-mira-avtorskiy-tur-po-pamiru-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "18.06.2020",
@@ -2618,16 +2288,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "01.07.2020",
-        "level": 8,
-        "norm": "\u043b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u0438 \u043f\u0430\u0440\u0443\u0441\u043d\u0430\u044f \u0440\u0435\u0433\u0430\u0442\u0430 \u0442\u0443\u0440 \u043d\u0430 \u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435",
-        "start": "23.06.2020",
-        "tags": 1575044,
-        "title": "\u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u0438 \u043f\u0430\u0440\u0443\u0441\u043d\u0430\u044f \u0440\u0435\u0433\u0430\u0442\u0430. \u0422\u0443\u0440 \u043d\u0430 \u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/lofotenskie-ostrova-i-parusnaya-regata/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "05.07.2020",
         "level": 16,
         "norm": "\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u044e\u0433\u0430 \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
@@ -2808,16 +2468,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "10.07.2020",
-        "level": 8,
-        "norm": "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 1",
-        "start": "29.06.2020",
-        "tags": 1575044,
-        "title": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20131",
-        "url": "https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "08.07.2020",
         "level": 8,
         "norm": "\u0433\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0430\u0440\u0445\u044b\u0437\u0430",
@@ -2846,16 +2496,6 @@ const DATA={"weekendList": [
         "title": "\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0421\u043e\u0444\u0438\u0438",
         "url": "https://zovgor.com/pohod-na-sofijskie-ozera.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "10.07.2020",
-        "level": 8,
-        "norm": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0438\u0440\u043b\u0430\u043d\u0434\u0438\u0438 v2 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "01.07.2020",
-        "tags": 1050756,
-        "title": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438 v2. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/may_tours/5-znamenitykh-vershin-irlandii-v2-aktivnyy-tur/",
-        "vendor": "napravlenie"
     },
     {
         "end": "12.07.2020",
@@ -3196,26 +2836,6 @@ const DATA={"weekendList": [
         "title": "\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
         "url": "https://zovgor.com/central.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "23.07.2020",
-        "level": 8,
-        "norm": "\u043d\u0435\u0437\u043d\u0430\u043a\u043e\u043c\u044b\u0439 \u0430\u043b\u0442\u0430\u0439 \u0442\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "start": "11.07.2020",
-        "tags": 1050756,
-        "title": "\u041d\u0435\u0437\u043d\u0430\u043a\u043e\u043c\u044b\u0439 \u0410\u043b\u0442\u0430\u0439. \u0422\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/neznakomyy-altay-tur-ekspeditsiya-bez-ryukzakov/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "22.07.2020",
-        "level": 8,
-        "norm": "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 2",
-        "start": "11.07.2020",
-        "tags": 1050756,
-        "title": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20132",
-        "url": "https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-2-iyul-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "23.07.2020",
@@ -3648,16 +3268,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "03.08.2020",
-        "level": 8,
-        "norm": "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 3",
-        "start": "23.07.2020",
-        "tags": 3147908,
-        "title": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20133",
-        "url": "https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-3/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "26.07.2020",
         "level": 4,
         "norm": "\u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0432\u0443\u043e\u043a\u0441\u0435",
@@ -3766,26 +3376,6 @@ const DATA={"weekendList": [
         "title": "\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438 \u043c\u043e\u0440\u0435\u043c",
         "url": "https://zovgor.com/sky.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "08.08.2020",
-        "level": 8,
-        "norm": "\u043b\u0430\u0434\u0430\u043a\u0445 \u043c\u0430\u043b\u044b\u0439 \u0442\u0438\u0431\u0435\u0442 \u0432 \u0438\u043d\u0434\u0438\u0438 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "25.07.2020",
-        "tags": 3147908,
-        "title": "\u041b\u0430\u0434\u0430\u043a\u0445 \u2013 \u041c\u0430\u043b\u044b\u0439 \u0422\u0438\u0431\u0435\u0442 \u0432 \u0418\u043d\u0434\u0438\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/ladakkh-malyy-tibet-v-indii-avtorskiy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "05.08.2020",
-        "level": 8,
-        "norm": "\u0433\u0440\u0443\u0437\u0438\u044f \u043f\u043e\u0445\u043e\u0434 \u043a \u043e\u0437\u0435\u0440\u0430\u043c \u0442\u043e\u0431\u0430",
-        "start": "26.07.2020",
-        "tags": 3147796,
-        "title": "\u0413\u0440\u0443\u0437\u0438\u044f \u041f\u043e\u0445\u043e\u0434 \u043a \u043e\u0437\u0435\u0440\u0430\u043c \u0422\u043e\u0431\u0430",
-        "url": "http://orangeked.ru/tours/item/79-pohod-toba",
-        "vendor": "orangeked"
     },
     {
         "end": "06.08.2020",
@@ -4278,16 +3868,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "23.08.2020",
-        "level": 8,
-        "norm": "\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430 \u0448\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430 \u044f\u0445\u0442\u0435",
-        "start": "03.08.2020",
-        "tags": 2099332,
-        "title": "\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430 \u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430 \u044f\u0445\u0442\u0435",
-        "url": "https://www.napravlenie.info/catalog/peshie-pokhody/ekspeditsiya-na-shantarskie-ostrova-na-yakhte-2020/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "08.08.2020",
         "level": 8,
         "norm": "\u0441\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438 \u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438 \u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
@@ -4296,16 +3876,6 @@ const DATA={"weekendList": [
         "title": "\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438 \u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438 \u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430 ",
         "url": "https://team-trip.ru/belugas",
         "vendor": "teamtrip"
-    },
-    {
-        "end": "15.08.2020",
-        "level": 8,
-        "norm": "\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 4",
-        "start": "04.08.2020",
-        "tags": 2099332,
-        "title": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20134",
-        "url": "https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-4/",
-        "vendor": "napravlenie"
     },
     {
         "end": "13.08.2020",
@@ -4436,16 +4006,6 @@ const DATA={"weekendList": [
         "title": "\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
         "url": "https://zovgor.com/canyon.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "20.08.2020",
-        "level": 8,
-        "norm": "\u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0438\u0441\u043b\u0430\u043d\u0434\u0438\u044f \u0442\u0440\u0435\u043a\u0438\u043d\u0433 \u0438 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f",
-        "start": "08.08.2020",
-        "tags": 2099332,
-        "title": "\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f. \u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u0438 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f",
-        "url": "https://www.napravlenie.info/catalog/peshie-pokhody/fantasticheskaya-islandiya-treking-i-priklyucheniya/",
-        "vendor": "napravlenie"
     },
     {
         "end": "17.08.2020",
@@ -4669,16 +4229,6 @@ const DATA={"weekendList": [
     },
     {
         "end": "23.08.2020",
-        "level": 8,
-        "norm": "\u0441\u043f\u043b\u0430\u0432 \u0438 \u0440\u044b\u0431\u0430\u043b\u043a\u0430 \u043d\u0430 \u0432\u0435\u0440\u0445\u043d\u0435\u043c \u0431\u0430\u0440\u0433\u0443\u0437\u0438\u043d\u0435",
-        "start": "13.08.2020",
-        "tags": 2099332,
-        "title": "\u0421\u043f\u043b\u0430\u0432 \u0438 \u0440\u044b\u0431\u0430\u043b\u043a\u0430 \u043d\u0430 \u0412\u0435\u0440\u0445\u043d\u0435\u043c \u0411\u0430\u0440\u0433\u0443\u0437\u0438\u043d\u0435",
-        "url": "https://www.napravlenie.info/catalog/vodnye-pokhody/splav-i-rybalka-na-verkhnem-barguzine/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "23.08.2020",
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0430\u0434\u043e\u0433\u0430",
         "start": "14.08.2020",
@@ -4766,16 +4316,6 @@ const DATA={"weekendList": [
         "title": "\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 (\u0427\u0435\u0440\u0435\u0437 \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438 \u043a \u043c\u043e\u0440\u044e)",
         "url": "https://zovgor.com/30.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "29.08.2020",
-        "level": 8,
-        "norm": "\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u0438 \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "start": "15.08.2020",
-        "tags": 2099332,
-        "title": "\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438 \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/vulkany-i-goryachie-istochniki-kamchatki-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "27.08.2020",
@@ -4976,16 +4516,6 @@ const DATA={"weekendList": [
         "title": "\u0412\u0434\u043e\u043b\u044c \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0433\u043e \u0431\u0435\u0440\u0435\u0433\u0430 \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
         "url": "https://zovgor.com/pohod-na-baikal.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "27.08.2020",
-        "level": 8,
-        "norm": "\u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441 \u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438 \u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
-        "start": "18.08.2020",
-        "tags": 2099460,
-        "title": "\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441 \u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438 \u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
-        "url": "https://team-trip.ru/orca_safari",
-        "vendor": "teamtrip"
     },
     {
         "end": "28.08.2020",
@@ -5338,16 +4868,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "12.09.2020",
-        "level": 8,
-        "norm": "\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0430\u043b\u0442\u0430\u0439-\u043c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
-        "start": "29.08.2020",
-        "tags": 6293636,
-        "title": "\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0410\u043b\u0442\u0430\u0439-\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/ekspeditsiya-altay-mongoliya-2020/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "07.09.2020",
         "level": 2,
         "norm": "\u0433\u043e\u0440\u043d\u044b\u0439 \u043a\u0440\u044b\u043c \u0438 \u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0430\u044f\u043a\u0438\u043d\u0433",
@@ -5418,26 +4938,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "11.09.2020",
-        "level": 8,
-        "norm": "\u0448\u0432\u0435\u0434\u0441\u043a\u0430\u044f \u043b\u0430\u043f\u043b\u0430\u043d\u0434\u0438\u044f \u0442\u0440\u0435\u043a\u0438\u043d\u0433 \u043f\u043e \u043a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
-        "start": "01.09.2020",
-        "tags": 4196484,
-        "title": "\u0428\u0432\u0435\u0434\u0441\u043a\u0430\u044f \u041b\u0430\u043f\u043b\u0430\u043d\u0434\u0438\u044f. \u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u043f\u043e \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/shvedskaya-laplandiya-treking-po-korolevskoy-trope/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "16.09.2020",
-        "level": 8,
-        "norm": "\u043e\u0441\u0435\u043d\u043d\u0435\u0435 \u0434\u044b\u0445\u0430\u043d\u0438\u0435 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "start": "01.09.2020",
-        "tags": 4196484,
-        "title": "\u041e\u0441\u0435\u043d\u043d\u0435\u0435 \u0434\u044b\u0445\u0430\u043d\u0438\u0435 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-        "url": "https://www.napravlenie.info/catalog/peshie-pokhody/osennee-dykhanie-kamchatki-2020/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "08.09.2020",
         "level": 8,
         "norm": "\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u043c\u0443 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
@@ -5446,16 +4946,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e \u0417\u0430\u043f\u0430\u0434\u043d\u043e\u043c\u0443 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
         "url": "https://cityescape.ru/poxod-po-zapadnomu-prielbrusyu/",
         "vendor": "cityescape"
-    },
-    {
-        "end": "12.09.2020",
-        "level": 8,
-        "norm": "\u043d\u0430 \u043b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043f\u043e\u0434 \u043f\u0430\u0440\u0443\u0441\u0430\u043c\u0438 \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "02.09.2020",
-        "tags": 4196484,
-        "title": "\u041d\u0430 \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043f\u043e\u0434 \u043f\u0430\u0440\u0443\u0441\u0430\u043c\u0438. \u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/na-lofotenskie-ostrova-pod-parusami-unikalnyy-tur-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "11.09.2020",
@@ -5578,16 +5068,6 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
-        "end": "13.09.2020",
-        "level": 8,
-        "norm": "\u0434\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u043a\u0430\u0432\u043a\u0430\u0437\u0430 \u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b \u043e\u0441\u0435\u043d\u044c",
-        "start": "07.09.2020",
-        "tags": 4196484,
-        "title": "\u0414\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u041a\u0430\u0432\u043a\u0430\u0437\u0430 \u2013 \u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b. \u041e\u0441\u0435\u043d\u044c",
-        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/dolmeny-severnogo-kavkaza-mesta-sily-osen/",
-        "vendor": "napravlenie"
-    },
-    {
         "end": "17.09.2020",
         "level": 8,
         "norm": "\u0433\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0430\u0440\u0445\u044b\u0437\u0430",
@@ -5666,26 +5146,6 @@ const DATA={"weekendList": [
         "title": "\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
         "url": "https://zovgor.com/elbrus-s-severa.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "20.09.2020",
-        "level": 8,
-        "norm": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0438\u0440\u043b\u0430\u043d\u0434\u0438\u0438 v3 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "start": "11.09.2020",
-        "tags": 4196484,
-        "title": "5 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438 v3. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/may_tours/5-znamenitykh-vershin-irlandii-v3-aktivnyy-tur/",
-        "vendor": "napravlenie"
-    },
-    {
-        "end": "29.09.2020",
-        "level": 8,
-        "norm": "\u0437\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432 \u043f\u043e\u0434\u043d\u0435\u0431\u0435\u0441\u043d\u043e\u0439",
-        "start": "11.09.2020",
-        "tags": 4196484,
-        "title": "\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432 \u041f\u043e\u0434\u043d\u0435\u0431\u0435\u0441\u043d\u043e\u0439",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/zolotaya-osen-v-podnebesnoy-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "20.09.2020",
@@ -6118,6 +5578,16 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
+        "end": "16.10.2020",
+        "level": 2,
+        "norm": "\u043e\u0441\u0435\u043d\u044c \u0432 \u0434\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0430\u043b\u044c\u043f\u0430\u0445",
+        "start": "08.10.2020",
+        "tags": 8389132,
+        "title": "\u041e\u0441\u0435\u043d\u044c \u0432 \u0414\u043e\u043b\u043e\u043c\u0438\u0442\u043e\u0432\u044b\u0445 \u0410\u043b\u044c\u043f\u0430\u0445",
+        "url": "https://turclub-pik.ru/pohod/zolotaya-osen-v-dolomitovykh-alpakh/1950/",
+        "vendor": "pik"
+    },
+    {
         "end": "22.10.2020",
         "level": 16,
         "norm": "\u043a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u043d\u0435\u043f\u0430\u043b",
@@ -6136,16 +5606,6 @@ const DATA={"weekendList": [
         "title": "\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
         "url": "https://zovgor.com/hot_springs.html",
         "vendor": "zovgor"
-    },
-    {
-        "end": "23.10.2020",
-        "level": 8,
-        "norm": "\u0441\u0442\u0440\u0430\u043d\u0430 \u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0439 \u0441\u0432\u0435\u0436\u0435\u0441\u0442\u0438 \u0442\u0443\u0440 \u0432 \u044e\u0436\u043d\u0443\u044e \u043a\u043e\u0440\u0435\u044e",
-        "start": "10.10.2020",
-        "tags": 8390788,
-        "title": "\u0421\u0442\u0440\u0430\u043d\u0430 \u0423\u0442\u0440\u0435\u043d\u043d\u0435\u0439 \u0421\u0432\u0435\u0436\u0435\u0441\u0442\u0438. \u0422\u0443\u0440 \u0432 \u042e\u0436\u043d\u0443\u044e \u041a\u043e\u0440\u0435\u044e",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/strana-utrenney-svezhesti-tur-v-yuzhnuyu-koreyu-2020/",
-        "vendor": "napravlenie"
     },
     {
         "end": "18.10.2020",
@@ -6316,16 +5776,6 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e \u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435 (\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c)",
         "url": "https://cityescape.ru/poxod-po-likijskoj-trope/",
         "vendor": "cityescape"
-    },
-    {
-        "end": "11.11.2020",
-        "level": 8,
-        "norm": "\u043c\u043e\u043c\u0438\u0434\u0437\u0438 - \u0441\u0435\u0437\u043e\u043d \u0430\u043b\u044b\u0445 \u043a\u043b\u0435\u043d\u043e\u0432 \u0432 \u044f\u043f\u043e\u043d\u0438\u0438 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "start": "31.10.2020",
-        "tags": 25168004,
-        "title": "\u041c\u043e\u043c\u0438\u0434\u0437\u0438 - \u0441\u0435\u0437\u043e\u043d \u0430\u043b\u044b\u0445 \u043a\u043b\u0435\u043d\u043e\u0432 \u0432 \u042f\u043f\u043e\u043d\u0438\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
-        "url": "https://www.napravlenie.info/catalog/ethno_tours/momidzi-sezon-alykh-klenov-v-yaponii-avtorskiy-tur/",
-        "vendor": "napravlenie"
     },
     {
         "end": "04.11.2020",
