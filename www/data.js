@@ -1832,7 +1832,7 @@ const DATA={"weekendList": [
         "level": 8,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043a \u0431\u0435\u0440\u0435\u0433\u0430\u043c \u0440\u0435\u043a\u0438 \u043d\u0435\u0440\u0441\u043a\u043e\u0439",
         "start": "30.05.2020",
-        "tags": 264226,
+        "tags": 264227,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043a \u0431\u0435\u0440\u0435\u0433\u0430\u043c \u0440\u0435\u043a\u0438 \u041d\u0435\u0440\u0441\u043a\u043e\u0439",
         "url": "https://cityescape.ru/detskij-poxod/",
         "vendor": "cityescape"
@@ -2712,7 +2712,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0430\u0434\u043e\u0433\u0430",
         "start": "03.07.2020",
-        "tags": 1049100,
+        "tags": 1049101,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430",
         "url": "https://turclub-pik.ru/pohod/detskaya-ladoga/1725/",
         "vendor": "pik"
@@ -2742,7 +2742,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u0433\u0440\u0443\u0437\u0438\u044f",
         "start": "03.07.2020",
-        "tags": 1049100,
+        "tags": 1049101,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u0413\u0440\u0443\u0437\u0438\u044f",
         "url": "https://turclub-pik.ru/pohod/detskaya-gruziya/1951/",
         "vendor": "pik"
@@ -3222,7 +3222,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0430\u0434\u043e\u0433\u0430",
         "start": "17.07.2020",
-        "tags": 1049100,
+        "tags": 1049101,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430",
         "url": "https://turclub-pik.ru/pohod/detskaya-ladoga/1726/",
         "vendor": "pik"
@@ -3832,7 +3832,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0430\u0434\u043e\u0433\u0430",
         "start": "31.07.2020",
-        "tags": 3146252,
+        "tags": 3146253,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430",
         "url": "https://turclub-pik.ru/pohod/detskaya-ladoga/1727/",
         "vendor": "pik"
@@ -3852,7 +3852,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u043e\u0435 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
         "start": "31.07.2020",
-        "tags": 3146252,
+        "tags": 3146253,
         "title": "\u0414\u0435\u0442\u0441\u043a\u043e\u0435 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
         "url": "https://turclub-pik.ru/pohod/detskoe-prielbruse/1841/",
         "vendor": "pik"
@@ -4532,7 +4532,7 @@ const DATA={"weekendList": [
         "level": 2,
         "norm": "\u0434\u0435\u0442\u0441\u043a\u0430\u044f \u043b\u0430\u0434\u043e\u0433\u0430",
         "start": "14.08.2020",
-        "tags": 2097676,
+        "tags": 2097677,
         "title": "\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430",
         "url": "https://turclub-pik.ru/pohod/detskaya-ladoga/1728/",
         "vendor": "pik"
