@@ -5,7 +5,7 @@ from lxml import html
 
 from lib.config import NAPRAVLENIE
 from lib.models import Item
-from lib.utils import silent
+from lib.utils import zip_safe
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -18,15 +18,16 @@ async def parse_napravlenie():
     return parse_page(page.text)
 
 
-@silent
 def parse_page(text):
     tree = html.fromstring(text)
-    dates = tree.xpath('//*[@class="text-center cell date"]/div/text()')
-    titles = tree.xpath('//*[@class="cell route"]/div/a/text()')
-    hrefs = tree.xpath('//*[@class="cell route"]/div/a/@href')
-
+    prefix = '//div[not(contains(@class, "oldTours"))]/*[@class="aItem"]'
+    dates = tree.xpath(
+        f'{prefix}//*[@class="abody"]/*[@class="blueTextBg"]/text()'
+    )
+    titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
+    hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
     now = datetime.now()
-    for date, title, href in zip(dates, titles, hrefs):
+    for date, title, href in zip_safe(dates, titles, hrefs):
         start, end = parse_dates(now, date)
         yield Item(
             vendor=NAPRAVLENIE,
