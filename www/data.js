@@ -88,36 +88,6 @@ const DATA={"weekendList": [
         "vendor": "orangeked"
     },
     {
-        "end": "08.03.2020",
-        "level": 2,
-        "norm": "\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
-        "start": "02.03.2020",
-        "tags": 66061,
-        "title": "\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
-        "url": "https://turclub-pik.ru/pohod/detskii-zimnii-baikal/1528/",
-        "vendor": "pik"
-    },
-    {
-        "end": "13.03.2020",
-        "level": 16,
-        "norm": "\u043a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e \u0441\u0430\u0444\u0430\u0440\u0438 \u0438 \u0437\u0430\u043d\u0437\u0438\u0431\u0430\u0440 \u0442\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
-        "start": "02.03.2020",
-        "tags": 69700,
-        "title": "\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438 \u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
-        "url": "https://zovgor.com/kilimanjaro.html",
-        "vendor": "zovgor"
-    },
-    {
-        "end": "14.03.2020",
-        "level": 8,
-        "norm": "\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043d\u0430 \u043a\u0430\u043d\u0430\u0440\u0430\u0445 \u0438\u0441\u043f\u0430\u043d\u0438\u044f",
-        "start": "03.03.2020",
-        "tags": 67652,
-        "title": "\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043d\u0430 \u041a\u0430\u043d\u0430\u0440\u0430\u0445 (\u0418\u0441\u043f\u0430\u043d\u0438\u044f)",
-        "url": "https://zovgor.com/canarias.html",
-        "vendor": "zovgor"
-    },
-    {
         "end": "09.03.2020",
         "level": 8,
         "norm": "\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
@@ -275,16 +245,6 @@ const DATA={"weekendList": [
         "tags": 66570,
         "title": "\u041d\u043e\u0447\u044c \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u043e\u043c \u043b\u0435\u0441\u0443 \"\u042d\u043a\u0441\u0442\u0440\u0438\u043c\"",
         "url": "https://turclub-pik.ru/pohod/noch-v-podmoskovnom-lesu-ekstrim/1877/",
-        "vendor": "pik"
-    },
-    {
-        "end": "15.03.2020",
-        "level": 4,
-        "norm": "\u0433\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0438\u043b\u0435\u0442\u044c",
-        "start": "14.03.2020",
-        "tags": 66570,
-        "title": "\u0413\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0418\u043b\u0435\u0442\u044c",
-        "url": "https://turclub-pik.ru/pohod/splav-po-ileti/1922/",
         "vendor": "pik"
     },
     {
@@ -2676,6 +2636,16 @@ const DATA={"weekendList": [
         "title": "\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0410\u0440\u0430\u0440\u0430\u0442 (\u0422\u0443\u0440\u0446\u0438\u044f)",
         "url": "https://zovgor.com/ararat.html",
         "vendor": "zovgor"
+    },
+    {
+        "end": "11.07.2020",
+        "level": 8,
+        "norm": "\u044d\u0441\u0442\u043e\u043d\u0438\u044f \u0434\u043b\u044f \u0441\u0435\u043c\u044c\u0438 \u0442\u0443\u0440 \u0434\u043b\u044f \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u0441 \u0434\u0435\u0442\u044c\u043c\u0438 4-10 \u043b\u0435\u0442",
+        "start": "04.07.2020",
+        "tags": 1050757,
+        "title": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f \u0434\u043b\u044f \u0441\u0435\u043c\u044c\u0438. \u0422\u0443\u0440 \u0434\u043b\u044f \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u0441 \u0434\u0435\u0442\u044c\u043c\u0438 4-10 \u043b\u0435\u0442",
+        "url": "https://www.napravlenie.info/catalog/avtorskie-tury/estoniya-dlya-semi-tur-dlya-roditeley-s-detmi-4-10-let/",
+        "vendor": "napravlenie"
     },
     {
         "end": "16.07.2020",

@@ -80,8 +80,9 @@ def render():
         # todo: send to telegram
         arrived = set(pluck('url', filtered)) - seen
         if seen and arrived:
-            urls = ', '.join(arrived)
-            debug(f'New items found! 🎉 "{urls}"')
+            debug('New items found! 🎉')
+            for item in arrived:
+                debug('- ' + item)
 
         # Writes data.js
         dumped = map(json_dumps, (WEEKENDS, filtered, TAGS))
