@@ -10,7 +10,7 @@ from .tags import TAGS, get_tags
 
 NOW = datetime.now()
 TOO_LONG = timedelta(days=30)
-TOO_FAR = NOW + timedelta(days=400)
+TOO_FAR = NOW + timedelta(days=500)
 JS_TEMPLATE = (
     'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
 )

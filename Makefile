@@ -24,8 +24,11 @@ parse:
 render:
 	python -m lib.cli render
 
+browse:
+	python -m lib.cli browse
+
 serve:
 	uvicorn lib.app:app --host 0.0.0.0 --port 80
 
-cron: parse render
+cron: parse render browse
 	git commit -a -m "Update www/data.js" && git push

@@ -1,6 +1,8 @@
+import webbrowser
+
 import click
 
-from lib.config import VENDORS
+from lib.config import VENDORS, DIST_INDEX
 from lib.parse import parse
 from lib.render import render
 
@@ -20,6 +22,12 @@ cli.command()(
     )(parse)
 )
 cli.command()(render)
+
+
+@cli.command()
+def browse():
+    return webbrowser.open('file:///' + DIST_INDEX)
+
 
 if __name__ == '__main__':
     cli()
