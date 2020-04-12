@@ -5906,6 +5906,76 @@ const DATA={"weekendList": [
         "title": "\u041a\u0440\u044b\u043c. \u041f\u043e \u0433\u043e\u0440\u0430\u043c \u0432\u0434\u043e\u043b\u044c \u043c\u043e\u0440\u044f",
         "url": "https://turclub-pik.ru/pohod/po-goram-vdol-morya/1976/",
         "vendor": "pik"
+    },
+    {
+        "end": "30.05.2021",
+        "level": 8,
+        "norm": "\u0448\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430 \u044f\u0445\u0442\u0435 \u043d\u0430 \u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0430\u0440\u043a\u0442\u0438\u043a\u0438",
+        "start": "18.05.2021",
+        "tags": 264452,
+        "title": "\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430 \u044f\u0445\u0442\u0435: \u043d\u0430 \u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
+        "url": "https://team-trip.ru/spitzbergen2021",
+        "vendor": "teamtrip"
+    },
+    {
+        "end": "11.06.2021",
+        "level": 4,
+        "norm": "\u043c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
+        "start": "05.06.2021",
+        "tags": 525324,
+        "title": "\u041c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u041a\u0440\u044b\u043c\u0443",
+        "url": "https://turclub-pik.ru/pohod/krym-morskoe-puteshestvie-na-kayakakh/1983/",
+        "vendor": "pik"
+    },
+    {
+        "end": "20.06.2021",
+        "level": 8,
+        "norm": "\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
+        "start": "12.06.2021",
+        "tags": 526348,
+        "title": "\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u041a\u0440\u044b\u043c\u0443",
+        "url": "https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1980/",
+        "vendor": "pik"
+    },
+    {
+        "end": "23.07.2021",
+        "level": 8,
+        "norm": "\u0430\u043b\u0442\u0430\u0439 \u043a \u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0431\u0435\u043b\u0443\u0445\u0438",
+        "start": "11.07.2021",
+        "tags": 1050636,
+        "title": "\u0410\u043b\u0442\u0430\u0439. \u041a \u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
+        "url": "https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/1986/",
+        "vendor": "pik"
+    },
+    {
+        "end": "04.08.2021",
+        "level": 8,
+        "norm": "\u0430\u043b\u0442\u0430\u0439 \u0448\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+        "start": "25.07.2021",
+        "tags": 3147788,
+        "title": "\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+        "url": "https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1988/",
+        "vendor": "pik"
+    },
+    {
+        "end": "14.08.2021",
+        "level": 8,
+        "norm": "\u0430\u043b\u0442\u0430\u0439 \u0448\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+        "start": "04.08.2021",
+        "tags": 2099212,
+        "title": "\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+        "url": "https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1987/",
+        "vendor": "pik"
+    },
+    {
+        "end": "15.08.2021",
+        "level": 8,
+        "norm": "\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
+        "start": "07.08.2021",
+        "tags": 2099212,
+        "title": "\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u041a\u0440\u044b\u043c\u0443",
+        "url": "https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1981/",
+        "vendor": "pik"
     }
 ], "tagGroups": [
     {
