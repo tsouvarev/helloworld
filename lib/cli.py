@@ -2,7 +2,7 @@ import webbrowser
 
 import click
 
-from lib.config import VENDORS, DIST_INDEX
+from lib.config import DIST_INDEX, VENDORS
 from lib.parse import parse
 from lib.render import render
 
