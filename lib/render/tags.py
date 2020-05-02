@@ -8,6 +8,8 @@ from funcy import post_processing
 
 from ..config import (
     CITYESCAPE,
+    DEFAULT_LEVEL,
+    EASY,
     LEVELS,
     NAPRAVLENIE,
     ORANGEKED,
@@ -105,13 +107,20 @@ RE_KIDS = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).finda
 def get_tags(src: dict):
     yield VENDORS[src['vendor']]
 
-    for bit, tag in zip(LEVELS, LEVELS_TAGS):
-        if bit == src['level']:
-            yield tag
-
     # fixme: kids tag duck style
+    level = src['level']
     if RE_KIDS(src['norm']):
         yield KIDS
+
+        # If guessed the level (i.e. eq to DEFAULT_LEVEL),
+        # then put EASY level,
+        # cause it's for kids
+        if level == DEFAULT_LEVEL:
+            level = EASY
+
+    for bit, tag in zip(LEVELS, LEVELS_TAGS):
+        if bit & level:
+            yield tag
 
     # duration
     if (src['end'] - src['start']) <= SHORT_DURATION:

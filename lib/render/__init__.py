@@ -7,7 +7,7 @@ from typus import ru_typus
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
 from ..utils import debug, error, json_dumps, normalize, sorter, strptime
-from .tags import TAGS, get_tags, LEVELS_TAGS
+from .tags import LEVELS_TAGS, TAGS, get_tags
 
 NOW = datetime.now()
 TOO_LONG = timedelta(days=30)
@@ -47,6 +47,13 @@ def parse_item(item: dict):
     # This mast be after all updates
     # to create valid tags
     item.update(tags=get_tags(item))
+
+    # Replaces bit level with first matching human level
+    item.update(
+        level=first(
+            i for i, x in enumerate(LEVELS_TAGS, 1) if item['tags'] & x.bit
+        )
+    )
     return item
 
 

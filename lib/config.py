@@ -50,11 +50,13 @@ WEEKENDS = [
     '04.11.2021',
 ]
 
-VERY_EASY = 1
-EASY = 2
-MIDDLE = 3
-HARD = 4
-VERY_HARD = 5
+# Some events do match several levels,
+# that are bit for.
+VERY_EASY = 1 << 1
+EASY = 1 << 2
+MIDDLE = 1 << 3
+HARD = 1 << 4
+VERY_HARD = 1 << 5
 LEVELS = (
     VERY_EASY,
     EASY,
@@ -62,3 +64,4 @@ LEVELS = (
     HARD,
     VERY_HARD,
 )
+DEFAULT_LEVEL = MIDDLE

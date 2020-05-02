@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from .config import MIDDLE
+from .config import DEFAULT_LEVEL
 
 
 class Item(BaseModel):
@@ -11,5 +11,5 @@ class Item(BaseModel):
     title: str
     start: datetime
     end: datetime
-    level: int = MIDDLE
+    level: int = DEFAULT_LEVEL
     url: str = '#'
