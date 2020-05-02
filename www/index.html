@@ -102,12 +102,50 @@
     </article>
     <div class="detail" v-if="detail.event">
         <div class="detail__close" v-on:click="hideDetail">✕</div>
-        <div class="detail__inner">
-            <h1 class="detail__title"><a href="{{ detail.event.url }}" class="detail__title__url" target="_blank">{{ detail.event.title }}</a></h1>
-            <ul>
-                <li>🗓 {{ detail.event.start.format('DD.MM') }}&mdash;{{ detail.event.end.format('DD.MM') }}, {{ detail.event.days }}&nbsp;{{ detail.event.days | pluralize('день', 'дня', 'дней') }}</li>
-                <li><span v-for="n in event.level">🥾</span></li>
-            </ul>
+        <span class="detail__inner" :set="event = detail.event">
+            <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
+            <table>
+                <tr>
+                    <th align="right">🚩</th>
+                    <td :set="url = parseUrl(event.url)"><a :href="url.origin">{{ url.hostname }}</a></td>
+                </tr>
+                <tr>
+                    <th align="right">🗓</th>
+                    <td>
+                        {{ event.start.format('DD.MM') }}&mdash;{{ event.end.format('DD.MM') }},
+                        {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right">🥾</th>
+                    <td>
+                        {{ event.level }}/5
+                        &mdash;
+                        <span v-if="event.level == 1">
+                          очень простой маршрут. Подходит для детей любого возраста.
+                        </span>
+                        <span v-else-if="event.level == 2">
+                          простой маршрут. Подходит для новичков и подростков.
+                        </span>
+                        <span v-else-if="event.level == 3">
+                          маршрут средней сложности. Требуется подготовка.
+                        </span>
+                        <span v-else-if="event.level == 4">
+                          это сложный маршрут. Требуется серьезная подготовка.
+                        </span>
+                        <span v-else-if="event.level == 5">
+                          это очень сложный маршрут. Вы определенно знаете что делаете.
+                        </span>
+                        <span v-else>
+                          Not A/B/C
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right"></th>
+                    <td></td>
+                </tr>
+            </table>
         </div>
     </div>
 </div>

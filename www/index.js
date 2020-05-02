@@ -155,6 +155,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
             },
             hideDetail: function(){
                 this.detail.event = null;
+            },
+            parseUrl: function(value){
+                return new URL(value);
             }
         }
     });
