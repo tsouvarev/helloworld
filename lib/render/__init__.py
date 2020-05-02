@@ -3,10 +3,11 @@ from datetime import datetime, timedelta
 from operator import itemgetter
 
 from funcy import first, pluck
+from typus import ru_typus
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
 from ..utils import debug, error, json_dumps, normalize, sorter, strptime
-from .tags import TAGS, get_tags
+from .tags import TAGS, get_tags, LEVELS_TAGS
 
 NOW = datetime.now()
 TOO_LONG = timedelta(days=30)
@@ -38,10 +39,13 @@ def post_filter(now, item: dict):
 
 def parse_item(item: dict):
     item.update(
+        title=ru_typus(item['title']),
+        norm=normalize(item['title']),
         start=strptime(item['start']),
         end=strptime(item['end']),
-        norm=normalize(item['title']),
     )
+    # This mast be after all updates
+    # to create valid tags
     item.update(tags=get_tags(item))
     return item
 

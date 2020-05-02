@@ -38,8 +38,8 @@
     </style>
 </head>
 <body>
-    <div id="blocker"><div class="before">загружаюсь…</div></div>
-    <div id="app">
+<div id="blocker"><div class="before">загружаюсь…</div></div>
+<div id="app">
     <aside class="aside">
         <div class="aside__content">
             <h1 class="title title--xxxl">
@@ -88,20 +88,29 @@
                      :style="{ width: stripe.width + 'px'}"
                 ></div>
             </div>
-            <a
+            <div
                 v-for="event in eventFilter"
+                v-on:click="showDetail(event)"
                 :id="event.id"
                 :class="`gant__event gant__event--${event.vendor}`"
                 :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
-                target="_blank"
-                :href="event.url"
             >
                 <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&mdash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
                 <div class="gant__event__title">{{ event.title }}</div>
-            </a>
+            </div>
         </div>
     </article>
+    <div class="detail" v-if="detail.event">
+        <div class="detail__close" v-on:click="hideDetail">✕</div>
+        <div class="detail__inner">
+            <h1 class="detail__title"><a href="{{ detail.event.url }}" class="detail__title__url" target="_blank">{{ detail.event.title }}</a></h1>
+            <ul>
+                <li>🗓 {{ detail.event.start.format('DD.MM') }}&mdash;{{ detail.event.end.format('DD.MM') }}, {{ detail.event.days }}&nbsp;{{ detail.event.days | pluralize('день', 'дня', 'дней') }}</li>
+                <li><span v-for="n in event.level">🥾</span></li>
+            </ul>
+        </div>
     </div>
+</div>
 </body>
 <link rel="stylesheet" href="./tent.min.css">
 <link rel="stylesheet" href="./index.css">

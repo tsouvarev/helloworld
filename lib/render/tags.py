@@ -106,7 +106,7 @@ def get_tags(src: dict):
     yield VENDORS[src['vendor']]
 
     for bit, tag in zip(LEVELS, LEVELS_TAGS):
-        if bit & src['level']:
+        if bit == src['level']:
             yield tag
 
     # fixme: kids tag duck style

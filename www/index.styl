@@ -226,6 +226,35 @@ input.search__input
             opacity 1 !important
 
 
+.detail
+    position fixed
+    width 100%
+    height 100%
+    left 0
+    top 0
+    background white
+    z-index 100
+    padding 10px 20%
+    display flex
+
+    &__close
+        font-size 40px
+        padding 10px
+        top 5%
+        right 10%
+        position absolute
+        cursor pointer
+
+    &__inner
+        margin auto
+        max-width 800px
+
+    &__title
+        margin-top 0 !important
+
+        &__url
+            border-bottom 1px solid #eee
+
 html, body, article, #app, .gant
     height 100%
 

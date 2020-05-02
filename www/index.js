@@ -33,6 +33,10 @@ function renderTripper(weekendList, eventSource, tagGroups){
             applySearch: '',
             months: [],
             stripes: [],
+            detail: {
+                show: false,
+                event: null,
+            },
         },
         filters: {
             pluralize: function(value, one, two, three){
@@ -143,6 +147,14 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     });
                 });
                 return events;
+            }
+        },
+        methods: {
+            showDetail: function(event){
+                this.detail.event = event;
+            },
+            hideDetail: function(){
+                this.detail.event = null;
             }
         }
     });
