@@ -31,6 +31,11 @@ class Tag:
     bit: int = field(default_factory=lambda: 1 << bits())
     active: bool = False
 
+    def __and__(self, other):
+        return self.bit & other
+
+    __rand__ = __and__
+
 
 class TagGroup:
     tags: Dict[str, Tag]
