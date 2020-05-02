@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -13,3 +14,7 @@ class Item(BaseModel):
     end: datetime
     level: int = DEFAULT_LEVEL
     url: str = '#'
+    price: Optional[str]
+
+    class Config:
+        extra = 'forbid'

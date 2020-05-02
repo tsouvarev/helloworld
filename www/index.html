@@ -104,7 +104,7 @@
         <div class="detail__close" v-on:click="hideDetail">✕</div>
         <span class="detail__inner" :set="event = detail.event">
             <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
-            <table>
+            <table class="tbl">
                 <tr>
                     <th align="right">🚩</th>
                     <td :set="url = parseUrl(event.url)"><a :href="url.origin">{{ url.hostname }}</a></td>
@@ -141,9 +141,9 @@
                         </span>
                     </td>
                 </tr>
-                <tr>
-                    <th align="right"></th>
-                    <td></td>
+                <tr v-if="event.price">
+                    <th align="right">🤑</th>
+                    <td>{{ event.price }}</td>
                 </tr>
             </table>
         </div>

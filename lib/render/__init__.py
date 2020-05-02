@@ -1,3 +1,4 @@
+import hashlib
 import json
 from datetime import datetime, timedelta
 from operator import itemgetter
@@ -7,6 +8,7 @@ from typus import ru_typus
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
 from ..utils import debug, error, json_dumps, normalize, sorter, strptime
+from ..utils.text import format_price
 from .tags import LEVELS_TAGS, TAGS, get_tags
 
 NOW = datetime.now()
@@ -38,7 +40,10 @@ def post_filter(now, item: dict):
 
 
 def parse_item(item: dict):
+    uid = hashlib.sha256(item['url'].encode()).hexdigest()[:7]
     item.update(
+        id=uid,
+        price=item['price'] and format_price(item['price']),
         title=ru_typus(item['title']),
         norm=normalize(item['title']),
         start=strptime(item['start']),
@@ -48,7 +53,7 @@ def parse_item(item: dict):
     # to create valid tags
     item.update(tags=get_tags(item))
 
-    # Replaces bit level with first matching human level
+    # Replaces bit level with first matching int level
     item.update(
         level=first(
             i for i, x in enumerate(LEVELS_TAGS, 1) if item['tags'] & x.bit

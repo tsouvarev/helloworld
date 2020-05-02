@@ -57,13 +57,14 @@ def parse_date(src: str):
     yield datetime(end_year, end_month, int(end_day))
 
 
-def parse_item(item: Item) -> Item:
+def parse_item(item: dict) -> Item:
     start, end = parse_date(item['duration_explained'])
     return Item(
         vendor=PIK,
         start=start,
         end=end,
         title=item['name'],
+        price=item['costs_rubs'],
         url='https://turclub-pik.ru' + item['absolute_url'],
         level=LEVELS[item['track']['difficulty']['slug']],
     )

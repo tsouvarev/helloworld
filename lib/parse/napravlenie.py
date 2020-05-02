@@ -1,11 +1,12 @@
 from datetime import datetime
 
 import httpx
+from funcy import keep
 from lxml import html
 
-from lib.config import NAPRAVLENIE
-from lib.models import Item
-from lib.utils import zip_safe
+from ..config import NAPRAVLENIE
+from ..models import Item
+from ..utils import zip_safe
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -24,10 +25,16 @@ def parse_page(text):
     dates = tree.xpath(
         f'{prefix}//*[@class="abody"]/*[@class="blueTextBg"]/text()'
     )
+    prices = keep(
+        str.strip,
+        tree.xpath(
+            f'{prefix}//*[@class="afoot"]/span[1]/*[@class="textIco price"]/text()'
+        ),
+    )
     titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
     hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
     now = datetime.now()
-    for date, title, href in zip_safe(dates, titles, hrefs):
+    for date, price, title, href in zip_safe(dates, prices, titles, hrefs):
         start, end = parse_dates(now, date)
         yield Item(
             vendor=NAPRAVLENIE,
@@ -35,6 +42,8 @@ def parse_page(text):
             end=end,
             title=title.replace(' / 2020', ''),
             url='https://www.napravlenie.info' + href,
+            # Comma separates children price
+            price=price.split(',', 1)[0],
         )
 
 

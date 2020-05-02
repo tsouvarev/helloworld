@@ -35,6 +35,9 @@ async def parse_page(path: str) -> Item:
     start, end = parse_date(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
     )
+    price = tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[
+        2
+    ]
     return Item(
         vendor=ORANGEKED,
         level=LEVELS[level - 1],
@@ -42,6 +45,7 @@ async def parse_page(path: str) -> Item:
         end=end,
         url=url,
         title=title,
+        price=price,
     )
 
 

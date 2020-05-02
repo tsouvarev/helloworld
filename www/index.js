@@ -51,7 +51,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
             const self = this,
                   urlParams = new URLSearchParams(window.location.search),
                   tags = parseInt(urlParams.get('tags')),
-                  search = urlParams.get('q');
+                  search = urlParams.get('q'),
+                  view_event = window.location.hash.substr(1);
 
             if (tags){
                 this.tags.map(function(g){
@@ -65,6 +66,13 @@ function renderTripper(weekendList, eventSource, tagGroups){
 
             if (search){
                 this.applySearch = search.trim();
+            }
+
+            if (view_event){
+                var event = eventList.find(e => e.id === view_event);
+                if (event) {
+                    this.showDetail(event);
+                }
             }
         },
         computed: {
@@ -82,14 +90,21 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     newParams = Object.entries(params)
                         .filter(([k, v]) => v)
                         .map((i) => i.join('='))
-                        .join('&')
+                        .join('&'),
+                    eventId = window.location.hash.substr(1).trim()
                 ;
 
-                window.history.replaceState(
-                    {},
-                    null,
-                    newParams ? newUrl += '?' + newParams: newUrl
-                );
+
+                if (newParams) {
+                    newUrl += '?' + newParams;
+                }
+
+                if (eventId && this.detail.event !== null){
+                    // event is found
+                    newUrl += '#' + eventId;
+                }
+
+                window.history.replaceState({}, null, newUrl);
 
                 if (params.q){
                     events = events.filter((e) => e.norm.indexOf(params.q) != -1);
@@ -151,9 +166,11 @@ function renderTripper(weekendList, eventSource, tagGroups){
         },
         methods: {
             showDetail: function(event){
+                window.location.hash = '#' + event.id;
                 this.detail.event = event;
             },
             hideDetail: function(){
+                window.history.replaceState({}, null, window.location.href.split('#')[0]);
                 this.detail.event = null;
             },
             parseUrl: function(value){
@@ -172,7 +189,6 @@ function getEvents(eventSource, tagGroups) {
         end = moment(source.end, dateFormat);
         const days = end.diff(start, 'days') + 1;
         event = Object.assign(source, {
-               id: 'gant__event--' + i,
             index: i,
             start: start,
               end: end,

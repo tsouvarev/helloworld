@@ -20,6 +20,10 @@ body.active
     #blocker
         opacity 0
 
+a
+    border-bottom 1px solid rgba(0,0,0,.05)
+
+
 #app
     position relative
     display flex
@@ -254,8 +258,17 @@ input.search__input
         font-size 40px
         font-size 6.5vmin
 
-    &__url
-        border-bottom 1px solid #eee
+.tbl
+    th, td
+        vertical-align top
+        padding 5px 10px
+
+        &:first-child
+            padding-left 0
+
+        &:last-child
+            padding-right 0
+
 
 html, body, article, #app, .gant
     height 100%
