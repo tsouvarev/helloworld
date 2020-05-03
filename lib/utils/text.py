@@ -35,15 +35,15 @@ def normalize(string: str):
 
 
 def format_int(src: int) -> str:
-    return '{:,}'.format(src).replace(',', ' ')
+    return '{:,}'.format(src).replace(',', '\u00A0')
 
 
 RE_PRICE = partial(re.compile(r'\D+').sub, '')
-DEFAULT_CURRENCY = '{} ₽'
+DEFAULT_CURRENCY = '{}\u00A0₽'
 CURRENCIES = {
     DEFAULT_CURRENCY: re.compile(r'(₽|руб)', re.I),
-    '€ {}': re.compile(r'(€|евро)', re.I),
-    '$ {}': re.compile(r'(\$|дол)', re.I),
+    '€\u00A0{}': re.compile(r'(€|евро)', re.I),
+    '$\u00A0{}': re.compile(r'(\$|дол)', re.I),
 }
 
 
