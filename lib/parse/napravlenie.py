@@ -43,7 +43,7 @@ def parse_page(text):
             url='https://www.napravlenie.info' + href,
             # Comma separates children price,
             # Currency is somewhere
-            price=price.split(',', 1)[0] + guess_currency(price),
+            price=guess_currency(price).format(price.split(',', 1)[0]),
         )
 
 

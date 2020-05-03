@@ -39,11 +39,11 @@ def format_int(src: int) -> str:
 
 
 RE_PRICE = partial(re.compile(r'\D+').sub, '')
-DEFAULT_CURRENCY = '₽'
+DEFAULT_CURRENCY = '{} ₽'
 CURRENCIES = {
     DEFAULT_CURRENCY: re.compile(r'(₽|руб)', re.I),
-    '€': re.compile(r'(€|евро)', re.I),
-    '$': re.compile(r'(\$|дол)', re.I),
+    '€ {}': re.compile(r'(€|евро)', re.I),
+    '$ {}': re.compile(r'(\$|дол)', re.I),
 }
 
 
@@ -60,6 +60,5 @@ def format_price(src: str):
         # nothing found
         return src
 
-    digits = format_int(int(price))
     currency = guess_currency(src)
-    return f'{digits} {currency}'
+    return currency.format(format_int(int(price)))
