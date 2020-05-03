@@ -47,17 +47,19 @@ CURRENCIES = {
 }
 
 
+def guess_currency(src: str, default=DEFAULT_CURRENCY) -> str:
+    for key, value in CURRENCIES.items():
+        if value.search(src):
+            return key
+    return default
+
+
 def format_price(src: str):
     price = RE_PRICE(src)
     if not price:
         # nothing found
         return src
 
-    currency = DEFAULT_CURRENCY
     digits = format_int(int(price))
-    for key, value in CURRENCIES.items():
-        if value.search(src):
-            currency = key
-            break
-
+    currency = guess_currency(src)
     return f'{digits} {currency}'

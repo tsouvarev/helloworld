@@ -52,7 +52,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                   urlParams = new URLSearchParams(window.location.search),
                   tags = parseInt(urlParams.get('tags')),
                   search = urlParams.get('q'),
-                  view_event = window.location.hash.substr(1);
+                  showEvent = window.location.hash.substr(1);
 
             if (tags){
                 this.tags.map(function(g){
@@ -68,8 +68,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 this.applySearch = search.trim();
             }
 
-            if (view_event){
-                var event = eventList.find(e => e.id === view_event);
+            if (showEvent){
+                var event = eventList.find(e => e.id === showEvent);
                 if (event) {
                     this.showDetail(event);
                 }
@@ -86,25 +86,17 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 ;
 
                 params.tags = this.applyTags.reduce((r, b) => r |= b, params.tags);
-                let newUrl = window.location.href.split('?')[0],
-                    newParams = Object.entries(params)
+                let newParams = Object.entries(params)
                         .filter(([k, v]) => v)
                         .map((i) => i.join('='))
-                        .join('&'),
-                    eventId = window.location.hash.substr(1).trim()
+                        .join('&')
                 ;
 
-
-                if (newParams) {
-                    newUrl += '?' + newParams;
-                }
-
-                if (eventId && this.detail.event !== null){
-                    // event is found
-                    newUrl += '#' + eventId;
-                }
-
-                window.history.replaceState({}, null, newUrl);
+                updateUrl(
+                    newParams,
+                    // does event found?
+                    this.detail.event ? this.detail.event.id : '',
+                );
 
                 if (params.q){
                     events = events.filter((e) => e.norm.indexOf(params.q) != -1);
@@ -166,11 +158,11 @@ function renderTripper(weekendList, eventSource, tagGroups){
         },
         methods: {
             showDetail: function(event){
-                window.location.hash = '#' + event.id;
+                updateUrl(null, event.id)
                 this.detail.event = event;
             },
             hideDetail: function(){
-                window.history.replaceState({}, null, window.location.href.split('#')[0]);
+                updateUrl(null, '')
                 this.detail.event = null;
             },
             parseUrl: function(value){
@@ -178,6 +170,32 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         }
     });
+}
+
+function updateUrl(params, hash){
+    let url = new URL(window.location.href);
+
+    switch (params) {
+        case null:
+            break;
+        case '':
+            url.search = '';
+            break;
+        default:
+            url.search = '?' + params;
+    }
+
+    switch (hash) {
+        case null:
+            break;
+        case '':
+            url.hash = '';
+            break;
+        default:
+            url.hash = '#' + hash;
+    }
+
+    window.history.replaceState({}, null, url.toString());
 }
 
 function getEvents(eventSource, tagGroups) {

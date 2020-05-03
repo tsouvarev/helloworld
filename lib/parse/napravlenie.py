@@ -7,6 +7,7 @@ from lxml import html
 from ..config import NAPRAVLENIE
 from ..models import Item
 from ..utils import zip_safe
+from ..utils.text import guess_currency
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -25,12 +26,10 @@ def parse_page(text):
     dates = tree.xpath(
         f'{prefix}//*[@class="abody"]/*[@class="blueTextBg"]/text()'
     )
-    prices = keep(
-        str.strip,
-        tree.xpath(
-            f'{prefix}//*[@class="afoot"]/span[1]/*[@class="textIco price"]/text()'
-        ),
+    price_nodes = tree.xpath(
+        f'{prefix}//*[@class="afoot"]/span[1]/*[@class="textIco price"]'
     )
+    prices = (''.join(n.itertext()).strip() for n in price_nodes)
     titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
     hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
     now = datetime.now()
@@ -42,8 +41,9 @@ def parse_page(text):
             end=end,
             title=title.replace(' / 2020', ''),
             url='https://www.napravlenie.info' + href,
-            # Comma separates children price
-            price=price.split(',', 1)[0],
+            # Comma separates children price,
+            # Currency is somewhere
+            price=price.split(',', 1)[0] + guess_currency(price),
         )
 
 
