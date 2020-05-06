@@ -68,7 +68,7 @@
     <article class="gant">
         <div class="gant__months">
             <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
-                <div class="gant__month__name">{{ month.name }}</div>
+                <div class="gant__month__name" v-html="month.name"></div>
                 <div class="gant__month__days">
                     <span
                         class="gant__month__days__day"

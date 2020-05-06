@@ -94,20 +94,26 @@ a
 
 .gant__month
     display inline-block
-    overflow visible
     cursor default
     border-right 1px solid #eee
-    overflow hidden
+    position relative
+    background white
 
     &:last-child
         border-right-width 0
 
     &__name
+        left 0
+        max-width day
+        position sticky
         display block
         line-height 30px
         height 30px
         padding 0 10px
         font-size 14px
+
+        small
+            font-weight bold
 
     &__days
         user-select none

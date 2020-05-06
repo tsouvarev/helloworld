@@ -260,8 +260,8 @@ function getMonths(today, firstDate, lastDate, weekendList){
         }
 
         let name = monthNames[month.month()];
-        if (month.month() == 0 && month.year() > today.year()) {
-            name = name + ' ' + month.year()
+        if (month.year() > today.year()) {
+            name = name + ' <small>' + month.year() + '</small>'
         }
 
         monthList.push({
