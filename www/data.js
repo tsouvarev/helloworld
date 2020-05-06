@@ -4448,6 +4448,19 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
+        "end": "01.09.2020",
+        "for_kids": 0,
+        "id": "de51bfd",
+        "level": 3,
+        "norm": "\u0430\u043b\u0442\u0430\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043a \u0433\u043e\u0440\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
+        "price": "27\u00a0800\u00a0\u20bd",
+        "start": "20.08.2020",
+        "tags": 6293516,
+        "title": "\u0410\u043b\u0442\u0430\u0439. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043a\u00a0\u0433\u043e\u0440\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
+        "url": "https://turclub-pik.ru/pohod/altai-trekking-k-gornym-ozeram/2012/",
+        "vendor": "pik"
+    },
+    {
         "end": "28.08.2020",
         "for_kids": 0,
         "id": "382949c",
@@ -5969,19 +5982,6 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
-        "end": "09.10.2020",
-        "for_kids": 0,
-        "id": "e62fecc",
-        "level": 2,
-        "norm": "\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a \u043c\u043e\u0440\u044e",
-        "price": null,
-        "start": "03.10.2020",
-        "tags": 8389700,
-        "title": "\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
-        "url": "https://zovgor.com/zapovednik_kavkaz.html",
-        "vendor": "zovgor"
-    },
-    {
         "end": "08.10.2020",
         "for_kids": 0,
         "id": "f841577",
@@ -6045,6 +6045,19 @@ const DATA={"weekendList": [
         "title": "\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a, 6183\u00a0\u043c + \u0411\u041b\u00a0\u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0413\u043e\u043a\u0438\u043e",
         "url": "https://turclub-pik.ru/pohod/voskhozhdenie-na-ailend-pik/1890/",
         "vendor": "pik"
+    },
+    {
+        "end": "10.10.2020",
+        "for_kids": 0,
+        "id": "e62fecc",
+        "level": 2,
+        "norm": "\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a \u043c\u043e\u0440\u044e",
+        "price": null,
+        "start": "04.10.2020",
+        "tags": 8389700,
+        "title": "\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
+        "url": "https://zovgor.com/zapovednik_kavkaz.html",
+        "vendor": "zovgor"
     },
     {
         "end": "13.10.2020",
@@ -6220,11 +6233,11 @@ const DATA={"weekendList": [
         "for_kids": 0,
         "id": "4342f0e",
         "level": 3,
-        "norm": "\u043d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u0430\u044f \u0431\u043e\u043b\u0438\u0432\u0438\u044f",
+        "norm": "\u0431\u043e\u043b\u0438\u0432\u0438\u044f \u0438 \u0443\u044e\u043d\u0438",
         "price": "73\u00a0400\u00a0\u20bd",
         "start": "17.10.2020",
         "tags": 8390668,
-        "title": "\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u0430\u044f \u0411\u043e\u043b\u0438\u0432\u0438\u044f",
+        "title": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f \u0438\u00a0\u0423\u044e\u043d\u0438",
         "url": "https://turclub-pik.ru/pohod/neizvedannaya-boliviya/1962/",
         "vendor": "pik"
     },
