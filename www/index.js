@@ -74,6 +74,13 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     this.showDetail(event);
                 }
             }
+
+            // Closes event detail on ESC
+            document.addEventListener('keyup', function (evt) {
+                if (evt.keyCode === 27) {
+                    self.hideDetail();
+                }
+            });
         },
         computed: {
             eventFilter(){
