@@ -1,11 +1,12 @@
 import asyncio
 import operator
 from contextlib import contextmanager
+from dataclasses import dataclass, field
 from datetime import date, datetime
 from functools import partial, update_wrapper
 from inspect import iscoroutinefunction
-from itertools import zip_longest
-from typing import Iterable
+from itertools import cycle, zip_longest
+from typing import Iterable, Iterator
 
 import click
 import simplejson
@@ -13,7 +14,7 @@ from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
 from ..config import DATE_FORMAT
-from .text import normalize  # noqa
+from .text import format_price, normalize  # noqa
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)
@@ -23,6 +24,23 @@ compactv = partial(filterv, bool)
 mapv = compose(list, map)
 is_empty = partial(operator.is_, EMPTY)
 any_empty = compose(any, partial(filter, is_empty))
+
+ERASE_LINE = '\x1b[2K'
+
+
+@dataclass
+class progress:
+    spinner: Iterator = field(default_factory=partial(cycle, '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'))
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print(ERASE_LINE, end='\r', flush=True)
+
+    def __call__(self, msg: str):
+        spin = next(self.spinner)
+        print(f'{ERASE_LINE}\r{spin} {msg}', end='')
 
 
 def strptime(src: str) -> datetime:
@@ -80,7 +98,7 @@ def sorter(func):
 def zip_safe(*its: Iterable):
     for item in zip_longest(*its, fillvalue=EMPTY):
         if any_empty(item):
-            raise RuntimeError('Failed safe zip')
+            raise ValueError('Failed safe zip')
         yield item
 
 

@@ -1,11 +1,12 @@
 import re
 from datetime import datetime, timedelta
+from functools import partial
 
 import httpx
 
 from ..config import CITYESCAPE
 from ..models import Item
-from ..utils import gather_chunks, silent
+from ..utils import gather_chunks, progress, silent
 
 CITYESCAPE_URL = 'https://cityescape.ru/wp-admin/admin-ajax.php'
 RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
@@ -24,17 +25,21 @@ async def parse_cityescape():
         end=int(end.timestamp()),
     )
 
-    return await gather_chunks(5, *map(parse_page, resp.json()))
+    with progress() as prog:
+        parser = partial(parse_page, prog)
+        return await gather_chunks(5, *map(parser, resp.json()))
 
 
 @silent
-async def parse_page(item: dict) -> Item:
-    resp = await get_page(action='get_event', id=item['id'])
+async def parse_page(prog: progress, src: dict) -> Item:
+    resp = await get_page(action='get_event', id=src['id'])
     data = resp.json()
-    return Item(
+    item = Item(
         vendor=CITYESCAPE,
         start=datetime.strptime(data['start'], '%m/%d/%Y %M:%H:%S'),
         end=datetime.strptime(data['end'], '%m/%d/%Y %M:%H:%S'),
         title=data['title'],
         url=RE_URL(data['content'])[0][1],
     )
+    prog(item.url)
+    return item

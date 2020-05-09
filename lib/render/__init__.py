@@ -7,8 +7,15 @@ from funcy import first, pluck
 from typus import ru_typus
 
 from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
-from ..utils import debug, error, json_dumps, normalize, sorter, strptime
-from ..utils.text import format_price
+from ..utils import (
+    debug,
+    error,
+    format_price,
+    json_dumps,
+    normalize,
+    sorter,
+    strptime,
+)
 from .tags import KIDS, LEVELS_TAGS, TAGS, get_tags
 
 NOW = datetime.now()

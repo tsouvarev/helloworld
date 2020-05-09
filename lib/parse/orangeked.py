@@ -1,5 +1,6 @@
 import re
 from datetime import datetime
+from functools import partial
 
 import httpx
 from funcy import compose, first
@@ -7,7 +8,7 @@ from lxml import html
 
 from ..config import LEVELS, ORANGEKED
 from ..models import Item
-from ..utils import gather_chunks, silent
+from ..utils import gather_chunks, progress, silent
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -19,16 +20,18 @@ parse_dates = compose(
 
 
 async def parse_orangeked():
-    listing = await httpx.get('http://orangeked.ru/tours')
+    listing = await httpx.get('http://orangeked.ru/tours', timeout=20)
     tree = html.fromstring(listing.text.encode())
     links = set(tree.xpath('//*[@id="tourList"]/div/div/div/a/@href'))
-    return await gather_chunks(5, *map(parse_page, links))
+    with progress() as p:
+        parser = partial(parse_page, p)
+        return await gather_chunks(5, *map(parser, links))
 
 
 @silent
-async def parse_page(path: str) -> Item:
+async def parse_page(prog: progress, path: str) -> Item:
     url = 'http://orangeked.ru' + path
-    page = await httpx.get(url)
+    page = await httpx.get(url, timeout=20)
     tree = html.fromstring(page.text.encode())
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
     title = tree.xpath('//*[@id="k2Container"]/header/h1/text()')[0]
@@ -38,7 +41,7 @@ async def parse_page(path: str) -> Item:
     price = tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[
         2
     ]
-    return Item(
+    item = Item(
         vendor=ORANGEKED,
         level=LEVELS[level - 1],
         start=start,
@@ -47,6 +50,8 @@ async def parse_page(path: str) -> Item:
         title=title,
         price=price,
     )
+    prog(item.url)
+    return item
 
 
 def parse_date(src: str):

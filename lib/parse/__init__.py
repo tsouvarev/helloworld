@@ -18,9 +18,9 @@ from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
 
 VENDORS = {
+    CITYESCAPE: parse_cityescape,
     ORANGEKED: parse_orangeked,
     PIK: parse_pik,
-    CITYESCAPE: parse_cityescape,
     ZOVGOR: parse_zovgor,
     NAPRAVLENIE: parse_napravlenie,
     TEAMTRIP: parse_teamtrip,
