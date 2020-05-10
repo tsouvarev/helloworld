@@ -118,7 +118,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th align="right">🥾</th>
+                    <th align="right">💪</th>
                     <td>
                         {{ event.level }}/5
                         &mdash;
@@ -142,9 +142,21 @@
                         </span>
                     </td>
                 </tr>
+                <tr v-if="event.length">
+                    <th align="right">🥾</th>
+                    <td>{{ event.length }}&nbsp;км</td>
+                </tr>
                 <tr v-if="event.for_kids">
                     <th align="right">👶</th>
                     <td>Маршрут адаптирован для детей</td>
+                </tr>
+                <tr v-if="event.slots == 0">
+                    <th align="right">🎒</th>
+                    <td>мест нет</td>
+                </tr>
+                <tr v-else-if="event.slots >= 0">
+                    <th align="right">🎒</th>
+                    <td>{{ event.slots }}&nbsp;{{ event.slots | pluralize('место', 'места', 'мест') }}</td>
                 </tr>
                 <tr v-if="event.price">
                     <th align="right">🤑</th>

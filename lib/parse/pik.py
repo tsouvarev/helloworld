@@ -59,6 +59,9 @@ def parse_date(src: str):
 
 def parse_item(item: dict) -> Item:
     start, end = parse_date(item['duration_explained'])
+    slots = None
+    if not item['is_full']:
+        slots = 0
     return Item(
         vendor=PIK,
         start=start,
@@ -67,4 +70,6 @@ def parse_item(item: dict) -> Item:
         price=item['costs_rubs'],
         url='https://turclub-pik.ru' + item['absolute_url'],
         level=LEVELS[item['track']['difficulty']['slug']],
+        length=item['track']['length'],
+        slots=slots,
     )

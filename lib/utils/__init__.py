@@ -6,7 +6,7 @@ from datetime import date, datetime
 from functools import partial, update_wrapper
 from inspect import iscoroutinefunction
 from itertools import cycle, zip_longest
-from typing import Iterable, Iterator
+from typing import Iterable, Iterator, Optional
 
 import click
 import simplejson
@@ -14,7 +14,7 @@ from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
 from ..config import DATE_FORMAT
-from .text import format_price, normalize  # noqa
+from .text import format_price, int_or_none, normalize, re_digits  # noqa
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)
@@ -22,8 +22,6 @@ error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compactv = partial(filterv, bool)
 mapv = compose(list, map)
-is_empty = partial(operator.is_, EMPTY)
-any_empty = compose(any, partial(filter, is_empty))
 
 ERASE_LINE = '\x1b[2K'
 
@@ -97,7 +95,7 @@ def sorter(func):
 
 def zip_safe(*its: Iterable):
     for item in zip_longest(*its, fillvalue=EMPTY):
-        if any_empty(item):
+        if EMPTY in item:
             raise ValueError('Failed safe zip')
         yield item
 

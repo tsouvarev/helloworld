@@ -9,7 +9,7 @@ from ..models import Item
 from ..utils import gather_chunks, progress, silent
 
 CITYESCAPE_URL = 'https://cityescape.ru/wp-admin/admin-ajax.php'
-RE_URL = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
+re_url = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
 
 
 async def get_page(**kwargs):
@@ -39,7 +39,7 @@ async def parse_page(prog: progress, src: dict) -> Item:
         start=datetime.strptime(data['start'], '%m/%d/%Y %M:%H:%S'),
         end=datetime.strptime(data['end'], '%m/%d/%Y %M:%H:%S'),
         title=data['title'],
-        url=RE_URL(data['content'])[0][1],
+        url=re_url(data['content'])[0][1],
     )
     prog(item.url)
     return item

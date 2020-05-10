@@ -45,13 +45,13 @@ def parse_page(text):
             )
 
 
-RE_BY_YEAR = partial(
+re_by_year = partial(
     # 2020 01 -- missing slash
     re.compile(r'([0-9]{4})\s+([0-9]{2})').sub,
     r'\1/\2',
 )
 
-RE_BY_COMMA = partial(
+re_by_comma = partial(
     # comma instead of slash
     re.compile(r'\,\s+([0-9]{1,2}[\s-])').sub,
     r'/\1',
@@ -59,7 +59,7 @@ RE_BY_COMMA = partial(
 
 
 def split_dates(src: str):
-    return mapv(str.strip, RE_BY_YEAR(RE_BY_COMMA(src)).split('/'))
+    return mapv(str.strip, re_by_year(re_by_comma(src)).split('/'))
 
 
 def parse_dates(now: datetime, src: str):

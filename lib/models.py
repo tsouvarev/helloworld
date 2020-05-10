@@ -15,6 +15,8 @@ class Item(BaseModel):
     level: int = DEFAULT_LEVEL
     url: str = '#'
     price: Optional[str]
+    length: Optional[int]
+    slots: Optional[int]
 
     class Config:
         extra = 'forbid'

@@ -1,12 +1,11 @@
 from datetime import datetime
 
 import httpx
-from funcy import keep
 from lxml import html
 
 from ..config import NAPRAVLENIE
 from ..models import Item
-from ..utils import zip_safe
+from ..utils import int_or_none, zip_safe
 from ..utils.text import guess_currency
 
 MONTHS = (
@@ -30,10 +29,15 @@ def parse_page(text):
         f'{prefix}//*[@class="afoot"]/span[1]/*[@class="textIco price"]'
     )
     prices = (''.join(n.itertext()).strip() for n in price_nodes)
+    slots = tree.xpath(
+        f'{prefix}//*[@class="afoot"]/span[3]/*[@class="textIco"]/text()'
+    )
     titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
     hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
     now = datetime.now()
-    for date, price, title, href in zip_safe(dates, prices, titles, hrefs):
+    for date, price, slot, title, href in zip_safe(
+        dates, prices, slots, titles, hrefs
+    ):
         start, end = parse_dates(now, date)
         yield Item(
             vendor=NAPRAVLENIE,
@@ -44,6 +48,7 @@ def parse_page(text):
             # Comma separates children price,
             # Currency is somewhere
             price=guess_currency(price).format(price.split(',', 1)[0]),
+            slots=int_or_none(slot) or 0,
         )
 
 

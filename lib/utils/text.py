@@ -1,7 +1,9 @@
 import re
+from typing import Optional
 
 from funcy import compact, joining, partial
 
+NBSP = '\u00A0'
 NORM = str.maketrans(
     {
         'e': 'е',
@@ -35,15 +37,15 @@ def normalize(string: str):
 
 
 def format_int(src: int) -> str:
-    return '{:,}'.format(src).replace(',', '\u00A0')
+    return '{:,}'.format(src).replace(',', NBSP)
 
 
-RE_PRICE = partial(re.compile(r'\D+').sub, '')
-DEFAULT_CURRENCY = '{}\u00A0₽'
+re_digits = partial(re.compile(r'\D+').sub, '')
+DEFAULT_CURRENCY = f'{{}}{NBSP}₽'
 CURRENCIES = {
-    DEFAULT_CURRENCY: re.compile(r'(₽|руб)', re.I),
-    '€\u00A0{}': re.compile(r'(€|евро)', re.I),
-    '$\u00A0{}': re.compile(r'(\$|дол)', re.I),
+    DEFAULT_CURRENCY: re.compile(r'(₽|руб|р\.)', re.I),
+    f'€{NBSP}{{}}': re.compile(r'(€|евро|eur)', re.I),
+    f'${NBSP}{{}}': re.compile(r'(\$|дол|usd)', re.I),
 }
 
 
@@ -55,10 +57,17 @@ def guess_currency(src: str, default=DEFAULT_CURRENCY) -> str:
 
 
 def format_price(src: str):
-    price = RE_PRICE(src)
+    price = int_or_none(src)
     if not price:
         # nothing found
         return src
 
     currency = guess_currency(src)
-    return currency.format(format_int(int(price)))
+    return currency.format(format_int(price))
+
+
+def int_or_none(src: str) -> Optional[int]:
+    try:
+        return int(re_digits(src))
+    except ValueError:
+        return None
