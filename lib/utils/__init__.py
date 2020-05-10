@@ -1,5 +1,6 @@
 import asyncio
 from contextlib import contextmanager
+from dataclasses import dataclass, field
 from datetime import date, datetime
 from functools import partial, update_wrapper, wraps
 from inspect import iscoroutinefunction
@@ -24,11 +25,9 @@ mapv = compose(list, map)
 ERASE_LINE = '\x1b[2K'
 
 
+@dataclass
 class progress:
-    spinner: Iterator
-
-    def __init__(self):
-        self.spinner = cycle('⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏')
+    spinner: Iterator = field(default_factory=partial(cycle, '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'))
 
     def __new__(cls, func: Optional[Callable] = None):
         inst = super().__new__(cls)
