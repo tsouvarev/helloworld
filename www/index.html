@@ -150,11 +150,11 @@
                     <th align="right">👶</th>
                     <td>Маршрут адаптирован для детей</td>
                 </tr>
-                <tr v-if="event.slots == 0">
+                <tr v-if="event.slots === 0">
                     <th align="right">🎒</th>
                     <td>мест нет</td>
                 </tr>
-                <tr v-else-if="event.slots >= 0">
+                <tr v-else-if="event.slots > 0">
                     <th align="right">🎒</th>
                     <td>{{ event.slots }}&nbsp;{{ event.slots | pluralize('место', 'места', 'мест') }}</td>
                 </tr>

@@ -14,9 +14,9 @@ class Item(BaseModel):
     end: datetime
     level: int = DEFAULT_LEVEL
     url: str = '#'
-    price: Optional[str]
-    length: Optional[int]
-    slots: Optional[int]
+    price: Optional[str] = None
+    length: Optional[int] = None
+    slots: Optional[int] = None
 
     class Config:
         extra = 'forbid'

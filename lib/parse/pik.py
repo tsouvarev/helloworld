@@ -60,7 +60,7 @@ def parse_date(src: str):
 def parse_item(item: dict) -> Item:
     start, end = parse_date(item['duration_explained'])
     slots = None
-    if not item['is_full']:
+    if item['is_full']:
         slots = 0
     return Item(
         vendor=PIK,
