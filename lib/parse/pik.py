@@ -3,10 +3,11 @@ import re
 from datetime import datetime
 
 import httpx
-from funcy import cat, compose, first
+from funcy import cat, compose, first, partial
 
 from ..config import EASY, HARD, MIDDLE, PIK, VERY_EASY, VERY_HARD
 from ..models import Item
+from ..utils import progress
 
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
@@ -22,16 +23,19 @@ parse_dates = compose(
 )
 
 
-async def get_page(page) -> dict:
+async def get_page(prog, page) -> dict:
+    prog(f'Getting page {page}')
     resp = await httpx.get(PIK_URL, params={'page': page})
     return resp.json()
 
 
-async def parse_pik(batch=10) -> map:
+@progress
+async def parse_pik(prog: progress, batch=10) -> map:
     items = {}
     start = 1
+    pager = partial(get_page, prog)
     while True:
-        coros = map(get_page, range(start, start + batch))
+        coros = map(pager, range(start, start + batch))
         done = False
 
         for item in cat(await asyncio.gather(*coros)):

@@ -1,12 +1,10 @@
 import asyncio
-import operator
 from contextlib import contextmanager
-from dataclasses import dataclass, field
 from datetime import date, datetime
-from functools import partial, update_wrapper
+from functools import partial, update_wrapper, wraps
 from inspect import iscoroutinefunction
 from itertools import cycle, zip_longest
-from typing import Iterable, Iterator, Optional
+from typing import Callable, Iterable, Iterator, Optional
 
 import click
 import simplejson
@@ -26,9 +24,26 @@ mapv = compose(list, map)
 ERASE_LINE = '\x1b[2K'
 
 
-@dataclass
 class progress:
-    spinner: Iterator = field(default_factory=partial(cycle, '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'))
+    spinner: Iterator
+
+    def __init__(self):
+        self.spinner = cycle('⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏')
+
+    def __new__(cls, func: Optional[Callable] = None):
+        inst = super().__new__(cls)
+        if not func:
+            return inst
+
+        @wraps(func)
+        async def inner(*args, **kwargs):
+            with inst as prog:
+                return await func(prog, *args, **kwargs)
+
+        # If __new__() does not return an instance of cls,
+        # then the new instance’s __init__() method will not be invoked.
+        cls.__init__(inst)
+        return inner
 
     def __enter__(self):
         return self

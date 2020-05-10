@@ -16,18 +16,18 @@ async def get_page(**kwargs):
     return await httpx.post(CITYESCAPE_URL, data=kwargs, timeout=20)
 
 
-async def parse_cityescape():
+@progress
+async def parse_cityescape(prog: progress):
     start = datetime.utcnow()
     end = start + timedelta(days=365)
+    prog('Getting index page')
     resp = await get_page(
         action='get_events',
         start=int(start.timestamp()),
         end=int(end.timestamp()),
     )
-
-    with progress() as prog:
-        parser = partial(parse_page, prog)
-        return await gather_chunks(5, *map(parser, resp.json()))
+    parser = partial(parse_page, prog)
+    return await gather_chunks(5, *map(parser, resp.json()))
 
 
 @silent
