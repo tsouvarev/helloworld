@@ -16,6 +16,7 @@
         }
         #app {
             position: absolute;
+            visibility: hidden;
         }
         #blocker {
             width: 100%;
@@ -41,9 +42,11 @@
 <body>
 <div id="blocker"><div class="before">загружаюсь…</div></div>
 <div id="app">
-    <aside class="aside">
+    <div class="aside-toggle display-none" v-on:click="toggleMenu">⚙ настройки</div>
+    <aside class="aside" :class="{'aside--mobile': menu.mobile}">
+        <div class="esc" v-on:click="toggleMenu">✕</div>
         <div class="aside__content">
-            <h1 class="title title--xxxl">
+            <h1 class="title">
                 🏕️&nbsp;{{ eventFilter.length }}
             </h1>
             <div class="tags">
@@ -102,8 +105,8 @@
         </div>
     </article>
     <div class="detail" v-if="detail.event">
-        <div class="detail__close" v-on:click="hideDetail">✕</div>
-        <span class="detail__inner" :set="event = detail.event">
+        <div class="esc" v-on:click="hideDetail">✕</div>
+        <div class="detail__inner" :set="event = detail.event">
             <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
             <table class="tbl">
                 <tr>

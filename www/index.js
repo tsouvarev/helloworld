@@ -37,6 +37,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 show: false,
                 event: null,
             },
+            menu: {
+                mobile: false,
+            }
         },
         filters: {
             pluralize: function(value, one, two, three){
@@ -164,6 +167,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         },
         methods: {
+            toggleMenu: function(){
+                this.menu.mobile = !this.menu.mobile;
+            },
             showDetail: function(event){
                 updateUrl(null, event.id)
                 this.detail.event = event;

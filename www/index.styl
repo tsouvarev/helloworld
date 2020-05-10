@@ -7,6 +7,7 @@ vendors = {
     napravlenie: #ffeaea,
     teamtrip: #f3f0f7
 }
+aside-width = 270px
 
 *, *:before, *:after
     box-sizing: border-box;
@@ -20,29 +21,39 @@ body.active
     #blocker
         opacity 0
 
+    #app
+        visibility visible
+
 a
     border-bottom 1px solid rgba(0,0,0,.05)
+
+
+html, body, article, #app, .gant, .aside
+    height 100%
 
 
 #app
     position relative
     display flex
 
-    .aside
-        flex 0 0 270px
-
-
 .aside
-    display none
+    flex 0 0 aside-width
+    display flex
     height 100%
     overflow-y auto
     flex-direction column
     border-right 1px solid #eee
     position relative
+    background white
     z-index 3
 
+    .esc
+        display none
+
     &__content
-        padding 0 20px
+        margin auto
+        max-width aside-width - 40px
+        position relative
 
         .tags, .search, .title
             margin 30px 0 !important
@@ -112,7 +123,6 @@ a
         height 30px
         padding 0 10px
         font-size 14px
-        transform translateZ(0)
 
         small
             font-weight bold
@@ -238,6 +248,17 @@ input.search__input
             opacity 1 !important
 
 
+.esc
+    width 48px
+    font-size @width
+    line-height 1.25
+    text-align center
+    top 10%
+    right 10%
+    position absolute
+    cursor pointer
+
+
 .detail
     position fixed
     width 100%
@@ -245,20 +266,12 @@ input.search__input
     left 0
     top 0
     background white
-    z-index 100
-    padding 10px 50px
+    z-index 5
     display flex
-
-    &__close
-        font-size 40px
-        padding 10px
-        top 5%
-        right 10%
-        position absolute
-        cursor pointer
 
     &__inner
         margin auto
+        padding 0px 50px
         max-width 800px
 
     &__title
@@ -278,9 +291,34 @@ input.search__input
             padding-right 0
 
 
-html, body, article, #app, .gant
-    height 100%
+@media only screen and (max-width: 600px)
+    .aside-toggle
+        display block
+        text-align center
+        padding 10px 20px
+        position fixed
+        background white
+        border-radius 50px
+        box-shadow 0 5px 15px 0 rgba(0, 0, 0, .1)
+        z-index 2
+        bottom 30px
+        width 160px
+        left 50%
+        margin-left (@width / -2)
+        cursor pointer
+        user-select none
+        font-variant small-caps
 
-@media only screen and (min-width: 600px)
     .aside
-        display flex
+        display none
+
+        &--mobile
+            display block
+            position fixed
+            top 0
+            left 0
+            width 100%
+
+            .esc
+                top 30px
+                display block
