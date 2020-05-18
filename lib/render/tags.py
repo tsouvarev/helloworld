@@ -1,5 +1,6 @@
 import re
 from dataclasses import asdict, dataclass, field
+from datetime import datetime
 from functools import partial
 from itertools import count
 from typing import Dict
@@ -19,6 +20,7 @@ from ..config import (
     ZOVGOR,
 )
 
+NOW = datetime.utcnow()
 bits = partial(next, count())
 
 
@@ -84,9 +86,11 @@ LEVELS_TAGS = TagGroup(
 
 MONTHS_NAMES = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
 MONTHS = TagGroup(
-    *(Tag(slug=f'month_{m}', text=MONTHS_NAMES[m - 1]) for m in range(1, 13)),
-    title='Месяц',
+    *(Tag(slug=f'month_{i}', text=m) for i, m in enumerate(MONTHS_NAMES, 1)),
+    title='Когда',
 )
+YEAR_NUMS = (NOW.year, NOW.year + 1)
+YEARS = TagGroup(*(Tag(slug=f'year_{x}', text=str(x)) for x in YEAR_NUMS))
 
 TAGS = (
     VENDORS,
@@ -94,6 +98,7 @@ TAGS = (
     TagGroup(KIDS),
     TagGroup(SHORT, LONG, title='Продолжительность'),
     MONTHS,
+    YEARS,
 )
 
 
@@ -134,10 +139,9 @@ def get_tags(src: dict):
         yield LONG
 
     for m, month in enumerate(MONTHS, 1):
-        in_month = (
-            src['start'].month == m
-            or src['end'].month == m
-            or src['start'].month <= m <= src['end'].month
-        )
-        if in_month:
+        if src['start'].month <= m <= src['end'].month:
             yield month
+
+    for year, tag in zip(YEAR_NUMS, YEARS):
+        if src['start'].year == year or src['end'].year == year:
+            yield tag
