@@ -115,7 +115,7 @@ html, body, article, #app, .gant, .aside
 
     &__name
         left 0
-        max-width day
+        width fit-content
         position sticky
         display block
         line-height 30px
@@ -124,7 +124,7 @@ html, body, article, #app, .gant, .aside
         font-size 14px
 
         small
-            font-weight bold
+            color gray
 
     &__days
         user-select none
@@ -289,6 +289,11 @@ input.search__input
 
         &:last-child
             padding-right 0
+
+.days
+    for num in (1..31)
+        &--w{num}
+            width num * day
 
 
 @media only screen and (max-width: 900px)
