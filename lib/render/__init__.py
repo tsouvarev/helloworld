@@ -1,15 +1,15 @@
-import hashlib
 import json
+import time
 from datetime import datetime, timedelta
+from json import JSONDecodeError
 from operator import itemgetter
 
-from funcy import first, pluck
+from funcy import first
 from typus import ru_typus
 
-from ..config import DIST_DATA, VENDORS, WEEKENDS, src_path
+from ..config import DIST_DATA, META_DATA, VENDORS, WEEKENDS, src_path
 from ..utils import (
     debug,
-    error,
     format_price,
     json_dumps,
     normalize,
@@ -18,9 +18,10 @@ from ..utils import (
 )
 from .tags import KIDS, LEVELS_TAGS, TAGS, get_tags
 
-NOW = datetime.now()
+NOW = datetime.utcnow()
 TOO_LONG = timedelta(days=30)
-TOO_FAR = NOW + timedelta(days=420)
+TOO_FAR = NOW + timedelta(days=600)
+CONSIDER_NEW = NOW - timedelta(days=7)
 JS_TEMPLATE = (
     'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
 )
@@ -47,14 +48,17 @@ def post_filter(now, item: dict):
 
 
 def parse_item(item: dict):
-    uid = hashlib.sha256(item['url'].encode()).hexdigest()[:7]
     item.update(
-        id=uid,
+        start=strptime(item['start']), end=strptime(item['end']),
+    )
+    return item
+
+
+def render_item(item: dict):
+    item.update(
         price=item['price'] and format_price(item['price']),
         title=ru_typus(item['title']),
         norm=normalize(item['title']),
-        start=strptime(item['start']),
-        end=strptime(item['end']),
     )
     # This mast be after all updates
     # to create valid tags
@@ -80,19 +84,13 @@ def render():
     Renders data.json for index.html.
     """
 
-    with open(DIST_DATA, 'r+') as f:
-        try:
-            file = f.read()[11:-1]
-            seen = set(pluck('url', json.loads(file)['eventSource']))
-        except Exception as e:
-            error(str(e))
-            seen = set()
-        finally:
-            f.seek(0)
+    try:
+        with open(META_DATA, 'r+') as f:
+            meta = json.load(f)
+    except (FileNotFoundError, JSONDecodeError):
+        meta = {}
 
-        # clean shit
-        f.truncate()
-
+    with open(DIST_DATA, 'w+') as f:
         # - sorts and drops long items
         # - find earliest active
         # - filters items from earliest to make it pretty
@@ -100,14 +98,21 @@ def render():
         earliest = first(x['start'] for x in items if x['end'] > NOW)
         filtered = [x for x in items if post_filter(earliest, x)]
 
-        # todo: send to telegram
-        arrived = set(pluck('url', filtered)) - seen
-        if seen and arrived:
-            debug('New items found! 🎉')
-            for item in arrived:
-                debug('- ' + item)
+        new_meta = {}
+        now = int(time.time())
+        for item in items:
+            created = meta.get(item['id'], now)
+            new_meta[item['id']] = created
+
+            # Not new,
+            # but really first time seen
+            if created is now:
+                debug('🎉 {url}'.format_map(item))
 
         # Writes data.js
-        dumped = map(json_dumps, (WEEKENDS, filtered, TAGS))
+        dumped = map(json_dumps, (WEEKENDS, map(render_item, filtered), TAGS))
         template = JS_TEMPLATE.format(*dumped)
         f.write(template)
+
+    with open(META_DATA, 'w+') as f:
+        f.write(json_dumps(new_meta))

@@ -1,4 +1,5 @@
 import asyncio
+import hashlib
 from contextlib import contextmanager
 from dataclasses import dataclass, field
 from datetime import date, datetime
@@ -117,3 +118,7 @@ def zip_safe(*its: Iterable):
 async def gather_chunks(size: int, *coros, return_exceptions=False):
     gather = partial(asyncio.gather, return_exceptions=return_exceptions)
     return cat([await gather(*c) for c in chunks(size, coros)])
+
+
+def hash_uid(src: str, maxlen: int = 7) -> str:
+    return hashlib.sha256(src.encode()).hexdigest()[:maxlen]

@@ -5,6 +5,7 @@ from functools import partial
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 src_path = partial(abs_path, '../src')
 www_path = partial(abs_path, '../www')
+META_DATA = src_path('__meta__.json')
 DIST_DATA = www_path('data.js')
 DIST_INDEX = www_path('index.html')
 

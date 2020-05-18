@@ -1,22 +1,29 @@
 from datetime import datetime
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
 
 from .config import DEFAULT_LEVEL
+from .utils import hash_uid
 
 
 class Item(BaseModel):
-    for_json = BaseModel.dict
+    class Config:
+        extra = 'forbid'
+
+    url: str
     vendor: str
     title: str
     start: datetime
     end: datetime
     level: int = DEFAULT_LEVEL
-    url: str = '#'
     price: Optional[str] = None
     length: Optional[int] = None
     slots: Optional[int] = None
+    id: Optional[str] = None
 
-    class Config:
-        extra = 'forbid'
+    @validator('id', pre=True, always=True)
+    def default_id(cls, v, *, values):
+        return v or hash_uid(values['url'])
+
+    for_json = BaseModel.dict
