@@ -8625,6 +8625,7 @@ const DATA={"weekendList": [
 ], "tagGroups": [
     {
         "bits": 504,
+        "slug": "vendors",
         "tags": [
             {
                 "active": true,
@@ -8673,6 +8674,7 @@ const DATA={"weekendList": [
     },
     {
         "bits": 15872,
+        "slug": "levels",
         "tags": [
             {
                 "active": true,
@@ -8714,6 +8716,7 @@ const DATA={"weekendList": [
     },
     {
         "bits": 1,
+        "slug": "kids",
         "tags": [
             {
                 "active": true,
@@ -8727,6 +8730,7 @@ const DATA={"weekendList": [
     },
     {
         "bits": 6,
+        "slug": "durations",
         "tags": [
             {
                 "active": true,
@@ -8747,6 +8751,7 @@ const DATA={"weekendList": [
     },
     {
         "bits": 67092480,
+        "slug": "months",
         "tags": [
             {
                 "active": true,
@@ -8833,23 +8838,24 @@ const DATA={"weekendList": [
                 "title": ""
             }
         ],
-        "title": "\u041a\u043e\u0433\u0434\u0430"
+        "title": "\u041c\u0435\u0441\u044f\u0446, \u0433\u043e\u0434"
     },
     {
         "bits": 201326592,
+        "slug": "years",
         "tags": [
             {
                 "active": true,
                 "bit": 67108864,
                 "slug": "year_2020",
-                "text": "2020",
+                "text": "<small>2020</small>",
                 "title": ""
             },
             {
                 "active": true,
                 "bit": 134217728,
                 "slug": "year_2021",
-                "text": "2021",
+                "text": "<small>2021</small>",
                 "title": ""
             }
         ],

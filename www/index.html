@@ -53,9 +53,14 @@
                 <div class="tags__offset">
                     <template v-for="group in tags">
                         <div v-if="group.title" class="tags__title">{{ group.title }}</div>
-                        <label v-for="tag in group.tags" class="tags__tag" :for="tag.slug" :class="[{active: tag.active}, tag.slug]" :title="tag.title || tag.text">
+                        <label
+                            v-for="tag in group.tags"
+                            :for="tag.slug"
+                            :class="[{active: tag.active}, 'tags__tag', group.slug, tag.slug]"
+                            :title="tag.title || tag.text"
+                        >
                             <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags">
-                            <div class="tags__tag__inner">{{ tag.text }}</div>
+                            <div class="tags__tag__inner" v-html="tag.text"></div>
                         </label>
                     </template>
                 </div>

@@ -16,5 +16,5 @@ def test_zip_safe_ok(source, expected):
 
 
 def test_zip_safe_fails():
-    with pytest.raises(RuntimeError):
+    with pytest.raises(ValueError):
         list(zip_safe((0, 1), (2,)))

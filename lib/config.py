@@ -1,5 +1,5 @@
 import os.path
-from datetime import timedelta
+from datetime import datetime, timedelta
 from functools import partial
 
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
@@ -8,6 +8,9 @@ www_path = partial(abs_path, '../www')
 META_DATA = src_path('__meta__.json')
 DIST_DATA = www_path('data.js')
 DIST_INDEX = www_path('index.html')
+
+NOW = datetime.utcnow()
+LAST_DATE = NOW + timedelta(days=600)
 
 ORANGEKED = 'orangeked'
 PIK = 'pik'

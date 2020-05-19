@@ -1,13 +1,21 @@
 import json
 import time
-from datetime import datetime, timedelta
+from datetime import timedelta
 from json import JSONDecodeError
 from operator import itemgetter
 
 from funcy import first
 from typus import ru_typus
 
-from ..config import DIST_DATA, META_DATA, VENDORS, WEEKENDS, src_path
+from ..config import (
+    DIST_DATA,
+    LAST_DATE,
+    META_DATA,
+    NOW,
+    VENDORS,
+    WEEKENDS,
+    src_path,
+)
 from ..utils import (
     debug,
     format_price,
@@ -18,9 +26,7 @@ from ..utils import (
 )
 from .tags import KIDS, LEVELS_TAGS, TAGS, get_tags
 
-NOW = datetime.utcnow()
 TOO_LONG = timedelta(days=30)
-TOO_FAR = NOW + timedelta(days=600)
 CONSIDER_NEW = NOW - timedelta(days=7)
 JS_TEMPLATE = (
     'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
@@ -29,7 +35,7 @@ sort_items = sorter(itemgetter('start'))
 
 
 def pre_filter(item: dict):
-    if item['end'] > TOO_FAR:
+    if item['end'] > LAST_DATE:
         debug('Skip too far "{url}"'.format_map(item))
         return False
 

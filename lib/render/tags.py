@@ -1,18 +1,19 @@
 import re
 from dataclasses import asdict, dataclass, field
-from datetime import datetime
 from functools import partial
 from itertools import count
-from typing import Dict
+from typing import List
 
-from funcy import post_processing
+from funcy import cat, post_processing
 
 from ..config import (
     CITYESCAPE,
     DEFAULT_LEVEL,
     EASY,
+    LAST_DATE,
     LEVELS,
     NAPRAVLENIE,
+    NOW,
     ORANGEKED,
     PIK,
     SHORT_DURATION,
@@ -20,7 +21,6 @@ from ..config import (
     ZOVGOR,
 )
 
-NOW = datetime.utcnow()
 bits = partial(next, count())
 
 
@@ -39,26 +39,21 @@ class Tag:
     __rand__ = __and__
 
 
+@dataclass(frozen=True)
 class TagGroup:
-    tags: Dict[str, Tag]
-    title: str
-
-    def __init__(self, *tags: Tag, title=''):
-        self.tags = {t.slug: t for t in tags}
-        self.title = title
-
-    def __getitem__(self, item: str):
-        return self.tags[item]
+    slug: str
+    tags: List[Tag]
+    title: str = ''
 
     def __iter__(self):
-        return iter(self.tags.values())
+        return iter(self.tags)
 
     def for_json(self):
-        tags = self.tags.values()
         return {
             'title': self.title,
-            'tags': tags,
-            'bits': reduce_bits(tags),
+            'slug': self.slug,
+            'tags': self.tags,
+            'bits': reduce_bits(self.tags),
         }
 
 
@@ -66,39 +61,55 @@ KIDS = Tag(slug='kids', title='с детьми', text='👶')
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
 
-VENDORS = TagGroup(
-    Tag(slug=PIK, text='пик'),
-    Tag(slug=ORANGEKED, text='оранжевый кед'),
-    Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
-    Tag(slug=ZOVGOR, text='зов гор'),
-    Tag(slug=NAPRAVLENIE, text='направление'),
-    Tag(slug=TEAMTRIP, text='team trip'),
+VENDOR_TAGS = TagGroup(
+    slug='vendors',
+    tags=[
+        Tag(slug=PIK, text='пик'),
+        Tag(slug=ORANGEKED, text='оранжевый кед'),
+        Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
+        Tag(slug=ZOVGOR, text='зов гор'),
+        Tag(slug=NAPRAVLENIE, text='направление'),
+        Tag(slug=TEAMTRIP, text='team trip'),
+    ],
 )
 
+VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
+
 LEVELS_TAGS = TagGroup(
-    Tag(slug='level_1', text='очень просто'),
-    Tag(slug='level_2', text='просто'),
-    Tag(slug='level_3', text='средней сложности'),
-    Tag(slug='level_4', text='сложно'),
-    Tag(slug='level_5', text='очень сложно'),
     title='Сложность',
+    slug='levels',
+    tags=[
+        Tag(slug='level_1', text='очень просто'),
+        Tag(slug='level_2', text='просто'),
+        Tag(slug='level_3', text='средней сложности'),
+        Tag(slug='level_4', text='сложно'),
+        Tag(slug='level_5', text='очень сложно'),
+    ],
 )
 
 MONTHS_NAMES = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
-MONTHS = TagGroup(
-    *(Tag(slug=f'month_{i}', text=m) for i, m in enumerate(MONTHS_NAMES, 1)),
-    title='Когда',
+MONTH_TAGS = TagGroup(
+    title='Месяц, год',
+    slug='months',
+    tags=[
+        Tag(slug=f'month_{i}', text=m) for i, m in enumerate(MONTHS_NAMES, 1)
+    ],
 )
-YEAR_NUMS = (NOW.year, NOW.year + 1)
-YEARS = TagGroup(*(Tag(slug=f'year_{x}', text=str(x)) for x in YEAR_NUMS))
+YEAR_NUMS = range(NOW.year, LAST_DATE.year)
+YEAR_TAGS = TagGroup(
+    slug='years',
+    tags=[
+        Tag(slug=f'year_{x}', text=f'<small>{x}</small>') for x in YEAR_NUMS
+    ],
+)
 
 TAGS = (
-    VENDORS,
+    VENDOR_TAGS,
     LEVELS_TAGS,
-    TagGroup(KIDS),
-    TagGroup(SHORT, LONG, title='Продолжительность'),
-    MONTHS,
-    YEARS,
+    TagGroup(slug='kids', tags=[KIDS]),
+    TagGroup(title='Продолжительность', slug='durations', tags=[SHORT, LONG]),
+    MONTH_TAGS,
+    YEAR_TAGS,
 )
 
 
@@ -110,16 +121,16 @@ def reduce_bits(tags):
     return result
 
 
-RE_KIDS = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).findall
+re_kids = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).findall
 
 
 @post_processing(reduce_bits)
 def get_tags(src: dict):
-    yield VENDORS[src['vendor']]
+    yield VENDOR_MAP[src['vendor']]
 
     # fixme: kids tag duck style
     level = src['level']
-    if RE_KIDS(src['norm']):
+    if re_kids(src['norm']):
         yield KIDS
 
         # If guessed the level (i.e. eq to DEFAULT_LEVEL),
@@ -138,10 +149,10 @@ def get_tags(src: dict):
     else:
         yield LONG
 
-    for m, month in enumerate(MONTHS, 1):
+    for m, month in enumerate(MONTH_TAGS, 1):
         if src['start'].month <= m <= src['end'].month:
             yield month
 
-    for year, tag in zip(YEAR_NUMS, YEARS):
+    for year, tag in zip(YEAR_NUMS, YEAR_TAGS):
         if src['start'].year == year or src['end'].year == year:
             yield tag
