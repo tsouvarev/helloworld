@@ -63,7 +63,7 @@ def parse_item(item: dict):
 def render_item(item: dict):
     item.update(
         price=item['price'] and format_price(item['price']),
-        title=ru_typus(item['title']),
+        title=ru_typus(item['title'].strip('.')),
         norm=normalize(item['title']),
     )
     # This mast be after all updates

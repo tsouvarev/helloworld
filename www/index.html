@@ -99,7 +99,7 @@
             </div>
             <div
                 v-for="event in eventFilter"
-                v-on:click="showDetail(event)"
+                v-on:click="showDetail(event.id)"
                 :id="event.id"
                 :class="`gant__event gant__event--${event.vendor}`"
                 :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
@@ -109,7 +109,7 @@
             </div>
         </div>
     </article>
-    <div class="detail" v-if="detail.event">
+        <div class="detail" v-if="detail.event">
         <div class="esc" v-on:click="hideDetail">✕</div>
         <div class="detail__inner" :set="event = detail.event">
             <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
@@ -174,6 +174,14 @@
                     </td>
                 </tr>
             </table>
+            <div class="detail__pager">
+                <div v-if="detail.prev" class="detail__pager__page detail__pager__page--prev">
+                    ⟵&nbsp;<a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
+                </div>
+                <div v-if="detail.next" class="detail__pager__page detail__pager__page--next">
+                    <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>&nbsp;⟶
+                </div>
+            </div>
         </div>
     </div>
 </div>

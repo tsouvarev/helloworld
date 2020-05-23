@@ -32,10 +32,13 @@ function renderTripper(weekendList, eventSource, tagGroups){
             applyTags: [],
             applySearch: '',
             months: [],
+            filteredEvents: eventList,
             stripes: [],
             detail: {
                 show: false,
                 event: null,
+                prev: null,
+                next: null,
             },
             menu: {
                 mobile: false,
@@ -54,8 +57,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
             const self = this,
                   urlParams = new URLSearchParams(window.location.search),
                   tags = parseInt(urlParams.get('tags')),
-                  search = urlParams.get('q'),
-                  showEvent = window.location.hash.substr(1);
+                  search = urlParams.get('q')
+              ;
 
             if (tags){
                 this.tags.map(function(g){
@@ -71,12 +74,6 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 this.applySearch = search.trim();
             }
 
-            if (showEvent){
-                var event = eventList.find(e => e.id === showEvent);
-                if (event) {
-                    this.showDetail(event);
-                }
-            }
 
             // Closes event detail on ESC
             document.addEventListener('keyup', function (evt) {
@@ -84,6 +81,12 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     self.hideDetail();
                 }
             });
+        },
+        mounted: function() {
+            let showEvent = window.location.hash.substr(1);
+            if (showEvent){
+                this.showDetail(showEvent);
+            }
         },
         computed: {
             eventFilter(){
@@ -104,8 +107,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
 
                 updateUrl(
                     newParams,
-                    // does event found?
-                    this.detail.event ? this.detail.event.id : '',
+                    null,
                 );
 
                 if (params.q){
@@ -135,6 +137,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 });
 
                 if (!events.length) {
+                    self.filteredEvents = events;
                     return events;
                 }
 
@@ -163,6 +166,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                         }
                     });
                 });
+                self.filteredEvents = events;
                 return events;
             }
         },
@@ -170,9 +174,25 @@ function renderTripper(weekendList, eventSource, tagGroups){
             toggleMenu: function(){
                 this.menu.mobile = !this.menu.mobile;
             },
-            showDetail: function(event){
-                updateUrl(null, event.id)
+            detailUrl: function(eventId){
+                return buildUrl(null, eventId);
+            },
+            showDetail: function(eventId){
+                let index = null,
+                    event = null;
+
+                for (let i = 0; i < this.filteredEvents.length; i++){
+                    if (this.filteredEvents[i].id === eventId){
+                        index = i;
+                        event = this.filteredEvents[i];
+                        break;
+                    }
+                }
+
                 this.detail.event = event;
+                this.detail.prev = this.filteredEvents[index - 1] || null;
+                this.detail.next = this.filteredEvents[index + 1] || null;
+                updateUrl(null, event ? event.id.toString() : '');
             },
             hideDetail: function(){
                 updateUrl(null, '')
@@ -185,7 +205,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
     });
 }
 
-function updateUrl(params, hash){
+function buildUrl(params, hash){
     let url = new URL(window.location.href);
 
     switch (params) {
@@ -208,7 +228,11 @@ function updateUrl(params, hash){
             url.hash = '#' + hash;
     }
 
-    window.history.replaceState({}, null, url.toString());
+    return url;
+}
+
+function updateUrl(params, hash){
+    window.history.replaceState({}, null, buildUrl(params, hash).toString());
 }
 
 function getEvents(eventSource, tagGroups) {

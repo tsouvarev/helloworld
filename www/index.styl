@@ -278,12 +278,34 @@ input.search__input
     &__inner
         margin auto
         padding 0px 50px
-        max-width 800px
+        width 800px
 
     &__title
-        margin-top 0 !important
+        margin-top 30px
         font-size 40px
         font-size 6.5vmin
+
+    &__pager
+        margin 20px 0 30px
+        max-width 100%
+        padding 0 10px
+        text-align center
+        overflow hidden
+
+        &__page
+            float left
+            position relative
+            color #888
+            width 50%
+
+            &--prev
+                padding-right 15px
+                border-radius 5px 0 0 5px
+                text-align right
+
+            &--next
+                padding-left 15px
+                text-align left
 
 .tbl
     th, td
