@@ -222,7 +222,12 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 }
 
                 if (start.date() != end.date()){
-                    result += ' — ' + end.date();
+                    if(isNaN(result)) {
+                        result += ' — ';
+                    } else {
+                        result += '–';
+                    }
+                    result += end.date();
                 }
                 return result += ' ' + monthDeclensions[end.month()];
             }
