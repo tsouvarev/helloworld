@@ -22,10 +22,6 @@ body.active
     #app
         visibility visible
 
-a
-    border-bottom 1px solid rgba(0,0,0,.05)
-
-
 html, body, article, #app, .gant, .aside
     height 100%
 
@@ -286,26 +282,29 @@ input.search__input
         font-size 6.5vmin
 
     &__pager
-        margin 20px 0 30px
-        max-width 100%
-        padding 0 10px
-        text-align center
-        overflow hidden
+        margin 30px 0
+        border-top 1px solid #eee
+        padding-top 25px
+        hyphens auto
 
         &__page
-            float left
             position relative
+            padding-left 44px
+            padding-bottom 5px
             color #888
-            width 50%
+
+            &::before
+                position absolute
+                left 5px
+                top 0
 
             &--prev
-                padding-right 15px
-                border-radius 5px 0 0 5px
-                text-align right
+                &::before
+                    content '⟵'
 
             &--next
-                padding-left 15px
-                text-align left
+                &::before
+                    content '⟶'
 
 .tbl
     th, td
