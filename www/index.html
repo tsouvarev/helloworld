@@ -121,7 +121,7 @@
                 <tr>
                     <th align="right">🗓</th>
                     <td>
-                        {{ event.start.format('DD.MM') }}&mdash;{{ event.end.format('DD.MM') }},
+                        {{ formatPeriod(event.start, event.end) }},
                         {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}
                     </td>
                 </tr>

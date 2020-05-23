@@ -14,6 +14,20 @@ const dateFormat = 'DD.MM.YYYY',
         'Октябрь',
         'Ноябрь',
         'Декабрь',
+    ],
+    monthDeclensions = [
+        'января',
+        'февраля',
+        'марта',
+        'апреля',
+        'мая',
+        'июня',
+        'июля',
+        'августа',
+        'сентября',
+        'октября',
+        'ноября',
+        'декабря',
     ]
 ;
 
@@ -200,6 +214,17 @@ function renderTripper(weekendList, eventSource, tagGroups){
             },
             parseUrl: function(value){
                 return new URL(value);
+            },
+            formatPeriod: function(start, end){
+                let result = start.date().toString();
+                if (start.month() != end.month()){
+                    result += ' ' + monthDeclensions[start.month()];
+                }
+
+                if (start.date() != end.date()){
+                    result += ' — ' + end.date();
+                }
+                return result += ' ' + monthDeclensions[end.month()];
             }
         }
     });
