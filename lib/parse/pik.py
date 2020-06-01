@@ -25,7 +25,7 @@ parse_dates = compose(
 
 async def get_page(prog, page) -> dict:
     prog(f'Getting page {page}')
-    resp = await httpx.get(PIK_URL, params={'page': page})
+    resp = await httpx.get(PIK_URL, params={'page': page}, verify=False)
     return resp.json()
 
 
