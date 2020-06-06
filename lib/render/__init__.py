@@ -71,11 +71,7 @@ def render_item(item: dict):
     item_tags = get_tags(item)
     item.update(tags=item_tags)
 
-    # Replaces bit level with first matching int level
-    item.update(
-        for_kids=KIDS & item_tags,
-        level=first(i for i, x in enumerate(LEVELS_TAGS, 1) if x & item_tags),
-    )
+    item.update(for_kids=KIDS & item_tags,)
     return item
 
 

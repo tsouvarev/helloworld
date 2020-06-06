@@ -7,9 +7,6 @@ from funcy import post_processing
 
 from ..config import (
     CITYESCAPE,
-    DEFAULT_LEVEL,
-    EASY,
-    LEVELS,
     MYTRAVELBAR,
     NAPRAVLENIE,
     ORANGEKED,
@@ -18,6 +15,8 @@ from ..config import (
     TEAMTRIP,
     TODAY,
     ZOVGOR,
+    Level,
+    UNKNOWN_LEVEL,
 )
 
 
@@ -165,15 +164,13 @@ def get_tags(src: dict):
     if re_kids(src['norm']):
         yield KIDS
 
-        # If guessed the level (i.e. eq to DEFAULT_LEVEL),
+        # If guessed the level (i.e. eq to UNKNOWN_LEVEL),
         # then put EASY level,
         # cause it's for kids
-        if level == DEFAULT_LEVEL:
-            level = EASY
+        if level == UNKNOWN_LEVEL:
+            level = Level.EASY
 
-    for bit, tag in zip(LEVELS, LEVELS_TAGS):
-        if bit & level:
-            yield tag
+    yield LEVELS_TAGS.tags[(level or Level.MIDDLE) - 1]
 
     # duration
     if (src['end'] - src['start']) < SHORT_DURATION:

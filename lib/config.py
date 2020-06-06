@@ -1,6 +1,9 @@
 import os.path
 from datetime import datetime, timedelta
+from enum import IntEnum
 from functools import partial
+
+from funcy import nth
 
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 src_path = partial(abs_path, '../src')
@@ -63,18 +66,17 @@ WEEKENDS = [
     '04.11.2021',
 ]
 
-# Some events do match several levels,
-# that are bit for.
-VERY_EASY = 1 << 1
-EASY = 1 << 2
-MIDDLE = 1 << 3
-HARD = 1 << 4
-VERY_HARD = 1 << 5
-LEVELS = (
-    VERY_EASY,
-    EASY,
-    MIDDLE,
-    HARD,
-    VERY_HARD,
-)
-DEFAULT_LEVEL = MIDDLE
+
+UNKNOWN_LEVEL = 0
+
+
+class Level(IntEnum):
+    VERY_EASY = 1
+    EASY = 2
+    MIDDLE = 3
+    HARD = 4
+    VERY_HARD = 5
+
+    @classmethod
+    def index(cls, key):
+        return nth(key, iter(Level))

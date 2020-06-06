@@ -6,7 +6,7 @@ import httpx
 from funcy import compose, first
 from lxml import html
 
-from ..config import LEVELS, ORANGEKED, TODAY
+from ..config import ORANGEKED, TODAY, Level
 from ..models import Item
 from ..utils import gather_chunks, progress, silent
 
@@ -43,7 +43,7 @@ async def parse_page(prog: progress, path: str) -> Item:
     ]
     item = Item(
         vendor=ORANGEKED,
-        level=LEVELS[level - 1],
+        level=Level.index(level),
         start=start,
         end=end,
         url=url,

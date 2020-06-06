@@ -4,15 +4,9 @@ import httpx
 from funcy import partial
 from lxml import html
 
-from ..config import EASY, HARD, MIDDLE, ZOVGOR, TODAY
+from ..config import TODAY, ZOVGOR
 from ..models import Item
-from ..utils import mapv, zip_safe, format_price
-
-LEVELS = {
-    'низкая': EASY,
-    'средняя': MIDDLE,
-    'высокая': HARD,
-}
+from ..utils import format_price, mapv, zip_safe
 
 
 async def parse_zovgor():

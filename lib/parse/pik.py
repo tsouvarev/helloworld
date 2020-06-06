@@ -5,18 +5,18 @@ from datetime import datetime
 import httpx
 from funcy import cat, compose, first, partial
 
-from ..config import EASY, HARD, MIDDLE, PIK, VERY_EASY, VERY_HARD
+from ..config import PIK, Level
 from ..models import Item
 from ..utils import progress
 
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
 LEVELS = {
-    'very_easy': VERY_EASY,
-    'easy': EASY,
-    'middle': MIDDLE,
-    'hard': HARD,
-    'very_hard': VERY_HARD,
+    'very_easy': Level.VERY_EASY,
+    'easy': Level.EASY,
+    'middle': Level.MIDDLE,
+    'hard': Level.HARD,
+    'very_hard': Level.VERY_HARD,
 }
 parse_dates = compose(
     first, re.compile(r'^с (\d+) ?(\w{3})? ?по (\d+) (\w{3}) (\d{4})').findall
