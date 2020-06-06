@@ -43,7 +43,7 @@ def format_int(src: int) -> str:
 re_digits = partial(re.compile(r'\D+').sub, '')
 DEFAULT_CURRENCY = f'{{}}{NBSP}₽'
 CURRENCIES = {
-    DEFAULT_CURRENCY: re.compile(r'(₽|руб|р\.)', re.I),
+    DEFAULT_CURRENCY: re.compile(r'(₽|руб|р\.?)', re.I),
     f'€{NBSP}{{}}': re.compile(r'(€|евро|eur)', re.I),
     f'${NBSP}{{}}': re.compile(r'(\$|дол|usd)', re.I),
 }

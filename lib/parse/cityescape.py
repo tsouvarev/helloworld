@@ -4,7 +4,7 @@ from functools import partial
 
 import httpx
 
-from ..config import CITYESCAPE
+from ..config import CITYESCAPE, TODAY
 from ..models import Item
 from ..utils import gather_chunks, progress, silent
 
@@ -18,7 +18,7 @@ async def get_page(**kwargs):
 
 @progress
 async def parse_cityescape(prog: progress):
-    start = datetime.utcnow()
+    start = TODAY
     end = start + timedelta(days=365)
     prog('Getting index page')
     resp = await get_page(

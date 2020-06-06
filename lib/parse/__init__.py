@@ -2,6 +2,7 @@ import asyncio
 
 from ..config import (
     CITYESCAPE,
+    MYTRAVELBAR,
     NAPRAVLENIE,
     ORANGEKED,
     PIK,
@@ -11,6 +12,7 @@ from ..config import (
 )
 from ..utils import compactv, debug, info, json_dumps
 from .cityescape import parse_cityescape
+from .mytravelbar import parse_mytravelbar
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .pik import parse_pik
@@ -24,6 +26,7 @@ VENDORS = {
     ZOVGOR: parse_zovgor,
     NAPRAVLENIE: parse_napravlenie,
     TEAMTRIP: parse_teamtrip,
+    MYTRAVELBAR: parse_mytravelbar,
 }
 
 

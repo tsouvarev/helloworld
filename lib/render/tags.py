@@ -1,27 +1,55 @@
 import re
 from dataclasses import asdict, dataclass, field
-from functools import partial
-from itertools import count
+from enum import IntEnum, unique
 from typing import List
 
-from funcy import cat, post_processing
+from funcy import post_processing
 
 from ..config import (
     CITYESCAPE,
     DEFAULT_LEVEL,
     EASY,
-    LAST_DATE,
     LEVELS,
+    MYTRAVELBAR,
     NAPRAVLENIE,
-    NOW,
     ORANGEKED,
     PIK,
     SHORT_DURATION,
     TEAMTRIP,
+    TODAY,
     ZOVGOR,
 )
 
-bits = partial(next, count())
+
+@unique
+class Bit(IntEnum):
+    kids = 1 << 0
+    short = 1 << 1
+    long = 1 << 2
+    pik = 1 << 3
+    orangeked = 1 << 4
+    cityescape = 1 << 5
+    zovgor = 1 << 6
+    napravlenie = 1 << 7
+    teamtrip = 1 << 8
+    level_1 = 1 << 9
+    level_2 = 1 << 10
+    level_3 = 1 << 11
+    level_4 = 1 << 12
+    level_5 = 1 << 13
+    month_1 = 1 << 14
+    month_2 = 1 << 15
+    month_3 = 1 << 16
+    month_4 = 1 << 17
+    month_5 = 1 << 18
+    month_6 = 1 << 19
+    month_7 = 1 << 20
+    month_8 = 1 << 21
+    month_9 = 1 << 22
+    month_10 = 1 << 23
+    month_11 = 1 << 24
+    month_12 = 1 << 25
+    mytravelbar = 1 << 26
 
 
 @dataclass
@@ -30,8 +58,11 @@ class Tag:
     slug: str
     text: str
     title: str = ''
-    bit: int = field(default_factory=lambda: 1 << bits())
     active: bool = False
+    bit: Bit = field(init=False)
+
+    def __post_init__(self):
+        self.bit = Bit[self.slug]
 
     def __and__(self, other):
         return self.bit & other
@@ -57,6 +88,7 @@ class TagGroup:
         }
 
 
+re_kids = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).findall
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
@@ -70,6 +102,7 @@ VENDOR_TAGS = TagGroup(
         Tag(slug=ZOVGOR, text='зов гор'),
         Tag(slug=NAPRAVLENIE, text='направление'),
         Tag(slug=TEAMTRIP, text='team trip'),
+        Tag(slug=MYTRAVELBAR, text='mytravelbar'),
     ],
 )
 
@@ -87,19 +120,22 @@ LEVELS_TAGS = TagGroup(
     ],
 )
 
-MONTHS_NAMES = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
 MONTH_TAGS = TagGroup(
-    title='Месяц, год',
+    title='Месяц',
     slug='months',
     tags=[
-        Tag(slug=f'month_{i}', text=m) for i, m in enumerate(MONTHS_NAMES, 1)
-    ],
-)
-YEAR_NUMS = range(NOW.year, LAST_DATE.year)
-YEAR_TAGS = TagGroup(
-    slug='years',
-    tags=[
-        Tag(slug=f'year_{x}', text=f'<small>{x}</small>') for x in YEAR_NUMS
+        Tag(slug='month_1', text='янв'),
+        Tag(slug='month_2', text='фев'),
+        Tag(slug='month_3', text='мар'),
+        Tag(slug='month_4', text='апр'),
+        Tag(slug='month_5', text='май'),
+        Tag(slug='month_6', text='июн'),
+        Tag(slug='month_7', text='июл'),
+        Tag(slug='month_8', text='авг'),
+        Tag(slug='month_9', text='сен'),
+        Tag(slug='month_10', text='окт'),
+        Tag(slug='month_11', text='ноя'),
+        Tag(slug='month_12', text='дек'),
     ],
 )
 
@@ -109,7 +145,6 @@ TAGS = (
     TagGroup(slug='kids', tags=[KIDS]),
     TagGroup(title='Продолжительность', slug='durations', tags=[SHORT, LONG]),
     MONTH_TAGS,
-    YEAR_TAGS,
 )
 
 
@@ -119,9 +154,6 @@ def reduce_bits(tags):
         tag.active = True
         result |= tag.bit
     return result
-
-
-re_kids = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).findall
 
 
 @post_processing(reduce_bits)
@@ -144,15 +176,17 @@ def get_tags(src: dict):
             yield tag
 
     # duration
-    if (src['end'] - src['start']) <= SHORT_DURATION:
+    if (src['end'] - src['start']) < SHORT_DURATION:
         yield SHORT
     else:
         yield LONG
 
     for m, month in enumerate(MONTH_TAGS, 1):
-        if src['start'].month <= m <= src['end'].month:
-            yield month
+        start, end = src['start'].replace(day=1), src['end'].replace(day=1)
 
-    for year, tag in zip(YEAR_NUMS, YEAR_TAGS):
-        if src['start'].year == year or src['end'].year == year:
-            yield tag
+        date = TODAY.replace(month=m, day=1)
+        if TODAY.month > m:
+            date = date.replace(year=date.year + 1)
+
+        if start <= date <= end:
+            yield month

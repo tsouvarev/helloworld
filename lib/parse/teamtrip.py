@@ -5,7 +5,7 @@ from functools import partial
 import httpx
 from lxml import html
 
-from lib.config import TEAMTRIP
+from lib.config import TEAMTRIP, TODAY
 from lib.models import Item
 from lib.utils import error, mapv, zip_safe
 
@@ -27,11 +27,10 @@ def parse_page(text):
         '//*[@class="t404__title t-heading t-heading_xs"]/text()',
         '//*[@class="t404__link"]/@href',
     )
-    now = datetime.now()
     for dates, title, url in zip_safe(*map(tree.xpath, paths)):
         for date in split_dates(dates):
             try:
-                start, end = parse_dates(now, date)
+                start, end = parse_dates(TODAY, date)
             except Exception as e:
                 error(f'Failed to parse data "{dates}" ({e})')
                 continue

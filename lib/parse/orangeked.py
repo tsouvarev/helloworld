@@ -6,7 +6,7 @@ import httpx
 from funcy import compose, first
 from lxml import html
 
-from ..config import LEVELS, ORANGEKED
+from ..config import LEVELS, ORANGEKED, TODAY
 from ..models import Item
 from ..utils import gather_chunks, progress, silent
 
@@ -60,10 +60,9 @@ def parse_date(src: str):
     start_month = MONTHS.index(start_month) + 1
     end_month = MONTHS.index(end_month) + 1
 
-    now = datetime.now()
-    start_year = end_year = now.year
+    start_year = end_year = TODAY.year
 
-    if end_month < now.month < start_month:
+    if end_month < TODAY.month < start_month:
         end_year += 1
 
     yield datetime(start_year, start_month, int(start_day))

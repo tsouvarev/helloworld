@@ -3,7 +3,7 @@ from datetime import datetime
 import httpx
 from lxml import html
 
-from ..config import NAPRAVLENIE
+from ..config import NAPRAVLENIE, TODAY
 from ..models import Item
 from ..utils import int_or_none, zip_safe
 from ..utils.text import guess_currency
@@ -34,11 +34,10 @@ def parse_page(text):
     )
     titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
     hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
-    now = datetime.now()
     for date, price, slot, title, href in zip_safe(
         dates, prices, slots, titles, hrefs
     ):
-        start, end = parse_dates(now, date)
+        start, end = parse_dates(TODAY, date)
         yield Item(
             vendor=NAPRAVLENIE,
             start=start,

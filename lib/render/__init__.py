@@ -11,7 +11,7 @@ from ..config import (
     DIST_DATA,
     LAST_DATE,
     META_DATA,
-    NOW,
+    TODAY,
     VENDORS,
     WEEKENDS,
     src_path,
@@ -27,7 +27,7 @@ from ..utils import (
 from .tags import KIDS, LEVELS_TAGS, TAGS, get_tags
 
 TOO_LONG = timedelta(days=30)
-CONSIDER_NEW = NOW - timedelta(days=7)
+CONSIDER_NEW = TODAY - timedelta(days=7)
 JS_TEMPLATE = (
     'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
 )
@@ -101,7 +101,7 @@ def render():
         # - find earliest active
         # - filters items from earliest to make it pretty
         items = sort_items(filter(pre_filter, get_source()))
-        earliest = first(x['start'] for x in items if x['end'] > NOW)
+        earliest = first(x['start'] for x in items if x['end'] > TODAY)
         filtered = [x for x in items if post_filter(earliest, x)]
 
         new_meta = {}

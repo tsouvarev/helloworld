@@ -9,8 +9,8 @@ META_DATA = src_path('__meta__.json')
 DIST_DATA = www_path('data.js')
 DIST_INDEX = www_path('index.html')
 
-NOW = datetime.utcnow()
-LAST_DATE = NOW + timedelta(days=600)
+TODAY = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+LAST_DATE = TODAY + timedelta(days=600)
 
 ORANGEKED = 'orangeked'
 PIK = 'pik'
@@ -18,7 +18,16 @@ CITYESCAPE = 'cityescape'
 ZOVGOR = 'zovgor'
 NAPRAVLENIE = 'napravlenie'
 TEAMTRIP = 'teamtrip'
-VENDORS = (ORANGEKED, PIK, CITYESCAPE, ZOVGOR, NAPRAVLENIE, TEAMTRIP)
+MYTRAVELBAR = 'mytravelbar'
+VENDORS = (
+    ORANGEKED,
+    PIK,
+    CITYESCAPE,
+    ZOVGOR,
+    NAPRAVLENIE,
+    TEAMTRIP,
+    MYTRAVELBAR,
+)
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
