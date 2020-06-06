@@ -67,9 +67,6 @@ WEEKENDS = [
 ]
 
 
-UNKNOWN_LEVEL = 0
-
-
 class Level(IntEnum):
     VERY_EASY = 1
     EASY = 2

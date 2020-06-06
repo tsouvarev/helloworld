@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel, validator
 
-from .config import Level, UNKNOWN_LEVEL
+from .config import Level
 from .utils import hash_uid
 
 
@@ -16,7 +16,7 @@ class Item(BaseModel):
     title: str
     start: datetime
     end: datetime
-    level: Level = UNKNOWN_LEVEL
+    level: Optional[Level] = None
     price: Optional[str] = None
     length: Optional[int] = None
     slots: Optional[int] = None

@@ -16,7 +16,6 @@ from ..config import (
     TODAY,
     ZOVGOR,
     Level,
-    UNKNOWN_LEVEL,
 )
 
 
@@ -164,10 +163,10 @@ def get_tags(src: dict):
     if re_kids(src['norm']):
         yield KIDS
 
-        # If guessed the level (i.e. eq to UNKNOWN_LEVEL),
+        # If guessed the level (i.e. eq is None),
         # then put EASY level,
         # cause it's for kids
-        if level == UNKNOWN_LEVEL:
+        if not level:
             level = Level.EASY
 
     yield LEVELS_TAGS.tags[(level or Level.MIDDLE) - 1]
