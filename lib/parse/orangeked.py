@@ -43,7 +43,7 @@ async def parse_page(prog: progress, path: str) -> Item:
     ]
     item = Item(
         vendor=ORANGEKED,
-        level=Level.index(level),
+        level=Level.index(level - 1),
         start=start,
         end=end,
         url=url,
