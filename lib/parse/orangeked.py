@@ -34,6 +34,7 @@ async def parse_page(prog: progress, path: str) -> Item:
     page = await httpx.get(url, timeout=20)
     tree = html.fromstring(page.text.encode())
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
+    slots = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))
     title = tree.xpath('//*[@id="k2Container"]/header/h1/text()')[0]
     start, end = parse_date(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
@@ -49,6 +50,7 @@ async def parse_page(prog: progress, path: str) -> Item:
         url=url,
         title=title,
         price=price,
+        slots=slots,
     )
     prog(item.url)
     return item
