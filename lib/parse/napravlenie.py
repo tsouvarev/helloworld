@@ -3,7 +3,7 @@ from datetime import datetime
 import httpx
 from lxml import html
 
-from ..config import NAPRAVLENIE, TODAY
+from ..config import TODAY, Vendor
 from ..models import Item
 from ..utils import int_or_none, zip_safe
 from ..utils.text import guess_currency
@@ -39,7 +39,7 @@ def parse_page(text):
     ):
         start, end = parse_dates(TODAY, date)
         yield Item(
-            vendor=NAPRAVLENIE,
+            vendor=Vendor.NAPRAVLENIE,
             start=start,
             end=end,
             title=title.replace(' / 2020', ''),

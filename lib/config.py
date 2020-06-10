@@ -1,6 +1,6 @@
 import os.path
 from datetime import datetime, timedelta
-from enum import IntEnum
+from enum import Enum, IntEnum
 from functools import partial
 
 from funcy import nth
@@ -14,23 +14,6 @@ DIST_INDEX = www_path('index.html')
 
 TODAY = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
 LAST_DATE = TODAY + timedelta(days=600)
-
-ORANGEKED = 'orangeked'
-PIK = 'pik'
-CITYESCAPE = 'cityescape'
-ZOVGOR = 'zovgor'
-NAPRAVLENIE = 'napravlenie'
-TEAMTRIP = 'teamtrip'
-MYTRAVELBAR = 'mytravelbar'
-VENDORS = (
-    ORANGEKED,
-    PIK,
-    CITYESCAPE,
-    ZOVGOR,
-    NAPRAVLENIE,
-    TEAMTRIP,
-    MYTRAVELBAR,
-)
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
@@ -65,6 +48,16 @@ WEEKENDS = [
     '14.06.2021',
     '04.11.2021',
 ]
+
+
+class Vendor(str, Enum):
+    ORANGEKED = 'orangeked'
+    PIK = 'pik'
+    CITYESCAPE = 'cityescape'
+    ZOVGOR = 'zovgor'
+    NAPRAVLENIE = 'napravlenie'
+    TEAMTRIP = 'teamtrip'
+    MYTRAVELBAR = 'mytravelbar'
 
 
 class Level(IntEnum):

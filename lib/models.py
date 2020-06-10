@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel, validator
 
-from .config import Level
+from .config import Level, Vendor
 from .utils import hash_uid
 
 
@@ -12,7 +12,7 @@ class Item(BaseModel):
         extra = 'forbid'
 
     url: str
-    vendor: str
+    vendor: Vendor
     title: str
     start: datetime
     end: datetime

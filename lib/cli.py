@@ -2,7 +2,7 @@ import webbrowser
 
 import click
 
-from lib.config import DIST_INDEX, VENDORS
+from lib.config import DIST_INDEX, Vendor
 from lib.parse import parse
 from lib.render import render
 
@@ -17,7 +17,7 @@ cli.command()(
         '--vendor',
         '-v',
         multiple=True,
-        type=click.Choice(VENDORS),
+        type=click.Choice(Vendor),
         required=False,
     )(parse)
 )

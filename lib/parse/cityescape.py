@@ -4,7 +4,7 @@ from functools import partial
 
 import httpx
 
-from ..config import CITYESCAPE, TODAY
+from ..config import TODAY, Vendor
 from ..models import Item
 from ..utils import gather_chunks, progress, silent
 
@@ -35,7 +35,7 @@ async def parse_page(prog: progress, src: dict) -> Item:
     resp = await get_page(action='get_event', id=src['id'])
     data = resp.json()
     item = Item(
-        vendor=CITYESCAPE,
+        vendor=Vendor.CITYESCAPE,
         start=datetime.strptime(data['start'], '%m/%d/%Y %M:%H:%S'),
         end=datetime.strptime(data['end'], '%m/%d/%Y %M:%H:%S'),
         title=data['title'],

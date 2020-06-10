@@ -5,7 +5,7 @@ from datetime import datetime
 import httpx
 from funcy import cat, compose, first, partial
 
-from ..config import PIK, Level
+from ..config import Level, Vendor
 from ..models import Item
 from ..utils import progress
 
@@ -67,7 +67,7 @@ def parse_item(item: dict) -> Item:
     if item['is_full']:
         slots = 0
     return Item(
-        vendor=PIK,
+        vendor=Vendor.PIK,
         start=start,
         end=end,
         title=item['name'],

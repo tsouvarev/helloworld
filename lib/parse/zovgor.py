@@ -4,7 +4,7 @@ import httpx
 from funcy import partial
 from lxml import html
 
-from ..config import TODAY, ZOVGOR
+from ..config import TODAY, Vendor
 from ..models import Item
 from ..utils import format_price, mapv, zip_safe
 
@@ -28,7 +28,7 @@ def parse_page(text):
     for title, url, date, price in zip_safe(*data):
         start, end = map(parse_dt, date.split('-', 1))
         yield Item(
-            vendor=ZOVGOR,
+            vendor=Vendor.ZOVGOR,
             title=title.text_content(),
             url='https://zovgor.com/' + url,
             price=format_price(price),

@@ -6,7 +6,7 @@ from cssselect import GenericTranslator
 from funcy import first, keep
 from lxml import html
 
-from ..config import MYTRAVELBAR, TODAY, Level
+from ..config import TODAY, Level, Vendor
 from ..models import Item
 from ..utils import format_price, int_or_none, zip_safe
 
@@ -40,7 +40,7 @@ def parse_page(text):
     for date, title, length, slot, price, href in zip_safe(*parsed, hrefs):
         start, end = parse_date(TODAY, date)
         yield Item(
-            vendor=MYTRAVELBAR,
+            vendor=Vendor.MYTRAVELBAR,
             start=start,
             end=end,
             title=title,

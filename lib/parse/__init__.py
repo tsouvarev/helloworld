@@ -1,15 +1,6 @@
 import asyncio
 
-from ..config import (
-    CITYESCAPE,
-    MYTRAVELBAR,
-    NAPRAVLENIE,
-    ORANGEKED,
-    PIK,
-    TEAMTRIP,
-    ZOVGOR,
-    src_path,
-)
+from ..config import Vendor, src_path
 from ..utils import compactv, debug, info, json_dumps
 from .cityescape import parse_cityescape
 from .mytravelbar import parse_mytravelbar
@@ -20,13 +11,13 @@ from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
 
 VENDORS = {
-    CITYESCAPE: parse_cityescape,
-    ORANGEKED: parse_orangeked,
-    PIK: parse_pik,
-    ZOVGOR: parse_zovgor,
-    NAPRAVLENIE: parse_napravlenie,
-    TEAMTRIP: parse_teamtrip,
-    MYTRAVELBAR: parse_mytravelbar,
+    Vendor.CITYESCAPE: parse_cityescape,
+    Vendor.ORANGEKED: parse_orangeked,
+    Vendor.PIK: parse_pik,
+    Vendor.ZOVGOR: parse_zovgor,
+    Vendor.NAPRAVLENIE: parse_napravlenie,
+    Vendor.TEAMTRIP: parse_teamtrip,
+    Vendor.MYTRAVELBAR: parse_mytravelbar,
 }
 
 

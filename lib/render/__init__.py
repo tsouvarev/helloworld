@@ -12,8 +12,8 @@ from ..config import (
     LAST_DATE,
     META_DATA,
     TODAY,
-    VENDORS,
     WEEKENDS,
+    Vendor,
     src_path,
 )
 from ..utils import (
@@ -76,7 +76,7 @@ def render_item(item: dict):
 
 
 def get_source():
-    for v in VENDORS:
+    for v in Vendor:
         with open(src_path(v + '.json'), 'r') as f:
             yield from map(parse_item, json.load(f))
 

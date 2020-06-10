@@ -5,18 +5,7 @@ from typing import List
 
 from funcy import post_processing
 
-from ..config import (
-    CITYESCAPE,
-    MYTRAVELBAR,
-    NAPRAVLENIE,
-    ORANGEKED,
-    PIK,
-    SHORT_DURATION,
-    TEAMTRIP,
-    TODAY,
-    ZOVGOR,
-    Level,
-)
+from ..config import SHORT_DURATION, TODAY, Level, Vendor
 
 
 @unique
@@ -94,13 +83,13 @@ LONG = Tag(slug='long', text='долгие')
 VENDOR_TAGS = TagGroup(
     slug='vendors',
     tags=[
-        Tag(slug=PIK, text='пик'),
-        Tag(slug=ORANGEKED, text='оранжевый кед'),
-        Tag(slug=CITYESCAPE, text='клуб походов и приключений'),
-        Tag(slug=ZOVGOR, text='зов гор'),
-        Tag(slug=NAPRAVLENIE, text='направление'),
-        Tag(slug=TEAMTRIP, text='team trip'),
-        Tag(slug=MYTRAVELBAR, text='mytravelbar'),
+        Tag(slug=Vendor.PIK, text='пик'),
+        Tag(slug=Vendor.ORANGEKED, text='оранжевый кед'),
+        Tag(slug=Vendor.CITYESCAPE, text='клуб походов и приключений'),
+        Tag(slug=Vendor.ZOVGOR, text='зов гор'),
+        Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
+        Tag(slug=Vendor.TEAMTRIP, text='team trip'),
+        Tag(slug=Vendor.MYTRAVELBAR, text='mytravelbar'),
     ],
 )
 

@@ -5,7 +5,7 @@ from functools import partial
 import httpx
 from lxml import html
 
-from lib.config import TEAMTRIP, TODAY
+from lib.config import TODAY, Vendor
 from lib.models import Item
 from lib.utils import error, mapv, zip_safe
 
@@ -36,7 +36,7 @@ def parse_page(text):
                 continue
 
             yield Item(
-                vendor=TEAMTRIP,
+                vendor=Vendor.TEAMTRIP,
                 start=start,
                 end=end,
                 title=title,
