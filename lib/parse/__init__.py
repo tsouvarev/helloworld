@@ -7,6 +7,7 @@ from .mytravelbar import parse_mytravelbar
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .pik import parse_pik
+from .pohodtut import parse_pohodtut
 from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
 
@@ -18,6 +19,7 @@ VENDORS = {
     Vendor.NAPRAVLENIE: parse_napravlenie,
     Vendor.TEAMTRIP: parse_teamtrip,
     Vendor.MYTRAVELBAR: parse_mytravelbar,
+    Vendor.POHODTUT: parse_pohodtut,
 }
 
 

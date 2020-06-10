@@ -37,6 +37,7 @@ class Bit(IntEnum):
     month_11 = 1 << 24
     month_12 = 1 << 25
     mytravelbar = 1 << 26
+    pohodtut = 1 << 27
 
 
 @dataclass
@@ -90,6 +91,7 @@ VENDOR_TAGS = TagGroup(
         Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
         Tag(slug=Vendor.TEAMTRIP, text='team trip'),
         Tag(slug=Vendor.MYTRAVELBAR, text='mytravelbar'),
+        Tag(slug=Vendor.POHODTUT, text='pohodtut'),
     ],
 )
 

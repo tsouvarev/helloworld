@@ -17,7 +17,7 @@ cli.command()(
         '--vendor',
         '-v',
         multiple=True,
-        type=click.Choice(Vendor),
+        type=click.Choice(tuple(Vendor)),
         required=False,
     )(parse)
 )

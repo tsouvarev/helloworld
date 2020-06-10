@@ -58,6 +58,7 @@ class Vendor(str, Enum):
     NAPRAVLENIE = 'napravlenie'
     TEAMTRIP = 'teamtrip'
     MYTRAVELBAR = 'mytravelbar'
+    POHODTUT = 'pohodtut'
 
 
 class Level(IntEnum):

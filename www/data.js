@@ -58,6 +58,21 @@ const DATA={"weekendList": [
         "vendor": "zovgor"
     },
     {
+        "end": "13.06.2020",
+        "for_kids": 0,
+        "id": "5a7640d",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u043c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
+        "price": "6\u00a0000\u00a0\u20bd",
+        "slots": null,
+        "start": "11.06.2020",
+        "tags": 134744066,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
+        "url": "https://www.pohodtut.ru/splav-po-reke-medvedica-tver",
+        "vendor": "pohodtut"
+    },
+    {
         "end": "14.06.2020",
         "for_kids": 0,
         "id": "a9a4137",
@@ -283,6 +298,36 @@ const DATA={"weekendList": [
         "vendor": "pik"
     },
     {
+        "end": "14.06.2020",
+        "for_kids": 0,
+        "id": "9352b25",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0438\u0441\u0442\u0440\u0430",
+        "price": "3\u00a0000\u00a0\u20bd",
+        "slots": null,
+        "start": "14.06.2020",
+        "tags": 134744066,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0418\u0441\u0442\u0440\u0430",
+        "url": "https://www.pohodtut.ru/istrasplav",
+        "vendor": "pohodtut"
+    },
+    {
+        "end": "16.06.2020",
+        "for_kids": 0,
+        "id": "7243132",
+        "length": null,
+        "level": null,
+        "norm": "\u0433\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0437\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u044c\u0435\u0440\u044b \u0438 \u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u043c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
+        "price": "2\u00a0000\u00a0\u20bd",
+        "slots": null,
+        "start": "16.06.2020",
+        "tags": 134744066,
+        "title": "\u0413\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u044c\u0435\u0440\u044b \u0438\u00a0\u0441\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
+        "url": "https://www.pohodtut.ru/geolog-zvenigorod",
+        "vendor": "pohodtut"
+    },
+    {
         "end": "18.06.2020",
         "for_kids": 0,
         "id": "43bb9b6",
@@ -461,6 +506,21 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u0412\u0434\u043e\u043b\u044c \u0440\u0435\u043a\u0438 \u0420\u043e\u0436\u0430\u0439\u043a\u0438",
         "url": "https://mytravelbar.ru/rozhayka20-06",
         "vendor": "mytravelbar"
+    },
+    {
+        "end": "21.06.2020",
+        "for_kids": 1,
+        "id": "44644ea",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u043b\u044f\u0437\u044c\u043c\u0430 \u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434",
+        "price": "4\u00a0700\u00a0\u20bd",
+        "slots": null,
+        "start": "20.06.2020",
+        "tags": 134743043,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u043b\u044f\u0437\u044c\u043c\u0430 (\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434)",
+        "url": "https://www.pohodtut.ru/detskiy-splav-po-reke-klyazma",
+        "vendor": "pohodtut"
     },
     {
         "end": "01.07.2020",
@@ -656,6 +716,21 @@ const DATA={"weekendList": [
         "title": "\u041a\u00a0\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u0435 \u043f\u043e\u00a0\u0431\u0435\u0440\u0435\u0433\u0430\u043c \u041f\u0440\u043e\u0442\u0432\u044b",
         "url": "https://cityescape.ru/k-melnice-po-beregam-protvy/",
         "vendor": "cityescape"
+    },
+    {
+        "end": "24.06.2020",
+        "for_kids": 0,
+        "id": "f02adc9",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u043c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
+        "price": "3\u00a0000\u00a0\u20bd",
+        "slots": null,
+        "start": "24.06.2020",
+        "tags": 134744066,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
+        "url": "https://www.pohodtut.ru/splav-po-moskve-reke",
+        "vendor": "pohodtut"
     },
     {
         "end": "05.07.2020",
@@ -1753,6 +1828,21 @@ const DATA={"weekendList": [
         "vendor": "napravlenie"
     },
     {
+        "end": "12.07.2020",
+        "for_kids": 0,
+        "id": "3116d1a",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0434\u0443\u0431\u043d\u0430",
+        "price": "4\u00a0700\u00a0\u20bd",
+        "slots": null,
+        "start": "11.07.2020",
+        "tags": 135268354,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
+        "url": "https://www.pohodtut.ru/dubnasplav",
+        "vendor": "pohodtut"
+    },
+    {
         "end": "23.07.2020",
         "for_kids": 0,
         "id": "30933cf",
@@ -2066,6 +2156,21 @@ const DATA={"weekendList": [
         "title": "\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
         "url": "https://team-trip.ru/orca_safari",
         "vendor": "teamtrip"
+    },
+    {
+        "end": "19.07.2020",
+        "for_kids": 0,
+        "id": "da6e217",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u043b\u0433\u0430",
+        "price": "6\u00a0500\u00a0\u20bd",
+        "slots": null,
+        "start": "17.07.2020",
+        "tags": 135268354,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
+        "url": "https://www.pohodtut.ru/volgastaritsa",
+        "vendor": "pohodtut"
     },
     {
         "end": "28.07.2020",
@@ -2651,6 +2756,21 @@ const DATA={"weekendList": [
         "title": "\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u043f\u043b\u0430\u043d\u0434\u0438\u0438 (\u0428\u0432\u0435\u0446\u0438\u044f)",
         "url": "https://zovgor.com/trekking-sweden.html",
         "vendor": "zovgor"
+    },
+    {
+        "end": "26.07.2020",
+        "for_kids": 0,
+        "id": "9dab7eb",
+        "length": null,
+        "level": null,
+        "norm": "\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u0438\u0440\u0436\u0430\u0447",
+        "price": "5\u00a0500\u00a0\u20bd",
+        "slots": null,
+        "start": "24.07.2020",
+        "tags": 135268354,
+        "title": "\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
+        "url": "https://www.pohodtut.ru/splav-po-reke-kirzhach",
+        "vendor": "pohodtut"
     },
     {
         "end": "25.07.2020",
@@ -8759,7 +8879,7 @@ const DATA={"weekendList": [
     }
 ], "tagGroups": [
     {
-        "bits": 67109368,
+        "bits": 201327096,
         "slug": "vendors",
         "tags": [
             {
@@ -8809,6 +8929,13 @@ const DATA={"weekendList": [
                 "bit": 67108864,
                 "slug": "mytravelbar",
                 "text": "mytravelbar",
+                "title": ""
+            },
+            {
+                "active": true,
+                "bit": 134217728,
+                "slug": "pohodtut",
+                "text": "pohodtut",
                 "title": ""
             }
         ],
