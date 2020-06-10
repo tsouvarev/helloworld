@@ -174,11 +174,11 @@
                 </tr>
             </table>
             <div class="detail__pager">
-                <div v-if="detail.prev" class="detail__pager__page detail__pager__page--prev">
-                    <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
-                </div>
                 <div v-if="detail.next" class="detail__pager__page detail__pager__page--next">
                     <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
+                </div>
+                <div v-if="detail.prev" class="detail__pager__page detail__pager__page--prev">
+                    <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
                 </div>
             </div>
         </div>
