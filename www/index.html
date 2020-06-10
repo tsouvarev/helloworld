@@ -115,18 +115,18 @@
             <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
             <table class="tbl">
                 <tr>
-                    <th align="right">🚩</th>
+                    <th>🚩</th>
                     <td :set="url = parseUrl(event.url)"><a :href="url.origin">{{ url.hostname }}</a></td>
                 </tr>
                 <tr>
-                    <th align="right">🗓</th>
+                    <th>🗓</th>
                     <td>
                         {{ formatPeriod(event.start, event.end) }},
                         {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}
                     </td>
                 </tr>
                 <tr v-if="event.level">
-                    <th align="right">💪</th>
+                    <th>💪</th>
                     <td>
                         {{ event.level }}/5&nbsp;&mdash;
                         <span v-if="event.level == 1">
@@ -150,37 +150,46 @@
                     </td>
                 </tr>
                 <tr v-if="event.length">
-                    <th align="right">🥾</th>
+                    <th>🥾</th>
                     <td>{{ event.length }}&nbsp;км</td>
                 </tr>
                 <tr v-if="event.for_kids">
-                    <th align="right">👶</th>
+                    <th>👶</th>
                     <td>Маршрут адаптирован для детей</td>
                 </tr>
                 <tr v-if="event.slots === 0">
-                    <th align="right">🎒</th>
+                    <th>🎒</th>
                     <td>мест нет</td>
                 </tr>
                 <tr v-else-if="event.slots > 0">
-                    <th align="right">🎒</th>
+                    <th>🎒</th>
                     <td>{{ event.slots }}&nbsp;{{ event.slots | pluralize('место', 'места', 'мест') }}</td>
                 </tr>
                 <tr v-if="event.price">
-                    <th align="right">🤑</th>
+                    <th>🤑</th>
                     <td>
                         {{ event.price }}
                         <span v-if="event.for_kids">— цена для ребенка обычно ниже</span>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr>
+                    </td>
+                </tr>
+                <tr v-if="detail.next">
+                    <th>⟶</th>
+                    <td>
+                        <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
+                    </td>
+                </tr>
+                <tr v-if="detail.prev">
+                    <th>⟵</th>
+                    <td>
+                        <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
+                    </td>
+                </tr>
             </table>
-            <div class="detail__pager">
-                <div v-if="detail.next" class="detail__pager__page detail__pager__page--next">
-                    <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
-                </div>
-                <div v-if="detail.prev" class="detail__pager__page detail__pager__page--prev">
-                    <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
-                </div>
-            </div>
         </div>
     </div>
 </div>

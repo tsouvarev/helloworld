@@ -72,8 +72,8 @@ json_dumps = partial(
     iterable_as_array=True,
     for_json=True,
     sort_keys=True,
-    indent=4,
-    separators=(',', ': '),
+    indent=0,
+    separators=(',', ':'),
 )
 
 
