@@ -33,6 +33,8 @@ WEEKENDS = [
     '05.05.2020',
     '11.05.2020',
     '12.06.2020',
+    '24.06.2020',
+    '01.07.2020',
     '04.11.2020',
     # 2021
     '01.01.2021',
@@ -57,7 +59,6 @@ class Vendor(str, Enum):
     ZOVGOR = 'zovgor'
     NAPRAVLENIE = 'napravlenie'
     TEAMTRIP = 'teamtrip'
-    MYTRAVELBAR = 'mytravelbar'
     POHODTUT = 'pohodtut'
 
 

@@ -3,7 +3,6 @@ import asyncio
 from ..config import Vendor, src_path
 from ..utils import compactv, debug, info, json_dumps
 from .cityescape import parse_cityescape
-from .mytravelbar import parse_mytravelbar
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .pik import parse_pik
@@ -18,7 +17,6 @@ VENDORS = {
     Vendor.ZOVGOR: parse_zovgor,
     Vendor.NAPRAVLENIE: parse_napravlenie,
     Vendor.TEAMTRIP: parse_teamtrip,
-    Vendor.MYTRAVELBAR: parse_mytravelbar,
     Vendor.POHODTUT: parse_pohodtut,
 }
 
