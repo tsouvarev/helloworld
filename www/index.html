@@ -116,7 +116,7 @@
             <table class="tbl">
                 <tr>
                     <th>🚩</th>
-                    <td :set="url = parseUrl(event.url)"><a :href="url.origin">{{ url.hostname }}</a></td>
+                    <td :set="url = parseUrl(event.url)"><a :href="event.url">{{ url.hostname }}</a></td>
                 </tr>
                 <tr>
                     <th>🗓</th>
