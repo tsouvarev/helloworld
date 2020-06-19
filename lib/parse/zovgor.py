@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import TODAY, Vendor
 from ..models import Item
-from ..utils import format_price, mapv, zip_safe
+from ..utils import mapv, zip_safe
 
 
 async def parse_zovgor():
@@ -31,7 +31,7 @@ def parse_page(text):
             vendor=Vendor.ZOVGOR,
             title=title.text_content(),
             url='https://zovgor.com/' + url,
-            price=format_price(price),
+            price=price,
             start=start,
             end=end,
         )

@@ -6,7 +6,6 @@ from funcy import first, post_processing
 
 from ..config import TODAY, Vendor
 from ..models import Item
-from ..utils import format_price
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -61,7 +60,7 @@ def parse_page(text):
             start=start,
             end=end,
             title=data['title'],
-            price=format_price(data['price']),
+            price=data['price'],
             url='https://www.pohodtut.ru/' + url,
         )
 
