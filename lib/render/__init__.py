@@ -15,7 +15,7 @@ from ..config import (
     WEEKENDS,
     Vendor,
     src_path,
-)
+    FIRST_DATE)
 from ..utils import (
     debug,
     format_price,
@@ -46,8 +46,8 @@ def pre_filter(item: dict):
     return True
 
 
-def post_filter(now, item: dict):
-    if item['start'] < now:
+def post_filter(date, item: dict):
+    if item['start'] < date:
         debug('Skip already started "{url}"'.format_map(item))
         return False
     return True
@@ -97,7 +97,7 @@ def render():
         # - find earliest active
         # - filters items from earliest to make it pretty
         items = sort_items(filter(pre_filter, get_source()))
-        earliest = first(x['start'] for x in items if x['end'] > TODAY)
+        earliest = first(x['start'] for x in items if x['end'] > FIRST_DATE)
         filtered = [x for x in items if post_filter(earliest, x)]
 
         new_meta = {}

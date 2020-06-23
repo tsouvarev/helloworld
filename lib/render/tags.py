@@ -36,7 +36,9 @@ class Bit(IntEnum):
     month_10 = 1 << 23
     month_11 = 1 << 24
     month_12 = 1 << 25
+    rafting = 1 << 26
     pohodtut = 1 << 27
+    bicycle = 1 << 28
 
 
 @dataclass
@@ -55,6 +57,9 @@ class Tag:
         return self.bit & other
 
     __rand__ = __and__
+
+    def __hash__(self):
+        return hash(self.slug)
 
 
 @dataclass(frozen=True)
@@ -75,8 +80,16 @@ class TagGroup:
         }
 
 
-re_kids = re.compile(r'(семьи|семей|детск|[0-9]+\+)', re.I).findall
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
+RAFTING = Tag(slug='rafting', title='сплав', text='🛶')
+BICYCLE = Tag(slug='bicycle', title='велопоход', text='🚴')
+TYPES = {
+    KIDS: re.compile(r'\b(семьи|семей|детск|[0-9]+\+)', re.I).findall,
+    RAFTING: re.compile(r'\b(сплав|водн)', re.I).findall,
+    BICYCLE: re.compile(r'\b(велопоход|велосипед)', re.I).findall,
+}
+
+
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
 
@@ -129,7 +142,7 @@ MONTH_TAGS = TagGroup(
 TAGS = (
     VENDOR_TAGS,
     LEVELS_TAGS,
-    TagGroup(slug='kids', tags=[KIDS]),
+    TagGroup(slug='type', tags=list(TYPES)),
     TagGroup(title='Продолжительность', slug='durations', tags=[SHORT, LONG]),
     MONTH_TAGS,
 )
@@ -149,13 +162,16 @@ def get_tags(src: dict):
 
     # fixme: kids tag duck style
     level = src['level']
-    if re_kids(src['norm']):
-        yield KIDS
+    for tag, finder in TYPES.items():
+        if not finder(src['norm']):
+            continue
 
-        # If guessed the level (i.e. eq is None),
-        # then put EASY level,
-        # cause it's for kids
-        if not level:
+        yield tag
+
+        if tag is KIDS and not level:
+            # If guessed the level (i.e. eq is None),
+            # then put EASY level,
+            # cause it's for kids
             level = Level.EASY
 
     yield LEVELS_TAGS.tags[(level or Level.MIDDLE) - 1]

@@ -1,6 +1,6 @@
 import pytest
 
-from lib.render.tags import re_kids
+from lib.render.tags import kids_re
 from lib.utils import normalize
 
 
@@ -14,4 +14,4 @@ from lib.utils import normalize
     ),
 )
 def test_re_kids(src):
-    assert re_kids(normalize(src))
+    assert kids_re(normalize(src))

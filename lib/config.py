@@ -13,6 +13,7 @@ DIST_DATA = www_path('data.js')
 DIST_INDEX = www_path('index.html')
 
 TODAY = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+FIRST_DATE = TODAY - timedelta(days=7)  # Makes render "today" on calendar
 LAST_DATE = TODAY + timedelta(days=600)
 
 DATE_FORMAT = '%d.%m.%Y'
