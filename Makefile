@@ -1,5 +1,5 @@
 css:
-	stylus -w -c www/index.styl
+	stylus -w -c docs/index.styl
 
 isort:
 	isort -rc -y lib tests
@@ -31,4 +31,4 @@ serve:
 	uvicorn lib.app:app --host 0.0.0.0 --port 80
 
 cron: parse render browse
-	git commit -a -m "Update www/data.js" && git push
+	git commit -a -m "Update docs/data.js" && git push
