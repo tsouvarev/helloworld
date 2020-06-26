@@ -1,7 +1,7 @@
 # hello world
 
 Это календарь для удобного планирования походов, 
-посмотреть можно [здесь](https://tsouvarev.github.io/helloworld/www/).
+посмотреть можно [здесь](https://uhike.ru).
 
 ## cmd 
 
