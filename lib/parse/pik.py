@@ -14,7 +14,7 @@ MONTHS = 'янв фев мар апр мая июн июл авг сен окт 
 LEVELS = {
     'very_easy': Level.VERY_EASY,
     'easy': Level.EASY,
-    'middle': Level.MIDDLE,
+    'middle': Level.MEDIUM,
     'hard': Level.HARD,
     'very_hard': Level.VERY_HARD,
 }

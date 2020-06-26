@@ -174,7 +174,7 @@ def get_tags(src: dict):
             # cause it's for kids
             level = Level.EASY
 
-    yield LEVELS_TAGS.tags[(level or Level.MIDDLE) - 1]
+    yield LEVELS_TAGS.tags[(level or Level.MEDIUM) - 1]
 
     # duration
     if (src['end'] - src['start']) < SHORT_DURATION:

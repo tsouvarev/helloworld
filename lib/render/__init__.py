@@ -9,13 +9,14 @@ from typus import ru_typus
 
 from ..config import (
     DIST_DATA,
+    FIRST_DATE,
     LAST_DATE,
     META_DATA,
     TODAY,
     WEEKENDS,
     Vendor,
     src_path,
-    FIRST_DATE)
+)
 from ..utils import (
     debug,
     format_price,

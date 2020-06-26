@@ -66,7 +66,7 @@ class Vendor(str, Enum):
 class Level(IntEnum):
     VERY_EASY = 1
     EASY = 2
-    MIDDLE = 3
+    MEDIUM = 3
     HARD = 4
     VERY_HARD = 5
 

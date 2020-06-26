@@ -1,45 +1,124 @@
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 from functools import partial
+from typing import Iterable, Optional, Tuple
 
 import httpx
+from cssselect import GenericTranslator
+from funcy import cat, first
+from lxml import html
 
-from ..config import FIRST_DATE, Vendor
+from ..config import TODAY, Level, Vendor
 from ..models import Item
-from ..utils import gather_chunks, progress, silent
+from ..utils import gather_chunks, int_or_none, progress
 
-CITYESCAPE_URL = 'https://cityescape.ru/wp-admin/admin-ajax.php'
-re_url = re.compile(r"""<a href=(['"]+)([^']+)\1""").findall
+cssx = GenericTranslator().css_to_xpath
 
-
-async def get_page(**kwargs):
-    return await httpx.post(CITYESCAPE_URL, data=kwargs, timeout=20)
+MONTHS = (
+    'января февраля марта апреля мая июня июля августа '
+    'сентября октября ноября декабря'.split()
+)
+MONTHS_JOINED = '|'.join(MONTHS)
+PRICE_RE = re.compile(r'((?=[1-9])[0-9 ]+)\s+(р\.|\$|€)')
+TITLE_RE = re.compile(r'(.+?) ([1-9][0-9 -]+(?:%s).+)$' % MONTHS_JOINED)
+DATE_RE = re.compile(r'([0-9]+) ?(%s)? ?([0-9]{4})?' % MONTHS_JOINED)
+LEVELS_MAP = {
+    '>Легкий': Level.EASY,
+    '>Несложный': Level.EASY,
+    '>Средний': Level.MEDIUM,
+    '>Сложный': Level.HARD,
+}
 
 
 @progress
 async def parse_cityescape(prog: progress):
-    start = FIRST_DATE
-    end = start + timedelta(days=365)
-    prog('Getting index page')
-    resp = await get_page(
-        action='get_events',
-        start=int(start.timestamp()),
-        end=int(end.timestamp()),
+    page = await httpx.get('https://cityescape.ru/', timeout=20)
+    tree = html.fromstring(page.text.encode())
+
+    items = cat(
+        x.xpath('a/@href')
+        for x in tree.xpath(cssx('.menu-item-object-post'))
+        if 'Ожидается' not in x.text_content()
     )
+
     parser = partial(parse_page, prog)
-    return await gather_chunks(5, *map(parser, resp.json()))
+    result = await gather_chunks(5, *map(parser, items))
+    return list(cat(result))
 
 
-@silent
-async def parse_page(prog: progress, src: dict) -> Item:
-    resp = await get_page(action='get_event', id=src['id'])
-    data = resp.json()
-    item = Item(
-        vendor=Vendor.CITYESCAPE,
-        start=datetime.strptime(data['start'], '%m/%d/%Y %M:%H:%S'),
-        end=datetime.strptime(data['end'], '%m/%d/%Y %M:%H:%S'),
-        title=data['title'],
-        url=re_url(data['content'])[0][1],
+async def parse_page(prog: progress, url: str):
+    prog(url)
+    page = await httpx.get(url)
+    text = page.text.replace('&nbsp;', ' ')
+    items = []
+    tree = html.fromstring(text.encode())
+    price = parse_price(
+        ''.join(tree.xpath('//*[@id="content-tab2"]')[0].itertext())
     )
-    prog(item.url)
-    return item
+
+    level = None
+    for k, v in LEVELS_MAP.items():
+        if k in text:
+            level = v
+            break
+
+    for page_title in tree.xpath('//*[@class="page__title"]/text()'):
+        data = first(TITLE_RE.findall(page_title))
+        if not data:
+            # fixme: warn
+            continue
+
+        title, dates = data
+        for start, end in parse_dates(dates):
+            item = Item(
+                vendor=Vendor.CITYESCAPE,
+                start=start,
+                end=end,
+                title=title,
+                url=url,
+                price=price and '{} {}'.format(*price),
+                level=level,
+            )
+            items.append(item)
+    return items
+
+
+def parse_dates(src: str) -> Iterable[Tuple[datetime, datetime]]:
+    dates = src.split(',')
+    for pair in dates:
+        splitted = pair.split('-')
+
+        if len(splitted) == 1:
+            start_src, end_src = None, splitted[0]
+        else:
+            start_src, end_src = splitted
+
+        start = end = parse_date(end_src, TODAY)
+        if start_src:
+            start = parse_date(start_src, start)
+            if end < start:
+                start = start.replace(year=start.year - 1)
+        yield start, end
+
+
+def parse_date(src: str, today: datetime) -> datetime:
+    day, month, year = map(str.strip, DATE_RE.findall(src)[0])
+    date = today.replace(
+        year=int_or_none(year) or today.year,
+        month=MONTHS.index(month) + 1 if month else today.month,
+        day=int_or_none(day),
+    )
+    return date
+
+
+def parse_price(src: str) -> Optional[Tuple[int, int]]:
+    price = currency = None
+    for x, y in PRICE_RE.findall(src):
+        price = max(price or 0, int_or_none(x))
+        if not currency:
+            currency = y
+
+    if not price:
+        return None
+
+    return price, currency
