@@ -15,7 +15,9 @@ MONTHS = (
 
 
 async def parse_napravlenie():
-    page = await httpx.get('https://www.napravlenie.info/kalendar/')
+    page = await httpx.get(
+        'https://www.napravlenie.info/kalendar/', timeout=20
+    )
     return parse_page(page.text)
 
 
