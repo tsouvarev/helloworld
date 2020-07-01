@@ -8392,7 +8392,7 @@ const DATA={"weekendList": [
 "active":true,
 "bit":32,
 "slug":"cityescape",
-"text":"\u043a\u043b\u0443\u0431 \u043f\u043e\u0445\u043e\u0434\u043e\u0432 \u0438 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439",
+"text":"cityescape",
 "title":""
 },
 {

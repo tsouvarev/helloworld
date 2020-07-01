@@ -98,7 +98,7 @@ VENDOR_TAGS = TagGroup(
     tags=[
         Tag(slug=Vendor.PIK, text='пик'),
         Tag(slug=Vendor.ORANGEKED, text='оранжевый кед'),
-        Tag(slug=Vendor.CITYESCAPE, text='клуб походов и приключений'),
+        Tag(slug=Vendor.CITYESCAPE, text='cityescape'),
         Tag(slug=Vendor.ZOVGOR, text='зов гор'),
         Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
         Tag(slug=Vendor.TEAMTRIP, text='team trip'),
