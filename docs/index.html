@@ -118,7 +118,7 @@
         <div class="detail" v-if="detail.event">
         <div class="esc" v-on:click="hideDetail">✕</div>
         <div class="detail__inner" :set="event = detail.event">
-            <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a></h1>
+            <h1 class="detail__title"><a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small></h1>
             <table class="tbl">
                 <tr>
                     <th>🚩</th>
