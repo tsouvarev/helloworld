@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap')
+
 day = 25px
 vendors = {
     orangeked: #FFF3E0,
@@ -16,6 +18,7 @@ aside-width = 270px
 
 body.active
     transform scale(1) !important
+    font-family: 'Rubik', sans-serif;
 
     #blocker
         opacity 0
@@ -52,6 +55,15 @@ html, body, #app, .gant, .aside, .detail
 
         .title
             margin 15px 0 !important
+            white-space nowrap
+            font-size 40px
+
+            &__counter
+                font-size 13px
+                padding 2px 8px
+                border-radius 5px
+                border 1px solid #ddd
+                vertical-align 11px
 
         .tags, .search
             margin 30px 0 !important
@@ -166,8 +178,10 @@ html, body, #app, .gant, .aside, .detail
         z-index 1
 
     &__dates
+        letter-spacing 0.5px
         font-weight bold
         font-size 10px
+        margin-bottom 1px
 
 
     for key, value in vendors
@@ -281,7 +295,7 @@ input.search__input
     &__title
         margin-top 30px
         font-size 40px
-        font-size 6.5vmin
+        font-size 6vmin
 
     table
         width 100%
@@ -313,8 +327,7 @@ input.search__input
     .aside-toggle
         display block
         text-align center
-        padding 0px 20px
-        line-height 30px
+        padding 2px 20px 3px
         position fixed
         background white
         border-radius 50px
@@ -327,10 +340,10 @@ input.search__input
         user-select none
         font-variant small-caps
 
-        small
+        &__title
             top -1px
             position relative
-            font-size 14px
+            margin-left 5px
 
 
     .aside
@@ -347,3 +360,4 @@ input.search__input
                 top 15px
                 right 20px
                 display block
+                font-size 40px

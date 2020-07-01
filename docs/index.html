@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-Ru">
 <head>
     <title>hello world</title>
     <meta property="og:locale" content="ru_RU">
@@ -48,12 +48,12 @@
 <body>
 <div id="blocker"><div class="before">загружаюсь…</div></div>
 <div id="app">
-    <div class="aside-toggle display-none" v-on:click="toggleMenu">⚙&#xFE0E; <small>фильтры</small></div>
+    <div class="aside-toggle display-none" v-on:click="toggleMenu">⚙&#xFE0E;<span class="aside-toggle__title">фильтры</span></div>
     <aside class="aside" :class="{'aside--mobile': menu.mobile}">
         <div class="esc" v-on:click="toggleMenu">✕</div>
         <div class="aside__content">
             <h1 class="title">
-                🏕️&nbsp;{{ eventFilter.length }}
+                🏕️ uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
             </h1>
             <div class="tags">
                 <div class="tags__offset">
