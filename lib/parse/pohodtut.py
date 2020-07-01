@@ -1,4 +1,6 @@
 import re
+from datetime import datetime
+from typing import Iterable, Tuple
 
 import httpx
 import simplejson
@@ -6,6 +8,7 @@ from funcy import first, post_processing
 
 from ..config import TODAY, Vendor
 from ..models import Item
+from ..utils import error
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -55,6 +58,10 @@ def parse_page(text):
 
         data = items_data[key]
         start, end = parse_date(data['date'])
+        while start > end:
+            # fix typo
+            start = start.replace(month=start.month - 1)
+
         yield Item(
             vendor=Vendor.POHODTUT,
             start=start,
@@ -65,7 +72,7 @@ def parse_page(text):
         )
 
 
-def parse_date(src: str, today=TODAY):
+def parse_date(src: str, today=TODAY) -> Iterable[Tuple[datetime, datetime]]:
     dates = DATE_RE.findall(src)
     if len(dates) == 1:
         dates.extend(dates)

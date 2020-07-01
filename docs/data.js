@@ -2145,6 +2145,21 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"end":"02.08.2020",
+"for_kids":0,
+"id":"9dab7eb",
+"length":null,
+"level":null,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u0438\u0440\u0436\u0430\u0447",
+"price":"5\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"31.07.2020",
+"tags":204474370,
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
+"url":"https://www.pohodtut.ru/splav-po-reke-kirzhach",
+"vendor":"pohodtut"
+},
+{
 "end":"08.08.2020",
 "for_kids":0,
 "id":"c89e1ce",
@@ -4528,21 +4543,6 @@ const DATA={"weekendList": [
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/trekking_norway_trolltunga.html",
 "vendor":"zovgor"
-},
-{
-"end":"02.08.2020",
-"for_kids":0,
-"id":"9dab7eb",
-"length":null,
-"level":null,
-"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u0438\u0440\u0436\u0430\u0447",
-"price":"5\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"31.08.2020",
-"tags":203425794,
-"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
-"url":"https://www.pohodtut.ru/splav-po-reke-kirzhach",
-"vendor":"pohodtut"
 },
 {
 "end":"10.09.2020",
