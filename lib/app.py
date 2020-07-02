@@ -4,4 +4,4 @@ from starlette.staticfiles import StaticFiles
 from .config import www_path
 
 app = FastAPI()
-app.mount('/', StaticFiles(directory=www_path()), name='static')
+app.mount('/w', StaticFiles(directory=www_path()), name='static')

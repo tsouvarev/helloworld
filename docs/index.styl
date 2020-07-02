@@ -45,13 +45,13 @@ html, body, #app, .gant, .aside, .detail
         display none
 
     &__content
-        margin auto
+        margin 15px auto
         padding 0 20px
         max-width aside-width * 2
         position relative
 
         .title
-            margin 15px 0 !important
+            margin 0 0 15px 0 !important
             white-space nowrap
             font-size 40px
 
@@ -263,15 +263,14 @@ input.search__input
 
 
 .esc
-    width 48px
-    font-size @width
-    line-height 1.25
-    text-align center
-    top 10%
-    right 10%
-    position absolute
+    font-size 15px
     cursor pointer
-    z-index 1
+    margin 30px 0
+    padding 8px 16px 10px
+    border-radius 200px
+    border 1px solid #ccc
+    width fit-content
+    line-height 1
 
 
 .detail
@@ -282,19 +281,21 @@ input.search__input
     background white
     z-index 5
     display flex
+    overflow scroll
 
     &__inner
         margin auto
-        padding 0px 50px
+        padding-left 30px
+        padding-right @padding-left
         width 800px
 
     &__title
         margin-top 30px
-        font-size 40px
-        font-size 6vmin
+        font-size 4vh
 
-    table
+    .tbl
         width 100%
+        margin-bottom 30px
 
         hr
             background-color #eee
@@ -323,7 +324,7 @@ input.search__input
     .aside-toggle
         display block
         text-align center
-        padding 3px 20px
+        padding 3px 20px 5px
         position fixed
         background white
         border-radius 50px
@@ -338,7 +339,6 @@ input.search__input
         font-size 16px
 
         &__title
-            top -1px
             font-size 15px
             position relative
             margin-left 5px
@@ -355,7 +355,4 @@ input.search__input
             width 100%
 
             .esc
-                top 15px
-                right 20px
                 display block
-                font-size 40px
