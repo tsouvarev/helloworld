@@ -268,7 +268,7 @@ input.search__input
     margin 30px 0
     padding 8px 16px 10px
     border-radius 200px
-    border 1px solid #ccc
+    background rgba(0,0,0,.05)
     width fit-content
     line-height 1
 
@@ -285,13 +285,8 @@ input.search__input
 
     &__inner
         margin auto
-        padding-left 30px
-        padding-right @padding-left
+        padding 0 20px
         width 800px
-
-    &__title
-        margin-top 30px
-        font-size 5vh
 
     .tbl
         width 100%
@@ -302,6 +297,15 @@ input.search__input
 
         th:first-child
             width 1%
+
+
+// function min is reserved by stylus
+@css {
+.detail__title {
+    margin-top: 30px;
+    font-size: min(8vmin, 50px);
+}
+}
 
 .tbl
     th, td
