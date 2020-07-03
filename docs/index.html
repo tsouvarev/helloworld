@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru-Ru">
 <head>
-    <title>hello world</title>
+    <title>Календарь походов</title>
     <meta property="og:locale" content="ru_RU">
     <meta property="og:site_name" content="uhike.ru">
     <meta property="og:title" content="Календарь походов">
     <meta property="og:description" content="Календарь походов">
     <meta property="og:type" content="article">
+    <meta property="og:image" content="https://uhike.ru/icon.svg">
     <meta property="og:url" content="https://uhike.ru/">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏕</text></svg>">
+    <link rel="mask-icon" href="icon.svg" color="#ffffff">
+    <link rel="icon" href="icon.svg" sizes="any" type="image/svg+xml">
     <style>
         html, body {
             height: 100%;
@@ -53,7 +55,7 @@
         <div class="aside__content">
             <div class="esc" v-on:click="toggleMenu">←&nbsp;Назад</div>
             <h1 class="title">
-                🏕️ uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
+                <img src="./icon.svg" alt="uhike.ru" class="title__icon"> uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
             </h1>
             <div class="tags">
                 <div class="tags__offset">
