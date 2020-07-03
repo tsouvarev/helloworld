@@ -1,6 +1,6 @@
 import json
-import time
 from datetime import timedelta
+from functools import partial
 from json import JSONDecodeError
 from operator import itemgetter
 
@@ -12,7 +12,9 @@ from ..config import (
     FIRST_DATE,
     LAST_DATE,
     META_DATA,
+    NEW_INT,
     TODAY,
+    TODAY_INT,
     WEEKENDS,
     Vendor,
     src_path,
@@ -21,11 +23,12 @@ from ..utils import (
     debug,
     format_price,
     json_dumps,
+    mapv,
     normalize,
     sorter,
     strptime,
 )
-from .tags import KIDS, LEVELS_TAGS, TAGS, get_tags
+from .tags import KIDS, LEVELS_TAGS, NEW, TAGS, get_tags
 
 TOO_LONG = timedelta(days=30)
 CONSIDER_NEW = TODAY - timedelta(days=7)
@@ -61,18 +64,21 @@ def parse_item(item: dict):
     return item
 
 
-def render_item(item: dict):
+def render_item(meta: dict, item: dict):
     item.update(
         price=item['price'] and format_price(item['price']),
         title=ru_typus(item['title'].strip('.')),
         norm=normalize(item['title']),
+        new=meta[item['id']] >= NEW_INT,
     )
     # This mast be after all updates
     # to create valid tags
     item_tags = get_tags(item)
     item.update(tags=item_tags)
+    item.update(for_kids=KIDS & item_tags)
 
-    item.update(for_kids=KIDS & item_tags,)
+    # fixme: time for pydantic
+    item.pop('new')
     return item
 
 
@@ -97,24 +103,17 @@ def render():
         # - sorts and drops long items
         # - find earliest active
         # - filters items from earliest to make it pretty
-        items = sort_items(filter(pre_filter, get_source()))
-        earliest = first(x['start'] for x in items if x['end'] > FIRST_DATE)
-        filtered = [x for x in items if post_filter(earliest, x)]
-
-        new_meta = {}
-        now = int(time.time())
-        for item in items:
-            created = meta.get(item['id'], now)
-            new_meta[item['id']] = created
-
-            # Not new,
-            # but really first time seen
-            if created is now:
-                debug('🎉 {url}'.format_map(item))
+        src_items = sort_items(filter(pre_filter, get_source()))
+        earliest = first(
+            x['start'] for x in src_items if x['end'] > FIRST_DATE
+        )
+        filtered = [x for x in src_items if post_filter(earliest, x)]
+        new_meta = {i['id']: meta.get(i['id'], TODAY_INT) for i in filtered}
 
         # Writes data.js
-        dumped = map(json_dumps, (WEEKENDS, map(render_item, filtered), TAGS))
-        template = JS_TEMPLATE.format(*dumped)
+        render_items = mapv(partial(render_item, new_meta), filtered)
+        dump = (WEEKENDS, render_items, TAGS)
+        template = JS_TEMPLATE.format(*map(json_dumps, dump))
         f.write(template)
 
     with open(META_DATA, 'w+') as f:

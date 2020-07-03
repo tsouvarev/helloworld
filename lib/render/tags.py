@@ -39,6 +39,7 @@ class Bit(IntEnum):
     rafting = 1 << 26
     pohodtut = 1 << 27
     bicycle = 1 << 28
+    new = 1 << 29
 
 
 @dataclass
@@ -80,6 +81,7 @@ class TagGroup:
         }
 
 
+NEW = Tag(slug='new', title='добавлено недавно', text='нью')
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
 RAFTING = Tag(slug='rafting', title='сплав', text='🛶')
 BICYCLE = Tag(slug='bicycle', title='велопоход', text='🚴')
@@ -93,58 +95,46 @@ TYPES = {
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
 
-VENDOR_TAGS = TagGroup(
-    slug='vendors',
-    tags=[
-        Tag(slug=Vendor.PIK, text='пик'),
-        Tag(slug=Vendor.ORANGEKED, text='оранжевый кед'),
-        Tag(slug=Vendor.CITYESCAPE, text='cityescape'),
-        Tag(slug=Vendor.ZOVGOR, text='зов гор'),
-        Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
-        Tag(slug=Vendor.TEAMTRIP, text='team trip'),
-        Tag(slug=Vendor.POHODTUT, text='pohodtut'),
-    ],
-)
-
+VENDOR_TAGS = [
+    Tag(slug=Vendor.PIK, text='пик'),
+    Tag(slug=Vendor.ORANGEKED, text='оранжевый кед'),
+    Tag(slug=Vendor.CITYESCAPE, text='cityescape'),
+    Tag(slug=Vendor.ZOVGOR, text='зов гор'),
+    Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
+    Tag(slug=Vendor.TEAMTRIP, text='team trip'),
+    Tag(slug=Vendor.POHODTUT, text='pohodtut'),
+]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 
-LEVELS_TAGS = TagGroup(
-    title='Сложность',
-    slug='levels',
-    tags=[
-        Tag(slug='level_1', text='очень просто'),
-        Tag(slug='level_2', text='просто'),
-        Tag(slug='level_3', text='средней сложности'),
-        Tag(slug='level_4', text='сложно'),
-        Tag(slug='level_5', text='очень сложно'),
-    ],
-)
+LEVELS_TAGS = [
+    Tag(slug='level_1', text='очень просто'),
+    Tag(slug='level_2', text='просто'),
+    Tag(slug='level_3', text='средней сложности'),
+    Tag(slug='level_4', text='сложно'),
+    Tag(slug='level_5', text='очень сложно'),
+]
 
-MONTH_TAGS = TagGroup(
-    title='Месяц',
-    slug='months',
-    tags=[
-        Tag(slug='month_1', text='янв'),
-        Tag(slug='month_2', text='фев'),
-        Tag(slug='month_3', text='мар'),
-        Tag(slug='month_4', text='апр'),
-        Tag(slug='month_5', text='май'),
-        Tag(slug='month_6', text='июн'),
-        Tag(slug='month_7', text='июл'),
-        Tag(slug='month_8', text='авг'),
-        Tag(slug='month_9', text='сен'),
-        Tag(slug='month_10', text='окт'),
-        Tag(slug='month_11', text='ноя'),
-        Tag(slug='month_12', text='дек'),
-    ],
-)
+MONTH_TAGS = [
+    Tag(slug='month_1', text='янв'),
+    Tag(slug='month_2', text='фев'),
+    Tag(slug='month_3', text='мар'),
+    Tag(slug='month_4', text='апр'),
+    Tag(slug='month_5', text='май'),
+    Tag(slug='month_6', text='июн'),
+    Tag(slug='month_7', text='июл'),
+    Tag(slug='month_8', text='авг'),
+    Tag(slug='month_9', text='сен'),
+    Tag(slug='month_10', text='окт'),
+    Tag(slug='month_11', text='ноя'),
+    Tag(slug='month_12', text='дек'),
+]
 
 TAGS = (
-    VENDOR_TAGS,
-    LEVELS_TAGS,
+    TagGroup(slug='vendors', tags=VENDOR_TAGS + [NEW]),
+    TagGroup(title='Сложность', slug='levels', tags=LEVELS_TAGS),
     TagGroup(slug='type', tags=list(TYPES)),
     TagGroup(title='Продолжительность', slug='durations', tags=[SHORT, LONG]),
-    MONTH_TAGS,
+    TagGroup(title='Месяц', slug='months', tags=MONTH_TAGS,),
 )
 
 
@@ -160,6 +150,9 @@ def reduce_bits(tags):
 def get_tags(src: dict):
     yield VENDOR_MAP[src['vendor']]
 
+    if src['new']:
+        yield NEW
+
     # fixme: kids tag duck style
     level = src['level']
     for tag, finder in TYPES.items():
@@ -174,7 +167,7 @@ def get_tags(src: dict):
             # cause it's for kids
             level = Level.EASY
 
-    yield LEVELS_TAGS.tags[(level or Level.MEDIUM) - 1]
+    yield LEVELS_TAGS[(level or Level.MEDIUM) - 1]
 
     # duration
     if (src['end'] - src['start']) < SHORT_DURATION:
