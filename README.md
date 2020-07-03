@@ -1,7 +1,9 @@
-# hello world
+# Uhike.ru
 
 Это календарь для удобного планирования походов, 
 посмотреть можно [здесь](https://uhike.ru).
+
+"Icon made by Freepik from www.flaticon.com".
 
 ## cmd 
 
