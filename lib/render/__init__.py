@@ -28,7 +28,7 @@ from ..utils import (
     sorter,
     strptime,
 )
-from .tags import KIDS, LEVELS_TAGS, NEW, TAGS, get_tags
+from .tags import KIDS, TAGS, get_tags
 
 TOO_LONG = timedelta(days=30)
 CONSIDER_NEW = TODAY - timedelta(days=7)

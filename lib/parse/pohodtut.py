@@ -1,14 +1,13 @@
 import re
 from datetime import datetime
-from typing import Iterable, Tuple
+from typing import Iterator, Tuple
 
-import httpx
 import simplejson
 from funcy import first, post_processing
 
 from ..config import TODAY, Vendor
 from ..models import Item
-from ..utils import error
+from . import client
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -43,8 +42,8 @@ def parse_data(src: str):
         yield id_, info
 
 
-async def parse_pohodtut():
-    page = await httpx.get('https://www.pohodtut.ru')
+async def parse_pohodtut() -> Iterator[Item]:
+    page = await client.get('https://www.pohodtut.ru')
     return parse_page(page.text)
 
 
@@ -72,7 +71,7 @@ def parse_page(text):
         )
 
 
-def parse_date(src: str, today=TODAY) -> Iterable[Tuple[datetime, datetime]]:
+def parse_date(src: str, today=TODAY) -> Iterator[Tuple[datetime, datetime]]:
     dates = DATE_RE.findall(src)
     if len(dates) == 1:
         dates.extend(dates)

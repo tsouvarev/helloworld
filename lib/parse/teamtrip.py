@@ -1,12 +1,13 @@
 import re
 from datetime import datetime
 from functools import partial
+from typing import Iterator
 
-import httpx
 from lxml import html
 
 from lib.config import TODAY, Vendor
 from lib.models import Item
+from lib.parse import client
 from lib.utils import error, mapv, zip_safe
 
 MONTHS = (
@@ -15,8 +16,8 @@ MONTHS = (
 )
 
 
-async def parse_teamtrip():
-    page = await httpx.get('https://team-trip.ru/')
+async def parse_teamtrip() -> Iterator[Item]:
+    page = await client.get('https://team-trip.ru/')
     return parse_page(page.text)
 
 
@@ -32,7 +33,7 @@ def parse_page(text):
             try:
                 start, end = parse_dates(TODAY, date)
             except Exception as e:
-                error(f'Failed to parse data "{dates}" ({e})')
+                error(f'[teamtrip]: Failed to parse data "{dates}" ({e})')
                 continue
 
             yield Item(

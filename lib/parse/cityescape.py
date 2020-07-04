@@ -1,16 +1,15 @@
 import re
 from datetime import datetime
-from functools import partial
-from typing import Iterable, Optional, Tuple
+from typing import Iterable, Iterator, Optional, Tuple
 
-import httpx
 from cssselect import GenericTranslator
 from funcy import cat, first
 from lxml import html
 
 from ..config import TODAY, Level, Vendor
 from ..models import Item
-from ..utils import gather_chunks, int_or_none, progress
+from ..utils import gather_chunks, int_or_none
+from . import client
 
 cssx = GenericTranslator().css_to_xpath
 
@@ -30,9 +29,8 @@ LEVELS_MAP = {
 }
 
 
-@progress
-async def parse_cityescape(prog: progress):
-    page = await httpx.get('https://cityescape.ru/', timeout=20)
+async def parse_cityescape() -> Iterator[Item]:
+    page = await client.get('https://cityescape.ru/')
     tree = html.fromstring(page.text.encode())
 
     items = cat(
@@ -41,14 +39,11 @@ async def parse_cityescape(prog: progress):
         if 'Ожидается' not in x.text_content()
     )
 
-    parser = partial(parse_page, prog)
-    result = await gather_chunks(5, *map(parser, items))
-    return list(cat(result))
+    return cat(await gather_chunks(5, *map(parse_page, items)))
 
 
-async def parse_page(prog: progress, url: str):
-    prog(url)
-    page = await httpx.get(url)
+async def parse_page(url: str):
+    page = await client.get(url)
     text = page.text.replace('&nbsp;', ' ')
     items = []
     tree = html.fromstring(text.encode())
@@ -106,7 +101,8 @@ def parse_date(src: str, today: datetime) -> datetime:
     date = today.replace(
         year=int_or_none(year) or today.year,
         month=MONTHS.index(month) + 1 if month else today.month,
-        day=int_or_none(day),
+        # let it fail
+        day=int_or_none(day) or 0,
     )
     return date
 
@@ -118,7 +114,7 @@ def parse_price(src: str) -> Optional[Tuple[int, int]]:
         if not currency:
             currency = y
 
-    if not price:
+    if not price or not currency:
         return None
 
     return price, currency

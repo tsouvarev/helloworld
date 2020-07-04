@@ -1,16 +1,17 @@
 from datetime import datetime
+from typing import Iterator
 
-import httpx
 from funcy import partial
 from lxml import html
 
 from ..config import TODAY, Vendor
 from ..models import Item
 from ..utils import mapv, zip_safe
+from . import client
 
 
-async def parse_zovgor():
-    page = await httpx.get('https://zovgor.com/shedule.html')
+async def parse_zovgor() -> Iterator[Item]:
+    page = await client.get('https://zovgor.com/shedule.html')
     return parse_page(page.text)
 
 

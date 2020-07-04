@@ -15,7 +15,10 @@ flake8:
 
 fmt: isort black unify
 
-test: flake8
+lint:
+	mypy --ignore-missing-imports lib tests
+
+test: flake8 lint
 	PYTHONPATH="$(PYTHONPATH):$(PWD)" pytest tests
 
 parse:

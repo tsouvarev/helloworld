@@ -10,3 +10,4 @@ pydantic
 typus
 fastapi
 cssselect
+mypy

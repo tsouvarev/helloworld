@@ -1,13 +1,13 @@
 import asyncio
 import re
 from datetime import datetime
+from typing import Iterator
 
-import httpx
-from funcy import cat, compose, first, partial
+from funcy import cat, compose, first
 
 from ..config import Level, Vendor
 from ..models import Item
-from ..utils import progress
+from . import client
 
 PIK_URL = 'https://turclub-pik.ru/search_ajax/trips/'
 MONTHS = 'янв фев мар апр мая июн июл авг сен окт ноя дек'.split()
@@ -23,19 +23,16 @@ parse_dates = compose(
 )
 
 
-async def get_page(prog, page) -> dict:
-    prog(f'Getting page {page}')
-    resp = await httpx.get(PIK_URL, params={'page': page}, verify=False)
+async def get_page(page) -> dict:
+    resp = await client.get(PIK_URL, params={'page': page}, verify=False)
     return resp.json()
 
 
-@progress
-async def parse_pik(prog: progress, batch=10) -> map:
+async def parse_pik(batch=10) -> Iterator[Item]:
     items = {}
     start = 1
-    pager = partial(get_page, prog)
     while True:
-        coros = map(pager, range(start, start + batch))
+        coros = map(get_page, range(start, start + batch))
         done = False
 
         for item in cat(await asyncio.gather(*coros)):

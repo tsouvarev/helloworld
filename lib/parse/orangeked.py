@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-from functools import partial
+from typing import Iterator
 
 import httpx
 from funcy import compose, first
@@ -8,7 +8,8 @@ from lxml import html
 
 from ..config import TODAY, Level, Vendor
 from ..models import Item
-from ..utils import gather_chunks, progress, silent
+from ..utils import gather_chunks, silent
+from . import client
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -19,19 +20,17 @@ parse_dates = compose(
 )
 
 
-async def parse_orangeked():
-    listing = await httpx.get('http://orangeked.ru/tours', timeout=20)
+async def parse_orangeked() -> Iterator[Item]:
+    listing = await client.get('http://orangeked.ru/tours')
     tree = html.fromstring(listing.text.encode())
     links = set(tree.xpath('//*[@id="tourList"]/div/div/div/a/@href'))
-    with progress() as p:
-        parser = partial(parse_page, p)
-        return await gather_chunks(5, *map(parser, links))
+    return iter(await gather_chunks(5, *map(parse_page, links)))
 
 
 @silent
-async def parse_page(prog: progress, path: str) -> Item:
+async def parse_page(path: str) -> Item:
     url = 'http://orangeked.ru' + path
-    page = await httpx.get(url, timeout=20)
+    page = await httpx.get(url)
     tree = html.fromstring(page.text.encode())
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
     slots = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))
@@ -52,7 +51,6 @@ async def parse_page(prog: progress, path: str) -> Item:
         price=price,
         slots=slots,
     )
-    prog(item.url)
     return item
 
 

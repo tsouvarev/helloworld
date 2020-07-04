@@ -1,12 +1,13 @@
 from datetime import datetime
+from typing import Iterator
 
-import httpx
 from lxml import html
 
 from ..config import TODAY, Vendor
 from ..models import Item
 from ..utils import int_or_none, zip_safe
 from ..utils.text import guess_currency
+from . import client
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
@@ -14,10 +15,8 @@ MONTHS = (
 )
 
 
-async def parse_napravlenie():
-    page = await httpx.get(
-        'https://www.napravlenie.info/kalendar/', timeout=20
-    )
+async def parse_napravlenie() -> Iterator[Item]:
+    page = await client.get('https://www.napravlenie.info/kalendar/')
     return parse_page(page.text)
 
 

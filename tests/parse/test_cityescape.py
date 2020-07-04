@@ -1,3 +1,5 @@
+# flake8: noqa
+
 from datetime import datetime
 
 import pytest
