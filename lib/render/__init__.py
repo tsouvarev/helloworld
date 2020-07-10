@@ -71,7 +71,7 @@ def render_item(meta: dict, item: dict):
         norm=normalize(item['title']),
         new=meta[item['id']] >= NEW_INT,
     )
-    # This mast be after all updates
+    # This must be called after all updates
     # to create valid tags
     item_tags = get_tags(item)
     item.update(tags=item_tags)

@@ -2,7 +2,6 @@ import re
 from datetime import datetime
 from typing import Iterator
 
-import httpx
 from funcy import compose, first
 from lxml import html
 
@@ -30,7 +29,7 @@ async def parse_orangeked() -> Iterator[Item]:
 @silent
 async def parse_page(path: str) -> Item:
     url = 'http://orangeked.ru' + path
-    page = await httpx.get(url)
+    page = await client.get(url)
     tree = html.fromstring(page.text.encode())
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
     slots = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))

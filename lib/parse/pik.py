@@ -24,7 +24,7 @@ parse_dates = compose(
 
 
 async def get_page(page) -> dict:
-    resp = await client.get(PIK_URL, params={'page': page}, verify=False)
+    resp = await client.get(PIK_URL, params={'page': page})
     return resp.json()
 
 

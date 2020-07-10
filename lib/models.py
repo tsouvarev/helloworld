@@ -9,6 +9,7 @@ from .utils import hash_uid
 
 class Item(BaseModel):
     class Config:
+        arbitrary_types_allowed = True
         extra = 'forbid'
 
     url: str
@@ -26,4 +27,6 @@ class Item(BaseModel):
     def default_id(cls, v, *, values):
         return v or hash_uid(values['url'])
 
-    for_json = BaseModel.dict
+    def for_json(self):
+        return self.dict()
+
