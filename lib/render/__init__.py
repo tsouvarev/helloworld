@@ -1,6 +1,5 @@
 import json
 from datetime import timedelta
-from functools import partial
 from json import JSONDecodeError
 from operator import itemgetter
 
@@ -23,7 +22,6 @@ from ..utils import (
     debug,
     format_price,
     json_dumps,
-    mapv,
     normalize,
     sorter,
     strptime,
@@ -111,7 +109,7 @@ def render():
         new_meta = {i['id']: meta.get(i['id'], TODAY_INT) for i in filtered}
 
         # Writes data.js
-        render_items = mapv(partial(render_item, new_meta), filtered)
+        render_items = [render_item(new_meta, x) for x in filtered]
         dump = (WEEKENDS, render_items, TAGS)
         template = JS_TEMPLATE.format(*map(json_dumps, dump))
         f.write(template)
