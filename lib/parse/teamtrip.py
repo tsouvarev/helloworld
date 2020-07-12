@@ -3,11 +3,12 @@ from datetime import datetime
 from functools import partial
 from typing import Iterator
 
+from lxml import html
+
 from lib.config import TODAY, Vendor
 from lib.models import Item
 from lib.parse import client
 from lib.utils import error, mapv, zip_safe
-from lxml import html
 
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '

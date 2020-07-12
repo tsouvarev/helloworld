@@ -12,3 +12,5 @@ typus
 fastapi
 cssselect
 mypy
+pytest
+pytest-cov
