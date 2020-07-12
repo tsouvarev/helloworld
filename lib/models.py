@@ -29,4 +29,3 @@ class Item(BaseModel):
 
     def for_json(self):
         return self.dict()
-

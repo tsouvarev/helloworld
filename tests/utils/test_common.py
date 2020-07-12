@@ -1,6 +1,6 @@
 import pytest
-from funcy import chunks
 
+from funcy import chunks
 from lib.utils import zip_safe
 
 

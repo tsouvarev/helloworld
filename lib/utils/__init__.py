@@ -9,6 +9,7 @@ from itertools import cycle, zip_longest
 from typing import Callable, Iterable, Iterator, Optional
 
 import click
+
 import simplejson
 from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY

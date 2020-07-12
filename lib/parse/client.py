@@ -12,8 +12,8 @@ async def request(method: str, url: str, *args, timeout: int = 30, **kwargs):
     try:
         async with httpx.AsyncClient(verify=False) as c:
             return await c.request(
-            method, url, *args, timeout=timeout, **kwargs
-        )
+                method, url, *args, timeout=timeout, **kwargs
+            )
     finally:
         prog = Progress.get()
         prog(url)
