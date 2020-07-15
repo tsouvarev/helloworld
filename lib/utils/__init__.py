@@ -66,6 +66,7 @@ def dumps_default(o):
     raise TypeError
 
 
+json_loads = simplejson.loads
 json_dumps = partial(
     simplejson.dumps,
     default=dumps_default,

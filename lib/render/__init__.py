@@ -72,8 +72,9 @@ def render_item(meta: dict, item: dict):
     # This must be called after all updates
     # to create valid tags
     item_tags = get_tags(item)
-    item.update(tags=item_tags)
-    item.update(for_kids=KIDS & item_tags)
+    item.update(
+        tags=item_tags, for_kids=KIDS & item_tags,
+    )
 
     # fixme: time for pydantic
     item.pop('new')

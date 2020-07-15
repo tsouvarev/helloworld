@@ -1,6 +1,6 @@
 import pytest
 
-from lib.render.tags import KIDS, TYPES
+from lib.render.tags import kids_finder
 from lib.utils import normalize
 
 
@@ -14,4 +14,4 @@ from lib.utils import normalize
     ),
 )
 def test_re_kids(src):
-    assert TYPES[KIDS](normalize(src))
+    assert kids_finder(normalize(src))

@@ -32,9 +32,10 @@ async def parse_gather(names: Sequence[str]):
         results = await asyncio.gather(*(VENDORS[n]() for n in names))
 
     for name, res in zip(names, results):
-        with open(src_path(name + '.json'), 'w+') as r:
+        path = src_path(name + '.json')
+        with open(path, 'w+') as f:
             items = compactv(res)
-            r.write(json_dumps(items))
+            f.write(json_dumps(items))
             info(f'[{name}]: Loaded {len(items)} items')
 
 
