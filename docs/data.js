@@ -834,7 +834,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"24.07.2020",
-"tags":1074790922,
+"tags":2148532746,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1947/",
 "vendor":"pik"
@@ -2664,7 +2664,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"14.08.2020",
-"tags":1075839498,
+"tags":2149581322,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1948/",
 "vendor":"pik"
@@ -4104,7 +4104,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a01\u00a0375",
 "slots":6,
 "start":"02.09.2020",
-"tags":1077938308,
+"tags":2151680132,
 "title":"\u041d\u0430\u00a0\u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043f\u043e\u0434 \u043f\u0430\u0440\u0443\u0441\u0430\u043c\u0438. \u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/na-lofotenskie-ostrova-pod-parusami-unikalnyy-tur-2020/",
 "vendor":"napravlenie"
@@ -4164,7 +4164,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"04.09.2020",
-"tags":1077936650,
+"tags":2151678474,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1949/",
 "vendor":"pik"

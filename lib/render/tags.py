@@ -100,7 +100,7 @@ TYPES: Dict[Tag, Callable[[str], bool]] = {
     Tag(slug='bicycle', title='велопоход', text='🚴'): finder(
         r'\b(велопоход|велосипед)'
     ),
-    SAILING: finder(r'\b(яхт)'),
+    SAILING: finder(r'\b(яхт|парус)'),
     Tag(slug='hiking', title='пеший поход', text='🥾'): lambda _: True,
 }
 
