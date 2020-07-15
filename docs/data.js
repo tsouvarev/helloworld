@@ -39,7 +39,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"28.06.2020",
-"tags":2148533509,
+"tags":1049861,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
 "url":"https://team-trip.ru/wildcampkamchatka",
 "vendor":"teamtrip"
@@ -54,7 +54,7 @@ const DATA={"weekendList": [
 "price":"72\u00a0000\u00a0\u20bd",
 "slots":3,
 "start":"29.06.2020",
-"tags":1074792580,
+"tags":1050756,
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20131",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka/",
 "vendor":"napravlenie"
@@ -84,7 +84,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d, \u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u043e\u043d\u0435\u0440\u043e\u043d",
 "url":"https://team-trip.ru/sakhalin",
 "vendor":"teamtrip"
@@ -99,7 +99,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"02.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0412\u00a0\u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u043a\u043e\u0441\u0430\u0442\u043e\u043a \u043d\u0430\u00a0\u042e\u0436\u043d\u044b\u0445 \u041a\u0443\u0440\u0438\u043b\u0430\u0445",
 "url":"https://team-trip.ru/iturup",
 "vendor":"teamtrip"
@@ -114,7 +114,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"03.07.2020",
-"tags":1074792484,
+"tags":1050660,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/elbrus_north/",
 "vendor":"cityescape"
@@ -129,7 +129,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":15,
 "start":"11.07.2020",
-"tags":1074790932,
+"tags":1049108,
 "title":"\u042e\u0436\u043d\u044b\u0439 \u0423\u0440\u0430\u043b \u0422\u0430\u0433\u0430\u043d\u0430\u0439 \u0438\u00a0\u043e\u0437\u0435\u0440\u043e \u0422\u0443\u0440\u0433\u043e\u044f\u043a",
 "url":"http://orangeked.ru/tours/item/75-taganai",
 "vendor":"orangeked"
@@ -144,7 +144,7 @@ const DATA={"weekendList": [
 "price":"72\u00a0000\u00a0\u20bd",
 "slots":2,
 "start":"11.07.2020",
-"tags":1074792580,
+"tags":1050756,
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20132",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-2-iyul-2020/",
 "vendor":"napravlenie"
@@ -159,7 +159,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"12.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
 "vendor":"teamtrip"
@@ -174,7 +174,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"12.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
 "url":"https://team-trip.ru/orca_safari",
 "vendor":"teamtrip"
@@ -204,7 +204,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"15.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d, \u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u043e\u043d\u0435\u0440\u043e\u043d",
 "url":"https://team-trip.ru/sakhalin",
 "vendor":"teamtrip"
@@ -219,7 +219,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"16.07.2020",
-"tags":1074794508,
+"tags":1052684,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/1680/",
 "vendor":"pik"
@@ -234,7 +234,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"17.07.2020",
-"tags":1074790925,
+"tags":1049101,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/1726/",
 "vendor":"pik"
@@ -249,7 +249,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":0,
 "start":"17.07.2020",
-"tags":1074790922,
+"tags":1049098,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u043e\u0439 \u043a\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/na-baidarkakh-po-reke-tikhoi-k-ladoge/1904/",
 "vendor":"pik"
@@ -264,7 +264,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"17.07.2020",
-"tags":1074791434,
+"tags":1049610,
 "title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0430\u0440\u0437\u0430\u043d\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/yastrebinoe/1957/",
 "vendor":"pik"
@@ -339,7 +339,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"17.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
 "url":"https://team-trip.ru/orca_safari",
 "vendor":"teamtrip"
@@ -369,7 +369,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0400\u00a0\u20bd",
 "slots":0,
 "start":"18.07.2020",
-"tags":1074791434,
+"tags":1049610,
 "title":"\u0412\u0435\u0439\u043a-\u043f\u0438\u043a\u043d\u0438\u043a. \u041f\u043e\u0445\u043e\u0434, \u0441\u0430\u043f-\u0431\u043e\u0440\u0434 \u0438\u00a0\u0432\u0435\u0439\u043a-\u0431\u043e\u0440\u0434",
 "url":"https://turclub-pik.ru/pohod/veik-piknik/2028/",
 "vendor":"pik"
@@ -384,7 +384,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2020",
-"tags":1074792458,
+"tags":1050634,
 "title":"\u041f\u0440\u0438\u043e\u043a\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
 "url":"https://turclub-pik.ru/pohod/priokskie-dyuny/2036/",
 "vendor":"pik"
@@ -399,7 +399,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2020",
-"tags":1074790922,
+"tags":1049098,
 "title":"\u042d\u043a\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u043e\u0440\u043d\u0438\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0441\u0442\u0430\u043d\u0446\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/ekotur-na-ornitologicheskuyu-stanciyu/2090/",
 "vendor":"pik"
@@ -414,7 +414,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2020",
-"tags":1074790922,
+"tags":1049098,
 "title":"\u041f\u043b\u0430\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
 "url":"https://turclub-pik.ru/pohod/plavanie_na_vyhodnye/2092/",
 "vendor":"pik"
@@ -429,7 +429,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2020",
-"tags":1074790922,
+"tags":1049098,
 "title":"\u0422\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e\u00a0\u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u043c\u0443 \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. Level 1 (\u0431\u0430\u0437\u0430). \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
 "url":"https://turclub-pik.ru/pohod/trenirovka-po-sportivnomu-orientirovaniyu-level-1/2096/",
 "vendor":"pik"
@@ -459,7 +459,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
 "vendor":"zovgor"
@@ -474,7 +474,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"18.07.2020",
-"tags":2148533509,
+"tags":1049861,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
 "vendor":"teamtrip"
@@ -489,7 +489,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074794508,
+"tags":1052684,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1660/",
 "vendor":"pik"
@@ -504,7 +504,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074790924,
+"tags":1049100,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/1787/",
 "vendor":"pik"
@@ -519,7 +519,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
 "vendor":"zovgor"
@@ -534,7 +534,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -549,7 +549,7 @@ const DATA={"weekendList": [
 "price":"70\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u0430\u043c (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/puteshestvie-na-kamchatku.html",
 "vendor":"zovgor"
@@ -564,7 +564,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
 "vendor":"zovgor"
@@ -579,7 +579,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
 "vendor":"zovgor"
@@ -594,7 +594,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
 "vendor":"teamtrip"
@@ -609,7 +609,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
 "url":"https://team-trip.ru/shantars_july",
 "vendor":"teamtrip"
@@ -624,7 +624,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.07.2020",
-"tags":2685405444,
+"tags":605030660,
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u0421\u043e\u0447\u0438: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438, \u0441\u043f\u043b\u0430\u0432\u044b \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c, \u043f\u043e\u0445\u043e\u0434\u044b",
 "url":"https://team-trip.ru/sochi",
 "vendor":"teamtrip"
@@ -639,7 +639,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"20.07.2020",
-"tags":1074790924,
+"tags":1049100,
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/1820/",
 "vendor":"pik"
@@ -654,7 +654,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.07.2020",
-"tags":1074791460,
+"tags":1049636,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440",
 "url":"https://cityescape.ru/bolshoj-poxod-na-seliger/",
 "vendor":"cityescape"
@@ -669,7 +669,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
 "vendor":"zovgor"
@@ -684,7 +684,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/shavlinskye-ozera.html",
 "vendor":"zovgor"
@@ -699,7 +699,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
 "vendor":"zovgor"
@@ -714,7 +714,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"22.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u0412\u0430\u0439\u0433\u0430\u0447 \u0438\u00a0\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043c\u043b\u044f: \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u044f\u0445\u0442\u0435 \u043d\u0430\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
 "url":"https://team-trip.ru/vaygach",
 "vendor":"teamtrip"
@@ -729,7 +729,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"23.07.2020",
-"tags":1076891660,
+"tags":3149836,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/1674/",
 "vendor":"pik"
@@ -744,7 +744,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"23.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u043c",
 "url":"https://zovgor.com/pohod_khibiny.html",
 "vendor":"zovgor"
@@ -759,7 +759,7 @@ const DATA={"weekendList": [
 "price":"72\u00a0000\u00a0\u20bd",
 "slots":4,
 "start":"23.07.2020",
-"tags":1076889732,
+"tags":3147908,
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20133",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-3/",
 "vendor":"napravlenie"
@@ -774,7 +774,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0200\u00a0\u20bd",
 "slots":8,
 "start":"24.07.2020",
-"tags":1074790930,
+"tags":1049106,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u041e\u0437\u0435\u0440\u0430 \u041c\u0430\u0440\u0438\u0439 \u042d\u043b",
 "url":"http://orangeked.ru/tours/item/102-ozera-mariel",
 "vendor":"orangeked"
@@ -819,7 +819,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1074792458,
+"tags":1050634,
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0439 \u0431\u0435\u0440\u0435\u0433",
 "url":"https://turclub-pik.ru/pohod/po-ladoge-peshkom/1939/",
 "vendor":"pik"
@@ -834,7 +834,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"24.07.2020",
-"tags":2148532746,
+"tags":1049098,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1947/",
 "vendor":"pik"
@@ -849,7 +849,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1074791434,
+"tags":1049610,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0434\u043b\u044f \u043e\u0434\u0438\u043d\u043e\u043a\u0438\u0445 \u0441\u0435\u0440\u0434\u0435\u0446",
 "url":"https://turclub-pik.ru/pohod/pokhod-dlya-odinokikh-serdec/2113/",
 "vendor":"pik"
@@ -864,7 +864,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1076889636,
+"tags":3147812,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437 \u043f\u043e\u00a0\u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0431\u0438\u0448\u0438\u0440\u0430-\u0410\u0445\u0443\u0431\u0430",
 "url":"https://cityescape.ru/gornyj_poxod_arxyz/",
 "vendor":"cityescape"
@@ -879,7 +879,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0421\u044b\u043b\u0442\u0440\u0430\u043d\u043a\u0435\u043b\u044c\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044f",
 "url":"https://zovgor.com/kyrtyk.html",
 "vendor":"zovgor"
@@ -894,7 +894,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u0421\u043a\u0430\u043b\u044b \u041f\u0430\u0441\u0442\u0443\u0445\u043e\u0432\u0430",
 "url":"https://zovgor.com/skaly-pastuhova.html",
 "vendor":"zovgor"
@@ -909,7 +909,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1076889668,
+"tags":3147844,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430",
 "url":"https://zovgor.com/elbrus.html",
 "vendor":"zovgor"
@@ -924,7 +924,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0950\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1074790922,
+"tags":1049098,
 "title":"\u0422\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e\u00a0\u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u043c\u0443 \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. Level 1 (\u0431\u0430\u0437\u0430). \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
 "url":"https://turclub-pik.ru/pohod/trenirovka-po-sportivnomu-orientirovaniyu-level-1/2098/",
 "vendor":"pik"
@@ -939,7 +939,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/2106/",
 "vendor":"pik"
@@ -954,7 +954,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1074791458,
+"tags":1049634,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043a\u00a0\u041e\u0447\u0435\u0432\u0441\u043a\u0438\u043c \u043a\u0430\u0440\u044c\u0435\u0440\u0430\u043c",
 "url":"https://cityescape.ru/peshij-poxod-k-ochevskim-kareram/",
 "vendor":"cityescape"
@@ -999,7 +999,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1076889668,
+"tags":3147844,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
 "vendor":"zovgor"
@@ -1014,7 +1014,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -1029,7 +1029,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0900\u00a0\u20bd",
 "slots":7,
 "start":"25.07.2020",
-"tags":1074792578,
+"tags":1050754,
 "title":"\u0421\u0442\u0430\u0440\u0438\u0446\u043a\u0430\u044f \u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f",
 "url":"https://www.napravlenie.info/catalog/weekend/staritskaya-shveytsariya-aktivnyy-avtorskiy-tur-vykhodnogo-dnya/",
 "vendor":"napravlenie"
@@ -1059,7 +1059,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1076891660,
+"tags":3149836,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1662/",
 "vendor":"pik"
@@ -1074,7 +1074,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1732/",
 "vendor":"pik"
@@ -1089,7 +1089,7 @@ const DATA={"weekendList": [
 "price":"32\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"26.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u00ab\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/nalychevo/1745/",
 "vendor":"pik"
@@ -1104,7 +1104,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1613760524,
+"tags":540018700,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/2126/",
 "vendor":"pik"
@@ -1119,7 +1119,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1074791458,
+"tags":1049634,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u043c\u0443 \u041e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
 "url":"https://cityescape.ru/poxod-k-vvedenskomu-monastyryu/",
 "vendor":"cityescape"
@@ -1134,7 +1134,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1076891684,
+"tags":3149860,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0411\u0435\u043b\u0443\u0445\u0443",
 "url":"https://cityescape.ru/vosxozhdenie-na-beluxu/",
 "vendor":"cityescape"
@@ -1149,7 +1149,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1076889668,
+"tags":3147844,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -1164,7 +1164,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1074792516,
+"tags":1050692,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -1179,7 +1179,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.07.2020",
-"tags":2148534532,
+"tags":1050884,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
 "vendor":"teamtrip"
@@ -1194,7 +1194,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_summer",
 "vendor":"teamtrip"
@@ -1209,7 +1209,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"27.07.2020",
-"tags":1076888076,
+"tags":3146252,
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u041f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/1845/",
 "vendor":"pik"
@@ -1224,7 +1224,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":0,
 "start":"27.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/2011/",
 "vendor":"pik"
@@ -1239,7 +1239,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"27.07.2020",
-"tags":1613760524,
+"tags":540018700,
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/2125/",
 "vendor":"pik"
@@ -1254,7 +1254,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.07.2020",
-"tags":1076889668,
+"tags":3147844,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
 "vendor":"zovgor"
@@ -1269,7 +1269,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"27.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0434\u0438\u043a\u0430\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u0430 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://team-trip.ru/kamchatkawild",
 "vendor":"teamtrip"
@@ -1284,7 +1284,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"28.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
 "url":"https://team-trip.ru/orca_safari",
 "vendor":"teamtrip"
@@ -1299,7 +1299,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"29.07.2020",
-"tags":2150631684,
+"tags":3148036,
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
 "url":"https://team-trip.ru/shantars-bio",
 "vendor":"teamtrip"
@@ -1314,7 +1314,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"30.07.2020",
-"tags":1076891660,
+"tags":3149836,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/1681/",
 "vendor":"pik"
@@ -1329,7 +1329,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"30.07.2020",
-"tags":1076889636,
+"tags":3147812,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0447\u0435\u0440\u0435\u0437 \u043b\u0435\u0434\u043d\u0438\u043a \u0413\u0430\u0440\u0430\u0431\u0430\u0448\u0438",
 "url":"https://cityescape.ru/vosxozhdenie-na-elbrus-s-yuga/",
 "vendor":"cityescape"
@@ -1344,7 +1344,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"30.07.2020",
-"tags":1076889668,
+"tags":3147844,
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
 "vendor":"zovgor"
@@ -1359,7 +1359,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"30.07.2020",
-"tags":2150630661,
+"tags":3147013,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
 "vendor":"teamtrip"
@@ -1374,7 +1374,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"31.07.2020",
-"tags":1076888077,
+"tags":3146253,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/1727/",
 "vendor":"pik"
@@ -1389,7 +1389,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/1785/",
 "vendor":"pik"
@@ -1404,7 +1404,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1076888077,
+"tags":3146253,
 "title":"\u0414\u0435\u0442\u0441\u043a\u043e\u0435 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/detskoe-prielbruse/1841/",
 "vendor":"pik"
@@ -1434,7 +1434,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1076889612,
+"tags":3147788,
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/2101/",
 "vendor":"pik"
@@ -1479,7 +1479,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0900\u00a0\u20bd",
 "slots":0,
 "start":"01.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1773/",
 "vendor":"pik"
@@ -1494,7 +1494,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075841034,
+"tags":2099210,
 "title":"\u0420\u0435\u043a\u0430 \u041d\u0435\u0440\u0441\u043a\u0430\u044f. \u041c\u0435\u0449\u0451\u0440\u0441\u043a\u0438\u0435 \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
 "url":"https://turclub-pik.ru/pohod/reka-nerskaya/2019/",
 "vendor":"pik"
@@ -1509,7 +1509,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075840010,
+"tags":2098186,
 "title":"\u0412\u0435\u0439\u043a-\u043f\u0438\u043a\u043d\u0438\u043a. \u041f\u043e\u0445\u043e\u0434, \u0441\u0430\u043f-\u0431\u043e\u0440\u0434 \u0438\u00a0\u0432\u0435\u0439\u043a-\u0431\u043e\u0440\u0434",
 "url":"https://turclub-pik.ru/pohod/veik-piknik/2027/",
 "vendor":"pik"
@@ -1524,7 +1524,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075840010,
+"tags":2098186,
 "title":"\u041c\u0430\u043b\u044b\u0435 \u0421\u043a\u0430\u043b\u044b. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
 "url":"https://turclub-pik.ru/pohod/malye-skaly-skalolazanie/2046/",
 "vendor":"pik"
@@ -1539,7 +1539,7 @@ const DATA={"weekendList": [
 "price":"700\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075841058,
+"tags":2099234,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u043b\u0435\u0441\u0430\u043c \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
 "url":"https://cityescape.ru/poxod-po-severnym-lesam-podmoskovya/",
 "vendor":"cityescape"
@@ -1569,7 +1569,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
 "vendor":"zovgor"
@@ -1584,7 +1584,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0210",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
 "vendor":"zovgor"
@@ -1599,7 +1599,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0300",
 "slots":null,
 "start":"01.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-armenii.html",
 "vendor":"zovgor"
@@ -1614,7 +1614,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1663/",
 "vendor":"pik"
@@ -1629,7 +1629,7 @@ const DATA={"weekendList": [
 "price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075847180,
+"tags":2105356,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-i-elbrus/1690/",
 "vendor":"pik"
@@ -1644,7 +1644,7 @@ const DATA={"weekendList": [
 "price":"34\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-s-yuga/1693/",
 "vendor":"pik"
@@ -1659,7 +1659,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"02.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/1706/",
 "vendor":"pik"
@@ -1674,7 +1674,7 @@ const DATA={"weekendList": [
 "price":"58\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"02.08.2020",
-"tags":1075839500,
+"tags":2097676,
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/vulkany-kamchatki-bez-ryukzakov/1778/",
 "vendor":"pik"
@@ -1689,7 +1689,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b. \u041e\u0441\u0442\u0440\u043e\u0432 \u041e\u043b\u044c\u0445\u043e\u043d",
 "url":"https://turclub-pik.ru/pohod/bajkal-ostrov-olhon/2083/",
 "vendor":"pik"
@@ -1704,7 +1704,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"02.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2112/",
 "vendor":"pik"
@@ -1734,7 +1734,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075840036,
+"tags":2098212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://cityescape.ru/solovki/",
 "vendor":"cityescape"
@@ -1749,7 +1749,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -1764,7 +1764,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -1779,7 +1779,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"02.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_summer",
 "vendor":"teamtrip"
@@ -1794,7 +1794,7 @@ const DATA={"weekendList": [
 "price":"47\u00a0000\u00a0\u20bd",
 "slots":15,
 "start":"03.08.2020",
-"tags":1075843092,
+"tags":2101268,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0412\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0430",
 "url":"http://orangeked.ru/tours/item/97-kamchatka-tolbachik",
 "vendor":"orangeked"
@@ -1809,7 +1809,7 @@ const DATA={"weekendList": [
 "price":"86\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"03.08.2020",
-"tags":1075839500,
+"tags":2097676,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/kamchatka-bez-ryukzakov/1779/",
 "vendor":"pik"
@@ -1824,7 +1824,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0440\u0430\u0431\u0438\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/abkhaziya-po-khrebtu-arabika/1823/",
 "vendor":"pik"
@@ -1839,7 +1839,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"03.08.2020",
-"tags":1075839500,
+"tags":2097676,
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/1824/",
 "vendor":"pik"
@@ -1854,7 +1854,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia.html",
 "vendor":"zovgor"
@@ -1869,7 +1869,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0880",
 "slots":8,
 "start":"03.08.2020",
-"tags":1075841156,
+"tags":2099332,
 "title":"\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/chernogorskie-priklyucheniya-aktivnyy-tur-bez-ryukzakov/",
 "vendor":"napravlenie"
@@ -1884,7 +1884,7 @@ const DATA={"weekendList": [
 "price":"145\u00a0000\u00a0\u20bd",
 "slots":3,
 "start":"03.08.2020",
-"tags":2149582980,
+"tags":2099332,
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430\u00a0\u044f\u0445\u0442\u0435",
 "url":"https://www.napravlenie.info/catalog/peshie-pokhody/ekspeditsiya-na-shantarskie-ostrova-na-yakhte-2020/",
 "vendor":"napravlenie"
@@ -1899,7 +1899,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"03.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
 "vendor":"teamtrip"
@@ -1914,7 +1914,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"04.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod-na-multinskie-ozera.html",
 "vendor":"zovgor"
@@ -1929,7 +1929,7 @@ const DATA={"weekendList": [
 "price":"72\u00a0000\u00a0\u20bd",
 "slots":4,
 "start":"04.08.2020",
-"tags":1075841156,
+"tags":2099332,
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20134",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-4/",
 "vendor":"napravlenie"
@@ -1944,7 +1944,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 (\u0427\u0435\u0440\u0435\u0437 \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e)",
 "url":"https://zovgor.com/30.html",
 "vendor":"zovgor"
@@ -1959,7 +1959,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0300",
 "slots":null,
 "start":"05.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0410\u043b\u043c\u0430\u0442\u0438\u043d\u0441\u043a\u0430\u044f \u043a\u0440\u0443\u0433\u043e\u0441\u0432\u0435\u0442\u043a\u0430 (\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/pohod_po_kazakhstanu.html",
 "vendor":"zovgor"
@@ -1974,7 +1974,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u0412\u0430\u0439\u0433\u0430\u0447 \u0438\u00a0\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043c\u043b\u044f: \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u044f\u0445\u0442\u0435 \u043d\u0430\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
 "url":"https://team-trip.ru/vaygach",
 "vendor":"teamtrip"
@@ -1989,7 +1989,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"06.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u043e\u0437\u0435\u0440\u0430 \u0421\u044b\u043b\u0442\u0440\u0430\u043d-\u043a\u0451\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-ozerom-syltran-kyol/1669/",
 "vendor":"pik"
@@ -2004,7 +2004,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/1675/",
 "vendor":"pik"
@@ -2019,7 +2019,7 @@ const DATA={"weekendList": [
 "price":"38\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://zovgor.com/elbrus-s-severa.html",
 "vendor":"zovgor"
@@ -2034,7 +2034,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0250",
 "slots":null,
 "start":"06.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0412\u00a0\u0433\u043e\u0441\u0442\u0438 \u043a\u00a0\u0414\u0440\u0430\u043a\u0443\u043b\u0435 (\u0420\u0443\u043c\u044b\u043d\u0438\u044f)",
 "url":"https://zovgor.com/pohod_dracula.html",
 "vendor":"zovgor"
@@ -2049,7 +2049,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1075839498,
+"tags":2097674,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u043e\u0439 \u043a\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/na-baidarkakh-po-reke-tikhoi-k-ladoge/1905/",
 "vendor":"pik"
@@ -2064,7 +2064,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1075841034,
+"tags":2099210,
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0439 \u0431\u0435\u0440\u0435\u0433",
 "url":"https://turclub-pik.ru/pohod/po-ladoge-peshkom/1940/",
 "vendor":"pik"
@@ -2079,7 +2079,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0900\u00a0\u20bd",
 "slots":12,
 "start":"07.08.2020",
-"tags":1075841154,
+"tags":2099330,
 "title":"\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0416\u0438\u0433\u0443\u043b\u0435\u0432\u0441\u043a\u0438\u0445 \u0433\u043e\u0440. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://www.napravlenie.info/catalog/weekend/legendy-zhigulevskikh-gor-aktivnyy-tur-avgust-/",
 "vendor":"napravlenie"
@@ -2109,7 +2109,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/2094/",
 "vendor":"pik"
@@ -2154,7 +2154,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1075841060,
+"tags":2099236,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u043e\u0432",
 "url":"https://cityescape.ru/poxod-na-kamchatku-trekking-vokrug-tolbachikov/",
 "vendor":"cityescape"
@@ -2169,7 +2169,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0412\u0434\u043e\u043b\u044c \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0433\u043e \u0431\u0435\u0440\u0435\u0433\u0430 \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
 "url":"https://zovgor.com/pohod-na-baikal.html",
 "vendor":"zovgor"
@@ -2184,7 +2184,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
 "vendor":"zovgor"
@@ -2199,7 +2199,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"08.08.2020",
-"tags":2149582085,
+"tags":2098437,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://team-trip.ru/solovky_bio",
 "vendor":"teamtrip"
@@ -2214,7 +2214,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"08.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
 "url":"https://team-trip.ru/orca_safari",
 "vendor":"teamtrip"
@@ -2229,7 +2229,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1664/",
 "vendor":"pik"
@@ -2244,7 +2244,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"09.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/1708/",
 "vendor":"pik"
@@ -2259,7 +2259,7 @@ const DATA={"weekendList": [
 "price":"57\u00a0300\u00a0\u20bd",
 "slots":0,
 "start":"09.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/norvegiya-bez-ryukzakov/1764/",
 "vendor":"pik"
@@ -2274,7 +2274,7 @@ const DATA={"weekendList": [
 "price":"21\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075840036,
+"tags":2098212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a: \u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://cityescape.ru/cherez-gory-k-moryu/",
 "vendor":"cityescape"
@@ -2289,7 +2289,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075841060,
+"tags":2099236,
 "title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://cityescape.ru/arhyz/",
 "vendor":"cityescape"
@@ -2304,7 +2304,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -2319,7 +2319,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
 "vendor":"zovgor"
@@ -2334,7 +2334,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -2349,7 +2349,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"09.08.2020",
-"tags":2149582085,
+"tags":2098437,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
 "vendor":"teamtrip"
@@ -2364,7 +2364,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"09.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u043e: \u044d\u043a\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443 \u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
 "url":"https://team-trip.ru/kenozero",
 "vendor":"teamtrip"
@@ -2379,7 +2379,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"10.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/1710/",
 "vendor":"pik"
@@ -2394,7 +2394,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"10.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/1733/",
 "vendor":"pik"
@@ -2409,7 +2409,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"10.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://turclub-pik.ru/pohod/hibiny/1797/",
 "vendor":"pik"
@@ -2424,7 +2424,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1075839500,
+"tags":2097676,
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u041f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/1846/",
 "vendor":"pik"
@@ -2439,7 +2439,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/2107/",
 "vendor":"pik"
@@ -2454,7 +2454,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612710412,
+"tags":538968588,
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/2122/",
 "vendor":"pik"
@@ -2469,7 +2469,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612711948,
+"tags":538970124,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/2127/",
 "vendor":"pik"
@@ -2484,7 +2484,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
 "vendor":"zovgor"
@@ -2499,7 +2499,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0530",
 "slots":null,
 "start":"10.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u00ab\u0421\u0442\u0440\u0430\u043d\u0443 \u041b\u044c\u0434\u043e\u0432\u00bb (\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f)",
 "url":"https://zovgor.com/trekking_iceland.html",
 "vendor":"zovgor"
@@ -2514,7 +2514,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"10.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 (\u041e\u0441\u0442\u0440\u043e\u0432 \u0422\u043e\u043d\u0433\u0430\u0442\u0430\u043f\u0443)",
 "url":"https://team-trip.ru/tonga_tongatapu",
 "vendor":"teamtrip"
@@ -2529,7 +2529,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1985/",
 "vendor":"pik"
@@ -2544,7 +2544,7 @@ const DATA={"weekendList": [
 "price":"49\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"11.08.2020",
-"tags":1075839501,
+"tags":2097677,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0410\u043b\u0442\u0430\u0439",
 "url":"https://turclub-pik.ru/pohod/detskii-altai/2013/",
 "vendor":"pik"
@@ -2559,7 +2559,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0421\u043e\u0444\u0438\u0438",
 "url":"https://zovgor.com/pohod-na-sofijskie-ozera.html",
 "vendor":"zovgor"
@@ -2574,7 +2574,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
 "vendor":"zovgor"
@@ -2589,7 +2589,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0490",
 "slots":null,
 "start":"11.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0443\u0440 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u0443 \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u0438",
 "url":"https://zovgor.com/iceland_north.html",
 "vendor":"zovgor"
@@ -2619,7 +2619,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1075839501,
+"tags":2097677,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/1728/",
 "vendor":"pik"
@@ -2634,7 +2634,7 @@ const DATA={"weekendList": [
 "price":"46\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"14.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430. \u041e\u0441\u0442\u0440\u043e\u0432 \u041a\u0443\u043d\u0430\u0448\u0438\u0440",
 "url":"https://turclub-pik.ru/pohod/kurilskie-ostrova-pokhod-razvedka-na-kunashir/1801/",
 "vendor":"pik"
@@ -2664,7 +2664,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"14.08.2020",
-"tags":2149581322,
+"tags":2097674,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1948/",
 "vendor":"pik"
@@ -2694,7 +2694,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1075841060,
+"tags":2099236,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u0437\u00a0\u0413\u0440\u0443\u0437\u0438\u0438",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-iz-gruzii/",
 "vendor":"cityescape"
@@ -2709,7 +2709,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u041c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-morskoe-puteshestvie-na-kayakakh/1772/",
 "vendor":"pik"
@@ -2724,7 +2724,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1075841034,
+"tags":2099210,
 "title":"\u041a\u0443\u0440\u0441\u044b \u0412\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f: \u0443\u0447\u0435\u0431\u043d\u043e-\u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434",
 "url":"https://turclub-pik.ru/pohod/uchebno-trenirovochnyi-vyezd-kursy-vyzhivaniya/2109/",
 "vendor":"pik"
@@ -2739,7 +2739,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"15.08.2020",
-"tags":1612710410,
+"tags":538968586,
 "title":"\u042d\u043a\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u043e\u0440\u043d\u0438\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0441\u0442\u0430\u043d\u0446\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/ekotur-na-ornitologicheskuyu-stanciyu/2129/",
 "vendor":"pik"
@@ -2754,7 +2754,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1612711970,
+"tags":538970146,
 "title":"\u0414\u0432\u0443\u0445\u0434\u043d\u0435\u0432\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u043b\u0435\u0441\u0430\u043c \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
 "url":"https://cityescape.ru/dvuxdnevnyj-poxod-po-severnym-lesam-podmoskovya/",
 "vendor":"cityescape"
@@ -2799,7 +2799,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1075841060,
+"tags":2099236,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/elbrus_north/",
 "vendor":"cityescape"
@@ -2814,7 +2814,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 (\u0427\u0435\u0440\u0435\u0437 \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e)",
 "url":"https://zovgor.com/30.html",
 "vendor":"zovgor"
@@ -2829,7 +2829,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0900\u00a0\u20bd",
 "slots":15,
 "start":"15.08.2020",
-"tags":1075841154,
+"tags":2099330,
 "title":"\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u0437\u0435\u043c\u043b\u044f \u0438\u00a0\u041f\u043e\u043e\u0437\u0435\u0440\u044c\u0435. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f",
 "url":"https://www.napravlenie.info/catalog/weekend/smolenskaya-zemlya-i-poozere-avtorskiy-tur-vykhodnogo-dnya/",
 "vendor":"napravlenie"
@@ -2844,7 +2844,7 @@ const DATA={"weekendList": [
 "price":"86\u00a0000\u00a0\u20bd",
 "slots":3,
 "start":"15.08.2020",
-"tags":1075841156,
+"tags":2099332,
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438\u00a0\u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/vulkany-i-goryachie-istochniki-kamchatki-2020/",
 "vendor":"napravlenie"
@@ -2859,7 +2859,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1665/",
 "vendor":"pik"
@@ -2874,7 +2874,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442)",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-ekonom/1684/",
 "vendor":"pik"
@@ -2889,7 +2889,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"16.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/1711/",
 "vendor":"pik"
@@ -2904,7 +2904,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075839500,
+"tags":2097676,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/1788/",
 "vendor":"pik"
@@ -2919,7 +2919,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b. \u041e\u0441\u0442\u0440\u043e\u0432 \u041e\u043b\u044c\u0445\u043e\u043d",
 "url":"https://turclub-pik.ru/pohod/bajkal-ostrov-olhon/2084/",
 "vendor":"pik"
@@ -2934,7 +2934,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0450",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f \u0441\u00a0\u043b\u0435\u0433\u043a\u0438\u043c\u0438 \u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438!",
 "url":"https://zovgor.com/svanetia-light.html",
 "vendor":"zovgor"
@@ -2949,7 +2949,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -2964,7 +2964,7 @@ const DATA={"weekendList": [
 "price":"30\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0417\u0435\u043c\u043b\u044f \u041a\u0443\u0442\u0445\u0430 (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/tur-po-kamchatke-zemlya-kutha.html",
 "vendor":"zovgor"
@@ -2979,7 +2979,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
 "vendor":"zovgor"
@@ -2994,7 +2994,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
 "vendor":"zovgor"
@@ -3009,7 +3009,7 @@ const DATA={"weekendList": [
 "price":"49\u00a0500\u00a0\u20bd",
 "slots":12,
 "start":"16.08.2020",
-"tags":1075841156,
+"tags":2099332,
 "title":"\u0417\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0435 \u0410\u043c\u0443\u0440\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a\u043e\u043c\u0443 \u043a\u0440\u0430\u044e",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/zagadochnye-amurskie-stolby-pokhod-po-khabarovskomu-krayu-/",
 "vendor":"napravlenie"
@@ -3024,7 +3024,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"16.08.2020",
-"tags":2149582085,
+"tags":2098437,
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://team-trip.ru/solovky_bio",
 "vendor":"teamtrip"
@@ -3039,7 +3039,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"16.08.2020",
-"tags":2153777412,
+"tags":6293764,
 "title":"\u041e\u0441\u0442\u0440\u043e\u0432 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f \u0438\u00a0\u0427\u0443\u043a\u043e\u0442\u043a\u0430: \u043c\u0438\u0440\u043e\u0432\u0430\u044f \u0441\u0442\u043e\u043b\u0438\u0446\u0430 \u0431\u0435\u043b\u044b\u0445 \u043c\u0435\u0434\u0432\u0435\u0434\u0435\u0439",
 "url":"https://team-trip.ru/wrangel",
 "vendor":"teamtrip"
@@ -3054,7 +3054,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0000\u00a0\u20bd",
 "slots":15,
 "start":"17.08.2020",
-"tags":1075843092,
+"tags":2101268,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438\u00a0\u041e\u043a\u0435\u0430\u043d",
 "url":"http://orangeked.ru/tours/item/66-pohod-kamchatka",
 "vendor":"orangeked"
@@ -3069,7 +3069,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u042e\u0436\u043d\u044b\u0439 \u0421\u0430\u0445\u0430\u043b\u0438\u043d. \u0422\u043e\u043d\u0438\u043d\u043e-\u0410\u043d\u0438\u0432\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
 "url":"https://turclub-pik.ru/pohod/yuzhnyi-sakhalin-tonino-anivskoe-kolco/1800/",
 "vendor":"pik"
@@ -3084,7 +3084,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1075840013,
+"tags":2098189,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041c\u0430\u043b\u044b\u0448\u0438 \u043d\u0430\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskii-krym-malyshi-na-demerdzhi/1814/",
 "vendor":"pik"
@@ -3099,7 +3099,7 @@ const DATA={"weekendList": [
 "price":"55\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612711948,
+"tags":538970124,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/kamchatka-vstrechnoe-kolco/2124/",
 "vendor":"pik"
@@ -3114,7 +3114,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
 "vendor":"zovgor"
@@ -3129,7 +3129,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0290",
 "slots":null,
 "start":"17.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0420\u0438\u043b\u0430 \u0438\u00a0\u041f\u0438\u0440\u0438\u043d (\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f)",
 "url":"https://zovgor.com/bulgaria.html",
 "vendor":"zovgor"
@@ -3144,7 +3144,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"17.08.2020",
-"tags":1075841156,
+"tags":2099332,
 "title":"\u0422\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0420\u0443\u0441\u0441\u043a\u0430\u044f \u041b\u0430\u043f\u043b\u0430\u043d\u0434\u0438\u044f \u0438\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u043c\u043e\u0440\u044f",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/tur-ekspeditsiya-russkaya-laplandiya-i-severnye-morya/",
 "vendor":"napravlenie"
@@ -3159,7 +3159,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"17.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 (\u041e\u0441\u0442\u0440\u043e\u0432 \u0422\u043e\u043d\u0433\u0430\u0442\u0430\u043f\u0443)",
 "url":"https://team-trip.ru/tonga_tongatapu",
 "vendor":"teamtrip"
@@ -3174,7 +3174,7 @@ const DATA={"weekendList": [
 "price":"49\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"18.08.2020",
-"tags":1080037388,
+"tags":6295564,
 "title":"\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430. \u041f\u043e\u0445\u043e\u0434-\u0440\u0430\u0437\u0432\u0435\u0434\u043a\u0430 \u043d\u0430\u00a0\u0418\u0442\u0443\u0440\u0443\u043f",
 "url":"https://turclub-pik.ru/pohod/kurilskie-ostrova-pokhod-razvedka-na-iturup/1879/",
 "vendor":"pik"
@@ -3189,7 +3189,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"18.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0412\u0434\u043e\u043b\u044c \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0433\u043e \u0431\u0435\u0440\u0435\u0433\u0430 \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
 "url":"https://zovgor.com/pohod-na-baikal.html",
 "vendor":"zovgor"
@@ -3204,7 +3204,7 @@ const DATA={"weekendList": [
 "price":"38\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"19.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b. \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/fanskie-gory-tadzhikistan/1830/",
 "vendor":"pik"
@@ -3219,7 +3219,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0380",
 "slots":null,
 "start":"19.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d, \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
 "vendor":"zovgor"
@@ -3234,7 +3234,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1075843084,
+"tags":2101260,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/1676/",
 "vendor":"pik"
@@ -3249,7 +3249,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0800\u00a0\u20bd",
 "slots":0,
 "start":"20.08.2020",
-"tags":1080035340,
+"tags":6293516,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043a\u00a0\u0433\u043e\u0440\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/altai-trekking-k-gornym-ozeram/2012/",
 "vendor":"pik"
@@ -3264,7 +3264,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
 "vendor":"zovgor"
@@ -3279,7 +3279,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u043c",
 "url":"https://zovgor.com/pohod_khibiny.html",
 "vendor":"zovgor"
@@ -3294,7 +3294,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/shavlinskye-ozera.html",
 "vendor":"zovgor"
@@ -3309,7 +3309,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0320",
 "slots":null,
 "start":"20.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0422\u044f\u043d\u044c-\u0428\u0430\u043d\u044c (\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f)",
 "url":"https://zovgor.com/tian-shan.html",
 "vendor":"zovgor"
@@ -3324,7 +3324,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1210058754,
+"tags":136316930,
 "title":"\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u0434\u043b\u044f \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0437\u0430\u043a\u0430\u0437\u0430",
 "url":"https://www.pohodtut.ru/home",
 "vendor":"pohodtut"
@@ -3339,7 +3339,7 @@ const DATA={"weekendList": [
 "price":"44\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/fanskie-gory-bez-ryukzakov/1739/",
 "vendor":"pik"
@@ -3354,7 +3354,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1075841034,
+"tags":2099210,
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0439 \u0431\u0435\u0440\u0435\u0433",
 "url":"https://turclub-pik.ru/pohod/po-ladoge-peshkom/1941/",
 "vendor":"pik"
@@ -3369,7 +3369,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1075840010,
+"tags":2098186,
 "title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0430\u0440\u0437\u0430\u043d\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/yastrebinoe/1958/",
 "vendor":"pik"
@@ -3399,7 +3399,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0411\u0435\u043b\u0443\u0445\u0435 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
 "vendor":"zovgor"
@@ -3414,7 +3414,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"21.08.2020",
-"tags":2149583108,
+"tags":2099460,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438 \u0438\u00a0\u0441\u0438\u0432\u0443\u0447\u0430\u043c\u0438, \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043c\u0435\u0434\u0432\u0435\u0434\u044f\u043c\u0438",
 "url":"https://team-trip.ru/orca_safari",
 "vendor":"teamtrip"
@@ -3429,7 +3429,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1771/",
 "vendor":"pik"
@@ -3444,7 +3444,7 @@ const DATA={"weekendList": [
 "price":"44\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1080034316,
+"tags":6292492,
 "title":"\u0410\u0440\u043c\u0435\u043d\u0438\u044f \u0438\u00a0\u041d\u0430\u0433\u043e\u0440\u043d\u044b\u0439 \u041a\u0430\u0440\u0430\u0431\u0430\u0445 2020: \u0430\u0432\u0442\u043e \u0438\u00a0\u043f\u0435\u0448\u0438\u0439",
 "url":"https://turclub-pik.ru/pohod/armeniya-i-nagornyi-karabakh-2020-avto-i-peshii/1796/",
 "vendor":"pik"
@@ -3474,7 +3474,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075840012,
+"tags":2098188,
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u043f\u0430\u0440\u043a\u0443 \u041f\u0430\u0430\u043d\u0430\u044f\u0440\u0432\u0438",
 "url":"https://turclub-pik.ru/pohod/kareliya-pokhod-po-nacionalnomu-parku-paanayarvi/2021/",
 "vendor":"pik"
@@ -3504,7 +3504,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075840034,
+"tags":2098210,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0422\u0430\u0440\u0443\u0441\u0443 \u043f\u043e\u00a0\u0431\u0435\u0440\u0435\u0433\u0430\u043c \u041e\u043a\u0438",
 "url":"https://cityescape.ru/poxod-v-tarusu-po-beregam-oki/",
 "vendor":"cityescape"
@@ -3519,7 +3519,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075841058,
+"tags":2099234,
 "title":"\u0428\u043a\u043e\u043b\u0430 \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c\u0430: \u0432\u0435\u0440\u0435\u0432\u043e\u0447\u043d\u044b\u0439 \u043a\u0443\u0440\u0441 \u0438\u00a0\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
 "url":"https://cityescape.ru/rock-climbing/",
 "vendor":"cityescape"
@@ -3534,7 +3534,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0421\u043a\u0430\u043b\u0438\u0441\u0442\u044b\u0439 \u0445\u0440\u0435\u0431\u0435\u0442",
 "url":"https://zovgor.com/skalistyi_hrebet.html",
 "vendor":"zovgor"
@@ -3549,7 +3549,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0300",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u043d\u0431\u043b\u0430\u043d\u0430 (\u0410\u043b\u044c\u043f\u044b)",
 "url":"https://zovgor.com/pohod_monblan.html",
 "vendor":"zovgor"
@@ -3564,7 +3564,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
 "vendor":"zovgor"
@@ -3579,7 +3579,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0000\u00a0\u20bd",
 "slots":15,
 "start":"23.08.2020",
-"tags":1075840020,
+"tags":2098196,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u043e\u043b\u044c\u0441\u043a\u043e\u043c\u0443 \u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432\u0443",
 "url":"http://orangeked.ru/tours/item/98-kolskii",
 "vendor":"orangeked"
@@ -3594,7 +3594,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1080037388,
+"tags":6295564,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1666/",
 "vendor":"pik"
@@ -3609,7 +3609,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1080035340,
+"tags":6293516,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/1840/",
 "vendor":"pik"
@@ -3624,7 +3624,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0200\u00a0\u20bd",
 "slots":0,
 "start":"23.08.2020",
-"tags":1075841036,
+"tags":2099212,
 "title":"\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://turclub-pik.ru/pohod/hibiny/2066/",
 "vendor":"pik"
@@ -3639,7 +3639,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
 "vendor":"zovgor"
@@ -3654,7 +3654,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0200",
 "slots":null,
 "start":"23.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0443\u0448\u0435\u0442\u0438\u044f+\u0425\u0435\u0432\u0441\u0443\u0440\u0435\u0442\u0438\u044f",
 "url":"https://zovgor.com/hevsuretia-tushetia.html",
 "vendor":"zovgor"
@@ -3669,7 +3669,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"https://zovgor.com/pohod_ergaki.html",
 "vendor":"zovgor"
@@ -3684,7 +3684,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -3699,7 +3699,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -3714,7 +3714,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"24.08.2020",
-"tags":1080035340,
+"tags":6293516,
 "title":"\u0413\u043e\u043b\u0443\u0431\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://turclub-pik.ru/pohod/goluboe-ozherele-arhyiza/1821/",
 "vendor":"pik"
@@ -3729,7 +3729,7 @@ const DATA={"weekendList": [
 "price":"52\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.08.2020",
-"tags":1080035340,
+"tags":6293516,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/2024/",
 "vendor":"pik"
@@ -3744,7 +3744,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
 "vendor":"zovgor"
@@ -3759,7 +3759,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0290",
 "slots":null,
 "start":"24.08.2020",
-"tags":1075841092,
+"tags":2099268,
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/trekking_norway_trolltunga.html",
 "vendor":"zovgor"
@@ -3774,7 +3774,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"27.08.2020",
-"tags":1080037388,
+"tags":6295564,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/1682/",
 "vendor":"pik"
@@ -3804,7 +3804,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u0421\u044b\u043b\u0442\u0440\u0430\u043d\u043a\u0435\u043b\u044c\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044f",
 "url":"https://zovgor.com/kyrtyk.html",
 "vendor":"zovgor"
@@ -3819,7 +3819,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u0421\u043a\u0430\u043b\u044b \u041f\u0430\u0441\u0442\u0443\u0445\u043e\u0432\u0430",
 "url":"https://zovgor.com/skaly-pastuhova.html",
 "vendor":"zovgor"
@@ -3834,7 +3834,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430",
 "url":"https://zovgor.com/elbrus.html",
 "vendor":"zovgor"
@@ -3849,7 +3849,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1075840010,
+"tags":2098186,
 "title":"\u0412\u0435\u0439\u043a-\u043f\u0438\u043a\u043d\u0438\u043a. \u041f\u043e\u0445\u043e\u0434, \u0441\u0430\u043f-\u0431\u043e\u0440\u0434 \u0438\u00a0\u0432\u0435\u0439\u043a-\u0431\u043e\u0440\u0434",
 "url":"https://turclub-pik.ru/pohod/veik-piknik/2029/",
 "vendor":"pik"
@@ -3864,7 +3864,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1075840034,
+"tags":2098210,
 "title":"\u041e\u0440\u043d\u0438\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0431\u0438\u043e\u0441\u0442\u0430\u043d\u0446\u0438\u0438\u0438 \u00ab\u041c\u0430\u043b\u0438\u043d\u043a\u0438\u00bb (Birdwatching)",
 "url":"https://cityescape.ru/ornitologicheskij-poxod-k-biostanciii-malinki/",
 "vendor":"cityescape"
@@ -3879,7 +3879,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1075841058,
+"tags":2099234,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0414\u0435\u0432\u044f\u0442\u043e\u0432\u0441\u043a\u0443\u044e \u043a\u0430\u043c\u0435\u043d\u043e\u043b\u043e\u043c\u043d\u044e",
 "url":"https://cityescape.ru/silikaty/",
 "vendor":"cityescape"
@@ -3894,7 +3894,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
 "vendor":"zovgor"
@@ -3909,7 +3909,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0000\u00a0\u20bd",
 "slots":15,
 "start":"30.08.2020",
-"tags":1080033812,
+"tags":6291988,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0430\u044f\u043a\u0438\u043d\u0433",
 "url":"http://orangeked.ru/tours/item/31-gornyj-krym",
 "vendor":"orangeked"
@@ -3924,7 +3924,7 @@ const DATA={"weekendList": [
 "price":"59\u00a0500\u00a0\u20bd",
 "slots":10,
 "start":"30.08.2020",
-"tags":1080035460,
+"tags":6293636,
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u0410\u043b\u0442\u0430\u0439. \u0422\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/neizvedannyy-altay-tur-ekspeditsiya-bez-ryukzakov/",
 "vendor":"napravlenie"
@@ -3939,7 +3939,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0500\u00a0\u20bd",
 "slots":6,
 "start":"31.08.2020",
-"tags":1080034324,
+"tags":6292500,
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0438\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"http://orangeked.ru/tours/item/101-teriberka-hibini",
 "vendor":"orangeked"
@@ -3954,7 +3954,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0290",
 "slots":null,
 "start":"31.08.2020",
-"tags":1080035396,
+"tags":6293572,
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/trekking_norway_trolltunga.html",
 "vendor":"zovgor"
@@ -3969,7 +3969,7 @@ const DATA={"weekendList": [
 "price":"32\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938212,
+"tags":4196388,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u043a\u043e\u043c\u0444\u043e\u0440\u0442)",
 "url":"https://cityescape.ru/elbrus-south/",
 "vendor":"cityescape"
@@ -3984,7 +3984,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://zovgor.com/hot_springs.html",
 "vendor":"zovgor"
@@ -3999,7 +3999,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0210",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
 "vendor":"zovgor"
@@ -4014,7 +4014,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0550",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0440\u0430\u0440\u0430\u0442 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/ararat.html",
 "vendor":"zovgor"
@@ -4029,7 +4029,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0300",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-armenii.html",
 "vendor":"zovgor"
@@ -4044,7 +4044,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0380",
 "slots":null,
 "start":"01.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d, \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
 "vendor":"zovgor"
@@ -4059,7 +4059,7 @@ const DATA={"weekendList": [
 "price":"78\u00a0000\u00a0\u20bd",
 "slots":5,
 "start":"01.09.2020",
-"tags":1077938308,
+"tags":4196484,
 "title":"\u041e\u0441\u0435\u043d\u043d\u0435\u0435 \u0434\u044b\u0445\u0430\u043d\u0438\u0435 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://www.napravlenie.info/catalog/peshie-pokhody/osennee-dykhanie-kamchatki-2020/",
 "vendor":"napravlenie"
@@ -4074,7 +4074,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0434\u0438\u043a\u0430\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u0430 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://team-trip.ru/wildkamchatka",
 "vendor":"teamtrip"
@@ -4089,7 +4089,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.09.2020",
-"tags":1077938212,
+"tags":4196388,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0417\u0430\u043f\u0430\u0434\u043d\u043e\u043c\u0443 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
 "url":"https://cityescape.ru/poxod-po-zapadnomu-prielbrusyu/",
 "vendor":"cityescape"
@@ -4104,7 +4104,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a01\u00a0375",
 "slots":6,
 "start":"02.09.2020",
-"tags":2151680132,
+"tags":4196484,
 "title":"\u041d\u0430\u00a0\u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043f\u043e\u0434 \u043f\u0430\u0440\u0443\u0441\u0430\u043c\u0438. \u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/na-lofotenskie-ostrova-pod-parusami-unikalnyy-tur-2020/",
 "vendor":"napravlenie"
@@ -4119,7 +4119,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"03.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-severnoi-osetii.html",
 "vendor":"zovgor"
@@ -4134,7 +4134,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0400",
 "slots":null,
 "start":"03.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://zovgor.com/kazbek.html",
 "vendor":"zovgor"
@@ -4149,7 +4149,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"04.09.2020",
-"tags":1077936650,
+"tags":4194826,
 "title":"\u0422\u043e\u0447\u043a\u0430 \u0441\u0435\u0437\u043e\u043d\u0430 2020",
 "url":"https://turclub-pik.ru/pohod/tochka/1744/",
 "vendor":"pik"
@@ -4164,7 +4164,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"04.09.2020",
-"tags":2151678474,
+"tags":4194826,
 "title":"\u0420\u044b\u0431\u0438\u043d\u0441\u043a. \u041f\u0430\u0440\u0443\u0441\u043d\u044b\u0439 \u0443\u0438\u043a\u0435\u043d\u0434!",
 "url":"https://turclub-pik.ru/pohod/rybinsk-pokhod-na-parusnoi-yakhte/1949/",
 "vendor":"pik"
@@ -4179,7 +4179,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":1077938210,
+"tags":4196386,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u041a\u043e\u043b\u043e\u043c\u043d\u0443 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u043e\u0434\u0438\u0449\u0435 \u0420\u043e\u0441\u0442\u0438\u0441\u043b\u0430\u0432\u043b\u044c \u0420\u044f\u0437\u0430\u043d\u0441\u043a\u0438\u0439",
 "url":"https://cityescape.ru/peshij-poxod-v-kolomnu-cherez-gorodishhe-rostislavl-ryazanskij/",
 "vendor":"cityescape"
@@ -4209,7 +4209,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
 "vendor":"zovgor"
@@ -4224,7 +4224,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f: \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0435 \u043b\u044c\u0434\u043e\u0432, \u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432 \u0438\u00a0\u0443\u043c\u043e\u043f\u043e\u043c\u0440\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0435\u0439\u0437\u0430\u0436\u0435\u0439",
 "url":"https://team-trip.ru/iceland2",
 "vendor":"teamtrip"
@@ -4254,7 +4254,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1077940236,
+"tags":4198412,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/1683/",
 "vendor":"pik"
@@ -4269,7 +4269,7 @@ const DATA={"weekendList": [
 "price":"86\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1077936652,
+"tags":4194828,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/kamchatka-bez-ryukzakov/2114/",
 "vendor":"pik"
@@ -4284,7 +4284,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1077937188,
+"tags":4195364,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0417\u043e\u043b\u043e\u0442\u043e \u0425\u0438\u0431\u0438\u043d\u00bb",
 "url":"https://cityescape.ru/peshij-poxod-zoloto-xibin/",
 "vendor":"cityescape"
@@ -4299,7 +4299,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -4314,7 +4314,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0500\u00a0\u20bd",
 "slots":7,
 "start":"06.09.2020",
-"tags":1077938308,
+"tags":4196484,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0435 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0438 \u0421\u043e\u0447\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/gornye-zapovedniki-sochi-pokhod/",
 "vendor":"napravlenie"
@@ -4344,7 +4344,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"07.09.2020",
-"tags":1077938188,
+"tags":4196364,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/1709/",
 "vendor":"pik"
@@ -4359,7 +4359,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"07.09.2020",
-"tags":1077936652,
+"tags":4194828,
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u041f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/1847/",
 "vendor":"pik"
@@ -4374,7 +4374,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"07.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0410\u0432\u0430\u0434\u0445\u0430\u0440\u0430 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia2.html",
 "vendor":"zovgor"
@@ -4389,7 +4389,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0800\u00a0\u20bd",
 "slots":8,
 "start":"07.09.2020",
-"tags":1077938308,
+"tags":4196484,
 "title":"\u0414\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u041a\u0430\u0432\u043a\u0430\u0437\u0430\u202f\u2014\u2009\u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b. \u041e\u0441\u0435\u043d\u044c",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/dolmeny-severnogo-kavkaza-mesta-sily-osen/",
 "vendor":"napravlenie"
@@ -4404,7 +4404,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://zovgor.com/arhyz.html",
 "vendor":"zovgor"
@@ -4419,7 +4419,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0290",
 "slots":null,
 "start":"09.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0414\u0443\u0440\u043c\u0438\u0442\u043e\u0440 \u0438\u00a0\u041f\u0440\u043e\u043a\u043b\u0435\u0442\u044c\u0435 (\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f)",
 "url":"https://zovgor.com/montenegro.html",
 "vendor":"zovgor"
@@ -4434,7 +4434,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0800\u00a0\u20bd",
 "slots":0,
 "start":"10.09.2020",
-"tags":1077936653,
+"tags":4194829,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/1617/",
 "vendor":"pik"
@@ -4449,7 +4449,7 @@ const DATA={"weekendList": [
 "price":"96\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.09.2020",
-"tags":1077937164,
+"tags":4195340,
 "title":"\u041f\u0435\u0440\u0443: \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/peru-bolshoe-puteshestvie-v-stranu-drevnikh-inkov/1960/",
 "vendor":"pik"
@@ -4464,7 +4464,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"10.09.2020",
-"tags":1614809100,
+"tags":541067276,
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/2128/",
 "vendor":"pik"
@@ -4479,7 +4479,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":0,
 "start":"11.09.2020",
-"tags":1077938188,
+"tags":4196364,
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/1784/",
 "vendor":"pik"
@@ -4494,7 +4494,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"11.09.2020",
-"tags":1077936652,
+"tags":4194828,
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/1790/",
 "vendor":"pik"
@@ -4524,7 +4524,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0200\u00a0\u20bd",
 "slots":0,
 "start":"11.09.2020",
-"tags":1077938188,
+"tags":4196364,
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/2103/",
 "vendor":"pik"
@@ -4539,7 +4539,7 @@ const DATA={"weekendList": [
 "price":"38\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://zovgor.com/elbrus-s-severa.html",
 "vendor":"zovgor"
@@ -4554,7 +4554,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a01\u00a0280",
 "slots":6,
 "start":"11.09.2020",
-"tags":1077938308,
+"tags":4196484,
 "title":"5\u00a0\u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0445 \u0432\u0435\u0440\u0448\u0438\u043d \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438 v3. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://www.napravlenie.info/catalog/may_tours/5-znamenitykh-vershin-irlandii-v3-aktivnyy-tur/",
 "vendor":"napravlenie"
@@ -4569,7 +4569,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1077938188,
+"tags":4196364,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1774/",
 "vendor":"pik"
@@ -4584,7 +4584,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1077938186,
+"tags":4196362,
 "title":"\u0420\u0435\u043a\u0430 \u041d\u0435\u0440\u0441\u043a\u0430\u044f. \u041c\u0435\u0449\u0451\u0440\u0441\u043a\u0438\u0435 \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
 "url":"https://turclub-pik.ru/pohod/reka-nerskaya/2020/",
 "vendor":"pik"
@@ -4599,7 +4599,7 @@ const DATA={"weekendList": [
 "price":"$\u00a01\u00a0300",
 "slots":null,
 "start":"12.09.2020",
-"tags":1077938212,
+"tags":4196388,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0414\u0435\u043c\u0430\u0432\u0435\u043d\u0434",
 "url":"https://cityescape.ru/vosxozhdenie-na-demavend/",
 "vendor":"cityescape"
@@ -4614,7 +4614,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1077937188,
+"tags":4195364,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://cityescape.ru/poxod-po-severnoj-osetii/",
 "vendor":"cityescape"
@@ -4629,7 +4629,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 (\u0427\u0435\u0440\u0435\u0437 \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e)",
 "url":"https://zovgor.com/30.html",
 "vendor":"zovgor"
@@ -4644,7 +4644,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"12.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_summer",
 "vendor":"teamtrip"
@@ -4659,7 +4659,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"12.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales_may",
 "vendor":"teamtrip"
@@ -4674,7 +4674,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"12.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_autumn",
 "vendor":"teamtrip"
@@ -4704,7 +4704,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1077937188,
+"tags":4195364,
 "title":"\u041d\u0430\u00a0\u043a\u0440\u0430\u0439 \u0441\u0432\u0435\u0442\u0430 \u0438\u043b\u0438 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0443",
 "url":"https://cityescape.ru/na-krayu-sveta-ili-poxod-v-teriberku/",
 "vendor":"cityescape"
@@ -4719,7 +4719,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0450",
 "slots":null,
 "start":"13.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f \u0441\u00a0\u043b\u0435\u0433\u043a\u0438\u043c\u0438 \u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438!",
 "url":"https://zovgor.com/svanetia-light.html",
 "vendor":"zovgor"
@@ -4734,7 +4734,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -4749,7 +4749,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"14.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/trekking-po-kamchatke-nalychevo.html",
 "vendor":"zovgor"
@@ -4764,7 +4764,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"14.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435: \u0432\u00a0\u043f\u043e\u0433\u043e\u043d\u0435 \u0437\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0438\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/zapolyarye",
 "vendor":"teamtrip"
@@ -4779,7 +4779,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0421\u043e\u0444\u0438\u0438",
 "url":"https://zovgor.com/pohod-na-sofijskie-ozera.html",
 "vendor":"zovgor"
@@ -4794,7 +4794,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0500",
 "slots":null,
 "start":"15.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0414\u0435\u043c\u0430\u0432\u0435\u043d\u0434 (\u0418\u0440\u0430\u043d)",
 "url":"https://zovgor.com/demavend.html",
 "vendor":"zovgor"
@@ -4809,7 +4809,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0750",
 "slots":null,
 "start":"15.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041f\u0435\u0440\u0443",
 "url":"https://zovgor.com/pohod-peru.html",
 "vendor":"zovgor"
@@ -4824,7 +4824,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0210",
 "slots":null,
 "start":"16.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
 "vendor":"zovgor"
@@ -4839,7 +4839,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"17.09.2020",
-"tags":1077938212,
+"tags":4196388,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u0437\u00a0\u0413\u0440\u0443\u0437\u0438\u0438",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-iz-gruzii/",
 "vendor":"cityescape"
@@ -4854,7 +4854,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"17.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"https://zovgor.com/pohod-po-dagestanu.html",
 "vendor":"zovgor"
@@ -4884,7 +4884,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"18.09.2020",
-"tags":1077937162,
+"tags":4195338,
 "title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0430\u0440\u0437\u0430\u043d\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/yastrebinoe/1959/",
 "vendor":"pik"
@@ -4914,7 +4914,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.09.2020",
-"tags":1077936652,
+"tags":4194828,
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/severnaya-osetiya-digoriya/1839/",
 "vendor":"pik"
@@ -4929,7 +4929,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
 "vendor":"zovgor"
@@ -4944,7 +4944,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"19.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://zovgor.com/unknown_crimea.html",
 "vendor":"zovgor"
@@ -4959,7 +4959,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_summer",
 "vendor":"teamtrip"
@@ -4974,7 +4974,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales_may",
 "vendor":"teamtrip"
@@ -4989,7 +4989,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"19.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_autumn",
 "vendor":"teamtrip"
@@ -5019,7 +5019,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.09.2020",
-"tags":1077937188,
+"tags":4195364,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0422\u0430\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432\u0443",
 "url":"https://cityescape.ru/puteshestvie-k-tamanskomu-poluostrovu/",
 "vendor":"cityescape"
@@ -5034,7 +5034,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"20.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/zagedanskie_ozera.html",
 "vendor":"zovgor"
@@ -5049,7 +5049,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
 "vendor":"zovgor"
@@ -5064,7 +5064,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"21.09.2020",
-"tags":1077938244,
+"tags":4196420,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
 "vendor":"zovgor"
@@ -5079,7 +5079,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"21.09.2020",
-"tags":2151680260,
+"tags":4196612,
 "title":"\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435: \u0432\u00a0\u043f\u043e\u0433\u043e\u043d\u0435 \u0437\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0438\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/zapolyarye",
 "vendor":"teamtrip"
@@ -5094,7 +5094,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.09.2020",
-"tags":1086326820,
+"tags":12584996,
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u044e \u0438\u00a0\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0440\u0430\u0433\u0430\u0446",
 "url":"https://cityescape.ru/puteshestvie-v-armeniyu-i-vosxozhdenie-na-aragac/",
 "vendor":"cityescape"
@@ -5109,7 +5109,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0800\u00a0\u20bd",
 "slots":0,
 "start":"23.09.2020",
-"tags":1086325261,
+"tags":12583437,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/1618/",
 "vendor":"pik"
@@ -5124,7 +5124,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0380",
 "slots":null,
 "start":"24.09.2020",
-"tags":1086326852,
+"tags":12585028,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u043e\u0440\u0441\u0438\u043a\u0435 GR20",
 "url":"https://zovgor.com/gr20.html",
 "vendor":"zovgor"
@@ -5139,7 +5139,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"26.09.2020",
-"tags":1086326796,
+"tags":12584972,
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430. \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
 "url":"https://turclub-pik.ru/pohod/likijskaya-tropa/1827/",
 "vendor":"pik"
@@ -5154,7 +5154,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"26.09.2020",
-"tags":1086326852,
+"tags":12585028,
 "title":"\u0421\u044b\u043b\u0442\u0440\u0430\u043d\u043a\u0435\u043b\u044c\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044f",
 "url":"https://zovgor.com/kyrtyk.html",
 "vendor":"zovgor"
@@ -5169,7 +5169,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.09.2020",
-"tags":1086326852,
+"tags":12585028,
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
 "vendor":"zovgor"
@@ -5184,7 +5184,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.09.2020",
-"tags":2160068868,
+"tags":12585220,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_summer",
 "vendor":"teamtrip"
@@ -5199,7 +5199,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.09.2020",
-"tags":2160068868,
+"tags":12585220,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales_may",
 "vendor":"teamtrip"
@@ -5214,7 +5214,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.09.2020",
-"tags":2160068868,
+"tags":12585220,
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c\u0438, \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores_autumn",
 "vendor":"teamtrip"
@@ -5229,7 +5229,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0480",
 "slots":1,
 "start":"27.09.2020",
-"tags":1086325268,
+"tags":12583444,
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0437\u0430\u043f\u0430\u0434) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"http://orangeked.ru/tours/item/29-likijskaya-tropa",
 "vendor":"orangeked"
@@ -5244,7 +5244,7 @@ const DATA={"weekendList": [
 "price":"37\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1086325260,
+"tags":12583436,
 "title":"\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/kazakhstan-bez-ryukzakov/1873/",
 "vendor":"pik"
@@ -5259,7 +5259,7 @@ const DATA={"weekendList": [
 "price":"96\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1086325772,
+"tags":12583948,
 "title":"\u041f\u0435\u0440\u0443: \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/peru-bolshoe-puteshestvie-v-stranu-drevnikh-inkov/1961/",
 "vendor":"pik"
@@ -5274,7 +5274,7 @@ const DATA={"weekendList": [
 "price":"30\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"28.09.2020",
-"tags":1086326796,
+"tags":12584972,
 "title":"\u041a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnymi-tropami/1751/",
 "vendor":"pik"
@@ -5289,7 +5289,7 @@ const DATA={"weekendList": [
 "price":"$\u00a02\u00a0650",
 "slots":null,
 "start":"28.09.2020",
-"tags":1086326852,
+"tags":12585028,
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
 "vendor":"zovgor"
@@ -5304,7 +5304,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.09.2020",
-"tags":1086326852,
+"tags":12585028,
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
 "vendor":"zovgor"
@@ -5319,7 +5319,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"03.10.2020",
-"tags":1082130957,
+"tags":8389133,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0438\u043f\u0440 (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-kipr/1752/",
 "vendor":"pik"
@@ -5334,7 +5334,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"03.10.2020",
-"tags":1082130956,
+"tags":8389132,
 "title":"\u041a\u0438\u043f\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnoe-poberezhe/1753/",
 "vendor":"pik"
@@ -5349,7 +5349,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"03.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
 "vendor":"zovgor"
@@ -5364,7 +5364,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0470",
 "slots":11,
 "start":"03.10.2020",
-"tags":1082132612,
+"tags":8390788,
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u0410\u0440\u043c\u0435\u043d\u0438\u044f. \u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 \u0438\u00a0\u043f\u0430\u043b\u0430\u0442\u043e\u043a",
 "url":"https://www.napravlenie.info/catalog/ethno_tours/zolotaya-armeniya-osenniy-tur-bez-ryukzakov-i-palatok/",
 "vendor":"napravlenie"
@@ -5379,7 +5379,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"03.10.2020",
-"tags":2155874564,
+"tags":8390916,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0430\u0448\u0430\u043b\u043e\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales_may",
 "vendor":"teamtrip"
@@ -5394,7 +5394,7 @@ const DATA={"weekendList": [
 "price":"57\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"04.10.2020",
-"tags":1082134540,
+"tags":8392716,
 "title":"\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0413\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u043b\u0430-\u041f\u0430\u0442\u0430\u0440 \u0438\u00a0\u0413\u043e\u043a\u0438\u043e \u0420\u0438",
 "url":"https://turclub-pik.ru/pohod/gokio/1635/",
 "vendor":"pik"
@@ -5409,7 +5409,7 @@ const DATA={"weekendList": [
 "price":"101\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"04.10.2020",
-"tags":1082134540,
+"tags":8392716,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a, 6183\u00a0\u043c + \u0411\u041b\u00a0\u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0413\u043e\u043a\u0438\u043e",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-ailend-pik/1890/",
 "vendor":"pik"
@@ -5424,7 +5424,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"04.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
 "vendor":"zovgor"
@@ -5439,7 +5439,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0220",
 "slots":null,
 "start":"04.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u041b\u0438\u043a\u0438\u044f (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/trekking-turkey.html",
 "vendor":"zovgor"
@@ -5454,7 +5454,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"04.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -5469,7 +5469,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"06.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"https://zovgor.com/pohod-po-dagestanu.html",
 "vendor":"zovgor"
@@ -5484,7 +5484,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0400",
 "slots":null,
 "start":"06.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0422\u0443\u0431\u043a\u0430\u043b\u044c \u0438\u00a0\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0430\u0440\u043e\u043a\u043a\u043e",
 "url":"https://zovgor.com/trekking_morocco.html",
 "vendor":"zovgor"
@@ -5499,7 +5499,7 @@ const DATA={"weekendList": [
 "price":"20\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"07.10.2020",
-"tags":1082130956,
+"tags":8389132,
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/kappadokiya/1829/",
 "vendor":"pik"
@@ -5514,7 +5514,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0770",
 "slots":null,
 "start":"08.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
 "vendor":"zovgor"
@@ -5529,7 +5529,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://zovgor.com/hot_springs.html",
 "vendor":"zovgor"
@@ -5544,7 +5544,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"11.10.2020",
-"tags":2155874564,
+"tags":8390916,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u0441\u0438\u043d\u0438\u043c \u043a\u0438\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales",
 "vendor":"teamtrip"
@@ -5559,7 +5559,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"12.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
 "vendor":"zovgor"
@@ -5574,7 +5574,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"13.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-severnoi-osetii.html",
 "vendor":"zovgor"
@@ -5589,7 +5589,7 @@ const DATA={"weekendList": [
 "price":"74\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"15.10.2020",
-"tags":1082130956,
+"tags":8389132,
 "title":"\u0418\u0440\u0430\u043d. \u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/iran-perezagruzka/1865/",
 "vendor":"pik"
@@ -5604,7 +5604,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0250",
 "slots":null,
 "start":"15.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
 "vendor":"zovgor"
@@ -5619,7 +5619,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0220",
 "slots":null,
 "start":"16.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
 "vendor":"zovgor"
@@ -5634,7 +5634,7 @@ const DATA={"weekendList": [
 "price":"71\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"17.10.2020",
-"tags":1082131468,
+"tags":8389644,
 "title":"\u0411\u043e\u043b\u0438\u0432\u0438\u044f \u0438\u00a0\u0423\u044e\u043d\u0438",
 "url":"https://turclub-pik.ru/pohod/neizvedannaya-boliviya/1962/",
 "vendor":"pik"
@@ -5649,7 +5649,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"17.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
 "vendor":"zovgor"
@@ -5664,7 +5664,7 @@ const DATA={"weekendList": [
 "price":"38\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"18.10.2020",
-"tags":1082131468,
+"tags":8389644,
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
 "url":"https://turclub-pik.ru/pohod/turciya-skalolazanie-na-likiiskoi-trope/1766/",
 "vendor":"pik"
@@ -5679,7 +5679,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"18.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -5694,7 +5694,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"18.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -5709,7 +5709,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"18.10.2020",
-"tags":2155874564,
+"tags":8390916,
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u0441\u0438\u043d\u0438\u043c \u043a\u0438\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales",
 "vendor":"teamtrip"
@@ -5724,7 +5724,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
 "vendor":"zovgor"
@@ -5739,7 +5739,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0350",
 "slots":null,
 "start":"19.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041b\u0438\u0432\u0430\u043d\u0435",
 "url":"https://zovgor.com/trekking-lebanon.html",
 "vendor":"zovgor"
@@ -5754,7 +5754,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0650",
 "slots":null,
 "start":"20.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u0432\u00a0\u042e\u0436\u043d\u043e\u0439 \u041a\u043e\u0440\u0435\u0435",
 "url":"https://zovgor.com/trekking-south-korea.html",
 "vendor":"zovgor"
@@ -5769,7 +5769,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0750",
 "slots":12,
 "start":"24.10.2020",
-"tags":1098909716,
+"tags":25167892,
 "title":"\u041d\u0435\u043f\u0430\u043b \u041b\u0430\u043d\u0433\u0442\u0430\u043d\u0433 \u0438\u00a0\u043e\u0437\u0435\u0440\u043e \u0413\u043e\u0441\u0430\u0439\u043a\u0443\u043d\u0434\u0430",
 "url":"http://orangeked.ru/tours/item/60-trekking-nepal",
 "vendor":"orangeked"
@@ -5784,7 +5784,7 @@ const DATA={"weekendList": [
 "price":"47\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"24.10.2020",
-"tags":1098909708,
+"tags":25167884,
 "title":"\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b",
 "url":"https://turclub-pik.ru/pohod/bazovyi-lager-annapurny/1637/",
 "vendor":"pik"
@@ -5799,7 +5799,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"24.10.2020",
-"tags":1619003426,
+"tags":545261602,
 "title":"\u041a\u0443\u0440\u0441 \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0432\u00a0\u0434\u0438\u043a\u043e\u0439 \u043f\u0440\u0438\u0440\u043e\u0434\u0435 20,",
 "url":"https://cityescape.ru/survival/",
 "vendor":"cityescape"
@@ -5814,7 +5814,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"25.10.2020",
-"tags":1082131492,
+"tags":8389668,
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://cityescape.ru/puteshestvie-v-kappadokiyu/",
 "vendor":"cityescape"
@@ -5829,7 +5829,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"25.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
 "vendor":"zovgor"
@@ -5844,7 +5844,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.10.2020",
-"tags":1082132548,
+"tags":8390724,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
 "vendor":"zovgor"
@@ -5859,7 +5859,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"31.10.2020",
-"tags":1098909732,
+"tags":25167908,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435 (\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c)",
 "url":"https://cityescape.ru/poxod-po-likijskoj-trope/",
 "vendor":"cityescape"
@@ -5874,7 +5874,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0800",
 "slots":null,
 "start":"31.10.2020",
-"tags":1098909764,
+"tags":25167940,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0438",
 "url":"https://zovgor.com/trekking-indonesia.html",
 "vendor":"zovgor"
@@ -5889,7 +5889,7 @@ const DATA={"weekendList": [
 "price":"$\u00a01\u00a0995",
 "slots":11,
 "start":"31.10.2020",
-"tags":1098909828,
+"tags":25168004,
 "title":"\u041c\u043e\u043c\u0438\u0434\u0437\u0438\u202f\u2014\u2009\u0441\u0435\u0437\u043e\u043d \u0430\u043b\u044b\u0445 \u043a\u043b\u0435\u043d\u043e\u0432 \u0432\u00a0\u042f\u043f\u043e\u043d\u0438\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
 "url":"https://www.napravlenie.info/catalog/ethno_tours/momidzi-sezon-alykh-klenov-v-yaponii-avtorskiy-tur/",
 "vendor":"napravlenie"
@@ -5904,7 +5904,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.10.2020",
-"tags":2172651780,
+"tags":25168132,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0424\u043e\u0442\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u043e\u0432\u0446\u0435\u0431\u044b\u043a\u043e\u0432",
 "url":"https://team-trip.ru/muskox",
 "vendor":"teamtrip"
@@ -5919,7 +5919,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.10.2020",
-"tags":2172651780,
+"tags":25168132,
 "title":"\u042d\u0444\u0438\u043e\u043f\u0438\u044f: \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u042d\u0440\u0442\u0430 \u0410\u043b\u0435 \u0438\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435 \u043d\u0438\u0437\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0414\u0430\u043b\u043b\u043e\u043b",
 "url":"https://team-trip.ru/ethiopia_november",
 "vendor":"teamtrip"
@@ -5934,7 +5934,7 @@ const DATA={"weekendList": [
 "price":"46\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.11.2020",
-"tags":1090521100,
+"tags":16779276,
 "title":"\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e. \u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0422\u0443\u0431\u043a\u0430\u043b\u044c 4167\u00a0\u043c",
 "url":"https://turclub-pik.ru/pohod/korolevstvo-marokko/1794/",
 "vendor":"pik"
@@ -5949,7 +5949,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0620",
 "slots":null,
 "start":"01.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041c\u0430\u0447\u0443-\u041f\u0438\u043a\u0447\u0443 \u0438\u00a0\u0420\u0430\u0434\u0443\u0436\u043d\u044b\u0435 \u0433\u043e\u0440\u044b (\u041f\u0435\u0440\u0443)",
 "url":"https://zovgor.com/trekking_peru.html",
 "vendor":"zovgor"
@@ -5964,7 +5964,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
 "vendor":"zovgor"
@@ -5979,7 +5979,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"01.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
 "vendor":"zovgor"
@@ -5994,7 +5994,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"02.11.2020",
-"tags":2164263172,
+"tags":16779524,
 "title":"\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435: \u0432\u00a0\u043f\u043e\u0433\u043e\u043d\u0435 \u0437\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0438\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/zapolyarye",
 "vendor":"teamtrip"
@@ -6009,7 +6009,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0500\u00a0\u20bd",
 "slots":0,
 "start":"03.11.2020",
-"tags":1090519572,
+"tags":16777748,
 "title":"\u042e\u0436\u043d\u044b\u0439 \u0423\u0440\u0430\u043b \u0422\u0430\u0433\u0430\u043d\u0430\u0439 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u0442\u0443\u0440\u043f\u0440\u0438\u044e\u0442\u0430\u0445",
 "url":"http://orangeked.ru/tours/item/87-zimii-taganai",
 "vendor":"orangeked"
@@ -6024,7 +6024,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"04.11.2020",
-"tags":2164263172,
+"tags":16779524,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438",
 "url":"https://team-trip.ru/norway",
 "vendor":"teamtrip"
@@ -6039,7 +6039,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.11.2020",
-"tags":2164263172,
+"tags":16779524,
 "title":"\u0423\u0433\u0430\u043d\u0434\u0430, \u0420\u0443\u0430\u043d\u0434\u0430, \u041a\u043e\u043d\u0433\u043e: \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0434\u0438\u043a\u043e\u0439 \u0410\u0444\u0440\u0438\u043a\u0435",
 "url":"https://team-trip.ru/wildafrica2",
 "vendor":"teamtrip"
@@ -6054,7 +6054,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"06.11.2020",
-"tags":1090521122,
+"tags":16779298,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0420\u0434\u0435\u0439\u0441\u043a\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
 "url":"https://cityescape.ru/poxod-k-rdejskomu-monastyryu/",
 "vendor":"cityescape"
@@ -6069,7 +6069,7 @@ const DATA={"weekendList": [
 "price":"32\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"07.11.2020",
-"tags":1090519564,
+"tags":16777740,
 "title":"\u041c\u0430\u0440\u043e\u043a\u043a\u043e. \u0410\u0432\u0442\u043e\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u043f\u0443\u0441\u0442\u044b\u043d\u044e \u0421\u0430\u0445\u0430\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/marokko-puteshestvie-v-pustynyu-sakhara/1795/",
 "vendor":"pik"
@@ -6084,7 +6084,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"07.11.2020",
-"tags":1090519564,
+"tags":16777740,
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0432\u00a0\u0414\u0430\u0445\u0430\u0431\u0435: \u043a\u0443\u0440\u0441 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
 "url":"https://turclub-pik.ru/pohod/fridaiv-kurs-v-dakhabe/1969/",
 "vendor":"pik"
@@ -6099,7 +6099,7 @@ const DATA={"weekendList": [
 "price":"117\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"07.11.2020",
-"tags":1090520076,
+"tags":16778252,
 "title":"\u042d\u043a\u0432\u0430\u0434\u043e\u0440 \u0438\u00a0\u0413\u0430\u043b\u0430\u043f\u0430\u0433\u043e\u0441\u044b. \u0414\u0440\u0443\u0433\u0430\u044f \u043f\u043b\u0430\u043d\u0435\u0442\u0430",
 "url":"https://turclub-pik.ru/pohod/ekvador-galapagosy-drugaya-planeta/1984/",
 "vendor":"pik"
@@ -6114,7 +6114,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0850",
 "slots":null,
 "start":"07.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/annapurna_circuit.html",
 "vendor":"zovgor"
@@ -6129,7 +6129,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0290",
 "slots":null,
 "start":"07.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0418\u0437\u0440\u0430\u0438\u043b\u0435",
 "url":"https://zovgor.com/pohod-israel.html",
 "vendor":"zovgor"
@@ -6144,7 +6144,7 @@ const DATA={"weekendList": [
 "price":"54\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"09.11.2020",
-"tags":1090521100,
+"tags":16779276,
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0422\u0438\u043b\u0438\u0447\u043e \u0438\u00a0\u0410\u0439\u0441-\u043b\u044d\u0439\u043a",
 "url":"https://turclub-pik.ru/pohod/vokrug-annapurny-ozera-tilicho-i-ais-leik/1639/",
 "vendor":"pik"
@@ -6159,7 +6159,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
 "vendor":"zovgor"
@@ -6174,7 +6174,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0650",
 "slots":null,
 "start":"14.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u0410\u043d\u0434\u044b, \u0422\u0438\u0442\u0438\u043a\u0430\u043a\u0430 \u0438\u00a0\u0423\u044e\u043d\u0438 (\u0411\u043e\u043b\u0438\u0432\u0438\u044f)",
 "url":"https://zovgor.com/trekking_bolivia.html",
 "vendor":"zovgor"
@@ -6189,7 +6189,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"14.11.2020",
-"tags":2164263172,
+"tags":16779524,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438",
 "url":"https://team-trip.ru/norway",
 "vendor":"teamtrip"
@@ -6204,7 +6204,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"15.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
 "vendor":"zovgor"
@@ -6219,7 +6219,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0750",
 "slots":null,
 "start":"16.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
 "vendor":"zovgor"
@@ -6234,7 +6234,7 @@ const DATA={"weekendList": [
 "price":"$\u00a01\u00a0800",
 "slots":null,
 "start":"16.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u041e\u0442\u00a0\u043f\u0443\u0441\u0442\u044b\u043d\u0438 \u041d\u0430\u043c\u0438\u0431 \u043a\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u0443 \u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f (\u041d\u0430\u043c\u0438\u0431\u0438\u044f-\u0417\u0430\u043c\u0431\u0438\u044f)",
 "url":"https://zovgor.com/tur-namibia.html",
 "vendor":"zovgor"
@@ -6249,7 +6249,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"20.11.2020",
-"tags":1090519564,
+"tags":16777740,
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430\u043c\u0438 \u0438\u00a0\u0434\u044e\u0433\u043e\u043d\u044f\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/fridaiving-s-cherepakhami-i-dyugonyami/1968/",
 "vendor":"pik"
@@ -6264,7 +6264,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0640",
 "slots":9,
 "start":"20.11.2020",
-"tags":1090521220,
+"tags":16779396,
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438\u00a0\u043b\u0435\u0441\u0430 \u0422\u0435\u043d\u0435\u0440\u0438\u0444\u0435. \u041f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/vulkany-i-lesa-tenerife-pokhod-bez-ryukzakov-/",
 "vendor":"napravlenie"
@@ -6279,7 +6279,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.11.2020",
-"tags":1090521156,
+"tags":16779332,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
 "vendor":"zovgor"
@@ -6294,7 +6294,7 @@ const DATA={"weekendList": [
 "price":"132\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"28.11.2020",
-"tags":1124073996,
+"tags":50332172,
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e\u00a0\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/fridaiving-s-delfinami-v-egipte/1870/",
 "vendor":"pik"
@@ -6309,7 +6309,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.11.2020",
-"tags":1124075588,
+"tags":50333764,
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://zovgor.com/krym-nalegke.html",
 "vendor":"zovgor"
@@ -6324,7 +6324,7 @@ const DATA={"weekendList": [
 "price":"$\u00a01\u00a0000",
 "slots":null,
 "start":"29.11.2020",
-"tags":1124075588,
+"tags":50333764,
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u042e\u0410\u0420 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://zovgor.com/trekking-south-africa.html",
 "vendor":"zovgor"
@@ -6339,7 +6339,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"06.12.2020",
-"tags":1107298372,
+"tags":33556548,
 "title":"\u041b\u0435\u0434 \u0438\u00a0\u041a\u0430\u043c\u043d\u0438",
 "url":"https://zovgor.com/ice_stones.html",
 "vendor":"zovgor"
@@ -6354,7 +6354,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"12.12.2020",
-"tags":1107298372,
+"tags":33556548,
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
@@ -6369,7 +6369,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"22.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430: \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435. \u041f\u0438\u043d\u0433\u0432\u0438\u043d\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u043a\u0438\u0442\u044b, \u0442\u044e\u043b\u0435\u043d\u0438 \u0438\u00a0\u0430\u0439\u0441\u0431\u0435\u0440\u0433\u0438",
 "url":"https://team-trip.ru/antarctica",
 "vendor":"teamtrip"
@@ -6384,7 +6384,7 @@ const DATA={"weekendList": [
 "price":"47\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"23.12.2020",
-"tags":1107314700,
+"tags":33572876,
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u043b\u0430-\u041f\u0430\u0442\u0430\u0440",
 "url":"https://turclub-pik.ru/pohod/everest/1889/",
 "vendor":"pik"
@@ -6399,7 +6399,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"24.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u0423\u0433\u0430\u043d\u0434\u0430, \u0420\u0443\u0430\u043d\u0434\u0430, \u041a\u043e\u043d\u0433\u043e: \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0434\u0438\u043a\u043e\u0439 \u0410\u0444\u0440\u0438\u043a\u0435",
 "url":"https://team-trip.ru/wildafrica4",
 "vendor":"teamtrip"
@@ -6414,7 +6414,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"24.12.2020",
-"tags":2181040388,
+"tags":33556740,
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u042e\u0410\u0420: \u043d\u043e\u0441\u043e\u0440\u043e\u0433\u0438 \u0425\u043b\u0443\u0445\u043b\u0443\u0432\u0435-\u0423\u043c\u0444\u043e\u043b\u043e\u0437\u0438 \u0438\u00a0\u0431\u0435\u0433\u0435\u043c\u043e\u0442\u044b \u0421\u0435\u043d\u0442-\u041b\u0443\u0438\u0441\u0430",
 "url":"https://team-trip.ru/hippos",
 "vendor":"teamtrip"
@@ -6429,7 +6429,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.12.2020",
-"tags":1107298372,
+"tags":33556548,
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://zovgor.com/krym-nalegke.html",
 "vendor":"zovgor"
@@ -6444,7 +6444,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"27.12.2020",
-"tags":2181040388,
+"tags":33556740,
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
 "vendor":"teamtrip"
@@ -6459,7 +6459,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.12.2020",
-"tags":1107314756,
+"tags":33572932,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
 "vendor":"zovgor"
@@ -6474,7 +6474,7 @@ const DATA={"weekendList": [
 "price":"\u20ac\u00a0220",
 "slots":null,
 "start":"29.12.2020",
-"tags":1107314756,
+"tags":33572932,
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
 "vendor":"zovgor"
@@ -6489,7 +6489,7 @@ const DATA={"weekendList": [
 "price":"$\u00a0800",
 "slots":null,
 "start":"29.12.2020",
-"tags":1107314756,
+"tags":33572932,
 "title":"\u041f\u0430\u0442\u0430\u0433\u043e\u043d\u0438\u044f-\u041e\u0433\u043d\u0435\u043d\u043d\u0430\u044f \u0417\u0435\u043c\u043b\u044f (\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430-\u0427\u0438\u043b\u0438)",
 "url":"https://zovgor.com/patagonia.html",
 "vendor":"zovgor"
@@ -6504,7 +6504,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"30.12.2020",
-"tags":1107314700,
+"tags":33572876,
 "title":"\u0421\u043a\u0438-\u0432\u044b\u0435\u0437\u0434 + \u0442\u0440\u0435\u043a\u0438\u043d\u0433 \u043d\u0430\u00a0\u0422\u044f\u043d\u044c-\u0428\u0430\u043d\u0435. \u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0435",
 "url":"https://turclub-pik.ru/pohod/novogodnii-ski-i-treking-na-tyan-shane-kazakhstan/1930/",
 "vendor":"pik"
@@ -6519,7 +6519,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"30.12.2020",
-"tags":1107314756,
+"tags":33572932,
 "title":"\u041f\u043e\u00a0\u043a\u0440\u043e\u043c\u043a\u0435 \u0441\u043a\u0430\u043b",
 "url":"https://zovgor.com/po-kromke-skal.html",
 "vendor":"zovgor"
@@ -6534,7 +6534,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
 "vendor":"teamtrip"
@@ -6549,7 +6549,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
 "vendor":"teamtrip"
@@ -6564,7 +6564,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u0410\u0444\u0440\u0438\u043a\u0430: \u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u044f\u044f \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u043e\u0435\u0437\u0434\u043a\u0430 \u043f\u043e\u00a0\u0448\u0435\u0441\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0430\u043c",
 "url":"https://team-trip.ru/africa_ny",
 "vendor":"teamtrip"
@@ -6579,7 +6579,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u042e\u0410\u0420: \u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d \u0438\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_cape",
 "vendor":"teamtrip"
@@ -6594,7 +6594,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"31.12.2020",
-"tags":2181056772,
+"tags":33573124,
 "title":"\u042e\u0410\u0420: \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d\u043e\u043c",
 "url":"https://team-trip.ru/southafrica_intro",
 "vendor":"teamtrip"
@@ -6609,7 +6609,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.01.2021",
-"tags":1073758732,
+"tags":16908,
 "title":"\u0421\u043a\u0438-\u0432\u044b\u0435\u0437\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b. \u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b",
 "url":"https://turclub-pik.ru/pohod/ski-vyezd-v-khibiny-novogodnie-kanikuly/1964/",
 "vendor":"pik"
@@ -6624,7 +6624,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"03.01.2021",
-"tags":1073759268,
+"tags":17444,
 "title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u041a\u0440\u044b\u043c\u0443 (\u0437\u0438\u043c\u043d\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c)",
 "url":"https://cityescape.ru/crimea_in_winter/",
 "vendor":"cityescape"
@@ -6639,7 +6639,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"04.01.2021",
-"tags":2147502340,
+"tags":18692,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
 "vendor":"teamtrip"
@@ -6654,7 +6654,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"06.01.2021",
-"tags":2147502340,
+"tags":18692,
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
 "vendor":"teamtrip"
@@ -6669,7 +6669,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"07.01.2021",
-"tags":2147502340,
+"tags":18692,
 "title":"\u0417\u0430\u043c\u0431\u0438\u044f, \u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435, \u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u043a\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u0443 \u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f \u0438\u00a0\u0432\u00a0\u043f\u0430\u0440\u043a \u0427\u043e\u0431\u0435",
 "url":"https://team-trip.ru/victoria_mini",
 "vendor":"teamtrip"
@@ -6684,7 +6684,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"10.01.2021",
-"tags":2147502340,
+"tags":18692,
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
 "vendor":"teamtrip"
@@ -6699,7 +6699,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"07.02.2021",
-"tags":2147584260,
+"tags":100612,
 "title":"\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430: \u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u043c\u043e\u0440\u0441\u043a\u0438\u043c\u0438 \u043b\u0435\u043e\u043f\u0430\u0440\u0434\u0430\u043c\u0438, \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 \u0438\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438, \u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438 \u0438\u00a0\u043f\u0438\u043d\u0433\u0432\u0438\u043d\u0430\u043c\u0438, \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u044f \u0443\u00a0\u0430\u0439\u0441\u0431\u0435\u0440\u0433\u043e\u0432",
 "url":"https://team-trip.ru/antartica_diving",
 "vendor":"teamtrip"
@@ -6714,7 +6714,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"08.02.2021",
-"tags":2147518724,
+"tags":35076,
 "title":"\u042d\u0444\u0438\u043e\u043f\u0438\u044f: \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u042d\u0440\u0442\u0430 \u0410\u043b\u0435 \u0438\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435 \u043d\u0438\u0437\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0414\u0430\u043b\u043b\u043e\u043b",
 "url":"https://team-trip.ru/ethiopia_november",
 "vendor":"teamtrip"
@@ -6729,7 +6729,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"08.02.2021",
-"tags":2147518724,
+"tags":35076,
 "title":"\u042d\u0444\u0438\u043e\u043f\u0438\u044f: \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u042d\u0440\u0442\u0430 \u0410\u043b\u0435 \u0438\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435 \u043d\u0438\u0437\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0414\u0430\u043b\u043b\u043e\u043b",
 "url":"https://team-trip.ru/ethiopia",
 "vendor":"teamtrip"
@@ -6744,7 +6744,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"14.02.2021",
-"tags":1073775117,
+"tags":33293,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/2089/",
 "vendor":"pik"
@@ -6759,7 +6759,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"14.02.2021",
-"tags":2147518724,
+"tags":35076,
 "title":"\u0423\u0433\u0430\u043d\u0434\u0430, \u0420\u0443\u0430\u043d\u0434\u0430, \u041a\u043e\u043d\u0433\u043e: \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0434\u0438\u043a\u043e\u0439 \u0410\u0444\u0440\u0438\u043a\u0435",
 "url":"https://team-trip.ru/wildafrica3",
 "vendor":"teamtrip"
@@ -6789,7 +6789,7 @@ const DATA={"weekendList": [
 "price":"41\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.02.2021",
-"tags":1073775116,
+"tags":33292,
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-s-komfortom/2004/",
 "vendor":"pik"
@@ -6804,7 +6804,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"21.02.2021",
-"tags":1073775117,
+"tags":33293,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/2087/",
 "vendor":"pik"
@@ -6819,7 +6819,7 @@ const DATA={"weekendList": [
 "price":"31\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.02.2021",
-"tags":1073842188,
+"tags":100364,
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://turclub-pik.ru/pohod/ldy-bajkala/2000/",
 "vendor":"pik"
@@ -6834,7 +6834,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"27.02.2021",
-"tags":2147584260,
+"tags":100612,
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b: \u043a\u043e\u043d\u044c\u043a\u043e\u0432\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443",
 "url":"https://team-trip.ru/baikal",
 "vendor":"teamtrip"
@@ -6849,7 +6849,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"27.02.2021",
-"tags":2147584260,
+"tags":100612,
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b: \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043d\u044c\u043a\u043e\u0432\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443 \u0441\u00a0\u043d\u043e\u0447\u0451\u0432\u043a\u043e\u0439 \u0432\u00a0\u043f\u0430\u043b\u0430\u0442\u043a\u0430\u0445",
 "url":"https://team-trip.ru/baikal_extreme",
 "vendor":"teamtrip"
@@ -6864,7 +6864,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"04.03.2021",
-"tags":1073809444,
+"tags":67620,
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
 "url":"https://cityescape.ru/lyzhnyj-poxod-po-kenozeryu/",
 "vendor":"cityescape"
@@ -6879,7 +6879,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.03.2021",
-"tags":2147551492,
+"tags":67844,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
 "vendor":"teamtrip"
@@ -6894,7 +6894,7 @@ const DATA={"weekendList": [
 "price":"31\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.03.2021",
-"tags":1073809420,
+"tags":67596,
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://turclub-pik.ru/pohod/ldy-bajkala/2001/",
 "vendor":"pik"
@@ -6924,7 +6924,7 @@ const DATA={"weekendList": [
 "price":"41\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.03.2021",
-"tags":1073807884,
+"tags":66060,
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-s-komfortom/2005/",
 "vendor":"pik"
@@ -6939,7 +6939,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.03.2021",
-"tags":1073809420,
+"tags":67596,
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-konkakh/2006/",
 "vendor":"pik"
@@ -6954,7 +6954,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"07.03.2021",
-"tags":1073807885,
+"tags":66061,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/2088/",
 "vendor":"pik"
@@ -6969,7 +6969,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"15.03.2021",
-"tags":1073809444,
+"tags":67620,
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://cityescape.ru/lyzhnyj-poxod-na-plato-manpupunyor/",
 "vendor":"cityescape"
@@ -6984,7 +6984,7 @@ const DATA={"weekendList": [
 "price":"30\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"18.04.2021",
-"tags":1073874956,
+"tags":133132,
 "title":"\u041a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnymi-tropami/2007/",
 "vendor":"pik"
@@ -6999,7 +6999,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"23.04.2021",
-"tags":1073873420,
+"tags":131596,
 "title":"\u041a\u0438\u043f\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnoe-poberezhe/2008/",
 "vendor":"pik"
@@ -7014,7 +7014,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"24.04.2021",
-"tags":1074135565,
+"tags":393741,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0438\u043f\u0440 (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-kipr/1996/",
 "vendor":"pik"
@@ -7029,7 +7029,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"30.04.2021",
-"tags":1074137100,
+"tags":395276,
 "title":"\u041a\u0438\u043f\u0440. \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438\u00a0\u0433\u043e\u0440\u044b \u041a\u0438\u0440\u0438\u043d\u0438\u044f",
 "url":"https://turclub-pik.ru/pohod/severnyi-kipr/2009/",
 "vendor":"pik"
@@ -7044,7 +7044,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"30.04.2021",
-"tags":2147879172,
+"tags":395524,
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
 "vendor":"teamtrip"
@@ -7059,7 +7059,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"30.04.2021",
-"tags":2147879172,
+"tags":395524,
 "title":"\u042e\u0410\u0420: \u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d \u0438\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_cape",
 "vendor":"teamtrip"
@@ -7074,7 +7074,7 @@ const DATA={"weekendList": [
 "price":"132\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
-"tags":1074004492,
+"tags":262668,
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e\u00a0\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/fridaiving-s-delfinami-v-egipte/1973/",
 "vendor":"pik"
@@ -7089,7 +7089,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
-"tags":1074006028,
+"tags":264204,
 "title":"\u041a\u0440\u044b\u043c. \u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0432\u0434\u043e\u043b\u044c \u043c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/po-goram-vdol-morya/1975/",
 "vendor":"pik"
@@ -7104,7 +7104,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
-"tags":1074006028,
+"tags":264204,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1979/",
 "vendor":"pik"
@@ -7119,7 +7119,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.05.2021",
-"tags":2147747077,
+"tags":263429,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
 "vendor":"teamtrip"
@@ -7134,7 +7134,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.05.2021",
-"tags":2147748100,
+"tags":264452,
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
 "vendor":"teamtrip"
@@ -7149,7 +7149,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.05.2021",
-"tags":2147747077,
+"tags":263429,
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438\u00a0\u0441\u043b\u043e\u043d\u044b",
 "url":"https://team-trip.ru/srilankacamp",
 "vendor":"teamtrip"
@@ -7164,7 +7164,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.05.2021",
-"tags":2147747077,
+"tags":263429,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u0432\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp_spr",
 "vendor":"teamtrip"
@@ -7179,7 +7179,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.05.2021",
-"tags":2147748100,
+"tags":264452,
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u00a0&\u00a0\u0439\u043e\u0433\u0430",
 "url":"https://team-trip.ru/maldives_spr",
 "vendor":"teamtrip"
@@ -7194,7 +7194,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.05.2021",
-"tags":1074006028,
+"tags":264204,
 "title":"\u041a\u0440\u044b\u043c. \u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0432\u0434\u043e\u043b\u044c \u043c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/po-goram-vdol-morya/1976/",
 "vendor":"pik"
@@ -7209,7 +7209,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"02.05.2021",
-"tags":2147748100,
+"tags":264452,
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilankafreediving",
 "vendor":"teamtrip"
@@ -7224,7 +7224,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"16.05.2021",
-"tags":2147748100,
+"tags":264452,
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u044f\u0445\u0442\u0435: \u043d\u0430\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
 "url":"https://team-trip.ru/spitzbergen2021",
 "vendor":"teamtrip"
@@ -7239,7 +7239,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.06.2021",
-"tags":2148010244,
+"tags":526596,
 "title":"\u042e\u0410\u0420: \u0433\u043e\u043d\u043a\u0430 \u0441\u0430\u0440\u0434\u0438\u043d, \u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d \u0438\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_sardines",
 "vendor":"teamtrip"
@@ -7254,7 +7254,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"05.06.2021",
-"tags":1074267148,
+"tags":525324,
 "title":"\u041c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-morskoe-puteshestvie-na-kayakakh/1983/",
 "vendor":"pik"
@@ -7269,7 +7269,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"11.06.2021",
-"tags":1074266637,
+"tags":524813,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/2015/",
 "vendor":"pik"
@@ -7284,7 +7284,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"12.06.2021",
-"tags":1074268172,
+"tags":526348,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1980/",
 "vendor":"pik"
@@ -7299,7 +7299,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"16.06.2021",
-"tags":2148010244,
+"tags":526596,
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
 "vendor":"teamtrip"
@@ -7314,7 +7314,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"21.06.2021",
-"tags":2148009221,
+"tags":525573,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u0438\u00a0\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0440\u0443\u0438\u0437 \u043a\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c",
 "url":"https://team-trip.ru/familykamch",
 "vendor":"teamtrip"
@@ -7329,7 +7329,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"26.06.2021",
-"tags":2148010244,
+"tags":526596,
 "title":"\u042e\u0410\u0420: \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d\u043e\u043c",
 "url":"https://team-trip.ru/southafrica_intro",
 "vendor":"teamtrip"
@@ -7344,7 +7344,7 @@ const DATA={"weekendList": [
 "price":"48\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.06.2021",
-"tags":1074268172,
+"tags":526348,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/1999/",
 "vendor":"pik"
@@ -7359,7 +7359,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"01.07.2021",
-"tags":2147484933,
+"tags":1285,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
 "url":"https://team-trip.ru/wildcampkamchatka",
 "vendor":"teamtrip"
@@ -7374,7 +7374,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"03.07.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
 "vendor":"teamtrip"
@@ -7389,7 +7389,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"04.07.2021",
-"tags":1073742860,
+"tags":1036,
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b. \u041e\u0441\u0442\u0440\u043e\u0432 \u041e\u043b\u044c\u0445\u043e\u043d",
 "url":"https://turclub-pik.ru/pohod/bajkal-ostrov-olhon/1759/",
 "vendor":"pik"
@@ -7404,7 +7404,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"07.07.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
 "vendor":"teamtrip"
@@ -7419,7 +7419,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"11.07.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/1986/",
 "vendor":"pik"
@@ -7434,7 +7434,7 @@ const DATA={"weekendList": [
 "price":"48\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"12.07.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/1998/",
 "vendor":"pik"
@@ -7464,7 +7464,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1988/",
 "vendor":"pik"
@@ -7479,7 +7479,7 @@ const DATA={"weekendList": [
 "price":"32\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u00ab\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/nalychevo/2038/",
 "vendor":"pik"
@@ -7494,7 +7494,7 @@ const DATA={"weekendList": [
 "price":"58\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2021",
-"tags":1073742860,
+"tags":1036,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/norvegiya-bez-ryukzakov/1993/",
 "vendor":"pik"
@@ -7509,7 +7509,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2040/",
 "vendor":"pik"
@@ -7524,7 +7524,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2041/",
 "vendor":"pik"
@@ -7539,7 +7539,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"04.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/1987/",
 "vendor":"pik"
@@ -7554,7 +7554,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1981/",
 "vendor":"pik"
@@ -7569,7 +7569,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2042/",
 "vendor":"pik"
@@ -7584,7 +7584,7 @@ const DATA={"weekendList": [
 "price":"48\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/1997/",
 "vendor":"pik"
@@ -7599,7 +7599,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2021",
-"tags":1073745932,
+"tags":4108,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/2063/",
 "vendor":"pik"
@@ -7614,7 +7614,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2043/",
 "vendor":"pik"
@@ -7629,7 +7629,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/1989/",
 "vendor":"pik"
@@ -7644,7 +7644,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2044/",
 "vendor":"pik"
@@ -7659,7 +7659,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2021",
-"tags":1073745932,
+"tags":4108,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/2064/",
 "vendor":"pik"
@@ -7674,7 +7674,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"17.08.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u0423\u0433\u0430\u043d\u0434\u0430, \u0420\u0443\u0430\u043d\u0434\u0430, \u041a\u043e\u043d\u0433\u043e: \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0434\u0438\u043a\u043e\u0439 \u0410\u0444\u0440\u0438\u043a\u0435",
 "url":"https://team-trip.ru/wildafrica",
 "vendor":"teamtrip"
@@ -7689,7 +7689,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"18.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b. \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/fanskie-gory-tadzhikistan/2010/",
 "vendor":"pik"
@@ -7704,7 +7704,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/1982/",
 "vendor":"pik"
@@ -7719,7 +7719,7 @@ const DATA={"weekendList": [
 "price":"58\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2021",
-"tags":1073742860,
+"tags":1036,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/norvegiya-bez-ryukzakov/1994/",
 "vendor":"pik"
@@ -7734,7 +7734,7 @@ const DATA={"weekendList": [
 "price":"48\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/2022/",
 "vendor":"pik"
@@ -7749,7 +7749,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"28.08.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 (\u041e\u0441\u0442\u0440\u043e\u0432 \u0422\u043e\u043d\u0433\u0430\u0442\u0430\u043f\u0443)",
 "url":"https://team-trip.ru/tonga_tongatapu",
 "vendor":"teamtrip"
@@ -7764,7 +7764,7 @@ const DATA={"weekendList": [
 "price":"32\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u00ab\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/nalychevo/2039/",
 "vendor":"pik"
@@ -7779,7 +7779,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.09.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f: \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0435 \u043b\u044c\u0434\u043e\u0432, \u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432 \u0438\u00a0\u0443\u043c\u043e\u043f\u043e\u043c\u0440\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0435\u0439\u0437\u0430\u0436\u0435\u0439",
 "url":"https://team-trip.ru/iceland",
 "vendor":"teamtrip"
@@ -7794,7 +7794,7 @@ const DATA={"weekendList": [
 "price":null,
 "slots":null,
 "start":"05.09.2021",
-"tags":2147485956,
+"tags":2308,
 "title":"\u041e\u0441\u0442\u0440\u043e\u0432 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f \u0438\u00a0\u0427\u0443\u043a\u043e\u0442\u043a\u0430: \u043c\u0438\u0440\u043e\u0432\u0430\u044f \u0441\u0442\u043e\u043b\u0438\u0446\u0430 \u0431\u0435\u043b\u044b\u0445 \u043c\u0435\u0434\u0432\u0435\u0434\u0435\u0439",
 "url":"https://team-trip.ru/wrangel",
 "vendor":"teamtrip"
@@ -7809,7 +7809,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2021",
-"tags":1073743884,
+"tags":2060,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/2045/",
 "vendor":"pik"
@@ -7824,7 +7824,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"10.09.2021",
-"tags":1073742349,
+"tags":525,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/2016/",
 "vendor":"pik"
@@ -7839,7 +7839,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"23.09.2021",
-"tags":1073742349,
+"tags":525,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/2017/",
 "vendor":"pik"
@@ -7965,7 +7965,7 @@ const DATA={"weekendList": [
 "title":""
 },
 {
-"bits":3556769792,
+"bits":335544320,
 "slug":"type",
 "tags":[
 {
@@ -7981,20 +7981,6 @@ const DATA={"weekendList": [
 "slug":"bicycle",
 "text":"\ud83d\udeb4",
 "title":"\u0432\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434"
-},
-{
-"active":true,
-"bit":2147483648,
-"slug":"sailing",
-"text":"\u26f5",
-"title":"\u043d\u0430 \u044f\u0445\u0442\u0435"
-},
-{
-"active":true,
-"bit":1073741824,
-"slug":"hiking",
-"text":"\ud83e\udd7e",
-"title":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434"
 }
 ],
 "title":""

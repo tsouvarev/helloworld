@@ -40,8 +40,6 @@ class Bit(IntEnum):
     pohodtut = 1 << 27
     bicycle = 1 << 28
     new = 1 << 29
-    hiking = 1 << 30
-    sailing = 1 << 31
 
 
 @dataclass
@@ -92,7 +90,6 @@ NEW = Tag(slug='new', title='недавно добавленные', text='нь�
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
 kids_finder = finder(r'\b(семьи|семей|детск|[0-9]+\+)')
 
-SAILING = Tag(slug='sailing', title='на яхте', text='⛵')
 TYPES: Dict[Tag, Callable[[str], bool]] = {
     Tag(slug='rafting', title='сплав', text='🛶'): finder(
         r'\b(сплав|водн|байдар)'
@@ -100,22 +97,18 @@ TYPES: Dict[Tag, Callable[[str], bool]] = {
     Tag(slug='bicycle', title='велопоход', text='🚴'): finder(
         r'\b(велопоход|велосипед)'
     ),
-    SAILING: finder(r'\b(яхт|парус)'),
-    Tag(slug='hiking', title='пеший поход', text='🥾'): lambda _: True,
 }
 
 
 SHORT = Tag(slug='short', text='пвд')
 LONG = Tag(slug='long', text='долгие')
-
-TEAMTRIP = Tag(slug=Vendor.TEAMTRIP, text='team trip')
 VENDOR_TAGS = [
     Tag(slug=Vendor.PIK, text='пик'),
     Tag(slug=Vendor.ORANGEKED, text='оранжевый кед'),
     Tag(slug=Vendor.CITYESCAPE, text='cityescape'),
     Tag(slug=Vendor.ZOVGOR, text='зов гор'),
     Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
-    TEAMTRIP,
+    Tag(slug=Vendor.TEAMTRIP, text='team trip'),
     Tag(slug=Vendor.POHODTUT, text='pohodtut'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
@@ -169,14 +162,10 @@ def get_tags(src: dict):
     if src['new']:
         yield NEW
 
-    if vendor is TEAMTRIP:
-        # All teamtrip trips are mostly sailing
-        yield SAILING
-    else:
-        for tag, find in TYPES.items():
-            if find(src['norm']):
-                yield tag
-                break
+    for tag, find in TYPES.items():
+        if find(src['norm']):
+            yield tag
+            break
 
     # fixme: kids tag duck style
     level = src['level']
