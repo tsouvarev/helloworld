@@ -9,7 +9,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://uhike.ru/icon.svg">
     <meta property="og:url" content="https://uhike.ru/">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="icon.svg" sizes="any" type="image/svg+xml">
     <link rel="apple-touch-icon" sizes="180x180" href="/favs/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favs/favicon-32x32.png">
@@ -55,76 +55,11 @@
 <body>
 <div id="blocker"><div class="before">загружаюсь…</div></div>
 <div id="app">
-    <div class="aside-toggle display-none" v-on:click="toggleMenu">⚙&#xFE0E;<span class="aside-toggle__title">фильтры</span></div>
-    <aside class="aside" :class="{'aside--mobile': menu.mobile}">
-        <div class="aside__content">
-            <div class="esc" v-on:click="toggleMenu">←&nbsp;Назад</div>
-            <h1 class="title">
-                <img src="./icon.svg" alt="uhike.ru" class="title__icon"> uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
-            </h1>
-            <div class="tags">
-                <div class="tags__offset">
-                    <template v-for="group in tags">
-                        <div v-if="group.title" class="tags__title">{{ group.title }}</div>
-                        <label
-                            v-for="tag in group.tags"
-                            :for="tag.slug"
-                            :class="[{active: tag.active}, 'tags__tag', group.slug, tag.slug]"
-                            :title="tag.title || tag.text"
-                        >
-                            <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags">
-                            <div class="tags__tag__inner" v-html="tag.text"></div>
-                        </label>
-                    </template>
-                </div>
-            </div>
-            <div class="search">
-                <input class="search__input" type="search" placeholder="поиск" v-model="applySearch">
-            </div>
-        </div>
-        <div class="aside__footer">
-            <a target="_blank" href="https://github.com/tsouvarev/helloworld">Github</a>
-        </div>
-    </aside>
-    <article class="gant">
-        <div class="gant__months">
-            <div :class="`gant__month days--w${month.days.length}`" v-for="month in months">
-                <div class="gant__month__name" v-html="month.name"></div>
-                <div class="gant__month__days">
-                    <span
-                        class="gant__month__days__day"
-                        :class="{
-                            'gant__month__days__day--is_weekend': day.is_weekend,
-                            'gant__month__days__day--is_today': day.is_today,
-                        }"
-                        v-for="day in month.days"
-                    >{{ day.date.format('DD') }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="gant__events" :style="`width:${width}px;height:${height}px`">
-            <div class="gant__stripes">
-                <div v-for="stripe in stripes"
-                     class="gant__stripe"
-                     :class="{ 'gant__stripe--is_weekend': stripe.is_weekend }"
-                     :style="{ width: stripe.width + 'px'}"
-                ></div>
-            </div>
-            <div
-                v-for="event in eventFilter"
-                v-on:click="showDetail(event.id)"
-                :id="event.id"
-                :class="`gant__event gant__event--${event.vendor}`"
-                :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
-            >
-                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&ndash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
-                <div class="gant__event__title">{{ event.title }}</div>
-            </div>
-        </div>
-    </article>
-        <div class="detail" v-if="detail.event">
+    <div class="detail" :class="{'detail--active': detail.event}" v-if="detail.event">
         <div class="detail__inner" :set="event = detail.event">
-            <div class="esc" v-on:click="hideDetail">←&nbsp;Назад</div>
+            <div class="btn-group">
+                <div class="btn" v-on:click="hideDetail">←&nbsp;Назад</div>
+            </div>
             <h1 class="detail__title">
                 <a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small>
             </h1>
@@ -207,9 +142,80 @@
             </table>
         </div>
     </div>
+    <div class="aside-toggle display-none" v-on:click="toggleMenu">⚙&#xFE0E;<span class="aside-toggle__title">фильтры</span></div>
+    <aside class="aside" :class="{'aside--mobile': menu.mobile}">
+        <div class="aside__content">
+            <div class="btn-group">
+                <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
+                <a class="btn" href="/" title="Очистить">🧹</a>
+            </div>
+            <h1 class="title">
+                <img src="./icon.svg" alt="uhike.ru" class="title__icon"> uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
+            </h1>
+            <div class="tags">
+                <div class="tags__offset">
+                    <template v-for="group in tags">
+                        <div v-if="group.title" class="tags__title">{{ group.title }}</div>
+                        <label
+                            v-for="tag in group.tags"
+                            :for="tag.slug"
+                            :class="[{active: tag.active}, 'tags__tag', group.slug, tag.slug]"
+                            :title="tag.title || tag.text"
+                        >
+                            <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags">
+                            <div class="tags__tag__inner" v-html="tag.text"></div>
+                        </label>
+                    </template>
+                </div>
+            </div>
+            <div class="search">
+                <input class="search__input" type="search" placeholder="поиск" v-model="applySearch">
+            </div>
+        </div>
+        <div class="aside__footer">
+            <a target="_blank" href="https://github.com/tsouvarev/helloworld">Github</a>
+        </div>
+    </aside>
+    <article class="gant">
+        <div class="gant__months">
+            <div class="gant__month" v-for="month in months">
+                <div class="gant__month__name" v-html="month.name"></div>
+                <div class="gant__month__days">
+                    <span
+                        class="gant__month__days__day"
+                        :class="{
+                            'gant__month__days__day--is_weekend': day.is_weekend,
+                            'gant__month__days__day--is_today': day.is_today,
+                        }"
+                        v-for="day in month.days"
+                    >{{ day.date.format('DD') }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="gant__events" :style="`width:${width}px;height:${height}px`">
+            <div class="gant__stripes">
+                <div v-for="stripe in stripes"
+                     class="gant__stripe"
+                     :class="{ 'gant__stripe--is_weekend': stripe.is_weekend }"
+                     :style="{ width: stripe.width + 'px'}"
+                ></div>
+            </div>
+            <div
+                v-for="event in eventFilter"
+                v-on:click="showDetail(event.id)"
+                :id="event.id"
+                :class="`gant__event gant__event--${event.vendor}`"
+                :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
+            >
+                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&ndash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
+                <div class="gant__event__title">{{ event.title }}</div>
+            </div>
+        </div>
+    </article>
 </div>
 </body>
-<link rel="stylesheet" href="./tent.min.css">
+<!--<link rel="stylesheet" href="./tent.min.css">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tent-css/1.4.3/tent.min.css">
 <link rel="stylesheet" href="./index.css">
 <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>

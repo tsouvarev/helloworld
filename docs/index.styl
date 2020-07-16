@@ -25,6 +25,7 @@ body.active
 
 html, body, #app, .gant, .aside, .detail
     height 100%
+    width 100%
 
 
 #app
@@ -41,7 +42,7 @@ html, body, #app, .gant, .aside, .detail
     background white
     z-index 3
 
-    .esc
+    .btn-group
         display none
 
     &__content
@@ -80,18 +81,7 @@ html, body, #app, .gant, .aside, .detail
     user-select none
     position relative
     overflow-x auto
-
-    &__months
-        z-index 2
-        box-shadow 0 5px 15px 0 rgba(0, 0, 0, .1)
-        background-color white
-        position sticky
-        top 0
-        height 44px
-
-        width fit-content
-        white-space nowrap
-        font-size 0
+    color #444
 
     &__events
         min-height calc(100% - 44px)
@@ -108,59 +98,70 @@ html, body, #app, .gant, .aside, .detail
         z-index -1
 
 
-.gant__stripe
-    display table-cell
+    &__stripe
+        display table-cell
 
-    &--is_weekend
-        background #fafafa
+        &--is_weekend
+            background #fafafa
 
-
-.gant__month
-    display inline-block
-    cursor default
-    border-right 1px solid #eee
-    position relative
-    background white
-
-    &:last-child
-        border-right-width 0
-
-    &__name
-        left 0
-        width fit-content
+    &__months
+        z-index 2
+        box-shadow 0 5px 15px 0 rgba(0, 0, 0, .1)
+        background-color white
         position sticky
-        display block
-        line-height 30px
-        height 30px
-        padding 0 10px
-        font-size 14px
+        top 0
+        height 44px
+        display flex
+        flex-flow row nowrap
+        width fit-content
+        min-width 100%
 
-        small
-            color gray
+    &__month
+        cursor default
+        background-image url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN89x8AAuEB74Y0o2cAAAAASUVORK5CYII=')
+        background-repeat repeat-y
+        position relative
 
-    &__days
-        user-select none
-        font-size 9px
-        overflow hidden
-        text-align center
-        color #777
+        &:first-child
+            background-image none
 
-        &__day
-            display inline-block
-            width day
+        &__name
+            left 0
+            width fit-content
+            position sticky
+            display block
+            line-height 30px
+            height 30px
+            padding 0 10px
+            font-size 14px
 
-            &--is_weekend
-                color #F44336
+            small
+                color gray
 
-            &--is_today
-                background-color #DD2C00
-                font-weight bold
-                color white
+        &__days
+            user-select none
+            overflow hidden
+            text-align center
+            color #777
+            font-size 9px
+            width fit-content
+            display flex
+            flex-flow row nowrap
+
+            &__day
+                width day
+
+                &--is_weekend
+                    color #F44336
+
+                &--is_today
+                    background-color #DD2C00
+                    font-weight bold
+                    color white
 
 
 .gant__event
     border-radius 10px
-    color #444 !important
     background-clip padding-box
     border 4px solid transparent
     padding 6px
@@ -270,30 +271,42 @@ input.search__input
             opacity 1 !important
 
 
-.esc
-    font-size 15px
-    cursor pointer
+.btn-group
     margin 30px 0
-    padding 8px 16px 10px
-    border-radius 200px
-    background rgba(0,0,0,.05)
-    width fit-content
-    line-height 1
+    overflow hidden
+
+    .btn + .btn
+        margin-left 20px
+
+    .btn
+        color #444 !important
+        float left
+        font-size 15px
+        cursor pointer
+        padding 8px 16px 10px
+        border-radius 200px
+        background rgba(0,0,0,.05)
+        line-height 1
+
+        &:hover
+            background rgba(0,0,0,.08)
 
 
 .detail
     position fixed
-    width 100%
     left 0
     top 0
     background white
     z-index 5
-    display flex
     overflow scroll
+    display none
+
+    &--active
+        display flex
 
     &__inner
         margin auto
-        padding 0 20px
+        padding 0 30px
         width 800px
 
     .tbl
@@ -366,5 +379,5 @@ input.search__input
             left 0
             width 100%
 
-            .esc
+            .btn-group
                 display block

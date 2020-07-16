@@ -9,8 +9,11 @@ isort
 unify
 pydantic
 typus
-fastapi
 cssselect
 mypy
 pytest
 pytest-cov
+# Just for serve
+fastapi
+uvicorn
+aiofiles

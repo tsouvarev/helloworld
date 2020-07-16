@@ -303,7 +303,7 @@ function getEvents(eventSource, tagGroups) {
 function getMonths(today, firstDate, lastDate, weekendList){
     let monthList = [];
 
-    // Creates months rule
+    // Creates months ruler
     const monthLen = lastDate.clone().startOf('month').diff(firstDate.clone().startOf('month'), 'months');
     for (let i = 0; i <= monthLen; i++) {
         let month = moment(firstDate),
@@ -322,7 +322,7 @@ function getMonths(today, firstDate, lastDate, weekendList){
             days.push({
                 date: d,
                 is_weekend: d.isoWeekday() >= 6 || weekendList.indexOf(d.format(dateFormat)) > -1,
-                is_today: d.format(dateFormat) == today.format(dateFormat),
+                is_today: !today.diff(d),
             });
         }
 
