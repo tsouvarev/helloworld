@@ -103,6 +103,9 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         },
         computed: {
+            hasFilters(){
+                return !!(this.applyTags.length || this.applySearch.length);
+            },
             eventFilter(){
                 let self = this,
                     events = eventList,
@@ -185,6 +188,10 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         },
         methods: {
+            clearFilters: function(){
+                this.applyTags = [];
+                this.applySearch = '';
+            },
             toggleMenu: function(){
                 this.menu.mobile = !this.menu.mobile;
             },

@@ -147,7 +147,7 @@
         <div class="aside__content">
             <div class="btn-group">
                 <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
-                <a class="btn" href="/" title="Очистить">🧹</a>
+                <div class="btn" :class="{'btn--disabled': !hasFilters}" v-on:click="clearFilters" title="Очистить">🧹</div>
             </div>
             <h1 class="title">
                 <img src="./icon.svg" alt="uhike.ru" class="title__icon"> uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
