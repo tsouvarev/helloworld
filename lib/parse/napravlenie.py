@@ -3,16 +3,11 @@ from typing import Iterator
 
 from lxml import html
 
-from ..config import TODAY, Vendor
+from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
 from ..utils import int_or_none, zip_safe
 from ..utils.text import guess_currency
 from . import client
-
-MONTHS = (
-    'января февраля марта апреля мая июня июля августа '
-    'сентября октября ноября декабря'.split()
-)
 
 
 async def parse_napravlenie() -> Iterator[Item]:

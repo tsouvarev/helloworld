@@ -4,15 +4,10 @@ from typing import Iterator, Tuple
 
 from funcy import first, post_processing
 
-from ..config import TODAY, Vendor
+from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
 from ..utils import json_loads
 from . import client
-
-MONTHS = (
-    'января февраля марта апреля мая июня июля августа '
-    'сентября октября ноября декабря'.split()
-)
 
 DATE_RE = re.compile(r'([0-9]+)\s*([а-я]+)')
 ITEMS_RE = re.compile(r'var rendererModel = ({.+?});', re.M)

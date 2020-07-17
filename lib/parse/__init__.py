@@ -11,6 +11,7 @@ from .orangeked import parse_orangeked
 from .perehod import parse_perehod
 from .pik import parse_pik
 from .pohodtut import parse_pohodtut
+from .strannik import parse_strannik
 from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
 
@@ -25,6 +26,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.TEAMTRIP: parse_teamtrip,
     Vendor.POHODTUT: parse_pohodtut,
     Vendor.PEREHOD: parse_perehod,
+    Vendor.STRANNIK: parse_strannik,
 }
 
 

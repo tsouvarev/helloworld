@@ -10,6 +10,7 @@ from typing import Callable, Iterable, Iterator, Optional
 
 import click
 import simplejson
+from cssselect import GenericTranslator
 from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
@@ -123,3 +124,6 @@ async def gather_chunks(size: int, *coros, return_exceptions=False):
 
 def hash_uid(src: str, maxlen: int = 7) -> str:
     return hashlib.sha256(src.encode()).hexdigest()[:maxlen]
+
+
+css = GenericTranslator().css_to_xpath

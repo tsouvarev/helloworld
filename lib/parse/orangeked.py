@@ -5,15 +5,11 @@ from typing import Iterator
 from funcy import compose, first
 from lxml import html
 
-from ..config import TODAY, Level, Vendor
+from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
 from ..utils import gather_chunks, silent
 from . import client
 
-MONTHS = (
-    'января февраля марта апреля мая июня июля августа '
-    'сентября октября ноября декабря'.split()
-)
 parse_dates = compose(
     first, re.compile(r'([0-9]+) (\w*) ?- ([0-9]+) (\w+)').findall,
 )

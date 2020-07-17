@@ -5,15 +5,10 @@ from typing import Iterator
 
 from lxml import html
 
-from lib.config import TODAY, Vendor
-from lib.models import Item
-from lib.parse import client
-from lib.utils import error, mapv, zip_safe
-
-MONTHS = (
-    'января февраля марта апреля мая июня июля августа '
-    'сентября октября ноября декабря'.split()
-)
+from ..config import MONTHS, TODAY, Vendor
+from ..models import Item
+from ..parse import client
+from ..utils import error, mapv, zip_safe
 
 
 async def parse_teamtrip() -> Iterator[Item]:

@@ -20,6 +20,10 @@ NEW_INT = int((TODAY - timedelta(days=2)).timestamp())
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
+MONTHS = (
+    'января февраля марта апреля мая июня июля августа '
+    'сентября октября ноября декабря'.split()
+)
 WEEKENDS = [
     # 2020
     '01.01.2020',
@@ -64,6 +68,7 @@ class Vendor(str, Enum):
     TEAMTRIP = 'teamtrip'
     POHODTUT = 'pohodtut'
     PEREHOD = 'perehod'
+    STRANNIK = 'strannik'
 
 
 class Level(IntEnum):

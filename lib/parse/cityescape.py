@@ -2,21 +2,14 @@ import re
 from datetime import datetime
 from typing import Iterable, Iterator, Optional, Tuple
 
-from cssselect import GenericTranslator
 from funcy import cat, first
 from lxml import html
 
-from ..config import TODAY, Level, Vendor
+from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import gather_chunks, int_or_none
+from ..utils import css, gather_chunks, int_or_none
 from . import client
 
-cssx = GenericTranslator().css_to_xpath
-
-MONTHS = (
-    'января февраля марта апреля мая июня июля августа '
-    'сентября октября ноября декабря'.split()
-)
 MONTHS_JOINED = '|'.join(MONTHS)
 PRICE_RE = re.compile(r'((?=[1-9])[0-9 ]+)\s+(р\.|\$|€)')
 TITLE_RE = re.compile(r'(.+?) ([1-9][0-9 -]+(?:%s).+)$' % MONTHS_JOINED)
@@ -35,7 +28,7 @@ async def parse_cityescape() -> Iterator[Item]:
 
     items = cat(
         x.xpath('a/@href')
-        for x in tree.xpath(cssx('.menu-item-object-post'))
+        for x in tree.xpath(css('.menu-item-object-post'))
         if 'Ожидается' not in x.text_content()
     )
 
