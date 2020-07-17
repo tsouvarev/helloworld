@@ -16,7 +16,7 @@ MONTHS = (
 
 DATE_RE = re.compile(r'([0-9]+)\s*([а-я]+)')
 ITEMS_RE = re.compile(r'var rendererModel = ({.+?});', re.M)
-ITEMS_DATA_RE = re.compile(r'var warmupData = ({.+?});', re.M)
+ITEMS_DATA_RE = re.compile(r'warmupData = ({.+?});', re.M)
 
 
 def parse_items(src: str) -> dict:
