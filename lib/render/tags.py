@@ -40,6 +40,7 @@ class Bit(IntEnum):
     pohodtut = 1 << 27
     bicycle = 1 << 28
     new = 1 << 29
+    perehod = 1 << 30
 
 
 @dataclass
@@ -110,6 +111,7 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
     Tag(slug=Vendor.TEAMTRIP, text='team trip'),
     Tag(slug=Vendor.POHODTUT, text='pohodtut'),
+    Tag(slug=Vendor.PEREHOD, text='переход'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 

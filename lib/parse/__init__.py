@@ -8,6 +8,7 @@ from .cityescape import parse_cityescape
 from .client import Progress
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
+from .perehod import parse_perehod
 from .pik import parse_pik
 from .pohodtut import parse_pohodtut
 from .teamtrip import parse_teamtrip
@@ -23,6 +24,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.NAPRAVLENIE: parse_napravlenie,
     Vendor.TEAMTRIP: parse_teamtrip,
     Vendor.POHODTUT: parse_pohodtut,
+    Vendor.PEREHOD: parse_perehod,
 }
 
 
