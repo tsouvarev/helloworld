@@ -72,7 +72,8 @@
                     <th>🗓</th>
                     <td>
                         {{ formatPeriod(event.start, event.end) }},
-                        {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}
+                        {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}.
+                        <a :href="addToCal(event)" target="_blank">В календарь ↗</a>
                     </td>
                 </tr>
                 <tr v-if="event.level">

@@ -188,6 +188,23 @@ function renderTripper(weekendList, eventSource, tagGroups){
             }
         },
         methods: {
+            addToCal: function(event){
+                let start = event.start.format('YYYYMMDD'),
+                    end = event.end.clone().add(1, 'days').format('YYYYMMDD'),
+                    details = `🔗 <a href="${event.url}">${event.title}</a>`
+                ;
+
+                if (event.price) {
+                    details += `\n🤑 ${event.price}`;
+                }
+
+                return (
+                    `https://calendar.google.com/calendar/r/eventedit?`
+                    + `text=${encodeURIComponent(event.title)}`
+                    + `&dates=${start}/${end}`
+                    + `&details=${encodeURIComponent(details)}`
+                )
+            },
             clearFilters: function(){
                 this.applyTags = [];
                 this.applySearch = '';
