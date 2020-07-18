@@ -1,5 +1,6 @@
 import re
 from datetime import datetime
+from functools import partial
 from typing import Iterator
 
 from lxml import html
@@ -10,6 +11,7 @@ from ..utils import zip_safe
 from . import client
 
 find_dates = re.compile(r'([0-9]+)\.([0-9]+)\.([0-9]+)').findall
+clear_days = partial(re.compile(r'[0-9\s.]+[дняейь\s.]{3,}$').sub, '')
 
 
 async def parse_strannik() -> Iterator[Item]:
@@ -29,9 +31,11 @@ def parse_page(text):
     data = map(tree.xpath, tails)
     for title, href, dates, price in zip_safe(*data):
         start, end = parse_dates(dates)
+        if '5' in clear_days(title):
+            print(repr(title))
         yield Item(
             vendor=Vendor.STRANNIK,
-            title=title,
+            title=clear_days(title),
             url=href,
             price=price,
             start=start,
