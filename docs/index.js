@@ -191,7 +191,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
             addToCal: function(event){
                 let start = event.start.format('YYYYMMDD'),
                     end = event.end.clone().add(1, 'days').format('YYYYMMDD'),
-                    details = `🔗 <a href="${event.url}">${event.title}</a>`
+                    details = `🔗 ${event.url}`
                 ;
 
                 if (event.price) {
