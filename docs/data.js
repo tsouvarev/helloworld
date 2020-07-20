@@ -195,21 +195,6 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
-"end":"26.07.2020",
-"for_kids":0,
-"id":"0313e29",
-"length":null,
-"level":null,
-"norm":"\u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - \u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438 \u0431\u0430\u0448\u0435\u043d",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":1050692,
-"title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
-"url":"https://zovgor.com/pohod_ingushetia.html",
-"vendor":"zovgor"
-},
-{
 "end":"28.07.2020",
 "for_kids":1,
 "id":"9a3f17d",
@@ -223,186 +208,6 @@ const DATA={"weekendList": [
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
 "vendor":"teamtrip"
-},
-{
-"end":"19.07.2020",
-"for_kids":0,
-"id":"3594759",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"price":"5\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":2685405186,
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
-"vendor":"strannik"
-},
-{
-"end":"25.07.2020",
-"for_kids":0,
-"id":"59ddae1",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043f\u0440\u0430",
-"price":"10\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":2752514052,
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-8-dney",
-"vendor":"strannik"
-},
-{
-"end":"19.07.2020",
-"for_kids":0,
-"id":"5648977",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"5\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":2685405186,
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
-"vendor":"strannik"
-},
-{
-"end":"22.07.2020",
-"for_kids":0,
-"id":"ec58479",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u0433\u0440\u0430",
-"price":"8\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":2752514052,
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
-"vendor":"strannik"
-},
-{
-"end":"26.07.2020",
-"for_kids":0,
-"id":"53606e8",
-"length":null,
-"level":null,
-"norm":"\u0433\u043e\u0440\u043d\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0438 \u0432\u043e\u0434\u043e\u043f\u0430\u0434\u044b \u0430\u0440\u0445\u044b\u0437\u0430",
-"price":"15\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"18.07.2020",
-"tags":2685405188,
-"title":"\u0413\u043e\u0440\u043d\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u044b \u0410\u0440\u0445\u044b\u0437\u0430",
-"url":"https://strannik36.ru/gornye-ozera-i-vodopady-arhyza",
-"vendor":"strannik"
-},
-{
-"end":"30.07.2020",
-"for_kids":0,
-"id":"89bbabe",
-"length":70,
-"level":4,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u044e\u0433\u0430 \u0441 \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0430\u0434\u044b\u0440-\u0441\u0443",
-"price":"29\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1052684,
-"title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
-"url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/1660/",
-"vendor":"pik"
-},
-{
-"end":"25.07.2020",
-"for_kids":0,
-"id":"0e6d576",
-"length":65,
-"level":1,
-"norm":"\u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"28\u00a0400\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1049100,
-"title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/1787/",
-"vendor":"pik"
-},
-{
-"end":"24.07.2020",
-"for_kids":0,
-"id":"d2e9951",
-"length":null,
-"level":null,
-"norm":"\u0438\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
-"price":"9\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1050692,
-"title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
-"url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
-"vendor":"zovgor"
-},
-{
-"end":"26.07.2020",
-"for_kids":0,
-"id":"17ba71c",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u0432 \u0435\u0440\u0433\u0430\u043a\u0438",
-"price":"13\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1050692,
-"title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438",
-"url":"https://zovgor.com/pohod_ergaki.html",
-"vendor":"zovgor"
-},
-{
-"end":"30.07.2020",
-"for_kids":0,
-"id":"c9c5c1a",
-"length":null,
-"level":null,
-"norm":"\u0430\u0432\u0442\u043e\u0442\u0443\u0440 \u043f\u043e \u0432\u0443\u043b\u043a\u0430\u043d\u0430\u043c \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
-"price":"70\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1050692,
-"title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u0430\u043c (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
-"url":"https://zovgor.com/puteshestvie-na-kamchatku.html",
-"vendor":"zovgor"
-},
-{
-"end":"24.07.2020",
-"for_kids":0,
-"id":"f841577",
-"length":null,
-"level":null,
-"norm":"\u0442\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
-"price":"7\u00a0400\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1050692,
-"title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
-"url":"https://zovgor.com/canyon.html",
-"vendor":"zovgor"
-},
-{
-"end":"24.07.2020",
-"for_kids":0,
-"id":"524af1f",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u044d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
-"price":"13\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":1050692,
-"title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
-"url":"https://zovgor.com/extreme-pohod-krym.html",
-"vendor":"zovgor"
 },
 {
 "end":"24.07.2020",
@@ -450,51 +255,6 @@ const DATA={"weekendList": [
 "vendor":"teamtrip"
 },
 {
-"end":"25.07.2020",
-"for_kids":0,
-"id":"05a9306",
-"length":null,
-"level":null,
-"norm":"\u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438 \u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e \u0441\u0443\u043d\u0435 \u044e \u043a\u0430\u0440\u0435\u043b\u0438\u044f",
-"price":"10\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":2752514052,
-"title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0421\u0443\u043d\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
-"url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-sune-yu-kareliya7dney",
-"vendor":"strannik"
-},
-{
-"end":"25.07.2020",
-"for_kids":0,
-"id":"b91c0ac",
-"length":null,
-"level":null,
-"norm":"\u0433\u043e\u0440\u043d\u044b\u0439 \u043a\u0440\u044b\u043c \u0438 \u043c\u043e\u0440\u0435",
-"price":"8\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"19.07.2020",
-"tags":2685405188,
-"title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0435",
-"url":"https://strannik36.ru/gornyy-krym-i-more",
-"vendor":"strannik"
-},
-{
-"end":"29.07.2020",
-"for_kids":0,
-"id":"8a6647f",
-"length":100,
-"level":1,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0430\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
-"price":"22\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":"20.07.2020",
-"tags":1049100,
-"title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
-"url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/1820/",
-"vendor":"pik"
-},
-{
 "end":"31.07.2020",
 "for_kids":0,
 "id":"71acb72",
@@ -508,51 +268,6 @@ const DATA={"weekendList": [
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440",
 "url":"https://cityescape.ru/bolshoj-poxod-na-seliger/",
 "vendor":"cityescape"
-},
-{
-"end":"25.07.2020",
-"for_kids":0,
-"id":"a1f1c76",
-"length":null,
-"level":null,
-"norm":"\u0442\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0444\u0438\u0448\u0442",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"20.07.2020",
-"tags":1050692,
-"title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
-"url":"https://zovgor.com/30-fisht.html",
-"vendor":"zovgor"
-},
-{
-"end":"29.07.2020",
-"for_kids":0,
-"id":"5285f45",
-"length":null,
-"level":null,
-"norm":"\u0448\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 \u0430\u043b\u0442\u0430\u0439",
-"price":"19\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"20.07.2020",
-"tags":1050692,
-"title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
-"url":"https://zovgor.com/shavlinskye-ozera.html",
-"vendor":"zovgor"
-},
-{
-"end":"24.07.2020",
-"for_kids":1,
-"id":"23fb440",
-"length":null,
-"level":2,
-"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u043d\u0430 \u043b\u0430\u0434\u043e\u0433\u0435 2020",
-"price":"10\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"20.07.2020",
-"tags":1611662341,
-"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
-"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/detskiy-lager-na-ladoge-2020/",
-"vendor":"perehod"
 },
 {
 "end":"29.07.2020",
@@ -594,7 +309,7 @@ const DATA={"weekendList": [
 "price":"43\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"22.07.2020",
-"tags":1613762564,
+"tags":1076891652,
 "title":"\u0412\u044b\u0441\u043e\u0442\u043d\u044b\u0439 \u0434\u0443\u0431\u043b\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vysotnyy-dubl/",
 "vendor":"perehod"
@@ -609,7 +324,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"22.07.2020",
-"tags":2685405188,
+"tags":2148534276,
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
 "vendor":"strannik"
@@ -624,7 +339,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"22.07.2020",
-"tags":2752514052,
+"tags":2215643140,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
 "vendor":"strannik"
@@ -684,7 +399,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"23.07.2020",
-"tags":2685405188,
+"tags":2148534276,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
 "vendor":"strannik"
@@ -849,7 +564,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1678770690,
+"tags":1141899778,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
 "vendor":"perehod"
@@ -864,7 +579,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1678770690,
+"tags":1141899778,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
 "vendor":"perehod"
@@ -879,7 +594,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":1611662338,
+"tags":1074791426,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/peshiy-pokhod-po-seligeru/",
 "vendor":"perehod"
@@ -894,7 +609,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -909,7 +624,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
 "vendor":"strannik"
@@ -924,7 +639,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-zhizdra-3-dnya",
 "vendor":"strannik"
@@ -939,7 +654,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -954,7 +669,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
 "vendor":"strannik"
@@ -966,7 +681,7 @@ const DATA={"weekendList": [
 "length":8,
 "level":1,
 "norm":"\u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u043c\u0443 \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e level 1 \u0431\u0430\u0437\u0430 \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"price":"1\u00a0950\u00a0\u20bd",
+"price":"2\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
 "tags":1049098,
@@ -1104,7 +819,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1882202116,
+"tags":1345331204,
 "title":"\u041b\u0435\u0442\u043d\u0438\u0439 \u0432\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/letniy-velopokhod-po-krasotam-baykala/",
 "vendor":"perehod"
@@ -1119,7 +834,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1611662340,
+"tags":1074791428,
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
@@ -1134,7 +849,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1678772228,
+"tags":1141901316,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
 "vendor":"perehod"
@@ -1149,7 +864,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1613759492,
+"tags":1076888580,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/pokhod-po-ladozhskim-shkheram/",
 "vendor":"perehod"
@@ -1164,7 +879,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1678770690,
+"tags":1141899778,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
 "vendor":"perehod"
@@ -1179,7 +894,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1678770690,
+"tags":1141899778,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
 "vendor":"perehod"
@@ -1194,7 +909,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":1880097282,
+"tags":1343226370,
 "title":"\u0412\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u0432\u0434\u043e\u043b\u044c \u041e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/velopokhod-vdol-oki/",
 "vendor":"perehod"
@@ -1209,7 +924,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
 "vendor":"strannik"
@@ -1224,7 +939,7 @@ const DATA={"weekendList": [
 "price":"19\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":2687502340,
+"tags":2150631428,
 "title":"\u0418\u0437\u00a0\u0414\u043e\u043c\u0431\u0430\u044f \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://strannik36.ru/iz-dombaya-v-prielbruse",
 "vendor":"strannik"
@@ -1239,7 +954,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.07.2020",
-"tags":2685405186,
+"tags":2148534274,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -1404,7 +1119,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1611661829,
+"tags":1074790917,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u041e\u0437\u0435\u0440\u043e \u041a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-ozero-kardyvach-/",
 "vendor":"perehod"
@@ -1419,7 +1134,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1613759492,
+"tags":1076888580,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u041b\u0430\u0434\u043e\u0433\u0430\u202f\u2014\u2009\u041b\u0430\u0445\u0434\u0435\u043d\u043f\u043e\u0445\u044c\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/pokhod-ladoga-lakhdenpokhya/",
 "vendor":"perehod"
@@ -1434,7 +1149,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1613760516,
+"tags":1076889604,
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
 "vendor":"perehod"
@@ -1449,7 +1164,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1680868356,
+"tags":1143997444,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0430\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-kalga/",
 "vendor":"perehod"
@@ -1464,7 +1179,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":1680869380,
+"tags":1143998468,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
 "vendor":"perehod"
@@ -1479,7 +1194,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"26.07.2020",
-"tags":2754611204,
+"tags":2217740292,
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0428\u0443\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-shue-yu-kareliya7-dney",
 "vendor":"strannik"
@@ -1569,7 +1284,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"27.07.2020",
-"tags":1613759492,
+"tags":1076888580,
 "title":"\u042e\u0436\u043d\u0430\u044f \u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/yuzhnaya-shuya/",
 "vendor":"perehod"
@@ -1599,7 +1314,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"28.07.2020",
-"tags":1613766660,
+"tags":1076895748,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0412\u043e\u0441\u0442\u043e\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-vostoka/",
 "vendor":"perehod"
@@ -1614,7 +1329,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"28.07.2020",
-"tags":2687502340,
+"tags":2150631428,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
 "url":"https://strannik36.ru/pohod-po-nizhney-vorone-7-dney",
 "vendor":"strannik"
@@ -1644,7 +1359,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.07.2020",
-"tags":1611661826,
+"tags":1074790914,
 "title":"\u0423\u0441\u0430\u0434\u044c\u0431\u044b \u0438\u00a0\u043a\u043e\u0447\u0435\u0432\u043d\u0438\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/usadby-i-kochevniki/",
 "vendor":"perehod"
@@ -1657,7 +1372,7 @@ const DATA={"weekendList": [
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441 \u044e\u0433\u0430 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432 \u043e\u0442\u0435\u043b\u0435",
 "price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"30.07.2020",
 "tags":3149836,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
@@ -1719,7 +1434,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"30.07.2020",
-"tags":1613762564,
+"tags":1076891652,
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u042d\u043b\u044c\u0431\u0440\u0443\u0441\u0430 \u0437\u0430\u00a09\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vokrug-elbrusa-za-9-dney-/",
 "vendor":"perehod"
@@ -1734,7 +1449,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"30.07.2020",
-"tags":2687502340,
+"tags":2150631428,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
 "vendor":"strannik"
@@ -1839,7 +1554,7 @@ const DATA={"weekendList": [
 "price":"21\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1613760516,
+"tags":1076889604,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/peshiy-pokhod-po-baykalu/",
 "vendor":"perehod"
@@ -1854,7 +1569,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1680867842,
+"tags":1143996930,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-medvedica/",
 "vendor":"perehod"
@@ -1869,7 +1584,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0850\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1680867842,
+"tags":1143996930,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
 "vendor":"perehod"
@@ -1884,7 +1599,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1680867842,
+"tags":1143996930,
 "title":"\u0412\u043e\u0434\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u0435\u043b\u0438\u0436\u0430\u0440\u043e\u0432\u043a\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/vodnyy-pokhod-na-selizharovku/",
 "vendor":"perehod"
@@ -1899,7 +1614,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":1613759492,
+"tags":1076888580,
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438-\u0442\u0443\u0440 \u043f\u043e\u00a0\u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c \u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u043e\u0433\u043e \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/multi-tur-po-ostrovam-solovetskogo-arkhipelaga/",
 "vendor":"perehod"
@@ -1914,7 +1629,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":2687502338,
+"tags":2150631426,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -1929,7 +1644,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":2754611202,
+"tags":2217740290,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
@@ -1944,7 +1659,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2020",
-"tags":2754611202,
+"tags":2217740290,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
@@ -2016,7 +1731,7 @@ const DATA={"weekendList": [
 "length":10,
 "level":2,
 "norm":"\u043c\u0430\u043b\u044b\u0435 \u0441\u043a\u0430\u043b\u044b \u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
-"price":"2\u00a0900\u00a0\u20bd",
+"price":"3\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
 "tags":2098186,
@@ -2124,7 +1839,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612713988,
+"tags":1075843076,
 "title":"\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441\u202f\u2014\u2009\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/ekspress-voskhozhdenie-na-kazbek-s-severa/",
 "vendor":"perehod"
@@ -2139,7 +1854,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
@@ -2154,7 +1869,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
 "vendor":"perehod"
@@ -2169,7 +1884,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
 "vendor":"perehod"
@@ -2184,7 +1899,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
 "vendor":"perehod"
@@ -2199,7 +1914,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f. \u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u0430\u044f \u0410\u043b\u0430\u043d\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/neizvedannaya-alaniya/",
 "vendor":"perehod"
@@ -2214,7 +1929,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041a\u00a0\u0433\u043e\u0440\u0435 \u0411\u0435\u043b\u0443\u0445\u0430 \u0438\u00a0\u043e\u0437\u0435\u0440\u0443 \u0414\u0430\u0440\u0430\u0448\u043a\u043e\u043b\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/k-gore-belukha-i-ozeru-darashkol/",
 "vendor":"perehod"
@@ -2229,7 +1944,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/konnyy-pokhod-po-altayu/",
 "vendor":"perehod"
@@ -2244,7 +1959,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1612713988,
+"tags":1075843076,
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/k-podnozhiyu-belukhi/",
 "vendor":"perehod"
@@ -2259,7 +1974,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":1881145858,
+"tags":1344274946,
 "title":"\u0412\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0411\u043e\u0440\u043e\u0434\u0438\u043d\u043e",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/velopokhod-v-borodino/",
 "vendor":"perehod"
@@ -2274,7 +1989,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u0418\u0437\u00a0\u0410\u0440\u0445\u044b\u0437\u0430 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0439",
 "url":"https://strannik36.ru/iz-arhyza-v-dombay",
 "vendor":"strannik"
@@ -2289,7 +2004,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2753562628,
+"tags":2216691716,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
 "vendor":"strannik"
@@ -2304,7 +2019,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -2319,7 +2034,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
 "vendor":"strannik"
@@ -2334,7 +2049,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
 "url":"https://strannik36.ru/po-gornomu-krymu-0",
 "vendor":"strannik"
@@ -2349,7 +2064,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2020",
-"tags":2753562628,
+"tags":2216691716,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-4-dnya",
 "vendor":"strannik"
@@ -2377,7 +2092,7 @@ const DATA={"weekendList": [
 "level":5,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a \u0438 \u044d\u043b\u044c\u0431\u0440\u0443\u0441",
 "price":"47\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"02.08.2020",
 "tags":2105356,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
@@ -2392,7 +2107,7 @@ const DATA={"weekendList": [
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a",
 "price":"34\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"02.08.2020",
 "tags":2101260,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
@@ -2422,7 +2137,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "price":"58\u00a0000\u00a0\u20bd",
-"slots":0,
+"slots":null,
 "start":"02.08.2020",
 "tags":2097676,
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
@@ -2544,7 +2259,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -2559,7 +2274,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
 "vendor":"perehod"
@@ -2574,7 +2289,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1679819780,
+"tags":1142948868,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0430\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-kalga/",
 "vendor":"perehod"
@@ -2589,7 +2304,7 @@ const DATA={"weekendList": [
 "price":"1\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1612710402,
+"tags":1075839490,
 "title":"\u041a\u0430\u043d\u044c\u043e\u043d \u0440\u0435\u043a\u0438 \u041b\u0430\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/kanon-reki-lava/",
 "vendor":"perehod"
@@ -2604,7 +2319,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
 "vendor":"perehod"
@@ -2619,7 +2334,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
 "vendor":"perehod"
@@ -2739,7 +2454,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1612710917,
+"tags":1075840005,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/detskiy-lager-na-ladoge-2020/",
 "vendor":"perehod"
@@ -2754,7 +2469,7 @@ const DATA={"weekendList": [
 "price":"66\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1612718084,
+"tags":1075847172,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u041a\u043b\u044e\u0447\u0435\u0432\u0441\u043a\u0430\u044f \u0441\u043e\u043f\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kamchatka/vosxozhdenie-na-vulkan-klyuchevskaya-sopka/",
 "vendor":"perehod"
@@ -2769,7 +2484,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u0412\u0438\u043d\u0447\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-vincha/",
 "vendor":"perehod"
@@ -2784,7 +2499,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
 "vendor":"perehod"
@@ -2799,7 +2514,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"03.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
 "vendor":"strannik"
@@ -2844,7 +2559,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"04.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/multinskie-ozyera/",
 "vendor":"perehod"
@@ -2904,7 +2619,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041f\u0435\u0440\u0435\u0432\u0430\u043b \u0414\u044f\u0442\u043b\u043e\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pereval-dyatlova/",
 "vendor":"perehod"
@@ -2919,7 +2634,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.08.2020",
-"tags":1612713988,
+"tags":1075843076,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/voskhozhdenie-na-kazbek/",
 "vendor":"perehod"
@@ -2934,7 +2649,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.08.2020",
-"tags":2753562628,
+"tags":2216691716,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
 "vendor":"strannik"
@@ -3009,7 +2724,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"06.08.2020",
-"tags":1612710915,
+"tags":1075840003,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/detskiy-lager-na-ladoge-2020/",
 "vendor":"perehod"
@@ -3024,7 +2739,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"06.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0411\u0438\u0442\u044e\u0433\u0443 \u0438\u00a0\u0414\u043e\u043d\u0441\u043a\u043e\u043c\u0443 \u0411\u0435\u043b\u043e\u0433\u043e\u0440\u044c\u044e",
 "url":"https://strannik36.ru/pohod-po-bityugu-i-donskomu-belogoryu-7-dney",
 "vendor":"strannik"
@@ -3084,7 +2799,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1612710914,
+"tags":1075840002,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/peshiy-pokhod-po-seligeru/",
 "vendor":"perehod"
@@ -3099,7 +2814,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
 "vendor":"perehod"
@@ -3114,7 +2829,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0550\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1679819778,
+"tags":1142948866,
 "title":"\u041f\u043e\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/po-ladoge-na-baydarkakh/",
 "vendor":"perehod"
@@ -3129,7 +2844,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
 "vendor":"perehod"
@@ -3144,7 +2859,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
 "vendor":"perehod"
@@ -3159,7 +2874,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u0438\u00a0\u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/severnaya-osetiya-i-digorskoe-ushchele/",
 "vendor":"perehod"
@@ -3174,7 +2889,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
 "vendor":"strannik"
@@ -3189,7 +2904,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
 "vendor":"strannik"
@@ -3204,7 +2919,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -3219,7 +2934,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -3300,21 +3015,6 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
-"end":"16.08.2020",
-"for_kids":0,
-"id":"35c4a8a",
-"length":null,
-"level":null,
-"norm":"\u0432\u0434\u043e\u043b\u044c \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0433\u043e \u0431\u0435\u0440\u0435\u0433\u0430 \u0431\u0430\u0439\u043a\u0430\u043b\u0430",
-"price":"18\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":"08.08.2020",
-"tags":2099268,
-"title":"\u0412\u0434\u043e\u043b\u044c \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0433\u043e \u0431\u0435\u0440\u0435\u0433\u0430 \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
-"url":"https://zovgor.com/pohod-na-baikal.html",
-"vendor":"zovgor"
-},
-{
 "end":"13.08.2020",
 "for_kids":0,
 "id":"f841577",
@@ -3369,7 +3069,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0420\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0433\u043e\u0440\u043d\u043e\u0433\u043e \u041a\u0440\u044b\u043c\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/raznoobrazie-gornogo-kryma/",
 "vendor":"perehod"
@@ -3384,7 +3084,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041a\u0440\u044b\u043c \u0432\u00a0\u043d\u043e\u0432\u043e\u043c \u0441\u0432\u0435\u0442\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-v-novom-svete/",
 "vendor":"perehod"
@@ -3399,7 +3099,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/ugra-splav/",
 "vendor":"perehod"
@@ -3414,7 +3114,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
@@ -3429,7 +3129,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
 "vendor":"perehod"
@@ -3444,7 +3144,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0480\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
 "vendor":"perehod"
@@ -3459,7 +3159,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
 "vendor":"perehod"
@@ -3474,7 +3174,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-hopru-7-dney",
 "vendor":"strannik"
@@ -3489,7 +3189,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"08.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -3615,21 +3315,6 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"end":"14.08.2020",
-"for_kids":0,
-"id":"691d989",
-"length":null,
-"level":null,
-"norm":"\u0441\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430 \u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438 \u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438 \u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
-"price":null,
-"slots":null,
-"start":"09.08.2020",
-"tags":2099460,
-"title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
-"url":"https://team-trip.ru/belugas",
-"vendor":"teamtrip"
-},
-{
 "end":"20.08.2020",
 "for_kids":1,
 "id":"9a3f17d",
@@ -3669,7 +3354,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/avtomobilnyy-tur-po-prielbrusyu/",
 "vendor":"perehod"
@@ -3684,7 +3369,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
 "vendor":"perehod"
@@ -3699,7 +3384,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
 "vendor":"perehod"
@@ -3714,7 +3399,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612713988,
+"tags":1075843076,
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
 "vendor":"perehod"
@@ -3729,7 +3414,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612710917,
+"tags":1075840005,
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-imeretinskie-ozera/",
 "vendor":"perehod"
@@ -3744,7 +3429,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
 "vendor":"perehod"
@@ -3759,7 +3444,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1679819780,
+"tags":1142948868,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0430\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-kalga/",
 "vendor":"perehod"
@@ -3774,7 +3459,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
 "vendor":"perehod"
@@ -3789,7 +3474,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":2753562628,
+"tags":2216691716,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-8-dney",
 "vendor":"strannik"
@@ -3804,7 +3489,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
@@ -3819,7 +3504,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"09.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://strannik36.ru/cherez-gory-k-moryu",
 "vendor":"strannik"
@@ -3984,7 +3669,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041f\u043e\u00a0\u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c \u0411\u0435\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-ostrovam-belogo-morya/",
 "vendor":"perehod"
@@ -3999,7 +3684,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041f\u043e\u00a0\u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c \u0411\u0435\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-ostrovam-belogo-morya/",
 "vendor":"perehod"
@@ -4014,7 +3699,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u042e\u0436\u043d\u0430\u044f \u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/yuzhnaya-shuya/",
 "vendor":"perehod"
@@ -4029,7 +3714,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"10.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430\u202f\u2014\u2009\u043e\u0437\u0435\u0440\u043e \u0420\u0438\u0446\u0430. \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/arabika-ozero-ritsa-abkhaziya-/",
 "vendor":"perehod"
@@ -4119,7 +3804,7 @@ const DATA={"weekendList": [
 "price":"31\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2020",
-"tags":1612718084,
+"tags":1075847172,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u042e\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-yuga/",
 "vendor":"perehod"
@@ -4134,7 +3819,7 @@ const DATA={"weekendList": [
 "price":"44\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2020",
-"tags":1612718084,
+"tags":1075847172,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u043f\u043e\u00a0\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0443 \u041a\u0440\u0435\u0441\u0442",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-po-marshrutu-krest/",
 "vendor":"perehod"
@@ -4149,7 +3834,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"12.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0420\u044b\u0431\u0430\u0447\u0438\u0439",
 "url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/pokhod-na-poluostrov-rybachiy/",
 "vendor":"perehod"
@@ -4179,7 +3864,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"13.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
 "vendor":"perehod"
@@ -4194,7 +3879,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"13.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
 "vendor":"strannik"
@@ -4299,7 +3984,7 @@ const DATA={"weekendList": [
 "price":"3\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1612710914,
+"tags":1075840002,
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/peshiy-pokhod-po-seligeru/",
 "vendor":"perehod"
@@ -4314,7 +3999,7 @@ const DATA={"weekendList": [
 "price":"57\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u0438",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/evropa/islandiya/vokrug-islandii/",
 "vendor":"perehod"
@@ -4329,7 +4014,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-medvedica/",
 "vendor":"perehod"
@@ -4344,7 +4029,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0850\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
 "vendor":"perehod"
@@ -4359,7 +4044,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/treking-v-bezengi/",
 "vendor":"perehod"
@@ -4374,7 +4059,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":1612718084,
+"tags":1075847172,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0421\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vosxozhdenie-s-severa/",
 "vendor":"perehod"
@@ -4389,7 +4074,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":2753562626,
+"tags":2216691714,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
@@ -4404,7 +4089,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":2753562626,
+"tags":2216691714,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
@@ -4419,7 +4104,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -4584,7 +4269,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041a\u0440\u044b\u043c. \u041c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-mesta-sily/",
 "vendor":"perehod"
@@ -4599,7 +4284,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-zhizdra/",
 "vendor":"perehod"
@@ -4614,7 +4299,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
@@ -4629,7 +4314,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
 "vendor":"perehod"
@@ -4644,7 +4329,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
 "vendor":"perehod"
@@ -4659,7 +4344,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
 "vendor":"perehod"
@@ -4674,7 +4359,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -4689,7 +4374,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/po-reke-oskol-6-dney",
 "vendor":"strannik"
@@ -4704,7 +4389,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"15.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
 "vendor":"strannik"
@@ -4929,7 +4614,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u0430\u043d\u043e\u0440\u0430\u043c\u044b \u041a\u0440\u044b\u043c\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/panoramy-kryma/",
 "vendor":"perehod"
@@ -4944,7 +4629,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1610613762,
+"tags":1073742850,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
 "vendor":"perehod"
@@ -4959,7 +4644,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
 "vendor":"perehod"
@@ -4974,7 +4659,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
 "vendor":"perehod"
@@ -4989,7 +4674,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -5004,7 +4689,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041f\u043e\u00a0\u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c \u0411\u0435\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-ostrovam-belogo-morya/",
 "vendor":"perehod"
@@ -5019,7 +4704,7 @@ const DATA={"weekendList": [
 "price":"17\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
 "vendor":"perehod"
@@ -5034,7 +4719,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1679819780,
+"tags":1142948868,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0430\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-kalga/",
 "vendor":"perehod"
@@ -5049,7 +4734,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1679820804,
+"tags":1142949892,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
 "vendor":"perehod"
@@ -5064,7 +4749,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437. \u041e\u0437\u0435\u0440\u043e \u041a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-ozero-kardyvach/",
 "vendor":"perehod"
@@ -5079,7 +4764,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
 "vendor":"strannik"
@@ -5094,7 +4779,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u0413\u0440\u0443\u0437\u0438\u044f. \u0414\u0432\u0435 \u0441\u0442\u043e\u043b\u0438\u0446\u044b, \u0433\u043e\u0440\u044b \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://strannik36.ru/gruziya-dve-stolicy-gory-i-more-0",
 "vendor":"strannik"
@@ -5109,7 +4794,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"16.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
@@ -5244,7 +4929,7 @@ const DATA={"weekendList": [
 "price":"34\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u00ab\u0427\u0435\u0434\u044b\u043c\u00bb \u0441\u00a0\u0437\u0430\u0431\u0440\u043e\u0441\u043a\u043e\u0439 \u0432\u00a0\u0433\u043e\u0440\u044b \u043d\u0430\u00a0\u0432\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u0435 \u041c\u0418-8",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/chedym-s-zabroskoy-v-gory-na-vertolete-mi-8/",
 "vendor":"perehod"
@@ -5259,7 +4944,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612710404,
+"tags":1075839492,
 "title":"\u041f\u0435\u0440\u0435\u0432\u0430\u043b \u0414\u044f\u0442\u043b\u043e\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pereval-dyatlova/",
 "vendor":"perehod"
@@ -5274,7 +4959,7 @@ const DATA={"weekendList": [
 "price":"16\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
 "vendor":"perehod"
@@ -5289,7 +4974,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f. \u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u0430\u044f \u0410\u043b\u0430\u043d\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/neizvedannaya-alaniya/",
 "vendor":"perehod"
@@ -5304,7 +4989,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/pokhod-k-shavlinskim-ozeram/",
 "vendor":"perehod"
@@ -5319,7 +5004,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"17.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kamchatka/prirodnyj-park-nalychevo/",
 "vendor":"perehod"
@@ -5415,6 +5100,21 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"end":"26.08.2020",
+"for_kids":0,
+"id":"e62fecc",
+"length":null,
+"level":null,
+"norm":"\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a \u043c\u043e\u0440\u044e",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":"20.08.2020",
+"tags":2099268,
+"title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
+"url":"https://zovgor.com/zapovednik_kavkaz.html",
+"vendor":"zovgor"
+},
+{
 "end":"28.08.2020",
 "for_kids":0,
 "id":"382949c",
@@ -5499,7 +5199,7 @@ const DATA={"weekendList": [
 "price":"25\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"20.08.2020",
-"tags":1616906244,
+"tags":1080035332,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
 "vendor":"perehod"
@@ -5604,7 +5304,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
 "vendor":"perehod"
@@ -5619,7 +5319,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
 "vendor":"perehod"
@@ -5634,7 +5334,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -5649,7 +5349,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -5664,7 +5364,7 @@ const DATA={"weekendList": [
 "price":"8\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":2686453764,
+"tags":2149582852,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
 "vendor":"strannik"
@@ -5679,7 +5379,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
 "vendor":"strannik"
@@ -5694,7 +5394,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
 "vendor":"strannik"
@@ -5769,7 +5469,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":538968586,
+"tags":2097674,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u043e\u0439 \u043a\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/na-baidarkakh-po-reke-tikhoi-k-ladoge/2052/",
 "vendor":"pik"
@@ -5874,7 +5574,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1612710402,
+"tags":1075839490,
 "title":"\u0423\u0441\u0430\u0434\u044c\u0431\u044b \u0438\u00a0\u043a\u043e\u0447\u0435\u0432\u043d\u0438\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/usadby-i-kochevniki/",
 "vendor":"perehod"
@@ -5889,7 +5589,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/ugra-splav/",
 "vendor":"perehod"
@@ -5904,7 +5604,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1881153540,
+"tags":1344282628,
 "title":"\u041b\u0435\u0442\u043d\u0438\u0439 \u0432\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/letniy-velopokhod-po-krasotam-baykala/",
 "vendor":"perehod"
@@ -5919,7 +5619,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
@@ -5934,7 +5634,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
 "vendor":"perehod"
@@ -5949,7 +5649,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
 "vendor":"perehod"
@@ -5964,7 +5664,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -5979,7 +5679,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0420\u0430\u043c\u043e\u043d\u044c",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-voronezh",
 "vendor":"strannik"
@@ -6129,7 +5829,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1612713988,
+"tags":1075843076,
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
 "vendor":"perehod"
@@ -6144,7 +5844,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1612711940,
+"tags":1075841028,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -6159,7 +5859,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1612710405,
+"tags":1075839493,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043e\u0442\u0434\u044b\u0445 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/semeynyy-otdykh-v-arkhyze/",
 "vendor":"perehod"
@@ -6174,7 +5874,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u0438\u00a0\u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/severnaya-osetiya-i-digorskoe-ushchele/",
 "vendor":"perehod"
@@ -6189,7 +5889,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"23.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
@@ -6264,7 +5964,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"24.08.2020",
-"tags":1612710916,
+"tags":1075840004,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
 "vendor":"perehod"
@@ -6279,7 +5979,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"24.08.2020",
-"tags":1616912388,
+"tags":1080041476,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0412\u043e\u0441\u0442\u043e\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-vostoka/",
 "vendor":"perehod"
@@ -6309,7 +6009,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"27.08.2020",
-"tags":1616908292,
+"tags":1080037380,
 "title":"\u00ab\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0439 \u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a. \u0421\u00a0\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043d\u0430\u00a0\u0424\u0438\u0448\u0442.\u00bb",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkazskiy-zapovednik-s-voskhozhdeniem-na-fisht-/",
 "vendor":"perehod"
@@ -6384,7 +6084,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1616908292,
+"tags":1080037380,
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u042d\u043b\u044c\u0431\u0440\u0443\u0441\u0430 \u0437\u0430\u00a09\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vokrug-elbrusa-za-9-dney-/",
 "vendor":"perehod"
@@ -6399,7 +6099,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-medvedica/",
 "vendor":"perehod"
@@ -6414,7 +6114,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0850\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
 "vendor":"perehod"
@@ -6429,7 +6129,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":2753562626,
+"tags":2216691714,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
@@ -6444,7 +6144,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
 "vendor":"strannik"
@@ -6459,7 +6159,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"28.08.2020",
-"tags":2753562626,
+"tags":2216691714,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
@@ -6534,7 +6234,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-zhizdra/",
 "vendor":"perehod"
@@ -6549,7 +6249,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0480\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
 "vendor":"perehod"
@@ -6564,7 +6264,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1679819266,
+"tags":1142948354,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
 "vendor":"perehod"
@@ -6579,7 +6279,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1616905220,
+"tags":1080034308,
 "title":"\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u0438\u00a0\u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/severnaya-osetiya-i-digorskoe-ushchele/",
 "vendor":"perehod"
@@ -6594,7 +6294,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":1616906244,
+"tags":1080035332,
 "title":"\u041a\u0440\u0430\u0439 \u0417\u0435\u043c\u043b\u0438\u202f\u2014\u2009\u041f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0420\u044b\u0431\u0430\u0447\u0438\u0439",
 "url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/poluostrov-rybachij/",
 "vendor":"perehod"
@@ -6609,7 +6309,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-zolotaya-osen-2-dnya",
 "vendor":"strannik"
@@ -6624,7 +6324,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -6684,7 +6384,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"30.08.2020",
-"tags":1616906244,
+"tags":1080035332,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -6699,7 +6399,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"30.08.2020",
-"tags":2686453762,
+"tags":2149582850,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
@@ -6744,7 +6444,7 @@ const DATA={"weekendList": [
 "price":"78\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"31.08.2020",
-"tags":1616906244,
+"tags":1080035332,
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u0438\u0440 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kamchatka/neizvedannyj-mir-kamchatki/",
 "vendor":"perehod"
@@ -6939,7 +6639,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"03.09.2020",
-"tags":1614811140,
+"tags":1077940228,
 "title":"\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441\u202f\u2014\u2009\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/ekspress-voskhozhdenie-na-kazbek-s-severa/",
 "vendor":"perehod"
@@ -6954,7 +6654,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"03.09.2020",
-"tags":1614815236,
+"tags":1077944324,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0421\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vosxozhdenie-s-severa/",
 "vendor":"perehod"
@@ -6969,7 +6669,7 @@ const DATA={"weekendList": [
 "price":"18\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"03.09.2020",
-"tags":2688550916,
+"tags":2151680004,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0430\u0442\u0443\u043d\u044c. \u0413\u043e\u0440\u043d\u044b\u0439 \u0410\u043b\u0442\u0430\u0439",
 "url":"https://strannik36.ru/pohod-po-reke-katun-gornyy-altay-18-dney",
 "vendor":"strannik"
@@ -7014,7 +6714,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"04.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
 "vendor":"perehod"
@@ -7029,7 +6729,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"04.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
 "vendor":"perehod"
@@ -7044,7 +6744,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"04.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
 "vendor":"strannik"
@@ -7134,7 +6834,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":1614808068,
+"tags":1077937156,
 "title":"\u041b\u0435\u0433\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438*\u0410\u0439-\u041f\u0435\u0442\u0440\u0438*\u042f\u043b\u0442\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/legkiy-krym-demerdzhi-ay-petri-yalta/",
 "vendor":"perehod"
@@ -7149,7 +6849,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
 "vendor":"perehod"
@@ -7164,7 +6864,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
 "vendor":"perehod"
@@ -7179,7 +6879,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -7194,7 +6894,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"05.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-zolotaya-osen-2-dnya",
 "vendor":"strannik"
@@ -7299,7 +6999,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1614811140,
+"tags":1077940228,
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
 "vendor":"perehod"
@@ -7314,7 +7014,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":1614808068,
+"tags":1077937156,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
 "vendor":"perehod"
@@ -7329,7 +7029,7 @@ const DATA={"weekendList": [
 "price":"28\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":2688550916,
+"tags":2151680004,
 "title":"\u0413\u0440\u0443\u0437\u0438\u044f. \u0414\u0432\u0435 \u0441\u0442\u043e\u043b\u0438\u0446\u044b, \u0433\u043e\u0440\u044b \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://strannik36.ru/gruziya-dve-stolicy-gory-i-more-0",
 "vendor":"strannik"
@@ -7344,7 +7044,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
@@ -7359,7 +7059,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"06.09.2020",
-"tags":2688550916,
+"tags":2151680004,
 "title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://strannik36.ru/cherez-gory-k-moryu",
 "vendor":"strannik"
@@ -7423,6 +7123,21 @@ const DATA={"weekendList": [
 "title":"\u0414\u043e\u043b\u044c\u043c\u0435\u043d\u044b \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u041a\u0430\u0432\u043a\u0430\u0437\u0430\u202f\u2014\u2009\u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b. \u041e\u0441\u0435\u043d\u044c",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/dolmeny-severnogo-kavkaza-mesta-sily-osen/",
 "vendor":"napravlenie"
+},
+{
+"end":"14.09.2020",
+"for_kids":0,
+"id":"e62fecc",
+"length":null,
+"level":null,
+"norm":"\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a \u043c\u043e\u0440\u044e",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":"08.09.2020",
+"tags":4196420,
+"title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u043c\u043e\u0440\u044e",
+"url":"https://zovgor.com/zapovednik_kavkaz.html",
+"vendor":"zovgor"
 },
 {
 "end":"17.09.2020",
@@ -7599,7 +7314,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"11.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-medvedica/",
 "vendor":"perehod"
@@ -7614,7 +7329,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0850\u00a0\u20bd",
 "slots":null,
 "start":"11.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
 "vendor":"perehod"
@@ -7629,7 +7344,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.09.2020",
-"tags":2755659778,
+"tags":2218788866,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
@@ -7659,7 +7374,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":541066250,
+"tags":4195338,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u043e\u0439 \u043a\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0433\u0435\u043e\u043a\u0443\u043f\u043e\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/po-reke-tikhoi-k-ladoge-v-geokupole/1896/",
 "vendor":"pik"
@@ -7779,7 +7494,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1614811140,
+"tags":1077940228,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/voskhozhdenie-na-kazbek/",
 "vendor":"perehod"
@@ -7794,7 +7509,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
 "vendor":"perehod"
@@ -7809,7 +7524,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":1681916418,
+"tags":1145045506,
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
 "vendor":"perehod"
@@ -7824,7 +7539,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-zolotaya-osen-2-dnya",
 "vendor":"strannik"
@@ -7839,7 +7554,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"12.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -7914,7 +7629,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1614808068,
+"tags":1077937156,
 "title":"\u041f\u0430\u043d\u043e\u0440\u0430\u043c\u044b \u041a\u0440\u044b\u043c\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/panoramy-kryma/",
 "vendor":"perehod"
@@ -7929,7 +7644,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1614808068,
+"tags":1077937156,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
 "vendor":"perehod"
@@ -7944,7 +7659,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1614807556,
+"tags":1077936644,
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
 "vendor":"perehod"
@@ -7959,7 +7674,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -7974,7 +7689,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"13.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
@@ -8019,7 +7734,7 @@ const DATA={"weekendList": [
 "price":"34\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"14.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u00ab\u0427\u0435\u0434\u044b\u043c\u00bb \u0441\u00a0\u0437\u0430\u0431\u0440\u043e\u0441\u043a\u043e\u0439 \u0432\u00a0\u0433\u043e\u0440\u044b \u043d\u0430\u00a0\u0432\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u0435 \u041c\u0418-8",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/chedym-s-zabroskoy-v-gory-na-vertolete-mi-8/",
 "vendor":"perehod"
@@ -8034,7 +7749,7 @@ const DATA={"weekendList": [
 "price":"33\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"14.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kamchatka/prirodnyj-park-nalychevo/",
 "vendor":"perehod"
@@ -8049,7 +7764,7 @@ const DATA={"weekendList": [
 "price":"36\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"14.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/komfort-tur-na-elbrus/",
 "vendor":"perehod"
@@ -8064,10 +7779,25 @@ const DATA={"weekendList": [
 "price":"25\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"14.09.2020",
-"tags":1614811140,
+"tags":1077940228,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u042e\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/gruziya/voskhozhdenie-na-kazbek-s-yuga/",
 "vendor":"perehod"
+},
+{
+"end":"20.09.2020",
+"for_kids":0,
+"id":"d2e9951",
+"length":null,
+"level":null,
+"norm":"\u0438\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"price":"9\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":"15.09.2020",
+"tags":4196420,
+"title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
+"vendor":"zovgor"
 },
 {
 "end":"23.09.2020",
@@ -8124,7 +7854,7 @@ const DATA={"weekendList": [
 "price":"12\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u0426\u0432\u0435\u0442\u043d\u044b\u0435 \u0432\u043e\u0434\u044b \u0422\u0435\u0431\u0435\u0440\u0434\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/cvetnye-vody-teberdy/",
 "vendor":"perehod"
@@ -8139,7 +7869,7 @@ const DATA={"weekendList": [
 "price":"21\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"15.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438: \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0440\u0430\u0433\u0430\u0446",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/armeniya/pokhod-po-armenii-voskhozhdenie-na-aragats/",
 "vendor":"perehod"
@@ -8154,7 +7884,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"15.09.2020",
-"tags":1614809092,
+"tags":1077938180,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043a\u0440\u0430\u0439 \u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/gruziya/svanetiya/",
 "vendor":"perehod"
@@ -8259,7 +7989,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"18.09.2020",
-"tags":2755659778,
+"tags":2218788866,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
@@ -8364,7 +8094,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"19.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-zolotaya-osen-2-dnya",
 "vendor":"strannik"
@@ -8439,7 +8169,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"20.09.2020",
-"tags":1614811140,
+"tags":1077940228,
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
 "vendor":"perehod"
@@ -8454,7 +8184,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"20.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
@@ -8544,7 +8274,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"24.09.2020",
-"tags":2688550916,
+"tags":2151680004,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0433\u043e\u0440\u0443 \u0424\u0438\u0448\u0442. 2867\u00a0\u043c",
 "url":"https://strannik36.ru/voshozhdenie-na-goru-fisht-2867m",
 "vendor":"strannik"
@@ -8559,7 +8289,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"25.09.2020",
-"tags":541066250,
+"tags":4195338,
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u043e\u0439 \u043a\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0433\u0435\u043e\u043a\u0443\u043f\u043e\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/po-reke-tikhoi-k-ladoge-v-geokupole/2161/",
 "vendor":"pik"
@@ -8664,7 +8394,7 @@ const DATA={"weekendList": [
 "price":"5\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
@@ -8724,7 +8454,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1623196676,
+"tags":1086325764,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
 "vendor":"perehod"
@@ -8739,7 +8469,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1623196164,
+"tags":1086325252,
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
 "vendor":"perehod"
@@ -8754,7 +8484,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1623196676,
+"tags":1086325764,
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
 "vendor":"perehod"
@@ -8769,7 +8499,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":1623197700,
+"tags":1086326788,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -8784,7 +8514,7 @@ const DATA={"weekendList": [
 "price":"2\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2020",
-"tags":2688550914,
+"tags":2151680002,
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
@@ -8829,7 +8559,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"28.09.2020",
-"tags":1623196676,
+"tags":1086325764,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
 "vendor":"perehod"
@@ -9009,7 +8739,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"04.10.2020",
-"tags":1619002372,
+"tags":1082131460,
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437. \u041e\u0437\u0435\u0440\u043e \u041a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-ozero-kardyvach/",
 "vendor":"perehod"
@@ -9024,7 +8754,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.10.2020",
-"tags":1619001861,
+"tags":1082130949,
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043e\u0442\u0434\u044b\u0445 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/semeynyy-otdykh-v-arkhyze/",
 "vendor":"perehod"
@@ -9039,7 +8769,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"05.10.2020",
-"tags":1619003396,
+"tags":1082132484,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0432\u0435\u043b\u043e\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/bolshoe-veloputeshestvie-po-krymu/",
 "vendor":"perehod"
@@ -9054,7 +8784,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.10.2020",
-"tags":2692745220,
+"tags":2155874308,
 "title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041a\u0430\u0432\u043a\u0430\u0437",
 "url":"https://strannik36.ru/osenniy-kavkaz",
 "vendor":"strannik"
@@ -9159,7 +8889,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"11.10.2020",
-"tags":1619002372,
+"tags":1082131460,
 "title":"\u041f\u0430\u043d\u043e\u0440\u0430\u043c\u044b \u041a\u0440\u044b\u043c\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/panoramy-kryma/",
 "vendor":"perehod"
@@ -9174,7 +8904,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.10.2020",
-"tags":1619002372,
+"tags":1082131460,
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
 "vendor":"perehod"
@@ -9189,7 +8919,7 @@ const DATA={"weekendList": [
 "price":"11\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"11.10.2020",
-"tags":1619003396,
+"tags":1082132484,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -9204,7 +8934,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"11.10.2020",
-"tags":2692745220,
+"tags":2155874308,
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430 \u0434\u0440\u0435\u0432\u043d\u0435\u0439 \u0422\u0430\u0432\u0440\u0438\u0434\u044b",
 "url":"https://strannik36.ru/peshchernye-goroda-drevney-tavridy",
 "vendor":"strannik"
@@ -9234,7 +8964,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"12.10.2020",
-"tags":1619003396,
+"tags":1082132484,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043a\u0440\u0430\u0439 \u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/gruziya/svanetiya/",
 "vendor":"perehod"
@@ -9264,7 +8994,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"13.10.2020",
-"tags":1619002372,
+"tags":1082131460,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
 "vendor":"perehod"
@@ -9414,7 +9144,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"18.10.2020",
-"tags":1619002372,
+"tags":1082131460,
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/kodorskoe-ushchele/",
 "vendor":"perehod"
@@ -9474,7 +9204,7 @@ const DATA={"weekendList": [
 "price":"7\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"22.10.2020",
-"tags":1619003396,
+"tags":1082132484,
 "title":"\u041a\u0440\u044b\u043c \u0432\u00a0\u043d\u043e\u0432\u043e\u043c \u0441\u0432\u0435\u0442\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-v-novom-svete/",
 "vendor":"perehod"
@@ -9564,7 +9294,7 @@ const DATA={"weekendList": [
 "price":"9\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"25.10.2020",
-"tags":1619001860,
+"tags":1082130948,
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/pokhod-po-goram-severnoy-osetii-/",
 "vendor":"perehod"
@@ -9579,7 +9309,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"25.10.2020",
-"tags":1619003396,
+"tags":1082132484,
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
 "vendor":"perehod"
@@ -9744,7 +9474,7 @@ const DATA={"weekendList": [
 "price":"10\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"01.11.2020",
-"tags":1627390980,
+"tags":1090520068,
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/kodorskoe-ushchele/",
 "vendor":"perehod"
@@ -9759,7 +9489,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.11.2020",
-"tags":2701133828,
+"tags":2164262916,
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
 "url":"https://strannik36.ru/gornyy-krym-i-sevastopol",
 "vendor":"strannik"
@@ -9789,7 +9519,7 @@ const DATA={"weekendList": [
 "price":"15\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.11.2020",
-"tags":2701133828,
+"tags":2164262916,
 "title":"\u041c\u0435\u0437\u043c\u0430\u0439. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/mezmay-zolotaya-osen",
 "vendor":"strannik"
@@ -9819,7 +9549,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"03.11.2020",
-"tags":1627390980,
+"tags":1090520068,
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
 "vendor":"perehod"
@@ -10344,7 +10074,7 @@ const DATA={"weekendList": [
 "price":"26\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"30.12.2020",
-"tags":2717927428,
+"tags":2181056516,
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0413\u043e\u0440\u043d\u043e\u0433\u043e \u041a\u0440\u044b\u043c\u0430",
 "url":"https://strannik36.ru/zimnyaya-skazka-gornogo-kryma-9-dney",
 "vendor":"strannik"
@@ -10449,7 +10179,7 @@ const DATA={"weekendList": [
 "price":"24\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.01.2021",
-"tags":2684372996,
+"tags":2147502084,
 "title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://strannik36.ru/rozhdestvo-v-krymu-9-dney",
 "vendor":"strannik"
@@ -10464,7 +10194,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
 "vendor":"strannik"
@@ -10494,7 +10224,7 @@ const DATA={"weekendList": [
 "price":"14\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"03.01.2021",
-"tags":2684372996,
+"tags":2147502084,
 "title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
 "url":"https://strannik36.ru/rozhdestvo-v-mezmae",
 "vendor":"strannik"
@@ -10524,7 +10254,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"05.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
 "vendor":"strannik"
@@ -10569,7 +10299,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"08.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435. \u0417\u0438\u043c\u043d\u0438\u0435 \u0437\u0430\u0431\u0430\u0432\u044b",
 "url":"https://strannik36.ru/divnogore-zimnie-zabavy",
 "vendor":"strannik"
@@ -10599,7 +10329,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"16.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
 "vendor":"strannik"
@@ -10614,7 +10344,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"22.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
 "vendor":"strannik"
@@ -10629,7 +10359,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"30.01.2021",
-"tags":2684372994,
+"tags":2147502082,
 "title":"\u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435. \u0417\u0438\u043c\u043d\u0438\u0435 \u0437\u0430\u0431\u0430\u0432\u044b",
 "url":"https://strannik36.ru/divnogore-zimnie-zabavy",
 "vendor":"strannik"
@@ -10644,7 +10374,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.02.2021",
-"tags":2684389378,
+"tags":2147518466,
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
 "vendor":"strannik"
@@ -10704,7 +10434,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"13.02.2021",
-"tags":2684389378,
+"tags":2147518466,
 "title":"\u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435. \u0417\u0438\u043c\u043d\u0438\u0435 \u0437\u0430\u0431\u0430\u0432\u044b",
 "url":"https://strannik36.ru/divnogore-zimnie-zabavy",
 "vendor":"strannik"
@@ -10749,7 +10479,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"19.02.2021",
-"tags":2684389380,
+"tags":2147518468,
 "title":"\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430",
 "url":"https://strannik36.ru/kenozerskaya-tropa-10-dney-0",
 "vendor":"strannik"
@@ -10794,7 +10524,7 @@ const DATA={"weekendList": [
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.02.2021",
-"tags":2684389378,
+"tags":2147518466,
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
 "vendor":"strannik"
@@ -10824,7 +10554,7 @@ const DATA={"weekendList": [
 "price":"23\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.02.2021",
-"tags":2684356610,
+"tags":2147485698,
 "title":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0441\u0435\u0432\u0435\u0440. \u041f\u0440\u043e\u0432\u043e\u0434\u044b \u0437\u0438\u043c\u044b",
 "url":"https://strannik36.ru/russkiy-sever-provody-zimy",
 "vendor":"strannik"
@@ -10884,7 +10614,7 @@ const DATA={"weekendList": [
 "price":"13\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"28.02.2021",
-"tags":2684454916,
+"tags":2147584004,
 "title":"\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u0422\u0430\u0433\u0430\u043d\u0430\u0439",
 "url":"https://strannik36.ru/nacionalnyy-park-taganay",
 "vendor":"strannik"
@@ -10989,7 +10719,7 @@ const DATA={"weekendList": [
 "price":"4\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"06.03.2021",
-"tags":2684422146,
+"tags":2147551234,
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
 "vendor":"strannik"
@@ -11169,7 +10899,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
-"tags":537137164,
+"tags":266252,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2130/",
 "vendor":"pik"
@@ -11289,7 +11019,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"15.05.2021",
-"tags":537137164,
+"tags":266252,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2131/",
 "vendor":"pik"
@@ -11319,7 +11049,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"29.05.2021",
-"tags":537661452,
+"tags":790540,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2138/",
 "vendor":"pik"
@@ -11364,7 +11094,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"05.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442)",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-ekonom/2155/",
 "vendor":"pik"
@@ -11379,7 +11109,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"09.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2147/",
 "vendor":"pik"
@@ -11424,7 +11154,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"12.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2132/",
 "vendor":"pik"
@@ -11454,7 +11184,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"17.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u043e\u0437\u0435\u0440\u0430 \u0421\u044b\u043b\u0442\u0440\u0430\u043d-\u043a\u0451\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-ozerom-syltran-kyol/2144/",
 "vendor":"pik"
@@ -11484,7 +11214,7 @@ const DATA={"weekendList": [
 "price":"22\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"23.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442)",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-ekonom/2156/",
 "vendor":"pik"
@@ -11499,7 +11229,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"26.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2139/",
 "vendor":"pik"
@@ -11544,7 +11274,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"30.06.2021",
-"tags":537399308,
+"tags":528396,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2148/",
 "vendor":"pik"
@@ -11604,7 +11334,7 @@ const DATA={"weekendList": [
 "price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"04.07.2021",
-"tags":536879116,
+"tags":8204,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-i-elbrus/2159/",
 "vendor":"pik"
@@ -11619,7 +11349,7 @@ const DATA={"weekendList": [
 "price":"34\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"04.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-s-yuga/2160/",
 "vendor":"pik"
@@ -11649,7 +11379,7 @@ const DATA={"weekendList": [
 "price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"08.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u043e\u0437\u0435\u0440\u0430 \u0421\u044b\u043b\u0442\u0440\u0430\u043d-\u043a\u0451\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-ozerom-syltran-kyol/2145/",
 "vendor":"pik"
@@ -11664,7 +11394,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"10.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2133/",
 "vendor":"pik"
@@ -11679,7 +11409,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"10.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2140/",
 "vendor":"pik"
@@ -11694,7 +11424,7 @@ const DATA={"weekendList": [
 "price":"79\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"10.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 Elite",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-yuga-luxury/2146/",
 "vendor":"pik"
@@ -11739,7 +11469,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"14.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2149/",
 "vendor":"pik"
@@ -11754,7 +11484,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"17.07.2021",
-"tags":536879116,
+"tags":8204,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-severa/2158/",
 "vendor":"pik"
@@ -11784,7 +11514,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"24.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2141/",
 "vendor":"pik"
@@ -11829,7 +11559,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"28.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2150/",
 "vendor":"pik"
@@ -11844,7 +11574,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"31.07.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2134/",
 "vendor":"pik"
@@ -11919,7 +11649,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"04.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2151/",
 "vendor":"pik"
@@ -11949,7 +11679,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"07.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2142/",
 "vendor":"pik"
@@ -12024,7 +11754,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"11.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2152/",
 "vendor":"pik"
@@ -12039,7 +11769,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2021",
-"tags":536879116,
+"tags":8204,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-severa/2157/",
 "vendor":"pik"
@@ -12129,7 +11859,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"18.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2153/",
 "vendor":"pik"
@@ -12159,7 +11889,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2135/",
 "vendor":"pik"
@@ -12174,7 +11904,7 @@ const DATA={"weekendList": [
 "price":"35\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"21.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/2143/",
 "vendor":"pik"
@@ -12219,7 +11949,7 @@ const DATA={"weekendList": [
 "price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"25.08.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/2154/",
 "vendor":"pik"
@@ -12249,7 +11979,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"04.09.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2136/",
 "vendor":"pik"
@@ -12339,7 +12069,7 @@ const DATA={"weekendList": [
 "price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"18.09.2021",
-"tags":536875020,
+"tags":4108,
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/2137/",
 "vendor":"pik"
