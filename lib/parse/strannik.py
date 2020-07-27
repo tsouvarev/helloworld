@@ -31,8 +31,6 @@ def parse_page(text):
     data = map(tree.xpath, tails)
     for title, href, dates, price in zip_safe(*data):
         start, end = parse_dates(dates)
-        if '5' in clear_days(title):
-            print(repr(title))
         yield Item(
             vendor=Vendor.STRANNIK,
             title=clear_days(title),
