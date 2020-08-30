@@ -22,12 +22,12 @@ def parse_page(text):
     tails = (
         'td[1]',
         'td[1]/a[1]/@href',
-        'td[2]/text()',
+        'td[2][descendant-or-self::text()]',
         'td[4]/text()',
     )
     data = (tree.xpath(path + t) for t in tails)
     for title, url, date, price in zip_safe(*data):
-        start, end = map(parse_dt, date.split('-', 1))
+        start, end = map(parse_dt, ''.join(date.itertext()).split('-', 1))
         yield Item(
             vendor=Vendor.ZOVGOR,
             title=title.text_content(),
