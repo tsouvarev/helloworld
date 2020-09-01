@@ -17,6 +17,7 @@ class Item(BaseModel):
     title: str
     start: datetime
     end: datetime
+    for_kids: bool = False
     level: Optional[Level] = None
     price: Optional[str] = None
     length: Optional[int] = None

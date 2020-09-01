@@ -151,11 +151,15 @@
                 <div class="btn" :class="{'btn--disabled': !hasFilters}" v-on:click="clearFilters" title="Очистить">🧹</div>
             </div>
             <h1 class="title">
-                <img src="./icon.svg" alt="uhike.ru" class="title__icon"> uhike <sup class="title__counter">{{ eventFilter.length }}</sup>
+                <a href="/" class="title__link">
+                    <img src="./icon.svg" alt="uhike.ru" class="title__icon">
+                    uhike
+                </a>
+                <sup class="title__counter">{{ eventFilter.length }}</sup>
             </h1>
             <div class="tags">
                 <div class="tags__offset">
-                    <template v-for="group in tags">
+                    <template v-for="(group, index) in tags">
                         <div v-if="group.title" class="tags__title">{{ group.title }}</div>
                         <label
                             v-for="tag in group.tags"
@@ -163,7 +167,7 @@
                             :class="[{active: tag.active}, 'tags__tag', group.slug, tag.slug]"
                             :title="tag.title || tag.text"
                         >
-                            <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags">
+                            <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags[index]">
                             <div class="tags__tag__inner" v-html="tag.text"></div>
                         </label>
                     </template>

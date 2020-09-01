@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import Level, Vendor
 from ..models import Item
-from ..utils import zip_safe
+from ..utils import content, zip_safe
 from . import client
 
 MONTHS = 'янв фев мар апр ма июн июл авг сен окт ноя дек'.split()
@@ -35,7 +35,7 @@ def parse_page(text):
 
     data = map(tree.xpath, tails)
     for title, href, dates, price, complexity in zip_safe(*data):
-        start, end = parse_dates(''.join(dates.itertext()))
+        start, end = parse_dates(content(dates))
         level = len(complexity.xpath('div[contains(@class, "b-active")]')) - 1
         yield Item(
             vendor=Vendor.PEREHOD,

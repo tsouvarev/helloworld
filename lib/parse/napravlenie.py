@@ -5,7 +5,7 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
-from ..utils import int_or_none, zip_safe
+from ..utils import content, int_or_none, zip_safe
 from ..utils.text import guess_currency
 from . import client
 
@@ -24,7 +24,7 @@ def parse_page(text):
     price_nodes = tree.xpath(
         f'{prefix}//*[@class="afoot"]/span[1]/*[@class="textIco price"]'
     )
-    prices = (''.join(n.itertext()).strip() for n in price_nodes)
+    prices = map(content, price_nodes)
     slots = tree.xpath(
         f'{prefix}//*[@class="afoot"]/span[3]/*[@class="textIco"]/text()'
     )

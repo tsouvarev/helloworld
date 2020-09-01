@@ -10,6 +10,7 @@ vendors = {
     pohodtut: #e4f9f8,
     perehod: #f5eee7,
     strannik: #f0f1ff,
+    myway: #eff7e6,
 }
 aside-width = 270px
 
@@ -57,6 +58,9 @@ html, body, #app, .gant, .aside, .detail
             margin 15px 0 !important
             white-space nowrap
             font-size 40px
+
+            &__link
+                color inherit
 
             &__icon
                 height 36px
@@ -225,6 +229,7 @@ html, body, #app, .gant, .aside, .detail
             background lighten(@color, 90%)
             cursor pointer
             font-size 13px
+            line-height 20px
 
             &:hover
                 background lighten(@color, 95%)
@@ -234,8 +239,11 @@ html, body, #app, .gant, .aside, .detail
                 background value
 
         &.new &__inner
+            color white
+            background-color #ff9797
+            font-size 10px
             font-style italic
-            font-variant small-caps
+            font-weight bold
 
         &.months &__inner, &.years &__inner
             text-align center
@@ -372,7 +380,6 @@ input.search__input
             font-size 15px
             position relative
             margin-left 5px
-
 
     .aside
         display none

@@ -1,47 +1,12 @@
 import re
 from dataclasses import asdict, dataclass, field
-from enum import IntEnum, unique
+from functools import partial, reduce
+from itertools import count
 from typing import Callable, Dict, List
 
 from funcy import post_processing
 
 from ..config import SHORT_DURATION, TODAY, Level, Vendor
-
-
-@unique
-class Bit(IntEnum):
-    kids = 1 << 0
-    short = 1 << 1
-    long = 1 << 2
-    pik = 1 << 3
-    orangeked = 1 << 4
-    cityescape = 1 << 5
-    zovgor = 1 << 6
-    napravlenie = 1 << 7
-    teamtrip = 1 << 8
-    level_1 = 1 << 9
-    level_2 = 1 << 10
-    level_3 = 1 << 11
-    level_4 = 1 << 12
-    level_5 = 1 << 13
-    month_1 = 1 << 14
-    month_2 = 1 << 15
-    month_3 = 1 << 16
-    month_4 = 1 << 17
-    month_5 = 1 << 18
-    month_6 = 1 << 19
-    month_7 = 1 << 20
-    month_8 = 1 << 21
-    month_9 = 1 << 22
-    month_10 = 1 << 23
-    month_11 = 1 << 24
-    month_12 = 1 << 25
-    rafting = 1 << 26
-    pohodtut = 1 << 27
-    bicycle = 1 << 28
-    new = 1 << 29
-    perehod = 1 << 30
-    strannik = 1 << 31
 
 
 @dataclass
@@ -51,10 +16,8 @@ class Tag:
     text: str
     title: str = ''
     active: bool = False
-    bit: Bit = field(init=False)
-
-    def __post_init__(self):
-        self.bit = Bit[self.slug]
+    bit: int = field(init=False)
+    index: int = field(init=False)
 
     def __and__(self, other):
         return self.bit & other
@@ -70,6 +33,12 @@ class TagGroup:
     slug: str
     tags: List[Tag]
     title: str = ''
+    index: int = field(init=False, default_factory=partial(next, count(0)))
+
+    def __post_init__(self):
+        for i, tag in enumerate(self.tags):
+            tag.index = self.index
+            tag.bit = 1 << i
 
     def __iter__(self):
         return iter(self.tags)
@@ -79,7 +48,7 @@ class TagGroup:
             'title': self.title,
             'slug': self.slug,
             'tags': self.tags,
-            'bits': reduce_bits(self.tags),
+            'bits': reduce(lambda a, b: a | b.bit, self.tags, 0),
         }
 
 
@@ -88,7 +57,7 @@ def finder(pattern: str) -> Callable[[str], bool]:
     return lambda src: bool(findall(src))
 
 
-NEW = Tag(slug='new', title='недавно добавленные', text='нью')
+NEW = Tag(slug='new', title='недавно добавленные', text='новые')
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
 kids_finder = finder(r'\b(семьи|семей|детск|[0-9]+\+)')
 
@@ -114,6 +83,7 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.POHODTUT, text='pohodtut'),
     Tag(slug=Vendor.PEREHOD, text='переход'),
     Tag(slug=Vendor.STRANNIK, text='странник'),
+    Tag(slug=Vendor.MYWAY, text='myway'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 
@@ -141,27 +111,29 @@ MONTH_TAGS = [
 ]
 
 TAGS = (
-    TagGroup(slug='vendors', tags=VENDOR_TAGS + [NEW]),
-    TagGroup(title='Сложность', slug='levels', tags=LEVELS_TAGS),
+    TagGroup(slug='vendors', tags=VENDOR_TAGS),
+    TagGroup(slug='new', tags=[NEW]),
+    TagGroup(slug='levels', title='Сложность', tags=LEVELS_TAGS),
     TagGroup(slug='age', tags=[KIDS]),
     TagGroup(slug='type', tags=list(TYPES)),
-    TagGroup(title='Продолжительность', slug='durations', tags=[SHORT, LONG]),
-    TagGroup(title='Месяц', slug='months', tags=MONTH_TAGS,),
+    TagGroup(
+        title='Продолжительность', slug='durations', tags=[SHORT, LONG],
+    ),
+    TagGroup(title='Месяц', slug='months', tags=MONTH_TAGS),
 )
 
 
 def reduce_bits(tags):
-    result = 0
+    result = [0] * len(TAGS)
     for tag in tags:
         tag.active = True
-        result |= tag.bit
+        result[tag.index] |= tag.bit
     return result
 
 
 @post_processing(reduce_bits)
 def get_tags(src: dict):
-    vendor = VENDOR_MAP[src['vendor']]
-    yield vendor
+    yield VENDOR_MAP[src['vendor']]
 
     if src['new']:
         yield NEW
@@ -173,7 +145,7 @@ def get_tags(src: dict):
 
     # fixme: kids tag duck style
     level = src['level']
-    if kids_finder(src['norm']):
+    if src['for_kids'] or kids_finder(src['norm']):
         yield KIDS
         if not level:
             # If guessed the level (i.e. eq is None),

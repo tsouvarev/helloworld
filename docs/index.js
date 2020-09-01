@@ -43,7 +43,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
             width: 0,
             height: 0,
             tags: tagGroups,
-            applyTags: [],
+            applyTags: Array.from({length: tagGroups.length}, () => []),
             applySearch: '',
             months: [],
             filteredEvents: eventList,
@@ -70,24 +70,21 @@ function renderTripper(weekendList, eventSource, tagGroups){
         created: function() {
             const self = this,
                   urlParams = new URLSearchParams(window.location.search),
-                  tags = parseInt(urlParams.get('tags')),
+                  tags = (urlParams.get('t') || '').split(':').map((t) => parseInt(t) || 0),
                   search = urlParams.get('q')
               ;
 
-            if (tags){
-                this.tags.map(function(g){
-                    g.tags.map(function(t){
-                        if (t.bit & tags) {
-                            self.applyTags.push(t.bit);
-                        }
-                    });
+            for (let i = 0; i < tags.length; i++){
+                this.tags[i].tags.map(function(t){
+                    if (t.bit & tags[i]) {
+                        self.applyTags[i].push(t.bit);
+                    }
                 });
             }
 
             if (search){
                 this.applySearch = search.trim();
             }
-
 
             // Closes event detail on ESC
             document.addEventListener('keyup', function (evt) {
@@ -104,26 +101,33 @@ function renderTripper(weekendList, eventSource, tagGroups){
         },
         computed: {
             hasFilters(){
-                return !!(this.applyTags.length || this.applySearch.length);
+                // fixme
+                return !!(this.applyTags.some((g) => g.length) || this.applySearch.length);
             },
             eventFilter(){
                 let self = this,
                     events = eventList,
                     params = {
                         q: this.applySearch.trim().toLowerCase(),
-                        tags: 0,
+                        tags: [],
                     }
                 ;
 
-                params.tags = this.applyTags.reduce((r, b) => r |= b, params.tags);
-                let newParams = Object.entries(params)
-                        .filter(([k, v]) => v)
-                        .map((i) => i.join('='))
-                        .join('&')
-                ;
+                let applyTags = this.applyTags.map(function(g){
+                    return g.reduce((a, b) => a | b, 0);
+                })
+
+                let newParams = [];
+                if (params.q){
+                    newParams.push('q=' + params.q);
+                }
+
+                if (params.tags){
+                    newParams.push('t=' + applyTags.join(':'))
+                }
 
                 updateUrl(
-                    newParams,
+                    newParams.join('&'),
                     null,
                 );
 
@@ -131,27 +135,29 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     events = events.filter((e) => e.norm.indexOf(params.q) != -1);
                 }
 
-                this.tags.forEach(function(g){
+                for (let i = 0; i < this.tags.length; i++){
+                    let group = this.tags[i];
+
                     // Collects possible events
                     let groupEvents = events;
-                    self.tags.forEach(function(j){
-                        let bits = params.tags & j.bits;
-                        if (bits && j.bits != g.bits) {
-                            groupEvents = groupEvents.filter((e) => bits & e.tags)
+                    for (let j = 0; j < self.tags.length; j++){
+                        let bits = applyTags[j];
+                        if (i != j && bits) {
+                            groupEvents = groupEvents.filter((e) => bits & e.tags[j])
                         }
-                    });
+                    }
 
                     // Marks active tags
                     let eventsMask = 0;
-                    groupEvents.forEach((e) => eventsMask |= e.tags);
-                    g.tags.forEach((t) => t.active = eventsMask & t.bit);
+                    groupEvents.forEach((e) => eventsMask |= e.tags[i]);
+                    group.tags.forEach((t) => t.active = eventsMask & t.bit);
 
                     // Filters gant events
-                    let applyBits = params.tags & g.bits;
-                    if (applyBits) {
-                        events = events.filter((e) => applyBits & e.tags);
+                    let apply = applyTags[i] & group.bits;
+                    if (apply) {
+                        events = events.filter((e) => apply & e.tags[i]);
                     }
-                });
+                }
 
                 if (!events.length) {
                     self.filteredEvents = events;
@@ -206,7 +212,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 )
             },
             clearFilters: function(){
-                this.applyTags = [];
+                this.applyTags = Array.from({length: this.tags.length}, () => []);
                 this.applySearch = '';
             },
             toggleMenu: function(){

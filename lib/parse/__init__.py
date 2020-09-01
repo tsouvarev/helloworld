@@ -6,6 +6,7 @@ from ..models import Item
 from ..utils import compactv, info, json_dumps, progress
 from .cityescape import parse_cityescape
 from .client import Progress
+from .myway import parse_myway
 from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .perehod import parse_perehod
@@ -27,6 +28,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.POHODTUT: parse_pohodtut,
     Vendor.PEREHOD: parse_perehod,
     Vendor.STRANNIK: parse_strannik,
+    Vendor.MYWAY: parse_myway,
 }
 
 

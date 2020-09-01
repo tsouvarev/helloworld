@@ -23,6 +23,7 @@ error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compactv = partial(filterv, bool)
 mapv = compose(list, map)
+css = GenericTranslator().css_to_xpath
 
 ERASE_LINE = '\x1b[2K'
 
@@ -126,4 +127,5 @@ def hash_uid(src: str, maxlen: int = 7) -> str:
     return hashlib.sha256(src.encode()).hexdigest()[:maxlen]
 
 
-css = GenericTranslator().css_to_xpath
+def content(e) -> str:
+    return e.text_content().strip()

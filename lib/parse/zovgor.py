@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import TODAY, Vendor
 from ..models import Item
-from ..utils import mapv, zip_safe
+from ..utils import content, mapv, zip_safe
 from . import client
 
 
@@ -27,7 +27,7 @@ def parse_page(text):
     )
     data = (tree.xpath(path + t) for t in tails)
     for title, url, date, price in zip_safe(*data):
-        start, end = map(parse_dt, ''.join(date.itertext()).split('-', 1))
+        start, end = map(parse_dt, content(date).split('-', 1))
         yield Item(
             vendor=Vendor.ZOVGOR,
             title=title.text_content(),
