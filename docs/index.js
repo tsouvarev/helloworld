@@ -107,22 +107,18 @@ function renderTripper(weekendList, eventSource, tagGroups){
             eventFilter(){
                 let self = this,
                     events = eventList,
-                    params = {
-                        q: this.applySearch.trim().toLowerCase(),
-                        tags: [],
-                    }
+                    newParams = [],
+                    query = this.applySearch.trim().toLowerCase(),
+                    applyTags = this.applyTags.map(function(g){
+                        return g.reduce((a, b) => a | b, 0);
+                    })
                 ;
 
-                let applyTags = this.applyTags.map(function(g){
-                    return g.reduce((a, b) => a | b, 0);
-                })
-
-                let newParams = [];
-                if (params.q){
-                    newParams.push('q=' + params.q);
+                if (query){
+                    newParams.push('q=' + query);
                 }
 
-                if (params.tags){
+                if (applyTags.some((x) => x)){
                     newParams.push('t=' + applyTags.join(':'))
                 }
 
@@ -131,8 +127,8 @@ function renderTripper(weekendList, eventSource, tagGroups){
                     null,
                 );
 
-                if (params.q){
-                    events = events.filter((e) => e.norm.indexOf(params.q) != -1);
+                if (query){
+                    events = events.filter((e) => e.norm.indexOf(query) != -1);
                 }
 
                 for (let i = 0; i < this.tags.length; i++){
