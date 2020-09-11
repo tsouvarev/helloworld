@@ -6,7 +6,7 @@ from funcy import first, post_processing
 
 from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
-from ..utils import json_loads
+from ..utils import json_loads, error
 from . import client
 
 DATE_RE = re.compile(r'([0-9]+)\s*([а-я]+)')
@@ -51,7 +51,12 @@ def parse_page(text):
             continue
 
         data = items_data[key]
-        start, end = parse_date(data['date'])
+        try:
+            start, end = parse_date(data['date'])
+        except Exception as e:
+            error(repr((e, data)))
+            continue
+
         while start > end:
             # fix typo
             start = start.replace(month=start.month - 1)
