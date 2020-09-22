@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Iterator
 
-from funcy import partial
+from funcy import invoke, partial
 from lxml import html
 
 from ..config import TODAY, Vendor
@@ -20,17 +20,21 @@ def parse_page(text):
     tree = html.fromstring(text.encode())
     path = '//*[@id="main"]/table/tbody/tr[position()>1]/'
     tails = (
-        'td[1]',
         'td[1]/a[1]/@href',
         'td[2][descendant-or-self::text()]',
         'td[4]/text()',
     )
+    titles = [
+        x
+        for x in invoke(tree.xpath(path + 'td[1]'), 'text_content')
+        if x != 'Пока нет в расписании'
+    ]
     data = (tree.xpath(path + t) for t in tails)
-    for title, url, date, price in zip_safe(*data):
+    for title, url, date, price in zip_safe(titles, *data):
         start, end = map(parse_dt, content(date).split('-', 1))
         yield Item(
             vendor=Vendor.ZOVGOR,
-            title=title.text_content(),
+            title=title,
             url='https://zovgor.com/' + url,
             price=price,
             start=start,
