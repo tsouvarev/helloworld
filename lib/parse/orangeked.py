@@ -7,18 +7,18 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import gather_chunks, silent
+from ..utils import gather_chunks, silent, css
 from . import client
 
-parse_dates = compose(
-    first, re.compile(r'([0-9]+) (\w*) ?- ([0-9]+) (\w+)').findall,
+find_dates = compose(
+    first, re.compile(r'([0-9]+) (\w*)[^0-9]+([0-9]+) (\w+)').findall,
 )
 
 
 async def parse_orangeked() -> Iterator[Item]:
     listing = await client.get('http://orangeked.ru/tours')
     tree = html.fromstring(listing.text.encode())
-    links = set(tree.xpath('//*[@id="tourList"]/div/div/div/a/@href'))
+    links = set(tree.xpath(css('#tourList a.item-link') + '/@href'))
     return iter(await gather_chunks(5, *map(parse_page, links)))
 
 
@@ -30,7 +30,7 @@ async def parse_page(path: str) -> Item:
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
     slots = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))
     title = tree.xpath('//*[@id="k2Container"]/header/h1/text()')[0]
-    start, end = parse_date(
+    start, end = parse_dates(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
     )
     price = tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[
@@ -49,15 +49,16 @@ async def parse_page(path: str) -> Item:
     return item
 
 
-def parse_date(src: str):
-    start_day, start_month, end_day, end_month = parse_dates(src)
+def parse_dates(src: str, today: datetime = TODAY):
+    start_day, start_month, end_day, end_month = find_dates(src)
     start_month = start_month or end_month
     start_month = MONTHS.index(start_month) + 1
     end_month = MONTHS.index(end_month) + 1
 
-    start_year = end_year = TODAY.year
-
-    if end_month < TODAY.month < start_month:
+    start_year = end_year = today.year
+    if end_month < today.month:
+        # Goes to the next year
+        start_year += 1
         end_year += 1
 
     yield datetime(start_year, start_month, int(start_day))
