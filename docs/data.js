@@ -78,29 +78,6 @@ const DATA={"weekendList": [
 {
 "end":"04.10.2020",
 "for_kids":true,
-"id":"ab2b761",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043a \u0438\u043e\u0441\u0438\u0444\u043e-\u0432\u043e\u043b\u043e\u0446\u043a\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
-"price":"2\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"03.10.2020",
-"tags":[
-4,
-0,
-2,
-0,
-0,
-1,
-512
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0418\u043e\u0441\u0438\u0444\u043e-\u0412\u043e\u043b\u043e\u0446\u043a\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
-"url":"https://cityescape.ru/poxod-k-iosifo-volockomu-monastyryu/",
-"vendor":"cityescape"
-},
-{
-"end":"04.10.2020",
-"for_kids":true,
 "id":"70d7f3c",
 "length":null,
 "level":null,
@@ -120,29 +97,6 @@ const DATA={"weekendList": [
 "title":"\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u0437\u0435\u043c\u043b\u044f \u0438\u00a0\u041f\u043e\u043e\u0437\u0435\u0440\u044c\u0435 2. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f",
 "url":"https://www.napravlenie.info/catalog/weekend/smolenskaya-zemlya-i-poozere-2-avtorskiy-tur-vykhodnogo-dnya/",
 "vendor":"napravlenie"
-},
-{
-"end":"04.10.2020",
-"for_kids":true,
-"id":"480e182",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e \u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u043e \u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435\u043c",
-"price":"3\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"04.10.2020",
-"tags":[
-64,
-0,
-4,
-0,
-0,
-1,
-512
-],
-"title":"\u041f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e: \u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u043e\u00a0\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435\u043c",
-"url":"https://www.pohodtut.ru/\u043f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e-\u043f\u0435\u0448\u043a\u0430-\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
-"vendor":"pohodtut"
 },
 {
 "end":"10.10.2020",
@@ -359,7 +313,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0431\u0430\u0433\u0440\u0435\u0446 \u0438 \u0437\u043e\u043b\u043e\u0442\u043e \u0432 \u043f\u0443\u0448\u0433\u043e\u0440\u0430\u0445 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f",
 "price":"8\u00a0500\u00a0\u20bd",
-"slots":4,
+"slots":3,
 "start":"10.10.2020",
 "tags":[
 16,
@@ -373,6 +327,29 @@ const DATA={"weekendList": [
 "title":"\u0411\u0430\u0433\u0440\u0435\u0446 \u0438\u00a0\u0437\u043e\u043b\u043e\u0442\u043e \u0432\u00a0\u041f\u0443\u0448\u0433\u043e\u0440\u0430\u0445. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f",
 "url":"https://www.napravlenie.info/catalog/weekend/bagrets-i-zoloto-v-pushgorakh-aktivnyy-tur-vykhodnogo-dnya/",
 "vendor":"napravlenie"
+},
+{
+"end":"10.10.2020",
+"for_kids":true,
+"id":"480e182",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e \u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u043e \u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435\u043c",
+"price":"3\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"10.10.2020",
+"tags":[
+64,
+0,
+4,
+0,
+0,
+1,
+512
+],
+"title":"\u041f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e: \u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u043e\u00a0\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435\u043c",
+"url":"https://www.pohodtut.ru/\u043f\u043e\u043b\u0443\u0448\u043a\u0438\u043d\u043e-\u043f\u0435\u0448\u043a\u0430-\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
+"vendor":"pohodtut"
 },
 {
 "end":"18.10.2020",
@@ -2520,7 +2497,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043d\u0430 \u0443\u0440\u0430\u043b\u0435",
-"price":"29\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"30.12.2020",
 "tags":[
@@ -2819,7 +2796,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043d\u0430 \u0443\u0440\u0430\u043b\u0435",
-"price":"25\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"03.01.2021",
 "tags":[
@@ -5343,6 +5320,29 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"end":"13.06.2021",
+"for_kids":true,
+"id":"496e731",
+"length":null,
+"level":1,
+"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0434\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"price":"34\u00a0000\u00a0\u20bd",
+"slots":10,
+"start":"07.06.2021",
+"tags":[
+2,
+1,
+1,
+0,
+0,
+2,
+32
+],
+"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"url":"http://orangeked.ru/tours/item/111-dagestan2",
+"vendor":"orangeked"
+},
+{
 "end":"20.06.2021",
 "for_kids":true,
 "id":"bef4a19",
@@ -5533,7 +5533,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"36\u00a0200\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"17.06.2021",
 "tags":[
@@ -6683,7 +6683,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"41\u00a0800\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"03.08.2021",
 "tags":[
