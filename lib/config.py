@@ -66,7 +66,7 @@ class Vendor(str, Enum):
     ZOVGOR = 'zovgor'
     NAPRAVLENIE = 'napravlenie'
     TEAMTRIP = 'teamtrip'
-    POHODTUT = 'pohodtut'
+    # POHODTUT = 'pohodtut'
     PEREHOD = 'perehod'
     STRANNIK = 'strannik'
     MYWAY = 'myway'

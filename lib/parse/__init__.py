@@ -25,7 +25,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.ZOVGOR: parse_zovgor,
     Vendor.NAPRAVLENIE: parse_napravlenie,
     Vendor.TEAMTRIP: parse_teamtrip,
-    Vendor.POHODTUT: parse_pohodtut,
+    # Vendor.POHODTUT: parse_pohodtut,
     Vendor.PEREHOD: parse_perehod,
     Vendor.STRANNIK: parse_strannik,
     Vendor.MYWAY: parse_myway,

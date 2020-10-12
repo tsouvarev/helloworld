@@ -80,7 +80,7 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.ZOVGOR, text='зов гор'),
     Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
     Tag(slug=Vendor.TEAMTRIP, text='team trip'),
-    Tag(slug=Vendor.POHODTUT, text='pohodtut'),
+    # Tag(slug=Vendor.POHODTUT, text='pohodtut'),
     Tag(slug=Vendor.PEREHOD, text='переход'),
     Tag(slug=Vendor.STRANNIK, text='странник'),
     Tag(slug=Vendor.MYWAY, text='myway'),
