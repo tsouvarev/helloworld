@@ -28,7 +28,8 @@ async def parse_page(path: str) -> Item:
     page = await client.get(url)
     tree = html.fromstring(page.text.encode())
     level = len(tree.xpath('//*[@class="icons-difficulty"]/i[@class="i"]'))
-    slots = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))
+    slots = len(tree.xpath('//*[@class="icons-groupsize"]/i'))
+    slots_taken = len(tree.xpath('//*[@class="icons-groupsize"]/i[@class="i"]'))
     title = tree.xpath('//*[@id="k2Container"]/header/h1/text()')[0]
     start, end = parse_dates(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
@@ -44,7 +45,7 @@ async def parse_page(path: str) -> Item:
         url=url,
         title=title,
         price=price,
-        slots=slots,
+        slots=slots - slots_taken,
     )
     return item
 
