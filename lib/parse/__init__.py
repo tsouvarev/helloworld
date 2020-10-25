@@ -1,9 +1,11 @@
 import asyncio
+from functools import partial
+from operator import attrgetter
 from typing import Awaitable, Callable, Dict, Iterator, Sequence
 
 from ..config import Vendor, src_path
 from ..models import Item
-from ..utils import compactv, info, json_dumps, progress
+from ..utils import compact, info, json_dumps, progress, distinctv
 from .cityescape import parse_cityescape
 from .client import Progress
 from .myway import parse_myway
@@ -31,6 +33,8 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.MYWAY: parse_myway,
 }
 
+unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))
+
 
 async def parse_gather(names: Sequence[str]):
     with progress() as p:
@@ -40,7 +44,7 @@ async def parse_gather(names: Sequence[str]):
     for name, res in zip(names, results):
         path = src_path(name + '.json')
         with open(path, 'w+') as f:
-            items = compactv(res)
+            items = unique_items(compact(res))
             f.write(json_dumps(items))
             info(f'[{name}]: Loaded {len(items)} items')
 

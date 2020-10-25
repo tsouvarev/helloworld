@@ -996,29 +996,6 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
-"end":"28.11.2020",
-"for_kids":true,
-"id":"992e68c",
-"length":null,
-"level":2,
-"norm":"\u0431\u043b\u0430\u0433\u043e\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0434\u0430\u0439 \u043b\u0430\u043f\u0443 \u0434\u0440\u0443\u0433",
-"price":"1\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":"28.11.2020",
-"tags":[
-4,
-0,
-2,
-0,
-0,
-1,
-1024
-],
-"title":"\u0411\u043b\u0430\u0433\u043e\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0414\u0430\u0439 \u043b\u0430\u043f\u0443, \u0434\u0440\u0443\u0433!\u00bb",
-"url":"https://cityescape.ru/blagotvoritelnyj-poxod-daj-lapu-drug/",
-"vendor":"cityescape"
-},
-{
 "end":"03.12.2020",
 "for_kids":false,
 "id":"bfb6566",
@@ -1638,29 +1615,6 @@ const DATA={"weekendList": [
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0439 \u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/peshernyi-novyi-god/2222/",
 "vendor":"pik"
-},
-{
-"end":"01.01.2021",
-"for_kids":true,
-"id":"f1df0c3",
-"length":null,
-"level":2,
-"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043b\u0435\u0441\u0443",
-"price":"7\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"31.12.2020",
-"tags":[
-4,
-0,
-2,
-0,
-0,
-1,
-2049
-],
-"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u043b\u0435\u0441\u0443",
-"url":"https://cityescape.ru/novyj-god-v-lesu/",
-"vendor":"cityescape"
 },
 {
 "end":"01.01.2021",
@@ -3892,29 +3846,6 @@ const DATA={"weekendList": [
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041c\u0435\u0440\u0430 \u043f\u0438\u043a, 6476\u00a0\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-mera-pik-6476m/2201/",
 "vendor":"pik"
-},
-{
-"end":"18.04.2021",
-"for_kids":true,
-"id":"4c1d7f7",
-"length":null,
-"level":2,
-"norm":"\u0434\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u043a\u043b\u0443\u0431\u0430 city escape",
-"price":null,
-"slots":null,
-"start":"17.04.2021",
-"tags":[
-4,
-0,
-2,
-0,
-0,
-1,
-8
-],
-"title":"\u0414\u0435\u043d\u044c \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u043a\u043b\u0443\u0431\u0430 City Escape",
-"url":"https://cityescape.ru/den-rozhdeniya-kluba/",
-"vendor":"cityescape"
 },
 {
 "end":"18.04.2021",

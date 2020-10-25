@@ -21,7 +21,8 @@ debug = click.secho
 info = partial(click.secho, color='white', bold=True)
 error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
-compactv = partial(filterv, bool)
+compact = partial(filter, bool)
+compactv = compose(list, compact)
 mapv = compose(list, map)
 css = GenericTranslator().css_to_xpath
 
@@ -129,3 +130,15 @@ def hash_uid(src: str, maxlen: int = 7) -> str:
 
 def content(e) -> str:
     return e.text_content().strip()
+
+
+def distinct(key: Callable, items: Iterable):
+    seen = set()
+    for item in items:
+        value = key(item)
+        if value not in seen:
+            seen.add(value)
+            yield item
+
+
+distinctv = compose(list, distinct)
