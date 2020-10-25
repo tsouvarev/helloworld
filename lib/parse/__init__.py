@@ -5,7 +5,7 @@ from typing import Awaitable, Callable, Dict, Iterator, Sequence
 
 from ..config import Vendor, src_path
 from ..models import Item
-from ..utils import compact, info, json_dumps, progress, distinctv
+from ..utils import compact, distinctv, info, json_dumps, progress
 from .cityescape import parse_cityescape
 from .client import Progress
 from .myway import parse_myway
