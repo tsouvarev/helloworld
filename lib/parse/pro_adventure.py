@@ -1,6 +1,6 @@
 import re
 from datetime import datetime, timedelta
-from typing import Iterator
+from typing import Dict, Iterator, List, Tuple
 
 from funcy import cat, compose, first, mapcat
 from lxml import html
@@ -12,7 +12,7 @@ from . import client
 
 find_dates = re.compile(r'\'?\w+', re.I | re.M).findall
 find_age = compose(first, re.compile(r'\d+ лет', re.I | re.M).findall)
-LEVELS_MAP = {
+LEVELS_MAP: Dict[int, Level] = {
     1: Level.EASY,
     2: Level.MEDIUM,
     3: Level.HARD,
@@ -20,18 +20,18 @@ LEVELS_MAP = {
 
 
 async def parse_pro_adventure() -> Iterator[Item]:
-    i = 1
-    all_items = []
-    while True:
+    all_items: List[Tuple[Item, ...]] = []
+    for i in range(1, 42):
         page = await client.get(f'https://pro-adventure.ru/tours?page={i}')
-        items = list(parse_page(page.text))
+        items = tuple(parse_page(page.text))
         if not items:
-            return cat(all_items)
+            # No active item found on page
+            break
         all_items.append(items)
-        i += 1
+    return cat(all_items)
 
 
-def parse_page(text: str):
+def parse_page(text: str) -> Iterator[Item]:
     tree = html.fromstring(text)
     for item in tree.xpath('//*[@class="catalog-item"]'):
         # tags
@@ -42,8 +42,8 @@ def parse_page(text: str):
         params = item.find_class('catalog-item__param-list')[0]
 
         # content
-        age = int_or_none(find_age(content(params)) or '', 18)
-        offset = timedelta(days=int_or_none(content(duration)) - 1)
+        age = int_or_none(find_age(content(params)) or '') or 18
+        offset = timedelta(days=(int_or_none(content(duration)) or 1) - 1)
         date_nodes = mapcat(list, item.cssselect('div.catalog-item__dates'))
 
         seen = set()
@@ -59,9 +59,11 @@ def parse_page(text: str):
                 if start.day in done:
                     slots = 0
 
+                level = int_or_none(difficult.get('class'))
+
                 item = Item(
                     vendor=Vendor.PRO_ADVENTURE,
-                    level=LEVELS_MAP[int_or_none(difficult.get('class'))],
+                    level=level and LEVELS_MAP[level],
                     start=start,
                     end=start + offset,
                     url='https://pro-adventure.ru' + item_title.get('href'),

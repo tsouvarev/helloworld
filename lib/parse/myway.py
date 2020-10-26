@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-from typing import Iterator
+from typing import Iterator, Union
 
 from lxml import etree, html
 
@@ -53,6 +53,10 @@ def parse_page(text):
 
 
 def parse_date(src: str, orig: datetime) -> datetime:
+    day: Union[str, int]
+    month: Union[str, int]
+    year: Union[str, int]
+
     data = src.split()
     if len(data) == 3:
         day, mon, year = data
@@ -62,7 +66,7 @@ def parse_date(src: str, orig: datetime) -> datetime:
         month = MONTHS.index(mon) + 1
     else:
         day, month, year = data[0], orig.month, orig.year
-    return datetime(day=int(day), month=month, year=int(year))
+    return datetime(day=int(day), month=int(month), year=int(year))
 
 
 def parse_dates(src: str, orig: datetime = TODAY) -> Iterator[datetime]:

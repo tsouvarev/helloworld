@@ -33,7 +33,9 @@ class TagGroup:
     slug: str
     tags: List[Tag]
     title: str = ''
-    index: int = field(init=False, default_factory=partial(next, count(0)))
+    index: int = field(  # type: ignore
+        init=False, default_factory=partial(next, count(0)),
+    )
 
     def __post_init__(self):
         for i, tag in enumerate(self.tags):
@@ -59,14 +61,16 @@ def finder(pattern: str) -> Callable[[str], bool]:
 
 NEW = Tag(slug='new', title='недавно добавленные', text='новые')
 KIDS = Tag(slug='kids', title='с детьми', text='👶')
+HIKING = Tag(slug='hiking', title='пеший', text='🥾')
 kids_finder = finder(r'\b(семьи|семей|детск|[0-9]+\+)')
+
 
 TYPES: Dict[Tag, Callable[[str], bool]] = {
     Tag(slug='rafting', title='сплав', text='🛶'): finder(
         r'\b(сплав|водн|байдар)'
     ),
     Tag(slug='bicycle', title='велопоход', text='🚴'): finder(
-        r'\b(велопоход|велосипед)'
+        r'\b(вело[а-я]+)'
     ),
 }
 
@@ -115,7 +119,7 @@ TAGS = (
     TagGroup(slug='new', tags=[NEW]),
     TagGroup(slug='levels', title='Сложность', tags=LEVELS_TAGS),
     TagGroup(slug='age', tags=[KIDS]),
-    TagGroup(slug='type', tags=list(TYPES)),
+    TagGroup(slug='type', tags=list(TYPES) + [HIKING]),
     TagGroup(
         title='Продолжительность', slug='durations', tags=[SHORT, LONG],
     ),
@@ -142,6 +146,8 @@ def get_tags(src: dict):
         if find(src['norm']):
             yield tag
             break
+    else:
+        yield HIKING
 
     # fixme: kids tag duck style
     level = src['level']
