@@ -31,7 +31,7 @@ const dateFormat = 'DD.MM.YYYY',
     ]
 ;
 
-function renderTripper(weekendList, eventSource, tagGroups){
+function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
     // Calendar first month
     const today = moment().startOf('day'),
           eventList = getEvents(eventSource)
@@ -165,7 +165,7 @@ function renderTripper(weekendList, eventSource, tagGroups){
                 let firstDate = events[0].start.clone();
                 let lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate);
 
-                this.months = getMonths(today, firstDate, lastDate, weekendList);
+                this.months = getMonths(today, firstDate, lastDate, weekendList, noWeekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
                 this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
 
@@ -326,7 +326,7 @@ function getEvents(eventSource, tagGroups) {
     });
 }
 
-function getMonths(today, firstDate, lastDate, weekendList){
+function getMonths(today, firstDate, lastDate, weekendList, noWeekendList){
     let monthList = [];
 
     // Creates months ruler
@@ -345,9 +345,10 @@ function getMonths(today, firstDate, lastDate, weekendList){
                 continue
             }
 
+            const f = d.format(dateFormat);
             days.push({
                 date: d,
-                is_weekend: d.isoWeekday() >= 6 || weekendList.indexOf(d.format(dateFormat)) > -1,
+                is_weekend: !noWeekendList.has(f) && (d.isoWeekday() >= 6 || weekendList.has(f)),
                 is_today: !today.diff(d),
             });
         }
@@ -402,7 +403,7 @@ function masonry(eventList){
 }
 
 // Init
-renderTripper(DATA.weekendList, DATA.eventSource, DATA.tagGroups);
+renderTripper(new Set(DATA.weekendList), new Set(DATA.noWeekendList), DATA.eventSource, DATA.tagGroups);
 
 // Displays gant and hides loader
 document.body.classList.add('active');

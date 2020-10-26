@@ -12,6 +12,7 @@ from ..config import (
     LAST_DATE,
     META_DATA,
     NEW_INT,
+    NO_WEEKENDS,
     TODAY,
     TODAY_INT,
     WEEKENDS,
@@ -30,9 +31,7 @@ from .tags import KIDS, TAGS, get_tags
 
 TOO_LONG = timedelta(days=30)
 CONSIDER_NEW = TODAY - timedelta(days=7)
-JS_TEMPLATE = (
-    'const DATA={{"weekendList": {}, "eventSource": {}, "tagGroups": {}}};'
-)
+JS_TEMPLATE = 'const DATA={{"weekendList": {}, "noWeekendList": {}, "eventSource": {}, "tagGroups": {}}};'
 sort_items = sorter(itemgetter('start'))
 
 
@@ -111,7 +110,7 @@ def render():
 
         # Writes data.js
         render_items = [render_item(new_meta, x) for x in filtered]
-        dump = (WEEKENDS, render_items, TAGS)
+        dump = (WEEKENDS, NO_WEEKENDS, render_items, TAGS)
         template = JS_TEMPLATE.format(*map(json_dumps, dump))
         f.write(template)
 
