@@ -26,7 +26,7 @@ class Item(BaseModel):
 
     @validator('id', pre=True, always=True)
     def default_id(cls, v, *, values):
-        return v or hash_uid(values['url'])
+        return v or hash_uid('{url}:{start}:{end}'.format_map(values))
 
     def for_json(self):
         return self.dict()

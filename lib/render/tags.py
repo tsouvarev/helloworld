@@ -80,10 +80,10 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.ZOVGOR, text='зов гор'),
     Tag(slug=Vendor.NAPRAVLENIE, text='направление'),
     Tag(slug=Vendor.TEAMTRIP, text='team trip'),
-    # Tag(slug=Vendor.POHODTUT, text='pohodtut'),
     Tag(slug=Vendor.PEREHOD, text='переход'),
     Tag(slug=Vendor.STRANNIK, text='странник'),
     Tag(slug=Vendor.MYWAY, text='myway'),
+    Tag(slug=Vendor.PRO_ADVENTURE, text='pro-adventure'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 

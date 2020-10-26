@@ -66,8 +66,8 @@ def format_price(src: str):
     return currency.format(format_int(price))
 
 
-def int_or_none(src: str) -> Optional[int]:
+def int_or_none(src: str, default=None) -> Optional[int]:
     try:
         return int(re_digits(src))
     except ValueError:
-        return None
+        return default

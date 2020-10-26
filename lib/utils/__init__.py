@@ -132,10 +132,11 @@ def content(e) -> str:
     return e.text_content().strip()
 
 
-def distinct(key: Callable, items: Iterable):
+def distinct(key: Optional[Callable] = None, items: Iterable = ()):
     seen = set()
+    getter = key or (lambda x: x)
     for item in items:
-        value = key(item)
+        value = getter(item)
         if value not in seen:
             seen.add(value)
             yield item

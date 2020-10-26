@@ -73,8 +73,7 @@ def render_item(meta: dict, item: dict):
     # to create valid tags
     item_tags = get_tags(item)
     item.update(
-        tags=item_tags,
-        for_kids=item_tags and any(KIDS & t for t in item_tags),
+        tags=item_tags, for_kids=item_tags[3] & KIDS,
     )
 
     # fixme: time for pydantic

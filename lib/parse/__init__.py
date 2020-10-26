@@ -13,7 +13,7 @@ from .napravlenie import parse_napravlenie
 from .orangeked import parse_orangeked
 from .perehod import parse_perehod
 from .pik import parse_pik
-from .pohodtut import parse_pohodtut
+from .pro_adventure import parse_pro_adventure
 from .strannik import parse_strannik
 from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
@@ -27,7 +27,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.ZOVGOR: parse_zovgor,
     Vendor.NAPRAVLENIE: parse_napravlenie,
     Vendor.TEAMTRIP: parse_teamtrip,
-    # Vendor.POHODTUT: parse_pohodtut,
+    Vendor.PRO_ADVENTURE: parse_pro_adventure,
     Vendor.PEREHOD: parse_perehod,
     Vendor.STRANNIK: parse_strannik,
     Vendor.MYWAY: parse_myway,

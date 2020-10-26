@@ -20,6 +20,10 @@ NEW_INT = int((TODAY - timedelta(days=2)).timestamp())
 
 DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
+MONTHS_NORM = (
+    'январь февраль март апрель май июнь июль август '
+    'сентябрь октябрь ноябрь декабрь'.split()
+)
 MONTHS = (
     'января февраля марта апреля мая июня июля августа '
     'сентября октября ноября декабря'.split()
@@ -66,7 +70,7 @@ class Vendor(str, Enum):
     ZOVGOR = 'zovgor'
     NAPRAVLENIE = 'napravlenie'
     TEAMTRIP = 'teamtrip'
-    # POHODTUT = 'pohodtut'
+    PRO_ADVENTURE = 'pro_adventure'
     PEREHOD = 'perehod'
     STRANNIK = 'strannik'
     MYWAY = 'myway'
