@@ -64,7 +64,7 @@ def parse_page(text: str):
                     level=LEVELS_MAP[int_or_none(difficult.get('class'))],
                     start=start,
                     end=start + offset,
-                    url=item_title.get('href'),
+                    url='https://pro-adventure.ru' + item_title.get('href'),
                     title=content(item_title),
                     price=content(cost),
                     for_kids=age < 10,
