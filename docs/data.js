@@ -38,52 +38,6 @@ const DATA={"weekendList": [
 {
 "end":"01.11.2020",
 "for_kids":0,
-"id":"0bce290",
-"length":null,
-"level":2,
-"norm":"\u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e \u0431\u0435\u043b\u044c\u0433\u0438\u0438 - \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0431\u0440\u044e\u0433\u0433\u0435",
-"price":"\u20ac\u00a0345",
-"slots":0,
-"start":"27.10.2020",
-"tags":[
-512,
-1,
-2,
-0,
-2,
-2,
-1536
-],
-"title":"\u0412\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0411\u0435\u043b\u044c\u0433\u0438\u0438\u202f\u2014\u2009\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0411\u0440\u044e\u0433\u0433\u0435",
-"url":"https://pro-adventure.ru/tours/id_2046_velotur-po-belgii-romanticheskij-brugge",
-"vendor":"pro_adventure"
-},
-{
-"end":"01.11.2020",
-"for_kids":0,
-"id":"cccdd7e",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u0433\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438 \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435",
-"price":"\u20ac\u00a0360",
-"slots":0,
-"start":"27.10.2020",
-"tags":[
-512,
-1,
-2,
-0,
-2,
-2,
-1536
-],
-"title":"\u041f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438 \u043d\u0430\u00a0\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435",
-"url":"https://pro-adventure.ru/tours/id_2047_po-severnoj-gollandii-na-velosipede",
-"vendor":"pro_adventure"
-},
-{
-"end":"01.11.2020",
-"for_kids":0,
 "id":"bea0680",
 "length":null,
 "level":2,
@@ -360,7 +314,7 @@ const DATA={"weekendList": [
 {
 "end":"31.10.2020",
 "for_kids":1,
-"id":"52ad835",
+"id":"e6243e9",
 "length":null,
 "level":2,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u043a\u0430\u043b\u044b \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
@@ -377,7 +331,30 @@ const DATA={"weekendList": [
 512
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440: \u0441\u043a\u0430\u043b\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
-"url":"https://pro-adventure.ru/tours/id_2412_skaly-podmoskovya",
+"url":"https://pro-adventure.ru/tours/id_2412_semejnyij-peshij-tur-skalyi-podmoskovya",
+"vendor":"pro_adventure"
+},
+{
+"end":"07.11.2020",
+"for_kids":0,
+"id":"7ebaf2b",
+"length":null,
+"level":2,
+"norm":"\u043a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u043f\u043e \u0434\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"price":"36\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"31.10.2020",
+"tags":[
+512,
+1,
+2,
+0,
+4,
+2,
+1536
+],
+"title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2393_komfort-tur-po-dagestanu",
 "vendor":"pro_adventure"
 },
 {
@@ -611,6 +588,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"01.11.2020",
+"for_kids":0,
+"id":"2630c4d",
+"length":null,
+"level":3,
+"norm":"speed hiking \u043b\u044b\u0442\u043a\u0430\u0440\u0438\u043d\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u044c\u0435\u0440\u044b",
+"price":"1\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"01.11.2020",
+"tags":[
+512,
+1,
+4,
+0,
+4,
+1,
+1024
+],
+"title":"Speed hiking: \u041b\u044b\u0442\u043a\u0430\u0440\u0438\u043d\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u044c\u0435\u0440\u044b",
+"url":"https://pro-adventure.ru/tours/id_2420_speed-hiking-karery",
+"vendor":"pro_adventure"
+},
+{
 "end":"06.11.2020",
 "for_kids":1,
 "id":"3f66ace",
@@ -632,6 +632,29 @@ const DATA={"weekendList": [
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
 "vendor":"pro_adventure"
+},
+{
+"end":"01.11.2020",
+"for_kids":0,
+"id":"6258e23",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0433\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
+"price":"1\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":"01.11.2020",
+"tags":[
+64,
+1,
+2,
+0,
+4,
+1,
+1024
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0413\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
+"url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/peshiy-pokhod-na-gremyachiy-klyuch/",
+"vendor":"perehod"
 },
 {
 "end":"07.11.2020",
@@ -958,6 +981,29 @@ const DATA={"weekendList": [
 {
 "end":"04.11.2020",
 "for_kids":0,
+"id":"b30919e",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u0430\u044f \u0444\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+"price":"3\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"04.11.2020",
+"tags":[
+512,
+1,
+2,
+0,
+4,
+1,
+1024
+],
+"title":"\u041f\u0435\u0448\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430: \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u0430\u044f \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+"url":"https://pro-adventure.ru/tours/id_2410_podmoskovnaya-finlyandiya",
+"vendor":"pro_adventure"
+},
+{
+"end":"04.11.2020",
+"for_kids":0,
 "id":"e3efbe2",
 "length":null,
 "level":2,
@@ -1255,6 +1301,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"07.11.2020",
+"for_kids":1,
+"id":"283db38",
+"length":null,
+"level":2,
+"norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u043a\u0430\u043b\u044b \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
+"price":"2\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"07.11.2020",
+"tags":[
+512,
+1,
+2,
+1,
+4,
+1,
+1024
+],
+"title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440: \u0441\u043a\u0430\u043b\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
+"url":"https://pro-adventure.ru/tours/id_2412_semejnyij-peshij-tur-skalyi-podmoskovya",
+"vendor":"pro_adventure"
+},
+{
 "end":"14.11.2020",
 "for_kids":1,
 "id":"cb5ce43",
@@ -1301,6 +1370,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"07.11.2020",
+"for_kids":0,
+"id":"70c5d0b",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u043a\u0430\u043b\u044b \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
+"price":"2\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"07.11.2020",
+"tags":[
+512,
+1,
+2,
+0,
+4,
+1,
+1024
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440: \u0441\u043a\u0430\u043b\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
+"url":"https://pro-adventure.ru/tours/id_2419_skaly-podmoskovya",
+"vendor":"pro_adventure"
+},
+{
 "end":"08.11.2020",
 "for_kids":0,
 "id":"2b5bd90",
@@ -1330,7 +1422,7 @@ const DATA={"weekendList": [
 "length":10,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0432 \u0434\u0430\u0445\u0430\u0431\u0435 \u043a\u0443\u0440\u0441 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
-"price":"37\u00a0300\u00a0\u20bd",
+"price":"37\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"08.11.2020",
 "tags":[
@@ -2520,6 +2612,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"22.11.2020",
+"for_kids":0,
+"id":"0fe93b1",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0433\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
+"price":"1\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":"22.11.2020",
+"tags":[
+64,
+1,
+2,
+0,
+4,
+1,
+1024
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0413\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
+"url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/peshiy-pokhod-na-gremyachiy-klyuch/",
+"vendor":"perehod"
+},
+{
 "end":"26.11.2020",
 "for_kids":0,
 "id":"58fc5fa",
@@ -2595,7 +2710,7 @@ const DATA={"weekendList": [
 "length":1,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
-"price":"149\u00a0100\u00a0\u20bd",
+"price":"148\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"28.11.2020",
 "tags":[
@@ -4160,7 +4275,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043d\u0430 \u0443\u0440\u0430\u043b\u0435",
 "price":"29\u00a0500\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"30.12.2020",
 "tags":[
 1,
@@ -4265,6 +4380,29 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0435\u0435 \u0432\u043e\u043b\u0448\u0435\u0431\u0441\u0442\u0432\u043e \u043d\u0430\u00a0\u0410\u043b\u0442\u0430\u0435",
 "url":"https://pro-adventure.ru/tours/id_2097_novogodnie-zabavy-na-altae",
+"vendor":"pro_adventure"
+},
+{
+"end":"03.01.2021",
+"for_kids":0,
+"id":"52ba139",
+"length":null,
+"level":3,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043a\u0440\u0430\u0441\u043d\u043e\u0449\u0435\u043b\u044c\u0435 \u043d\u0430 \u043a\u043e\u043b\u044c\u0441\u043a\u043e\u043c",
+"price":"37\u00a0400\u00a0\u20bd",
+"slots":null,
+"start":"30.12.2020",
+"tags":[
+512,
+1,
+4,
+0,
+4,
+2,
+2049
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u041a\u0440\u0430\u0441\u043d\u043e\u0449\u0435\u043b\u044c\u0435 \u043d\u0430\u00a0\u041a\u043e\u043b\u044c\u0441\u043a\u043e\u043c",
+"url":"https://pro-adventure.ru/tours/id_2091_novyi-god-v-krasnoshele-na-kolskom",
 "vendor":"pro_adventure"
 },
 {
@@ -4798,6 +4936,29 @@ const DATA={"weekendList": [
 },
 {
 "end":"07.01.2021",
+"for_kids":0,
+"id":"8cb2e2c",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"price":"31\u00a0500\u00a0\u20bd",
+"slots":0,
+"start":"03.01.2021",
+"tags":[
+512,
+1,
+2,
+0,
+4,
+2,
+1
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"url":"https://pro-adventure.ru/tours/id_1790_novyj-god-teriberka",
+"vendor":"pro_adventure"
+},
+{
+"end":"07.01.2021",
 "for_kids":1,
 "id":"a24d9a6",
 "length":null,
@@ -4965,7 +5126,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u043d\u0430 \u0431\u0430\u0439\u043a\u0430\u043b\u0435 2021",
 "price":"32\u00a0800\u00a0\u20bd",
-"slots":2,
+"slots":1,
 "start":"04.01.2021",
 "tags":[
 16,
@@ -5186,6 +5347,29 @@ const DATA={"weekendList": [
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
 "vendor":"teamtrip"
+},
+{
+"end":"10.01.2021",
+"for_kids":0,
+"id":"9a1d3f1",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"price":"31\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"06.01.2021",
+"tags":[
+512,
+1,
+2,
+0,
+4,
+2,
+1
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"url":"https://pro-adventure.ru/tours/id_1790_novyj-god-teriberka",
+"vendor":"pro_adventure"
 },
 {
 "end":"10.01.2021",
@@ -6867,29 +7051,6 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
-"end":"27.02.2021",
-"for_kids":0,
-"id":"d9eba53",
-"length":null,
-"level":4,
-"norm":"\u0431\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-"price":"34\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"21.02.2021",
-"tags":[
-64,
-1,
-8,
-0,
-4,
-2,
-2
-],
-"title":"\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-"url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/baykalskoe-puteshestvie-multi-tur-po-ldu/",
-"vendor":"perehod"
-},
-{
 "end":"28.02.2021",
 "for_kids":0,
 "id":"49dd809",
@@ -7672,29 +7833,6 @@ const DATA={"weekendList": [
 "vendor":"napravlenie"
 },
 {
-"end":"12.03.2021",
-"for_kids":0,
-"id":"567fa41",
-"length":null,
-"level":4,
-"norm":"\u0431\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-"price":"34\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":"06.03.2021",
-"tags":[
-64,
-1,
-8,
-0,
-4,
-2,
-4
-],
-"title":"\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
-"url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/baykalskoe-puteshestvie-multi-tur-po-ldu/",
-"vendor":"perehod"
-},
-{
 "end":"07.03.2021",
 "for_kids":0,
 "id":"3fb957e",
@@ -7908,7 +8046,7 @@ const DATA={"weekendList": [
 "length":15,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441 \u043a\u0438\u0442\u0430\u043c\u0438",
-"price":"130\u00a0400\u00a0\u20bd",
+"price":"130\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"13.03.2021",
 "tags":[
@@ -8115,7 +8253,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"103\u00a0100\u00a0\u20bd",
+"price":"103\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -8138,7 +8276,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"109\u00a0400\u00a0\u20bd",
+"price":"109\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -8437,7 +8575,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"103\u00a0100\u00a0\u20bd",
+"price":"103\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"10.04.2021",
 "tags":[
@@ -8460,7 +8598,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":5,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043c\u0435\u0440\u0430 \u043f\u0438\u043a 6476\u043c",
-"price":"109\u00a0400\u00a0\u20bd",
+"price":"109\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"11.04.2021",
 "tags":[
@@ -8644,7 +8782,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
-"price":"34\u00a0500\u00a0\u20bd",
+"price":"34\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"18.04.2021",
 "tags":[
@@ -8989,7 +9127,7 @@ const DATA={"weekendList": [
 "length":1,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
-"price":"149\u00a0100\u00a0\u20bd",
+"price":"148\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -12249,6 +12387,29 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"end":"18.07.2021",
+"for_kids":0,
+"id":"2d35785",
+"length":80,
+"level":3,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0431\u0430\u043b\u043a\u0430\u0440\u0438\u044f",
+"price":"25\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":"10.07.2021",
+"tags":[
+1,
+1,
+4,
+0,
+4,
+2,
+64
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0411\u0430\u043b\u043a\u0430\u0440\u0438\u044f",
+"url":"https://turclub-pik.ru/pohod/gornaya-balkariya/2238/",
+"vendor":"pik"
+},
+{
 "end":"21.07.2021",
 "for_kids":0,
 "id":"0f0727a",
@@ -13773,7 +13934,7 @@ const DATA={"weekendList": [
 "length":60,
 "level":2,
 "norm":"\u043d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"65\u00a0200\u00a0\u20bd",
+"price":"65\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2021",
 "tags":[
@@ -15728,7 +15889,7 @@ const DATA={"weekendList": [
 "length":60,
 "level":2,
 "norm":"\u043d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"65\u00a0200\u00a0\u20bd",
+"price":"65\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2021",
 "tags":[
@@ -16993,7 +17154,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":1,
 "norm":"\u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":null,
+"price":"43\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"27.09.2021",
 "tags":[
@@ -17016,7 +17177,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"109\u00a0400\u00a0\u20bd",
+"price":"109\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"02.10.2021",
 "tags":[
