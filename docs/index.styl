@@ -123,12 +123,20 @@ html, body, #app, .gant, .aside, .detail
 
     &__month
         cursor default
-        background-image url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN89x8AAuEB74Y0o2cAAAAASUVORK5CYII=')
-        background-repeat repeat-y
+        background-color white
         position relative
 
-        &:first-child
+        &:last-child
             background none
+
+        &::after
+            content ''
+            position absolute
+            top 0
+            right 0
+            width 10px
+            height 30px
+            background linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)
 
         &__name
             left 0
