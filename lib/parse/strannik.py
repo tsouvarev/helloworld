@@ -7,7 +7,7 @@ from lxml import html
 
 from ..config import Vendor
 from ..models import Item
-from ..utils import zip_safe
+from ..utils import error, zip_safe
 from . import client
 
 find_dates = re.compile(r'([0-9]+)\.([0-9]+)\.([0-9]+)').findall
@@ -30,7 +30,12 @@ def parse_page(text):
 
     data = map(tree.xpath, tails)
     for title, href, dates, price in zip_safe(*data):
-        start, end = parse_dates(dates)
+        try:
+            start, end = parse_dates(dates)
+        except Exception as e:
+            error(f'Failed to parse "{e}"')
+            continue
+
         yield Item(
             vendor=Vendor.STRANNIK,
             title=clear_days(title),
