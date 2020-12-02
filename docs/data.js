@@ -43,7 +43,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u043b\u0442\u0430\u044e 265 \u043a\u043c",
 "price":"46\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"02.12.2020",
 "tags":[
 512,
@@ -1772,7 +1772,7 @@ const DATA={"weekendList": [
 "start":"25.12.2020",
 "tags":[
 8,
-1,
+0,
 4,
 0,
 4,
@@ -2112,7 +2112,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0442\u0440\u043e\u043f\u0430 \u0430\u0444\u0440\u043e\u0434\u0438\u0442\u044b \u043a\u0438\u043f\u0440",
-"price":"\u20ac\u00a0280",
+"price":"\u20ac\u00a0250",
 "slots":null,
 "start":"29.12.2020",
 "tags":[
@@ -3009,8 +3009,8 @@ const DATA={"weekendList": [
 "length":10,
 "level":1,
 "norm":"\u0437\u0438\u043c\u0430 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 \u0448\u0445\u0435\u0440\u044b \u0438 \u0441\u043a\u0430\u043b\u044b \u043b\u0430\u0434\u043e\u0433\u0438",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
+"price":null,
+"slots":0,
 "start":"03.01.2021",
 "tags":[
 1,
@@ -5579,29 +5579,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"end":"04.02.2021",
-"for_kids":1,
-"id":"426c0ee",
-"length":10,
-"level":1,
-"norm":"\u0442\u0443\u0440 \u0437\u0438\u043c\u043d\u0438\u0439 \u043e\u0442\u0434\u044b\u0445 \u043d\u0430 \u0431\u0430\u0439\u043a\u0430\u043b\u0435",
-"price":null,
-"slots":null,
-"start":"31.01.2021",
-"tags":[
-256,
-0,
-1,
-1,
-4,
-2,
-3
-],
-"title":"\u0422\u0443\u0440 \u0417\u0438\u043c\u043d\u0438\u0439 \u043e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0435",
-"url":"https://mwtravel.ru/travel-all/baikal-winter-rest/",
-"vendor":"myway"
-},
-{
 "end":"05.02.2021",
 "for_kids":0,
 "id":"3cbbe66",
@@ -6062,29 +6039,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"end":"13.02.2021",
-"for_kids":1,
-"id":"5637b7e",
-"length":70,
-"level":3,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0431\u0430\u0439\u043a\u0430\u043b\u0443",
-"price":null,
-"slots":null,
-"start":"07.02.2021",
-"tags":[
-256,
-0,
-4,
-1,
-4,
-2,
-2
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0443",
-"url":"https://mwtravel.ru/travel-all/hiking-baikal-winter/",
-"vendor":"myway"
-},
-{
 "end":"11.02.2021",
 "for_kids":1,
 "id":"79d027c",
@@ -6459,7 +6413,7 @@ const DATA={"weekendList": [
 "length":16,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
-"price":"33\u00a0900\u00a0\u20bd",
+"price":"35\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"14.02.2021",
 "tags":[
@@ -7149,7 +7103,7 @@ const DATA={"weekendList": [
 "length":16,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
-"price":null,
+"price":"35\u00a0900\u00a0\u20bd",
 "slots":0,
 "start":"21.02.2021",
 "tags":[
@@ -8023,7 +7977,7 @@ const DATA={"weekendList": [
 "length":16,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
-"price":null,
+"price":"35\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"28.02.2021",
 "tags":[
@@ -8437,8 +8391,8 @@ const DATA={"weekendList": [
 "length":175,
 "level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
-"price":null,
-"slots":null,
+"price":"43\u00a0000\u00a0\u20bd",
+"slots":0,
 "start":"06.03.2021",
 "tags":[
 1,
@@ -8805,7 +8759,7 @@ const DATA={"weekendList": [
 "length":16,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b 4+",
-"price":"33\u00a0900\u00a0\u20bd",
+"price":"35\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"07.03.2021",
 "tags":[
@@ -9104,7 +9058,7 @@ const DATA={"weekendList": [
 "length":15,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441 \u043a\u0438\u0442\u0430\u043c\u0438",
-"price":"131\u00a0500\u00a0\u20bd",
+"price":"131\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"13.03.2021",
 "tags":[
@@ -9403,7 +9357,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"110\u00a0700\u00a0\u20bd",
+"price":"110\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9426,7 +9380,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"109\u00a0100\u00a0\u20bd",
+"price":"109\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9449,7 +9403,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0433\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440 \u0438 \u0433\u043e\u043a\u0438\u043e \u0440\u0438",
-"price":"61\u00a0200\u00a0\u20bd",
+"price":"61\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9932,7 +9886,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"110\u00a0700\u00a0\u20bd",
+"price":"110\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"10.04.2021",
 "tags":[
@@ -9978,7 +9932,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":5,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043c\u0435\u0440\u0430 \u043f\u0438\u043a 6476\u043c",
-"price":"109\u00a0100\u00a0\u20bd",
+"price":"109\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"11.04.2021",
 "tags":[
@@ -10277,7 +10231,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
-"price":"36\u00a0600\u00a0\u20bd",
+"price":"36\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"18.04.2021",
 "tags":[
@@ -10461,7 +10415,7 @@ const DATA={"weekendList": [
 "length":40,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0438\u043f\u0440 4+",
-"price":"36\u00a0600\u00a0\u20bd",
+"price":"36\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.04.2021",
 "tags":[
@@ -10806,7 +10760,7 @@ const DATA={"weekendList": [
 "length":1,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
-"price":"150\u00a0300\u00a0\u20bd",
+"price":"150\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10852,7 +10806,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"20\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10898,7 +10852,7 @@ const DATA={"weekendList": [
 "length":70,
 "level":2,
 "norm":"\u0431\u043e\u043b\u0438\u0432\u0438\u044f \u0438 \u0443\u044e\u043d\u0438",
-"price":"92\u00a0600\u00a0\u20bd",
+"price":"92\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10921,7 +10875,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043d\u0435\u043f\u0430\u043b \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0430\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0442\u0438\u043b\u0438\u0447\u043e \u0438 \u0430\u0439\u0441-\u043b\u044d\u0439\u043a",
-"price":"58\u00a0900\u00a0\u20bd",
+"price":"59\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -12922,7 +12876,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":2,
 "norm":"\u044d\u043a\u0432\u0430\u0434\u043e\u0440 \u0438 \u0433\u0430\u043b\u0430\u043f\u0430\u0433\u043e\u0441\u044b \u0434\u0440\u0443\u0433\u0430\u044f \u043f\u043b\u0430\u043d\u0435\u0442\u0430",
-"price":"141\u00a0300\u00a0\u20bd",
+"price":"141\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"22.05.2021",
 "tags":[
@@ -13819,7 +13773,7 @@ const DATA={"weekendList": [
 "length":75,
 "level":2,
 "norm":"\u043c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"25\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"05.06.2021",
 "tags":[
@@ -14647,7 +14601,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"20\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"12.06.2021",
 "tags":[
@@ -15498,7 +15452,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"41\u00a0600\u00a0\u20bd",
+"price":"41\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"17.06.2021",
 "tags":[
@@ -20391,6 +20345,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"24.07.2021",
+"for_kids":1,
+"id":"2fe62da",
+"length":null,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"price":"13\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"18.07.2021",
+"tags":[
+64,
+1,
+2,
+1,
+4,
+2,
+64
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-imeretinskie-ozera/",
+"vendor":"perehod"
+},
+{
 "end":"31.07.2021",
 "for_kids":0,
 "id":"9263399",
@@ -21656,6 +21633,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"30.07.2021",
+"for_kids":1,
+"id":"ceb5543",
+"length":null,
+"level":1,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043e\u0437\u0435\u0440\u043e \u043a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
+"price":"14\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"25.07.2021",
+"tags":[
+64,
+1,
+1,
+1,
+4,
+2,
+64
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u041e\u0437\u0435\u0440\u043e \u041a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
+"url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-ozero-kardyvach-/",
+"vendor":"perehod"
+},
+{
 "end":"31.07.2021",
 "for_kids":0,
 "id":"dd6be26",
@@ -22691,6 +22691,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"07.08.2021",
+"for_kids":1,
+"id":"9a905b2",
+"length":null,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"price":"13\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"01.08.2021",
+"tags":[
+64,
+1,
+2,
+1,
+4,
+2,
+128
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-imeretinskie-ozera/",
+"vendor":"perehod"
+},
+{
 "end":"14.08.2021",
 "for_kids":0,
 "id":"cd3adb4",
@@ -23134,7 +23157,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"41\u00a0600\u00a0\u20bd",
+"price":"41\u00a0700\u00a0\u20bd",
 "slots":0,
 "start":"03.08.2021",
 "tags":[
@@ -23663,7 +23686,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"20\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"07.08.2021",
 "tags":[
@@ -24698,7 +24721,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"41\u00a0600\u00a0\u20bd",
+"price":"41\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2021",
 "tags":[
@@ -26009,7 +26032,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":3,
 "norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"20\u00a0500\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"21.08.2021",
 "tags":[
@@ -26676,7 +26699,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":2,
 "norm":"\u0430\u0440\u043c\u0435\u043d\u0438\u044f \u0438 \u043d\u0430\u0433\u043e\u0440\u043d\u044b\u0439 \u043a\u0430\u0440\u0430\u0431\u0430\u0445 \u0430\u0432\u0442\u043e \u0438 \u043f\u0435\u0448\u0438\u0439",
-"price":"62\u00a0800\u00a0\u20bd",
+"price":"62\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"26.08.2021",
 "tags":[
@@ -27389,7 +27412,7 @@ const DATA={"weekendList": [
 "length":20,
 "level":1,
 "norm":"\u0442\u043e\u0447\u043a\u0430 \u0441\u0435\u0437\u043e\u043d\u0430 2021",
-"price":"6\u00a0900\u00a0\u20bd",
+"price":"7\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"03.09.2021",
 "tags":[
@@ -28232,6 +28255,29 @@ const DATA={"weekendList": [
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
+},
+{
+"end":"19.09.2021",
+"for_kids":0,
+"id":"93e14d3",
+"length":80,
+"level":3,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438 \u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u044f\u043a\u0430\u0445 \u0432 \u043a\u0440\u044b\u043c\u0443",
+"price":null,
+"slots":null,
+"start":"11.09.2021",
+"tags":[
+1,
+1,
+4,
+0,
+4,
+2,
+256
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
+"url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/2338/",
+"vendor":"pik"
 },
 {
 "end":"17.09.2021",
@@ -29252,7 +29298,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"109\u00a0100\u00a0\u20bd",
+"price":"109\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"02.10.2021",
 "tags":[
@@ -29275,7 +29321,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0433\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440 \u0438 \u0433\u043e\u043a\u0438\u043e \u0440\u0438",
-"price":"61\u00a0200\u00a0\u20bd",
+"price":"61\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"02.10.2021",
 "tags":[
@@ -30080,7 +30126,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043d\u0435\u043f\u0430\u043b \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0430\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0442\u0438\u043b\u0438\u0447\u043e \u0438 \u0430\u0439\u0441-\u043b\u044d\u0439\u043a",
-"price":"58\u00a0900\u00a0\u20bd",
+"price":"59\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"08.11.2021",
 "tags":[
@@ -30149,7 +30195,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440",
-"price":"51\u00a0000\u00a0\u20bd",
+"price":"51\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"23.12.2021",
 "tags":[
