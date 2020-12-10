@@ -38,35 +38,12 @@ const DATA={"weekendList": [
 {
 "end":"13.12.2020",
 "for_kids":0,
-"id":"5bde8f1",
-"length":null,
-"level":3,
-"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u043b\u0442\u0430\u044e 265 \u043a\u043c",
-"price":"46\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":"09.12.2020",
-"tags":[
-512,
-0,
-4,
-0,
-4,
-2,
-2048
-],
-"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
-"url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
-"vendor":"pro_adventure"
-},
-{
-"end":"13.12.2020",
-"for_kids":0,
 "id":"705ad7a",
 "length":null,
 "level":2,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0430\u043b\u0442\u0430\u044e",
 "price":"33\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"10.12.2020",
 "tags":[
 512,
@@ -89,7 +66,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a \u043a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "price":"27\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"10.12.2020",
 "tags":[
 512,
@@ -111,7 +88,7 @@ const DATA={"weekendList": [
 "length":6,
 "level":1,
 "norm":"\u0433\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432 \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
-"price":"1\u00a0800\u00a0\u20bd",
+"price":null,
 "slots":null,
 "start":"12.12.2020",
 "tags":[
@@ -378,29 +355,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f \u0438\u00a0\u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433 \u0420\u0430\u0434\u0436\u0430 \u0410\u043c\u043f\u0430\u0442",
 "url":"https://pro-adventure.ru/tours/id_1448_indoneziya-i-radzha-ampat",
-"vendor":"pro_adventure"
-},
-{
-"end":"13.12.2020",
-"for_kids":1,
-"id":"3d8480c",
-"length":null,
-"level":2,
-"norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u043a\u0430\u043b\u044b \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
-"price":"2\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"13.12.2020",
-"tags":[
-512,
-0,
-2,
-1,
-4,
-1,
-2048
-],
-"title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440: \u0441\u043a\u0430\u043b\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
-"url":"https://pro-adventure.ru/tours/id_2412_semeyniy-peshij-tur-skalyi-podmoskovya",
 "vendor":"pro_adventure"
 },
 {
@@ -709,8 +663,8 @@ const DATA={"weekendList": [
 "length":14,
 "level":3,
 "norm":"\u043e\u0441\u043d\u043e\u0432\u044b \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c\u0430 \u0432 \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
-"price":"3\u00a0200\u00a0\u20bd",
-"slots":null,
+"price":null,
+"slots":0,
 "start":"19.12.2020",
 "tags":[
 1,
@@ -727,11 +681,11 @@ const DATA={"weekendList": [
 },
 {
 "end":"20.12.2020",
-"for_kids":1,
+"for_kids":0,
 "id":"1efa6de",
 "length":1,
 "level":1,
-"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0435 \u0441\u043e\u0440\u0435\u0432\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0443 \u0432 \u0431\u0430\u0441\u0441\u0435\u0439\u043d\u0435",
+"norm":"\u0441\u043e\u0440\u0435\u0432\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0443 \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439",
 "price":"800\u00a0\u20bd",
 "slots":null,
 "start":"19.12.2020",
@@ -739,12 +693,12 @@ const DATA={"weekendList": [
 1,
 0,
 1,
-1,
+0,
 4,
 1,
 2048
 ],
-"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0435 \u0441\u043e\u0440\u0435\u0432\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u00a0\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0443 \u0432\u00a0\u0431\u0430\u0441\u0441\u0435\u0439\u043d\u0435",
+"title":"\u0421\u043e\u0440\u0435\u0432\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u00a0\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0443 \u0434\u043b\u044f \u0434\u0435\u0442\u0435\u0439",
 "url":"https://turclub-pik.ru/pohod/detskie-sorevnovaniya-po-fridaivingu-v-basseine/2336/",
 "vendor":"pik"
 },
@@ -1496,7 +1450,7 @@ const DATA={"weekendList": [
 "start":"28.12.2020",
 "tags":[
 512,
-1,
+0,
 2,
 1,
 4,
@@ -1542,7 +1496,7 @@ const DATA={"weekendList": [
 "start":"28.12.2020",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 4,
@@ -1657,7 +1611,7 @@ const DATA={"weekendList": [
 "start":"29.12.2020",
 "tags":[
 512,
-1,
+0,
 2,
 1,
 4,
@@ -2002,7 +1956,7 @@ const DATA={"weekendList": [
 "start":"30.12.2020",
 "tags":[
 64,
-1,
+0,
 8,
 0,
 4,
@@ -2163,7 +2117,7 @@ const DATA={"weekendList": [
 "start":"31.12.2020",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 4,
@@ -2320,7 +2274,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
 "price":"12\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"02.01.2021",
 "tags":[
 1,
@@ -2573,7 +2527,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 7+",
 "price":"15\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"03.01.2021",
 "tags":[
 1,
@@ -3129,7 +3083,7 @@ const DATA={"weekendList": [
 "start":"04.01.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 4,
@@ -3152,7 +3106,7 @@ const DATA={"weekendList": [
 "start":"04.01.2021",
 "tags":[
 64,
-1,
+0,
 8,
 0,
 4,
@@ -3391,29 +3345,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u0430 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0428\u0445\u0435\u0440\u044b \u0438\u00a0\u0441\u043a\u0430\u043b\u044b \u041b\u0430\u0434\u043e\u0433\u0438",
 "url":"https://turclub-pik.ru/pohod/zima-v-karelii-shkhery-i-skaly-ladogi/2312/",
-"vendor":"pik"
-},
-{
-"end":"10.01.2021",
-"for_kids":1,
-"id":"039a728",
-"length":10,
-"level":1,
-"norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 7+",
-"price":"14\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":"07.01.2021",
-"tags":[
-1,
-0,
-1,
-1,
-4,
-2,
-1
-],
-"title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 (7+)",
-"url":"https://turclub-pik.ru/pohod/semeinyi-novyi-god-v-karelii/2318/",
 "vendor":"pik"
 },
 {
@@ -3722,7 +3653,7 @@ const DATA={"weekendList": [
 "length":10,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0432 \u0434\u0430\u0445\u0430\u0431\u0435 \u043a\u0443\u0440\u0441 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
-"price":"36\u00a0800\u00a0\u20bd",
+"price":"36\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"10.01.2021",
 "tags":[
@@ -4072,7 +4003,7 @@ const DATA={"weekendList": [
 "start":"16.01.2021",
 "tags":[
 4,
-1,
+0,
 2,
 0,
 4,
@@ -5694,6 +5625,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"18.02.2021",
+"for_kids":0,
+"id":"2e3de9a",
+"length":120,
+"level":3,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
+"price":"46\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"10.02.2021",
+"tags":[
+1,
+1,
+4,
+0,
+4,
+2,
+2
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-konkakh/2354/",
+"vendor":"pik"
+},
+{
 "end":"14.02.2021",
 "for_kids":0,
 "id":"948d14e",
@@ -6096,7 +6050,7 @@ const DATA={"weekendList": [
 "start":"14.02.2021",
 "tags":[
 256,
-1,
+0,
 4,
 1,
 4,
@@ -6326,7 +6280,7 @@ const DATA={"weekendList": [
 "start":"19.02.2021",
 "tags":[
 2,
-1,
+0,
 2,
 0,
 4,
@@ -6579,7 +6533,7 @@ const DATA={"weekendList": [
 "start":"20.02.2021",
 "tags":[
 16,
-1,
+0,
 4,
 0,
 4,
@@ -6844,9 +6798,9 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
-"end":"28.02.2021",
+"end":"27.02.2021",
 "for_kids":0,
-"id":"4d6c41b",
+"id":"a82330c",
 "length":20,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0430\u043b\u0442\u0430\u0439 \u0447\u0435\u043c\u0430\u043b \u0438 \u043c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
@@ -6855,7 +6809,7 @@ const DATA={"weekendList": [
 "start":"21.02.2021",
 "tags":[
 1,
-0,
+1,
 1,
 0,
 4,
@@ -7683,7 +7637,7 @@ const DATA={"weekendList": [
 "start":"28.02.2021",
 "tags":[
 16,
-1,
+0,
 4,
 0,
 4,
@@ -8070,7 +8024,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043b\u044c\u0434\u0443 \u043c\u0430\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "price":"33\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":"06.03.2021",
 "tags":[
 1,
@@ -8373,7 +8327,7 @@ const DATA={"weekendList": [
 "start":"06.03.2021",
 "tags":[
 64,
-1,
+0,
 2,
 0,
 4,
@@ -8782,7 +8736,7 @@ const DATA={"weekendList": [
 "length":15,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441 \u043a\u0438\u0442\u0430\u043c\u0438",
-"price":"128\u00a0600\u00a0\u20bd",
+"price":"128\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"13.03.2021",
 "tags":[
@@ -9081,7 +9035,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"107\u00a0000\u00a0\u20bd",
+"price":"106\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9104,7 +9058,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"105\u00a0500\u00a0\u20bd",
+"price":"105\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9127,7 +9081,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0433\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440 \u0438 \u0433\u043e\u043a\u0438\u043e \u0440\u0438",
-"price":"59\u00a0200\u00a0\u20bd",
+"price":"58\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"20.03.2021",
 "tags":[
@@ -9201,7 +9155,7 @@ const DATA={"weekendList": [
 "start":"21.03.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 2,
@@ -9247,7 +9201,7 @@ const DATA={"weekendList": [
 "start":"21.03.2021",
 "tags":[
 64,
-1,
+0,
 2,
 0,
 4,
@@ -9661,7 +9615,7 @@ const DATA={"weekendList": [
 "start":"07.04.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 2,
@@ -9679,7 +9633,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u043f\u0435\u0440\u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432 \u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
-"price":"107\u00a0000\u00a0\u20bd",
+"price":"106\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"10.04.2021",
 "tags":[
@@ -9725,7 +9679,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":5,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043c\u0435\u0440\u0430 \u043f\u0438\u043a 6476\u043c",
-"price":"105\u00a0500\u00a0\u20bd",
+"price":"105\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"11.04.2021",
 "tags":[
@@ -10024,7 +9978,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
-"price":"35\u00a0800\u00a0\u20bd",
+"price":"35\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"18.04.2021",
 "tags":[
@@ -10185,7 +10139,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u043a\u0438\u043f\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"27\u00a0600\u00a0\u20bd",
+"price":"27\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":"23.04.2021",
 "tags":[
@@ -10213,7 +10167,7 @@ const DATA={"weekendList": [
 "start":"23.04.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 2,
@@ -10231,7 +10185,7 @@ const DATA={"weekendList": [
 "length":40,
 "level":1,
 "norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0438\u043f\u0440 4+",
-"price":"35\u00a0800\u00a0\u20bd",
+"price":"35\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"24.04.2021",
 "tags":[
@@ -10254,7 +10208,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
-"price":"27\u00a0300\u00a0\u20bd",
+"price":"27\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"24.04.2021",
 "tags":[
@@ -10507,7 +10461,7 @@ const DATA={"weekendList": [
 "length":75,
 "level":3,
 "norm":"\u043a\u0438\u043f\u0440 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438 \u0433\u043e\u0440\u044b \u043a\u0438\u0440\u0438\u043d\u0438\u044f",
-"price":"29\u00a0400\u00a0\u20bd",
+"price":"29\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"30.04.2021",
 "tags":[
@@ -10576,7 +10530,7 @@ const DATA={"weekendList": [
 "length":1,
 "level":1,
 "norm":"\u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
-"price":"147\u00a0000\u00a0\u20bd",
+"price":"146\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10668,7 +10622,7 @@ const DATA={"weekendList": [
 "length":70,
 "level":2,
 "norm":"\u0431\u043e\u043b\u0438\u0432\u0438\u044f \u0438 \u0443\u044e\u043d\u0438",
-"price":"89\u00a0500\u00a0\u20bd",
+"price":"89\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10691,7 +10645,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043d\u0435\u043f\u0430\u043b \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0430\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0442\u0438\u043b\u0438\u0447\u043e \u0438 \u0430\u0439\u0441-\u043b\u044d\u0439\u043a",
-"price":"56\u00a0900\u00a0\u20bd",
+"price":"56\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10714,7 +10668,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
-"price":"27\u00a0300\u00a0\u20bd",
+"price":"27\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"01.05.2021",
 "tags":[
@@ -10742,7 +10696,7 @@ const DATA={"weekendList": [
 "start":"01.05.2021",
 "tags":[
 1,
-1,
+0,
 2,
 1,
 4,
@@ -10765,7 +10719,7 @@ const DATA={"weekendList": [
 "start":"01.05.2021",
 "tags":[
 1,
-1,
+0,
 2,
 1,
 4,
@@ -10820,6 +10774,29 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/2337/",
+"vendor":"pik"
+},
+{
+"end":"09.05.2021",
+"for_kids":1,
+"id":"3636348",
+"length":60,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u044b\u043c \u043f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0434\u0435\u0442\u0438 5+",
+"price":"18\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":"01.05.2021",
+"tags":[
+1,
+1,
+2,
+1,
+4,
+2,
+16
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0434\u0435\u0442\u0438 (5+)",
+"url":"https://turclub-pik.ru/pohod/peshernye-deti/2355/",
 "vendor":"pik"
 },
 {
@@ -11524,7 +11501,7 @@ const DATA={"weekendList": [
 "start":"02.05.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 2,
@@ -11841,7 +11818,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
-"price":"21\u00a0200\u00a0\u20bd",
+"price":"21\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"05.05.2021",
 "tags":[
@@ -12439,7 +12416,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
-"price":"21\u00a0200\u00a0\u20bd",
+"price":"21\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"12.05.2021",
 "tags":[
@@ -12720,7 +12697,7 @@ const DATA={"weekendList": [
 "start":"17.05.2021",
 "tags":[
 512,
-1,
+0,
 4,
 0,
 2,
@@ -12766,7 +12743,7 @@ const DATA={"weekendList": [
 "start":"19.05.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -12830,7 +12807,7 @@ const DATA={"weekendList": [
 "length":80,
 "level":2,
 "norm":"\u044d\u043a\u0432\u0430\u0434\u043e\u0440 \u0438 \u0433\u0430\u043b\u0430\u043f\u0430\u0433\u043e\u0441\u044b \u0434\u0440\u0443\u0433\u0430\u044f \u043f\u043b\u0430\u043d\u0435\u0442\u0430",
-"price":"136\u00a0600\u00a0\u20bd",
+"price":"135\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"22.05.2021",
 "tags":[
@@ -13134,7 +13111,7 @@ const DATA={"weekendList": [
 "start":"24.05.2021",
 "tags":[
 512,
-1,
+0,
 4,
 0,
 2,
@@ -13686,7 +13663,7 @@ const DATA={"weekendList": [
 "start":"02.06.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -14353,7 +14330,7 @@ const DATA={"weekendList": [
 "start":"08.06.2021",
 "tags":[
 512,
-1,
+0,
 2,
 0,
 2,
@@ -14463,7 +14440,7 @@ const DATA={"weekendList": [
 "length":45,
 "level":1,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0442\u0443\u0440\u0446\u0438\u044f \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438 \u043f\u043e\u0445\u043e\u0434",
-"price":"30\u00a0300\u00a0\u20bd",
+"price":"30\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"11.06.2021",
 "tags":[
@@ -14478,29 +14455,6 @@ const DATA={"weekendList": [
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/2015/",
 "vendor":"pik"
-},
-{
-"end":"20.06.2021",
-"for_kids":0,
-"id":"03dae07",
-"length":null,
-"level":null,
-"norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
-"price":"24\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"11.06.2021",
-"tags":[
-4,
-0,
-4,
-0,
-4,
-2,
-32
-],
-"title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
-"url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
-"vendor":"cityescape"
 },
 {
 "end":"14.06.2021",
@@ -15342,7 +15296,7 @@ const DATA={"weekendList": [
 "start":"14.06.2021",
 "tags":[
 2,
-1,
+0,
 2,
 0,
 4,
@@ -15365,7 +15319,7 @@ const DATA={"weekendList": [
 "start":"15.06.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -15521,7 +15475,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"40\u00a0200\u00a0\u20bd",
+"price":"40\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"17.06.2021",
 "tags":[
@@ -15664,7 +15618,7 @@ const DATA={"weekendList": [
 "start":"19.06.2021",
 "tags":[
 64,
-1,
+0,
 8,
 0,
 4,
@@ -17366,7 +17320,7 @@ const DATA={"weekendList": [
 "start":"01.07.2021",
 "tags":[
 1,
-1,
+0,
 1,
 1,
 4,
@@ -19459,7 +19413,7 @@ const DATA={"weekendList": [
 "start":"12.07.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -19505,7 +19459,7 @@ const DATA={"weekendList": [
 "start":"13.07.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -20167,7 +20121,7 @@ const DATA={"weekendList": [
 "length":210,
 "level":2,
 "norm":"\u0432\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0430\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u043c \u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c",
-"price":"29\u00a0400\u00a0\u20bd",
+"price":"29\u00a0300\u00a0\u20bd",
 "slots":null,
 "start":"18.07.2021",
 "tags":[
@@ -20218,7 +20172,7 @@ const DATA={"weekendList": [
 "start":"18.07.2021",
 "tags":[
 1,
-1,
+0,
 4,
 0,
 4,
@@ -22254,29 +22208,6 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
-"end":"08.08.2021",
-"for_kids":0,
-"id":"f6c9d5d",
-"length":null,
-"level":null,
-"norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
-"price":"24\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":"30.07.2021",
-"tags":[
-4,
-0,
-4,
-0,
-4,
-2,
-192
-],
-"title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
-"url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
-"vendor":"cityescape"
-},
-{
 "end":"06.08.2021",
 "for_kids":0,
 "id":"aac5137",
@@ -22605,7 +22536,7 @@ const DATA={"weekendList": [
 "length":60,
 "level":2,
 "norm":"\u043d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"68\u00a0900\u00a0\u20bd",
+"price":"68\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"01.08.2021",
 "tags":[
@@ -23208,7 +23139,7 @@ const DATA={"weekendList": [
 "start":"02.08.2021",
 "tags":[
 1,
-1,
+0,
 1,
 0,
 4,
@@ -23433,7 +23364,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"40\u00a0200\u00a0\u20bd",
+"price":"40\u00a0000\u00a0\u20bd",
 "slots":0,
 "start":"03.08.2021",
 "tags":[
@@ -24289,7 +24220,7 @@ const DATA={"weekendList": [
 "start":"08.08.2021",
 "tags":[
 16,
-1,
+0,
 4,
 0,
 4,
@@ -25043,7 +24974,7 @@ const DATA={"weekendList": [
 "length":85,
 "level":3,
 "norm":"\u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b \u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-"price":"40\u00a0200\u00a0\u20bd",
+"price":"40\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"14.08.2021",
 "tags":[
@@ -26037,7 +25968,7 @@ const DATA={"weekendList": [
 "start":"18.08.2021",
 "tags":[
 256,
-1,
+0,
 8,
 0,
 4,
@@ -26538,7 +26469,7 @@ const DATA={"weekendList": [
 "length":60,
 "level":2,
 "norm":"\u043d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"68\u00a0900\u00a0\u20bd",
+"price":"68\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":"22.08.2021",
 "tags":[
@@ -27044,7 +26975,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":2,
 "norm":"\u0430\u0440\u043c\u0435\u043d\u0438\u044f \u0438 \u043d\u0430\u0433\u043e\u0440\u043d\u044b\u0439 \u043a\u0430\u0440\u0430\u0431\u0430\u0445 \u0430\u0432\u0442\u043e \u0438 \u043f\u0435\u0448\u0438\u0439",
-"price":"60\u00a0700\u00a0\u20bd",
+"price":"60\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"26.08.2021",
 "tags":[
@@ -27095,7 +27026,7 @@ const DATA={"weekendList": [
 "start":"27.08.2021",
 "tags":[
 1,
-1,
+0,
 2,
 1,
 4,
@@ -28516,7 +28447,7 @@ const DATA={"weekendList": [
 "length":45,
 "level":1,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0442\u0443\u0440\u0446\u0438\u044f \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438 \u043f\u043e\u0445\u043e\u0434",
-"price":"30\u00a0300\u00a0\u20bd",
+"price":"30\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"10.09.2021",
 "tags":[
@@ -28970,6 +28901,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"end":"26.09.2021",
+"for_kids":0,
+"id":"61e8e39",
+"length":null,
+"level":null,
+"norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
+"price":"24\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":"17.09.2021",
+"tags":[
+4,
+1,
+4,
+0,
+4,
+2,
+256
+],
+"title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
+"url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
+"vendor":"cityescape"
+},
+{
 "end":"19.09.2021",
 "for_kids":0,
 "id":"5be9dc6",
@@ -29321,7 +29275,7 @@ const DATA={"weekendList": [
 "length":45,
 "level":1,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0442\u0443\u0440\u0446\u0438\u044f \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438 \u043f\u043e\u0445\u043e\u0434",
-"price":"30\u00a0300\u00a0\u20bd",
+"price":"30\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"23.09.2021",
 "tags":[
@@ -29344,7 +29298,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
-"price":"27\u00a0300\u00a0\u20bd",
+"price":"27\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":"25.09.2021",
 "tags":[
@@ -29666,7 +29620,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u0430\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a 6183\u043c + \u0431\u043b \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u043a\u0438\u043e",
-"price":"105\u00a0500\u00a0\u20bd",
+"price":"105\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":"02.10.2021",
 "tags":[
@@ -29689,7 +29643,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0433\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440 \u0438 \u0433\u043e\u043a\u0438\u043e \u0440\u0438",
-"price":"59\u00a0200\u00a0\u20bd",
+"price":"58\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":"02.10.2021",
 "tags":[
@@ -29947,7 +29901,7 @@ const DATA={"weekendList": [
 "start":"04.10.2021",
 "tags":[
 2,
-1,
+0,
 2,
 0,
 4,
@@ -29988,7 +29942,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
-"price":"21\u00a0200\u00a0\u20bd",
+"price":"21\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"06.10.2021",
 "tags":[
@@ -30287,7 +30241,7 @@ const DATA={"weekendList": [
 "length":40,
 "level":2,
 "norm":"\u0442\u0443\u0440\u0446\u0438\u044f \u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u043d\u0430 \u043b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
-"price":"26\u00a0600\u00a0\u20bd",
+"price":"26\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":"23.10.2021",
 "tags":[
@@ -30448,7 +30402,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
-"price":"21\u00a0200\u00a0\u20bd",
+"price":"21\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"03.11.2021",
 "tags":[
@@ -30517,7 +30471,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043d\u0435\u043f\u0430\u043b \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0430\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0442\u0438\u043b\u0438\u0447\u043e \u0438 \u0430\u0439\u0441-\u043b\u044d\u0439\u043a",
-"price":"56\u00a0900\u00a0\u20bd",
+"price":"56\u00a0600\u00a0\u20bd",
 "slots":null,
 "start":"08.11.2021",
 "tags":[
@@ -30563,7 +30517,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u044d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u043b\u0430-\u043f\u0430\u0442\u0430\u0440",
-"price":"49\u00a0300\u00a0\u20bd",
+"price":"49\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":"23.12.2021",
 "tags":[
