@@ -35,3 +35,4 @@ def test_parse_item():
     assert item.end == datetime(2021, 2, 24)
     assert item.length == 20
     assert item.level == Level.VERY_EASY
+    assert item.url == 'https://turclub-pik.ru/pohod/aktivnyi-sochi/474/'

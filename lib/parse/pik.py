@@ -63,7 +63,7 @@ def parse_item(item: dict) -> Item:
         end=end,
         title=route['name'],
         price=price,
-        url='https://turclub-pik.ru/pohod/{slug}/'.format_map(route),
+        url='https://turclub-pik.ru/pohod/{slug}/{id}/'.format_map(route),
         level=LEVELS[route['difficulty']['slug']],
         length=route['path_length'],
         slots=slots,
