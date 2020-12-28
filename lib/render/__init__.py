@@ -31,7 +31,10 @@ from .tags import KIDS, TAGS, get_tags
 
 TOO_LONG = timedelta(days=30)
 CONSIDER_NEW = TODAY - timedelta(days=7)
-JS_TEMPLATE = 'const DATA={{"weekendList": {}, "noWeekendList": {}, "eventSource": {}, "tagGroups": {}}};'
+JS_TEMPLATE = (
+    'const DATA={{"weekendList": {}, "noWeekendList": {}, '
+    '"eventSource": {}, "tagGroups": {}}};'
+)
 sort_items = sorter(itemgetter('start'))
 
 

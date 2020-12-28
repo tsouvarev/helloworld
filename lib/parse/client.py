@@ -11,9 +11,11 @@ Progress: ContextVar[progress] = ContextVar('Prog')
 async def request(method: str, url: str, *args, timeout: int = 30, **kwargs):
     try:
         async with httpx.AsyncClient(verify=False) as c:
-            return await c.request(
+            resp = await c.request(
                 method, url, *args, timeout=timeout, **kwargs
             )
+            url = resp.url
+            return resp
     finally:
         prog = Progress.get()
         prog(url)
