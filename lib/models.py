@@ -1,10 +1,10 @@
 from datetime import datetime
 from typing import Optional
 
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, Field, validator
 
 from .config import Level, Vendor
-from .utils import hash_uid
+from .utils import hash_uid, utcnow
 
 
 class Item(BaseModel):
@@ -23,6 +23,7 @@ class Item(BaseModel):
     length: Optional[int] = None
     slots: Optional[int] = None
     id: Optional[str] = None
+    created: datetime = Field(default_factory=utcnow)
 
     @validator('id', pre=True, always=True)
     def default_id(cls, v, *, values):

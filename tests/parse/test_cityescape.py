@@ -184,4 +184,4 @@ def test_title_re(source, expected):
     ),
 )
 def test_parse_dates(source, expected):
-    assert list(parse_dates(source)) == expected
+    assert list(parse_dates(source, datetime(2020, 1, 1))) == expected

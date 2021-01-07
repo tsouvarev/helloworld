@@ -296,8 +296,8 @@ function getEvents(eventSource, tagGroups) {
 
     for (let i = 0; i < eventSource.length; i++){
         let source = eventSource[i];
-        start = moment(source.start, dateFormat);
-        end = moment(source.end, dateFormat);
+        start = moment.unix(source.start);
+        end = moment.unix(source.end);
         const days = end.diff(start, 'days') + 1;
         event = Object.assign(source, {
             index: i,

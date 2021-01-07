@@ -8,9 +8,9 @@ from funcy import nth
 abs_path = partial(os.path.join, os.path.dirname(os.path.realpath(__file__)))
 src_path = partial(abs_path, '../src')
 www_path = partial(abs_path, '../docs')
-META_DATA = src_path('__meta__.json')
 DIST_DATA = www_path('data.js')
 DIST_INDEX = www_path('index.html')
+PREV_DATA = 'https://uhike.ru/data.js'
 
 TODAY = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
 FIRST_DATE = TODAY - timedelta(days=7)  # Makes render "today" on calendar
@@ -18,7 +18,6 @@ LAST_DATE = TODAY + timedelta(days=600)
 TODAY_INT = int(TODAY.timestamp())
 NEW_INT = int((TODAY - timedelta(days=2)).timestamp())
 
-DATE_FORMAT = '%d.%m.%Y'
 SHORT_DURATION = timedelta(days=3)
 MONTHS_NORM = (
     'январь февраль март апрель май июнь июль август '

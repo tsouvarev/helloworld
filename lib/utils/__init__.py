@@ -1,8 +1,9 @@
 import asyncio
+import calendar
 import hashlib
 from contextlib import contextmanager
 from dataclasses import dataclass, field
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from functools import partial, update_wrapper, wraps
 from inspect import iscoroutinefunction
 from itertools import cycle, zip_longest
@@ -14,11 +15,11 @@ from cssselect import GenericTranslator
 from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
-from ..config import DATE_FORMAT
 from .text import format_price, int_or_none, normalize, re_digits  # noqa
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)
+warn = partial(click.secho, color='yellow', bold=True)
 error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compact = partial(filter, bool)
@@ -59,13 +60,13 @@ class progress:
         print(f'{ERASE_LINE}\r{spin} {msg}', end='')
 
 
-def strptime(src: str) -> datetime:
-    return datetime.strptime(src, DATE_FORMAT)
+def utcnow() -> datetime:
+    return datetime.now(timezone.utc)
 
 
 def dumps_default(o):
     if isinstance(o, date):
-        return o.strftime(DATE_FORMAT)
+        return calendar.timegm(o.timetuple())
     raise TypeError
 
 

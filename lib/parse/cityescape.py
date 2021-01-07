@@ -71,7 +71,9 @@ async def parse_page(url: str):
     return items
 
 
-def parse_dates(src: str) -> Iterable[Tuple[datetime, datetime]]:
+def parse_dates(
+    src: str, today: datetime = TODAY
+) -> Iterable[Tuple[datetime, datetime]]:
     dates = src.split(',')
     for pair in dates:
         splitted = pair.split('-')
@@ -81,7 +83,7 @@ def parse_dates(src: str) -> Iterable[Tuple[datetime, datetime]]:
         else:
             start_src, end_src = splitted
 
-        start = end = parse_date(end_src, TODAY)
+        start = end = parse_date(end_src, today)
         if start_src:
             start = parse_date(start_src, start)
             if end < start:

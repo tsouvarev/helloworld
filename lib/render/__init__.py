@@ -1,8 +1,8 @@
 import json
-from datetime import timedelta
-from json import JSONDecodeError
+from datetime import datetime, timedelta
 from operator import itemgetter
 
+import httpx
 from funcy import first
 from typus import ru_typus
 
@@ -10,9 +10,9 @@ from ..config import (
     DIST_DATA,
     FIRST_DATE,
     LAST_DATE,
-    META_DATA,
     NEW_INT,
     NO_WEEKENDS,
+    PREV_DATA,
     TODAY,
     TODAY_INT,
     WEEKENDS,
@@ -23,9 +23,10 @@ from ..utils import (
     debug,
     format_price,
     json_dumps,
+    json_loads,
     normalize,
     sorter,
-    strptime,
+    warn,
 )
 from .tags import KIDS, TAGS, get_tags
 
@@ -59,7 +60,8 @@ def post_filter(date, item: dict):
 
 def parse_item(item: dict):
     item.update(
-        start=strptime(item['start']), end=strptime(item['end']),
+        start=datetime.utcfromtimestamp(item['start']),
+        end=datetime.utcfromtimestamp(item['end']),
     )
     return item
 
@@ -95,9 +97,11 @@ def render():
     """
 
     try:
-        with open(META_DATA, 'r+') as f:
-            meta = json.load(f)
-    except (FileNotFoundError, JSONDecodeError):
+        _, prev_text = httpx.get(PREV_DATA).text.split('=', 1)
+        prev_data = json_loads(prev_text.rstrip(' ;'))
+        meta = {x['id']: x['created'] for x in prev_data['eventSource']}
+    except Exception as e:
+        warn(f'Could not load previous data: "{e}"')
         meta = {}
 
     with open(DIST_DATA, 'w+') as f:
@@ -116,6 +120,3 @@ def render():
         dump = (WEEKENDS, NO_WEEKENDS, render_items, TAGS)
         template = JS_TEMPLATE.format(*map(json_dumps, dump))
         f.write(template)
-
-    with open(META_DATA, 'w+') as f:
-        f.write(json_dumps(new_meta))
