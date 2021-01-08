@@ -1,4 +1,5 @@
 import json
+from uuid import uuid4
 from datetime import datetime, timedelta
 from operator import itemgetter
 
@@ -67,11 +68,13 @@ def parse_item(item: dict):
 
 
 def render_item(meta: dict, item: dict):
+    created = meta[item['id']]
     item.update(
         price=item['price'] and format_price(item['price']),
         title=ru_typus(item['title'].strip('.')),
         norm=normalize(item['title']),
-        new=meta[item['id']] >= NEW_INT,
+        new=created >= NEW_INT,
+        created=created,
     )
     # This must be called after all updates
     # to create valid tags
@@ -97,7 +100,9 @@ def render():
     """
 
     try:
-        _, prev_text = httpx.get(PREV_DATA).text.split('=', 1)
+        # Adds extra GET param to force serve no cache
+        url = '{}?={}'.format(PREV_DATA, uuid4().hex)
+        _, prev_text = httpx.get(url).text.split('=', 1)
         prev_data = json_loads(prev_text.rstrip(' ;'))
         meta = {x['id']: x['created'] for x in prev_data['eventSource']}
     except Exception as e:

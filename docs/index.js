@@ -349,7 +349,7 @@ function getMonths(today, firstDate, lastDate, weekendList, noWeekendList){
             days.push({
                 date: d,
                 is_weekend: !noWeekendList.has(f) && (d.isoWeekday() >= 6 || weekendList.has(f)),
-                is_today: !today.diff(d),
+                is_today: today.isSame(d, 'date'),
             });
         }
 
