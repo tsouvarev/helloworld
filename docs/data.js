@@ -252,54 +252,6 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
-"created":1606078800,
-"end":1610236800,
-"for_kids":1,
-"id":"aea74ad",
-"length":null,
-"level":2,
-"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438",
-"price":"49\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1610064000,
-"tags":[
-512,
-0,
-2,
-1,
-4,
-1,
-1
-],
-"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2449_noviy-god-na-snegokhodakh-upryazhki-ruskeala-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1608757200,
-"end":1610236800,
-"for_kids":0,
-"id":"24834fe",
-"length":null,
-"level":3,
-"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a \u0433\u043e\u0440\u0435 \u0432\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430 3 \u0434\u043d\u044f",
-"price":"37\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1610064000,
-"tags":[
-512,
-0,
-4,
-0,
-4,
-1,
-1
-],
-"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
-"vendor":"pro_adventure"
-},
-{
 "created":1606251600,
 "end":1610323200,
 "for_kids":0,
@@ -308,7 +260,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0445\u0438\u0431\u0438\u043d\u0430\u0445 3 \u0434\u043d\u044f",
 "price":"32\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1610150400,
 "tags":[
 512,
@@ -356,7 +308,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u043c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432 \u0433\u043e\u0440\u0430\u0445 20 21",
 "price":"26\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1610150400,
 "tags":[
 512,
@@ -380,7 +332,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20 21",
 "price":"26\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1610150400,
 "tags":[
 512,
@@ -404,7 +356,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u043d\u0430 \u043b\u044b\u0436\u0430\u0445 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435 \u043f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "price":"3\u00a0200\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1610150400,
 "tags":[
 512,
@@ -418,30 +370,6 @@ const DATA={"weekendList": [
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
 "vendor":"pro_adventure"
-},
-{
-"created":1608152400,
-"end":1610150400,
-"for_kids":0,
-"id":"7787165",
-"length":null,
-"level":2,
-"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0433\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
-"price":"2\u00a0100\u00a0\u20bd",
-"slots":null,
-"start":1610150400,
-"tags":[
-64,
-0,
-2,
-0,
-4,
-1,
-1
-],
-"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0413\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
-"url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/peshiy-pokhod-na-gremyachiy-klyuch/",
-"vendor":"perehod"
 },
 {
 "created":1609102800,
@@ -5396,7 +5324,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
 "price":"43\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1613952000,
 "tags":[
 1,
@@ -11817,6 +11745,30 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u0435\u043f\u0430\u043b. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0422\u0438\u043b\u0438\u0447\u043e \u0438\u00a0\u0410\u0439\u0441-\u043b\u044d\u0439\u043a",
 "url":"https://turclub-pik.ru/pohod/vokrug-annapurny-ozera-tilicho-i-ais-leik/269/",
+"vendor":"pik"
+},
+{
+"created":1610139600,
+"end":1620518400,
+"for_kids":0,
+"id":"63881be",
+"length":250,
+"level":2,
+"norm":"\u0442\u0443\u0440\u0446\u0438\u044f \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435",
+"price":"\u20ac\u00a0770",
+"slots":null,
+"start":1619827200,
+"tags":[
+1,
+1,
+2,
+0,
+4,
+2,
+16
+],
+"title":"\u0422\u0443\u0440\u0446\u0438\u044f. \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435",
+"url":"https://turclub-pik.ru/pohod/turciya-puteshestvie-na-parusnoi-yakhte/465/",
 "vendor":"pik"
 },
 {
@@ -31164,6 +31116,30 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
+"created":1610139600,
+"end":1628726400,
+"for_kids":0,
+"id":"bfbfbde",
+"length":null,
+"level":3,
+"norm":"\u043a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0430\u043b\u0442\u0430\u044e",
+"price":"43\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1627776000,
+"tags":[
+64,
+1,
+4,
+0,
+4,
+2,
+128
+],
+"title":"\u041a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e",
+"url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/konnyy-pokhod-po-altayu/",
+"vendor":"perehod"
+},
+{
 "created":1605560400,
 "end":1628294400,
 "for_kids":0,
@@ -35828,7 +35804,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u0430\u0445\u0430\u043b\u0438\u043d + \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u0438\u0442\u0443\u0440\u0443\u043f",
 "price":"59\u00a0500\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1629676800,
 "tags":[
 1,
