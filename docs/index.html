@@ -48,7 +48,8 @@
             line-height: 1;
             display: block;
             margin: auto;
-            font-size: 80px;
+            font-size: 10vw;
+            color: #ddd;
         }
     </style>
 </head>
@@ -60,96 +61,98 @@
             <div class="btn-group">
                 <div class="btn" v-on:click="hideDetail">←&nbsp;Назад</div>
             </div>
-            <h1 class="detail__title">
-                <a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small>
-            </h1>
-            <table class="tbl">
-                <tr>
-                    <th>🚩</th>
-                    <td :set="url = parseUrl(event.url)"><a :href="event.url">{{ url.hostname }}</a></td>
-                </tr>
-                <tr>
-                    <th>🗓</th>
-                    <td>
-                        {{ formatPeriod(event.start, event.end) }},
-                        {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}.
-                        <a :href="addToCal(event)" target="_blank">В календарь ↗</a>
-                    </td>
-                </tr>
-                <tr v-if="event.level">
-                    <th>💪</th>
-                    <td>
-                        {{ event.level }}/5&nbsp;&mdash;
-                        <span v-if="event.level == 1">
-                            очень простой маршрут. Не требует подготовки
-                        </span>
-                        <span v-else-if="event.level == 2">
-                            простой маршрут. Не требует подготовки
-                        </span>
-                        <span v-else-if="event.level == 3">
-                            маршрут средней сложности. Требуется подготовка
-                        </span>
-                        <span v-else-if="event.level == 4">
-                            это сложный маршрут. Требуется серьезная подготовка
-                        </span>
-                        <span v-else-if="event.level == 5">
-                            это очень сложный маршрут. Вы определенно знаете что делаете
-                        </span>
-                        <span v-else>
-                            неизвестный уровень
-                        </span>
-                    </td>
-                </tr>
-                <tr v-if="event.length">
-                    <th>🥾</th>
-                    <td>{{ event.length }}&nbsp;км</td>
-                </tr>
-                <tr v-if="event.for_kids">
-                    <th>👶</th>
-                    <td>Маршрут адаптирован для детей</td>
-                </tr>
-                <tr v-if="event.slots === 0">
-                    <th>🎒</th>
-                    <td>мест нет</td>
-                </tr>
-                <tr v-else-if="event.slots > 0">
-                    <th>🎒</th>
-                    <td>{{ event.slots }}&nbsp;{{ event.slots | pluralize('место', 'места', 'мест') }}</td>
-                </tr>
-                <tr v-if="event.price">
-                    <th>🤑</th>
-                    <td>
-                        {{ event.price }}
-                        <span v-if="event.for_kids">— цена для ребенка обычно ниже</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <hr>
-                    </td>
-                </tr>
-                <tr v-if="detail.next">
-                    <th>⟶</th>
-                    <td>
-                        <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
-                    </td>
-                </tr>
-                <tr v-if="detail.prev">
-                    <th>⟵</th>
-                    <td>
-                        <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
-                    </td>
-                </tr>
-            </table>
+            <div class="detail__content">
+                <h1 class="detail__title">
+                    <a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small>
+                </h1>
+                <table class="tbl">
+                    <tr>
+                        <th>🚩</th>
+                        <td :set="url = parseUrl(event.url)"><a :href="event.url">{{ url.hostname }}</a></td>
+                    </tr>
+                    <tr>
+                        <th>🗓</th>
+                        <td>
+                            {{ formatPeriod(event.start, event.end) }},
+                            {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}.
+                            <a :href="addToCal(event)" target="_blank">В календарь ↗</a>
+                        </td>
+                    </tr>
+                    <tr v-if="event.level">
+                        <th>💪</th>
+                        <td>
+                            {{ event.level }}/5&nbsp;&mdash;
+                            <span v-if="event.level == 1">
+                                очень простой маршрут. Не требует подготовки
+                            </span>
+                            <span v-else-if="event.level == 2">
+                                простой маршрут. Не требует подготовки
+                            </span>
+                            <span v-else-if="event.level == 3">
+                                маршрут средней сложности. Требуется подготовка
+                            </span>
+                            <span v-else-if="event.level == 4">
+                                это сложный маршрут. Требуется серьезная подготовка
+                            </span>
+                            <span v-else-if="event.level == 5">
+                                это очень сложный маршрут. Вы определенно знаете что делаете
+                            </span>
+                            <span v-else>
+                                неизвестный уровень
+                            </span>
+                        </td>
+                    </tr>
+                    <tr v-if="event.length">
+                        <th>🥾</th>
+                        <td>{{ event.length }}&nbsp;км</td>
+                    </tr>
+                    <tr v-if="event.for_kids">
+                        <th>👶</th>
+                        <td>Маршрут адаптирован для детей</td>
+                    </tr>
+                    <tr v-if="event.slots === 0">
+                        <th>🎒</th>
+                        <td>мест нет</td>
+                    </tr>
+                    <tr v-else-if="event.slots > 0">
+                        <th>🎒</th>
+                        <td>{{ event.slots }}&nbsp;{{ event.slots | pluralize('место', 'места', 'мест') }}</td>
+                    </tr>
+                    <tr v-if="event.price">
+                        <th>🤑</th>
+                        <td>
+                            {{ event.price }}
+                            <span v-if="event.for_kids">— цена для ребенка обычно ниже</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr v-if="detail.next">
+                        <th>⟶</th>
+                        <td>
+                            <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
+                        </td>
+                    </tr>
+                    <tr v-if="detail.prev">
+                        <th>⟵</th>
+                        <td>
+                            <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
     <div class="aside-toggle display-none" v-on:click="toggleMenu">☰&#xFE0E;<span class="aside-toggle__title">меню</span></div>
     <aside class="aside" :class="{'aside--mobile': menu.mobile}">
+        <div class="btn-group">
+            <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
+            <div class="btn" :class="{'btn--disabled': !hasFilters}" v-on:click="clearFilters" title="Очистить">Очистить</div>
+        </div>
         <div class="aside__content">
-            <div class="btn-group">
-                <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
-                <div class="btn" :class="{'btn--disabled': !hasFilters}" v-on:click="clearFilters" title="Очистить">🧹</div>
-            </div>
             <h1 class="title">
                 <a href="/" class="title__link">
                     <img src="./icon.svg" alt="uhike.ru" class="title__icon">
