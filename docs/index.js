@@ -1,6 +1,7 @@
 const dateFormat = 'DD.MM.YYYY',
       dayWidth = 25,
       eventHeight = 65,
+      tagSep = '.',
       monthNames = [
         'Январь',
         'Февраль',
@@ -70,7 +71,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
         created: function() {
             const self = this,
                   urlParams = new URLSearchParams(window.location.search),
-                  tags = (urlParams.get('t') || '').split(':').map((t) => parseInt(t) || 0),
+                  tags = atob(urlParams.get('t') || '').split(tagSep).map((t) => parseInt(t) || 0),
                   search = urlParams.get('q')
               ;
 
@@ -119,7 +120,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 }
 
                 if (applyTags.some((x) => x)){
-                    newParams.push('t=' + applyTags.join(':'))
+                    newParams.push('t=' + btoa(applyTags.join(tagSep)))
                 }
 
                 updateUrl(
