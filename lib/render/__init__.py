@@ -1,7 +1,7 @@
 import json
-from uuid import uuid4
 from datetime import datetime, timedelta
 from operator import itemgetter
+from uuid import uuid4
 
 import httpx
 from funcy import first
