@@ -72,6 +72,9 @@ TYPES: Dict[Tag, Callable[[str], bool]] = {
     Tag(slug='bicycle', title='велопоход', text='🚴'): finder(
         r'\b(вело[а-я]+)'
     ),
+    Tag(slug='horse', title='конный', text='🐎'): finder(
+        r'\b(конны[а-я]+)'
+    ),
 }
 
 
