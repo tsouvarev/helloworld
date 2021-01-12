@@ -24,13 +24,7 @@ def parse_page(text):
         '//*[@class="t404__link"]/@href',
     )
     for dates, title, url in zip_safe(*map(tree.xpath, paths)):
-        for date in split_dates(dates):
-            try:
-                start, end = parse_dates(TODAY, date)
-            except Exception as e:
-                error(f'[teamtrip]: Failed to parse data "{dates}" ({e})')
-                continue
-
+        for start, end in parse_dates(dates):
             yield Item(
                 vendor=Vendor.TEAMTRIP,
                 start=start,
@@ -48,7 +42,7 @@ re_by_year = partial(
 
 re_by_comma = partial(
     # comma instead of slash
-    re.compile(r'\,\s+([0-9]{1,2}[\s-])').sub,
+    re.compile(r',\s*([0-9]{1,2}[\s-])').sub,
     r'/\1',
 )
 
@@ -57,17 +51,20 @@ def split_dates(src: str):
     return mapv(str.strip, re_by_year(re_by_comma(src)).split('/'))
 
 
-def parse_dates(now: datetime, src: str):
-    start_, end_ = map(str.strip, re.split(r'[–\-]', src))
-    end = parse_date(now, end_)
-    start = parse_date(end, start_)
-    return start, end
+def parse_dates(src: str, today: datetime = TODAY):
+    for date in split_dates(src):
+        try:
+            start_, end_ = map(str.strip, re.split(r'[–\-—]', date))
+            end = parse_date(end_, today)
+            start = parse_date(start_, end)
+            yield start, end
+        except Exception as e:
+            error(f'[teamtrip]: Failed to parse data "{date}" ({e})')
+            continue
 
 
-def parse_date(now, source):
-    # 31декабря
-    fixed = re.sub(r'([0-9])([a-zа-я])', r'\1 \2', source)
-    data = re.split(r'\W+', fixed)
+def parse_date(src: str, today: datetime):
+    data = re.split(r'\W+', src)
     if len(data) == 3:
         day, month, year = data
         return datetime(
@@ -75,6 +72,8 @@ def parse_date(now, source):
         )
     elif len(data) == 2:
         day, month = data
-        return now.replace(day=int(day), month=MONTHS.index(month) + 1)
+        if not month.isdigit():
+            month = MONTHS.index(month) + 1
+        return today.replace(day=int(day), month=int(month))
     else:
-        return now.replace(day=int(data[0]))
+        return today.replace(day=int(data[0]))

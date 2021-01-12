@@ -36,7 +36,10 @@ def parse_page(text):
     data = map(tree.xpath, tails)
     for title, href, dates, price, complexity in zip_safe(*data):
         start, end = parse_dates(content(dates))
-        level = len(complexity.xpath('div[contains(@class, "b-active")]')) - 1
+        level = len(complexity.xpath('div[contains(@class, "b-active")]'))
+        if level:
+            level -= 1
+
         yield Item(
             vendor=Vendor.PEREHOD,
             title=title,

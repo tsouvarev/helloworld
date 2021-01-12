@@ -19,7 +19,7 @@ from .text import format_price, int_or_none, normalize, re_digits  # noqa
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)
-warn = partial(click.secho, color='yellow', bold=True)
+warn = partial(click.secho, color='yellow')
 error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compact = partial(filter, bool)

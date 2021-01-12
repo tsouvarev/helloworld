@@ -91,5 +91,5 @@ class Level(IntEnum):
     VERY_HARD = 5
 
     @classmethod
-    def index(cls, key):
+    def index(cls, key: int):
         return nth(key, iter(Level))
