@@ -88,7 +88,10 @@ TYPES: FinderDict = {
 }
 
 PLACES_RF: FinderDict = {
-    Tag(slug='kamcha', text='камчатка'): finder(r'\b(камчат|толбач)'),
+    Tag(slug='kamcha', text='камчатка'): finder(
+        r'\b(камчат|толбач|сопк|командор)'
+    ),
+    Tag(slug='sahalin', text='сахалин'): finder(r'\b(сахалин|курил)'),
     Tag(slug='altay', text='алтай'): finder(
         r'\b(алта|мультинск|шавлинск|мааш|jайгы)'
     ),
@@ -124,6 +127,7 @@ PLACES_RF: FinderDict = {
             'ловозер',
             'бел[а-я ]+мор[а-я]+',
             'кижи',
+            'соловецк',
         )
     ),
     Tag(slug='caucasus_rf', text='кавказ',): finder(
@@ -139,6 +143,12 @@ PLACES_RF: FinderDict = {
             'пшеха',
             'ингушет',
             'тхач',
+            r'лаго-наки',
+            'кодор',
+            'цейск',
+            'чегем',
+            'безенг',
+            'домба[й,е]',
         ),
     ),
     Tag(slug='arctica', text='арктика'): finder(r'(шпицберген|аркти|франца)'),
@@ -154,6 +164,9 @@ PLACES_RF: FinderDict = {
             'маньпупунер',
             'урал',
             'дятлов',
+            'хакас',
+            'чукот',
+            'амур',
         )
     ),
 }
@@ -188,6 +201,7 @@ PLACES_WORLD: FinderDict = {
             'тунис',
             'эфиоп',
             'юар',
+            'eua',
         )
     ),
     Tag(slug='america', text='америка'): finder(
@@ -217,7 +231,9 @@ PLACES_WORLD: FinderDict = {
     ),
     Tag(
         slug='caucasus', text='кавказ', title='Армения, Азербайджан, Грузия',
-    ): finder(r'\b(армен|грузи|сванети|азербайджан|казбек)'),
+    ): finder(
+        r'\b(армен|грузи|сванети|азербайджан|казбек|тушет|хевсурет|чердым)'
+    ),
     Tag(slug='asia', text='азия',): finder(
         regroup(
             'арави',
