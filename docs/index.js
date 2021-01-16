@@ -33,9 +33,6 @@ const dateFormat = 'DD.MM.YYYY',
 ;
 
 function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
-    // Disable back button
-    window.onbeforeunload = function() { return "Your work will be lost."; };
-
     // Calendar first month
     const today = moment().startOf('day'),
           eventList = getEvents(eventSource)
@@ -99,7 +96,9 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
         },
         mounted: function() {
             let showEvent = window.location.hash.substr(1);
-            if (showEvent){
+            if (showEvent == 'menu') {
+                this.showMenu();
+            } else if (showEvent){
                 this.showDetail(showEvent);
             }
         },
@@ -215,8 +214,13 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 this.applyTags = Array.from({length: this.tags.length}, () => []);
                 this.applySearch = '';
             },
-            toggleMenu: function(){
-                this.menu.mobile = !this.menu.mobile;
+            showMenu: function(){
+                this.menu.mobile = true;
+                updateUrl(null, 'menu');
+            },
+            hideMenu: function (){
+                this.menu.mobile = false;
+                updateUrl(null, '');
             },
             detailUrl: function(eventId){
                 return buildUrl(null, eventId);
@@ -280,6 +284,12 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             }
         }
     });
+
+    // Disable back button
+    window.addEventListener('popstate', function() {
+        app.hideDetail();
+        app.hideMenu();
+    });
 }
 
 function buildUrl(params, hash){
@@ -310,7 +320,7 @@ function buildUrl(params, hash){
 
 function updateUrl(params, hash){
     const url = buildUrl(params, hash).toString();
-    window.history.replaceState({urlPath: url}, '', url);
+    window.history.pushState({urlPath: url}, '', url);
 }
 
 function tagsToParams(tags){
