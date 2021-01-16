@@ -51,9 +51,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1
+1,
+32,
+0
 ],
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430: \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0438\u00a0\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
@@ -75,9 +77,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e (\u0441\u00a0\u0442\u0435\u043f\u043b\u043e\u0439 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439)",
 "url":"https://cityescape.ru/peshij-poxod-v-svyatogorovo-s-teploj-nochevkoj/",
@@ -99,9 +103,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u00a0\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432\u00bb",
 "url":"https://cityescape.ru/poxod-v-dom-severnoj-sobaki/",
@@ -125,7 +131,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u00ab43-\u0439 \u043a\u043c\u00a0\u2014 \u0424\u0430\u0431\u0440\u0438\u0447\u043d\u0430\u044f\u00bb",
 "url":"https://cityescape.ru/lyzhnaya-progulka-43-j-km-fabrichnaya/",
@@ -149,7 +157,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e (\u0441\u00a0\u0442\u0435\u043f\u043b\u043e\u0439 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439)",
 "url":"https://cityescape.ru/lyzhnyj-poxod-v-svyatogorovo-s-teploj-nochevkoj/",
@@ -171,9 +181,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u043e\u043c\u043a\u0435 \u0441\u043a\u0430\u043b",
 "url":"https://zovgor.com/po-kromke-skal.html",
@@ -195,9 +207,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-1
+1,
+0,
+4
 ],
 "title":"\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f \u043d\u0430\u00a0\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434: \u0421\u0430\u0444\u0430\u0440\u0438, \u041f\u043b\u0435\u043c\u0435\u043d\u0430 \u0438\u00a0\u041e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_2442_tanzaniya-na-novyj-god-safari-plemena-i-okean",
@@ -219,9 +233,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -245,7 +261,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -267,9 +285,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -293,7 +313,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -317,7 +339,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
@@ -339,9 +363,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -363,9 +389,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -389,7 +417,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -413,7 +443,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-1
+1,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0441\u00a0\u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440\u043e\u043c. \u0421\u043e\u0447\u0438 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2447_gornolyzhnyj-tur-v-teploj-kompanii-sochi-7-dnej",
@@ -435,9 +467,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-1
+1,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -461,7 +495,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -485,7 +521,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-1
+1,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -507,9 +545,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1
+1,
+1,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2094_frirajd-na-kamchatke-7-dnej",
@@ -533,7 +573,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-1
+1,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -557,7 +599,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -581,7 +625,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -605,7 +651,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -627,9 +675,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -653,7 +703,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -677,7 +729,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -701,7 +755,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
@@ -723,9 +779,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
@@ -747,9 +805,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0441\u0435\u043b\u043e \u0420\u0430\u0434\u043e\u043d\u0435\u0436",
 "url":"https://cityescape.ru/peshij-poxod-v-selo-radonezh/",
@@ -771,9 +831,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0432\u0435\u0440\u0445\u043e\u0432\u043e\u043c\u0443 \u0431\u043e\u043b\u043e\u0442\u0443 \u00ab\u041a\u0430\u0440\u044c\u0435\u0440 \u0421\u0438\u043c\u0430\u00bb",
 "url":"https://cityescape.ru/zvenigorod-in-winter/",
@@ -795,9 +857,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1
+1,
+16,
+0
 ],
 "title":"\u0427\u0430\u0442\u044b\u0440-\u0414\u0430\u0433 \u0438\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u0430\u043c\u0438 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
 "url":"https://zovgor.com/speleotur.html",
@@ -819,9 +883,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -845,7 +911,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -867,9 +935,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -891,9 +961,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -917,7 +989,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -939,9 +1013,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0440\u0430\u0444\u0442\u0438\u043d\u0433",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/zimniy-rafting/",
@@ -963,9 +1039,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u0422\u0438\u0448\u0438\u043d\u0430 \u0438\u00a0\u0432\u043e\u043b\u0448\u0435\u0431\u0441\u0442\u0432\u043e. \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/tishina-i-volshebstvo/470/",
@@ -987,9 +1065,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u00ab\u0421\u0430\u043c\u044b\u0439 \u0434\u043b\u0438\u043d\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u041c\u043e\u0441\u043a\u0432\u044b\u00bb",
 "url":"https://cityescape.ru/peshaya-progulka-samyj-dlinnyj-park-moskvy/",
@@ -1011,9 +1091,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1
+1,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -1035,9 +1117,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-1
+1,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -1059,9 +1143,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0413\u0440\u0435\u043c\u044f\u0447\u0438\u0439 \u043a\u043b\u044e\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/peshiy-pokhod-na-gremyachiy-klyuch/",
@@ -1085,7 +1171,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -1109,7 +1197,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-1
+1,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0441\u00a0\u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440\u043e\u043c. \u0421\u043e\u0447\u0438 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2447_gornolyzhnyj-tur-v-teploj-kompanii-sochi-7-dnej",
@@ -1131,9 +1221,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-1
+1,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -1157,7 +1249,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -1181,7 +1275,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-1
+1,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -1205,7 +1301,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-1
+1,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -1229,7 +1327,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -1251,9 +1351,11 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 2,
-1
+1,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438\u00bb",
 "url":"https://strannik36.ru/elbrus-ekskursii-3-dnya",
@@ -1277,7 +1379,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-1
+1,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
@@ -1301,7 +1405,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -1325,7 +1431,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -1347,9 +1455,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
@@ -1371,9 +1481,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -1397,7 +1509,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -1421,7 +1535,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -1443,9 +1559,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u0413\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432\u00a0\u041b\u0435\u043d\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
 "url":"https://turclub-pik.ru/pohod/gitarnyi-den-v-lenoblasti/480/",
@@ -1467,9 +1585,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u0428\u043a\u043e\u043b\u0430 \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c\u0430: \u0432\u0435\u0440\u0435\u0432\u043e\u0447\u043d\u044b\u0439 \u043a\u0443\u0440\u0441 \u0438\u00a0\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435",
 "url":"https://cityescape.ru/rock-climbing/",
@@ -1491,9 +1611,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0414\u0435\u0432\u044f\u0442\u043e\u0432\u0441\u043a\u0443\u044e \u043a\u0430\u043c\u0435\u043d\u043e\u043b\u043e\u043c\u043d\u044e",
 "url":"https://cityescape.ru/silikaty/",
@@ -1515,9 +1637,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-3
+3,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -1541,7 +1665,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-1
+1,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -1563,9 +1689,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-3
+3,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -1587,9 +1715,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-3
+3,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -1613,7 +1743,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -1635,9 +1767,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-1
+1,
+0,
+256
 ],
 "title":"\u0423\u0441\u0430\u0434\u044c\u0431\u044b \u0438\u00a0\u043a\u043e\u0447\u0435\u0432\u043d\u0438\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/usadby-i-kochevniki/",
@@ -1659,9 +1793,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-3
+3,
+256,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0422\u0430\u0433\u0430\u043d\u0430\u0439 \u0441\u00a0\u0434\u043e\u043c\u0438\u043a\u0430\u043c\u0438 (\u0423\u0440\u0430\u043b)",
 "url":"https://zovgor.com/pohod-na-taganay.html",
@@ -1683,9 +1819,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-3
+3,
+0,
+256
 ],
 "title":"\u041b\u0435\u0434 \u0438\u00a0\u041a\u0430\u043c\u043d\u0438",
 "url":"https://zovgor.com/ice_stones.html",
@@ -1707,9 +1845,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-3
+3,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -1731,9 +1871,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-3
+3,
+4,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2403_zimnij-trekking-v-prielbruse",
@@ -1755,9 +1897,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-3
+3,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -1781,7 +1925,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -1803,9 +1949,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-2
+2,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -1829,7 +1977,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -1853,7 +2003,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -1875,9 +2027,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -1901,7 +2055,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -1925,7 +2081,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -1949,7 +2107,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+64,
+0
 ],
 "title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
@@ -1973,7 +2133,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -1997,7 +2159,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2080_snegokhodniy-tur-v-hibinah-3-dnya",
@@ -2019,9 +2183,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -2043,9 +2209,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2471_novogonya-expedicia-k-gore-vottovaara-1-1",
@@ -2069,7 +2237,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -2093,7 +2263,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -2117,7 +2289,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u0421\u0435\u043b\u0438\u0433\u0435\u0440\u0430\u00bb",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/lyzhnyy-pokhod-krasoty-zimnego-seligera/",
@@ -2139,9 +2313,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
@@ -2163,9 +2339,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u00ab2\u00a0\u0443\u0441\u0430\u0434\u044c\u0431\u044b\u00bb. \u041c\u043e\u0441\u043a\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/progulka-2-usadby/326/",
@@ -2187,9 +2365,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u0434\u043e\u043b\u044c \u041e\u043a\u0438",
 "url":"https://cityescape.ru/peshij-poxod-vdol-oki/",
@@ -2211,9 +2391,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0424\u0435\u0434\u043e\u0441\u043a\u0438\u043d\u043e (\u0441\u00a0\u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0435\u0439)",
 "url":"https://cityescape.ru/fedoskino/",
@@ -2237,7 +2419,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u043b\u0435\u0441\u0430\u043c \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
 "url":"https://cityescape.ru/lyzhnyj-poxod-po-severnym-lesam-podmoskovya/",
@@ -2259,9 +2443,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
@@ -2283,9 +2469,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-2
+2,
+0,
+4
 ],
 "title":"\u0421\u0430\u0444\u0430\u0440\u0438 \u0432\u00a0\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u0438\u202f\u2014\u2009\u043e\u0442\u00a0\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e \u0434\u043e\u00a0\u043e\u0437\u0435\u0440\u0430 \u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/safari-v-tanzanii-ot-kilimandzharo-do-ozera-viktoriya-2021/",
@@ -2309,7 +2497,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -2331,9 +2521,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -2357,7 +2549,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -2379,9 +2573,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -2403,9 +2599,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -2429,7 +2627,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -2451,9 +2651,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0440\u0430\u0444\u0442\u0438\u043d\u0433",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/zimniy-rafting/",
@@ -2477,7 +2679,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u041b\u044b\u0436\u0438 \u0438\u00a0\u041f\u0435\u0449\u0435\u0440\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/pokhod-lyzhi-i-peshchery/",
@@ -2501,7 +2705,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
@@ -2523,9 +2729,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041e\u0441\u043d\u043e\u0432\u044b \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0437\u043c\u0430 \u0432\u00a0\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/osnovy-alpinizma-podmoskove/425/",
@@ -2547,9 +2755,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-2
+2,
+0,
+4
 ],
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
@@ -2571,9 +2781,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -2595,9 +2807,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+16,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435. \u0422\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2401_zimnij-trekking-v-mezmae-tur-s-gostinicej",
@@ -2619,9 +2833,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -2645,7 +2861,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -2667,9 +2885,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-2
+2,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -2693,7 +2913,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -2717,7 +2939,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430-\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0433\u043e\u0440\u0430\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2454_snegohodnoe-safari-tainstvennoe-belovodje-1-1",
@@ -2739,9 +2963,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+1,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2094_frirajd-na-kamchatke-7-dnej",
@@ -2765,7 +2991,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -2789,7 +3017,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430\u00bb, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2453_snegohodnoe-safari-tainstvennoe-belovodje-1",
@@ -2813,7 +3043,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u00ab\u0422\u0430\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0411\u0435\u043b\u043e\u0432\u043e\u0434\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2110_snegohodnoe-safari-tainstvennoe-belovodje",
@@ -2835,8 +3067,10 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 1,
+0,
+4,
 0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438\u00bb",
@@ -2861,6 +3095,8 @@ const DATA={"weekendList": [
 0,
 16,
 1,
+0,
+4,
 0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
@@ -2883,9 +3119,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0430\u043b\u0443\u0436\u0441\u043a\u0438\u0435 \u0417\u0430\u0441\u0435\u043a\u0438: \u0412\u00a0\u0433\u043e\u0441\u0442\u0438 \u043a\u00a0\u0437\u0443\u0431\u0440\u0430\u043c",
 "url":"https://team-trip.ru/zubriki",
@@ -2909,7 +3147,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -2931,9 +3171,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
@@ -2955,9 +3197,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-2
+2,
+0,
+32
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0436\u0443\u043d\u0433\u043b\u044f\u043c \u0411\u043e\u0440\u043d\u0435\u043e. \u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f \u0438\u00a0\u0411\u0440\u0443\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2214_po-junglyam-borneo-malayzia-i-bruney",
@@ -2979,9 +3223,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -3005,7 +3251,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -3029,7 +3277,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1073_na-lyzhakh-po-karelii-3-dnya",
@@ -3051,9 +3301,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -3077,7 +3329,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -3099,9 +3353,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0413\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432\u00a0\u041b\u0435\u043d\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
 "url":"https://turclub-pik.ru/pohod/gitarnyi-den-v-lenoblasti/480/",
@@ -3123,9 +3379,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
@@ -3147,9 +3405,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0413\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043a\u043e\u0437\u044c\u044e \u0444\u0435\u0440\u043c\u0443 (\u0441\u00a0\u0434\u0435\u0433\u0443\u0441\u0442\u0430\u0446\u0438\u0435\u0439 \u0441\u044b\u0440\u043e\u0432)",
 "url":"https://cityescape.ru/gastronomicheskij-poxod-na-kozyu-fermu-s-degustaciej-syrov/",
@@ -3171,9 +3431,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u044b\u043c\u0438 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u043b\u0435\u0434! \u041d\u0430\u00a0\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435 \u0438\u00a0\u043f\u0435\u0448\u043a\u043e\u043c / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/pervymi-na-baykalskiy-led-na-avtomobile-i-peshkom-2021/",
@@ -3195,9 +3457,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -3221,7 +3485,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -3243,9 +3509,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -3269,7 +3537,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -3291,9 +3561,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -3317,7 +3589,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -3339,9 +3613,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0448\u0445\u0435\u0440\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/zimnie-shkhery-ladogi/",
@@ -3363,9 +3639,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
@@ -3389,7 +3667,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b, \u043b\u044b\u0436\u0438, \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435",
 "url":"https://turclub-pik.ru/pohod/zimnii-paanayarvi/479/",
@@ -3411,9 +3691,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+0,
+4
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445, \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0438\u00a0\u0439\u043e\u0433\u0430 \u043d\u0430\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440\u0435 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/otdykh-priklyucheniya-i-yoga-na-zanzibare-2021/",
@@ -3435,9 +3717,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -3459,9 +3743,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -3483,9 +3769,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0443",
 "url":"https://mwtravel.ru/travel-all/hiking-baikal-winter/",
@@ -3509,7 +3797,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+16,
+0
 ],
 "title":"\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u0430 \u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434",
 "url":"http://orangeked.ru/tours/item/104-sochi",
@@ -3533,7 +3823,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430\u00a0\u0414\u043e\u043c\u0431\u0430\u0439. \u041a\u043e\u043b\u043e\u0440\u0438\u0442 \u041a\u0430\u0432\u043a\u0430\u0437\u0430",
 "url":"https://turclub-pik.ru/pohod/ski-vyezd-na-dombai/420/",
@@ -3557,7 +3849,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -3581,7 +3875,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -3605,7 +3901,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0441\u00a0\u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440\u043e\u043c. \u0421\u043e\u0447\u0438 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2447_gornolyzhnyj-tur-v-teploj-kompanii-sochi-7-dnej",
@@ -3627,9 +3925,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+256,
+0
 ],
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u041e\u043b\u044c\u0445\u043e\u043d\u0430 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/vokrug-olkhona-po-ldu/",
@@ -3653,7 +3953,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -3675,9 +3977,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0424\u043e\u0442\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b \u0437\u0438\u043c\u043e\u0439",
 "url":"https://mwtravel.ru/travel-all/photo-tour-baikal-winter-ice/",
@@ -3699,9 +4003,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b: \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043d\u044c\u043a\u043e\u0432\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443",
 "url":"https://team-trip.ru/baikal_extreme",
@@ -3723,9 +4029,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-konkakh/275/",
@@ -3747,9 +4055,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0430 \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://zovgor.com/pohod-na-konkah-po-baikalu.html",
@@ -3773,7 +4083,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0438\u00a0\u0435\u0437\u0434\u043e\u0432\u044b\u0445 \u0441\u043e\u0431\u0430\u043a\u0430\u0445",
 "url":"https://team-trip.ru/karelia",
@@ -3797,7 +4109,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -3821,7 +4135,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -3843,9 +4159,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -3869,7 +4187,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -3891,9 +4211,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445 (\u043b\u0430\u0439\u0442-\u0432\u0435\u0440\u0441\u0438\u044f)",
 "url":"http://orangeked.ru/tours/item/96-baikal-winter",
@@ -3917,7 +4239,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-velosipedakh/249/",
@@ -3939,9 +4263,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-2
+2,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0421\u043e\u0447\u0438",
 "url":"https://turclub-pik.ru/pohod/aktivnyi-sochi/474/",
@@ -3963,9 +4289,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-s-komfortom/248/",
@@ -3989,7 +4317,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-6
+6,
+0,
+8
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041e\u0440\u0438\u0441\u0430\u0431\u0430 \u0438\u00a0\u043f\u0438\u0440\u0430\u043c\u0438\u0434\u044b (\u041c\u0435\u043a\u0441\u0438\u043a\u0430)",
 "url":"https://zovgor.com/orisaba.html",
@@ -4011,9 +4341,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+16,
+0
 ],
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://zovgor.com/krym-nalegke.html",
@@ -4035,9 +4367,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u0435\u043c\u044c \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0439 \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u0410\u043b\u0442\u0430\u044f-1. \u041a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u0439 \u0442\u0443\u0440 \u0434\u043b\u044f \u043e\u0442\u0434\u044b\u0445\u0430 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/sem-otkrytiy-zimnego-altaya-1-komfortnyy-tur-dlya-otdykha-2021/",
@@ -4059,9 +4393,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+32,
+0
 ],
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430: \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0438\u00a0\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
@@ -4085,7 +4421,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -4107,9 +4445,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -4131,9 +4471,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -4157,7 +4499,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -4181,7 +4525,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -4205,7 +4551,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u041b\u044b\u0436\u0438 \u0438\u00a0\u041f\u0435\u0449\u0435\u0440\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/pokhod-lyzhi-i-peshchery/",
@@ -4229,7 +4577,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u00ab\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0425\u043e\u043f\u0440\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u043e\u043c\u0443 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0443",
 "url":"https://strannik36.ru/legendy-hopra-lyzhnyy-pohod-po-hoperskomu-zapovedniku",
@@ -4251,9 +4601,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+32,
+0
 ],
 "title":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0421\u0435\u0432\u0435\u0440. \u041a\u0435\u043d\u043e\u0437\u0435\u0440\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430",
 "url":"https://strannik36.ru/russkiy-sever-kenozerskaya-tropa",
@@ -4275,9 +4627,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0423\u0441\u044c\u0432\u0438\u043d\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b \u0437\u0438\u043c\u043e\u0439",
 "url":"https://turclub-pik.ru/pohod/perm_zima/484/",
@@ -4299,9 +4653,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
@@ -4323,9 +4679,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-6
+6,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430. \u041f\u0435\u0441\u043d\u044c \u043b\u044c\u0434\u0430 \u0438\u00a0\u043f\u043b\u0430\u043c\u0435\u043d\u0438",
 "url":"https://turclub-pik.ru/pohod/zimnie-priklyucheniya-na-kamchatke/262/",
@@ -4349,7 +4707,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u0412\u044b\u0441\u0448\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b",
 "url":"https://turclub-pik.ru/pohod/ski-vyezd-na-elbrus-tusovka/198/",
@@ -4371,9 +4731,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0410\u043b\u0442\u0430\u0439. \u0427\u0435\u043c\u0430\u043b \u0438\u00a0\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/zimnii-altai/473/",
@@ -4397,7 +4759,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041c\u0435\u0449\u0451\u0440\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u0441\u00a0\u0442\u0451\u043f\u043b\u043e\u0439 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439",
 "url":"https://cityescape.ru/lyzhnyj-poxod-po-meshhyorskim-ozeram-s-tyoploj-nochevkoj/",
@@ -4421,7 +4785,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f \u0433\u043b\u0443\u0445\u043e\u043c\u0430\u043d\u044c\u00bb",
 "url":"https://cityescape.ru/lyzhnyj-poxod-tverskaya-gluxoman/",
@@ -4443,9 +4809,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0443\u0440\u0441 \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0432\u00a0\u0434\u0438\u043a\u043e\u0439 \u043f\u0440\u0438\u0440\u043e\u0434\u0435 16,",
 "url":"https://cityescape.ru/survival/",
@@ -4467,9 +4835,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u0435\u0434 \u0438\u00a0\u041a\u0430\u043c\u043d\u0438",
 "url":"https://zovgor.com/ice_stones.html",
@@ -4493,7 +4863,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+1,
+0
 ],
 "title":"\u0412\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u043c 23\u00a0\u0444\u0435\u0432\u0440\u0430\u043b\u044f \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435! \u0422\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/vstrechaem-23-fevralya-na-kamchatke-tur-na-snegokhodakh-2021/",
@@ -4515,9 +4887,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u0438\u043a\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434, \u0421\u0442\u0430\u0440\u0430\u044f \u0420\u0443\u0441\u0441\u0430, \u0418\u043b\u044c\u043c\u0435\u043d\u044c / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/velikiy-novgorod-staraya-russa-ilmen-2021/",
@@ -4541,7 +4915,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0438\u00a0\u0435\u0437\u0434\u043e\u0432\u044b\u0445 \u0441\u043e\u0431\u0430\u043a\u0430\u0445",
 "url":"https://team-trip.ru/kamchatka_winter",
@@ -4565,7 +4941,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2469_kizhi-na-snegokhodakh-2-dnya-1",
@@ -4587,9 +4965,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -4611,9 +4991,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2471_novogonya-expedicia-k-gore-vottovaara-1-1",
@@ -4637,7 +5019,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -4659,9 +5043,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u043b\u0435\u0434 \u0411\u0430\u0439\u043a\u0430\u043b\u0430-2021. \u041f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0435",
 "url":"https://pro-adventure.ru/tours/id_2201_zimnij-led-bajkala-2020-prozhivanie-na-turbaze",
@@ -4685,7 +5071,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1073_na-lyzhakh-po-karelii-3-dnya",
@@ -4709,7 +5097,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a023\u00a0\u0444\u0435\u0432\u0440\u0430\u043b\u044f \u0438\u00a08\u00a0\u043c\u0430\u0440\u0442\u0430",
 "url":"https://pro-adventure.ru/tours/id_1657_vladimir-na-lyzhah-zamok",
@@ -4731,9 +5121,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0448\u0445\u0435\u0440\u044b \u041b\u0430\u0434\u043e\u0433\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/zimnie-shkhery-ladogi/",
@@ -4755,9 +5147,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438-\u0442\u0443\u0440 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443\u00bb",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/baykalskoe-puteshestvie-multi-tur-po-ldu/",
@@ -4781,7 +5175,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 ' \u0417\u0438\u043c\u043d\u044f\u044f \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0442\u044c \u0432\u00a0\u0422\u043e\u0440\u0436\u043a\u0435'",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/lyzhnyy-pokhod-zimnyaya-blagodat-v-torzhke/",
@@ -4805,7 +5201,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+32,
+0
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/lyzhnyy-pokhod-v-khibiny/",
@@ -4829,7 +5227,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-velosipedakh/249/",
@@ -4853,7 +5253,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -4877,7 +5279,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -4899,9 +5303,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -4925,7 +5331,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -4949,7 +5357,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -4971,9 +5381,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0445\u0438\u0442\u044b \u0411\u0430\u0439\u043a\u0430\u043b\u0430",
 "url":"https://pro-adventure.ru/tours/id_2414_zimnie-hity-bajkala",
@@ -4997,7 +5409,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -5019,9 +5433,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0440\u0430\u0444\u0442\u0438\u043d\u0433",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/zimniy-rafting/",
@@ -5043,9 +5459,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-2
+2,
+8,
+0
 ],
 "title":"\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u0437\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://pro-adventure.ru/tours/id_2402_eksklyuzivnyj-trip-na-zimnij-bajkal",
@@ -5069,7 +5487,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -5091,9 +5511,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://cityescape.ru/bolshoe-puteshestvie-na-bajkal/",
@@ -5115,9 +5537,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b. \u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/maldivy-perezagruzka-2021/",
@@ -5141,7 +5565,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -5165,7 +5591,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-2
+2,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -5189,7 +5617,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -5213,7 +5643,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-2
+2,
+64,
+0
 ],
 "title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
@@ -5235,9 +5667,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-konkakh/275/",
@@ -5261,7 +5695,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -5283,9 +5719,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
@@ -5307,9 +5745,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -5333,7 +5773,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -5355,9 +5797,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+0,
+256
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 20/21",
 "url":"https://pro-adventure.ru/tours/id_1583_multiaktiv-v-gorah",
@@ -5381,7 +5825,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -5403,9 +5849,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0443 \u0437\u0438\u043c\u043e\u0439",
 "url":"https://mwtravel.ru/travel-all/hiking-ice-winter-baikal/",
@@ -5427,9 +5875,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b. \u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443 \u041c\u0430\u043b\u043e\u0433\u043e \u041c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/ldy-bajkala/104/",
@@ -5451,9 +5901,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-s-komfortom/248/",
@@ -5477,7 +5929,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u041e\u0440\u0448\u0438\u043d\u0441\u043a\u0438\u0439 \u043c\u043e\u0445 \u043f\u043e\u00a0\u0412\u0435\u043b\u0438\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://cityescape.ru/lyzhnyj-poxod-cherez-orshinskij-mox-po-velikim-ozeram-tverskoj-oblasti/",
@@ -5499,9 +5953,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b: \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445 \u043f\u043e\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0443 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://team-trip.ru/baikal",
@@ -5525,7 +5981,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -5547,9 +6005,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
@@ -5573,7 +6033,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-2
+2,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -5597,7 +6059,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-6
+6,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043e-\u0427\u0443\u0439\u0441\u043a\u043e\u043c\u0443 \u0445\u0440\u0435\u0431\u0442\u0443",
 "url":"https://pro-adventure.ru/tours/id_2109_na-snegohodah-po-severo-chujskomu-hrebtu",
@@ -5619,9 +6083,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+0,
+256
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0437\u0438\u043c\u0430 20/21",
 "url":"https://pro-adventure.ru/tours/id_1773_aktivnaya-zima-18-19",
@@ -5645,7 +6111,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-2
+2,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -5667,9 +6135,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
@@ -5691,9 +6161,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0430 \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://zovgor.com/pohod-na-konkah-po-baikalu.html",
@@ -5715,9 +6187,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+2,
+0
 ],
 "title":"\u0421\u0435\u043c\u044c \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0439 \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u0410\u043b\u0442\u0430\u044f-2. \u041a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u0439 \u0442\u0443\u0440 \u0434\u043b\u044f \u043e\u0442\u0434\u044b\u0445\u0430 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/sem-otkrytiy-zimnego-altaya-2-komfortnyy-tur-dlya-otdykha-2021/",
@@ -5739,9 +6213,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u043b\u0435\u0434 \u0411\u0430\u0439\u043a\u0430\u043b\u0430-2021. \u041f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0435",
 "url":"https://pro-adventure.ru/tours/id_2201_zimnij-led-bajkala-2020-prozhivanie-na-turbaze",
@@ -5763,9 +6239,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-6
+6,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -5787,9 +6265,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-6
+6,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -5811,9 +6291,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-6
+6,
+256,
+0
 ],
 "title":"\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u0422\u0430\u0433\u0430\u043d\u0430\u0439",
 "url":"https://strannik36.ru/nacionalnyy-park-taganay",
@@ -5835,9 +6317,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0437\u0430\u00a05\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal/486/",
@@ -5859,9 +6343,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f \u043d\u0430\u043b\u0435\u0433\u043a\u0435 \u0441\u00a0\u0434\u043e\u043c\u0438\u043a\u0430\u043c\u0438",
 "url":"https://zovgor.com/pohod-ingushetia-zima.html",
@@ -5885,7 +6371,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -5909,7 +6397,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -5933,7 +6423,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -5955,9 +6447,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u041e\u043b\u044c\u0445\u043e\u043d\u0430 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/vokrug-olkhona-po-ldu/",
@@ -5979,9 +6473,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445 (\u043f\u0440\u043e-\u0432\u0435\u0440\u0441\u0438\u044f)",
 "url":"http://orangeked.ru/tours/item/103-baikal-ice",
@@ -6005,7 +6501,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -6027,8 +6525,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
+4,
+0,
 4
 ],
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
@@ -6051,9 +6551,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u0437\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://pro-adventure.ru/tours/id_2402_eksklyuzivnyj-trip-na-zimnij-bajkal",
@@ -6075,9 +6577,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2094_frirajd-na-kamchatke-7-dnej",
@@ -6101,7 +6605,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -6125,7 +6631,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -6147,9 +6655,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0414\u0438\u043a\u0438\u0439 \u043b\u0451\u0434 \u0411\u0430\u0439\u043a\u0430\u043b\u0430 \u0438\u00a0\u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://mwtravel.ru/travel-all/expedition-wild-ice-baikal-hot-springs/",
@@ -6173,7 +6683,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
 "url":"https://cityescape.ru/lyzhnyj-poxod-po-kenozeryu/",
@@ -6195,9 +6707,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+32,
+0
 ],
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430: \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0438\u00a0\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
 "url":"https://team-trip.ru/teriberka2021",
@@ -6221,7 +6735,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -6245,7 +6761,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -6269,7 +6787,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
@@ -6291,9 +6811,11 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438\u00bb",
 "url":"https://strannik36.ru/elbrus-ekskursii-3-dnya",
@@ -6317,7 +6839,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+32,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b. \u0417\u0430\u00a0\u043f\u043e\u043b\u044f\u0440\u043d\u044b\u043c \u043a\u0440\u0443\u0433\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/ski-vyezd-v-hibiny/66/",
@@ -6339,9 +6863,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b. \u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443 \u041c\u0430\u043b\u043e\u0433\u043e \u041c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/ldy-bajkala/104/",
@@ -6365,7 +6891,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-velosipedakh/249/",
@@ -6387,9 +6915,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u043d\u0430\u00a0\u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-na-konkakh/275/",
@@ -6411,9 +6941,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u041f\u0435\u0440\u0435\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u043e\u0437\u0435\u0440\u043e \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://turclub-pik.ru/pohod/perekhod-na-drugoi-bereg-baikala/250/",
@@ -6435,9 +6967,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
 "url":"https://turclub-pik.ru/pohod/zimnii-baikal-s-komfortom/248/",
@@ -6459,9 +6993,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0421\u043e\u0447\u0438",
 "url":"https://turclub-pik.ru/pohod/aktivnyi-sochi/474/",
@@ -6483,9 +7019,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0413\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432\u00a0\u041b\u0435\u043d\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
 "url":"https://turclub-pik.ru/pohod/gitarnyi-den-v-lenoblasti/480/",
@@ -6507,9 +7045,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u00a0\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432\u00bb",
 "url":"https://cityescape.ru/poxod-v-dom-severnoj-sobaki/",
@@ -6531,9 +7071,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e + \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f (\u0431\u0435\u0437 \u043f\u0430\u043b\u0430\u0442\u043e\u043a \u0438\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://cityescape.ru/tur-v-severnuyu-osetiyu-ingushetiya/",
@@ -6555,9 +7097,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+1
 ],
 "title":"\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u041b\u0438\u043a\u0438\u044f (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/likiyskaya_tropa_central.html",
@@ -6581,7 +7125,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-4
+4,
+0,
+8
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041e\u0440\u0438\u0441\u0430\u0431\u0430 \u0438\u00a0\u043f\u0438\u0440\u0430\u043c\u0438\u0434\u044b (\u041c\u0435\u043a\u0441\u0438\u043a\u0430)",
 "url":"https://zovgor.com/orisaba.html",
@@ -6603,9 +7149,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u0427\u0430\u0442\u044b\u0440-\u0414\u0430\u0433 \u0438\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u0430\u043c\u0438 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
 "url":"https://zovgor.com/speleotur.html",
@@ -6627,9 +7175,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u0413\u0443\u0440\u044c\u0435\u0432\u0441\u043a\u0438\u0435 \u043a\u0430\u043c\u0435\u043d\u043e\u043b\u043e\u043c\u043d\u0438. \u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043f\u043e\u0434 \u0437\u0435\u043c\u043b\u0435\u0439 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/gurevskie-kamenolomni-vykhodnye-pod-zemley-2021/",
@@ -6651,9 +7201,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041f\u0441\u043a\u043e\u0432\u202f\u2014\u2009\u0418\u0437\u0431\u043e\u0440\u0441\u043a\u202f\u2014\u2009\u041f\u0435\u0447\u043e\u0440\u044b. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/pskov-izborsk-pechory-avtorskiy-tur-2021/",
@@ -6675,9 +7227,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -6701,7 +7255,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -6723,9 +7279,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -6749,7 +7307,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2469_kizhi-na-snegokhodakh-2-dnya-1",
@@ -6771,9 +7331,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -6795,9 +7357,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2471_novogonya-expedicia-k-gore-vottovaara-1-1",
@@ -6821,7 +7385,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -6845,7 +7411,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a023\u00a0\u0444\u0435\u0432\u0440\u0430\u043b\u044f \u0438\u00a08\u00a0\u043c\u0430\u0440\u0442\u0430",
 "url":"https://pro-adventure.ru/tours/id_1657_vladimir-na-lyzhah-zamok",
@@ -6869,7 +7437,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -6893,7 +7463,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0421\u0435\u043b\u0438\u0433\u0435\u0440 \u043d\u0430\u00a0\u043c\u0430\u0440\u0442\u043e\u0432\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438\u00bb",
 "url":"https://club-perexod.ru/marshruty/rossiya/seliger/lyzhnyy-pokhod-seliger-na-martovskie-prazdniki/",
@@ -6915,9 +7487,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0414\u0436\u0438\u043b\u044b-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/gornyj-lager-v-dzhily-su/",
@@ -6939,9 +7513,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0448\u0445\u0435\u0440\u044b \u041b\u0430\u0434\u043e\u0433\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/zimnie-shkhery-ladogi/",
@@ -6963,9 +7539,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u043e\u0435 \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438-\u0442\u0443\u0440 \u043f\u043e\u00a0\u043b\u044c\u0434\u0443\u00bb",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/baykal/baykalskoe-puteshestvie-multi-tur-po-ldu/",
@@ -6989,7 +7567,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u00ab\u041b\u0435\u0441\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb. \u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0423\u0441\u043c\u0430\u043d\u0441\u043a\u043e\u043c\u0443 \u0431\u043e\u0440\u0443",
 "url":"https://strannik36.ru/lesnaya-skazka-lyzhnyy-pohod-po-usmanskomu-boru",
@@ -7011,9 +7591,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0417\u0438\u043c\u043d\u0438\u0439 \u043e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0435",
 "url":"https://mwtravel.ru/travel-all/baikal-winter-rest/",
@@ -7035,9 +7617,11 @@ const DATA={"weekendList": [
 1,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u0423\u0441\u044c\u0432\u0438\u043d\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b \u0437\u0438\u043c\u043e\u0439",
 "url":"https://turclub-pik.ru/pohod/perm_zima/484/",
@@ -7059,9 +7643,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
@@ -7083,9 +7669,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u042f\u043a\u0443\u0442\u0438\u044f: \u041e\u0439\u043c\u044f\u043a\u043e\u043d \u0438\u00a0\u041b\u0435\u043d\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b",
 "url":"https://turclub-pik.ru/pohod/zimnyaya-yakutiya-oimyakon-i-lenskie-stolby/477/",
@@ -7109,7 +7697,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b, \u043b\u044b\u0436\u0438, \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435",
 "url":"https://turclub-pik.ru/pohod/zimnii-paanayarvi/479/",
@@ -7131,9 +7721,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -7157,7 +7749,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0412\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u043c 8\u00a0\u043c\u0430\u0440\u0442\u0430 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435! \u0422\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/vstrechaem-8-marta-na-kamchatke-tur-na-snegokhodakh-2021/",
@@ -7181,7 +7775,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0438\u00a0\u0435\u0437\u0434\u043e\u0432\u044b\u0445 \u0441\u043e\u0431\u0430\u043a\u0430\u0445",
 "url":"https://team-trip.ru/kamchatka_winter",
@@ -7203,9 +7799,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -7227,9 +7825,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u0413\u043e\u0440\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u044b \u0421\u0443\u0434\u0430\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2193_aktivnyj-tur-v-krym-gornye-prostory-sudaka",
@@ -7251,9 +7851,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u043c\u0430\u0440\u0442\u0435 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b 2021. \u041f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0432\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435",
 "url":"https://pro-adventure.ru/tours/id_2392_tur-na-zimnij-bajkal-prozhivanie-na-turbaze",
@@ -7277,7 +7879,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -7299,9 +7903,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -7323,9 +7929,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u043e\u0447\u0438. \u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0441\u0443\u0431\u0442\u0440\u043e\u043f\u0438\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1860_aktivniy-otdyh-v-sochi",
@@ -7349,7 +7957,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+32,
+0
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/lyzhnyy-pokhod-v-khibiny/",
@@ -7371,9 +7981,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0443",
 "url":"https://mwtravel.ru/travel-all/hiking-baikal-winter/",
@@ -7395,9 +8007,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u0422\u0438\u0448\u0438\u043d\u0430 \u0438\u00a0\u0432\u043e\u043b\u0448\u0435\u0431\u0441\u0442\u0432\u043e. \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/tishina-i-volshebstvo/470/",
@@ -7421,7 +8035,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -7445,7 +8061,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -7469,7 +8087,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -7493,7 +8113,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430-\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0433\u043e\u0440\u0430\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2454_snegohodnoe-safari-tainstvennoe-belovodje-1-1",
@@ -7517,7 +8139,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -7541,7 +8165,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u00ab\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430\u00bb, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2453_snegohodnoe-safari-tainstvennoe-belovodje-1",
@@ -7565,7 +8191,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u00ab\u0422\u0430\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0411\u0435\u043b\u043e\u0432\u043e\u0434\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2110_snegohodnoe-safari-tainstvennoe-belovodje",
@@ -7589,7 +8217,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
@@ -7613,7 +8243,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -7635,9 +8267,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
@@ -7659,9 +8293,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -7685,7 +8321,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -7709,7 +8347,9 @@ const DATA={"weekendList": [
 0,
 16,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1073_na-lyzhakh-po-karelii-3-dnya",
@@ -7733,7 +8373,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -7755,9 +8397,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/fridaiving-s-kitami/410/",
@@ -7779,9 +8423,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u041f\u0435\u0440\u0435\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u043e\u0437\u0435\u0440\u043e \u0411\u0430\u0439\u043a\u0430\u043b",
 "url":"https://turclub-pik.ru/pohod/perekhod-na-drugoi-bereg-baikala/250/",
@@ -7805,7 +8451,9 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044e",
 "url":"https://cityescape.ru/konnyj-poxod-po-podmoskovyu/",
@@ -7827,9 +8475,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -7851,9 +8501,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilankafreediving",
@@ -7875,9 +8527,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -7901,7 +8555,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -7925,7 +8581,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -7947,9 +8605,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u00ab2\u00a0\u0443\u0441\u0430\u0434\u044c\u0431\u044b\u00bb. \u041c\u043e\u0441\u043a\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/progulka-2-usadby/326/",
@@ -7973,7 +8633,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://cityescape.ru/lyzhnyj-poxod-na-plato-manpupunyor/",
@@ -7995,9 +8657,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u043b\u0435\u0434 \u0411\u0430\u0439\u043a\u0430\u043b\u0430-2021. \u041f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0435",
 "url":"https://pro-adventure.ru/tours/id_2201_zimnij-led-bajkala-2020-prozhivanie-na-turbaze",
@@ -8019,9 +8683,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -8043,9 +8709,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -8067,9 +8735,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0411\u0430\u0439\u043a\u0430\u043b\u0443 \u0437\u0438\u043c\u043e\u0439",
 "url":"https://mwtravel.ru/travel-all/hiking-ice-winter-baikal/",
@@ -8093,7 +8763,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -8117,7 +8789,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -8141,7 +8815,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -8163,9 +8839,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -8187,9 +8865,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -8213,7 +8893,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -8237,7 +8919,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -8259,9 +8943,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435, 7\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2094_frirajd-na-kamchatke-7-dnej",
@@ -8285,7 +8971,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -8309,7 +8997,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -8331,9 +9021,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
 "url":"https://turclub-pik.ru/pohod/pikswimmarch/485/",
@@ -8357,7 +9049,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -8379,9 +9073,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2472_snegokhody-upriazhki-v-karelii-1-1",
@@ -8403,9 +9099,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2471_novogonya-expedicia-k-gore-vottovaara-1-1",
@@ -8429,7 +9127,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0445\u0430\u0441\u043a\u0438 \u0438\u00a0\u0434\u0432\u0430 \u0434\u043d\u044f \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1046_snegokhody-upriazhki-v-karelii",
@@ -8453,7 +9153,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -8477,7 +9179,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-12
+12,
+0,
+2
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a, 6183\u00a0\u043c + \u0411\u041b\u00a0\u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0413\u043e\u043a\u0438\u043e",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-ailend-pik/273/",
@@ -8499,9 +9203,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+8
 ],
 "title":"\u041f\u0435\u0440\u0443: \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0443 \u0434\u0440\u0435\u0432\u043d\u0438\u0445 \u0438\u043d\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/peru-bolshoe-puteshestvie-v-stranu-drevnikh-inkov/365/",
@@ -8525,7 +9231,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-12
+12,
+0,
+2
 ],
 "title":"\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0413\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u043b\u0430-\u041f\u0430\u0442\u0430\u0440 \u0438\u00a0\u0413\u043e\u043a\u0438\u043e \u0420\u0438",
 "url":"https://turclub-pik.ru/pohod/gokio/149/",
@@ -8547,9 +9255,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0413\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432\u00a0\u041b\u0435\u043d\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
 "url":"https://turclub-pik.ru/pohod/gitarnyi-den-v-lenoblasti/480/",
@@ -8571,9 +9281,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
 "url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
@@ -8595,9 +9307,11 @@ const DATA={"weekendList": [
 1,
 1,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
 "url":"https://turclub-pik.ru/pohod/pikswimmarch/485/",
@@ -8619,9 +9333,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u042d\u0442\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0422\u0430\u043c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0434\u0443\u0445, \u0442\u0430\u043c \u0420\u0443\u0441\u044c\u044e \u043f\u0430\u0445\u043d\u0435\u0442!\u00bb",
 "url":"https://cityescape.ru/etnograficheskij-poxod-tam-russkij-dux-tam-rusyu-paxnet/",
@@ -8643,9 +9359,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438\u00a0\u0441\u043b\u043e\u043d\u044b",
 "url":"https://team-trip.ru/srilankacamp",
@@ -8667,9 +9385,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -8693,7 +9413,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u0442\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1045_karelia-tur-na-snegokhodakh-2-dnya",
@@ -8717,7 +9439,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u043b\u044b\u0436\u0430\u0445 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435 \u041f\u0430\u0443\u0441\u0442\u043e\u0432\u0441\u043a\u043e\u0433\u043e",
 "url":"https://pro-adventure.ru/tours/id_2235_na-lyzhah-po-meshere-paustovskogo",
@@ -8739,9 +9463,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u0412\u0435\u0441\u043d\u0430. \u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://strannik36.ru/vesna-cvetushchiy-krym-9-dney",
@@ -8763,9 +9489,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0411\u0430\u0439\u043a\u0430\u043b\u0443",
 "url":"https://mwtravel.ru/travel-all/hiking-baikal-winter/",
@@ -8787,9 +9515,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0422\u0430\u0433\u0430\u043d\u0430\u0439 \u0441\u00a0\u0434\u043e\u043c\u0438\u043a\u0430\u043c\u0438 (\u0423\u0440\u0430\u043b)",
 "url":"https://zovgor.com/pohod-na-taganay.html",
@@ -8811,9 +9541,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -8835,9 +9567,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+16,
+0
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://zovgor.com/unknown_crimea.html",
@@ -8861,7 +9595,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-4
+4,
+0,
+128
 ],
 "title":"\u0412\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u0438 \u043d\u0430\u00a0\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_2246_velotur-po-portugall-na-elekrtovelosipedah",
@@ -8883,9 +9619,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+8,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u043c\u0430\u0440\u0442\u0435 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b 2021. \u041f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0432\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435",
 "url":"https://pro-adventure.ru/tours/id_2392_tur-na-zimnij-bajkal-prozhivanie-na-turbaze",
@@ -8907,9 +9645,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -8931,9 +9671,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-4
+4,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -8955,9 +9697,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-4
+4,
+0,
+1
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/blizhniy-vostok/turtsiya/pokhod-po-likiyskoy-trope/",
@@ -8979,9 +9723,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+2
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b \u0432\u00a0\u041d\u0435\u043f\u0430\u043b\u0435",
 "url":"https://mwtravel.ru/travel-all/trekking-annapurna/",
@@ -9005,7 +9751,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -9029,7 +9777,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -9053,7 +9803,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -9075,9 +9827,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-4
+4,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -9101,7 +9855,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -9125,7 +9881,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e, 265\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1084_na-snegohodah-po-altayu-265",
@@ -9147,9 +9905,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-4
+4,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -9173,7 +9933,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-4
+4,
+2,
+0
 ],
 "title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
 "url":"https://pro-adventure.ru/tours/id_1082_na-snegohodah-po-altayu-190",
@@ -9197,7 +9959,9 @@ const DATA={"weekendList": [
 0,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u041a\u0430\u0440\u0430\u043a\u043e\u043b\u044c\u0441\u043a\u0438\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://pro-adventure.ru/tours/id_1080_na-snegohodah-k-karakolskim",
@@ -9219,9 +9983,11 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 2,
-4
+4,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438\u00bb",
 "url":"https://strannik36.ru/elbrus-ekskursii-3-dnya",
@@ -9245,7 +10011,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-4
+4,
+4,
+0
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
@@ -9269,7 +10037,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -9291,9 +10061,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
@@ -9317,7 +10089,9 @@ const DATA={"weekendList": [
 1,
 16,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_1655_vladimir-na-lyzhah",
@@ -9339,9 +10113,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-4
+4,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
@@ -9363,9 +10139,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -9387,9 +10165,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilankafreediving",
@@ -9411,9 +10191,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-12
+12,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -9435,9 +10217,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -9459,9 +10243,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-12
+12,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
 "url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
@@ -9483,9 +10269,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-12
+12,
+0,
+256
 ],
 "title":"\u0412\u00a0\u043a\u0440\u0430\u0439 \u0433\u043e\u0440 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1476_v-kraj-gor-i-vodopadov",
@@ -9507,9 +10295,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-12
+12,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -9533,7 +10323,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-12
+12,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -9557,7 +10349,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-12
+12,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -9581,7 +10375,9 @@ const DATA={"weekendList": [
 1,
 8,
 1,
-4
+4,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043a\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041b\u0435\u0434\u043e\u0432\u0438\u0442\u043e\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_1162_na-snegokhodakh-k-severnomu-ledovitomu",
@@ -9605,7 +10401,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-12
+12,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -9627,9 +10425,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-12
+12,
+256,
+0
 ],
 "title":"\u0424\u0440\u0438\u0440\u0430\u0439\u0434 \u0432\u00a0\u0421\u0438\u0431\u0438\u0440\u0438",
 "url":"https://pro-adventure.ru/tours/id_1554_frirajd-v-sibiri",
@@ -9651,9 +10451,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+2
 ],
 "title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/annapurna_circuit.html",
@@ -9675,9 +10477,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://zovgor.com/krym-nalegke.html",
@@ -9699,9 +10503,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u041a\u0440\u044b\u043c\u202f\u2014\u2009\u043c\u0430\u0440\u0448\u0440\u0443\u0442 1. \u041f\u043e\u0445\u043e\u0434, \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438, \u0439\u043e\u0433\u0430 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/tsvetushchiy-krym-marshrut-1-pokhod-ekskursii-yoga-2021/",
@@ -9723,9 +10529,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -9747,9 +10555,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
@@ -9771,9 +10581,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -9795,9 +10607,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u0413\u043e\u0440\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u044b \u0421\u0443\u0434\u0430\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2193_aktivnyj-tur-v-krym-gornye-prostory-sudaka",
@@ -9819,9 +10633,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-8
+8,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
 "url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
@@ -9845,7 +10661,9 @@ const DATA={"weekendList": [
 0,
 16,
 2,
-8
+8,
+256,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432\u00a0\u0428\u0435\u0440\u0435\u0433\u0435\u0448. \u0421\u043d\u0435\u0436\u043d\u0430\u044f \u0421\u0438\u0431\u0438\u0440\u044c",
 "url":"https://turclub-pik.ru/pohod/ski-vyezd-na-sheregesh-sibir/194/",
@@ -9869,7 +10687,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -9893,7 +10713,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -9917,7 +10739,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -9939,9 +10763,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -9965,7 +10791,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-8
+8,
+0,
+128
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1709_avtorskij-velotur-po-gollandii-8-dnej",
@@ -9987,9 +10815,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -10011,9 +10841,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u043c\u0443 \u041e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
 "url":"https://cityescape.ru/poxod-k-vvedenskomu-monastyryu/",
@@ -10035,9 +10867,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0427\u0435\u0447\u043d\u0435",
 "url":"https://zovgor.com/pohod-po-chechne.html",
@@ -10059,9 +10893,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -10083,9 +10919,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilankafreediving",
@@ -10107,9 +10945,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438\u00a0\u0441\u043b\u043e\u043d\u044b",
 "url":"https://team-trip.ru/srilankacamp",
@@ -10131,9 +10971,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -10155,9 +10997,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0422\u0443\u0440\u0446\u0438\u0438 \u00ab\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2425_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1-1-1-1-1-1-1",
@@ -10179,9 +11023,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0421\u0435\u0440\u0434\u0446\u0435 \u0422\u0430\u0432\u0440\u0438\u0434\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/serdtse-tavridy/",
@@ -10205,7 +11051,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-8
+8,
+0,
+2
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041c\u0435\u0440\u0430 \u043f\u0438\u043a, 6476\u00a0\u043c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-mera-pik-6476m/271/",
@@ -10227,9 +11075,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -10251,9 +11101,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -10275,9 +11127,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u041a\u0440\u044b\u043c\u202f\u2014\u2009\u043c\u0430\u0440\u0448\u0440\u0443\u0442 2. \u041f\u043e\u0445\u043e\u0434, \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438, \u0439\u043e\u0433\u0430",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/tsvetushchiy-krym-marshrut-2-pokhod-ekskursii-yoga-2020/",
@@ -10299,9 +11153,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u0413\u043e\u0440\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u044b \u0421\u0443\u0434\u0430\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2193_aktivnyj-tur-v-krym-gornye-prostory-sudaka",
@@ -10323,9 +11179,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-8
+8,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
 "url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
@@ -10347,9 +11205,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u041f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u0435 \u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f \u0438\u00a0\u0414\u043e\u043b\u044c\u043c\u0435\u043d\u044b / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/poberezhe-chernogo-morya-i-dolmeny-2021/",
@@ -10373,7 +11233,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -10397,7 +11259,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -10419,9 +11283,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-8
+8,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430 \u0412\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://pro-adventure.ru/tours/id_2395_plato-putorana-vertoletnyj-tur",
@@ -10445,7 +11311,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -10467,9 +11335,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u044f\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2418_zimnyaya-kamchatka",
@@ -10491,9 +11361,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u0414\u0435\u043d\u044c \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u043a\u043b\u0443\u0431\u0430 City Escape",
 "url":"https://cityescape.ru/den-rozhdeniya-kluba/",
@@ -10515,9 +11387,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
@@ -10539,9 +11413,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u044f\u044f \u043f\u0440\u0435\u043b\u0435\u0441\u0442\u044c \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 / 2021",
 "url":"https://www.napravlenie.info/catalog/zimnie-pokhody/vesennyaya-prelest-kamchatki-2021/",
@@ -10563,9 +11439,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -10587,9 +11465,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -10611,9 +11491,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0422\u0443\u0440\u0446\u0438\u0438 \u00ab\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2426_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1-1-1-1-1-1-1-1",
@@ -10637,7 +11519,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -10659,9 +11543,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u041b\u0435\u0433\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438*\u0410\u0439-\u041f\u0435\u0442\u0440\u0438*\u042f\u043b\u0442\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/legkiy-krym-demerdzhi-ay-petri-yalta/",
@@ -10683,9 +11569,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0437\u0430\u043f\u0430\u0434) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"http://orangeked.ru/tours/item/29-likijskaya-tropa",
@@ -10707,9 +11595,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u041a\u0438\u043f\u0440 \u044e\u0436\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnymi-tropami/132/",
@@ -10731,9 +11621,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u0413\u0438\u0442\u0430\u0440\u043d\u044b\u0439 \u0434\u0435\u043d\u044c \u0432\u00a0\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/gitarnyi-den/469/",
@@ -10755,9 +11647,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -10779,9 +11673,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://zovgor.com/unknown_crimea.html",
@@ -10803,9 +11699,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+2
 ],
 "title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/annapurna_circuit.html",
@@ -10829,7 +11727,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -10853,7 +11753,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -10875,9 +11777,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-8
+8,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430 \u0412\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u043d\u044b\u0439 \u0442\u0443\u0440",
 "url":"https://pro-adventure.ru/tours/id_2395_plato-putorana-vertoletnyj-tur",
@@ -10901,7 +11805,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -10923,9 +11829,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-severnoi-osetii.html",
@@ -10947,9 +11855,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -10971,9 +11881,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+2
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0413\u043e\u043a\u0438\u043e",
 "url":"https://mwtravel.ru/travel-all/trekking-everest-base-camp/",
@@ -10995,9 +11907,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-8
+8,
+1,
+0
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1242_zimniy-tur-na-kamchatku",
@@ -11019,9 +11933,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-8
+8,
+0,
+1
 ],
 "title":"\u041a\u0438\u043f\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/kipr-yuzhnoe-poberezhe/317/",
@@ -11043,9 +11959,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u041b\u0438\u043a\u0438\u044f (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/trekking-turkey.html",
@@ -11069,7 +11987,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-8
+8,
+0,
+128
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1709_avtorskij-velotur-po-gollandii-8-dnej",
@@ -11091,9 +12011,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0438\u043f\u0440 (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-kipr/163/",
@@ -11115,9 +12037,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430. \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
 "url":"https://turclub-pik.ru/pohod/likijskaya-tropa/28/",
@@ -11139,9 +12063,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+16,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u043a\u0430\u043d\u044c\u043e\u043d\u0430\u043c \u041a\u0440\u044b\u043c\u0430",
 "url":"https://cityescape.ru/bolshoe-puteshestvie-po-kanonam-kryma/",
@@ -11163,9 +12089,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-8
+8,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
@@ -11187,9 +12115,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -11211,9 +12141,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-24
+24,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -11237,7 +12169,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -11259,9 +12193,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u0433\u043e\u043b",
 "url":"https://strannik36.ru/pohod-po-reke-vorgol-2-dnya",
@@ -11283,9 +12219,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -11307,9 +12245,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -11331,9 +12271,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+128
 ],
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 (\u0441\u0438\u043d\u0438\u0435, \u043a\u0430\u0448\u0430\u043b\u043e\u0442\u044b, \u0444\u0438\u043d\u0432\u0430\u043b\u044b), \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores",
@@ -11355,9 +12297,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-24
+24,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2459_trekking-v-ingushetii",
@@ -11379,9 +12323,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+256
 ],
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/kodorskoe-ushchele/",
@@ -11403,9 +12349,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-24
+24,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -11427,9 +12375,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-8
+8,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -11451,9 +12401,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -11477,7 +12429,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 500\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1097_shpitzbergen-na-snegokhodakh-500km",
@@ -11501,7 +12455,9 @@ const DATA={"weekendList": [
 1,
 8,
 2,
-8
+8,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 400\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1093_shpitzbergen-na-snegokhodakh-400km",
@@ -11525,7 +12481,9 @@ const DATA={"weekendList": [
 0,
 8,
 2,
-24
+24,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 1000\u00a0\u043a\u043c",
 "url":"https://pro-adventure.ru/tours/id_1099_shpitzbergen-na-snegokhodakh-1000km",
@@ -11547,9 +12505,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u041a\u0438\u043f\u0440. \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438 \u0438\u00a0\u0433\u043e\u0440\u044b \u041a\u0438\u0440\u0438\u043d\u0438\u044f",
 "url":"https://turclub-pik.ru/pohod/severnyi-kipr/261/",
@@ -11571,9 +12531,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-24
+24,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/311/",
@@ -11595,9 +12557,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -11619,9 +12583,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+256
 ],
 "title":"\u041a\u0430\u0434\u043e\u043c\u0441\u043a\u0430\u044f \u043f\u0430\u0441\u0442\u043e\u0440\u0430\u043b\u044c. \u0422\u0443\u0440 \u043f\u0440\u043e\u0447\u044c \u043e\u0442\u00a0\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0439 \u0441\u0443\u0435\u0442\u044b! / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/kadomskaya-pastoral-tur-proch-ot-gorodskoy-suety-2021/",
@@ -11643,9 +12609,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-24
+24,
+0,
+4
 ],
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
@@ -11667,9 +12635,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-24
+24,
+0,
+4
 ],
 "title":"\u042e\u0410\u0420: \u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d \u0438\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_cape",
@@ -11693,7 +12663,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-24
+24,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -11717,7 +12689,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-24
+24,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -11739,9 +12713,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0424\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u043e\u00a0\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u043c\u0438 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://turclub-pik.ru/pohod/fridaiving-s-delfinami-v-egipte/181/",
@@ -11763,9 +12739,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041a\u0440\u044b\u043c. \u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0432\u0434\u043e\u043b\u044c \u043c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/po-goram-vdol-morya/3/",
@@ -11787,9 +12765,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
@@ -11811,9 +12791,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+2
 ],
 "title":"\u041d\u0435\u043f\u0430\u043b. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0422\u0438\u043b\u0438\u0447\u043e \u0438\u00a0\u0410\u0439\u0441-\u043b\u044d\u0439\u043a",
 "url":"https://turclub-pik.ru/pohod/vokrug-annapurny-ozera-tilicho-i-ais-leik/269/",
@@ -11835,9 +12817,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f. \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435",
 "url":"https://turclub-pik.ru/pohod/turciya-puteshestvie-na-parusnoi-yakhte/465/",
@@ -11861,7 +12845,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -11883,9 +12869,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+8
 ],
 "title":"\u0411\u043e\u043b\u0438\u0432\u0438\u044f \u0438\u00a0\u0423\u044e\u043d\u0438",
 "url":"https://turclub-pik.ru/pohod/neizvedannaya-boliviya/375/",
@@ -11907,9 +12895,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430. \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
 "url":"https://turclub-pik.ru/pohod/likijskaya-tropa/28/",
@@ -11931,9 +12921,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041e\u0442\u043a\u0440\u044b\u0432\u0430\u044f \u0412\u043e\u0441\u0442\u043e\u043a (5+)",
 "url":"https://turclub-pik.ru/pohod/detskii-krym-otkryvaya-vostok/402/",
@@ -11955,9 +12947,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0432\u00a0\u043f\u043e\u043b\u0437\u0443\u043d\u043a\u0430\u0445 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskii-krym-po-goram-v-polzunkakh/403/",
@@ -11981,7 +12975,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-16
+16,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -12003,9 +12999,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0434\u0435\u0442\u0438 (5+)",
 "url":"https://turclub-pik.ru/pohod/peshernye-deti/101/",
@@ -12029,7 +13027,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u043a\u043e\u043c\u0444\u043e\u0440\u0442)",
 "url":"https://cityescape.ru/elbrus-south/",
@@ -12051,9 +13051,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c \u043c\u0435\u0441\u0442\u0430\u043c \u0427\u0435\u0440\u043d\u043e\u043c\u043e\u0440\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u044f",
 "url":"https://cityescape.ru/puteshestvie-k-tamanskomu-poluostrovu/",
@@ -12075,9 +13077,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
@@ -12099,9 +13103,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -12123,9 +13129,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -12147,9 +13155,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"https://zovgor.com/pohod-po-dagestanu.html",
@@ -12171,9 +13181,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+64
 ],
 "title":"\u041a\u0440\u0430\u0441\u043d\u044b\u0435 \u043a\u0430\u043d\u044c\u043e\u043d\u044b (\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f)",
 "url":"https://zovgor.com/trekking-v-kirgizii.html",
@@ -12195,9 +13207,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -12219,9 +13233,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435 \u0438\u00a0\u0440\u0443\u043a\u043e\u0442\u0432\u043e\u0440\u043d\u044b\u0435 \u0447\u0443\u0434\u0435\u0441\u0430 \u0422\u0443\u0440\u0446\u0438\u0438 / 2021",
 "url":"https://www.napravlenie.info/catalog/may_tours/prirodnye-i-rukotvornye-chudesa-turtsii-2021/",
@@ -12243,9 +13259,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0414\u044e\u043d\u044b \u0417\u0430\u043f\u0430\u0434\u043d\u043e\u0439 \u0420\u043e\u0441\u0441\u0438\u0438 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/dyuny-zapadnoy-rossii-1-2021/",
@@ -12269,7 +13287,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041c\u0443\u043d\u043a\u0443-\u0421\u0430\u0440\u0434\u044b\u043a / 2021",
 "url":"https://www.napravlenie.info/catalog/may_tours/voskhozhdenie-na-munku-sardyk-2021/",
@@ -12291,9 +13311,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0416\u0438\u0433\u0443\u043b\u0435\u0432\u0441\u043a\u0438\u0445 \u0433\u043e\u0440. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/legendy-zhigulevskikh-gor-aktivnyy-tur-2021/",
@@ -12315,9 +13337,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -12339,9 +13363,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilanka",
@@ -12363,9 +13389,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: c\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c, \u0441\u0438\u043d\u0438\u0435 \u043a\u0438\u0442\u044b \u0438\u00a0\u0441\u043b\u043e\u043d\u044b",
 "url":"https://team-trip.ru/srilankacamp",
@@ -12387,9 +13415,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u00a0&\u00a0\u0439\u043e\u0433\u0430",
 "url":"https://team-trip.ru/maldives_spr",
@@ -12411,9 +13441,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0427\u0443\u0439\u0441\u043a\u043e\u043c\u0443 \u0442\u0440\u0430\u043a\u0442\u0443",
 "url":"https://pro-adventure.ru/tours/id_2321_puteshestvie-po-chujskomu-traktu",
@@ -12435,9 +13467,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u0451\u0440\u0444\u0438\u043d\u0433 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0435",
 "url":"https://pro-adventure.ru/tours/id_2479_aqua-camp",
@@ -12459,9 +13493,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041c\u0430\u0439\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1730_maiskie-prazdniki-v-gorah-5-dnej",
@@ -12483,9 +13519,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u041a\u043e\u0433\u0434\u0430 \u0446\u0432\u0435\u0442\u0451\u0442 \u041c\u0430\u0440\u0430\u043b\u044c\u043d\u0438\u043a\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2437_letnyaya-skazka-1-1",
@@ -12507,9 +13545,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443 \u00ab\u041a\u0440\u0430\u0441\u043a\u0438 \u041c\u0430\u044f\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2422_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1-1-1-1-1",
@@ -12531,9 +13571,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u043c\u0430\u0439\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_1861_tur-na-majskie-prazdniki-v-abhazii",
@@ -12557,7 +13599,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0432\u0435\u043b\u043e\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/bolshoe-veloputeshestvie-po-krymu/",
@@ -12579,9 +13623,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/abinsk-gelendzhik/",
@@ -12605,7 +13651,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
@@ -12629,7 +13677,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
@@ -12651,9 +13701,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041a\u0440\u044b\u043c \u0434\u043b\u044f \u0441\u0430\u043c\u044b\u0445 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-dlya-samyx-malenkix/",
@@ -12675,9 +13727,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
@@ -12701,7 +13755,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0421\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vosxozhdenie-s-severa/",
@@ -12723,9 +13779,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0412\u0414 \u0412\u0443\u043e\u043a\u0441\u0430 \u043d\u0430\u00a0\u041c\u0430\u0439\u0441\u043a\u0438\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/pvd-vuoksa-na-mayskie/",
@@ -12747,9 +13805,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -12771,9 +13831,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-tihaya-sosna-melovye-gory-srednego-dona",
@@ -12795,9 +13857,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0412\u0435\u0441\u043d\u0430",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-vesna-2-dnya",
@@ -12819,9 +13883,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u0433\u043e\u043b",
 "url":"https://strannik36.ru/pohod-po-reke-vorgol-2-dnya",
@@ -12843,9 +13909,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u041c\u0435\u0447\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-krasivaya-mecha-5-dney",
@@ -12867,9 +13935,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043a\u0430\u0437\u043a\u0438 \u043f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
 "url":"https://strannik36.ru/skazki-plato-lago-naki",
@@ -12891,9 +13961,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-resseta-3-dnya",
@@ -12915,9 +13987,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -12939,9 +14013,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
@@ -12965,7 +14041,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -12987,9 +14065,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041a\u0440\u044b\u043c. \u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0432\u0434\u043e\u043b\u044c \u043c\u043e\u0440\u044f",
 "url":"https://turclub-pik.ru/pohod/po-goram-vdol-morya/3/",
@@ -13011,9 +14091,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u0427\u0435\u0433\u0435\u043c",
 "url":"https://zovgor.com/pohod-chegem.html",
@@ -13035,9 +14117,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -13059,9 +14143,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
@@ -13083,9 +14169,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -13107,9 +14195,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+32
 ],
 "title":"\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438",
 "url":"https://team-trip.ru/srilankafreediving",
@@ -13131,9 +14221,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+128
 ],
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 (\u0441\u0438\u043d\u0438\u0435, \u043a\u0430\u0448\u0430\u043b\u043e\u0442\u044b, \u0444\u0438\u043d\u0432\u0430\u043b\u044b), \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores",
@@ -13155,9 +14247,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -13179,9 +14273,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u0413\u043e\u0440\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u044b \u0421\u0443\u0434\u0430\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2193_aktivnyj-tur-v-krym-gornye-prostory-sudaka",
@@ -13205,7 +14301,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-16
+16,
+0,
+128
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1709_avtorskij-velotur-po-gollandii-8-dnej",
@@ -13227,9 +14325,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1446_vesenniy-tur-na-kamchatku",
@@ -13251,9 +14351,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -13275,9 +14377,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -13299,9 +14403,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2415_majskie-prazdniki-v-krymu-progulki-v-sevastopole-bez-ryukzakov",
@@ -13323,9 +14429,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_2206_gornyj-lager-v-krymu",
@@ -13347,9 +14455,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0421\u043a\u0430\u043b\u0438\u0441\u0442\u044b\u0439 \u0445\u0440\u0435\u0431\u0435\u0442. \u0418\u0437\u00a0\u0411\u0430\u043b\u043a\u0430\u0440\u0438\u0438 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/skalistyy-khrebet-iz-balkarii-v-osetiyu/",
@@ -13371,9 +14481,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/kodorskoe-ushchele/",
@@ -13395,9 +14507,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -13419,9 +14533,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
@@ -13443,9 +14559,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://strannik36.ru/gornyy-krym-i-more",
@@ -13467,9 +14585,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -13491,9 +14611,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -13515,9 +14637,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0432\u043e\u0441\u0442\u043e\u043a) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"http://orangeked.ru/tours/item/54-lykia",
@@ -13539,9 +14663,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -13563,9 +14689,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"http://orangeked.ru/tours/item/110-dagestan",
@@ -13587,9 +14715,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/kappadokiya/90/",
@@ -13611,9 +14741,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/311/",
@@ -13635,9 +14767,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d: \u0433\u043e\u0440\u044b \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://mwtravel.ru/travel-all/tour-dagestan/",
@@ -13659,9 +14793,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -13683,9 +14819,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+4
 ],
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
@@ -13707,9 +14845,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u043c\u0430\u0439\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_1861_tur-na-majskie-prazdniki-v-abhazii",
@@ -13731,9 +14871,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-hopru-5-dney",
@@ -13755,9 +14897,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-5-dney",
@@ -13779,9 +14923,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/311/",
@@ -13805,7 +14951,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -13829,7 +14977,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -13853,7 +15003,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-16
+16,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -13875,9 +15027,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041c\u0430\u0439\u0441\u043a\u0430\u044f \u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430 \u0432\u00a0\u0412\u044b\u0431\u043e\u0440\u0433\u0435. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/mayskaya-romantika-v-vyborge-avtorskiy-tur-2021/",
@@ -13899,9 +15053,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u0435\u0439\u043a \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432 \u0438\u00a0\u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2480_wake-camp-dlya-lyubitelej-i-professionalov-pod-egidoj-kluba-tortuga",
@@ -13923,9 +15079,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041c\u0430\u0439\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1730_maiskie-prazdniki-v-gorah-5-dnej",
@@ -13947,9 +15105,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044e",
 "url":"https://pro-adventure.ru/tours/id_1958_avtorskij-tur-v-kolumbiyu",
@@ -13971,9 +15131,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u041a\u043e\u0433\u0434\u0430 \u0446\u0432\u0435\u0442\u0451\u0442 \u041c\u0430\u0440\u0430\u043b\u044c\u043d\u0438\u043a\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2437_letnyaya-skazka-1-1",
@@ -13997,7 +15159,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -14021,7 +15185,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
@@ -14045,7 +15211,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
@@ -14067,9 +15235,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0420\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0435 \u0433\u043e\u0440\u043d\u043e\u0433\u043e \u041a\u0440\u044b\u043c\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/raznoobrazie-gornogo-kryma/",
@@ -14091,9 +15261,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -14115,9 +15287,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-i-don-3-dnya",
@@ -14139,9 +15313,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-zhizdra-3-dnya",
@@ -14163,9 +15339,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -14187,9 +15365,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0412\u0435\u0441\u043d\u0430",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-vesna-2-dnya",
@@ -14211,9 +15391,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -14235,9 +15417,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -14259,9 +15443,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://cityescape.ru/poxod-po-severnoj-osetii/",
@@ -14283,9 +15469,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -14307,9 +15495,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
@@ -14331,9 +15521,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -14355,9 +15547,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u0413\u043e\u0440\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u044b \u0421\u0443\u0434\u0430\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2193_aktivnyj-tur-v-krym-gornye-prostory-sudaka",
@@ -14379,9 +15573,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -14403,9 +15599,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -14427,9 +15625,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u043e\u0447\u0438. \u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0441\u0443\u0431\u0442\u0440\u043e\u043f\u0438\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1860_aktivniy-otdyh-v-sochi",
@@ -14451,9 +15651,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2415_majskie-prazdniki-v-krymu-progulki-v-sevastopole-bez-ryukzakov",
@@ -14475,9 +15677,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_2206_gornyj-lager-v-krymu",
@@ -14499,9 +15703,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -14523,9 +15729,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u0433\u043e\u043b",
 "url":"https://strannik36.ru/pohod-po-reke-vorgol-2-dnya",
@@ -14547,9 +15755,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
@@ -14571,9 +15781,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -14595,9 +15807,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -14619,9 +15833,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u043c\u0430\u0439\u0441\u043a\u0438\u0435 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_1861_tur-na-majskie-prazdniki-v-abhazii",
@@ -14643,9 +15859,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/kappadokiya/90/",
@@ -14667,9 +15885,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u0427\u0435\u0433\u0435\u043c",
 "url":"https://zovgor.com/pohod-chegem.html",
@@ -14691,9 +15911,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
@@ -14715,9 +15937,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1446_vesenniy-tur-na-kamchatku",
@@ -14739,9 +15963,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://mwtravel.ru/travel-all/trekking-tour-near-elbrus/",
@@ -14765,7 +15991,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -14789,7 +16017,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -14813,7 +16043,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -14835,9 +16067,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
@@ -14859,9 +16093,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -14883,9 +16119,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -14909,7 +16147,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -14933,7 +16173,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
@@ -14957,7 +16199,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
@@ -14979,9 +16223,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041a\u0430\u043d\u044c\u043e\u043d \u0440\u0435\u043a\u0438 \u041b\u0430\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/kanon-reki-lava/",
@@ -15003,9 +16249,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -15027,9 +16275,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+128,
+0
 ],
 "title":"\u0428\u043f\u0438\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u043d\u0430\u00a0\u044f\u0445\u0442\u0435: \u043d\u0430\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
 "url":"https://team-trip.ru/spitzbergen2021",
@@ -15051,9 +16301,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -15075,9 +16327,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -15099,9 +16353,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2202_trekking-v-mezmae-komfort-tur-s-gostinicej",
@@ -15123,9 +16379,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -15147,9 +16405,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -15173,7 +16433,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_2406_komfortabelnyj-velotur-po-karelii-3-dnya-1-1",
@@ -15195,9 +16457,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0427\u0435\u0447\u043d\u0435",
 "url":"https://zovgor.com/pohod-po-chechne.html",
@@ -15219,9 +16483,11 @@ const DATA={"weekendList": [
 1,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1446_vesenniy-tur-na-kamchatku",
@@ -15243,9 +16509,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+0,
+8
 ],
 "title":"\u0410\u0443\u0441\u0430\u043d\u0433\u0430\u0442\u0435 \u0442\u0440\u0435\u043a \u0438\u00a0\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041f\u0435\u0440\u0443",
 "url":"https://zovgor.com/pohod-peru.html",
@@ -15269,7 +16537,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-south/",
@@ -15293,7 +16563,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -15317,7 +16589,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -15339,9 +16613,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-16
+16,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043d\u044f \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0433\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/pokhod-vykhodnogo-dnya-po-ladoge/",
@@ -15363,9 +16639,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-48
+48,
+0,
+8
 ],
 "title":"\u042d\u043a\u0432\u0430\u0434\u043e\u0440 \u0438\u00a0\u0413\u0430\u043b\u0430\u043f\u0430\u0433\u043e\u0441\u044b. \u0414\u0440\u0443\u0433\u0430\u044f \u043f\u043b\u0430\u043d\u0435\u0442\u0430",
 "url":"https://turclub-pik.ru/pohod/ekvador-galapagosy-drugaya-planeta/391/",
@@ -15387,9 +16665,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -15411,9 +16691,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/kodor.html",
@@ -15437,7 +16719,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-16
+16,
+0,
+1
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0440\u0430\u0440\u0430\u0442 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/ararat.html",
@@ -15459,9 +16743,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -15483,9 +16769,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -15509,7 +16797,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -15533,7 +16823,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
@@ -15557,7 +16849,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
@@ -15579,9 +16873,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -15603,9 +16899,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
@@ -15627,9 +16925,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://cityescape.ru/dagestan/",
@@ -15651,9 +16951,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+0,
+4
 ],
 "title":"\u0412\u044b\u0441\u043e\u043a\u0438\u0439 \u0410\u0442\u043b\u0430\u0441 \u0438\u00a0\u0422\u0443\u0431\u043a\u0430\u043b\u044c (\u041c\u0430\u0440\u043e\u043a\u043a\u043e)",
 "url":"https://zovgor.com/trekking_morocco.html",
@@ -15675,9 +16977,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -15699,9 +17003,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -15723,9 +17029,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2459_trekking-v-ingushetii",
@@ -15747,9 +17055,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
 "url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
@@ -15771,9 +17081,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -15795,9 +17107,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -15819,9 +17133,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2202_trekking-v-mezmae-komfort-tur-s-gostinicej",
@@ -15843,9 +17159,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2176_gornyj-lager-v-cejskom-ushele-severnaya-osetiya",
@@ -15867,9 +17185,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/pokhod-po-goram-severnoy-osetii-/",
@@ -15891,9 +17211,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-16
+16,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -15915,9 +17237,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -15939,9 +17263,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -15965,7 +17291,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-16
+16,
+16,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_2406_komfortabelnyj-velotur-po-karelii-3-dnya-1-1",
@@ -15989,7 +17317,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-48
+48,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u042e\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-yuga/",
@@ -16011,9 +17341,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-48
+48,
+1,
+0
 ],
 "title":"\u0412\u0435\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_1446_vesenniy-tur-na-kamchatku",
@@ -16037,7 +17369,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-16
+16,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -16059,9 +17393,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"https://zovgor.com/pohod-po-dagestanu.html",
@@ -16085,7 +17421,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -16109,7 +17447,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -16131,9 +17471,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -16157,7 +17499,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-48
+48,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -16181,7 +17525,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-48
+48,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -16203,9 +17549,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -16227,9 +17575,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+0,
+256
 ],
 "title":"\u0415\u0434\u0435\u043c \u0432\u00a0\u0433\u043e\u0440\u044b (\u043b\u0430\u0439\u0442), 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1732_edem-v-gory-lajt-8-dnej",
@@ -16253,7 +17603,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -16277,7 +17629,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
@@ -16301,7 +17655,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
@@ -16323,9 +17679,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -16347,9 +17705,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -16371,9 +17731,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0420\u0430\u043c\u043e\u043d\u044c",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-voronezh",
@@ -16395,9 +17757,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -16419,9 +17783,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-48
+48,
+0,
+128
 ],
 "title":"\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f: \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0435 \u043b\u044c\u0434\u043e\u0432, \u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432 \u0438\u00a0\u0443\u043c\u043e\u043f\u043e\u043c\u0440\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0435\u0439\u0437\u0430\u0436\u0435\u0439",
 "url":"https://team-trip.ru/iceland",
@@ -16443,9 +17809,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -16467,9 +17835,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+2,
+0
 ],
 "title":"\u0411\u041e\u041b\u042c\u0428\u041e\u0419 \u041c\u0410\u0419\u0421\u041a\u0418\u0419 \u0422\u0423\u0420 \u041f\u041e\u00a0\u0410\u041b\u0422\u0410\u042e",
 "url":"https://pro-adventure.ru/tours/id_2457_novyj-god-na-altae-10-dnej-1-1-1-1",
@@ -16491,9 +17861,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -16515,9 +17887,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -16539,9 +17913,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+2,
+0
 ],
 "title":"\u041c\u0410\u0419\u0421\u041a\u0418\u0419 \u0422\u0423\u0420 \u041f\u041e\u00a0\u0410\u041b\u0422\u0410\u042e",
 "url":"https://pro-adventure.ru/tours/id_2458_novyj-god-na-altae-10-dnej-1-1-1-1-1",
@@ -16563,9 +17939,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2459_trekking-v-ingushetii",
@@ -16587,9 +17965,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -16611,9 +17991,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -16635,9 +18017,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -16659,9 +18043,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2176_gornyj-lager-v-cejskom-ushele-severnaya-osetiya",
@@ -16683,9 +18069,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -16707,9 +18095,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0412\u0435\u0440\u0448\u0438\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0422\u0445\u0430\u0447\u0430 \u0438\u00a0\u0410\u0447\u0435\u0448\u0431\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vershina-bolshogo-tkhacha-i-acheshboki/",
@@ -16731,9 +18121,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-48
+48,
+64,
+0
 ],
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
@@ -16755,9 +18147,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-16
+16,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -16779,9 +18173,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+4
 ],
 "title":"\u042e\u0410\u0420: \u0433\u043e\u043d\u043a\u0430 \u0441\u0430\u0440\u0434\u0438\u043d, \u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d \u0438\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_sardines",
@@ -16803,9 +18199,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/abinsk-gelendzhik/",
@@ -16829,7 +18227,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-south/",
@@ -16851,9 +18251,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://zovgor.com/hot_springs.html",
@@ -16877,7 +18279,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -16901,7 +18305,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -16925,7 +18331,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/po-ladoge-na-baydarkakh/",
@@ -16947,9 +18355,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -16973,7 +18383,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -16995,9 +18407,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041c\u043e\u0440\u0441\u043a\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-morskoe-puteshestvie-na-kayakakh/136/",
@@ -17021,7 +18435,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442)",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-ekonom/185/",
@@ -17043,9 +18459,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -17069,7 +18487,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://zovgor.com/kazbek.html",
@@ -17091,9 +18511,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -17115,9 +18537,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0412\u0435\u0439\u043a \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432 \u0438\u00a0\u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2480_wake-camp-dlya-lyubitelej-i-professionalov-pod-egidoj-kluba-tortuga",
@@ -17139,9 +18563,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+4
 ],
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u043b\u0435\u043c\u0435\u043d\u0430, \u043f\u0443\u0441\u0442\u044b\u043d\u0438, \u043f\u043b\u044f\u0436\u0438",
 "url":"https://pro-adventure.ru/tours/id_1939_namibiya-plemena-pustyni-plyazhi",
@@ -17165,7 +18591,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -17189,7 +18617,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
@@ -17213,7 +18643,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
@@ -17235,9 +18667,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041a\u0440\u044b\u043c. \u041c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-mesta-sily/",
@@ -17261,7 +18695,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0412\u043e\u0441\u0442\u043e\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-vostoka/",
@@ -17283,9 +18719,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u0433\u043e\u043b",
 "url":"https://strannik36.ru/pohod-po-reke-vorgol-2-dnya",
@@ -17307,9 +18745,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
@@ -17331,9 +18771,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -17355,9 +18797,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -17379,9 +18823,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u00ab\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0422\u0445\u0430\u0447\u00bb",
 "url":"https://cityescape.ru/poxod-v-prirodnyj-park-bolshoj-txach/",
@@ -17403,9 +18849,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -17427,9 +18875,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -17451,9 +18901,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -17475,9 +18927,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -17499,9 +18953,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -17523,9 +18979,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -17547,9 +19005,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -17571,9 +19031,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -17595,9 +19057,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -17619,9 +19083,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -17643,9 +19109,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0421\u043a\u0430\u043b\u0438\u0441\u0442\u044b\u0439 \u0445\u0440\u0435\u0431\u0435\u0442. \u0418\u0437\u00a0\u0411\u0430\u043b\u043a\u0430\u0440\u0438\u0438 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/severnaya-osetiya-alaniya/skalistyy-khrebet-iz-balkarii-v-osetiyu/",
@@ -17667,9 +19135,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+64,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/avtomobilnyy-tur-po-prielbrusyu/",
@@ -17691,9 +19161,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -17715,9 +19187,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -17739,9 +19213,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
@@ -17763,9 +19239,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
 "url":"https://strannik36.ru/po-gornomu-krymu-0",
@@ -17787,9 +19265,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur",
@@ -17811,9 +19291,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"http://orangeked.ru/tours/item/111-dagestan2",
@@ -17835,9 +19317,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
@@ -17859,9 +19343,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0433\u043e\u0440\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0430",
 "url":"https://pro-adventure.ru/tours/id_2385_po-goram-kavkaza",
@@ -17885,7 +19371,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-32
+32,
+0,
+128
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u0413\u043e\u043b\u043b\u0430\u043d\u0434\u0438\u0438, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1709_avtorskij-velotur-po-gollandii-8-dnej",
@@ -17907,9 +19395,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -17931,9 +19421,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -17955,9 +19447,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/prielbruse-dlya-vsekh/",
@@ -17979,9 +19473,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u041c\u0435\u0447\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-krasivaya-mecha-5-dney",
@@ -18005,7 +19501,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0433\u043e\u0440\u0443 \u0424\u0438\u0448\u0442. 2867\u00a0\u043c",
 "url":"https://strannik36.ru/voshozhdenie-na-goru-fisht-2867m",
@@ -18027,9 +19525,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+1
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/173/",
@@ -18053,7 +19553,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
@@ -18077,7 +19579,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -18101,7 +19605,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -18123,9 +19629,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/nezavisimye-vykhodnye/",
@@ -18149,7 +19657,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
@@ -18171,9 +19681,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
@@ -18195,9 +19707,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur",
@@ -18219,9 +19733,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
@@ -18243,9 +19759,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
@@ -18269,7 +19787,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -18293,7 +19813,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+32,
+0
 ],
 "title":"\u041d\u0435\u0434\u0435\u043b\u044f \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0441\u0440\u0435\u0434\u0438 \u043b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0445 \u0448\u0445\u0435\u0440",
 "url":"https://turclub-pik.ru/pohod/sem-dnei-po-ladozhskim-shkheram/336/",
@@ -18317,7 +19839,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -18339,9 +19863,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://cityescape.ru/puteshestvie-po-donskim-beregam/",
@@ -18363,9 +19889,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -18387,9 +19915,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -18411,9 +19941,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0435 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0438 \u0421\u043e\u0447\u0438. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/gornye-zapovedniki-sochi-neslozhnyy-pokhod-2021/",
@@ -18435,9 +19967,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -18459,9 +19993,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u0451\u0440\u0444\u0438\u043d\u0433 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0435",
 "url":"https://pro-adventure.ru/tours/id_2479_aqua-camp",
@@ -18483,9 +20019,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+64,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u0410\u043b\u0442\u0430\u0439\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2436_letnyaya-skazka-1",
@@ -18509,7 +20047,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -18533,7 +20073,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
@@ -18557,7 +20099,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
@@ -18579,9 +20123,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-32
+32,
+256,
+0
 ],
 "title":"\u041f\u0435\u0440\u0435\u0432\u0430\u043b \u0414\u044f\u0442\u043b\u043e\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pereval-dyatlova/",
@@ -18603,9 +20149,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041a\u0440\u044b\u043c \u0432\u00a0\u043d\u043e\u0432\u043e\u043c \u0441\u0432\u0435\u0442\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-v-novom-svete/",
@@ -18627,9 +20175,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -18651,9 +20201,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -18675,9 +20227,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-i-don-3-dnya",
@@ -18699,9 +20253,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -18723,9 +20279,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -18747,9 +20305,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -18773,7 +20333,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -18795,9 +20357,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-resseta-3-dnya",
@@ -18819,9 +20383,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -18843,9 +20409,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -18867,9 +20435,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -18891,9 +20461,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -18915,9 +20487,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0427\u0443\u0439\u0441\u043a\u043e\u043c\u0443 \u0442\u0440\u0430\u043a\u0442\u0443",
 "url":"https://pro-adventure.ru/tours/id_2321_puteshestvie-po-chujskomu-traktu",
@@ -18939,9 +20513,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -18963,9 +20539,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -18987,9 +20565,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -19011,9 +20591,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -19035,9 +20617,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0432\u00a0\u0438\u044e\u043d\u0435",
 "url":"https://pro-adventure.ru/tours/id_1398_kamchatka-iyun",
@@ -19059,9 +20643,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -19083,9 +20669,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
 "url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
@@ -19107,9 +20695,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -19131,9 +20721,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -19155,9 +20747,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -19179,9 +20773,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041a\u043e\u0434\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/kodorskoe-ushchele/",
@@ -19203,9 +20799,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -19227,9 +20825,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
@@ -19251,9 +20851,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -19275,9 +20877,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043a\u044d\u043c\u043f \u043d\u0430\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0435",
 "url":"http://orangeked.ru/tours/item/64-pohod-teberda-arhiz",
@@ -19299,9 +20903,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0416\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044f",
 "url":"https://zovgor.com/kyrtyk.html",
@@ -19323,9 +20929,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+128
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u043d\u0431\u043b\u0430\u043d\u0430 (\u0410\u043b\u044c\u043f\u044b)",
 "url":"https://zovgor.com/pohod_monblan.html",
@@ -19347,9 +20955,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+128
 ],
 "title":"\u0414\u0443\u0440\u043c\u0438\u0442\u043e\u0440 \u0438\u00a0\u041f\u0440\u043e\u043a\u043b\u0435\u0442\u044c\u0435 (\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f)",
 "url":"https://zovgor.com/montenegro.html",
@@ -19373,7 +20983,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-rise-elbrus-south/",
@@ -19395,9 +21007,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-32
+32,
+0,
+4
 ],
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
@@ -19419,9 +21033,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/komfort-tur-na-elbrus/",
@@ -19443,9 +21059,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043e\u0442\u0434\u044b\u0445 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/semeynyy-otdykh-v-arkhyze/",
@@ -19467,9 +21085,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/treking-v-bezengi/",
@@ -19491,9 +21111,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-zhizdra-5-dney",
@@ -19515,9 +21137,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b. \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/fanskie-gory-tadzhikistan/279/",
@@ -19539,9 +21163,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u043e\u0437\u0435\u0440\u0430 \u0421\u044b\u043b\u0442\u0440\u0430\u043d-\u043a\u0451\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-ozerom-syltran-kyol/183/",
@@ -19565,7 +21191,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/voskhozhdenie-na-kazbek/",
@@ -19589,7 +21217,9 @@ const DATA={"weekendList": [
 0,
 4,
 2,
-32
+32,
+2,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u00a0\u043a\u043e\u043d\u043d\u044b\u043c \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u00ab\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u043e\u0435 \u0437\u0430\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2432_konno-peshyj-tur-k-shavlinskim-ozeram-1-1",
@@ -19613,7 +21243,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -19637,7 +21269,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -19659,9 +21293,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -19685,7 +21321,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -19707,9 +21345,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -19731,9 +21371,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -19757,7 +21399,9 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043a\u0432\u0435\u0441\u0442: \u041c\u0435\u0449\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0430\u0439\u043d\u044b, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2014_velokvest-mesherskie-tajny-2-dnya",
@@ -19781,7 +21425,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u041c\u043e\u0441\u043a\u0432\u0435-\u0440\u0435\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-moskva/",
@@ -19805,7 +21451,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
@@ -19827,9 +21475,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0412\u044b\u0441\u043e\u0442\u043d\u044b\u0439 \u0434\u0443\u0431\u043b\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/vysotnyy-dubl/",
@@ -19851,9 +21501,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041a\u0430\u043d\u044c\u043e\u043d \u0440\u0435\u043a\u0438 \u041b\u0430\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/kanon-reki-lava/",
@@ -19875,9 +21527,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
@@ -19899,9 +21553,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -19923,9 +21579,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -19947,9 +21605,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+16
 ],
 "title":"\u0413\u0440\u0443\u0437\u0438\u044f \u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f (\u043a\u043e\u043c\u0444\u043e\u0440\u0442)",
 "url":"http://orangeked.ru/tours/item/63-gornaya-svanetiya",
@@ -19971,9 +21631,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/162/",
@@ -19997,7 +21659,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-32
+32,
+0,
+256
 ],
 "title":"30-\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
@@ -20019,9 +21683,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -20043,9 +21709,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/shavlinskye-ozera.html",
@@ -20067,9 +21735,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
@@ -20091,9 +21761,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -20115,9 +21787,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -20139,9 +21813,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -20163,9 +21839,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -20187,9 +21865,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -20211,9 +21891,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -20235,9 +21917,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0432\u00a0\u0438\u044e\u043d\u0435",
 "url":"https://pro-adventure.ru/tours/id_1398_kamchatka-iyun",
@@ -20259,9 +21943,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
+128,
+2,
 32,
 2,
-32
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -20283,9 +21969,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2459_trekking-v-ingushetii",
@@ -20307,9 +21995,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -20331,9 +22021,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -20355,9 +22047,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -20379,9 +22073,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0414\u0436\u0438\u043b\u044b-\u0421\u0443. \u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://pro-adventure.ru/tours/id_2177_goryachie-istochniki-dzhily-su-gornyj-lager",
@@ -20403,9 +22099,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430. \u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://pro-adventure.ru/tours/id_2188_legendarnaya-tridcatka-cherez-gory-k-moryu",
@@ -20427,9 +22125,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-32
+32,
+256,
+0
 ],
 "title":"\u041f\u0435\u0440\u0435\u0432\u0430\u043b \u0414\u044f\u0442\u043b\u043e\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pereval-dyatlova/",
@@ -20451,9 +22151,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-32
+32,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -20475,9 +22177,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+16,
+0
 ],
 "title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
@@ -20501,7 +22205,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0440.\u00a0\u0412\u0430\u043c\u0430, \u0412\u043e\u0434\u043b\u0430. \u042e\u0436. \u041a\u0430\u0440\u0435\u043b\u0438\u044f",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-r-vama-vodla-yuzh-kareliya",
@@ -20523,9 +22229,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -20547,9 +22255,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439 \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 \u0438\u00a0\u0434\u043e\u043b\u0438\u043d\u0430 \u041c\u0430\u0430\u0448\u0435\u0439",
 "url":"http://orangeked.ru/tours/item/67-ozernyi-altai",
@@ -20571,9 +22281,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+128
 ],
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/trekking_norway_trolltunga.html",
@@ -20595,9 +22307,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0432\u0443\u043b\u043a\u0430\u043d \u0438\u00a0\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0440\u0443\u0438\u0437 \u043a\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c",
 "url":"https://team-trip.ru/familykamch",
@@ -20621,7 +22335,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442)",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-ekonom/185/",
@@ -20643,9 +22359,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
@@ -20667,9 +22385,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-96
+96,
+0,
+4
 ],
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
@@ -20691,9 +22411,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-resseta-7-dney",
@@ -20715,9 +22437,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430\u202f\u2014\u2009\u043e\u0437\u0435\u0440\u043e \u0420\u0438\u0446\u0430. \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/arabika-ozero-ritsa-abkhaziya-/",
@@ -20739,9 +22463,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u041c\u0435\u0447\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-krasivaya-mecha-5-dney",
@@ -20763,9 +22489,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-32
+32,
+4,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://mwtravel.ru/travel-all/trekking-tour-near-elbrus/",
@@ -20789,7 +22517,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-32
+32,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -20811,9 +22541,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u044b\u0435 \u0433\u043e\u0440\u044b \u0410\u043b\u0442\u0430\u044f",
 "url":"https://pro-adventure.ru/tours/id_2448_zolotye-gory-altaya",
@@ -20837,7 +22569,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -20861,7 +22595,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -20883,9 +22619,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -20907,9 +22645,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-zhizdra-3-dnya",
@@ -20931,9 +22671,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
@@ -20955,9 +22697,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -20979,9 +22723,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -21003,9 +22749,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -21029,7 +22777,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -21053,7 +22803,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -21075,9 +22827,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+16
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u0430\u044f \u0410\u0440\u043c\u0435\u043d\u0438\u044f. \u041a\u00a0\u0438\u0441\u0442\u043e\u043a\u0430\u043c \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
 "url":"https://cityescape.ru/neizvedannaya-armeniya-po-sledam-istokov-civilizacii/",
@@ -21101,7 +22855,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/elbrus_north/",
@@ -21123,9 +22879,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
@@ -21147,9 +22905,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
@@ -21171,9 +22931,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+4
 ],
 "title":"\u042e\u0410\u0420: \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u041a\u0435\u0439\u043f\u0442\u0430\u0443\u043d\u043e\u043c",
 "url":"https://team-trip.ru/southafrica_intro",
@@ -21195,9 +22957,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -21219,9 +22983,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00abJ\u0430\u0439\u0433\u044b \u0427\u04e7\u0440\u0447\u04e7\u043a\u00bb (\u00ab\u041b\u0435\u0442\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb)",
 "url":"https://pro-adventure.ru/tours/id_2435_letnyaya-skazka",
@@ -21245,7 +23011,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
@@ -21269,7 +23037,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
@@ -21293,7 +23063,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0421\u0435\u0432\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/vosxozhdenie-s-severa/",
@@ -21315,9 +23087,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-96
+96,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/pokhod-po-ladozhskim-shkheram/",
@@ -21339,9 +23113,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0424\u0438\u0448\u0442-\u041e\u0448\u0442\u0435\u043d\u043e\u0432\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
 "url":"https://strannik36.ru/fisht-oshtenovskoe-kolco",
@@ -21363,9 +23139,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
@@ -21387,9 +23165,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -21411,9 +23191,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -21435,9 +23217,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0420\u0430\u043c\u043e\u043d\u044c",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-voronezh",
@@ -21459,9 +23243,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -21483,9 +23269,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -21507,9 +23295,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+1,
+0
 ],
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20131\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-1-2021/",
@@ -21531,9 +23321,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -21555,9 +23347,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -21579,9 +23373,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -21603,9 +23399,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -21627,9 +23425,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -21651,9 +23451,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -21675,9 +23477,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -21699,9 +23503,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -21723,9 +23529,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0410\u043a\u0441\u0430\u0443\u0442",
 "url":"https://pro-adventure.ru/tours/id_2196_gornyj-lager-aksaut",
@@ -21747,9 +23555,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -21771,9 +23581,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -21795,9 +23607,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -21819,9 +23633,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2176_gornyj-lager-v-cejskom-ushele-severnaya-osetiya",
@@ -21843,9 +23659,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0414\u0436\u0438\u043b\u044b-\u0421\u0443. \u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://pro-adventure.ru/tours/id_2177_goryachie-istochniki-dzhily-su-gornyj-lager",
@@ -21869,7 +23687,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
@@ -21891,9 +23711,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -21915,9 +23737,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
@@ -21939,9 +23763,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-32
+32,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -21963,9 +23789,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/211/",
@@ -21987,9 +23815,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0421\u0435\u043b\u0438\u0433\u0435\u0440 (2+)",
 "url":"https://turclub-pik.ru/pohod/detskii-seliger/315/",
@@ -22011,9 +23841,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u0413\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/4/",
@@ -22035,9 +23867,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432. \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u00ab\u0417\u043e\u043b\u043e\u0442\u043e\u043c\u0443 \u043a\u043e\u043b\u044c\u0446\u0443 \u0410\u043b\u0442\u0430\u044f\u00bb",
 "url":"https://turclub-pik.ru/pohod/altai-bez-ryukzakov/472/",
@@ -22059,9 +23893,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -22083,9 +23919,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+128
 ],
 "title":"\u0413\u043e\u0440\u044b \u0413\u0438\u0433\u0430\u043d\u0442\u043e\u0432 (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/norway.html",
@@ -22107,9 +23945,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+128
 ],
 "title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u041b\u044c\u0434\u043e\u0432 (\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f)",
 "url":"https://zovgor.com/trekking_iceland.html",
@@ -22131,9 +23971,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-96
+96,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
 "url":"https://team-trip.ru/wildcampkamchatka",
@@ -22155,9 +23997,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-96
+96,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -22179,9 +24023,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+2,
+0
 ],
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/pokhod-k-shavlinskim-ozeram/",
@@ -22203,9 +24049,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-96
+96,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -22227,9 +24075,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
@@ -22253,7 +24103,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
@@ -22275,9 +24127,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-5-dney",
@@ -22299,9 +24153,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur",
@@ -22323,9 +24179,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-96
+96,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
@@ -22347,9 +24205,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u0413\u0440\u0443\u0437\u0438\u044f (1,5+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-gruziya/220/",
@@ -22371,9 +24231,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u0427\u0435\u0440\u043d\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
@@ -22395,9 +24257,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
 "url":"https://team-trip.ru/wildcampkamchatka",
@@ -22419,9 +24283,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d, \u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u043e\u043d\u0435\u0440\u043e\u043d",
 "url":"https://team-trip.ru/sakhalin_old",
@@ -22443,9 +24309,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0410\u043b\u0442\u0430\u0439\u0441\u043a\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2446_letnyaya-skazka-1-1-1-1-1-1-1",
@@ -22467,9 +24335,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/abinsk-gelendzhik/",
@@ -22491,9 +24361,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -22515,9 +24387,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/109/",
@@ -22539,9 +24413,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
@@ -22563,9 +24439,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod-na-multinskie-ozera.html",
@@ -22587,9 +24465,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-armenii.html",
@@ -22611,9 +24491,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0410\u043b\u0442\u0430\u0439-\u0422\u044b\u0432\u0430. \u0422\u0443\u0440 \u043d\u0430\u00a0\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f\u0445 \u0438\u00a0\u0442\u0440\u0435\u043a\u0438\u043d\u0433 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/ekspeditsiya-altay-tyva-tur-na-avtomobilyakh-i-treking-2021/",
@@ -22635,9 +24517,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -22661,7 +24545,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -22685,7 +24571,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -22707,9 +24595,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/multinskie-ozyera/",
@@ -22733,7 +24623,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -22755,9 +24647,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -22779,9 +24673,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-zhizdra-3-dnya",
@@ -22805,7 +24701,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -22829,7 +24727,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-north/",
@@ -22851,9 +24751,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u0415\u0440\u0433\u0430\u043a\u0438\u202f\u2014\u2009\u0416\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u0437\u0430\u043f\u0430\u0434\u043d\u044b\u0445 \u0421\u0430\u044f\u043d",
 "url":"https://turclub-pik.ru/pohod/ergaki-zhemchuzhina-zapadnykh-sayany/289/",
@@ -22877,7 +24779,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041d\u0435\u0434\u0435\u043b\u044f \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0441\u0440\u0435\u0434\u0438 \u043b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0445 \u0448\u0445\u0435\u0440",
 "url":"https://turclub-pik.ru/pohod/sem-dnei-po-ladozhskim-shkheram/336/",
@@ -22901,7 +24805,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb + \u0441\u043f\u043b\u0430\u0432",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/437/",
@@ -22923,9 +24829,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -22947,9 +24855,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -22971,9 +24881,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
@@ -22995,9 +24907,11 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u041f\u043e\u0442\u0430\u0435\u043d\u043d\u044b\u0435 \u0442\u0440\u043e\u043f\u044b \u0421\u043e\u0447\u0438. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041c\u0430\u043b\u043e\u0439 \u041b\u0430\u0431\u0435\u20131\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/peshie-pokhody/potaennye-tropy-sochi-pokhod-po-maloy-labe-1-2021/",
@@ -23019,9 +24933,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+4
 ],
 "title":"\u042e\u0410\u0420: \u043c\u0438\u043d\u0438-\u0442\u0443\u0440 \u0432\u00a0\u043f\u0430\u0440\u043a \u041a\u0440\u044e\u0433\u0435\u0440 \u0438\u00a0\u043a\u0430\u043d\u044c\u043e\u043d \u0411\u043b\u0430\u0439\u0434 \u0420\u0438\u0432\u0435\u0440",
 "url":"https://team-trip.ru/southafrica_mini",
@@ -23043,9 +24959,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -23067,9 +24985,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -23091,9 +25011,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0412\u0435\u0439\u043a \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432 \u0438\u00a0\u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2480_wake-camp-dlya-lyubitelej-i-professionalov-pod-egidoj-kluba-tortuga",
@@ -23117,7 +25039,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
@@ -23141,7 +25065,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
@@ -23163,9 +25089,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
@@ -23189,7 +25117,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
@@ -23211,9 +25141,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -23235,9 +25167,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -23259,9 +25193,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/po-reke-oskol-6-dney",
@@ -23283,9 +25219,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+8,
+0
 ],
 "title":"\u0411\u0430\u0439\u043a\u0430\u043b. \u041e\u0441\u0442\u0440\u043e\u0432 \u041e\u043b\u044c\u0445\u043e\u043d",
 "url":"https://turclub-pik.ru/pohod/bajkal-ostrov-olhon/106/",
@@ -23309,7 +25247,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-i-elbrus/158/",
@@ -23333,7 +25273,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-kazbek-s-yuga/157/",
@@ -23355,9 +25297,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0435\u0439",
 "url":"https://turclub-pik.ru/pohod/semeinaya-kamchatka/468/",
@@ -23379,9 +25323,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041a\u0438\u043b\u044c\u0434\u0438\u043d+\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
 "url":"https://cityescape.ru/poxod-na-ostrov-kildinteriberka/",
@@ -23403,9 +25349,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -23427,9 +25375,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -23451,9 +25401,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041e\u0442\u00a0\u041a\u043b\u044e\u0447\u0435\u0432\u0441\u043a\u043e\u0439 \u0441\u043e\u043f\u043a\u0438 \u043a\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0443: \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0441\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438",
 "url":"https://pro-adventure.ru/tours/id_1797_vokrug-tolbachikov-pokhod-po-kamchatke-s-ryukzakami-2",
@@ -23475,9 +25427,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -23499,9 +25453,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -23523,9 +25479,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -23547,9 +25505,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -23571,9 +25531,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -23595,9 +25557,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -23619,9 +25583,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -23643,9 +25609,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -23667,9 +25635,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -23691,9 +25661,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -23715,9 +25687,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0414\u0436\u0438\u043b\u044b-\u0421\u0443. \u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://pro-adventure.ru/tours/id_2177_goryachie-istochniki-dzhily-su-gornyj-lager",
@@ -23739,9 +25713,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -23763,9 +25739,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u0412\u0438\u043d\u0447\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-vincha/",
@@ -23787,9 +25765,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
@@ -23811,9 +25791,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u0435\u0440\u0435\u0432\u0430\u043b \u0414\u044f\u0442\u043b\u043e\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pereval-dyatlova/",
@@ -23835,9 +25817,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
@@ -23861,7 +25845,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
@@ -23883,9 +25869,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
@@ -23907,9 +25895,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -23931,9 +25921,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u0430\u043d\u044c\u043e\u043d \u0440\u0435\u043a\u0438 \u041b\u0430\u0432\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/kanon-reki-lava/",
@@ -23955,9 +25947,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -23979,9 +25973,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0435 \u0421\u0430\u044f\u043d\u044b \u0415\u0440\u0433\u0430\u043a\u0438",
 "url":"http://orangeked.ru/tours/item/32-trekking-v-ergakah",
@@ -24003,9 +25999,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0440\u0430\u0431\u0438\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/abkhaziya-po-khrebtu-arabika/160/",
@@ -24027,9 +26025,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/264/",
@@ -24051,9 +26051,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430 \u0438\u00a0\u0420\u0438\u0446\u0430 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia.html",
@@ -24075,9 +26077,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0412\u0443\u043b\u043a\u0430\u043d\u043e\u0432 (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/tolbachik.html",
@@ -24099,9 +26103,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-64
+64,
+0,
+4
 ],
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
@@ -24123,9 +26129,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1219_hit-kamchatki-tur-bez-ryukzakov",
@@ -24147,9 +26155,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432: \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a, \u0410\u0432\u0430\u0447\u0438\u043d\u0441\u043a\u0438\u0439, \u041c\u0443\u0442\u043d\u043e\u0432\u0441\u043a\u0438\u0439, \u0413\u043e\u0440\u0435\u043b\u044b\u0439",
 "url":"https://pro-adventure.ru/tours/id_1221_zemlja-ognedyshashih-gor-tur-na-kamchatke-bez-ryukzakov",
@@ -24171,9 +26181,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
@@ -24197,7 +26209,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/voskhozhdenie-na-kazbek/",
@@ -24221,7 +26235,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0432\u043e\u0441\u0442\u043e\u043a\u0430",
 "url":"https://cityescape.ru/elbrus-east/",
@@ -24243,9 +26259,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
@@ -24267,9 +26285,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043a\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_1792_mnogolikaya-kamchatka",
@@ -24291,9 +26311,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-64
+64,
+0,
+4
 ],
 "title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
 "url":"https://team-trip.ru/namibia",
@@ -24315,9 +26337,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1273_activnaya-kamchatka-tur-bez-ryukzakov",
@@ -24341,7 +26365,9 @@ const DATA={"weekendList": [
 0,
 4,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u00a0\u043a\u043e\u043d\u043d\u044b\u043c \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u00ab\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u043e\u0435 \u0437\u0430\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2432_konno-peshyj-tur-k-shavlinskim-ozeram-1-1",
@@ -24363,9 +26389,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -24387,9 +26415,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0410\u0440\u0445\u044b\u0437+\u0414\u043e\u043c\u0431\u0430\u0439. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430",
 "url":"https://pro-adventure.ru/tours/id_2306_megatur-arhyzdombaj-10-dnej-trekkinga",
@@ -24411,9 +26441,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -24435,9 +26467,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
@@ -24459,9 +26493,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u043e\u0437\u0435\u0440\u0430 \u0421\u044b\u043b\u0442\u0440\u0430\u043d-\u043a\u0451\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-ozerom-syltran-kyol/183/",
@@ -24483,9 +26519,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u0438\u0436\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u0435 \u0447\u0443\u0434\u0435\u0441\u0430 \u041e\u043d\u0435\u0433\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/kizhi-i-drugie-chudesa-onegi-avtorskiy-tur-2021/",
@@ -24509,7 +26547,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041d\u0435\u0440\u0441\u043a\u0430\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-nerskaya/",
@@ -24533,7 +26573,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0417\u0430\u043f\u0430\u0434\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-zapada/",
@@ -24555,9 +26597,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
@@ -24581,7 +26625,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-south/",
@@ -24603,9 +26649,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u043e\u0435 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://turclub-pik.ru/pohod/detskoe-prielbruse/202/",
@@ -24629,7 +26677,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -24651,9 +26701,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
@@ -24675,9 +26727,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+128
 ],
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/trekking_norway_trolltunga.html",
@@ -24699,9 +26753,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20132\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-2-2021/",
@@ -24723,9 +26779,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0441\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u043e\u043c",
 "url":"https://pro-adventure.ru/tours/id_2416_activnaya-kamchatka-s-tolbachikom",
@@ -24747,9 +26805,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -24773,7 +26833,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -24797,7 +26859,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -24821,7 +26885,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445",
 "url":"https://club-perexod.ru/marshruty/rossiya/leningradskaya-oblast/po-ladoge-na-baydarkakh/",
@@ -24843,9 +26909,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
 "url":"https://strannik36.ru/pohod-po-sredney-vorone-7-dney",
@@ -24869,7 +26937,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430\u202f\u2014\u2009\u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/na-baydarkah-po-reke-resseta-zhizdra-5-dney",
@@ -24891,9 +26961,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -24915,9 +26987,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -24939,9 +27013,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -24965,7 +27041,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -24989,7 +27067,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -25013,7 +27093,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 Elite",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-yuga-luxury/383/",
@@ -25035,9 +27117,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0411\u0430\u043b\u043a\u0430\u0440\u0438\u044f",
 "url":"https://turclub-pik.ru/pohod/gornaya-balkariya/462/",
@@ -25059,9 +27143,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-sofijskie-ozera.html",
@@ -25083,9 +27169,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u041d\u0435\u0445\u043e\u0436\u0435\u043d\u044b\u0435 \u0442\u0440\u043e\u043f\u044b (\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c)",
 "url":"https://zovgor.com/east-crimea-trails.html",
@@ -25107,9 +27195,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+128,
+0
 ],
 "title":"\u0412\u0430\u0439\u0433\u0430\u0447 \u0438\u00a0\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043c\u043b\u044f: \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u044f\u0445\u0442\u0435 \u043d\u0430\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0433\u0438\u0433\u0430\u043d\u0442\u043e\u0432 \u0410\u0440\u043a\u0442\u0438\u043a\u0438",
 "url":"https://team-trip.ru/vaygach",
@@ -25131,9 +27221,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -25155,9 +27247,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
@@ -25181,7 +27275,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
@@ -25203,9 +27299,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -25227,9 +27325,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://strannik36.ru/cherez-gory-k-moryu",
@@ -25251,9 +27351,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
@@ -25275,9 +27377,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -25299,8 +27403,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+64,
+0,
 64
 ],
 "title":"\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0422\u044f\u043d\u044c-\u0428\u0430\u043d\u044e",
@@ -25323,9 +27429,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/88/",
@@ -25347,9 +27455,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a. \u041f\u043e\u00a0\u0441\u043b\u0435\u0434\u0430\u043c \u043d\u0435\u0434\u0430\u0432\u043d\u0438\u0445 \u0438\u0437\u0432\u0435\u0440\u0436\u0435\u043d\u0438\u0439\u00bb",
 "url":"https://turclub-pik.ru/pohod/kamchatka-vstrechnoe-kolco/187/",
@@ -25371,9 +27481,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -25395,9 +27507,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://zovgor.com/pohod_khibiny.html",
@@ -25419,9 +27533,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -25443,9 +27559,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -25467,9 +27585,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -25491,9 +27611,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -25515,9 +27637,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043e\u043a\u0435\u0430\u043d \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b",
 "url":"https://pro-adventure.ru/tours/id_2417_kamchatka-okean-i-vulkany",
@@ -25539,9 +27663,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -25563,9 +27689,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0427\u0443\u0439\u0441\u043a\u043e\u043c\u0443 \u0442\u0440\u0430\u043a\u0442\u0443",
 "url":"https://pro-adventure.ru/tours/id_2321_puteshestvie-po-chujskomu-traktu",
@@ -25587,9 +27715,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -25611,9 +27741,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -25635,9 +27767,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -25659,9 +27793,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -25683,9 +27819,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -25707,9 +27845,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -25731,9 +27871,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -25755,9 +27897,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -25781,7 +27925,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0438\u0441\u0442\u0430\u0439\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-pistayoki/",
@@ -25803,9 +27949,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u0412\u0438\u043d\u0447\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-vincha/",
@@ -25827,9 +27975,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+64,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/avtomobilnyy-tur-po-prielbrusyu/",
@@ -25851,9 +28001,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
@@ -25877,7 +28029,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
@@ -25899,9 +28053,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -25923,9 +28079,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
@@ -25947,9 +28105,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
@@ -25973,7 +28133,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0428\u0443\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-shue-yu-kareliya7-dney",
@@ -25995,9 +28157,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/211/",
@@ -26019,9 +28183,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u043b\u0443\u0431\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://turclub-pik.ru/pohod/goluboe-ozherele-arhyiza/17/",
@@ -26043,9 +28209,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+128
 ],
 "title":"\u0422\u0443\u0440 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u0443 \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u0438",
 "url":"https://zovgor.com/iceland_north.html",
@@ -26067,9 +28235,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -26091,9 +28261,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://zovgor.com/hot_springs.html",
@@ -26115,9 +28287,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+128
 ],
 "title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u041b\u044c\u0434\u043e\u0432 (\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f)",
 "url":"https://zovgor.com/trekking_iceland.html",
@@ -26139,9 +28313,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/pokhod-k-shavlinskim-ozeram/",
@@ -26165,7 +28341,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-rise-elbrus-south/",
@@ -26187,9 +28365,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -26211,9 +28391,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -26237,7 +28419,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
@@ -26259,9 +28443,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
@@ -26283,9 +28469,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
@@ -26307,9 +28495,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d, \u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u043e\u043d\u0435\u0440\u043e\u043d",
 "url":"https://team-trip.ru/sakhalin_old",
@@ -26331,9 +28521,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443: \u0442\u0440\u0438 \u0432\u0443\u043b\u043a\u0430\u043d\u0430 \u0438\u00a0\u043e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_1274_vulkany-i-okean",
@@ -26355,9 +28547,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00abJ\u0430\u0439\u0433\u044b \u0427\u04e7\u0440\u0447\u04e7\u043a\u00bb (\u00ab\u041b\u0435\u0442\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb)",
 "url":"https://pro-adventure.ru/tours/id_2435_letnyaya-skazka",
@@ -26379,9 +28573,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -26403,9 +28599,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430\u202f\u2014\u2009\u043e\u0437\u0435\u0440\u043e \u0420\u0438\u0446\u0430. \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/arabika-ozero-ritsa-abkhaziya-/",
@@ -26429,7 +28627,9 @@ const DATA={"weekendList": [
 0,
 4,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u043b\u0442\u0430\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/konnyy-pokhod-po-altayu/",
@@ -26451,9 +28651,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u00a0\u0433\u043e\u0440\u0435 \u0411\u0435\u043b\u0443\u0445\u0430 \u0438\u00a0\u043e\u0437\u0435\u0440\u0443 \u0414\u0430\u0440\u0430\u0448\u043a\u043e\u043b\u044c",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/k-gore-belukha-i-ozeru-darashkol/",
@@ -26475,9 +28677,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/k-podnozhiyu-belukhi/",
@@ -26499,9 +28703,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
 "url":"https://strannik36.ru/pohod-po-nizhney-vorone-7-dney",
@@ -26523,9 +28729,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/109/",
@@ -26547,9 +28755,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
@@ -26571,9 +28781,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+128,
+0
 ],
 "title":"\u0417\u0435\u043c\u043b\u044f \u0424\u0440\u0430\u043d\u0446\u0430 \u0418\u043e\u0441\u0438\u0444\u0430 \u0438\u00a0\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043c\u043b\u044f \u043d\u0430\u00a0\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u043e\u043c \u0441\u0443\u0434\u043d\u0435 Ocean Adventurer",
 "url":"https://pro-adventure.ru/tours/id_2279_antarkticheskaya-klassika-i-aktivnye-priklyucheniya-na-sudne-plancius-1-1",
@@ -26597,7 +28809,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-64
+64,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -26619,9 +28833,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -26645,7 +28861,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -26667,9 +28885,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -26693,7 +28913,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -26717,7 +28939,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -26739,9 +28963,11 @@ const DATA={"weekendList": [
 0,
 16,
 0,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-severa/206/",
@@ -26765,7 +28991,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041d\u0435\u0434\u0435\u043b\u044f \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0441\u0440\u0435\u0434\u0438 \u043b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0445 \u0448\u0445\u0435\u0440",
 "url":"https://turclub-pik.ru/pohod/sem-dnei-po-ladozhskim-shkheram/336/",
@@ -26787,9 +29015,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0432\u0430\u0434\u0445\u0430\u0440\u0430 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia2.html",
@@ -26811,9 +29041,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -26835,9 +29067,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0435 \u0410\u043c\u0443\u0440\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b\u20131\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/zagadochnye-amurskie-stolby-1-2021/",
@@ -26859,9 +29093,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -26883,9 +29119,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u041b\u0430\u0439\u0442",
 "url":"https://pro-adventure.ru/tours/id_1235_kamchatka-bez-palatok-i-ryukzakov",
@@ -26907,9 +29145,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -26931,9 +29171,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0410\u0432\u0442\u043e-\u043f\u043e\u0445\u043e\u0434 \u00ab\u0422\u0430\u0439\u043d\u0430 \u0423\u043a\u043e\u043a\u0430\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2444_letnyaya-skazka-1-1-1-1-1-1",
@@ -26957,7 +29199,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0414\u0443\u0431\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-dubna/",
@@ -26981,7 +29225,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u0435\u0442\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splavy-na-baydarkakh-po-reke-osetr/",
@@ -27003,9 +29249,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
@@ -27029,7 +29277,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
@@ -27051,9 +29301,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/pokhod-po-ladozhskim-shkheram/",
@@ -27075,9 +29327,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -27101,7 +29355,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-8-dney",
@@ -27123,9 +29379,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0418\u0437\u00a0\u0410\u0440\u0445\u044b\u0437\u0430 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0439",
 "url":"https://strannik36.ru/iz-arhyza-v-dombay",
@@ -27147,9 +29405,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -27173,7 +29433,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0412\u0435\u043b\u043e\u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u043c \u043e\u0441\u0442\u0440\u043e\u0432\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/alandskie-ostrova-na-velosipede/99/",
@@ -27195,9 +29457,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/162/",
@@ -27219,9 +29483,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+16
 ],
 "title":"\u0413\u0440\u0443\u0437\u0438\u044f. \u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0447\u0435\u0440\u0435\u0437 \u0432\u0441\u044e \u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/gruzinskaya-svanetiya/105/",
@@ -27243,9 +29509,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
@@ -27267,9 +29535,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -27291,9 +29561,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://zovgor.com/pohod_khibiny.html",
@@ -27315,9 +29587,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
@@ -27339,9 +29613,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -27363,9 +29639,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -27387,9 +29665,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -27411,9 +29691,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -27435,9 +29717,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -27459,9 +29743,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -27483,9 +29769,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -27507,9 +29795,11 @@ const DATA={"weekendList": [
 1,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u0451\u0440\u0444\u0438\u043d\u0433 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0435",
 "url":"https://pro-adventure.ru/tours/id_2479_aqua-camp",
@@ -27531,9 +29821,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -27555,9 +29847,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0441\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438 \u0432\u00a0\u041d\u0430\u043b\u044b\u0447\u0435\u0432\u0441\u043a\u0443\u044e \u0434\u043e\u043b\u0438\u043d\u0443",
 "url":"https://pro-adventure.ru/tours/id_1224_pohod-s-ryukzakami-cherez-vulkany-v-nalychevskuyu-dolinu",
@@ -27579,9 +29873,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -27603,9 +29899,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0410\u043a\u0441\u0430\u0443\u0442",
 "url":"https://pro-adventure.ru/tours/id_2196_gornyj-lager-aksaut",
@@ -27629,7 +29927,9 @@ const DATA={"weekendList": [
 1,
 1,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u041b\u0435\u0442\u043d\u044f\u044f \u0411\u0430\u043b\u0430\u043a\u043b\u0430\u0432\u0430 \u0438\u00a0\u0441\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_2189_trekking-v-krymu-lazurnye-buhty-balaklavy",
@@ -27651,9 +29951,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -27675,9 +29977,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -27699,9 +30003,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -27723,9 +30029,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -27747,9 +30055,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2176_gornyj-lager-v-cejskom-ushele-severnaya-osetiya",
@@ -27771,9 +30081,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430. \u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://pro-adventure.ru/tours/id_2188_legendarnaya-tridcatka-cherez-gory-k-moryu",
@@ -27795,9 +30107,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -27819,9 +30133,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u0412\u0438\u043d\u0447\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-vincha/",
@@ -27843,9 +30159,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u041a\u0430\u0432\u043a\u0430\u0437: \u0417\u0430\u0433\u0435\u0434\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/zapadnyy-kavkaz-zagedanskie-ozera/",
@@ -27867,9 +30185,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
@@ -27893,7 +30213,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
@@ -27915,9 +30237,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-imeretinskie-ozera/",
@@ -27939,9 +30263,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0430 \u0437\u0430\u00a014\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://club-perexod.ru/marshruty/rossiya/kamchatka/vokrug-tolbachika-za-14-dney/",
@@ -27963,9 +30289,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u0440\u0430\u0441\u043e\u0442\u044b \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0445 \u043e\u0437\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/krasoty-sofiyskikh-ozyer/",
@@ -27987,9 +30315,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -28013,7 +30343,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0421\u0443\u043d\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-sune-yu-kareliya7dney",
@@ -28035,8 +30367,10 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
+64,
+0,
 64
 ],
 "title":"\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d \u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b",
@@ -28059,9 +30393,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u0413\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/4/",
@@ -28083,9 +30419,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
 "url":"https://turclub-pik.ru/pohod/semeinyi-lager-v-krymu-plavanie-i-tvorchestvo/463/",
@@ -28107,9 +30445,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043a\u00a0\u0433\u043e\u0440\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c",
 "url":"https://turclub-pik.ru/pohod/altai-trekking-k-gornym-ozeram/438/",
@@ -28131,9 +30471,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1219_hit-kamchatki-tur-bez-ryukzakov",
@@ -28155,9 +30497,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432: \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a, \u0410\u0432\u0430\u0447\u0438\u043d\u0441\u043a\u0438\u0439, \u041c\u0443\u0442\u043d\u043e\u0432\u0441\u043a\u0438\u0439, \u0413\u043e\u0440\u0435\u043b\u044b\u0439",
 "url":"https://pro-adventure.ru/tours/id_1221_zemlja-ognedyshashih-gor-tur-na-kamchatke-bez-ryukzakov",
@@ -28179,9 +30523,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u041a\u043e\u043c\u0430\u043d\u0434\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://pro-adventure.ru/tours/id_2333_ekspediciya-na-komandorskie-ostrova",
@@ -28203,9 +30549,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -28229,7 +30577,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -28251,9 +30601,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u00ab\u0427\u0435\u0434\u044b\u043c\u00bb \u0441\u00a0\u0437\u0430\u0431\u0440\u043e\u0441\u043a\u043e\u0439 \u0432\u00a0\u0433\u043e\u0440\u044b \u043d\u0430\u00a0\u0432\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u0435 \u041c\u0418-8",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/abkhaziya/chedym-s-zabroskoy-v-gory-na-vertolete-mi-8/",
@@ -28275,9 +30627,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
@@ -28301,7 +30655,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-64
+64,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/voskhozhdenie-na-kazbek/",
@@ -28323,9 +30679,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -28347,9 +30705,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043a\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_1792_mnogolikaya-kamchatka",
@@ -28371,9 +30731,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041a\u043e\u043b\u044c\u0446\u0435\u0432\u043e\u0439 \u0430\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 04\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2443_letnyaya-skazka-1-1-1-1-1",
@@ -28395,9 +30757,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -28419,9 +30783,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -28443,9 +30809,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
@@ -28469,7 +30837,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430\u202f\u2014\u2009\u0416\u0438\u0437\u0434\u0440\u0430",
 "url":"https://strannik36.ru/na-baydarkah-po-reke-resseta-zhizdra-5-dney",
@@ -28491,9 +30861,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
@@ -28515,9 +30887,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/multinskie-ozyera/",
@@ -28541,7 +30915,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -28563,9 +30939,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043a\u0430\u043b\u044b \u041f\u0430\u0441\u0442\u0443\u0445\u043e\u0432\u0430",
 "url":"https://zovgor.com/skaly-pastuhova.html",
@@ -28589,7 +30967,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430",
 "url":"https://zovgor.com/elbrus.html",
@@ -28611,9 +30991,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1273_activnaya-kamchatka-tur-bez-ryukzakov",
@@ -28635,9 +31017,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u044b\u0435 \u0433\u043e\u0440\u044b \u0410\u043b\u0442\u0430\u044f",
 "url":"https://pro-adventure.ru/tours/id_2448_zolotye-gory-altaya",
@@ -28661,7 +31045,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-64
+64,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -28683,9 +31069,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0441\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u043e\u043c",
 "url":"https://pro-adventure.ru/tours/id_2416_activnaya-kamchatka-s-tolbachikom",
@@ -28707,9 +31095,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -28733,7 +31123,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0432\u0435\u0440\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-po-reke-tvertsa/",
@@ -28757,7 +31149,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0422\u044c\u043c\u0435 \u0432\u00a0\u0412\u043e\u043b\u0433\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/iz-tmy-v-volgu/",
@@ -28779,9 +31173,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -28803,9 +31199,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -28827,9 +31225,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -28851,9 +31251,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -28877,7 +31279,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -28899,9 +31303,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://turclub-pik.ru/pohod/plato-putorana-razvedka/397/",
@@ -28923,9 +31329,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d + \u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430. \u041a\u0443\u043d\u0430\u0448\u0438\u0440",
 "url":"https://turclub-pik.ru/pohod/kurilskie-ostrova-pokhod-razvedka-na-kunashir/303/",
@@ -28947,9 +31355,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437 \u043f\u043e\u00a0\u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0431\u0438\u0448\u0438\u0440\u0430-\u0410\u0445\u0443\u0431\u0430",
 "url":"https://cityescape.ru/gornyj_poxod_arxyz/",
@@ -28971,9 +31381,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u043e\u0440\u0441\u043a\u0438\u043c \u043f\u0435\u0442\u0440\u043e\u0433\u043b\u0438\u0444\u0430\u043c",
 "url":"https://cityescape.ru/belomorskie-petroglify/",
@@ -28995,9 +31407,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -29019,9 +31433,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
@@ -29043,9 +31459,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -29067,9 +31485,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+128
 ],
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 (\u0441\u0438\u043d\u0438\u0435, \u043a\u0430\u0448\u0430\u043b\u043e\u0442\u044b, \u0444\u0438\u043d\u0432\u0430\u043b\u044b), \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores",
@@ -29091,9 +31511,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -29117,7 +31539,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0428\u0435\u0440\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-sherna/",
@@ -29141,7 +31565,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0438\u0440\u0436\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/reka-kirzhach/",
@@ -29163,9 +31589,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
@@ -29189,7 +31617,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
@@ -29213,7 +31643,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u043f\u043e\u00a0\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0443 \u041a\u0440\u0435\u0441\u0442",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-po-marshrutu-krest/",
@@ -29237,7 +31669,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u042e\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/voskhozhdenie-na-elbrus-s-yuga/",
@@ -29259,9 +31693,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/pokhod-po-ladozhskim-shkheram/",
@@ -29283,9 +31719,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -29307,9 +31745,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -29331,9 +31771,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+16,
+0
 ],
 "title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
 "url":"https://strannik36.ru/po-gornomu-krymu-0",
@@ -29355,9 +31797,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/223/",
@@ -29379,9 +31823,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u00ab\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/nalychevo/34/",
@@ -29403,9 +31849,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -29427,9 +31875,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d/\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
@@ -29451,9 +31901,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -29475,9 +31927,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -29499,9 +31953,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2171_trekking-v-prielbruse-bez-ryukzakov",
@@ -29523,9 +31979,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -29547,9 +32005,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -29571,9 +32031,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f",
 "url":"https://pro-adventure.ru/tours/id_2450_novyj-god-na-altae-10-dnej-1-1",
@@ -29595,9 +32057,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
@@ -29619,9 +32083,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+2,
+0
 ],
 "title":"\u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041a\u041e\u041b\u042c\u0426\u041e \u0410\u041b\u0422\u0410\u042f, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2456_novyj-god-na-altae-10-dnej-1-1-1",
@@ -29645,7 +32111,9 @@ const DATA={"weekendList": [
 0,
 4,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u00a0\u043a\u043e\u043d\u043d\u044b\u043c \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u00ab\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u043e\u0435 \u0437\u0430\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2432_konno-peshyj-tur-k-shavlinskim-ozeram-1-1",
@@ -29667,9 +32135,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -29691,9 +32161,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0410\u0440\u0445\u044b\u0437+\u0414\u043e\u043c\u0431\u0430\u0439. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430",
 "url":"https://pro-adventure.ru/tours/id_2306_megatur-arhyzdombaj-10-dnej-trekkinga",
@@ -29715,9 +32187,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2200_megatur-v-arhyz-10-dnej-trekkinga-s-gostinicej",
@@ -29739,9 +32213,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2207_trekking-v-cejskom-ushele-komfort-tur-s-gostinicej",
@@ -29763,9 +32239,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -29787,9 +32265,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -29811,9 +32291,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1858_aktiv-tur-arhyz",
@@ -29835,9 +32317,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0426\u0435\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435. \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2176_gornyj-lager-v-cejskom-ushele-severnaya-osetiya",
@@ -29859,9 +32343,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+64,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e-\u0442\u0443\u0440 \u0412\u0441\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2344_dzhip-tur-vsya-kamchatka",
@@ -29885,7 +32371,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0438\u0441\u0442\u0430\u0439\u043e\u043a\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-reke-pistayoki/",
@@ -29907,9 +32395,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u0412\u0438\u043d\u0447\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-vincha/",
@@ -29931,9 +32421,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u0430\u0441\u043e\u0442\u0430\u043c \u0440\u0435\u043a\u0438 \u041a\u0435\u0440\u0435\u0442\u044c \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-krasotam-reki-keret-/",
@@ -29957,7 +32449,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
@@ -29979,9 +32473,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434. \u041e\u0437\u0435\u0440\u043e \u041a\u0430\u0440\u0434\u044b\u0432\u0430\u0447",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/detskiy-pokhod-ozero-kardyvach-/",
@@ -30003,9 +32499,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u0432\u043a\u0430\u0437.\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/bolshoy-kavkaz-tridtsatka/",
@@ -30027,9 +32525,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-64
+64,
+0,
+256
 ],
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/imeretinskie-ozera/",
@@ -30051,9 +32551,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u0422\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u041b\u0430\u0433\u043e\u043d\u0430\u043a\u0438. \u0424\u0438\u0448\u0442, \u041e\u0448\u0442\u0435\u043d \u0438\u00a0\u041f\u0448\u0435\u0445\u0430-\u0421\u0443",
 "url":"https://club-perexod.ru/marshruty/rossiya/kavkaz/tri-vershiny-lagonaki-fisht-oshten-i-pshekha-su/",
@@ -30077,7 +32579,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0428\u0443\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-shue-yu-kareliya7-dney",
@@ -30101,7 +32605,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-8-dney",
@@ -30123,9 +32629,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/264/",
@@ -30147,9 +32655,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+128
 ],
 "title":"\u0413\u043e\u0440\u044b \u0413\u0438\u0433\u0430\u043d\u0442\u043e\u0432 (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
 "url":"https://zovgor.com/norway.html",
@@ -30171,9 +32681,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+128
 ],
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
 "url":"https://team-trip.ru/shantars-bio",
@@ -30195,9 +32707,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -30221,7 +32735,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-64
+64,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -30243,9 +32759,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+128
 ],
 "title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u041b\u044c\u0434\u043e\u0432 (\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f)",
 "url":"https://zovgor.com/trekking_iceland.html",
@@ -30267,9 +32785,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1219_hit-kamchatki-tur-bez-ryukzakov",
@@ -30291,9 +32811,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041c\u0430\u043d\u044c\u043f\u0443\u043f\u0443\u043d\u0451\u0440",
 "url":"https://club-perexod.ru/marshruty/rossiya/ural/pokhod-na-plato-manpupunyer/",
@@ -30315,9 +32837,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
 "url":"https://strannik36.ru/pohod-po-nizhney-vorone-7-dney",
@@ -30339,9 +32863,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
@@ -30363,9 +32889,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -30389,7 +32917,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+0,
+256
 ],
 "title":"30-\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
@@ -30411,9 +32941,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+128
 ],
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
 "url":"https://team-trip.ru/shantars-bio",
@@ -30435,9 +32967,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://zovgor.com/elbrus-s-severa.html",
@@ -30459,9 +32993,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -30483,9 +33019,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443: \u0442\u0440\u0438 \u0432\u0443\u043b\u043a\u0430\u043d\u0430 \u0438\u00a0\u043e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_1274_vulkany-i-okean",
@@ -30507,8 +33045,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+0,
+4,
 0
 ],
 "title":"\u0418\u0437\u00a0\u0414\u043e\u043c\u0431\u0430\u044f \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
@@ -30531,9 +33071,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/98/",
@@ -30557,7 +33099,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -30579,9 +33123,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/109/",
@@ -30605,7 +33151,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
@@ -30627,9 +33175,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://cityescape.ru/solovki/",
@@ -30651,9 +33201,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+2,
+0
 ],
 "title":"\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/shavlinskye-ozera.html",
@@ -30675,9 +33227,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044b \u0438\u00a0\u0432\u043e\u0434\u044b \u041a\u0430\u0432\u043a\u0430\u0437\u0430. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/gory-i-vody-kavkaza-aktivnyy-tur-2021/",
@@ -30699,9 +33253,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0441\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 \u0432\u00a0\u0411\u0443\u0445\u0442\u0435 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f",
 "url":"https://team-trip.ru/shantars-family",
@@ -30723,9 +33279,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 (\u041e\u0441\u0442\u0440\u043e\u0432 Eua)",
 "url":"https://team-trip.ru/tongaeua",
@@ -30749,7 +33307,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-192
+192,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -30771,9 +33331,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u041b\u0430\u0433\u0435\u0440\u044c \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435 2020",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/semeynyy-lager-na-ladoge-2021/",
@@ -30797,7 +33359,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u043b\u0433\u0430",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/splav-na-baydarkakh-po-reke-volga/",
@@ -30821,7 +33385,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u0421\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041c\u0435\u0434\u0432\u0435\u0434\u0438\u0446\u0430",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/reka-medvedica/",
@@ -30845,7 +33411,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -30867,9 +33435,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -30893,7 +33463,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -30917,7 +33489,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
@@ -30941,7 +33515,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -30963,9 +33539,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
@@ -30987,9 +33565,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
@@ -31011,9 +33591,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+0,
+128
 ],
 "title":"\u0410\u0437\u043e\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u043a\u0438\u0442\u0430\u043c\u0438 (\u0441\u0438\u043d\u0438\u0435, \u043a\u0430\u0448\u0430\u043b\u043e\u0442\u044b, \u0444\u0438\u043d\u0432\u0430\u043b\u044b), \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438",
 "url":"https://team-trip.ru/azores",
@@ -31035,9 +33617,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -31059,9 +33643,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-192
+192,
+32,
+0
 ],
 "title":"\u041f\u043e\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2475_pokorenie-plato-putorana",
@@ -31083,9 +33669,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-192
+192,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u041b\u0430\u0439\u0442",
 "url":"https://pro-adventure.ru/tours/id_1235_kamchatka-bez-palatok-i-ryukzakov",
@@ -31107,9 +33695,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-192
+192,
+64,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1703_multiaktiv-v-adygee-8-dney",
@@ -31131,9 +33721,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -31155,9 +33747,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-192
+192,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -31179,9 +33773,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0412\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0430",
 "url":"http://orangeked.ru/tours/item/97-kamchatka-tolbachik",
@@ -31203,8 +33799,10 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
@@ -31227,9 +33825,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/255/",
@@ -31251,9 +33851,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/kamchatka-bez-ryukzakov/280/",
@@ -31275,9 +33877,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0443. \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0422\u043e\u043d\u0438\u043d\u043e-\u0410\u043d\u0438\u0432\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/yuzhnyi-sakhalin-tonino-anivskoe-kolco/178/",
@@ -31299,9 +33903,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/vulkany-kamchatki-bez-ryukzakov/393/",
@@ -31323,9 +33929,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0430\u0445",
 "url":"https://cityescape.ru/gornyj-lager-v-ergakax/",
@@ -31347,9 +33955,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://zovgor.com/arhyz.html",
@@ -31371,9 +33981,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -31395,9 +34007,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -31419,9 +34033,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -31443,9 +34059,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041e\u0442\u00a0\u041a\u043b\u044e\u0447\u0435\u0432\u0441\u043a\u043e\u0439 \u0441\u043e\u043f\u043a\u0438 \u043a\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0443: \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0441\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438",
 "url":"https://pro-adventure.ru/tours/id_1797_vokrug-tolbachikov-pokhod-po-kamchatke-s-ryukzakami-2",
@@ -31467,9 +34085,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -31491,9 +34111,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -31515,9 +34137,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0441\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438 \u0432\u00a0\u041d\u0430\u043b\u044b\u0447\u0435\u0432\u0441\u043a\u0443\u044e \u0434\u043e\u043b\u0438\u043d\u0443",
 "url":"https://pro-adventure.ru/tours/id_1224_pohod-s-ryukzakami-cherez-vulkany-v-nalychevskuyu-dolinu",
@@ -31539,9 +34163,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -31563,9 +34189,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -31587,9 +34215,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -31611,9 +34241,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0414\u0436\u0438\u043b\u044b-\u0421\u0443. \u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://pro-adventure.ru/tours/id_2177_goryachie-istochniki-dzhily-su-gornyj-lager",
@@ -31637,7 +34269,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0421\u0443\u043d\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-sune-yu-kareliya7dney",
@@ -31659,9 +34293,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0440\u0430\u0431\u0438\u043a\u0430",
 "url":"https://turclub-pik.ru/pohod/abkhaziya-po-khrebtu-arabika/160/",
@@ -31683,9 +34319,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
 "url":"https://turclub-pik.ru/pohod/semeinyi-lager-v-krymu-plavanie-i-tvorchestvo/463/",
@@ -31707,9 +34345,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+16
 ],
 "title":"\u0413\u0440\u0443\u0437\u0438\u044f. \u0411\u043e\u0440\u0436\u043e\u043c\u0438 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/borzhomi/126/",
@@ -31731,9 +34371,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0410\u0440\u0430\u0431\u0438\u043a\u0430 \u0438\u00a0\u0420\u0438\u0446\u0430 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia.html",
@@ -31755,9 +34397,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
@@ -31779,9 +34423,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u043d\u0430\u00a0\u044f\u0445\u0442\u0435 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/ekspeditsiya-na-shantarskie-ostrova-na-yakhte-2021/",
@@ -31803,9 +34449,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430\u20134\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/pokhody-bez-ryukzakov/udivitelnaya-kamchatka-4-2021/",
@@ -31827,9 +34475,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432: \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a, \u0410\u0432\u0430\u0447\u0438\u043d\u0441\u043a\u0438\u0439, \u041c\u0443\u0442\u043d\u043e\u0432\u0441\u043a\u0438\u0439, \u0413\u043e\u0440\u0435\u043b\u044b\u0439",
 "url":"https://pro-adventure.ru/tours/id_1221_zemlja-ognedyshashih-gor-tur-na-kamchatke-bez-ryukzakov",
@@ -31851,9 +34501,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -31877,7 +34529,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -31899,9 +34553,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00abJ\u0430\u0439\u0433\u044b \u0427\u04e7\u0440\u0447\u04e7\u043a\u00bb (\u00ab\u041b\u0435\u0442\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb)",
 "url":"https://pro-adventure.ru/tours/id_2435_letnyaya-skazka",
@@ -31923,9 +34579,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
@@ -31947,9 +34605,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043a\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_1792_mnogolikaya-kamchatka",
@@ -31971,9 +34631,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0411\u0438\u0442\u044e\u0433\u0443 \u0438\u00a0\u0414\u043e\u043d\u0441\u043a\u043e\u043c\u0443 \u0411\u0435\u043b\u043e\u0433\u043e\u0440\u044c\u044e",
 "url":"https://strannik36.ru/pohod-po-bityugu-i-donskomu-belogoryu-7-dney",
@@ -31995,9 +34657,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435",
 "url":"https://mwtravel.ru/travel-all/kamchatka-tour/",
@@ -32019,9 +34683,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043f\u043e\u0445\u043e\u0434 \u0432\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0430",
 "url":"https://mwtravel.ru/travel-all/kamchatka-hiking-volcano-tolbachik/",
@@ -32043,9 +34709,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0424\u043e\u0442\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443",
 "url":"https://mwtravel.ru/travel-all/phototour-kamchatka/",
@@ -32067,9 +34735,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u0430\u043c \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
 "url":"https://mwtravel.ru/travel-all/hiking-volcano-kamchatka/",
@@ -32091,9 +34761,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/223/",
@@ -32115,9 +34787,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -32139,9 +34813,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u0427\u0435\u0440\u043d\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
@@ -32163,8 +34839,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
@@ -32187,9 +34865,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u043e\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2477_pervoe-znakomstvo-s-plato-putorana",
@@ -32211,9 +34891,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -32235,9 +34917,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0410\u043b\u0442\u0430\u0439\u0441\u043a\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2446_letnyaya-skazka-1-1-1-1-1-1-1",
@@ -32261,7 +34945,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-north/",
@@ -32285,7 +34971,9 @@ const DATA={"weekendList": [
 0,
 4,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u0441\u00a0\u043a\u043e\u043d\u043d\u044b\u043c \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u00ab\u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u043e\u0435 \u0437\u0430\u0437\u0435\u0440\u043a\u0430\u043b\u044c\u0435\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2432_konno-peshyj-tur-k-shavlinskim-ozeram-1-1",
@@ -32309,7 +34997,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0432\u043e\u0441\u0442\u043e\u043a\u0430",
 "url":"https://mwtravel.ru/travel-all/climbing-elbrus-east/",
@@ -32331,9 +35021,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/311/",
@@ -32355,9 +35047,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044e: \u041a\u0438\u0436\u0438, \u0420\u0443\u0441\u043a\u0435\u0430\u043b\u0430, \u0412\u0430\u043b\u0430\u0430\u043c",
 "url":"https://cityescape.ru/puteshestvie-v-kareliyu-kizhi-ruskeala-valaam/",
@@ -32379,8 +35073,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u0428\u0430\u043d\u0442\u0430\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430, \u0411\u0443\u0445\u0442\u0430 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f: \u0433\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043a\u0438\u0442\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u0431\u0435\u043b\u0443\u0445\u0438. \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u043e-\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0442\u0443\u0440",
@@ -32403,9 +35099,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1273_activnaya-kamchatka-tur-bez-ryukzakov",
@@ -32429,7 +35127,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -32451,9 +35151,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0441\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u043e\u043c",
 "url":"https://pro-adventure.ru/tours/id_2416_activnaya-kamchatka-s-tolbachikom",
@@ -32475,9 +35177,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -32499,9 +35203,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -32525,7 +35231,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
@@ -32547,9 +35255,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -32571,9 +35281,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -32595,9 +35307,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
@@ -32621,7 +35335,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -32645,7 +35361,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041d\u0435\u0434\u0435\u043b\u044f \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0441\u0440\u0435\u0434\u0438 \u043b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0445 \u0448\u0445\u0435\u0440",
 "url":"https://turclub-pik.ru/pohod/sem-dnei-po-ladozhskim-shkheram/336/",
@@ -32667,9 +35385,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -32691,9 +35411,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-sofijskie-ozera.html",
@@ -32715,8 +35437,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u042f\u0437\u044b\u043a \u0422\u0440\u043e\u043b\u043b\u044f (\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)",
@@ -32739,9 +35463,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0410\u043b\u043c\u0430\u0442\u0438\u043d\u0441\u043a\u0430\u044f \u041a\u0440\u0443\u0433\u043e\u0441\u0432\u0435\u0442\u043a\u0430 (\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/pohod_po_kazakhstanu.html",
@@ -32763,9 +35489,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d/\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
@@ -32787,9 +35515,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -32811,9 +35541,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u042e\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0441\u0442",
 "url":"https://zovgor.com/detskiy-pohod.html",
@@ -32835,9 +35567,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0417\u043d\u0430\u043a\u043e\u043c\u044c\u0442\u0435\u0441\u044c, \u0425\u0430\u043a\u0430\u0441\u0438\u044f. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/ethno_tours/znakomtes-khakasiya-avtorskiy-tur-2021/",
@@ -32859,9 +35593,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -32883,9 +35619,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043e\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2475_pokorenie-plato-putorana",
@@ -32907,9 +35645,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://pro-adventure.ru/tours/id_2342_ekspediciya-na-kurilskie-ostrova",
@@ -32931,9 +35671,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
@@ -32955,9 +35697,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-0
+0,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-hopru-7-dney",
@@ -32979,9 +35723,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-0
+0,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -33003,9 +35749,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-0
+0,
+0,
+256
 ],
 "title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://strannik36.ru/cherez-gory-k-moryu",
@@ -33027,8 +35775,10 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f \u0422\u0440\u043e\u043f\u0430\u043c\u0438 \u0414\u0443\u0440\u043c\u0438\u0442\u043e\u0440\u0430",
@@ -33051,9 +35801,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/255/",
@@ -33075,9 +35827,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://turclub-pik.ru/pohod/hibiny/63/",
@@ -33099,9 +35853,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u0422\u044f\u043d\u044c-\u0428\u0430\u043d\u044c. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0443",
 "url":"https://turclub-pik.ru/pohod/pokhod-po-kazakhstanu/207/",
@@ -33123,9 +35879,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://cityescape.ru/arhyz/",
@@ -33147,9 +35905,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -33171,9 +35931,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -33195,9 +35957,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0420\u0443\u0441\u0441\u043a\u0430\u044f \u041b\u0430\u043f\u043b\u0430\u043d\u0434\u0438\u044f \u0438\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u043c\u043e\u0440\u044f / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/ekspeditsiya-russkaya-laplandiya-i-severnye-morya-2021/",
@@ -33219,9 +35983,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -33243,9 +36009,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -33267,9 +36035,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://team-trip.ru/solovky_bio",
@@ -33291,9 +36061,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -33315,9 +36087,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -33339,9 +36113,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -33363,9 +36139,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u043e\u043a\u0440\u0443\u0433 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2341_samye-vysokie-vulkany-kamchatki",
@@ -33387,9 +36165,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -33411,9 +36191,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -33435,9 +36217,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -33459,9 +36243,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0414\u0436\u0438\u043b\u044b-\u0421\u0443. \u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://pro-adventure.ru/tours/id_2177_goryachie-istochniki-dzhily-su-gornyj-lager",
@@ -33483,9 +36269,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430. \u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
 "url":"https://pro-adventure.ru/tours/id_2188_legendarnaya-tridcatka-cherez-gory-k-moryu",
@@ -33507,9 +36295,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -33531,9 +36321,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443\u202f\u2014\u2009\u043a\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u0443 \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a",
 "url":"https://mwtravel.ru/travel-all/kamchatka-tour-volcano-tolbachik/",
@@ -33555,8 +36347,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
@@ -33579,9 +36373,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/9/",
@@ -33603,9 +36399,11 @@ const DATA={"weekendList": [
 0,
 16,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-severa/206/",
@@ -33627,9 +36425,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/264/",
@@ -33651,9 +36451,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0410\u043b\u0442\u0430\u0439",
 "url":"https://turclub-pik.ru/pohod/detskii-altai/439/",
@@ -33675,9 +36477,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -33699,9 +36503,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0422\u044f\u043d\u044c-\u0428\u0430\u043d\u044c (\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f)",
 "url":"https://zovgor.com/tian-shan.html",
@@ -33723,9 +36529,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0440\u043e\u0437\u043e\u0432\u043e\u043c \u0446\u0432\u0435\u0442\u0435. \u041e\u0437\u0435\u0440\u043e \u042d\u043b\u044c\u0442\u043e\u043d \u0438\u00a0\u043b\u043e\u0442\u043e\u0441\u043e\u0432\u044b\u0435 \u043f\u043e\u043b\u044f / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/tur-v-rozovom-tsvete-ozero-elton-i-lotosovye-polya-2021/",
@@ -33747,9 +36555,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -33773,7 +36583,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -33797,7 +36609,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-rise-elbrus-south/",
@@ -33819,9 +36633,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/255/",
@@ -33843,9 +36659,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0410\u0432\u0430\u0434\u0445\u0430\u0440\u0430 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 (\u0410\u0431\u0445\u0430\u0437\u0438\u044f)",
 "url":"https://zovgor.com/abhazia2.html",
@@ -33867,8 +36685,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u041b\u044c\u0434\u043e\u0432 (\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f)",
@@ -33891,9 +36711,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u0423\u043e\u043b\u0435\u0432\u0430",
 "url":"https://team-trip.ru/tonga_haapai",
@@ -33915,9 +36737,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1219_hit-kamchatki-tur-bez-ryukzakov",
@@ -33939,9 +36763,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -33963,9 +36789,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
@@ -33987,9 +36815,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod-na-multinskie-ozera.html",
@@ -34011,9 +36841,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u043e\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2477_pervoe-znakomstvo-s-plato-putorana",
@@ -34035,9 +36867,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -34059,9 +36893,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443: \u0442\u0440\u0438 \u0432\u0443\u043b\u043a\u0430\u043d\u0430 \u0438\u00a0\u043e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_1274_vulkany-i-okean",
@@ -34083,9 +36919,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
@@ -34109,7 +36947,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -34131,9 +36971,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0430\u044f \u041b\u0430\u0434\u043e\u0433\u0430 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskaya-ladoga/109/",
@@ -34155,9 +36997,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0416\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044f",
 "url":"https://zovgor.com/kyrtyk.html",
@@ -34181,7 +37025,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -34203,9 +37049,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -34229,7 +37077,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -34253,7 +37103,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -34275,9 +37127,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b. \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/fanskie-gory-tadzhikistan/279/",
@@ -34299,9 +37153,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u0430\u0445\u0430\u043b\u0438\u043d + \u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430. \u041a\u0443\u043d\u0430\u0448\u0438\u0440",
 "url":"https://turclub-pik.ru/pohod/kurilskie-ostrova-pokhod-razvedka-na-kunashir/303/",
@@ -34325,7 +37181,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb + \u0441\u043f\u043b\u0430\u0432",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/437/",
@@ -34349,7 +37207,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -34371,9 +37231,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -34395,9 +37257,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0435 \u0410\u043c\u0443\u0440\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b\u20132\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/zagadochnye-amurskie-stolby-2-2021/",
@@ -34419,9 +37283,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438\u00a0\u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/vulkany-i-goryachie-istochniki-kamchatki-2021/",
@@ -34443,9 +37309,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -34467,9 +37335,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043e\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2475_pokorenie-plato-putorana",
@@ -34491,9 +37361,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u041b\u0430\u0439\u0442",
 "url":"https://pro-adventure.ru/tours/id_1235_kamchatka-bez-palatok-i-ryukzakov",
@@ -34515,9 +37387,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0443 \u00ab\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2353_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1",
@@ -34539,9 +37413,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -34563,9 +37439,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u044b \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://strannik36.ru/gornye-ozera-i-vodopady-arhyza",
@@ -34587,9 +37465,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://turclub-pik.ru/pohod/altaj-k-podnozhiyu-beluhi/88/",
@@ -34611,9 +37491,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/255/",
@@ -34635,9 +37517,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/vulkany-kamchatki-bez-ryukzakov/393/",
@@ -34659,9 +37543,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/kamchatka-bez-ryukzakov/280/",
@@ -34683,9 +37569,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/prielbruse-nalegke/162/",
@@ -34709,7 +37597,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0438\u0437\u00a0\u0413\u0440\u0443\u0437\u0438\u0438",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-iz-gruzii/",
@@ -34731,9 +37621,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
 "url":"https://zovgor.com/30.html",
@@ -34755,9 +37647,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -34779,9 +37673,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
 "url":"https://zovgor.com/extreme-pohod-krym.html",
@@ -34803,9 +37699,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -34827,9 +37725,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -34851,9 +37751,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -34875,9 +37777,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -34899,9 +37803,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -34923,9 +37829,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0410\u0440\u0445\u044b\u0437+\u0414\u043e\u043c\u0431\u0430\u0439. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430",
 "url":"https://pro-adventure.ru/tours/id_2306_megatur-arhyzdombaj-10-dnej-trekkinga",
@@ -34947,9 +37855,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2200_megatur-v-arhyz-10-dnej-trekkinga-s-gostinicej",
@@ -34973,7 +37883,9 @@ const DATA={"weekendList": [
 1,
 1,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u041a\u0440\u044b\u043c. \u041b\u0435\u0442\u043d\u044f\u044f \u0411\u0430\u043b\u0430\u043a\u043b\u0430\u0432\u0430 \u0438\u00a0\u0441\u043f\u043b\u0430\u0432 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_2189_trekking-v-krymu-lazurnye-buhty-balaklavy",
@@ -34995,9 +37907,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -35019,9 +37933,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -35043,9 +37959,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -35067,9 +37985,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -35091,9 +38011,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0412\u0443\u043b\u043a\u0430\u043d\u044b \u0438\u00a0\u041e\u043a\u0435\u0430\u043d",
 "url":"http://orangeked.ru/tours/item/66-pohod-kamchatka",
@@ -35115,9 +38037,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u0413\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/4/",
@@ -35139,9 +38063,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u043b\u0443\u0431\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://turclub-pik.ru/pohod/goluboe-ozherele-arhyiza/17/",
@@ -35163,9 +38089,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/tur-po-kamchatke-zemlya-kutha.html",
@@ -35187,8 +38115,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u0422\u0443\u0440 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u0443 \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u0438",
@@ -35211,9 +38141,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u041e\u0441\u0442\u0440\u043e\u0432 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f \u0438\u00a0\u0427\u0443\u043a\u043e\u0442\u043a\u0430: \u043c\u0438\u0440\u043e\u0432\u0430\u044f \u0441\u0442\u043e\u043b\u0438\u0446\u0430 \u0431\u0435\u043b\u044b\u0445 \u043c\u0435\u0434\u0432\u0435\u0434\u0435\u0439",
 "url":"https://team-trip.ru/wrangel",
@@ -35235,9 +38167,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0443 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432: \u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a, \u0410\u0432\u0430\u0447\u0438\u043d\u0441\u043a\u0438\u0439, \u041c\u0443\u0442\u043d\u043e\u0432\u0441\u043a\u0438\u0439, \u0413\u043e\u0440\u0435\u043b\u044b\u0439",
 "url":"https://pro-adventure.ru/tours/id_1221_zemlja-ognedyshashih-gor-tur-na-kamchatke-bez-ryukzakov",
@@ -35259,9 +38193,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -35285,7 +38221,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -35307,9 +38245,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00abJ\u0430\u0439\u0433\u044b \u0427\u04e7\u0440\u0447\u04e7\u043a\u00bb (\u00ab\u041b\u0435\u0442\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430\u00bb)",
 "url":"https://pro-adventure.ru/tours/id_2435_letnyaya-skazka",
@@ -35331,9 +38271,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
 "url":"https://mwtravel.ru/travel-all/kamchatka-hiking-pacific-ocean-ring/",
@@ -35355,9 +38297,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u0423\u043e\u043b\u0435\u0432\u0430",
 "url":"https://team-trip.ru/tonga_haapai",
@@ -35379,9 +38323,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043a\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_1792_mnogolikaya-kamchatka",
@@ -35403,9 +38349,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -35427,9 +38375,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1219_hit-kamchatki-tur-bez-ryukzakov",
@@ -35451,9 +38401,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u043e\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2477_pervoe-znakomstvo-s-plato-putorana",
@@ -35475,9 +38427,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+32
 ],
 "title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b: \u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438",
 "url":"https://team-trip.ru/maldivescamp",
@@ -35499,9 +38453,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043b\u0430\u0433\u0435\u0440\u044c",
 "url":"https://team-trip.ru/solovky_bio",
@@ -35523,9 +38479,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
@@ -35547,9 +38505,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f. \u0410\u0437\u0438\u0430\u0442\u0441\u043a\u0430\u044f \u041f\u0430\u0442\u0430\u0433\u043e\u043d\u0438\u044f",
 "url":"https://turclub-pik.ru/pohod/aziatskaya-patagoniya-kirgiziya/227/",
@@ -35571,9 +38531,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u0427\u0435\u0440\u043d\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
@@ -35595,9 +38557,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d/\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
@@ -35619,9 +38583,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u042f\u043c\u0430\u043b\u044c\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f. \u0422\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u041f\u043e\u043b\u044f\u0440\u043d\u044b\u0439 \u0423\u0440\u0430\u043b-1\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/ethno_tours/yamalskie-priklyucheniya-tur-ekspeditsiya-na-polyarnyy-ural-1-2021/",
@@ -35643,9 +38609,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1273_activnaya-kamchatka-tur-bez-ryukzakov",
@@ -35667,9 +38635,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u044b\u0435 \u0433\u043e\u0440\u044b \u0410\u043b\u0442\u0430\u044f",
 "url":"https://pro-adventure.ru/tours/id_2448_zolotye-gory-altaya",
@@ -35693,7 +38663,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -35715,9 +38687,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-384
+384,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0441\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u043e\u043c",
 "url":"https://pro-adventure.ru/tours/id_2416_activnaya-kamchatka-s-tolbachikom",
@@ -35739,9 +38713,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+64,
 2,
-128
+128,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0410\u043b\u0442\u0430\u0439\u0441\u043a\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2446_letnyaya-skazka-1-1-1-1-1-1-1",
@@ -35763,9 +38739,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
@@ -35787,9 +38765,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
@@ -35811,9 +38791,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
@@ -35835,9 +38817,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
@@ -35859,9 +38843,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
@@ -35885,7 +38871,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -35909,7 +38897,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
@@ -35933,7 +38923,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041d\u0435\u0434\u0435\u043b\u044f \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0441\u0440\u0435\u0434\u0438 \u043b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0445 \u0448\u0445\u0435\u0440",
 "url":"https://turclub-pik.ru/pohod/sem-dnei-po-ladozhskim-shkheram/336/",
@@ -35955,9 +38947,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
@@ -35979,9 +38973,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://zovgor.com/unknown_crimea.html",
@@ -36003,9 +38999,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
 "url":"https://zovgor.com/canyon.html",
@@ -36027,9 +39025,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -36051,9 +39051,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043e\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2475_pokorenie-plato-putorana",
@@ -36075,9 +39077,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
@@ -36099,9 +39103,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0420\u0430\u043c\u043e\u043d\u044c",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-voronezh",
@@ -36123,9 +39129,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
@@ -36147,8 +39155,10 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
+128,
+0,
 128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
@@ -36171,9 +39181,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
@@ -36195,9 +39207,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0443\u0448\u0435\u0442\u0438\u044f+\u0425\u0435\u0432\u0441\u0443\u0440\u0435\u0442\u0438\u044f",
 "url":"https://zovgor.com/hevsuretia-tushetia.html",
@@ -36219,9 +39233,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+256,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0415\u0440\u0433\u0430\u043a\u0438 (\u0421\u0430\u044f\u043d\u044b)",
 "url":"https://zovgor.com/pohod_ergaki.html",
@@ -36243,9 +39259,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -36267,9 +39285,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0421\u043e\u043b\u043e\u0432\u0435\u0446\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430: \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0437\u0430\u00a0\u0431\u0435\u043b\u0443\u0445\u0430\u043c\u0438 \u0438\u00a0\u0442\u044e\u043b\u0435\u043d\u044f\u043c\u0438, \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u0440\u0438\u0440\u043e\u0434\u043e\u0439 \u0438\u00a0\u0438\u0441\u0442\u043e\u0440\u0438\u0435\u0439 \u0430\u0440\u0445\u0438\u043f\u0435\u043b\u0430\u0433\u0430",
 "url":"https://team-trip.ru/belugas",
@@ -36291,9 +39311,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://pro-adventure.ru/tours/id_2342_ekspediciya-na-kurilskie-ostrova",
@@ -36315,9 +39337,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -36339,9 +39363,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -36365,7 +39391,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u043b\u044e\u0447\u0435\u0432\u0441\u043a\u0443\u044e \u0441\u043e\u043f\u043a\u0443",
 "url":"https://pro-adventure.ru/tours/id_2345_voshozhdenie-na-klyuchevskoj-vulkan",
@@ -36387,9 +39415,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u043d\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2473_megatur-v-prielbruse-na-10-dnej",
@@ -36411,9 +39441,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0410\u043a\u0441\u0430\u0443\u0442",
 "url":"https://pro-adventure.ru/tours/id_2196_gornyj-lager-aksaut",
@@ -36435,9 +39467,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -36459,9 +39493,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-128
+128,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -36483,9 +39519,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+64,
 2,
-384
+384,
+1,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e-\u0442\u0443\u0440 \u0412\u0441\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2344_dzhip-tur-vsya-kamchatka",
@@ -36507,9 +39545,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
@@ -36531,9 +39571,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://strannik36.ru/gornyy-krym-i-more",
@@ -36555,9 +39597,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445. \u041b\u043e\u0444\u043e\u0442\u0435\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
 "url":"https://turclub-pik.ru/pohod/lofotenskie-ostrova-na-kayakakh-norvegiya/211/",
@@ -36579,9 +39623,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-384
+384,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/9/",
@@ -36603,9 +39649,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-384
+384,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0410\u0440\u0445\u044b\u0437\u0443 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://turclub-pik.ru/pohod/gornoe-puteshestvie-po-arkhyzu-nalegke/264/",
@@ -36629,7 +39677,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-128
+128,
+0,
+256
 ],
 "title":"30-\u043a\u0430+\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0424\u0438\u0448\u0442",
 "url":"https://zovgor.com/30-fisht.html",
@@ -36651,9 +39701,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -36677,7 +39729,9 @@ const DATA={"weekendList": [
 0,
 2,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 5\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2378_komfortabelnyj-velotur-po-karelii-3-dnya-1",
@@ -36699,9 +39753,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+32,
+0
 ],
 "title":"\u041a\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0421\u0435\u0439\u0434\u043e\u0437\u0435\u0440\u043e \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
 "url":"http://orangeked.ru/tours/item/98-kolskii",
@@ -36723,9 +39779,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+2,
+0
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
 "url":"https://zovgor.com/pohod_na_altai.html",
@@ -36747,9 +39805,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0420\u0438\u043b\u0430 \u0438\u00a0\u041f\u0438\u0440\u0438\u043d (\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f)",
 "url":"https://zovgor.com/bulgaria.html",
@@ -36771,9 +39831,11 @@ const DATA={"weekendList": [
 1,
 2,
 0,
-32,
+128,
 2,
-384
+384,
+1,
+0
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_1273_activnaya-kamchatka-tur-bez-ryukzakov",
@@ -36795,9 +39857,11 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
-384
+384,
+4,
+0
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0441\u00a0\u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435\u043c \u0443\u0449\u0435\u043b\u044c\u044f \u0410\u0434\u044b\u0440-\u0441\u0443",
 "url":"https://turclub-pik.ru/pohod/voshozhdenie-na-5642-m/5/",
@@ -36819,9 +39883,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+128
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u043d\u0431\u043b\u0430\u043d\u0430 (\u0410\u043b\u044c\u043f\u044b)",
 "url":"https://zovgor.com/pohod_monblan.html",
@@ -36843,9 +39909,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u043e\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2477_pervoe-znakomstvo-s-plato-putorana",
@@ -36867,9 +39935,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-384
+384,
+0,
+16
 ],
 "title":"\u0410\u0440\u043c\u0435\u043d\u0438\u044f \u0438\u00a0\u041d\u0430\u0433\u043e\u0440\u043d\u044b\u0439 \u041a\u0430\u0440\u0430\u0431\u0430\u0445: \u0430\u0432\u0442\u043e \u0438\u00a0\u043f\u0435\u0448\u0438\u0439",
 "url":"https://turclub-pik.ru/pohod/armeniya-i-nagornyi-karabakh-2020-avto-i-peshii/401/",
@@ -36893,7 +39963,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-128
+128,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -36915,9 +39987,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+16,
+0
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041c\u0430\u043b\u044b\u0448\u0438 \u043d\u0430\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 (0+)",
 "url":"https://turclub-pik.ru/pohod/detskii-krym-malyshi-na-demerdzhi/239/",
@@ -36939,9 +40013,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0421\u043a\u0430\u043b\u044b \u041f\u0430\u0441\u0442\u0443\u0445\u043e\u0432\u0430",
 "url":"https://zovgor.com/skaly-pastuhova.html",
@@ -36965,7 +40041,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-384
+384,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430",
 "url":"https://zovgor.com/elbrus.html",
@@ -36989,7 +40067,9 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-128
+128,
+32,
+0
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u043b\u043e\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2377_komfortabelnyj-velotur-po-karelii-3-dnya",
@@ -37011,9 +40091,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
@@ -37037,7 +40119,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
@@ -37061,7 +40145,9 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
@@ -37085,7 +40171,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-384
+384,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u0447\u0435\u0440\u0435\u0437 \u043b\u0435\u0434\u043d\u0438\u043a \u0413\u0430\u0440\u0430\u0431\u0430\u0448\u0438",
 "url":"https://cityescape.ru/vosxozhdenie-na-elbrus-s-yuga/",
@@ -37107,9 +40195,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -37131,9 +40221,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -37155,9 +40247,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -37179,9 +40273,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/otdyh-na-reke-voronezh-zolotaya-osen-2-dnya",
@@ -37203,9 +40299,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
@@ -37229,7 +40327,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-384
+384,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0443\u0440\u043e\u0432\u0435\u043d\u044c",
 "url":"https://mwtravel.ru/travel-all/ascent-elbrus-south/",
@@ -37251,9 +40351,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-384
+384,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0430\u044f\u043a\u0438\u043d\u0433",
 "url":"http://orangeked.ru/tours/item/31-gornyj-krym",
@@ -37275,9 +40377,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0421\u0435\u0439\u0434\u043e\u0437\u0435\u0440\u043e (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432) + \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043e\u043b\u0435\u043d\u044f\u043c\u0438",
 "url":"https://cityescape.ru/ekspediciya-v-lovozerskie-tundry-bez-ryukzakov-saamskaya-derevnya/",
@@ -37299,9 +40403,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+1,
+0
 ],
 "title":"\u041e\u0441\u0435\u043d\u043d\u0435\u0435 \u0434\u044b\u0445\u0430\u043d\u0438\u0435 \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 / 2021",
 "url":"https://www.napravlenie.info/catalog/avtorskie-tury/osennee-dykhanie-kamchatki-2021/",
@@ -37323,9 +40429,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435. \u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430",
 "url":"https://pro-adventure.ru/tours/id_1862_tur-v-bezengijskoe-ushelje",
@@ -37347,9 +40455,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2173_trekking-v-arhyze-komfort-tur-s-gostinicej",
@@ -37371,9 +40481,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2195_trekking-v-dombae-komfort-tur-s-gostinicejtrekking-v-dombae-komfort-tur-s-gostinicej",
@@ -37395,9 +40507,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0423\u043b\u043b\u0443-\u0422\u0430\u0443. \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2172_gornyj-lager-ullu-tau-prielbruse",
@@ -37419,9 +40533,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+0,
+256
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438\u0439\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2174_gornyj-lager-v-bezengijskom-ushele",
@@ -37443,9 +40559,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
@@ -37467,9 +40585,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-128
+128,
+0,
+256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
 "url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
@@ -37491,9 +40611,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-384
+384,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -37515,9 +40637,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-384
+384,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0410\u0440\u0445\u044b\u0437+\u0414\u043e\u043c\u0431\u0430\u0439. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430",
 "url":"https://pro-adventure.ru/tours/id_2306_megatur-arhyzdombaj-10-dnej-trekkinga",
@@ -37539,9 +40663,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+64
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u0438. \u0418\u0441\u0441\u044b\u043a-\u041a\u0443\u043b\u044c",
 "url":"https://turclub-pik.ru/pohod/issyk-kul/58/",
@@ -37563,8 +40689,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
@@ -37587,9 +40715,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u0435\u0440\u0432\u043e\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2477_pervoe-znakomstvo-s-plato-putorana",
@@ -37611,9 +40741,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u0425\u0438\u0431\u0438\u043d\u044b",
 "url":"https://turclub-pik.ru/pohod/hibiny/63/",
@@ -37635,9 +40767,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0417\u0430\u043f\u0430\u0434\u043d\u043e\u043c\u0443 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u044e",
 "url":"https://cityescape.ru/poxod-po-zapadnomu-prielbrusyu/",
@@ -37659,9 +40793,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/svanetia.html",
@@ -37683,9 +40819,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+64
 ],
 "title":"\u0424\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b (\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d/\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d)",
 "url":"https://zovgor.com/fany.html",
@@ -37707,9 +40845,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442 \u043e\u0441\u0435\u043d\u044c: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2155_kamchatki-hit-osen-tur-bez-ryukzakov-1",
@@ -37731,8 +40871,10 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u043e\u0447\u043a\u0430 \u0441\u0435\u0437\u043e\u043d\u0430 2021",
@@ -37755,9 +40897,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041b\u043e\u0432\u043e\u0437\u0435\u0440\u0441\u043a\u0438\u0435 \u0442\u0443\u043d\u0434\u0440\u044b",
 "url":"https://turclub-pik.ru/pohod/lovozerskie-tundry/98/",
@@ -37781,7 +40925,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u044e\u0433\u0430 (\u043a\u043e\u043c\u0444\u043e\u0440\u0442)",
 "url":"https://cityescape.ru/elbrus-south/",
@@ -37803,8 +40949,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
@@ -37827,8 +40975,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
@@ -37853,7 +41003,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -37877,7 +41029,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0422\u0435\u0442\u043d\u0443\u043b\u044c\u0434 (\u0421\u0432\u0430\u043d\u0435\u0442\u0438\u044f)",
 "url":"https://cityescape.ru/vosxozhdenie-na-tetnuld/",
@@ -37901,7 +41055,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a",
 "url":"https://zovgor.com/kazbek.html",
@@ -37925,7 +41081,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+0,
+32
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0414\u0435\u043c\u0430\u0432\u0435\u043d\u0434 (\u0418\u0440\u0430\u043d)",
 "url":"https://zovgor.com/demavend.html",
@@ -37947,8 +41105,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u0440\u0438 \u043a\u0430\u043d\u044c\u043e\u043d\u0430",
@@ -37971,9 +41131,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041d\u0435\u0445\u043e\u0436\u0435\u043d\u044b\u0435 \u0442\u0440\u043e\u043f\u044b (\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c)",
 "url":"https://zovgor.com/east-crimea-trails.html",
@@ -37995,9 +41157,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0425\u0418\u0422",
 "url":"https://pro-adventure.ru/tours/id_2476_putoranskiy-hit",
@@ -38019,8 +41183,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
@@ -38043,9 +41209,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0418\u0437\u00a0\u0410\u0440\u0445\u044b\u0437\u0430 \u0432\u00a0\u0422\u0435\u0431\u0435\u0440\u0434\u0443",
 "url":"https://strannik36.ru/iz-arhyza-v-teberdu",
@@ -38067,8 +41235,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
@@ -38091,8 +41261,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
@@ -38115,9 +41287,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u00ab\u0413\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/nalychevo/34/",
@@ -38139,9 +41313,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 (\u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
 "url":"https://turclub-pik.ru/pohod/vulkany-kamchatki-bez-ryukzakov/393/",
@@ -38163,9 +41339,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0417\u043e\u043b\u043e\u0442\u043e \u0425\u0438\u0431\u0438\u043d\u00bb",
 "url":"https://cityescape.ru/peshij-poxod-zoloto-xibin/",
@@ -38187,9 +41365,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+128
 ],
 "title":"\u0414\u0443\u0440\u043c\u0438\u0442\u043e\u0440 \u0438\u00a0\u041f\u0440\u043e\u043a\u043b\u0435\u0442\u044c\u0435 (\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f)",
 "url":"https://zovgor.com/montenegro.html",
@@ -38211,8 +41391,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
@@ -38235,9 +41417,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+128
 ],
 "title":"\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f: \u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0441\u0442\u0440\u0430\u043d\u0435 \u043b\u044c\u0434\u043e\u0432, \u0432\u043e\u0434\u043e\u043f\u0430\u0434\u043e\u0432 \u0438\u00a0\u0443\u043c\u043e\u043f\u043e\u043c\u0440\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0435\u0439\u0437\u0430\u0436\u0435\u0439",
 "url":"https://team-trip.ru/iceland",
@@ -38259,8 +41443,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041e\u0441\u0442\u0440\u043e\u0432 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f \u0438\u00a0\u0427\u0443\u043a\u043e\u0442\u043a\u0430: \u043c\u0438\u0440\u043e\u0432\u0430\u044f \u0441\u0442\u043e\u043b\u0438\u0446\u0430 \u0431\u0435\u043b\u044b\u0445 \u043c\u0435\u0434\u0432\u0435\u0434\u0435\u0439",
@@ -38283,9 +41469,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2204_gornyj-lager-v-abhazii",
@@ -38307,9 +41495,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://pro-adventure.ru/tours/id_2206_gornyj-lager-v-krymu",
@@ -38331,8 +41521,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
@@ -38355,9 +41547,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u0443\u043b\u043a\u0430\u043d\u044b \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0438\u00bb",
 "url":"https://turclub-pik.ru/pohod/pohod-vulkani-kamchatki-pik/255/",
@@ -38379,9 +41573,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0410\u0431\u0445\u0430\u0437\u0438\u044f \u00ab\u0421\u0442\u0440\u0430\u043d\u0430 \u0434\u0443\u0448\u0438\u00bb. \u0413\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/strana-dushi/4/",
@@ -38403,9 +41599,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430: \u043e\u043a\u0435\u0430\u043d \u0438\u00a0\u0432\u0443\u043b\u043a\u0430\u043d\u044b",
 "url":"https://pro-adventure.ru/tours/id_2417_kamchatka-okean-i-vulkany",
@@ -38427,9 +41625,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -38451,9 +41651,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041e\u0441\u0435\u043d\u043d\u044f\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_2343_osennyaya-kamchatka",
@@ -38475,9 +41677,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+2,
+0
 ],
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/223/",
@@ -38499,8 +41703,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u0423\u043e\u043b\u0435\u0432\u0430",
@@ -38523,9 +41729,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442 \u043e\u0441\u0435\u043d\u044c: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2155_kamchatki-hit-osen-tur-bez-ryukzakov-1",
@@ -38547,9 +41755,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://zovgor.com/arhyz.html",
@@ -38571,9 +41781,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2200_megatur-v-arhyz-10-dnej-trekkinga-s-gostinicej",
@@ -38595,9 +41807,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-256
+256,
+2,
+0
 ],
 "title":"\u0410\u0432\u0442\u043e-\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440 \u00ab\u041c\u04e7\u04a5\u04f1\u043d\u0438 \u0410\u043b\u0442\u0430\u0439\u00bb (\u00ab\u0421\u0435\u0440\u0435\u0431\u0440\u043e \u0410\u043b\u0442\u0430\u044f\u00bb)",
 "url":"https://pro-adventure.ru/tours/id_2438_letnyaya-skazka-1-1-1",
@@ -38619,9 +41833,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-256
+256,
+0,
+1
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/173/",
@@ -38645,7 +41861,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u0435 \u0448\u0445\u0435\u0440\u044b\u202f\u2014\u2009\u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0411\u0430\u0439\u0434\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/po-shkheram-ladogi-na-baydarkah/322/",
@@ -38667,9 +41885,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+256,
+0
 ],
 "title":"\u042f\u043c\u0430\u043b\u044c\u0441\u043a\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f. \u0422\u0443\u0440-\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u041f\u043e\u043b\u044f\u0440\u043d\u044b\u0439 \u0423\u0440\u0430\u043b-2\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/ethno_tours/yamalskie-priklyucheniya-tur-ekspeditsiya-na-polyarnyy-ural-2-2021/",
@@ -38693,6 +41913,8 @@ const DATA={"weekendList": [
 0,
 1,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
@@ -38715,9 +41937,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
@@ -38739,8 +41963,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430 + \u0410\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
@@ -38763,9 +41989,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -38787,8 +42015,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
@@ -38811,8 +42041,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
@@ -38835,8 +42067,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
@@ -38859,9 +42093,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041d\u0430\u00a0\u043a\u0440\u0430\u0439 \u0441\u0432\u0435\u0442\u0430 \u0438\u043b\u0438 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0443",
 "url":"https://cityescape.ru/na-krayu-sveta-ili-poxod-v-teriberku/",
@@ -38883,9 +42119,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://cityescape.ru/poxod-po-severnoj-osetii/",
@@ -38907,8 +42145,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0434\u0430\u043d\u043d\u044b\u0439 \u0427\u0435\u0433\u0435\u043c",
@@ -38931,9 +42171,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2415_majskie-prazdniki-v-krymu-progulki-v-sevastopole-bez-ryukzakov",
@@ -38955,9 +42197,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -38979,9 +42223,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2204_gornyj-lager-v-abhazii",
@@ -39003,8 +42249,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
@@ -39027,9 +42275,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041d\u0430\u043b\u044b\u0447\u0435\u0432\u043e (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
 "url":"https://zovgor.com/trekking-po-kamchatke-nalychevo.html",
@@ -39051,9 +42301,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -39075,9 +42327,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442 \u043e\u0441\u0435\u043d\u044c: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2155_kamchatki-hit-osen-tur-bez-ryukzakov-1",
@@ -39099,9 +42353,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u0427\u0435\u0440\u043d\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
@@ -39123,8 +42379,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0422\u043e\u043d\u0433\u0430: \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0433\u043e\u0440\u0431\u0430\u0442\u044b\u043c\u0438 \u043a\u0438\u0442\u0430\u043c\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u0423\u043e\u043b\u0435\u0432\u0430",
@@ -39147,9 +42405,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+2,
+0
 ],
 "title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u00ab\u0417\u043e\u043b\u043e\u0442\u043e \u0410\u043b\u0442\u0430\u044f\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2440_letnyaya-skazka-1-1-1-1",
@@ -39171,9 +42431,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d: \u0433\u043e\u0440\u044b \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://mwtravel.ru/travel-all/tour-dagestan/",
@@ -39195,9 +42457,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://turclub-pik.ru/pohod/puteshestvie-v-dagestan/311/",
@@ -39221,7 +42485,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+0,
+16
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
 "url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
@@ -39245,6 +42511,8 @@ const DATA={"weekendList": [
 0,
 1,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
@@ -39269,7 +42537,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0441\u00a0\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
@@ -39291,8 +42561,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
@@ -39315,9 +42587,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -39339,8 +42613,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
@@ -39363,9 +42639,11 @@ const DATA={"weekendList": [
 1,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041f\u043e\u0442\u0430\u0435\u043d\u043d\u044b\u0435 \u0442\u0440\u043e\u043f\u044b \u0421\u043e\u0447\u0438. \u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041c\u0430\u043b\u043e\u0439 \u041b\u0430\u0431\u0435\u20132\u00a0/ 2021",
 "url":"https://www.napravlenie.info/catalog/peshie-pokhody/potaennye-tropy-sochi-pokhod-po-maloy-labe-2-2021/",
@@ -39387,9 +42665,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+1,
+0
 ],
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u0445\u0438\u0442 \u043e\u0441\u0435\u043d\u044c: \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2155_kamchatki-hit-osen-tur-bez-ryukzakov-1",
@@ -39411,9 +42691,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0443 \u00ab\u0427\u0435\u0440\u0435\u0437 \u043f\u0435\u0440\u0435\u0432\u0430\u043b \u0410\u0438\u0448\u0445\u0430 \u043a\u00a0\u043c\u043e\u0440\u044e\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2356_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1-1",
@@ -39435,8 +42717,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041e\u0442\u0434\u044b\u0445 \u043d\u0430\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
@@ -39459,9 +42743,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440 \u043f\u043e\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://cityescape.ru/multitur-po-krymu/",
@@ -39483,9 +42769,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://zovgor.com/prielbrusie2.html",
@@ -39507,8 +42795,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
+256,
+0,
 256
 ],
 "title":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u0435 \u042d\u043a\u0441\u0442\u0440\u0438\u043c\u0430",
@@ -39531,8 +42821,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449 \u041c\u0430\u043d\u0433\u044b\u0448\u043b\u0430\u043a. \u0414\u0436\u0438\u043f-\u0442\u0443\u0440 + \u0442\u0440\u0435\u043a\u0438\u043d\u0433 / 2021",
@@ -39555,9 +42847,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -39579,9 +42873,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
@@ -39603,9 +42899,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+0,
+16
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-armenii.html",
@@ -39627,9 +42925,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+32,
+0
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
 "url":"https://pro-adventure.ru/tours/id_2388_aktivnyj-tur-na-plato-putorana-1",
@@ -39651,9 +42951,11 @@ const DATA={"weekendList": [
 0,
 1,
 1,
-32,
+128,
 2,
-768
+768,
+0,
+1
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0422\u0443\u0440\u0446\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043e\u0445\u043e\u0434",
 "url":"https://turclub-pik.ru/pohod/semeinaya-turciya-fridaiving-i-pokhod/173/",
@@ -39675,9 +42977,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
 "url":"https://zovgor.com/pohod-po-dagestanu.html",
@@ -39699,9 +43003,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430. \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
 "url":"https://turclub-pik.ru/pohod/likijskaya-tropa/28/",
@@ -39723,9 +43029,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-256
+256,
+16,
+0
 ],
 "title":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://zovgor.com/unknown_crimea.html",
@@ -39747,8 +43055,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
@@ -39771,9 +43081,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-768
+768,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2202_trekking-v-mezmae-komfort-tur-s-gostinicej",
@@ -39795,9 +43107,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-768
+768,
+16,
+0
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2415_majskie-prazdniki-v-krymu-progulki-v-sevastopole-bez-ryukzakov",
@@ -39819,9 +43133,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+16,
+0
 ],
 "title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
@@ -39843,8 +43159,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+256,
+0,
 256
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
@@ -39867,9 +43185,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-768
+768,
+0,
+64
 ],
 "title":"\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/kazakhstan-bez-ryukzakov/419/",
@@ -39891,9 +43211,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u00a0\u041c\u0430\u043b\u044b\u0439 \u0422\u0445\u0430\u0447",
 "url":"https://zovgor.com/thach.html",
@@ -39915,9 +43237,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+64,
 2,
-768
+768,
+0,
+4
 ],
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
@@ -39939,9 +43263,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur",
@@ -39963,9 +43289,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
@@ -39987,9 +43315,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -40011,9 +43341,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-768
+768,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -40037,7 +43369,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-512
+512,
+0,
+2
 ],
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u0410\u0439\u043b\u0435\u043d\u0434 \u043f\u0438\u043a, 6183\u00a0\u043c + \u0411\u041b\u00a0\u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0413\u043e\u043a\u0438\u043e",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-ailend-pik/273/",
@@ -40061,7 +43395,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-512
+512,
+0,
+2
 ],
 "title":"\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u043e\u0437\u0435\u0440\u0430 \u0413\u043e\u043a\u0438\u043e + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u043b\u0430-\u041f\u0430\u0442\u0430\u0440 \u0438\u00a0\u0413\u043e\u043a\u0438\u043e \u0420\u0438",
 "url":"https://turclub-pik.ru/pohod/gokio/149/",
@@ -40085,7 +43421,9 @@ const DATA={"weekendList": [
 0,
 1,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0410\u0434\u044b\u0433\u0435\u044f: \u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e. \u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u00ab\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u043a\u0430\u00bb + \u0441\u043f\u043b\u0430\u0432",
 "url":"https://turclub-pik.ru/pohod/adygeya-tridcatka-cherez-gory-k-moryu/437/",
@@ -40107,9 +43445,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u0418\u043c\u0435\u0440\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://zovgor.com/pohod-na-imeretinskie-ozera.html",
@@ -40131,9 +43471,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u2009\u0441\u0442\u0440\u0430\u043d\u0430 \u0433\u043e\u0440 \u0438\u00a0\u0431\u0430\u0448\u0435\u043d",
 "url":"https://zovgor.com/pohod_ingushetia.html",
@@ -40155,9 +43497,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0421\u043a\u0430\u043b\u0438\u0441\u0442\u044b\u0439 \u0445\u0440\u0435\u0431\u0435\u0442 (\u0418\u0437\u00a0\u0411\u0430\u043b\u043a\u0430\u0440\u0438\u0438 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u044e)",
 "url":"https://zovgor.com/skalistyi_hrebet.html",
@@ -40179,9 +43523,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -40203,9 +43549,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -40227,9 +43575,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
@@ -40251,9 +43601,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
 "url":"https://strannik36.ru/udivitelnyy-arhyz-multitur",
@@ -40275,9 +43627,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
 "url":"https://cityescape.ru/dagestan/",
@@ -40299,9 +43653,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -40323,9 +43679,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u043e\u0447\u0438. \u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0441\u0443\u0431\u0442\u0440\u043e\u043f\u0438\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1860_aktivniy-otdyh-v-sochi",
@@ -40347,9 +43705,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435. \u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u00a0\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2202_trekking-v-mezmae-komfort-tur-s-gostinicej",
@@ -40371,9 +43731,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043a\u044d\u043c\u043f \u043d\u0430\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0435",
 "url":"http://orangeked.ru/tours/item/65-pohod-kavkaz",
@@ -40395,9 +43757,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+4,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441\u00bb",
 "url":"https://zovgor.com/gornyi-lager-elbrus.html",
@@ -40419,9 +43783,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0417\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438 \u043a\u00a0\u0427\u0435\u0440\u043d\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
 "url":"https://zovgor.com/zapovednik_kavkaz.html",
@@ -40443,9 +43809,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u041c\u0415\u0413\u0410\u0442\u0443\u0440 \u0410\u0440\u0445\u044b\u0437+\u0414\u043e\u043c\u0431\u0430\u0439. 10\u00a0\u0434\u043d\u0435\u0439 \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433\u0430",
 "url":"https://pro-adventure.ru/tours/id_2306_megatur-arhyzdombaj-10-dnej-trekkinga",
@@ -40467,9 +43835,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d: \u0433\u043e\u0440\u044b \u0438\u00a0\u043c\u043e\u0440\u0435",
 "url":"https://mwtravel.ru/travel-all/tour-dagestan/",
@@ -40491,9 +43861,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+1
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/kappadokiya/90/",
@@ -40515,9 +43887,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u0422\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
 "url":"https://zovgor.com/hot_springs.html",
@@ -40539,9 +43913,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -40563,9 +43939,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+1
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0438\u043f\u0440\u0443 \u00ab\u0422\u0440\u043e\u043e\u0434\u043e\u0441 \u0438\u00a0\u0442\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2355_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1",
@@ -40587,9 +43965,11 @@ const DATA={"weekendList": [
 0,
 4,
 1,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
 "url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
@@ -40611,9 +43991,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u043e\u0447\u0438. \u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0441\u0443\u0431\u0442\u0440\u043e\u043f\u0438\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1860_aktivniy-otdyh-v-sochi",
@@ -40635,9 +44017,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u0435 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://pro-adventure.ru/tours/id_2415_majskie-prazdniki-v-krymu-progulki-v-sevastopole-bez-ryukzakov",
@@ -40659,9 +44043,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -40683,9 +44069,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u0441\u0438\u043d\u0438\u043c \u043a\u0438\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales",
@@ -40707,9 +44095,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041a\u0430\u0432\u043a\u0430\u0437",
 "url":"https://strannik36.ru/osenniy-kavkaz",
@@ -40731,9 +44121,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -40755,9 +44147,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-severnoi-osetii.html",
@@ -40779,9 +44173,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u0422\u0435\u0431\u0435\u0440\u0434\u0430-\u0410\u0440\u0445\u044b\u0437",
 "url":"https://zovgor.com/teberda-arhyz.html",
@@ -40803,9 +44199,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -40827,9 +44225,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u0434\u0432\u0443\u043c \u0432\u0435\u0440\u0435\u0432\u043a\u0430\u043c",
 "url":"https://zovgor.com/2rope.html",
@@ -40851,9 +44251,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -40875,9 +44277,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u0417\u0430\u0433\u0430\u0434\u043a\u0438 \u0414\u043e\u043b\u0438\u043d\u044b \u043f\u0440\u0438\u0432\u0438\u0434\u0435\u043d\u0438\u0439",
 "url":"https://zovgor.com/central.html",
@@ -40899,9 +44303,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u0441\u0438\u043d\u0438\u043c \u043a\u0438\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret_whales",
@@ -40923,9 +44329,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0427\u0435\u0447\u043d\u0435",
 "url":"https://zovgor.com/pohod-po-chechne.html",
@@ -40947,9 +44355,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+1
 ],
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f. \u0421\u043a\u0430\u043b\u043e\u043b\u0430\u0437\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
 "url":"https://turclub-pik.ru/pohod/turciya-skalolazanie-na-likiiskoi-trope/221/",
@@ -40971,9 +44381,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1536
+1536,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -40995,9 +44407,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -41019,9 +44433,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1536
+1536,
+0,
+1
 ],
 "title":"\u0422\u0440\u043e\u043f\u0430 \u0410\u0444\u0440\u043e\u0434\u0438\u0442\u044b (\u041a\u0438\u043f\u0440)",
 "url":"https://zovgor.com/cyprus_trekking.html",
@@ -41043,9 +44459,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+256
 ],
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
@@ -41067,9 +44485,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u043e\u0442\u043e\u0442\u0443\u0440 \u043d\u0430\u00a0\u043e\u0432\u0446\u0435\u0431\u044b\u043a\u043e\u0432",
 "url":"https://team-trip.ru/muskox",
@@ -41091,9 +44511,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-512
+512,
+16,
+0
 ],
 "title":"\u041c\u0435\u0437\u043c\u0430\u0439. \u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c",
 "url":"https://strannik36.ru/mezmay-zolotaya-osen",
@@ -41115,9 +44537,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1536
+1536,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438",
 "url":"https://team-trip.ru/norway",
@@ -41139,9 +44563,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1536
+1536,
+64,
+0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://zovgor.com/pohod-po-severnoi-osetii.html",
@@ -41163,9 +44589,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1536
+1536,
+16,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
 "url":"https://strannik36.ru/gornyy-krym-i-sevastopol",
@@ -41187,9 +44615,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+8
 ],
 "title":"\u041c\u0430\u0447\u0443-\u041f\u0438\u043a\u0447\u0443 \u0438\u00a0\u0420\u0430\u0434\u0443\u0436\u043d\u044b\u0435 \u0433\u043e\u0440\u044b (\u041f\u0435\u0440\u0443)",
 "url":"https://zovgor.com/trekking_peru.html",
@@ -41211,9 +44641,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+256
 ],
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
@@ -41235,9 +44667,11 @@ const DATA={"weekendList": [
 0,
 1,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+1
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044e",
 "url":"https://turclub-pik.ru/pohod/kappadokiya/90/",
@@ -41259,9 +44693,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
-1024
+1024,
+0,
+256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0420\u0434\u0435\u0439\u0441\u043a\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
 "url":"https://cityescape.ru/poxod-k-rdejskomu-monastyryu/",
@@ -41283,9 +44719,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+32
 ],
 "title":"\u0422\u0440\u0435\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u0442\u0440\u043e\u043f\u0435 \u0418\u0437\u0440\u0430\u0438\u043b\u044f",
 "url":"https://zovgor.com/pohod-israel.html",
@@ -41307,9 +44745,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+1
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0422\u0443\u0440\u0446\u0438\u044f)",
 "url":"https://zovgor.com/lician_way.html",
@@ -41331,9 +44771,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -41355,9 +44797,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1024
+1024,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -41379,9 +44823,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+2
 ],
 "title":"\u041d\u0435\u043f\u0430\u043b. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b + \u043e\u0437\u0435\u0440\u0430 \u0422\u0438\u043b\u0438\u0447\u043e \u0438\u00a0\u0410\u0439\u0441-\u043b\u044d\u0439\u043a",
 "url":"https://turclub-pik.ru/pohod/vokrug-annapurny-ozera-tilicho-i-ais-leik/269/",
@@ -41403,9 +44849,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438",
 "url":"https://team-trip.ru/norway",
@@ -41427,9 +44875,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+2
 ],
 "title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/annapurna_circuit.html",
@@ -41451,9 +44901,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+256
 ],
 "title":"\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430",
 "url":"https://zovgor.com/cavecity.html",
@@ -41475,9 +44927,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+8
 ],
 "title":"\u0410\u043d\u0434\u044b, \u0422\u0438\u0442\u0438\u043a\u0430\u043a\u0430 \u0438\u00a0\u0423\u044e\u043d\u0438 (\u0411\u043e\u043b\u0438\u0432\u0438\u044f)",
 "url":"https://zovgor.com/trekking_bolivia.html",
@@ -41499,9 +44953,11 @@ const DATA={"weekendList": [
 0,
 2,
 1,
-32,
+128,
 2,
-1024
+1024,
+16,
+0
 ],
 "title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u041a\u0440\u044b\u043c\u0443. \u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u0443\u0434\u0430\u043a \u0438\u00a0\u041d\u043e\u0432\u044b\u0439 \u0421\u0432\u0435\u0442",
 "url":"https://pro-adventure.ru/tours/id_2382_zolotaya-osen-v-krymu-trekking-v-sudak-i-novyj-svet",
@@ -41523,9 +44979,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
@@ -41547,9 +45005,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-3072
+3072,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/trekking_everest.html",
@@ -41571,9 +45031,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-1024
+1024,
+0,
+128
 ],
 "title":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0438\u00a0\u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u043a\u043e\u0441\u0430\u0442\u043a\u0430\u043c\u0438",
 "url":"https://team-trip.ru/norway",
@@ -41595,9 +45057,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-3072
+3072,
+0,
+4
 ],
 "title":"\u041e\u0442\u00a0\u043f\u0443\u0441\u0442\u044b\u043d\u0438 \u041d\u0430\u043c\u0438\u0431 \u043a\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u0443 \u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f (\u041d\u0430\u043c\u0438\u0431\u0438\u044f-\u0417\u0430\u043c\u0431\u0438\u044f)",
 "url":"https://zovgor.com/tur-namibia.html",
@@ -41619,9 +45083,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-3072
+3072,
+16,
+0
 ],
 "title":"\u0427\u0430\u0442\u044b\u0440-\u0414\u0430\u0433 \u0438\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u0430\u043c\u0438 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
 "url":"https://zovgor.com/speleotur.html",
@@ -41643,9 +45109,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+0,
+256
 ],
 "title":"\u041b\u0435\u0434 \u0438\u00a0\u041a\u0430\u043c\u043d\u0438",
 "url":"https://zovgor.com/ice_stones.html",
@@ -41667,9 +45135,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+0,
+4
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u042e\u0410\u0420 \u043d\u0430\u043b\u0435\u0433\u043a\u0435",
 "url":"https://zovgor.com/trekking-south-africa.html",
@@ -41691,9 +45161,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+16,
+0
 ],
 "title":"\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
 "url":"https://zovgor.com/krym-nalegke.html",
@@ -41715,9 +45187,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+128,
+0
 ],
 "title":"\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430: \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043d\u0430\u00a0\u043f\u0430\u0440\u0443\u0441\u043d\u043e\u0439 \u044f\u0445\u0442\u0435. \u041f\u0438\u043d\u0433\u0432\u0438\u043d\u044b, \u043a\u043e\u0441\u0430\u0442\u043a\u0438, \u043a\u0438\u0442\u044b, \u0442\u044e\u043b\u0435\u043d\u0438 \u0438\u00a0\u0430\u0439\u0441\u0431\u0435\u0440\u0433\u0438",
 "url":"https://team-trip.ru/antarctica",
@@ -41741,7 +45215,9 @@ const DATA={"weekendList": [
 0,
 32,
 2,
-2048
+2048,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u042d\u0432\u0435\u0440\u0435\u0441\u0442\u0430 + \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u043b\u0430-\u041f\u0430\u0442\u0430\u0440",
 "url":"https://turclub-pik.ru/pohod/everest/135/",
@@ -41763,9 +45239,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-2048
+2048,
+0,
+4
 ],
 "title":"\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f \u043d\u0430\u00a0\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434: \u0421\u0430\u0444\u0430\u0440\u0438, \u041f\u043b\u0435\u043c\u0435\u043d\u0430 \u0438\u00a0\u041e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_2442_tanzaniya-na-novyj-god-safari-plemena-i-okean",
@@ -41787,9 +45265,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+0,
+2
 ],
 "title":"\u041a\u00a0\u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u043b\u0430\u0433\u0435\u0440\u044e \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b (\u041d\u0435\u043f\u0430\u043b)",
 "url":"https://zovgor.com/nepal.html",
@@ -41811,9 +45291,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+16,
+0
 ],
 "title":"\u0427\u0430\u0442\u044b\u0440-\u0414\u0430\u0433 \u0438\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u0430\u043c\u0438 \u043d\u0430\u00a0\u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
 "url":"https://zovgor.com/speleotur.html",
@@ -41835,9 +45317,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+0,
+8
 ],
 "title":"\u041f\u0430\u0442\u0430\u0433\u043e\u043d\u0438\u044f \u0438\u00a0\u041e\u0433\u043d\u0435\u043d\u043d\u0430\u044f \u0417\u0435\u043c\u043b\u044f (\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430, \u0427\u0438\u043b\u0438)",
 "url":"https://zovgor.com/patagonia.html",
@@ -41859,9 +45343,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+64,
+0
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u00ab\u0410\u043a\u0441\u0430\u0443\u0442-\u0410\u0440\u0445\u044b\u0437\u00bb",
 "url":"https://zovgor.com/axaut-arkhyz.html",
@@ -41883,9 +45369,11 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 2,
-2048
+2048,
+0,
+256
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0440\u043e\u043c\u043a\u0435 \u0441\u043a\u0430\u043b",
 "url":"https://zovgor.com/po-kromke-skal.html",
@@ -41907,8 +45395,10 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-32,
+128,
 1,
+0,
+32,
 0
 ],
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430: \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0438\u00a0\u0437\u0438\u043c\u043d\u0438\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u00a0\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u044c\u0435",
@@ -41931,9 +45421,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+128,
 2,
-2048
+2048,
+16,
+0
 ],
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u0442\u0443\u0440 2021 \u0432\u00a0\u0421\u043e\u0447\u0438 \u00ab\u041f\u0430\u043b\u044c\u043c\u044b \u0438\u00a0\u0441\u043d\u0435\u0433\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2421_pohod-po-krymu-ot-yalty-do-sevastopolya-1-1-1-1-1-1-1-1-1",
@@ -41955,9 +45447,11 @@ const DATA={"weekendList": [
 0,
 2,
 0,
-32,
+64,
 2,
-0
+0,
+0,
+4
 ],
 "title":"\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f \u043d\u0430\u00a0\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434: \u0421\u0430\u0444\u0430\u0440\u0438, \u041f\u043b\u0435\u043c\u0435\u043d\u0430 \u0438\u00a0\u041e\u043a\u0435\u0430\u043d",
 "url":"https://pro-adventure.ru/tours/id_2442_tanzaniya-na-novyj-god-safari-plemena-i-okean",
@@ -41979,8 +45473,10 @@ const DATA={"weekendList": [
 0,
 8,
 0,
-32,
+128,
 2,
+0,
+32,
 0
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430",
@@ -42153,8 +45649,8 @@ const DATA={"weekendList": [
 "title":""
 },
 {
-"bits":63,
-"slug":"type",
+"bits":255,
+"slug":"types",
 "tags":[
 {
 "active":true,
@@ -42199,6 +45695,22 @@ const DATA={"weekendList": [
 {
 "active":true,
 "bit":32,
+"index":4,
+"slug":"pick",
+"text":"\u26cf\ufe0f",
+"title":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435"
+},
+{
+"active":true,
+"bit":64,
+"index":4,
+"slug":"auto",
+"text":"\ud83d\ude97",
+"title":"\u0430\u0432\u0442\u043e\u0442\u0443\u0440"
+},
+{
+"active":true,
+"bit":128,
 "index":4,
 "slug":"hiking",
 "text":"\ud83e\udd7e",
@@ -42332,5 +45844,163 @@ const DATA={"weekendList": [
 }
 ],
 "title":"\u041c\u0435\u0441\u044f\u0446"
+},
+{
+"bits":511,
+"slug":"places",
+"tags":[
+{
+"active":true,
+"bit":1,
+"index":7,
+"slug":"kamcha",
+"text":"\u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
+"title":""
+},
+{
+"active":true,
+"bit":2,
+"index":7,
+"slug":"altay",
+"text":"\u0430\u043b\u0442\u0430\u0439",
+"title":""
+},
+{
+"active":true,
+"bit":4,
+"index":7,
+"slug":"elbrus",
+"text":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441",
+"title":""
+},
+{
+"active":true,
+"bit":8,
+"index":7,
+"slug":"baikal",
+"text":"\u0431\u0430\u0439\u043a\u0430\u043b",
+"title":""
+},
+{
+"active":true,
+"bit":16,
+"index":7,
+"slug":"south",
+"text":"\u044e\u0433",
+"title":""
+},
+{
+"active":true,
+"bit":32,
+"index":7,
+"slug":"north",
+"text":"\u0441\u0435\u0432\u0435\u0440",
+"title":""
+},
+{
+"active":true,
+"bit":64,
+"index":7,
+"slug":"caucasus_rf",
+"text":"\u043a\u0430\u0432\u043a\u0430\u0437",
+"title":""
+},
+{
+"active":true,
+"bit":128,
+"index":7,
+"slug":"arctica",
+"text":"\u0430\u0440\u043a\u0442\u0438\u043a\u0430",
+"title":""
+},
+{
+"active":true,
+"bit":256,
+"index":7,
+"slug":"rest",
+"text":"\u0441\u0438\u0431\u0438\u0440\u044c, \u0443\u0440\u0430\u043b",
+"title":""
+}
+],
+"title":"\u0420\u043e\u0441\u0441\u0438\u044f"
+},
+{
+"bits":511,
+"slug":"places",
+"tags":[
+{
+"active":true,
+"bit":1,
+"index":8,
+"slug":"turkey_cyprus",
+"text":"\u0442\u0443\u0440\u0446\u0438\u044f, \u043a\u0438\u043f\u0440",
+"title":""
+},
+{
+"active":true,
+"bit":2,
+"index":8,
+"slug":"nepal",
+"text":"\u043d\u0435\u043f\u0430\u043b",
+"title":"\u041d\u0435\u043f\u0430\u043b, \u042d\u0435\u0432\u0435\u0440\u0435\u0441\u0442"
+},
+{
+"active":true,
+"bit":4,
+"index":8,
+"slug":"africa",
+"text":"\u0430\u0444\u0440\u0438\u043a\u0430",
+"title":""
+},
+{
+"active":true,
+"bit":8,
+"index":8,
+"slug":"america",
+"text":"\u0430\u043c\u0435\u0440\u0438\u043a\u0430",
+"title":""
+},
+{
+"active":true,
+"bit":16,
+"index":8,
+"slug":"caucasus",
+"text":"\u043a\u0430\u0432\u043a\u0430\u0437",
+"title":"\u0410\u0440\u043c\u0435\u043d\u0438\u044f, \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d, \u0413\u0440\u0443\u0437\u0438\u044f"
+},
+{
+"active":true,
+"bit":32,
+"index":8,
+"slug":"asia",
+"text":"\u0430\u0437\u0438\u044f",
+"title":""
+},
+{
+"active":true,
+"bit":64,
+"index":8,
+"slug":"sng",
+"text":"\u0441\u043d\u0433",
+"title":"\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f, \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d, \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d, \u0423\u043a\u0440\u0430\u0438\u043d\u0430"
+},
+{
+"active":true,
+"bit":128,
+"index":8,
+"slug":"europe",
+"text":"\u0435\u0432\u0440\u043e\u043f\u0430",
+"title":""
+},
+{
+"active":true,
+"bit":256,
+"index":8,
+"slug":"other_place",
+"text":"\u043e\u0441\u0442\u0430\u043b\u044c\u043d\u043e\u0435",
+"title":""
+}
+],
+"title":"\u041c\u0438\u0440"
 }
 ]};

@@ -1,7 +1,7 @@
 const dateFormat = 'DD.MM.YYYY',
       dayWidth = 25,
       eventHeight = 65,
-      tagSep = '.',
+      tagSep = 'a',
       monthNames = [
         'Январь',
         'Февраль',

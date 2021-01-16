@@ -13,6 +13,7 @@ vendors = {
     myway: #eff7e6,
 }
 aside-width = 300px
+side-padding = 30px
 
 *, *:before, *:after
     box-sizing: border-box;
@@ -35,6 +36,28 @@ html, body, #app, .gant, .aside, .detail
     position relative
     display flex
 
+
+.logo
+    margin 0 !important
+    font-weight bold
+    white-space nowrap
+    font-size 40px
+    user-select none
+
+    &__link
+        color inherit
+
+    &__icon
+        height 36px
+        vertical-align -6px
+
+    &__counter
+        font-size 13px
+        padding 2px 8px
+        border-radius 5px
+        border 1px solid #ddd
+        vertical-align 11px
+
 .aside
     flex 0 0 aside-width
     display flex
@@ -47,34 +70,28 @@ html, body, #app, .gant, .aside, .detail
 
     .btn-group
         display none
+        margin-bottom 15px
+
+    &__clear, .tags
+        margin-bottom 30px
+
+    &__clear
+        display none
+
+        &.active
+            display block
+
+    &__sticky
+        padding side-padding
 
     &__content
         margin 0 auto
-        padding 0 30px
+        padding 0 side-padding
         max-width aside-width * 2
         position relative
 
-        .title
-            margin 15px 0 !important
-            white-space nowrap
-            font-size 40px
-
-            &__link
-                color inherit
-
-            &__icon
-                height 36px
-                vertical-align -6px
-
-            &__counter
-                font-size 13px
-                padding 2px 8px
-                border-radius 5px
-                border 1px solid #ddd
-                vertical-align 11px
-
-        .tags, .search
-            margin 30px 0 !important
+        .search
+            margin 0 0 30px !important
 
     &__footer
         font-size 14px
@@ -287,38 +304,42 @@ input.search__input
         &::-webkit-search-cancel-button
             opacity 1 !important
 
-
-.btn-group
-    overflow hidden
-    position sticky
+.sticky
     background-color rgba(255,255,255,.5)
     -webkit-backdrop-filter blur(10px)
     backdrop-filter blur(10px)
-    top 0
-    width 100%
-    padding 10px 30px
-    margin 20px 0
+    position sticky
     z-index 1
+    top 0
+
+
+.btn-group
+    overflow hidden
     text-transform lowercase
+    width 100%
+
+    .btn
+        float left
 
     .btn + .btn
         margin-left 20px
 
-    .btn
-        color #444 !important
-        float left
-        font-size 15px
-        cursor pointer
-        padding 8px 14px 10px
-        border-radius 200px
-        background rgba(0,0,0,.05)
-        line-height 1
+.btn
+    color #444 !important
+    font-size 15px
+    cursor pointer
+    padding 8px 14px 10px
+    border-radius 200px
+    background rgba(0,0,0,.05)
+    line-height 1
+    user-select none
+    text-align center
 
-        &:hover
-            background rgba(0,0,0,.08)
+    &:hover
+        background rgba(0,0,0,.08)
 
-        &--disabled
-            opacity .5
+    &--disabled
+        opacity .5
 
 
 .detail
@@ -330,6 +351,12 @@ input.search__input
     overflow scroll
     display none
 
+    .btn-group
+        padding side-padding
+
+    &__title
+        margin-top 0 !important
+
     &--active
         display flex
 
@@ -338,7 +365,7 @@ input.search__input
         width 800px
 
     &__content
-        padding 0 30px
+        padding 0 side-padding
 
     .tbl
         width 100%

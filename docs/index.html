@@ -57,7 +57,7 @@
 <div id="app">
     <div class="detail" :class="{'detail--active': detail.event}" v-if="detail.event">
         <div class="detail__inner" :set="event = detail.event">
-            <div class="btn-group">
+            <div class="btn-group sticky">
                 <div class="btn" v-on:click="hideDetail">←&nbsp;Назад</div>
             </div>
             <div class="detail__content">
@@ -147,18 +147,22 @@
     </div>
     <div class="aside-toggle display-none" v-on:click="toggleMenu">☰&#xFE0E;<span class="aside-toggle__title">меню</span></div>
     <aside class="aside" :class="{'aside--mobile': menu.mobile}">
-        <div class="btn-group">
-            <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
-            <div class="btn" :class="{'btn--disabled': !hasFilters}" v-on:click="clearFilters" title="Очистить">Очистить</div>
-        </div>
-        <div class="aside__content">
-            <h1 class="title">
-                <a href="/" class="title__link">
-                    <img src="./icon.svg" alt="uhike.ru" class="title__icon">
+        <div class="aside__sticky sticky">
+            <div class="btn-group">
+                <div class="btn" v-on:click="toggleMenu">←&nbsp;Назад</div>
+            </div>
+            <h1 class="logo">
+                <a href="/" class="logo__link">
+                    <img src="./icon.svg" alt="uhike.ru" class="logo__icon">
                     uhike
                 </a>
-                <sup class="title__counter">{{ eventFilter.length }}</sup>
+                <sup class="logo__counter">{{ eventFilter.length }}</sup>
             </h1>
+        </div>
+        <div class="aside__content">
+            <div class="search">
+                <input class="search__input" type="search" placeholder="поиск" v-model="applySearch">
+            </div>
             <div class="tags">
                 <div class="tags__offset">
                     <template v-for="(group, index) in tags">
@@ -175,8 +179,8 @@
                     </template>
                 </div>
             </div>
-            <div class="search">
-                <input class="search__input" type="search" placeholder="поиск" v-model="applySearch">
+            <div class="aside__clear" :class="{'active': hasFilters}">
+                <div class="btn" v-on:click="clearFilters" title="Очистить">очистить</div>
             </div>
         </div>
         <div class="aside__footer">

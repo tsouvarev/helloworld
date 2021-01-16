@@ -73,7 +73,7 @@ def parse_date(src: str, today: datetime):
     elif len(data) == 2:
         day, month = data
         if not month.isdigit():
-            month = MONTHS.index(month) + 1
+            month = MONTHS.index(month) + 1  # type: ignore
         return today.replace(day=int(day), month=int(month))
     else:
         return today.replace(day=int(data[0]))

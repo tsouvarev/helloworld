@@ -125,8 +125,3 @@ def render():
         dump = (WEEKENDS, NO_WEEKENDS, render_items, TAGS)
         template = JS_TEMPLATE.format(*map(json_dumps, dump))
         f.write(template)
-
-
-        import re
-        titles = ' '.join(x['title'] for x in render_items)
-        print('\n'.join(sorted(set(re.findall(r'[А-Я][а-я]{2,}', titles)))))
