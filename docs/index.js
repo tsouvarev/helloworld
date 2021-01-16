@@ -96,10 +96,10 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
         },
         mounted: function() {
             let showEvent = window.location.hash.substr(1);
-            if (showEvent == 'menu') {
-                this.showMenu();
-            } else if (showEvent){
+            if (showEvent){
                 this.showDetail(showEvent);
+            } else {
+                this.showMenu();
             }
         },
         computed: {
