@@ -120,7 +120,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 }
 
                 if (applyTags.some((x) => x)){
-                    newParams.push('t=' + btoa(applyTags.join(tagSep)))
+                    newParams.push(tagsToParams(applyTags))
                 }
 
                 updateUrl(
@@ -257,6 +257,23 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                     result += end.date();
                 }
                 return result += ' ' + monthDeclensions[end.month()];
+            },
+            eventTags: function (event) {
+                const tags = [];
+                for (let i = 0; i < tagGroups.length; i++){
+                    for (let j = 0; j < tagGroups[i].tags.length; j++){
+                        const tag = tagGroups[i].tags[j]
+                        if (event.tags[i] & tag.bit) {
+                            tags.push(tag);
+                        }
+                    }
+                }
+                return tags;
+            },
+            goToTag: function (tag) {
+                this.hideDetail();
+                this.clearFilters();
+                this.applyTags[tag.index].push(tag.bit);
             }
         }
     });
@@ -290,6 +307,10 @@ function buildUrl(params, hash){
 
 function updateUrl(params, hash){
     window.history.replaceState({}, null, buildUrl(params, hash).toString());
+}
+
+function tagsToParams(tags){
+    return 't=' + btoa(tags.join(tagSep))
 }
 
 function getEvents(eventSource, tagGroups) {

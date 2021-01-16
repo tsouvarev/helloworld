@@ -126,6 +126,23 @@
                     </tr>
                     <tr>
                         <td colspan="2">
+                            <div class="tags">
+                                <div class="tags__offset">
+                                    <div
+                                            v-for="tag in eventTags(event)"
+                                            :for="tag.slug"
+                                            :class="['tags__tag', tag.slug]"
+                                            :title="tag.title || tag.text"
+                                            v-on:click="goToTag(tag)"
+                                    >
+                                        <div class="tags__tag__inner" v-html="tag.text"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
                             <hr>
                         </td>
                     </tr>
@@ -170,7 +187,7 @@
                         <label
                             v-for="tag in group.tags"
                             :for="tag.slug"
-                            :class="[{active: tag.active}, 'tags__tag', group.slug, tag.slug]"
+                            :class="[{inactive: !tag.active}, 'tags__tag', group.slug, tag.slug]"
                             :title="tag.title || tag.text"
                         >
                             <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags[index]">

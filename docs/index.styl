@@ -241,11 +241,11 @@ html, body, #app, .gant, .aside, .detail
     &__tag
         display inline-block
         overflow hidden
-        opacity .5
         margin 10px 0 0 10px
+        opacity 1
 
-        &.active
-            opacity 1
+        &.inactive
+            opacity .5
 
         &__inner
             padding 1px 11px
@@ -353,6 +353,9 @@ input.search__input
 
     .btn-group
         padding side-padding
+
+    .tags
+        margin 15px 0
 
     &__title
         margin-top 0 !important

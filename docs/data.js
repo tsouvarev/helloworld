@@ -2498,8 +2498,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -2992,8 +2992,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -3486,8 +3486,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -4110,8 +4110,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -4942,8 +4942,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2469_kizhi-na-snegokhodakh-2-dnya-1",
@@ -5566,8 +5566,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -5982,8 +5982,8 @@ const DATA={"weekendList": [
 8,
 1,
 2,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -6606,8 +6606,8 @@ const DATA={"weekendList": [
 8,
 1,
 4,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -7308,8 +7308,8 @@ const DATA={"weekendList": [
 8,
 1,
 4,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2469_kizhi-na-snegokhodakh-2-dnya-1",
@@ -8140,8 +8140,8 @@ const DATA={"weekendList": [
 8,
 1,
 4,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
@@ -15109,7 +15109,7 @@ const DATA={"weekendList": [
 2,
 16,
 0,
-256
+8
 ],
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044e",
 "url":"https://pro-adventure.ru/tours/id_1958_avtorskij-tur-v-kolumbiyu",
@@ -26522,8 +26522,8 @@ const DATA={"weekendList": [
 64,
 2,
 64,
-0,
-256
+32,
+0
 ],
 "title":"\u041a\u0438\u0436\u0438 \u0438\u00a0\u0434\u0440\u0443\u0433\u0438\u0435 \u0447\u0443\u0434\u0435\u0441\u0430 \u041e\u043d\u0435\u0433\u0438. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 / 2021",
 "url":"https://www.napravlenie.info/catalog/weekend/kizhi-i-drugie-chudesa-onegi-avtorskiy-tur-2021/",
@@ -39809,7 +39809,7 @@ const DATA={"weekendList": [
 2,
 384,
 0,
-256
+128
 ],
 "title":"\u0420\u0438\u043b\u0430 \u0438\u00a0\u041f\u0438\u0440\u0438\u043d (\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f)",
 "url":"https://zovgor.com/bulgaria.html",
