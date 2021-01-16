@@ -306,7 +306,8 @@ function buildUrl(params, hash){
 }
 
 function updateUrl(params, hash){
-    window.history.replaceState({}, null, buildUrl(params, hash).toString());
+    const url = buildUrl(params, hash).toString();
+    window.history.replaceState({urlPath: url}, '', url);
 }
 
 function tagsToParams(tags){

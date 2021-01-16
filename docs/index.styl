@@ -75,12 +75,6 @@ html, body, #app, .gant, .aside, .detail
     &__clear, .tags
         margin-bottom 30px
 
-    &__clear
-        display none
-
-        &.active
-            display block
-
     &__sticky
         padding side-padding
 
@@ -337,6 +331,10 @@ input.search__input
 
     &:hover
         background rgba(0,0,0,.08)
+
+    &--inactive
+        opacity .5
+        cursor default
 
     &--disabled
         opacity .5

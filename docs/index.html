@@ -196,8 +196,8 @@
                     </template>
                 </div>
             </div>
-            <div class="aside__clear" :class="{'active': hasFilters}">
-                <div class="btn" v-on:click="clearFilters" title="Очистить">очистить</div>
+            <div class="aside__clear">
+                <div :class="[{'btn--inactive': !hasFilters}, 'btn']" v-on:click="clearFilters" title="Очистить">очистить</div>
             </div>
         </div>
         <div class="aside__footer">
