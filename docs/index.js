@@ -33,6 +33,9 @@ const dateFormat = 'DD.MM.YYYY',
 ;
 
 function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
+    // Disable back button
+    window.onbeforeunload = function() { return "Your work will be lost."; };
+
     // Calendar first month
     const today = moment().startOf('day'),
           eventList = getEvents(eventSource)
