@@ -46,6 +46,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             tags: tagGroups,
             applyTags: Array.from({length: tagGroups.length}, () => []),
             applySearch: '',
+            filterCounter: 0,
             months: [],
             filteredEvents: eventList,
             stripes: [],
@@ -96,17 +97,13 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
         },
         mounted: function() {
             let showEvent = window.location.hash.substr(1);
-            if (showEvent){
+            if (showEvent && showEvent !== 'menu'){
                 this.showDetail(showEvent);
-            } else {
+            } else if (!this.filterCounter) {
                 this.showMenu();
             }
         },
         computed: {
-            hasFilters(){
-                // fixme
-                return !!(this.applyTags.some((g) => g.length) || this.applySearch.length);
-            },
             eventFilter(){
                 let self = this,
                     events = eventList,
@@ -158,6 +155,11 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                     }
                 }
 
+                // Reset counter
+                this.filterCounter = (
+                    this.applyTags.reduce((a, g) => a + g.length, 0)
+                    + this.applySearch.length
+                );
                 if (!events.length) {
                     self.filteredEvents = events;
                     return events;
@@ -188,7 +190,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                         }
                     });
                 });
-                self.filteredEvents = events;
+                this.filteredEvents = events;
                 return events;
             }
         },

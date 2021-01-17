@@ -328,6 +328,7 @@ input.search__input
     line-height 1
     user-select none
     text-align center
+    white-space nowrap
 
     &:hover
         background rgba(0,0,0,.08)
@@ -408,7 +409,7 @@ input.search__input
     .aside-toggle
         display block
         text-align center
-        padding 3px 20px 5px
+        padding 4px 20px 6px
         position fixed
         background white
         border-radius 50px
@@ -419,12 +420,17 @@ input.search__input
         transform translateX(-50%)
         cursor pointer
         user-select none
-        font-variant small-caps
-        font-size 13px
 
-        &__title
-            font-size 15px
+        &__count
+            background #EA3323
+            border-radius 50px
+            color white
             margin-left 5px
+            margin-right -5px
+            font-size 11px
+            width 18px
+            line-height @width
+            display inline-block
 
     .aside
         display none
