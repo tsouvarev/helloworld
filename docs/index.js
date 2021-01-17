@@ -97,7 +97,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
         },
         mounted: function() {
             let showEvent = window.location.hash.substr(1);
-            if (showEvent && showEvent !== 'menu'){
+            if (showEvent){
                 this.showDetail(showEvent);
             } else if (!this.filterCounter) {
                 this.showMenu();
@@ -218,7 +218,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             },
             showMenu: function(){
                 this.menu.mobile = true;
-                updateUrl(null, 'menu');
+                updateUrl(null, '');
             },
             hideMenu: function (){
                 this.menu.mobile = false;
