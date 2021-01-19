@@ -158,7 +158,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 // Reset counter
                 this.filterCounter = (
                     this.applyTags.reduce((a, g) => a + g.length, 0)
-                    + this.applySearch.length
+                    + (this.applySearch.length > 0)
                 );
                 if (!events.length) {
                     self.filteredEvents = events;
