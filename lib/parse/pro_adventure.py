@@ -69,7 +69,7 @@ def parse_page(text: str) -> Iterator[Item]:
                     url='https://pro-adventure.ru' + item_title.get('href'),
                     title=content(item_title),
                     price=content(cost),
-                    for_kids=age < 10,
+                    for_kids=age <= 5,
                     slots=slots,
                 )
 
