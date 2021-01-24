@@ -11,7 +11,8 @@ from ..utils import css, gather_chunks, silent
 from . import client
 
 find_dates = compose(
-    first, re.compile(r'([0-9]+) (\w*)[^0-9]+([0-9]+) (\w+)').findall,
+    first,
+    re.compile(r'([0-9]+) (\w*)[^0-9]+([0-9]+) (\w+)').findall,
 )
 
 

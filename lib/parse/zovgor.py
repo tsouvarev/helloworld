@@ -16,7 +16,6 @@ async def parse_zovgor() -> Iterator[Item]:
 
 
 def parse_page(text):
-    parse_dt = partial(parse_date, TODAY.year)
     tree = html.fromstring(text.encode())
     path = '//*[@id="main"]/table/tbody/tr[position()>1]/'
     tails = (
@@ -31,7 +30,7 @@ def parse_page(text):
     ]
     data = (tree.xpath(path + t) for t in tails)
     for title, url, date, price in zip_safe(titles, *data):
-        start, end = map(parse_dt, content(date).split('-', 1))
+        start, end = parse_dates(content(date))
         yield Item(
             vendor=Vendor.ZOVGOR,
             title=title,
@@ -42,10 +41,17 @@ def parse_page(text):
         )
 
 
-def parse_date(now_year: int, src: str) -> datetime:
+def parse_dates(src: str, today: datetime = TODAY):
+    start, end = map(partial(parse_date, today=today), src.split('-', 1))
+    if start.month <= end.month:
+        start = start.replace(year=end.year)
+    return start, end
+
+
+def parse_date(src: str, today: datetime = TODAY) -> datetime:
     date = mapv(int, src.split('.'))
     if len(date) == 2:
-        (day, month), year = date, now_year
+        (day, month), year = date, today.year
     else:
         day, month, year = date
         year = 2000 + year

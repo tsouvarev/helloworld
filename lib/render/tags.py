@@ -34,7 +34,8 @@ class TagGroup:
     tags: List[Tag]
     title: str = ''
     index: int = field(  # type: ignore
-        init=False, default_factory=partial(next, count(0)),
+        init=False,
+        default_factory=partial(next, count(0)),
     )
 
     def __post_init__(self):
@@ -250,7 +251,9 @@ PLACES_WORLD: FinderDict = {
         )
     ),
     Tag(
-        slug='caucasus', text='кавказ', title='Армения, Азербайджан, Грузия',
+        slug='caucasus',
+        text='кавказ',
+        title='Армения, Азербайджан, Грузия',
     ): finder(
         r'\b(армен|грузи|сванети|азербайджан|казбек|тушет|хевсурет|чердым)'
     ),
@@ -370,7 +373,9 @@ TAGS = (
     TagGroup(slug='age', tags=[KIDS]),
     TagGroup(slug='types', tags=list(TYPES) + [HIKING]),
     TagGroup(
-        title='Продолжительность', slug='durations', tags=[SHORT, LONG],
+        title='Продолжительность',
+        slug='durations',
+        tags=[SHORT, LONG],
     ),
     TagGroup(title='Месяц', slug='months', tags=MONTH_TAGS),
     TagGroup(title='Россия', slug='places', tags=list(PLACES_RF)),
