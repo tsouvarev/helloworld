@@ -14,6 +14,7 @@ from .orangeked import parse_orangeked
 from .perehod import parse_perehod
 from .pik import parse_pik
 from .pro_adventure import parse_pro_adventure
+from .stranavetrov import parse_stranavetrov
 from .strannik import parse_strannik
 from .teamtrip import parse_teamtrip
 from .zovgor import parse_zovgor
@@ -31,6 +32,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.PEREHOD: parse_perehod,
     Vendor.STRANNIK: parse_strannik,
     Vendor.MYWAY: parse_myway,
+    Vendor.STRANAVETROV: parse_stranavetrov,
 }
 
 unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))

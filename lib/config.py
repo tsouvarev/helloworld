@@ -81,6 +81,7 @@ class Vendor(str, Enum):
     PEREHOD = 'perehod'
     STRANNIK = 'strannik'
     MYWAY = 'myway'
+    STRANAVETROV = 'stranavetrov'
 
 
 class Level(IntEnum):

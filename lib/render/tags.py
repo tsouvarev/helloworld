@@ -340,6 +340,7 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.STRANNIK, text='странник'),
     Tag(slug=Vendor.MYWAY, text='myway'),
     Tag(slug=Vendor.PRO_ADVENTURE, text='pro-adventure'),
+    Tag(slug=Vendor.STRANAVETROV, text='страна ветров'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 

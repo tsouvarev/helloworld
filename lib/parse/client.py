@@ -8,7 +8,9 @@ from ..utils import progress
 Progress: ContextVar[progress] = ContextVar('Prog')
 
 
-async def request(method: str, url: str, *args, timeout: int = 30, **kwargs):
+async def request(
+    method: str, url: str, *args, timeout: int = 30, **kwargs
+) -> httpx.Response:
     abspath = url
     try:
         async with httpx.AsyncClient(verify=False) as c:

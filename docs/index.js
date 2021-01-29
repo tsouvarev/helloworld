@@ -50,6 +50,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             months: [],
             filteredEvents: eventList,
             stripes: [],
+            eventCounter: 0,
             detail: {
                 show: false,
                 event: null,
@@ -156,6 +157,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 }
 
                 // Reset counter
+                this.eventCounter = events.length;
                 this.filterCounter = (
                     this.applyTags.reduce((a, g) => a + g.length, 0)
                     + (this.applySearch.length > 0)
@@ -166,6 +168,11 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 }
 
                 events = masonry(events);
+
+                // Doesn't show events under 1000px - that's too much
+                if (!this.filterCounter) {
+                    events = events.filter((e) => e.voffset < 800);
+                }
 
                 let firstDate = events[0].start.clone();
                 let lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate);
