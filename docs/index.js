@@ -179,7 +179,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
 
                 this.months = getMonths(today, firstDate, lastDate, weekendList, noWeekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
-                this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight * 2;
+                this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight + 20;
 
                 // Renders background weekend stripes
                 let strip_i = 0;
