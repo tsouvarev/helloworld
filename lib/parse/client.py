@@ -1,5 +1,6 @@
 from contextvars import ContextVar
 from functools import partial
+from typing import Awaitable, Callable
 
 import httpx
 
@@ -25,5 +26,6 @@ async def request(
         prog(abspath)
 
 
-get = partial(request, 'GET')
-post = partial(request, 'POST')
+MethType = Callable[..., Awaitable[httpx.Response]]
+get: MethType = partial(request, 'GET')
+post: MethType = partial(request, 'POST')

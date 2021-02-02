@@ -32,12 +32,12 @@ async def parse_stranavetrov():
     resp = await client.post(
         'https://stranavetrov.ru/all-travel', params={'limit': 999}
     )
-    return tuple(parse_page(resp.text))
+    return tuple(parse_page(resp.content.decode('utf8', errors='ignore')))
 
 
 def parse_page(text):
     tree = html.fromstring(text)
-    for item in tree.xpath('//*[@itemprop="blogPost"]'):
+    for item in tree.xpath('//*[@itemtype="https://schema.org/Product"]'):
         cls = classer(item)
         link = item.cssselect('.eventlink a')[0].get('href')
         kwargs = {
