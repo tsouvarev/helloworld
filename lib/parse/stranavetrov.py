@@ -19,7 +19,7 @@ LEVELS_MAP: Dict[str, Level] = {
 
 
 def classer(item):
-    def inner(name: str, default: Optional[Any] = '') -> str:
+    def inner(name: str, default: Optional[Any] = '') -> Any:
         node = first(item.find_class(name))
         if node is not None:
             return content(node)

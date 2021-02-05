@@ -105,7 +105,7 @@ def parse_date(src: str, today: datetime) -> datetime:
 def parse_price(src: str) -> Optional[Tuple[int, int]]:
     price = currency = None
     for x, y in PRICE_RE.findall(src):
-        price = max(price or 0, int_or_none(x))
+        price = max(price or 0, int_or_none(x) or 0)
         if not currency:
             currency = y
 
