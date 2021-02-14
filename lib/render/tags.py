@@ -87,6 +87,7 @@ TYPES: FinderDict = {
         r'\b(сафари|авто|джип|альпин)'
     ),
     Tag(slug='yoga', title='йога', text='🧘‍♂️'): finder(r'\bйог'),
+    Tag(slug='freediving', title='фридайвинг', text='🤿'): finder(r'\bфридайвинг'),
 }
 
 PLACES_RF: FinderDict = {
