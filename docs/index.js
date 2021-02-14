@@ -174,10 +174,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                     events = events.filter((e) => e.voffset < 800);
                 }
 
-                let firstDate = events[0].start.clone();
-                let lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate);
-
-                this.months = getMonths(today, firstDate, lastDate, weekendList, noWeekendList);
+                this.months = getMonths(events, today, weekendList, noWeekendList);
                 this.width = this.months.reduce((r, m) => r + m.days.length, 0) * dayWidth;
                 this.height = events.reduce((r, e) => Math.max(r, e.voffset), 0) + eventHeight + 20;
 
@@ -371,8 +368,11 @@ function getEvents(eventSource, tagGroups) {
     });
 }
 
-function getMonths(today, firstDate, lastDate, weekendList, noWeekendList){
-    let monthList = [];
+function getMonths(events, today, weekendList, noWeekendList){
+    const firstDate = events[0].start.clone().subtract(1, "days"),
+           lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate),
+          monthList = []
+    ;
 
     // Creates months ruler
     const monthLen = lastDate.clone().startOf('month').diff(firstDate.clone().startOf('month'), 'months');
