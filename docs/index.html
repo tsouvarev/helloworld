@@ -42,23 +42,46 @@
             transition: opacity .3s linear;
             display: flex;
         }
-        #blocker:before {
-            content: "";
-            animation: loader 1000ms linear 0s 1 normal forwards;
-            margin: auto;
+        #blocker .inner {
             font-size: 10vw;
+            margin: auto;
+        }
+        #blocker .icon {
+            opacity: 0;
+            animation: loader 200ms;
+            animation-fill-mode: forwards;
+        }
+        #blocker .nth--1 {
+            animation-delay: 100ms;
+        }
+        #blocker .nth--2 {
+            animation-delay: 200ms;
+        }
+        #blocker .nth--3 {
+            animation-delay: 400ms;
+        }
+        #blocker .nth--4 {
+            animation-delay: 600ms;
+        }
+        #blocker .nth--5 {
+            animation-delay: 800ms;
         }
         @keyframes loader {
-            0%  {content: '🏕';}
-            25% {content: '🏕🥾';}
-            50% {content: '🏕🥾🌲';}
-            75% {content: '🏕🥾🌲🐻';}
-            100% {content: '🏕🥾🌲🐻⛰️';}
+            0% {opacity: 0;}
+          100% {opacity: 1;}
         }
     </style>
 </head>
 <body>
-<div id="blocker"></div>
+<div id="blocker">
+    <div class="inner">
+        <b class="icon nth--1">🏕</b>
+        <b class="icon nth--2">🥾</b>
+        <b class="icon nth--3">🌲</b>
+        <b class="icon nth--4">🐻</b>
+        <b class="icon nth--5">⛰️</b>
+    </div>
+</div>
 <div id="app">
     <div class="detail" :class="{'detail--active': detail.event}" v-if="detail.event">
         <div class="detail__inner" :set="event = detail.event">
