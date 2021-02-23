@@ -42,18 +42,23 @@
             transition: opacity .3s linear;
             display: flex;
         }
-        #blocker .before {
-            font-family: "Helvetica Neue",sans-serif;
-            line-height: 1;
-            display: block;
+        #blocker:before {
+            content: "";
+            animation: loader 1000ms linear 0s 1 normal forwards;
             margin: auto;
             font-size: 10vw;
-            color: #ddd;
+        }
+        @keyframes loader {
+            0%  {content: '🏕';}
+            25% {content: '🏕🥾';}
+            50% {content: '🏕🥾🌲';}
+            75% {content: '🏕🥾🌲🐻';}
+            100% {content: '🏕🥾🌲🐻⛰️';}
         }
     </style>
 </head>
 <body>
-<div id="blocker"><div class="before">загружаюсь…</div></div>
+<div id="blocker"></div>
 <div id="app">
     <div class="detail" :class="{'detail--active': detail.event}" v-if="detail.event">
         <div class="detail__inner" :set="event = detail.event">

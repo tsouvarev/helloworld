@@ -451,8 +451,11 @@ function masonry(eventList){
 renderTripper(new Set(DATA.weekendList), new Set(DATA.noWeekendList), DATA.eventSource, DATA.tagGroups);
 
 // Displays gant and hides loader
-document.body.classList.add('active');
+setTimeout(function(){
+    document.body.classList.add('active');
+}, 800);
+
 setTimeout(function(){
     let blocker = document.getElementById('blocker');
     blocker.parentNode.removeChild(blocker);
-}, 400);
+}, 1000);
