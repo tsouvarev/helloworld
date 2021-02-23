@@ -453,9 +453,9 @@ renderTripper(new Set(DATA.weekendList), new Set(DATA.noWeekendList), DATA.event
 // Displays gant and hides loader
 setTimeout(function(){
     document.body.classList.add('active');
-}, 600);
+}, 800);
 
 setTimeout(function(){
     let blocker = document.getElementById('blocker');
     blocker.parentNode.removeChild(blocker);
-}, 800);
+}, 1000);
