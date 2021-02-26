@@ -369,7 +369,7 @@ function getEvents(eventSource, tagGroups) {
 }
 
 function getMonths(events, today, weekendList, noWeekendList){
-    const firstDate = events[0].start.clone().subtract(1, "days"),
+    const firstDate = events[0].start.clone(),
            lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate),
           monthList = []
     ;
