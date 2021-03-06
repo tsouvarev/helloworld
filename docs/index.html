@@ -249,7 +249,7 @@
                 </div>
             </div>
         </div>
-        <div class="gant__events" :style="`width:${width}px;height:${height}px`">
+        <div class="gant__events" :style="`width:${width}px;height:${height + 44}px`">
             <div class="gant__stripes">
                 <div v-for="stripe in stripes"
                      class="gant__stripe"
@@ -267,6 +267,7 @@
                 <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&ndash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
                 <div class="gant__event__title">{{ event.title }}</div>
             </div>
+            <div v-if="!filterCounter" class="gant__events__fade"></div>
         </div>
     </article>
 </div>

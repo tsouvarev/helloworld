@@ -14,6 +14,7 @@ vendors = {
 }
 aside-width = 300px
 side-padding = 30px
+month-height = 44px
 
 *, *:before, *:after
     box-sizing: border-box;
@@ -99,8 +100,18 @@ html, body, #app, .gant, .aside, .detail
     color #444
 
     &__events
-        min-height calc(100% - 44px)
+        min-height 100%
+        border-top white solid month-height
+        margin-top -(month-height)
         position relative
+
+        &__fade
+            height 50px
+            width 100%
+            position absolute
+            left 0
+            bottom 0
+            background linear-gradient(180deg, transparent 0%, #fff 60%)
 
     &__stripes
         position absolute
@@ -124,7 +135,7 @@ html, body, #app, .gant, .aside, .detail
         background white
         position sticky
         top 0
-        height 44px
+        height month-height
         display flex
         flex-flow row nowrap
         width fit-content
