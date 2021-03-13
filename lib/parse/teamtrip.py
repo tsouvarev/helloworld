@@ -57,6 +57,8 @@ def parse_dates(src: str, today: datetime = TODAY):
             start_, end_ = map(str.strip, re.split(r'[–\-—]', date))
             end = parse_date(end_, today)
             start = parse_date(start_, end)
+            if start > end:
+                start = start.replace(year=start.year - 1)
             yield start, end
         except Exception as e:
             error(f'[teamtrip]: Failed to parse data "{date}" ({e})')

@@ -37,7 +37,7 @@ from lib.parse.teamtrip import parse_dates
             'декабрь 2020 / 31.12 - 03.01 / 04 - 07 января / '
             '07 - 10 января / 20 - 23 февраля / 05 - 08 марта',
             [
-                (datetime(2020, 12, 31), datetime(2020, 1, 3)),
+                (datetime(2019, 12, 31), datetime(2020, 1, 3)),
                 (datetime(2020, 1, 4), datetime(2020, 1, 7)),
                 (datetime(2020, 1, 7), datetime(2020, 1, 10)),
                 (datetime(2020, 2, 20), datetime(2020, 2, 23)),
@@ -53,6 +53,15 @@ from lib.parse.teamtrip import parse_dates
             [
                 (datetime(2020, 9, 8), datetime(2020, 9, 16)),
                 (datetime(2021, 9, 15), datetime(2021, 9, 23)),
+            ],
+        ),
+        (
+            '19 - 27 июня / 26 декабря - 03 января, 2021 / '
+            '03 - 11 января, 2021',
+            [
+                (datetime(2020, 6, 19), datetime(2020, 6, 27)),
+                (datetime(2020, 12, 26), datetime(2021, 1, 3)),
+                (datetime(2021, 1, 3), datetime(2021, 1, 11)),
             ],
         ),
     ),
