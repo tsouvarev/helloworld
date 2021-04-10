@@ -171,7 +171,8 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
 
                 // Doesn't show events under 1000px - that's too much
                 if (!this.filterCounter) {
-                    events = events.filter((e) => e.voffset < 800);
+                    const elist = document.getElementsByClassName('gant__events')[0];
+                    events = events.filter((e) => e.voffset < elist.clientHeight && e.hoffset < elist.clientWidth);
                     // events = events.slice(1, 1000)
                 }
 

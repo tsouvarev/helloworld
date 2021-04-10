@@ -63,6 +63,7 @@ html, body, #app, .gant, .aside, .detail
     flex-direction column
     position relative
     background white
+    border-right 1px solid #eee
     z-index 3
 
     .btn-group
@@ -104,14 +105,6 @@ html, body, #app, .gant, .aside, .detail
         border-top white solid month-height
         margin-top -(month-height)
         position relative
-
-        &__fade
-            height 50px
-            width 100%
-            position absolute
-            left 0
-            bottom 0
-            background linear-gradient(180deg, rgba(255,255,255,0) 0%, #fff 60%)
 
     &__stripes
         position absolute
@@ -168,6 +161,8 @@ html, body, #app, .gant, .aside, .detail
             padding 0 10px
             font-size 14px
             white-space nowrap
+            max-width 100%
+            overflow hidden
 
             small
                 color gray
@@ -449,6 +444,7 @@ input.search__input
         &--mobile
             display block
             position fixed
+            border-width 0
             top 0
             left 0
             width 100%
