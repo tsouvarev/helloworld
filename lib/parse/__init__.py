@@ -1,4 +1,5 @@
 import asyncio
+import os
 from functools import partial
 from operator import attrgetter
 from typing import Awaitable, Callable, Dict, Iterator, Sequence
@@ -39,6 +40,8 @@ unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))
 
 
 async def parse_gather(names: Sequence[str]):
+    os.makedirs(src_path(), exist_ok=True)
+
     with progress() as p:
         Progress.set(p)
         results = await asyncio.gather(*(VENDORS[n]() for n in names))

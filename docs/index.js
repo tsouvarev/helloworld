@@ -173,7 +173,6 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 if (!this.filterCounter) {
                     const elist = document.getElementsByClassName('gant__events')[0];
                     events = events.filter((e) => e.voffset < elist.clientHeight && e.hoffset < elist.clientWidth);
-                    // events = events.slice(1, 1000)
                 }
 
                 this.months = getMonths(events, today, weekendList, noWeekendList);
