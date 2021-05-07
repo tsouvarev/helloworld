@@ -1,8 +1,8 @@
 const dateFormat = 'DD.MM.YYYY',
-      dayWidth = 25,
-      eventHeight = 65,
-      tagSep = 'a',
-      monthNames = [
+    dayWidth = 25,
+    eventHeight = 65,
+    tagSep = 'a',
+    monthNames = [
         'Январь',
         'Февраль',
         'Март',
@@ -32,10 +32,10 @@ const dateFormat = 'DD.MM.YYYY',
     ]
 ;
 
-function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
+function renderTripper(weekendList, noWeekendList, eventSource, tagGroups) {
     // Calendar first month
     const today = moment().startOf('day'),
-          eventList = getEvents(eventSource)
+        eventList = getEvents(eventSource)
     ;
 
     const app = new Vue({
@@ -62,64 +62,63 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             }
         },
         filters: {
-            pluralize: function(value, one, two, three){
+            pluralize: function (value, one, two, three) {
                 const cases = [2, 0, 1, 1, 1, 2],
-                     titles = [one, two, three],
-                        key = (value % 100 > 4 && value % 100 < 20) ? 2 : cases[(value % 10 < 5) ? value % 10 : 5]
+                    titles = [one, two, three],
+                    key = (value % 100 > 4 && value % 100 < 20) ? 2 : cases[(value % 10 < 5) ? value % 10 : 5]
                 ;
                 return titles[key];
             }
         },
-        created: function() {
+        created: function () {
             const self = this,
-                  urlParams = new URLSearchParams(window.location.search),
-                  tags = atob(urlParams.get('t') || '').split(tagSep).map((t) => parseInt(t) || 0),
-                  search = urlParams.get('q')
-              ;
+                urlParams = new URLSearchParams(window.location.search),
+                tags = atob(urlParams.get('t') || '').split(tagSep).map((t) => parseInt(t) || 0),
+                search = urlParams.get('q')
+            ;
 
-            for (let i = 0; i < tags.length; i++){
-                this.tags[i].tags.map(function(t){
+            for (let i = 0; i < tags.length; i++) {
+                this.tags[i].tags.map(function (t) {
                     if (t.bit & tags[i]) {
                         self.applyTags[i].push(t.bit);
                     }
                 });
             }
 
-            if (search){
+            if (search) {
                 this.applySearch = search.trim();
             }
-
-            // Closes event detail on ESC
-            document.addEventListener('keyup', function (evt) {
-                if (evt.keyCode === 27) {
-                    self.hideDetail();
-                }
-            });
         },
-        mounted: function() {
+        mounted: function () {
             let showEvent = window.location.hash.substr(1);
-            if (showEvent){
+            if (showEvent) {
                 this.showDetail(showEvent);
             } else if (!this.filterCounter) {
                 this.showMenu();
             }
         },
+        updated: function () {
+            // Sets focus on modular to set key bindings
+            if (this.detail.event !== null) {
+                this.$refs.detail.focus();
+            }
+        },
         computed: {
-            eventFilter(){
+            eventFilter() {
                 let self = this,
                     events = eventList,
                     newParams = [],
                     query = this.applySearch.trim().toLowerCase(),
-                    applyTags = this.applyTags.map(function(g){
+                    applyTags = this.applyTags.map(function (g) {
                         return g.reduce((a, b) => a | b, 0);
                     })
                 ;
 
-                if (query){
+                if (query) {
                     newParams.push('q=' + query);
                 }
 
-                if (applyTags.some((x) => x)){
+                if (applyTags.some((x) => x)) {
                     newParams.push(tagsToParams(applyTags))
                 }
 
@@ -128,16 +127,16 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                     null,
                 );
 
-                if (query){
+                if (query) {
                     events = events.filter((e) => e.norm.indexOf(query) != -1);
                 }
 
-                for (let i = 0; i < this.tags.length; i++){
+                for (let i = 0; i < this.tags.length; i++) {
                     let group = this.tags[i];
 
                     // Collects possible events
                     let groupEvents = events;
-                    for (let j = 0; j < self.tags.length; j++){
+                    for (let j = 0; j < self.tags.length; j++) {
                         let bits = applyTags[j];
                         if (i != j && bits) {
                             groupEvents = groupEvents.filter((e) => bits & e.tags[j])
@@ -182,9 +181,9 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 // Renders background weekend stripes
                 let strip_i = 0;
                 this.stripes = []
-                this.months.map(function(month){
-                    month.days.map(function(day){
-                        if (strip_i && self.stripes[strip_i - 1].is_weekend === day.is_weekend){
+                this.months.map(function (month) {
+                    month.days.map(function (day) {
+                        if (strip_i && self.stripes[strip_i - 1].is_weekend === day.is_weekend) {
                             self.stripes[strip_i - 1].width += dayWidth;
                         } else {
                             self.stripes.push({
@@ -200,7 +199,7 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             }
         },
         methods: {
-            addToCal: function(event){
+            addToCal: function (event) {
                 let start = event.start.format('YYYYMMDD'),
                     end = event.end.clone().add(1, 'days').format('YYYYMMDD'),
                     details = `🔗 ${event.url}`
@@ -217,27 +216,27 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                     + `&details=${encodeURIComponent(details)}`
                 )
             },
-            clearFilters: function(){
+            clearFilters: function () {
                 this.applyTags = Array.from({length: this.tags.length}, () => []);
                 this.applySearch = '';
             },
-            showMenu: function(){
+            showMenu: function () {
                 this.menu.mobile = true;
                 updateUrl(null, '');
             },
-            hideMenu: function (){
+            hideMenu: function () {
                 this.menu.mobile = false;
                 updateUrl(null, '');
             },
-            detailUrl: function(eventId){
+            detailUrl: function (eventId) {
                 return buildUrl(null, eventId);
             },
-            showDetail: function(eventId){
+            showDetail: function (eventId) {
                 let index = null,
                     event = null;
 
-                for (let i = 0; i < this.filteredEvents.length; i++){
-                    if (this.filteredEvents[i].id === eventId){
+                for (let i = 0; i < this.filteredEvents.length; i++) {
+                    if (this.filteredEvents[i].id === eventId) {
                         index = i;
                         event = this.filteredEvents[i];
                         break;
@@ -249,21 +248,21 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
                 this.detail.next = this.filteredEvents[index + 1] || null;
                 updateUrl(null, event ? event.id.toString() : '');
             },
-            hideDetail: function(){
+            hideDetail: function () {
                 updateUrl(null, '')
                 this.detail.event = null;
             },
-            parseUrl: function(value){
+            parseUrl: function (value) {
                 return new URL(value);
             },
-            formatPeriod: function(start, end){
+            formatPeriod: function (start, end) {
                 let result = start.date().toString();
-                if (start.month() != end.month()){
+                if (start.month() != end.month()) {
                     result += ' ' + monthDeclensions[start.month()];
                 }
 
-                if (start.date() != end.date()){
-                    if(isNaN(result)) {
+                if (start.date() != end.date()) {
+                    if (isNaN(result)) {
                         result += ' — ';
                     } else {
                         result += '–';
@@ -274,8 +273,8 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
             },
             eventTags: function (event) {
                 const tags = [];
-                for (let i = 0; i < tagGroups.length; i++){
-                    for (let j = 0; j < tagGroups[i].tags.length; j++){
+                for (let i = 0; i < tagGroups.length; i++) {
+                    for (let j = 0; j < tagGroups[i].tags.length; j++) {
                         const tag = tagGroups[i].tags[j]
                         if (event.tags[i] & tag.bit) {
                             tags.push(tag);
@@ -293,13 +292,13 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups){
     });
 
     // Disable back button
-    window.addEventListener('popstate', function() {
+    window.addEventListener('popstate', function () {
         app.hideDetail();
         app.hideMenu();
     });
 }
 
-function buildUrl(params, hash){
+function buildUrl(params, hash) {
     let url = new URL(window.location.href);
 
     switch (params) {
@@ -325,19 +324,19 @@ function buildUrl(params, hash){
     return url;
 }
 
-function updateUrl(params, hash){
+function updateUrl(params, hash) {
     const url = buildUrl(params, hash).toString();
     window.history.pushState({urlPath: url}, '', url);
 }
 
-function tagsToParams(tags){
+function tagsToParams(tags) {
     return 't=' + btoa(tags.join(tagSep))
 }
 
 function getEvents(eventSource, tagGroups) {
     let eventList = [];
 
-    for (let i = 0; i < eventSource.length; i++){
+    for (let i = 0; i < eventSource.length; i++) {
         let source = eventSource[i];
         start = moment.unix(source.start);
         end = moment.unix(source.end);
@@ -345,11 +344,11 @@ function getEvents(eventSource, tagGroups) {
         event = Object.assign(source, {
             index: i,
             start: start,
-              end: end,
+            end: end,
             level: source.level,
-             days: days,
-          hoffset: 0,
-          voffset: 0,
+            days: days,
+            hoffset: 0,
+            voffset: 0,
             width: days * dayWidth,
         });
 
@@ -358,7 +357,7 @@ function getEvents(eventSource, tagGroups) {
 
     // Must sort events
     // Smallest left, biggest right
-    return eventList.sort(function(a,b) {
+    return eventList.sort(function (a, b) {
         if (a.start > b.start) {
             return 1;
         } else if (a.start.isSame(b.start)) {
@@ -369,10 +368,10 @@ function getEvents(eventSource, tagGroups) {
     });
 }
 
-function getMonths(events, today, weekendList, noWeekendList){
+function getMonths(events, today, weekendList, noWeekendList) {
     const firstDate = events[0].start.clone(),
-           lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate),
-          monthList = []
+        lastDate = events.reduce((r, e) => r < e.end ? e.end : r, firstDate),
+        monthList = []
     ;
 
     // Creates months ruler
@@ -383,7 +382,7 @@ function getMonths(events, today, weekendList, noWeekendList){
         month.add(i, 'month');
 
         let total = month.daysInMonth();
-        for (let y = 0; y < total; y++){
+        for (let y = 0; y < total; y++) {
             let d = moment(month);
             d.date(y + 1)
 
@@ -413,7 +412,7 @@ function getMonths(events, today, weekendList, noWeekendList){
     return monthList;
 }
 
-function masonry(eventList){
+function masonry(eventList) {
     let events = [],
         seen = [],
         startDate = eventList[0].start
@@ -439,7 +438,7 @@ function masonry(eventList){
 
         // If row is empty
         // sets event's end as right border
-        if (!found){
+        if (!found) {
             event.voffset = seen.length * eventHeight;
             seen.push(event);
         }
@@ -452,11 +451,11 @@ function masonry(eventList){
 renderTripper(new Set(DATA.weekendList), new Set(DATA.noWeekendList), DATA.eventSource, DATA.tagGroups);
 
 // Displays gant and hides loader
-setTimeout(function(){
+setTimeout(function () {
     document.body.classList.add('active');
 }, 1000);
 
-setTimeout(function(){
+setTimeout(function () {
     let blocker = document.getElementById('blocker');
     blocker.parentNode.removeChild(blocker);
 }, 1200);

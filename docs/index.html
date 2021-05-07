@@ -22,14 +22,17 @@
             margin: 0;
             padding: 0;
         }
+
         body {
             transition: transform .3s ease-out;
             transform: scale(.9);
         }
+
         #app {
             position: absolute;
             visibility: hidden;
         }
+
         #blocker {
             width: 100%;
             height: 100%;
@@ -42,33 +45,45 @@
             transition: opacity .2s linear;
             display: flex;
         }
+
         #blocker .inner {
             font-size: 10vw;
             margin: auto;
         }
+
         #blocker .icon {
             opacity: 0;
             animation: loader 200ms;
             animation-fill-mode: forwards;
         }
+
         #blocker .nth--1 {
             animation-delay: 100ms;
         }
+
         #blocker .nth--2 {
             animation-delay: 200ms;
         }
+
         #blocker .nth--3 {
             animation-delay: 400ms;
         }
+
         #blocker .nth--4 {
             animation-delay: 600ms;
         }
+
         #blocker .nth--5 {
             animation-delay: 800ms;
         }
+
         @keyframes loader {
-            0% {opacity: 0;}
-          100% {opacity: 1;}
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -83,14 +98,27 @@
     </div>
 </div>
 <div id="app">
-    <div class="detail" :class="{'detail--active': detail.event}" v-if="detail.event">
-        <div class="detail__inner" :set="event = detail.event">
+    <div class="detail"
+         :class="{'detail--active': detail.event}"
+         v-if="detail.event"
+         v-on:click.self="hideDetail"
+    >
+        <div
+                class="detail__inner"
+                :set="event = detail.event"
+                ref="detail"
+                tabindex="0"
+                v-on:keyup.esc="hideDetail"
+                v-on:keyup.left="detail.prev ? showDetail(detail.prev.id) : null"
+                v-on:keyup.right="detail.next ? showDetail(detail.next.id) : null"
+        >
             <div class="btn-group sticky">
                 <div class="btn" v-on:click="hideDetail"><small>☰&#xFE0E;</small> к событиям</div>
             </div>
             <div class="detail__content">
                 <h1 class="detail__title">
-                    <a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small class="color-light">↗</small>
+                    <a :href="event.url" class="detail__title__url" target="_blank">{{ event.title }}</a>&nbsp;<small
+                        class="color-light">↗</small>
                 </h1>
                 <table class="tbl">
                     <tr>
@@ -177,20 +205,24 @@
                     <tr v-if="detail.next">
                         <th>⟶</th>
                         <td>
-                            <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{ detail.next.title }}</a>
+                            <a :href="detailUrl(detail.next.id)" v-on:click.stop.prevent="showDetail(detail.next.id)">{{
+                                detail.next.title }}</a>
                         </td>
                     </tr>
                     <tr v-if="detail.prev">
                         <th>⟵</th>
                         <td>
-                            <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{ detail.prev.title }}</a>
+                            <a :href="detailUrl(detail.prev.id)" v-on:click.stop.prevent="showDetail(detail.prev.id)">{{
+                                detail.prev.title }}</a>
                         </td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-    <div class="aside-toggle display-none" v-on:click="showMenu">фильтры<span v-if="filterCounter" class="aside-toggle__count">{{ filterCounter }}</span></div>
+    <div class="aside-toggle display-none" v-on:click="showMenu">фильтры<span v-if="filterCounter"
+                                                                              class="aside-toggle__count">{{ filterCounter }}</span>
+    </div>
     <aside class="aside" :class="{'aside--mobile': menu.mobile}">
         <div class="aside__sticky sticky">
             <div class="btn-group">
@@ -213,10 +245,10 @@
                     <template v-for="(group, index) in tags">
                         <div v-if="group.title" class="tags__title">{{ group.title }}</div>
                         <label
-                            v-for="tag in group.tags"
-                            :for="tag.slug"
-                            :class="[{inactive: !tag.active}, 'tags__tag', group.slug, tag.slug]"
-                            :title="tag.title || tag.text"
+                                v-for="tag in group.tags"
+                                :for="tag.slug"
+                                :class="[{inactive: !tag.active}, 'tags__tag', group.slug, tag.slug]"
+                                :title="tag.title || tag.text"
                         >
                             <input type="checkbox" :id="tag.slug" :value="tag.bit" v-model="applyTags[index]">
                             <div class="tags__tag__inner" v-html="tag.text"></div>
@@ -225,7 +257,9 @@
                 </div>
             </div>
             <div class="aside__clear">
-                <div :class="[{'btn--inactive': !filterCounter}, 'btn']" v-on:click="clearFilters" title="Очистить">очистить</div>
+                <div :class="[{'btn--inactive': !filterCounter}, 'btn']" v-on:click="clearFilters" title="Очистить">
+                    очистить
+                </div>
             </div>
         </div>
         <div class="aside__footer mute">
@@ -239,12 +273,12 @@
                 <div class="gant__month__name" v-html="month.name"></div>
                 <div class="gant__month__days">
                     <span
-                        class="gant__month__days__day"
-                        :class="{
+                            class="gant__month__days__day"
+                            :class="{
                             'gant__month__days__day--is_weekend': day.is_weekend,
                             'gant__month__days__day--is_today': day.is_today,
                         }"
-                        v-for="day in month.days"
+                            v-for="day in month.days"
                     >{{ day.date.format('DD') }}</span>
                 </div>
             </div>
@@ -258,13 +292,15 @@
                 ></div>
             </div>
             <div
-                v-for="event in eventFilter"
-                v-on:click="showDetail(event.id)"
-                :id="event.id"
-                :class="`gant__event gant__event--${event.vendor}`"
-                :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
+                    v-for="event in eventFilter"
+                    v-on:click="showDetail(event.id)"
+                    :id="event.id"
+                    :class="`gant__event gant__event--${event.vendor}`"
+                    :style="`top:${event.voffset}px;left:${event.hoffset}px;width:${event.width}px`"
             >
-                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&ndash;{{ event.end.format('DD.MM') }}, {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}</div>
+                <div class="gant__event__dates">{{ event.start.format('DD.MM') }}&ndash;{{ event.end.format('DD.MM') }},
+                    {{ event.days }}&nbsp;{{ event.days | pluralize('день', 'дня', 'дней') }}
+                </div>
                 <div class="gant__event__title">{{ event.title }}</div>
             </div>
         </div>
@@ -280,7 +316,16 @@
 <script src="./data.js"></script>
 <script src="./index.js"></script>
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(65411581, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true });</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/65411581" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script type="text/javascript">(function (m, e, t, r, i, k, a) {
+    m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments)
+    };
+    m[i].l = 1 * new Date();
+    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ym(65411581, "init", {clickmap: true, trackLinks: true, accurateTrackBounce: true, trackHash: true});</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/65411581" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 </html>

@@ -303,9 +303,7 @@ input.search__input
             opacity 1 !important
 
 .sticky
-    background-color rgba(255,255,255,.5)
-    -webkit-backdrop-filter blur(10px)
-    backdrop-filter blur(10px)
+    background white
     position sticky
     z-index 1
     top 0
@@ -349,13 +347,13 @@ input.search__input
     position fixed
     left 0
     top 0
-    background white
+    background rgba(0,0,0,.3)
     z-index 5
     overflow scroll
     display none
 
     .btn-group
-        padding side-padding
+        padding 35px
 
     .tags
         margin 15px 0
@@ -369,9 +367,14 @@ input.search__input
     &__inner
         margin auto
         width 800px
+        background white
+        box-shadow 0 10px 40px rgba(0, 0, 0, .3)
+        border-radius 30px
+        overflow hidden
+        outline none
 
     &__content
-        padding 0 side-padding
+        padding 0 35px
 
     .tbl
         width 100%
@@ -388,7 +391,7 @@ input.search__input
 @css {
 .detail__title {
     margin-top: 30px;
-    font-size: min(8vmin, 50px);
+    font-size: min(8vmin, 40px);
 }
 }
 
