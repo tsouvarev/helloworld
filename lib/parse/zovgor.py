@@ -21,7 +21,7 @@ def parse_page(text):
     tails = (
         'td[1]/a[1]/@href',
         'td[2][descendant-or-self::text()]',
-        'td[4]/text()',
+        'td[4]',
     )
     titles = [
         x
@@ -35,7 +35,7 @@ def parse_page(text):
             vendor=Vendor.ZOVGOR,
             title=title,
             url='https://zovgor.com/' + url,
-            price=price,
+            price=content(price),
             start=start,
             end=end,
         )
