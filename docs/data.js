@@ -18,6 +18,8 @@ const DATA={"weekendList": [
 "01.01.2022",
 "02.01.2022",
 "03.01.2022",
+"04.01.2022",
+"05.01.2022",
 "06.01.2022",
 "07.01.2022",
 "08.01.2022",
@@ -356,32 +358,6 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
-"created":1623445200,
-"end":1632614400,
-"for_kids":0,
-"id":"51b5b81",
-"length":null,
-"level":1,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0434\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
-"price":"36\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1632096000,
-"tags":[
-2,
-0,
-1,
-0,
-512,
-2,
-256,
-128,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
-"url":"http://orangeked.ru/tours/item/110-dagestan",
-"vendor":"orangeked"
-},
-{
 "created":1619557200,
 "end":1633046400,
 "for_kids":0,
@@ -405,6 +381,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0432\u043e\u0441\u0442\u043e\u043a) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"http://orangeked.ru/tours/item/54-lykia",
+"vendor":"orangeked"
+},
+{
+"created":1623445200,
+"end":1632614400,
+"for_kids":0,
+"id":"51b5b81",
+"length":null,
+"level":1,
+"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0434\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"price":"36\u00a0000\u00a0\u20bd",
+"slots":0,
+"start":1632096000,
+"tags":[
+2,
+0,
+1,
+0,
+512,
+2,
+256,
+128,
+0
+],
+"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0443",
+"url":"http://orangeked.ru/tours/item/110-dagestan",
 "vendor":"orangeked"
 },
 {
