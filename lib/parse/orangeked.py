@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 from typing import Iterator
 
-from funcy import compose, first
+from funcy import compose, first, nth
 from lxml import html
 
 from ..config import MONTHS, TODAY, Level, Vendor
@@ -37,9 +37,9 @@ async def parse_page(path: str) -> Item:
     start, end = parse_dates(
         tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[1]
     )
-    price = tree.xpath('//*[@class="tour__short-info__item__value"]/text()')[
-        2
-    ]
+    price = nth(
+        2, tree.xpath('//*[@class="tour__short-info__item__value"]/text()')
+    )
     item = Item(
         vendor=Vendor.ORANGEKED,
         level=Level.index(level - 1),

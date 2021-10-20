@@ -74,7 +74,7 @@ async def parse_page(url: str):
 def parse_dates(
     src: str, today: datetime = TODAY
 ) -> Iterable[Tuple[datetime, datetime]]:
-    dates = src.split(',')
+    dates = src.replace('/', ',').split(',')
     for pair in dates:
         splitted = pair.split('-')
 
