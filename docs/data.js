@@ -46,162 +46,6 @@ const DATA={"weekendList": [
 "20.02.2021"
 ], "eventSource": [
 {
-"created":1628629200,
-"end":1636243200,
-"for_kids":0,
-"id":"752fb0e",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435 \u0438 \u0440\u0443\u043a\u043e\u0442\u0432\u043e\u0440\u043d\u044b\u0435 \u0447\u0443\u0434\u0435\u0441\u0430 \u0442\u0443\u0440\u0446\u0438\u0438 2021",
-"price":"\u20ac\u00a0860\u00a0780",
-"slots":0,
-"start":1635552000,
-"tags":[
-16,
-0,
-4,
-0,
-512,
-2,
-1024,
-0,
-1
-],
-"title":"\u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435 \u0438\u00a0\u0440\u0443\u043a\u043e\u0442\u0432\u043e\u0440\u043d\u044b\u0435 \u0447\u0443\u0434\u0435\u0441\u0430 \u0422\u0443\u0440\u0446\u0438\u0438 / 2021",
-"url":"https://www.napravlenie.info/catalog/ethno_tours/prirodnye-i-rukotvornye-chudesa-turtsii-noyabr-2021/",
-"vendor":"napravlenie"
-},
-{
-"created":1627938000,
-"end":1636156800,
-"for_kids":0,
-"id":"c756ea2",
-"length":null,
-"level":null,
-"norm":"\u043c\u0430\u0440\u0441\u0430 \u0430\u043b\u0430\u043c \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438 \u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
-"price":null,
-"slots":null,
-"start":1635552000,
-"tags":[
-32,
-0,
-4,
-0,
-256,
-2,
-1024,
-0,
-256
-],
-"title":"\u041c\u0430\u0440\u0441\u0430 \u0410\u043b\u0430\u043c: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
-"url":"https://team-trip.ru/dugong",
-"vendor":"teamtrip"
-},
-{
-"created":1627938000,
-"end":1636502400,
-"for_kids":0,
-"id":"f8e9bbb",
-"length":null,
-"level":null,
-"norm":"\u043d\u0430\u043c\u0438\u0431\u0438\u044f \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u0434\u0436\u0438\u043f\u0430\u0445",
-"price":null,
-"slots":null,
-"start":1635638400,
-"tags":[
-32,
-0,
-4,
-0,
-64,
-2,
-1024,
-0,
-4
-],
-"title":"\u041d\u0430\u043c\u0438\u0431\u0438\u044f: \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0434\u0436\u0438\u043f\u0430\u0445",
-"url":"https://team-trip.ru/namibia",
-"vendor":"teamtrip"
-},
-{
-"created":1630875600,
-"end":1636329600,
-"for_kids":0,
-"id":"ecc14bb",
-"length":null,
-"level":null,
-"norm":"\u0441\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a \u043a\u0438\u0442\u0430\u043c",
-"price":null,
-"slots":null,
-"start":1635724800,
-"tags":[
-32,
-0,
-4,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0438\u0442\u0430\u043c",
-"url":"https://team-trip.ru/secret",
-"vendor":"teamtrip"
-},
-{
-"created":1629666000,
-"end":1636243200,
-"for_kids":0,
-"id":"2157234",
-"length":null,
-"level":2,
-"norm":"\u044e\u0436\u043d\u044b\u0439 \u0443\u0440\u0430\u043b \u0442\u0430\u0433\u0430\u043d\u0430\u0439 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432 \u0442\u0443\u0440\u043f\u0440\u0438\u044e\u0442\u0430\u0445",
-"price":"16\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1635897600,
-"tags":[
-2,
-0,
-2,
-0,
-512,
-2,
-1024,
-512,
-0
-],
-"title":"\u042e\u0436\u043d\u044b\u0439 \u0423\u0440\u0430\u043b \u0422\u0430\u0433\u0430\u043d\u0430\u0439 \u0441\u00a0\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u00a0\u0442\u0443\u0440\u043f\u0440\u0438\u044e\u0442\u0430\u0445",
-"url":"http://orangeked.ru/tours/item/87-zimii-taganai",
-"vendor":"orangeked"
-},
-{
-"created":1631566800,
-"end":1636243200,
-"for_kids":0,
-"id":"d3d9299",
-"length":null,
-"level":null,
-"norm":"\u0442\u0438\u0445\u0438\u0439 \u0434\u043e\u043d \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u0448\u043e\u043b\u043e\u0445\u043e\u0432\u0441\u043a\u0438\u043c \u043c\u0435\u0441\u0442\u0430\u043c 2021",
-"price":"28\u00a0500\u00a0\u20bd",
-"slots":1,
-"start":1635984000,
-"tags":[
-16,
-0,
-4,
-0,
-64,
-2,
-1024,
-0,
-256
-],
-"title":"\u0422\u0438\u0445\u0438\u0439 \u0414\u043e\u043d. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0428\u043e\u043b\u043e\u0445\u043e\u0432\u0441\u043a\u0438\u043c \u043c\u0435\u0441\u0442\u0430\u043c / 2021",
-"url":"https://www.napravlenie.info/catalog/weekend/tikhiy-don-avtorskiy-tur-po-sholokhovskim-mestam/",
-"vendor":"napravlenie"
-},
-{
 "created":1627938000,
 "end":1636761600,
 "for_kids":0,
@@ -254,630 +98,6 @@ const DATA={"weekendList": [
 "vendor":"teamtrip"
 },
 {
-"created":1634677200,
-"end":1636848000,
-"for_kids":0,
-"id":"39fb594",
-"length":null,
-"level":2,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0430\u043b\u0442\u0430\u0439",
-"price":"24\u00a0500\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-4,
-0
-],
-"title":"\u00ab\u0417\u0438\u043c\u043d\u0438\u0439 \u0410\u043b\u0442\u0430\u0439\u00bb",
-"url":"https://pro-adventure.ru/tours/id_2678_letnyaya-skazka-1-1-1-1-1-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1630875600,
-"end":1636848000,
-"for_kids":0,
-"id":"7a8dd85",
-"length":null,
-"level":2,
-"norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u0413\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4\u00a0\u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2617_gastrotur-4-ekskursii",
-"vendor":"pro_adventure"
-},
-{
-"created":1628629200,
-"end":1636848000,
-"for_kids":0,
-"id":"04e9095",
-"length":null,
-"level":2,
-"norm":"\u0431\u0430\u0437\u0430 \u043e\u0442\u0434\u044b\u0445\u0430 \u0433\u043e\u043b\u0443\u0431\u0430\u044f \u0431\u0443\u0445\u0442\u0430 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"44\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u0411\u0430\u0437\u0430 \u043e\u0442\u0434\u044b\u0445\u0430 \u0413\u043e\u043b\u0443\u0431\u0430\u044f \u0411\u0443\u0445\u0442\u0430 + 4\u00a0\u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2643_turbaza-golubaya-buhta",
-"vendor":"pro_adventure"
-},
-{
-"created":1631566800,
-"end":1636848000,
-"for_kids":0,
-"id":"b18f881",
-"length":null,
-"level":2,
-"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-64,
-2,
-1024,
-0,
-256
-],
-"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1632085200,
-"end":1636848000,
-"for_kids":0,
-"id":"33389f7",
-"length":null,
-"level":3,
-"norm":"\u043a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e \u043d\u0430 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1636848000,
-"for_kids":0,
-"id":"0c1db6d",
-"length":null,
-"level":3,
-"norm":"\u043a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440 + \u0430\u0434\u044b\u0433\u0435\u044f \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-1024,
-32,
-0
-],
-"title":"\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440 + \u0410\u0434\u044b\u0433\u0435\u044f \u043d\u0430\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"url":"https://pro-adventure.ru/tours/id_2650_v-adygeyu-na-vyhodnye-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"1a9d6d8",
-"length":null,
-"level":2,
-"norm":"\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430",
-"price":"33\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-64,
-0
-],
-"title":"\u041a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2658_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"5300d02",
-"length":null,
-"level":2,
-"norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"2\u00a0\u0432\u00a01: \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u0438\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f\u202f\u2014\u20094\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2601_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"b32a468",
-"length":null,
-"level":2,
-"norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"2\u00a0\u0432\u00a01: \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u0438\u00a0\u0427\u0435\u0447\u043d\u044f\u202f\u2014\u20094\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2602_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"63549a8",
-"length":null,
-"level":2,
-"norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u0417\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f: \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"url":"https://pro-adventure.ru/tours/id_2633_vikend-v-evropejskom-stile-ili-znakomstvo-s-kaliningradom-mini-gruppa-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"f807eec",
-"length":null,
-"level":2,
-"norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"3\u00a0\u0443\u0449\u0435\u043b\u044c\u044f \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438\u202f\u2014\u20094\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2600_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"ba445ea",
-"length":null,
-"level":2,
-"norm":"\u043a\u043e\u043c\u0431\u043e \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434 \u0438 \u0441\u0432\u0435\u0442\u043b\u043e\u0433\u043e\u0440\u0441\u043a + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"24\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1636588800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u041a\u043e\u043c\u0431\u043e: \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434 \u0438\u00a0\u0421\u0432\u0435\u0442\u043b\u043e\u0433\u043e\u0440\u0441\u043a + 3\u00a0\u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2635_vikend-v-evropejskom-stile-ili-znakomstvo-s-kaliningradom-mini-gruppa-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1623445200,
-"end":1636934400,
-"for_kids":0,
-"id":"1888008",
-"length":null,
-"level":null,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443 \u0441\u0443\u0434\u0430\u043a \u043a\u0435\u0440\u0447\u044c",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1636588800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-1024,
-32,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
-"url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
-"vendor":"strannik"
-},
-{
-"created":1636578000,
-"end":1636848000,
-"for_kids":0,
-"id":"a9ba364",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
-"price":"7\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-1,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
-"url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"5298b13",
-"length":null,
-"level":2,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0431\u0430\u0437\u0435 \u043e\u0442\u0434\u044b\u0445\u0430 \u0433\u043e\u043b\u0443\u0431\u0430\u044f \u0431\u0443\u0445\u0442\u0430",
-"price":"33\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0431\u0430\u0437\u0435 \u043e\u0442\u0434\u044b\u0445\u0430 \u0413\u043e\u043b\u0443\u0431\u0430\u044f \u0411\u0443\u0445\u0442\u0430",
-"url":"https://pro-adventure.ru/tours/id_2644_turbaza-golubaya-buhta-4-ekskursii-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"d72ea0b",
-"length":null,
-"level":2,
-"norm":"\u0443\u0444\u0430 - \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b - 3",
-"price":"15\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0423\u0444\u0430\u202f\u2014\u2009\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b\u202f\u2014\u20093",
-"url":"https://pro-adventure.ru/tours/id_2692_ufa-vostochnaya-tochka-evropy-3",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"80bdde3",
-"length":null,
-"level":2,
-"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 3",
-"price":"15\u00a0300\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20093",
-"url":"https://pro-adventure.ru/tours/id_2687_snezhnyj-kraka-3",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"8bdb4e4",
-"length":null,
-"level":3,
-"norm":"\u0432 \u0430\u0434\u044b\u0433\u0435\u044e \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"price":"29\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-1,
-1024,
-128,
-0
-],
-"title":"\u0412\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"url":"https://pro-adventure.ru/tours/id_2645_v-adygeyu-na-vyhodnye",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"a90e560",
-"length":null,
-"level":2,
-"norm":"\u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438",
-"price":"29\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-64,
-0
-],
-"title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"152546a",
-"length":null,
-"level":2,
-"norm":"\u0447\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0443\u0440\u0430\u043b\u0430 \u0437\u0438\u043c\u0430",
-"price":"12\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-512,
-0
-],
-"title":"\u0427\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0423\u0440\u0430\u043b\u0430 (\u0437\u0438\u043c\u0430)",
-"url":"https://pro-adventure.ru/tours/id_2107_cherez-tri-zapovednika-urala",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"2dc4ece",
-"length":null,
-"level":2,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0433\u043e\u0440\u0430\u0445 \u0437\u0438\u043c\u0430",
-"price":"10\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 (\u0437\u0438\u043c\u0430)",
-"url":"https://pro-adventure.ru/tours/id_2698_vyhodnye-v-gorah-zima",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"0e6db93",
-"length":null,
-"level":2,
-"norm":"\u043a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"price":"19\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-128,
-0
-],
-"title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442-\u0442\u0443\u0440: \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f \u043d\u0430\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"url":"https://pro-adventure.ru/tours/id_2590_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"c046935",
-"length":null,
-"level":2,
-"norm":"\u0432\u0438\u043a\u044d\u043d\u0434 \u0432 \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u043c \u0441\u0442\u0438\u043b\u0435 \u0438\u043b\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u043e\u043c",
-"price":"18\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636675200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0412\u0438\u043a\u044d\u043d\u0434 \u0432\u00a0\u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u043c \u0441\u0442\u0438\u043b\u0435, \u0438\u043b\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u043e\u043c",
-"url":"https://pro-adventure.ru/tours/id_2632_vikend-v-evropejskom-stile-ili-znakomstvo-s-kaliningradom-mini-gruppa",
-"vendor":"pro_adventure"
-},
-{
-"created":1631566800,
-"end":1636848000,
-"for_kids":0,
-"id":"b1ce0a6",
-"length":14,
-"level":2,
-"norm":"\u043c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440 \u043f\u043e\u0434 \u0437\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u043e\u043c \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0438 \u0441\u043a\u0430\u043b\u044b",
-"price":"3\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-1,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440 \u043f\u043e\u0434 \u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u043e\u043c: \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0438\u00a0\u0441\u043a\u0430\u043b\u044b",
-"url":"https://turclub-pik.ru/pohod/multy_polushkino/425/",
-"vendor":"pik"
-},
-{
 "created":1627938000,
 "end":1637366400,
 "for_kids":0,
@@ -902,344 +122,6 @@ const DATA={"weekendList": [
 "title":"\u041c\u0430\u0440\u0441\u0430 \u0410\u043b\u0430\u043c: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
 "url":"https://team-trip.ru/dugong",
 "vendor":"teamtrip"
-},
-{
-"created":1616706000,
-"end":1637366400,
-"for_kids":0,
-"id":"8e34a07",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u043a\u0430\u0432\u043a\u0430\u0437\u0443",
-"price":"46\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u0442\u0443\u0440 \u043f\u043e\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u041a\u0430\u0432\u043a\u0430\u0437\u0443",
-"url":"https://pro-adventure.ru/tours/id_2119_osennnij-tur-po-severnomu-kavkazu",
-"vendor":"pro_adventure"
-},
-{
-"created":1620853200,
-"end":1637107200,
-"for_kids":0,
-"id":"5910371",
-"length":null,
-"level":2,
-"norm":"\u0437\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432 \u0430\u0434\u044b\u0433\u0435\u0435 5 \u0434\u043d\u0435\u0439",
-"price":"35\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043e\u0441\u0435\u043d\u044c \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435, 5\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_2039_zolotaya-osen-v-adygee",
-"vendor":"pro_adventure"
-},
-{
-"created":1620853200,
-"end":1637366400,
-"for_kids":0,
-"id":"c9dcfbe",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043a\u0430\u043b\u0435\u0439\u0434\u043e\u0441\u043a\u043e\u043f",
-"price":"46\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u043a\u0430\u043b\u0435\u0439\u0434\u043e\u0441\u043a\u043e\u043f",
-"url":"https://pro-adventure.ru/tours/id_2043_osennij-kalejdoskop",
-"vendor":"pro_adventure"
-},
-{
-"created":1620853200,
-"end":1637366400,
-"for_kids":0,
-"id":"f769ea7",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0435\u0435 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0433\u043e\u0440 8 \u0434\u043d\u0435\u0439",
-"price":"42\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0435\u0435 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_2041_osennee-ocharovanie-gor-8-dnej",
-"vendor":"pro_adventure"
-},
-{
-"created":1620853200,
-"end":1637107200,
-"for_kids":0,
-"id":"d63a9da",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u043c\u0438 \u0433\u043e\u0440\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
-"price":"35\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u043c\u0438 \u0433\u043e\u0440\u043d\u044b\u043c\u0438 \u0442\u0440\u043e\u043f\u0430\u043c\u0438",
-"url":"https://pro-adventure.ru/tours/id_2044_osennimi-gornymi-tropami",
-"vendor":"pro_adventure"
-},
-{
-"created":1634677200,
-"end":1637107200,
-"for_kids":0,
-"id":"bf4aa85",
-"length":null,
-"level":2,
-"norm":"\u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432 \u043d\u043e\u044f\u0431\u0440\u0435",
-"price":"33\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-64,
-0
-],
-"title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432\u00a0\u043d\u043e\u044f\u0431\u0440\u0435",
-"url":"https://pro-adventure.ru/tours/id_2083_teriberka-v-noyabre",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1636848000,
-"for_kids":0,
-"id":"797b0da",
-"length":null,
-"level":2,
-"norm":"\u0443\u0444\u0430 - \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b - 2",
-"price":"11\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636761600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0423\u0444\u0430\u202f\u2014\u2009\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b\u202f\u2014\u20092",
-"url":"https://pro-adventure.ru/tours/id_2691_ufa-vostochnaya-tochka-evropy-2",
-"vendor":"pro_adventure"
-},
-{
-"created":1630875600,
-"end":1636848000,
-"for_kids":0,
-"id":"e5f3dfd",
-"length":null,
-"level":2,
-"norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u043a\u043e\u0437\u044c\u044e \u0444\u0435\u0440\u043c\u0443 \u0441 \u0434\u0435\u0433\u0443\u0441\u0442\u0430\u0446\u0438\u0435\u0439 \u0441\u044b\u0440\u043e\u0432",
-"price":"2\u00a0600\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-4,
-0,
-2,
-0,
-512,
-1,
-1024,
-0,
-256
-],
-"title":"\u0413\u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u043a\u043e\u0437\u044c\u044e \u0444\u0435\u0440\u043c\u0443 (\u0441\u00a0\u0434\u0435\u0433\u0443\u0441\u0442\u0430\u0446\u0438\u0435\u0439 \u0441\u044b\u0440\u043e\u0432)",
-"url":"https://cityescape.ru/gastronomicheskij-poxod-na-kozyu-fermu-s-degustaciej-syrov/",
-"vendor":"cityescape"
-},
-{
-"created":1630875600,
-"end":1637366400,
-"for_kids":1,
-"id":"a8d0194",
-"length":null,
-"level":2,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0433\u043e\u0440\u0430\u0445 \u0430\u0434\u044b\u0433\u0435\u0438",
-"price":"22\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438",
-"url":"https://pro-adventure.ru/tours/id_1966_aktiv-tur-v-gory-adygei",
-"vendor":"pro_adventure"
-},
-{
-"created":1629666000,
-"end":1637366400,
-"for_kids":0,
-"id":"2e6839c",
-"length":null,
-"level":2,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u043f\u0430\u0442\u0438\u043b\u044c",
-"price":"24\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-1024,
-0,
-256
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u041f\u0430\u0442\u0438\u043b\u044c",
-"url":"https://pro-adventure.ru/tours/id_2553_aktivnyj-tur-patil",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1637366400,
-"for_kids":1,
-"id":"ffcb0e5",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1637280000,
-"for_kids":1,
-"id":"7644773",
-"length":null,
-"level":2,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0433\u043e\u0440\u0430\u0445 \u0430\u0434\u044b\u0433\u0435\u0438 6 \u0434\u043d\u0435\u0439",
-"price":"20\u00a0300\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1637280000,
-"for_kids":1,
-"id":"d043e49",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 6 \u0434\u043d\u0435\u0439",
-"price":"23\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1636848000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1969_gornaya-adygeya-ekskursii-istochniki-6",
-"vendor":"pro_adventure"
 },
 {
 "created":1628629200,
@@ -1302,7 +184,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432 \u043f\u0430\u0442\u0430\u0433\u043e\u043d\u0438\u0438",
 "price":"\u20ac\u00a02\u00a0190",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1328,7 +210,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0432\u043e\u0434\u0430 \u0438 \u0432\u043e\u0437\u0434\u0443\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"37\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1354,7 +236,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0431\u0430\u0448\u043a\u0438\u0440\u0438\u044f \u0434\u043b\u044f \u0432\u0430\u0441 \u043e\u0442 \u0443\u0444\u044b \u0434\u043e \u0448\u0443\u043b\u044c\u0433\u0430\u043d-\u0442\u0430\u0448\u0430",
 "price":"25\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1380,7 +262,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0443\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u0443\u0437\u043e\u0440",
 "price":"24\u00a0300\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1406,7 +288,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u043a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440 + \u0430\u0434\u044b\u0433\u0435\u044f \u043d\u0430 5 \u0434\u043d\u0435\u0439",
 "price":"46\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1432,7 +314,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434 \u0434\u0435\u0442\u044f\u043c \u0438 \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044f\u043c \u0441 \u0440\u044b\u0446\u0430\u0440\u0441\u043a\u0438\u043c \u0448\u043e\u0443",
 "price":"34\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1458,7 +340,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0444\u043e\u0442\u043e-\u0442\u0443\u0440 \u043d\u0430 \u0434\u0436\u0438\u043f\u0430\u0445 \u043e\u0441\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u044b",
 "price":"37\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1484,7 +366,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0444\u043e\u0442\u043e\u0441\u0435\u0441\u0441\u0438\u044f + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"37\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1510,7 +392,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
 "price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1536,7 +418,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0440\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1562,7 +444,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u044d\u043a\u0441\u0442\u0440\u0438\u043c-\u0434\u0435\u043d\u044c + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"34\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1588,7 +470,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u044d\u043a\u0441\u0442\u0440\u0438\u043c-\u0434\u0435\u043d\u044c + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"34\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1607,32 +489,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1637280000,
-"for_kids":0,
-"id":"4f32c08",
-"length":null,
-"level":2,
-"norm":"\u0447\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0443\u0440\u0430\u043b\u0430 \u0437\u0438\u043c\u0430",
-"price":"12\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637107200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1024,
-512,
-0
-],
-"title":"\u0427\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0423\u0440\u0430\u043b\u0430 (\u0437\u0438\u043c\u0430)",
-"url":"https://pro-adventure.ru/tours/id_2107_cherez-tri-zapovednika-urala",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1637452800,
 "for_kids":1,
 "id":"9abd334",
@@ -1640,7 +496,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0443\u044e \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
 "price":"24\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1637107200,
 "tags":[
 512,
@@ -1655,6 +511,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0443\u044e \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
 "url":"https://pro-adventure.ru/tours/id_2636_vikend-v-evropejskom-stile-ili-znakomstvo-s-kaliningradom-mini-gruppa-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1637280000,
+"for_kids":0,
+"id":"4f32c08",
+"length":null,
+"level":2,
+"norm":"\u0447\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0443\u0440\u0430\u043b\u0430 \u0437\u0438\u043c\u0430",
+"price":"12\u00a0900\u00a0\u20bd",
+"slots":0,
+"start":1637107200,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+1,
+1024,
+512,
+0
+],
+"title":"\u0427\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0423\u0440\u0430\u043b\u0430 (\u0437\u0438\u043c\u0430)",
+"url":"https://pro-adventure.ru/tours/id_2107_cherez-tri-zapovednika-urala",
 "vendor":"pro_adventure"
 },
 {
@@ -1762,32 +644,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1631566800,
-"end":1637452800,
-"for_kids":0,
-"id":"da1fa8a",
-"length":null,
-"level":2,
-"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637193600,
-"tags":[
-512,
-0,
-2,
-0,
-64,
-2,
-1024,
-0,
-256
-],
-"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
 "created":1635714000,
 "end":1637452800,
 "for_kids":1,
@@ -1814,32 +670,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1632085200,
-"end":1637452800,
-"for_kids":0,
-"id":"22fe19f",
-"length":null,
-"level":3,
-"norm":"\u043a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e \u043d\u0430 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637193600,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
 "created":1635714000,
 "end":1637452800,
 "for_kids":1,
@@ -1863,6 +693,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1631566800,
+"end":1637452800,
+"for_kids":0,
+"id":"da1fa8a",
+"length":null,
+"level":2,
+"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1637193600,
+"tags":[
+512,
+0,
+2,
+0,
+64,
+2,
+1024,
+0,
+256
+],
+"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1632085200,
+"end":1637452800,
+"for_kids":0,
+"id":"22fe19f",
+"length":null,
+"level":3,
+"norm":"\u043a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e \u043d\u0430 4 \u0434\u043d\u044f",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1637193600,
+"tags":[
+512,
+0,
+4,
+0,
+512,
+2,
+1024,
+128,
+0
+],
+"title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
 "vendor":"pro_adventure"
 },
 {
@@ -2106,13 +988,13 @@ const DATA={"weekendList": [
 "id":"8ec72de",
 "length":null,
 "level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
 "price":"7\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1637280000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -2121,7 +1003,7 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
+"title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
 "vendor":"pro_adventure"
 },
@@ -2180,6 +1062,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1637452800,
+"for_kids":1,
+"id":"6b155ba",
+"length":null,
+"level":2,
+"norm":"\u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435 \u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
+"price":"29\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1637280000,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+1024,
+64,
+0
+],
+"title":"\u0421\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435! \u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
+"url":"https://pro-adventure.ru/tours/id_2628_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1637452800,
 "for_kids":0,
 "id":"276aca5",
 "length":null,
@@ -2207,11 +1115,11 @@ const DATA={"weekendList": [
 "created":1636318800,
 "end":1637452800,
 "for_kids":1,
-"id":"6b155ba",
+"id":"6f2bafb",
 "length":null,
 "level":2,
-"norm":"\u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435 \u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"price":"29\u00a0900\u00a0\u20bd",
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1637280000,
 "tags":[
@@ -2225,8 +1133,8 @@ const DATA={"weekendList": [
 64,
 0
 ],
-"title":"\u0421\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435! \u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
-"url":"https://pro-adventure.ru/tours/id_2628_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1-1-1-1",
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -2279,32 +1187,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1637452800,
-"for_kids":1,
-"id":"6f2bafb",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637280000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-1024,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -2565,6 +1447,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0410\u043b\u0442\u0430\u044f\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2669_letnyaya-skazka-1-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1637452800,
+"for_kids":0,
+"id":"cfafd7b",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1637366400,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1024,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
 "vendor":"pro_adventure"
 },
 {
@@ -2881,32 +1789,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1637971200,
-"for_kids":1,
-"id":"ecd64f0",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1637452800,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1637884800,
 "for_kids":1,
 "id":"654acae",
@@ -2929,6 +1811,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1637971200,
+"for_kids":1,
+"id":"ecd64f0",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
+"price":"26\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1637452800,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+1024,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
 "vendor":"pro_adventure"
 },
 {
@@ -3374,6 +2282,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1638057600,
+"for_kids":1,
+"id":"75bac70",
+"length":null,
+"level":2,
+"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1637798400,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+1024,
+64,
+0
+],
+"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
 "created":1631566800,
 "end":1638057600,
 "for_kids":0,
@@ -3423,32 +2357,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1638057600,
-"for_kids":1,
-"id":"75bac70",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637798400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-1024,
-64,
-0
-],
-"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -3692,13 +2600,13 @@ const DATA={"weekendList": [
 "id":"e2f929d",
 "length":null,
 "level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
 "price":"7\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1637884800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -3707,7 +2615,7 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
+"title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
 "vendor":"pro_adventure"
 },
@@ -3792,6 +2700,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1638057600,
+"for_kids":1,
+"id":"66c8b5a",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1637884800,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+1024,
+64,
+0
+],
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1638057600,
 "for_kids":0,
 "id":"654411b",
 "length":null,
@@ -3839,32 +2773,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1638057600,
-"for_kids":1,
-"id":"66c8b5a",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1637884800,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-1024,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -4083,7 +2991,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"12\u00a0300\u00a0\u20bd",
+"price":"18\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":1637971200,
 "tags":[
@@ -4311,32 +3219,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1638576000,
-"for_kids":1,
-"id":"3622a18",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1638057600,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-3072,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1638489600,
 "for_kids":1,
 "id":"b8f10cc",
@@ -4359,6 +3241,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1638576000,
+"for_kids":1,
+"id":"3622a18",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
+"price":"26\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1638057600,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+3072,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
 "vendor":"pro_adventure"
 },
 {
@@ -4908,6 +3816,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1638662400,
+"for_kids":1,
+"id":"e29cb8b",
+"length":null,
+"level":2,
+"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1638403200,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+64,
+0
+],
+"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1638662400,
 "for_kids":0,
@@ -4957,32 +3891,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1638662400,
-"for_kids":1,
-"id":"e29cb8b",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1638403200,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-64,
-0
-],
-"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -5226,13 +4134,13 @@ const DATA={"weekendList": [
 "id":"c544651",
 "length":null,
 "level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
 "price":"7\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1638489600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -5241,7 +4149,7 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
+"title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
 "vendor":"pro_adventure"
 },
@@ -5326,6 +4234,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1638662400,
+"for_kids":1,
+"id":"71521ce",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1638489600,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+2048,
+64,
+0
+],
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1638662400,
 "for_kids":0,
 "id":"0aded8d",
 "length":null,
@@ -5373,32 +4307,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1638662400,
-"for_kids":1,
-"id":"71521ce",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1638489600,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-2048,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -5607,6 +4515,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1638662400,
+"for_kids":0,
+"id":"22573f6",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1638576000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2048,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
 "vendor":"pro_adventure"
 },
 {
@@ -5845,32 +4779,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1639180800,
-"for_kids":1,
-"id":"dc709ff",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1639094400,
 "for_kids":1,
 "id":"cf43dc1",
@@ -5893,6 +4801,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1639180800,
+"for_kids":1,
+"id":"dc709ff",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
+"price":"26\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1638662400,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
 "vendor":"pro_adventure"
 },
 {
@@ -6364,6 +5298,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1639267200,
+"for_kids":1,
+"id":"0249931",
+"length":null,
+"level":2,
+"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639008000,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+64,
+0
+],
+"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1639267200,
 "for_kids":0,
@@ -6413,32 +5373,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1639267200,
-"for_kids":1,
-"id":"0249931",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639008000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-64,
-0
-],
-"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -6702,6 +5636,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1637096400,
+"end":1639353600,
+"for_kids":0,
+"id":"ba73346",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639008000,
+"tags":[
+128,
+1,
+4,
+0,
+16,
+2,
+2048,
+8,
+0
+],
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
 "created":1635714000,
 "end":1639267200,
 "for_kids":0,
@@ -6728,6 +5688,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1636578000,
+"end":1639267200,
+"for_kids":0,
+"id":"9fdf38b",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
+"price":"7\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1639094400,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+1,
+2048,
+0,
+256
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
+"url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1639440000,
 "for_kids":0,
@@ -6751,32 +5737,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432\u00a0\u043d\u043e\u044f\u0431\u0440\u0435",
 "url":"https://pro-adventure.ru/tours/id_2083_teriberka-v-noyabre",
-"vendor":"pro_adventure"
-},
-{
-"created":1636578000,
-"end":1639267200,
-"for_kids":0,
-"id":"9fdf38b",
-"length":null,
-"level":2,
-"norm":"\u043e\u0441\u0435\u043d\u043d\u0438\u0439 \u043f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e \u043c\u0435\u0449\u0435\u0440\u0435",
-"price":"7\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1639094400,
-"tags":[
-512,
-1,
-2,
-0,
-512,
-1,
-2048,
-0,
-256
-],
-"title":"\u041e\u0441\u0435\u043d\u043d\u0438\u0439 \u041f\u0435\u0448\u0438\u0439 \u0442\u0443\u0440-\u043a\u0432\u0435\u0441\u0442 \u043f\u043e\u00a0\u041c\u0435\u0449\u0435\u0440\u0435",
-"url":"https://pro-adventure.ru/tours/id_2077_peshiy-tur-po-meshchere",
 "vendor":"pro_adventure"
 },
 {
@@ -6860,6 +5820,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1639267200,
+"for_kids":1,
+"id":"ca72250",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639094400,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+2048,
+64,
+0
+],
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1639267200,
 "for_kids":0,
 "id":"26b378e",
 "length":null,
@@ -6907,32 +5893,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1639267200,
-"for_kids":1,
-"id":"ca72250",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639094400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-2048,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -7047,7 +6007,7 @@ const DATA={"weekendList": [
 "length":14,
 "level":2,
 "norm":"\u043c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440 \u043f\u043e\u0434 \u0437\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434\u043e\u043c \u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0438 \u0441\u043a\u0430\u043b\u044b",
-"price":"2\u00a0880\u00a0\u20bd",
+"price":"3\u00a0200\u00a0\u20bd",
 "slots":null,
 "start":1639180800,
 "tags":[
@@ -7141,6 +6101,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1639267200,
+"for_kids":0,
+"id":"e844c98",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1639180800,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2048,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
 "vendor":"pro_adventure"
 },
 {
@@ -7326,6 +6312,32 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
+"created":1637096400,
+"end":1639267200,
+"for_kids":0,
+"id":"8d876f4",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0442\u044b\u0441\u044f\u0447\u0438 \u043e\u0437\u0435\u0440",
+"price":"1\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1639267200,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+1,
+2048,
+0,
+256
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0422\u044b\u0441\u044f\u0447\u0438 \u043e\u0437\u0451\u0440\u00bb",
+"url":"https://cityescape.ru/peshij-poxod-tysyachi-ozyor/",
+"vendor":"cityescape"
+},
+{
 "created":1634677200,
 "end":1639785600,
 "for_kids":1,
@@ -7379,32 +6391,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1639785600,
-"for_kids":1,
-"id":"7139a1c",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1639267200,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1639699200,
 "for_kids":1,
 "id":"b54f455",
@@ -7427,6 +6413,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1639785600,
+"for_kids":1,
+"id":"7139a1c",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
+"price":"26\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1639267200,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
 "vendor":"pro_adventure"
 },
 {
@@ -7468,7 +6480,7 @@ const DATA={"weekendList": [
 "start":1639353600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 64,
@@ -7898,6 +6910,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1639872000,
+"for_kids":1,
+"id":"c05135f",
+"length":null,
+"level":2,
+"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639612800,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+64,
+0
+],
+"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1639872000,
 "for_kids":0,
@@ -7947,32 +6985,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1639872000,
-"for_kids":1,
-"id":"c05135f",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639612800,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-64,
-0
-],
-"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -8248,7 +7260,7 @@ const DATA={"weekendList": [
 "start":1639699200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -8342,6 +7354,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1639872000,
+"for_kids":1,
+"id":"0794a46",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639699200,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+2048,
+64,
+0
+],
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1639872000,
 "for_kids":0,
 "id":"a916c5a",
 "length":null,
@@ -8389,32 +7427,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1639872000,
-"for_kids":1,
-"id":"0794a46",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639699200,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-2048,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -8534,7 +7546,7 @@ const DATA={"weekendList": [
 "start":1639785600,
 "tags":[
 1,
-1,
+0,
 4,
 0,
 512,
@@ -8572,6 +7584,32 @@ const DATA={"weekendList": [
 "title":"\u041f\u0435\u0448\u0438\u0439 \u0438\u043b\u0438 \u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e \u0441\u00a0\u0442\u0435\u043f\u043b\u043e\u0439 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439",
 "url":"https://turclub-pik.ru/pohod/pohod-v-svyatogorovo-s-teploj-nochevkoj/535/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1639872000,
+"for_kids":0,
+"id":"430ee17",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u0432 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432",
+"price":"4\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1639785600,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+1,
+2048,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u00a0\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432\u00bb",
+"url":"https://cityescape.ru/poxod-v-dom-severnoj-sobaki/",
+"vendor":"cityescape"
 },
 {
 "created":1635714000,
@@ -8612,7 +7650,7 @@ const DATA={"weekendList": [
 "start":1639785600,
 "tags":[
 4,
-1,
+0,
 4,
 0,
 16,
@@ -8675,6 +7713,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1639872000,
+"for_kids":0,
+"id":"0a53d69",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1639785600,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2048,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
 "vendor":"pro_adventure"
 },
 {
@@ -8835,32 +7899,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1640390400,
-"for_kids":1,
-"id":"5979083",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1639872000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1640304000,
 "for_kids":1,
 "id":"f550690",
@@ -8883,6 +7921,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1640390400,
+"for_kids":1,
+"id":"5979083",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
+"price":"26\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1639872000,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
 "vendor":"pro_adventure"
 },
 {
@@ -9276,6 +8340,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1640476800,
+"for_kids":1,
+"id":"ea9939b",
+"length":null,
+"level":2,
+"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1640217600,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+2,
+2048,
+64,
+0
+],
+"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1640476800,
 "for_kids":0,
@@ -9325,32 +8415,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043c\u0444\u043e\u0440\u0442 + \u0430\u043a\u0442\u0438\u0432: \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e \u043d\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2646_v-adygeyu-na-vyhodnye-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1640476800,
-"for_kids":1,
-"id":"ea9939b",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1640217600,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-64,
-0
-],
-"title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -9626,7 +8690,7 @@ const DATA={"weekendList": [
 "start":1640304000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -9678,7 +8742,7 @@ const DATA={"weekendList": [
 "start":1640304000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -9772,6 +8836,32 @@ const DATA={"weekendList": [
 {
 "created":1636318800,
 "end":1640476800,
+"for_kids":1,
+"id":"b228834",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1640304000,
+"tags":[
+512,
+0,
+2,
+1,
+512,
+1,
+2048,
+64,
+0
+],
+"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
+"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1640476800,
 "for_kids":0,
 "id":"c1520f6",
 "length":null,
@@ -9819,32 +8909,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2657_bolshie-vyhodnye-v-karelii-mini-gruppa-do-6-chel-est-na-noyabrskie",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1640476800,
-"for_kids":1,
-"id":"b228834",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0433\u043e\u043d\u044f \u0437\u0430 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"price":"27\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1640304000,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-1,
-2048,
-64,
-0
-],
-"title":"\u041f\u043e\u0433\u043e\u043d\u044f \u0437\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0441\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u00a0\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435: \u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430",
-"url":"https://pro-adventure.ru/tours/id_2624_gastrotur-4-ekskursii-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -10011,7 +9075,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"12\u00a0300\u00a0\u20bd",
+"price":"18\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":1640390400,
 "tags":[
@@ -10053,6 +9117,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u043e\u0439 \u0437\u0435\u043c\u043b\u0435, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2667_po-karelskoj-zemle-2-dnya",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1640390400,
+"for_kids":0,
+"id":"5c7b94b",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1640390400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2048,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -10120,7 +9210,7 @@ const DATA={"weekendList": [
 "start":1640390400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -10212,6 +9302,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1641427200,
+"for_kids":0,
+"id":"b1f30ec",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e \u0441\u0430\u0444\u0430\u0440\u0438 \u0438 \u0437\u0430\u043d\u0437\u0438\u0431\u0430\u0440 \u0442\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
+"price":"$\u00a02\u00a0950",
+"slots":null,
+"start":1640476800,
+"tags":[
+8,
+1,
+4,
+0,
+64,
+2,
+2049,
+0,
+4
+],
+"title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
+"url":"https://zovgor.com/kilimanjaro.html",
+"vendor":"zovgor"
+},
+{
 "created":1628629200,
 "end":1641168000,
 "for_kids":0,
@@ -10238,6 +9354,32 @@ const DATA={"weekendList": [
 "vendor":"teamtrip"
 },
 {
+"created":1637096400,
+"end":1640476800,
+"for_kids":0,
+"id":"3c75605",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1640476800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2048,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1640476800,
 "for_kids":1,
@@ -10250,7 +9392,7 @@ const DATA={"weekendList": [
 "start":1640476800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -10319,32 +9461,6 @@ const DATA={"weekendList": [
 "created":1618002000,
 "end":1641513600,
 "for_kids":0,
-"id":"b8c4327",
-"length":null,
-"level":null,
-"norm":"\u043a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e \u0441\u0430\u0444\u0430\u0440\u0438 \u0438 \u0437\u0430\u043d\u0437\u0438\u0431\u0430\u0440 \u0442\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
-"price":"$\u00a02\u00a0950",
-"slots":null,
-"start":1640563200,
-"tags":[
-8,
-0,
-4,
-0,
-64,
-2,
-2049,
-0,
-4
-],
-"title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
-"url":"https://zovgor.com/kilimanjaro.html",
-"vendor":"zovgor"
-},
-{
-"created":1618002000,
-"end":1641513600,
-"for_kids":0,
 "id":"0fea21a",
 "length":null,
 "level":null,
@@ -10380,7 +9496,7 @@ const DATA={"weekendList": [
 "start":1640563200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -10432,7 +9548,7 @@ const DATA={"weekendList": [
 "start":1640563200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -10479,7 +9595,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":3,
 "norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 2022",
-"price":"43\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640649600,
 "tags":[
@@ -10576,32 +9692,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1641081600,
-"for_kids":0,
-"id":"ebcb480",
-"length":null,
-"level":3,
-"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"28\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1640649600,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-2049,
-32,
-0
-],
-"title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 2022 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
-"url":"https://pro-adventure.ru/tours/id_2383_novyj-god-v-krymu",
-"vendor":"pro_adventure"
-},
-{
 "created":1635714000,
 "end":1640822400,
 "for_kids":0,
@@ -10640,7 +9730,7 @@ const DATA={"weekendList": [
 "start":1640649600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -10677,6 +9767,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041d\u0430\u043c\u0438\u0431\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2461_namibiya-na-novyj-god",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1641168000,
+"for_kids":0,
+"id":"c8fe21a",
+"length":null,
+"level":3,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u043a\u0440\u044b\u043c\u0443",
+"price":"27\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1640736000,
+"tags":[
+512,
+1,
+4,
+0,
+512,
+2,
+2049,
+32,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 2022 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
+"url":"https://pro-adventure.ru/tours/id_2383_novyj-god-v-krymu",
 "vendor":"pro_adventure"
 },
 {
@@ -10744,7 +9860,7 @@ const DATA={"weekendList": [
 "start":1640736000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -10758,6 +9874,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641168000,
+"for_kids":0,
+"id":"9af714e",
+"length":20,
+"level":1,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435 \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0438\u044f\u043d\u0438\u044f",
+"price":"27\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1640822400,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+2,
+2049,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435. \u0412\u00a0\u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0438\u044f\u043d\u0438\u044f",
+"url":"https://turclub-pik.ru/pohod/novyj-god-v-teriberke/548/",
+"vendor":"pik"
+},
+{
 "created":1635714000,
 "end":1641513600,
 "for_kids":0,
@@ -10765,7 +9907,7 @@ const DATA={"weekendList": [
 "length":75,
 "level":1,
 "norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0431\u0443\u0440\u044f\u0442\u0438\u044f \u0434\u0430\u0446\u0430\u043d\u044b \u0438 \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
-"price":"65\u00a0000\u00a0\u20bd",
+"price":"68\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1640822400,
 "tags":[
@@ -11122,32 +10264,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1635714000,
-"end":1641254400,
-"for_kids":0,
-"id":"9f383b9",
-"length":null,
-"level":3,
-"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"28\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1640822400,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-2049,
-32,
-0
-],
-"title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 2022 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
-"url":"https://pro-adventure.ru/tours/id_2383_novyj-god-v-krymu",
-"vendor":"pro_adventure"
-},
-{
 "created":1636578000,
 "end":1641513600,
 "for_kids":0,
@@ -11160,7 +10276,7 @@ const DATA={"weekendList": [
 "start":1640822400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 64,
@@ -11212,7 +10328,7 @@ const DATA={"weekendList": [
 "start":1640822400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -11694,32 +10810,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1632085200,
-"end":1641168000,
-"for_kids":0,
-"id":"e9c9937",
-"length":null,
-"level":2,
-"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1640908800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2049,
-64,
-0
-],
-"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
-"url":"https://pro-adventure.ru/tours/id_2662_ng-i-kanikuly-murmansk-teriberka-etnicheskaya-derevnya",
-"vendor":"pro_adventure"
-},
-{
 "created":1604005200,
 "end":1641340800,
 "for_kids":0,
@@ -11769,6 +10859,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043d\u043d\u043e-\u0441\u0430\u043d\u043d\u044b\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2689_konno-sannye-priklyucheniya",
+"vendor":"pro_adventure"
+},
+{
+"created":1632085200,
+"end":1641168000,
+"for_kids":0,
+"id":"e9c9937",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1640908800,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+2049,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"url":"https://pro-adventure.ru/tours/id_2662_ng-i-kanikuly-murmansk-teriberka-etnicheskaya-derevnya",
 "vendor":"pro_adventure"
 },
 {
@@ -11836,7 +10952,7 @@ const DATA={"weekendList": [
 "start":1640908800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -11848,6 +10964,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1640995200,
+"for_kids":0,
+"id":"6d5fdb8",
+"length":null,
+"level":1,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043f\u043e-\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0438",
+"price":"12\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1640908800,
+"tags":[
+64,
+1,
+1,
+0,
+512,
+1,
+2049,
+512,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u00ab\u043f\u043e-\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0438\u00bb",
+"url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/novyy-god-po-sibirski/",
+"vendor":"perehod"
 },
 {
 "created":1634677200,
@@ -11914,7 +11056,7 @@ const DATA={"weekendList": [
 "start":1640995200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -11925,6 +11067,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u044d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432, 3\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2654_karelskij-eksklyuziv-3-dnya",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1640995200,
+"for_kids":0,
+"id":"b3e38b5",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1640995200,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -11940,7 +11108,7 @@ const DATA={"weekendList": [
 "start":1640995200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -12018,7 +11186,7 @@ const DATA={"weekendList": [
 "start":1641081600,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 512,
@@ -12318,6 +11486,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641254400,
+"for_kids":1,
+"id":"a47a600",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e \u0432\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641081600,
+"tags":[
+512,
+1,
+2,
+1,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+"url":"https://pro-adventure.ru/tours/id_2439_yanvarskie-kanikuly-vo-vladimirskoj-oblasti",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1641427200,
 "for_kids":0,
@@ -12341,6 +11535,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0423\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u043c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432",
 "url":"https://pro-adventure.ru/tours/id_2696_uralskij-multiaktiv",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1641081600,
+"for_kids":0,
+"id":"923be9b",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641081600,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
 "vendor":"pro_adventure"
 },
 {
@@ -12408,7 +11628,7 @@ const DATA={"weekendList": [
 "start":1641081600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -12446,6 +11666,32 @@ const DATA={"weekendList": [
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0410\u0440\u043c\u0435\u043d\u0438\u0438 2022",
 "url":"https://club-perexod.ru/marshruty/zagranitsa/zakavkaze/armeniya/novogodnie-kanikuly-v-armenii-2022/",
 "vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1641254400,
+"for_kids":1,
+"id":"38542d9",
+"length":5,
+"level":1,
+"norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432 \u0437\u0438\u043c\u043d\u0435\u0435 \u043e\u0440\u0435\u0445\u043e\u0432\u043e 5+",
+"price":"2\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641168000,
+"tags":[
+1,
+1,
+1,
+1,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u0435 \u041e\u0440\u0435\u0445\u043e\u0432\u043e (5+)",
+"url":"https://turclub-pik.ru/pohod/semejnyj-vyezd-v-zimnee-orehovo/546/",
+"vendor":"pik"
 },
 {
 "created":1635714000,
@@ -12533,7 +11779,7 @@ const DATA={"weekendList": [
 "length":75,
 "level":1,
 "norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0431\u0443\u0440\u044f\u0442\u0438\u044f \u0434\u0430\u0446\u0430\u043d\u044b \u0438 \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
-"price":"64\u00a0000\u00a0\u20bd",
+"price":"67\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1641168000,
 "tags":[
@@ -12812,6 +12058,32 @@ const DATA={"weekendList": [
 "vendor":"teamtrip"
 },
 {
+"created":1637096400,
+"end":1641427200,
+"for_kids":0,
+"id":"de62f37",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430 \u043b\u0430\u0434\u043e\u0433\u0435 4 \u0434\u043d\u044f",
+"price":"76\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641168000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+1,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2713_novyj-god-na-ladoge-4-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1641340800,
 "for_kids":0,
@@ -12845,7 +12117,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":3,
 "norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 2022",
-"price":"43\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1641168000,
 "tags":[
@@ -12887,32 +12159,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 \u0432\u00a0\u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u0438 2022",
 "url":"https://pro-adventure.ru/tours/id_2680_trekking-v-ingushetii-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1634677200,
-"end":1641513600,
-"for_kids":0,
-"id":"84c092b",
-"length":null,
-"level":3,
-"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u0430\u0431\u0445\u0430\u0437\u0438\u0438",
-"price":"22\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1641168000,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-2,
-1,
-128,
-0
-],
-"title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 2022 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2089_novyj-god-v-abhazii",
 "vendor":"pro_adventure"
 },
 {
@@ -12975,7 +12221,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":3,
 "norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u043a\u0440\u044b\u043c\u0443",
-"price":"28\u00a0800\u00a0\u20bd",
+"price":"27\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":1641168000,
 "tags":[
@@ -12994,6 +12240,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1634677200,
+"end":1641513600,
+"for_kids":0,
+"id":"84c092b",
+"length":null,
+"level":3,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 2022 \u0432 \u0430\u0431\u0445\u0430\u0437\u0438\u0438",
+"price":"22\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1641168000,
+"tags":[
+512,
+0,
+4,
+0,
+512,
+2,
+1,
+128,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434 2022 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2089_novyj-god-v-abhazii",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1641686400,
 "for_kids":0,
@@ -13006,7 +12278,7 @@ const DATA={"weekendList": [
 "start":1641168000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -13020,29 +12292,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1632085200,
-"end":1641427200,
+"created":1637096400,
+"end":1641168000,
 "for_kids":0,
-"id":"9ff77d7",
+"id":"841bce5",
 "length":null,
 "level":2,
-"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
-"price":"39\u00a0900\u00a0\u20bd",
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1641168000,
 "tags":[
 512,
-0,
-2,
-0,
-512,
-2,
 1,
-64,
-0
+2,
+0,
+8,
+1,
+1,
+0,
+256
 ],
-"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
-"url":"https://pro-adventure.ru/tours/id_2662_ng-i-kanikuly-murmansk-teriberka-etnicheskaya-derevnya",
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -13069,6 +12341,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u043d\u0430\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0435 \u2744\ufe0f",
 "url":"https://pro-adventure.ru/tours/id_2673_3-v-1-novogodnie-kanikuly-na-severnom-kavkaze",
+"vendor":"pro_adventure"
+},
+{
+"created":1632085200,
+"end":1641427200,
+"for_kids":0,
+"id":"9ff77d7",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432 \u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1641168000,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+1,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0435 \u0438\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435",
+"url":"https://pro-adventure.ru/tours/id_2662_ng-i-kanikuly-murmansk-teriberka-etnicheskaya-derevnya",
 "vendor":"pro_adventure"
 },
 {
@@ -13110,7 +12408,7 @@ const DATA={"weekendList": [
 "start":1641168000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -13266,7 +12564,7 @@ const DATA={"weekendList": [
 "start":1641168000,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -13278,6 +12576,32 @@ const DATA={"weekendList": [
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u043d\u044b\u0439 \u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u202f\u2014\u2009\u0432\u0441\u0435 \u0441\u0430\u043c\u043e\u0435 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e\u0435 \u0437\u0430\u00a04\u00a0\u0434\u043d\u044f",
 "url":"https://stranavetrov.ru/pohody-i-aktivniye-tury-na-kavkaz/avtotur-po-goram-dagestana-4-dnya",
 "vendor":"stranavetrov"
+},
+{
+"created":1637096400,
+"end":1641340800,
+"for_kids":1,
+"id":"72d5e94",
+"length":5,
+"level":1,
+"norm":"\u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432 \u0437\u0438\u043c\u043d\u0435\u0435 \u043e\u0440\u0435\u0445\u043e\u0432\u043e 5+",
+"price":"2\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641254400,
+"tags":[
+1,
+1,
+1,
+1,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u0435 \u041e\u0440\u0435\u0445\u043e\u0432\u043e (5+)",
+"url":"https://turclub-pik.ru/pohod/semejnyj-vyezd-v-zimnee-orehovo/546/",
+"vendor":"pik"
 },
 {
 "created":1634677200,
@@ -13304,6 +12628,32 @@ const DATA={"weekendList": [
 "title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u041f\u0435\u0440\u043c\u0441\u043a\u043e\u043c \u043a\u0440\u0430\u0435",
 "url":"https://turclub-pik.ru/pohod/novogodnie-kanikuly-v-permskom-krae/533/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1641254400,
+"for_kids":0,
+"id":"5256d28",
+"length":null,
+"level":2,
+"norm":"\u043f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0442\u044b\u0441\u044f\u0447\u0438 \u043e\u0437\u0435\u0440",
+"price":"1\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641254400,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0422\u044b\u0441\u044f\u0447\u0438 \u043e\u0437\u0451\u0440\u00bb",
+"url":"https://cityescape.ru/peshij-poxod-tysyachi-ozyor/",
+"vendor":"cityescape"
 },
 {
 "created":1635714000,
@@ -13488,6 +12838,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641254400,
+"for_kids":0,
+"id":"4c97447",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641254400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1641600000,
 "for_kids":0,
@@ -13515,32 +12891,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1636318800,
-"end":1641427200,
-"for_kids":0,
-"id":"278f82a",
-"length":null,
-"level":2,
-"norm":"\u0443\u0444\u0430 - \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b - 3",
-"price":"15\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1641254400,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-1,
-0,
-256
-],
-"title":"\u0423\u0444\u0430\u202f\u2014\u2009\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b\u202f\u2014\u20093",
-"url":"https://pro-adventure.ru/tours/id_2692_ufa-vostochnaya-tochka-evropy-3",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
 "end":1641513600,
 "for_kids":0,
 "id":"b34b996",
@@ -13563,6 +12913,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u0413\u00a0\u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b 2022: 3\u00a0\u0443\u0449\u0435\u043b\u044c\u044f \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2702_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1636318800,
+"end":1641427200,
+"for_kids":0,
+"id":"278f82a",
+"length":null,
+"level":2,
+"norm":"\u0443\u0444\u0430 - \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b - 3",
+"price":"15\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1641254400,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u0423\u0444\u0430\u202f\u2014\u2009\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b\u202f\u2014\u20093",
+"url":"https://pro-adventure.ru/tours/id_2692_ufa-vostochnaya-tochka-evropy-3",
 "vendor":"pro_adventure"
 },
 {
@@ -13604,7 +12980,7 @@ const DATA={"weekendList": [
 "start":1641254400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -13702,7 +13078,7 @@ const DATA={"weekendList": [
 "id":"5e7a343",
 "length":14,
 "level":2,
-"norm":"\u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432 \u0441\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e",
+"norm":"\u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432 \u0441\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e \u043f\u043e\u0445\u043e\u0434 \u0438\u0433\u0440\u044b \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
 "price":"8\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":1641340800,
@@ -13717,9 +13093,35 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e",
+"title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e: \u043f\u043e\u0445\u043e\u0434, \u0438\u0433\u0440\u044b, \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/rozhdestvo-v-svyatogorovo/532/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1641340800,
+"for_kids":0,
+"id":"a2bde96",
+"length":null,
+"level":2,
+"norm":"\u043b\u044b\u0436\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0431\u0435\u0440\u0435\u0433\u0430\u043c \u043a\u043b\u044f\u0437\u044c\u043c\u044b",
+"price":"1\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1641340800,
+"tags":[
+4,
+1,
+2,
+0,
+16,
+1,
+1,
+0,
+256
+],
+"title":"\u041b\u044b\u0436\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0431\u0435\u0440\u0435\u0433\u0430\u043c \u041a\u043b\u044f\u0437\u044c\u043c\u044b",
+"url":"https://cityescape.ru/lyzhnaya-progulka-po-beregam-klyazmy/",
+"vendor":"cityescape"
 },
 {
 "created":1614027600,
@@ -13823,6 +13225,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u0443\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0445 \u0432\u0435\u0440\u0448\u0438\u043d",
 "url":"https://pro-adventure.ru/tours/id_2455_snegohodny-tur-po-uralu-muradymovo-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1641513600,
+"for_kids":1,
+"id":"a50dbe0",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e \u0432\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641340800,
+"tags":[
+512,
+1,
+2,
+1,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+"url":"https://pro-adventure.ru/tours/id_2439_yanvarskie-kanikuly-vo-vladimirskoj-oblasti",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1641340800,
+"for_kids":0,
+"id":"4a8de9b",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641340800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -13942,7 +13396,7 @@ const DATA={"weekendList": [
 "start":1641340800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -13968,7 +13422,7 @@ const DATA={"weekendList": [
 "start":1641340800,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -13980,6 +13434,32 @@ const DATA={"weekendList": [
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435!",
 "url":"https://stranavetrov.ru/pohody-i-aktivniye-tury-na-kavkaz/zimnie-vykhodnye-v-prielbruse",
 "vendor":"stranavetrov"
+},
+{
+"created":1637096400,
+"end":1641600000,
+"for_kids":0,
+"id":"04401d3",
+"length":19,
+"level":3,
+"norm":"\u044f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435 \u043d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"price":"3\u00a0950\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"url":"https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/200/",
+"vendor":"pik"
 },
 {
 "created":1635714000,
@@ -14006,6 +13486,84 @@ const DATA={"weekendList": [
 "title":"\u0417\u0438\u043c\u0430 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438. \u0428\u0445\u0435\u0440\u044b \u0438\u00a0\u0441\u043a\u0430\u043b\u044b \u041b\u0430\u0434\u043e\u0433\u0438",
 "url":"https://turclub-pik.ru/pohod/zima_v_karelii/287/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1641772800,
+"for_kids":0,
+"id":"41a2114",
+"length":20,
+"level":1,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435 \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0438\u044f\u043d\u0438\u044f",
+"price":"29\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+2,
+1,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435. \u0412\u00a0\u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0438\u044f\u043d\u0438\u044f",
+"url":"https://turclub-pik.ru/pohod/novyj-god-v-teriberke/548/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1641427200,
+"for_kids":0,
+"id":"644a87a",
+"length":null,
+"level":2,
+"norm":"\u043a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044e",
+"price":"4\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+4,
+1,
+2,
+0,
+4,
+1,
+1,
+0,
+256
+],
+"title":"\u041a\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044e",
+"url":"https://cityescape.ru/konnyj-poxod-po-podmoskovyu/",
+"vendor":"cityescape"
+},
+{
+"created":1637096400,
+"end":1641686400,
+"for_kids":0,
+"id":"1fe21ac",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430 \u043b\u0430\u0434\u043e\u0433\u0435 4 \u0434\u043d\u044f",
+"price":"76\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+1,
+64,
+0
+],
+"title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430\u00a0\u041b\u0430\u0434\u043e\u0433\u0435, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2713_novyj-god-na-ladoge-4-dnya",
+"vendor":"pro_adventure"
 },
 {
 "created":1634677200,
@@ -14086,6 +13644,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641427200,
+"for_kids":0,
+"id":"58908b2",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1632085200,
 "end":1641686400,
 "for_kids":0,
@@ -14150,7 +13734,7 @@ const DATA={"weekendList": [
 "start":1641427200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14188,6 +13772,32 @@ const DATA={"weekendList": [
 "title":"\u0423\u0441\u044c\u0432\u0438\u043d\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b \u0437\u0438\u043c\u043e\u0439",
 "url":"https://turclub-pik.ru/pohod/perm_zima/484/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1641513600,
+"for_kids":0,
+"id":"c990e04",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043a \u0432\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u043c\u0443 \u043e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
+"price":"1\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1641513600,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u043e\u043c\u0443 \u041e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0430\u0441\u0442\u044b\u0440\u044e",
+"url":"https://cityescape.ru/poxod-k-vvedenskomu-monastyryu/",
+"vendor":"cityescape"
 },
 {
 "created":1634677200,
@@ -14268,6 +13878,58 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641686400,
+"for_kids":0,
+"id":"961320b",
+"length":null,
+"level":2,
+"norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e \u0432\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 7 \u044f\u043d\u0432\u0430\u0440\u044f",
+"price":"11\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1641513600,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0435 \u043a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u043e\u00a0\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438, 7\u00a0\u044f\u043d\u0432\u0430\u0440\u044f",
+"url":"https://pro-adventure.ru/tours/id_2441_yanvarskie-kanikulyi-vo-vladimirskoj-oblasti",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1641513600,
+"for_kids":0,
+"id":"70f5284",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641513600,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1636318800,
 "end":1641686400,
 "for_kids":0,
@@ -14306,7 +13968,7 @@ const DATA={"weekendList": [
 "start":1641513600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14372,6 +14034,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641600000,
+"for_kids":0,
+"id":"5c999ea",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641600000,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1636318800,
 "end":1641772800,
 "for_kids":0,
@@ -14410,7 +14098,7 @@ const DATA={"weekendList": [
 "start":1641600000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14476,6 +14164,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1641686400,
+"for_kids":0,
+"id":"e6b68d9",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1641686400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1641686400,
 "for_kids":1,
@@ -14488,7 +14202,7 @@ const DATA={"weekendList": [
 "start":1641686400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14540,7 +14254,7 @@ const DATA={"weekendList": [
 "start":1641772800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14592,7 +14306,7 @@ const DATA={"weekendList": [
 "start":1641859200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14748,7 +14462,7 @@ const DATA={"weekendList": [
 "start":1641945600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -14842,32 +14556,6 @@ const DATA={"weekendList": [
 {
 "created":1635714000,
 "end":1642291200,
-"for_kids":0,
-"id":"23bb20a",
-"length":null,
-"level":2,
-"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1642032000,
-"tags":[
-512,
-0,
-2,
-0,
-64,
-2,
-1,
-0,
-256
-],
-"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1642291200,
 "for_kids":1,
 "id":"1e70d7b",
 "length":null,
@@ -14889,6 +14577,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1635714000,
+"end":1642291200,
+"for_kids":0,
+"id":"23bb20a",
+"length":null,
+"level":2,
+"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1642032000,
+"tags":[
+512,
+0,
+2,
+0,
+64,
+2,
+1,
+0,
+256
+],
+"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -15034,7 +14748,7 @@ const DATA={"weekendList": [
 "start":1642032000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15138,7 +14852,7 @@ const DATA={"weekendList": [
 "start":1642118400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -15190,7 +14904,7 @@ const DATA={"weekendList": [
 "start":1642118400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -15424,7 +15138,7 @@ const DATA={"weekendList": [
 "start":1642118400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15461,6 +15175,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1642291200,
+"for_kids":0,
+"id":"cba0567",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1642204800,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1642291200,
+"for_kids":0,
+"id":"7772853",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1642204800,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -15513,6 +15279,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20097",
 "url":"https://pro-adventure.ru/tours/id_2694_snezhnyj-kraka-7",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1642204800,
+"for_kids":0,
+"id":"387f968",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1642204800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -15580,7 +15372,7 @@ const DATA={"weekendList": [
 "start":1642204800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15620,6 +15412,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1642291200,
+"for_kids":0,
+"id":"c27abf6",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1642291200,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1642291200,
 "for_kids":1,
@@ -15632,7 +15450,7 @@ const DATA={"weekendList": [
 "start":1642291200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15684,7 +15502,7 @@ const DATA={"weekendList": [
 "start":1642377600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15736,7 +15554,7 @@ const DATA={"weekendList": [
 "start":1642464000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -15918,7 +15736,7 @@ const DATA={"weekendList": [
 "start":1642550400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -16012,32 +15830,6 @@ const DATA={"weekendList": [
 {
 "created":1635714000,
 "end":1642896000,
-"for_kids":0,
-"id":"0813780",
-"length":null,
-"level":2,
-"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1642636800,
-"tags":[
-512,
-0,
-2,
-0,
-64,
-2,
-1,
-0,
-256
-],
-"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1642896000,
 "for_kids":1,
 "id":"125bb9c",
 "length":null,
@@ -16059,6 +15851,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1635714000,
+"end":1642896000,
+"for_kids":0,
+"id":"0813780",
+"length":null,
+"level":2,
+"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1642636800,
+"tags":[
+512,
+0,
+2,
+0,
+64,
+2,
+1,
+0,
+256
+],
+"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -16204,7 +16022,7 @@ const DATA={"weekendList": [
 "start":1642636800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -16216,32 +16034,6 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
-},
-{
-"created":1618347600,
-"end":1642982400,
-"for_kids":0,
-"id":"8bc5129",
-"length":null,
-"level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1642636800,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-1,
-8,
-0
-],
-"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
 },
 {
 "created":1634677200,
@@ -16267,6 +16059,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
 "url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
+"created":1618347600,
+"end":1642982400,
+"for_kids":0,
+"id":"8bc5129",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1642636800,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+1,
+8,
+0
+],
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -16308,7 +16126,7 @@ const DATA={"weekendList": [
 "start":1642723200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -16360,7 +16178,7 @@ const DATA={"weekendList": [
 "start":1642723200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -16594,7 +16412,7 @@ const DATA={"weekendList": [
 "start":1642723200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -16686,6 +16504,58 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1642896000,
+"for_kids":0,
+"id":"045a331",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1642809600,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1642896000,
+"for_kids":0,
+"id":"13c549e",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1642809600,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1642896000,
 "for_kids":0,
@@ -16761,6 +16631,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041a\u0430\u0440\u0435\u043b\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_1796_sever-karelii-snegohod-3",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1642809600,
+"for_kids":0,
+"id":"0f852d9",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1642809600,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
 "vendor":"pro_adventure"
 },
 {
@@ -16854,7 +16750,7 @@ const DATA={"weekendList": [
 "start":1642809600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -16894,6 +16790,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1642896000,
+"for_kids":0,
+"id":"663c5a2",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1642896000,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1642896000,
 "for_kids":1,
@@ -16906,7 +16828,7 @@ const DATA={"weekendList": [
 "start":1642896000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -17010,7 +16932,7 @@ const DATA={"weekendList": [
 "start":1642982400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -17062,7 +16984,7 @@ const DATA={"weekendList": [
 "start":1643068800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -17270,7 +17192,7 @@ const DATA={"weekendList": [
 "start":1643155200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -17364,32 +17286,6 @@ const DATA={"weekendList": [
 {
 "created":1635714000,
 "end":1643500800,
-"for_kids":0,
-"id":"37eb006",
-"length":null,
-"level":2,
-"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
-"price":"39\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1643241600,
-"tags":[
-512,
-0,
-2,
-0,
-64,
-2,
-1,
-0,
-256
-],
-"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1643500800,
 "for_kids":1,
 "id":"ec64400",
 "length":null,
@@ -17411,6 +17307,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a, \u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430, \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2625_gastrotur-4-ekskursii-1-1-1-1-1-1-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1635714000,
+"end":1643500800,
+"for_kids":0,
+"id":"37eb006",
+"length":null,
+"level":2,
+"norm":"\u0434\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438 \u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 4 \u0434\u043d\u044f",
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1643241600,
+"tags":[
+512,
+0,
+2,
+0,
+64,
+2,
+1,
+0,
+256
+],
+"title":"\u0414\u0436\u0438\u043f\u043f\u0438\u043d\u0433 \u0438\u00a0\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440, 4\u00a0\u0414\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2604_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -17556,7 +17478,7 @@ const DATA={"weekendList": [
 "start":1643241600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -17596,32 +17518,6 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1634677200,
-"end":1643587200,
-"for_kids":0,
-"id":"120716f",
-"length":null,
-"level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1643241600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-1,
-8,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
-"vendor":"strannik"
-},
-{
 "created":1618347600,
 "end":1643587200,
 "for_kids":0,
@@ -17645,6 +17541,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1643587200,
+"for_kids":0,
+"id":"120716f",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1643241600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+1,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -17712,7 +17634,7 @@ const DATA={"weekendList": [
 "start":1643328000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -17790,7 +17712,7 @@ const DATA={"weekendList": [
 "start":1643328000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -18024,7 +17946,7 @@ const DATA={"weekendList": [
 "start":1643328000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18050,7 +17972,7 @@ const DATA={"weekendList": [
 "start":1643328000,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -18062,6 +17984,32 @@ const DATA={"weekendList": [
 "title":"\u0417\u0438\u043c\u043d\u0438\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435!",
 "url":"https://stranavetrov.ru/pohody-i-aktivniye-tury-na-kavkaz/zimnie-vykhodnye-v-prielbruse",
 "vendor":"stranavetrov"
+},
+{
+"created":1637096400,
+"end":1643587200,
+"for_kids":0,
+"id":"9d63dcb",
+"length":19,
+"level":3,
+"norm":"\u044f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435 \u043d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"price":"3\u00a0950\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"url":"https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/200/",
+"vendor":"pik"
 },
 {
 "created":1630875600,
@@ -18087,6 +18035,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1643500800,
+"for_kids":0,
+"id":"21fa11e",
+"length":null,
+"level":2,
+"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
+"price":"18\u00a0100\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+128,
+0
+],
+"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
+"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1643500800,
+"for_kids":0,
+"id":"8045e2f",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -18194,6 +18194,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1643414400,
+"for_kids":0,
+"id":"ccab18d",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1643846400,
 "for_kids":0,
@@ -18258,7 +18284,7 @@ const DATA={"weekendList": [
 "start":1643414400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18298,6 +18324,32 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
+"created":1637096400,
+"end":1643500800,
+"for_kids":0,
+"id":"3282c59",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1643500800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+1,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1643500800,
 "for_kids":1,
@@ -18310,7 +18362,7 @@ const DATA={"weekendList": [
 "start":1643500800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18388,7 +18440,7 @@ const DATA={"weekendList": [
 "start":1643587200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18440,7 +18492,7 @@ const DATA={"weekendList": [
 "start":1643673600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18518,7 +18570,7 @@ const DATA={"weekendList": [
 "start":1643760000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18544,7 +18596,7 @@ const DATA={"weekendList": [
 "start":1643846400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18556,6 +18608,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1632085200,
+"end":1644192000,
+"for_kids":0,
+"id":"7c385de",
+"length":null,
+"level":null,
+"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1643846400,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+2,
+128,
+0
+],
+"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
 },
 {
 "created":1634677200,
@@ -18610,32 +18688,6 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1632085200,
-"end":1644192000,
-"for_kids":0,
-"id":"7c385de",
-"length":null,
-"level":null,
-"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1643846400,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-2,
-128,
-0
-],
-"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1644105600,
 "for_kids":0,
@@ -18674,7 +18726,7 @@ const DATA={"weekendList": [
 "start":1643932800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -18726,7 +18778,7 @@ const DATA={"weekendList": [
 "start":1643932800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -18752,7 +18804,7 @@ const DATA={"weekendList": [
 "start":1643932800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -18764,6 +18816,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1644105600,
+"for_kids":0,
+"id":"78845be",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u0432 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432",
+"price":"4\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1644019200,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+1,
+2,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u0412\u00a0\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u043f\u0441\u043e\u0432\u00bb",
+"url":"https://cityescape.ru/poxod-v-dom-severnoj-sobaki/",
+"vendor":"cityescape"
 },
 {
 "created":1634677200,
@@ -18841,6 +18919,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1644105600,
+"for_kids":0,
+"id":"1cbce7c",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1644019200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -18948,6 +19052,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1644019200,
+"for_kids":0,
+"id":"ebe63b7",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1644019200,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1644451200,
 "for_kids":0,
@@ -18986,7 +19116,7 @@ const DATA={"weekendList": [
 "start":1644019200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19064,7 +19194,7 @@ const DATA={"weekendList": [
 "start":1644105600,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -19130,6 +19260,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1644105600,
+"for_kids":0,
+"id":"2983703",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1644105600,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1644105600,
 "for_kids":1,
@@ -19142,7 +19298,7 @@ const DATA={"weekendList": [
 "start":1644105600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19220,7 +19376,7 @@ const DATA={"weekendList": [
 "start":1644192000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19272,7 +19428,7 @@ const DATA={"weekendList": [
 "start":1644278400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19376,7 +19532,7 @@ const DATA={"weekendList": [
 "start":1644364800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19428,7 +19584,7 @@ const DATA={"weekendList": [
 "start":1644451200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19440,32 +19596,6 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
-},
-{
-"created":1618347600,
-"end":1644796800,
-"for_kids":0,
-"id":"ebea3b0",
-"length":null,
-"level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1644451200,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-2,
-8,
-0
-],
-"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
 },
 {
 "created":1623445200,
@@ -19491,6 +19621,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
 "url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
+"vendor":"strannik"
+},
+{
+"created":1618347600,
+"end":1644796800,
+"for_kids":0,
+"id":"ebea3b0",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1644451200,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+2,
+8,
+0
+],
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -19584,7 +19740,7 @@ const DATA={"weekendList": [
 "start":1644537600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -19636,7 +19792,7 @@ const DATA={"weekendList": [
 "start":1644537600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -19662,7 +19818,7 @@ const DATA={"weekendList": [
 "start":1644537600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -19674,6 +19830,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1644710400,
+"for_kids":0,
+"id":"7d067f3",
+"length":null,
+"level":2,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0441\u0435\u043b\u0438\u0433\u0435\u0440 \u043e\u0442 \u0441\u0435\u043b\u0438\u0433\u0435\u0440\u0430 \u0434\u043e \u0438\u0441\u0442\u043e\u043a\u0430 \u0432\u043e\u043b\u0433\u0438",
+"price":"10\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1644537600,
+"tags":[
+64,
+1,
+2,
+0,
+16,
+1,
+2,
+0,
+256
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u00ab\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0421\u0435\u043b\u0438\u0433\u0435\u0440 \u041e\u0442\u00a0\u0421\u0435\u043b\u0438\u0433\u0435\u0440\u0430 \u0434\u043e\u00a0\u0418\u0441\u0442\u043e\u043a\u0430 \u0412\u043e\u043b\u0433\u0438\u00bb",
+"url":"https://club-perexod.ru/marshruty/rossiya/seliger/lyzhnyy-pokhod-severnyy-seliger-ot-seligera-do-istoka-volgi/",
+"vendor":"perehod"
 },
 {
 "created":1632085200,
@@ -19707,7 +19889,7 @@ const DATA={"weekendList": [
 "for_kids":0,
 "id":"748dca1",
 "length":120,
-"level":1,
+"level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "price":"49\u00a0000\u00a0\u20bd",
 "slots":null,
@@ -19715,7 +19897,7 @@ const DATA={"weekendList": [
 "tags":[
 1,
 0,
-1,
+2,
 0,
 512,
 2,
@@ -19735,7 +19917,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644624000,
 "tags":[
@@ -19858,6 +20040,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1644710400,
+"for_kids":0,
+"id":"c0cbe90",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1644624000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1644710400,
 "for_kids":0,
@@ -19910,6 +20118,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1644624000,
+"for_kids":0,
+"id":"0fbd75f",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1644624000,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1645056000,
 "for_kids":0,
@@ -19948,7 +20182,7 @@ const DATA={"weekendList": [
 "start":1644624000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20026,7 +20260,7 @@ const DATA={"weekendList": [
 "start":1644710400,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -20037,6 +20271,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1645401600,
+"for_kids":0,
+"id":"0bb76c0",
+"length":20,
+"level":1,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0432\u044b\u0441\u0448\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b",
+"price":"36\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1644710400,
+"tags":[
+1,
+1,
+1,
+0,
+16,
+2,
+2,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u0412\u044b\u0441\u0448\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b",
+"url":"https://turclub-pik.ru/pohod/ski-vyezd-na-elbrus-tusovka/198/",
 "vendor":"pik"
 },
 {
@@ -20144,6 +20404,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1644710400,
+"for_kids":0,
+"id":"95b0e55",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1644710400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1644710400,
 "for_kids":1,
@@ -20156,7 +20442,7 @@ const DATA={"weekendList": [
 "start":1644710400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20260,7 +20546,7 @@ const DATA={"weekendList": [
 "start":1644796800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20312,7 +20598,7 @@ const DATA={"weekendList": [
 "start":1644883200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20442,7 +20728,7 @@ const DATA={"weekendList": [
 "start":1644969600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20468,7 +20754,7 @@ const DATA={"weekendList": [
 "start":1645056000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20593,7 +20879,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043a\u0438\u0436\u0438 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 3 \u0434\u043d\u044f",
-"price":"69\u00a0700\u00a0\u20bd",
+"price":"69\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645142400,
 "tags":[
@@ -20624,7 +20910,7 @@ const DATA={"weekendList": [
 "start":1645142400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -20676,7 +20962,7 @@ const DATA={"weekendList": [
 "start":1645142400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -20728,7 +21014,7 @@ const DATA={"weekendList": [
 "start":1645142400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -20742,6 +21028,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645401600,
+"for_kids":0,
+"id":"090d5fd",
+"length":19,
+"level":3,
+"norm":"\u044f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435 \u043d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"price":"3\u00a0950\u00a0\u20bd",
+"slots":null,
+"start":1645228800,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+1,
+2,
+0,
+256
+],
+"title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"url":"https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/200/",
+"vendor":"pik"
+},
+{
 "created":1636578000,
 "end":1645833600,
 "for_kids":0,
@@ -20749,12 +21061,12 @@ const DATA={"weekendList": [
 "length":700,
 "level":1,
 "norm":"\u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0431\u0430\u0439\u043a\u0430\u043b\u0443 \u0432\u0441\u0435 \u043b\u0443\u0447\u0448\u0435\u0435 \u0437\u0430 7 \u0434\u043d\u0435\u0439",
-"price":"92\u00a0000\u00a0\u20bd",
+"price":"98\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1645228800,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 512,
@@ -20773,7 +21085,7 @@ const DATA={"weekendList": [
 "for_kids":0,
 "id":"db85f83",
 "length":120,
-"level":1,
+"level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "price":"49\u00a0000\u00a0\u20bd",
 "slots":null,
@@ -20781,7 +21093,7 @@ const DATA={"weekendList": [
 "tags":[
 1,
 0,
-1,
+2,
 0,
 512,
 2,
@@ -20827,7 +21139,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645228800,
 "tags":[
@@ -20950,32 +21262,6 @@ const DATA={"weekendList": [
 "vendor":"napravlenie"
 },
 {
-"created":1635714000,
-"end":1645574400,
-"for_kids":0,
-"id":"251bf46",
-"length":null,
-"level":2,
-"norm":"\u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432 \u0444\u0435\u0432\u0440\u0430\u043b\u0435",
-"price":"36\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1645228800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2,
-64,
-0
-],
-"title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432\u00a0\u0444\u0435\u0432\u0440\u0430\u043b\u0435",
-"url":"https://pro-adventure.ru/tours/id_1790_novyj-god-teriberka",
-"vendor":"pro_adventure"
-},
-{
 "created":1634677200,
 "end":1646092800,
 "for_kids":0,
@@ -21002,6 +21288,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1645574400,
+"for_kids":0,
+"id":"251bf46",
+"length":null,
+"level":2,
+"norm":"\u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432 \u0444\u0435\u0432\u0440\u0430\u043b\u0435",
+"price":"36\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1645228800,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+2,
+64,
+0
+],
+"title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432\u00a0\u0444\u0435\u0432\u0440\u0430\u043b\u0435",
+"url":"https://pro-adventure.ru/tours/id_1790_novyj-god-teriberka",
+"vendor":"pro_adventure"
+},
+{
 "created":1630875600,
 "end":1645833600,
 "for_kids":0,
@@ -21025,6 +21337,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1645315200,
+"for_kids":0,
+"id":"53e2b5a",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1645228800,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -21080,6 +21418,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645228800,
+"for_kids":0,
+"id":"9d6fa21",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1645228800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1645660800,
 "for_kids":0,
@@ -21118,7 +21482,7 @@ const DATA={"weekendList": [
 "start":1645228800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -21217,7 +21581,7 @@ const DATA={"weekendList": [
 "length":70,
 "level":3,
 "norm":"\u043f\u043e \u0431\u0430\u0439\u043a\u0430\u043b\u0443 \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445 \u0437\u0438\u043c\u043e\u0439 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
-"price":"31\u00a0500\u00a0\u20bd",
+"price":"35\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1645228800,
 "tags":[
@@ -21274,7 +21638,7 @@ const DATA={"weekendList": [
 "start":1645315200,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -21285,6 +21649,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0417\u0438\u043c\u043d\u0438\u0439 \u0411\u0430\u0439\u043a\u0430\u043b (4+)",
 "url":"https://turclub-pik.ru/pohod/detskii-zimnii-baikal/267/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1645920000,
+"for_kids":0,
+"id":"00b8061",
+"length":10,
+"level":1,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430 \u0434\u043e\u043c\u0431\u0430\u0439 \u043a\u043e\u043b\u043e\u0440\u0438\u0442 \u043a\u0430\u0432\u043a\u0430\u0437\u0430",
+"price":"28\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1645315200,
+"tags":[
+1,
+1,
+1,
+0,
+16,
+2,
+2,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0432\u044b\u0435\u0437\u0434 \u043d\u0430\u00a0\u0414\u043e\u043c\u0431\u0430\u0439. \u041a\u043e\u043b\u043e\u0440\u0438\u0442 \u041a\u0430\u0432\u043a\u0430\u0437\u0430",
+"url":"https://turclub-pik.ru/pohod/ski-vyezd-na-dombai/420/",
 "vendor":"pik"
 },
 {
@@ -21311,32 +21701,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0437\u0438\u043c\u043d\u0435\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0411\u0430\u0439\u043a\u0430\u043b \u043f\u043e\u00a0\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435 \u00ab\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u00bb",
 "url":"https://cityescape.ru/bolshoe-puteshestvie-na-bajkal/",
-"vendor":"cityescape"
-},
-{
-"created":1636578000,
-"end":1645833600,
-"for_kids":0,
-"id":"d361257",
-"length":null,
-"level":2,
-"norm":"\u0442\u0443\u0440 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u043e\u0441\u0435\u0442\u0438\u044e + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f \u0431\u0435\u0437 \u043f\u0430\u043b\u0430\u0442\u043e\u043a \u0438 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"38\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1645315200,
-"tags":[
-4,
-1,
-2,
-0,
-512,
-2,
-2,
-128,
-0
-],
-"title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e + \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f (\u0431\u0435\u0437 \u043f\u0430\u043b\u0430\u0442\u043e\u043a \u0438\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
-"url":"https://cityescape.ru/tur-v-severnuyu-osetiyu-ingushetiya/",
 "vendor":"cityescape"
 },
 {
@@ -21392,6 +21756,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645315200,
+"for_kids":0,
+"id":"62ee94a",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1645315200,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1645574400,
 "for_kids":1,
@@ -21430,7 +21820,7 @@ const DATA={"weekendList": [
 "start":1645315200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -21529,7 +21919,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645401600,
 "tags":[
@@ -21612,7 +22002,7 @@ const DATA={"weekendList": [
 "start":1645401600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -21768,7 +22158,7 @@ const DATA={"weekendList": [
 "start":1645488000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -21886,6 +22276,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645574400,
+"for_kids":0,
+"id":"c072272",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1645574400,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1646006400,
 "for_kids":0,
@@ -21976,7 +22392,7 @@ const DATA={"weekendList": [
 "start":1645574400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -22068,6 +22484,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645660800,
+"for_kids":0,
+"id":"22a9e26",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1645660800,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1645920000,
 "for_kids":1,
@@ -22106,7 +22548,7 @@ const DATA={"weekendList": [
 "start":1645660800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -22154,7 +22596,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "price":"67\u00a0000\u00a0\u20bd",
-"slots":8,
+"slots":5,
 "start":1645747200,
 "tags":[
 2,
@@ -22236,7 +22678,7 @@ const DATA={"weekendList": [
 "start":1645747200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -22262,7 +22704,7 @@ const DATA={"weekendList": [
 "start":1645747200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -22314,7 +22756,7 @@ const DATA={"weekendList": [
 "start":1645747200,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -22328,12 +22770,38 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645920000,
+"for_kids":0,
+"id":"b673d36",
+"length":null,
+"level":2,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0437\u0438\u043c\u043d\u044f\u044f \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0442\u044c \u0432 \u0442\u043e\u0440\u0436\u043a\u0435",
+"price":"8\u00a0300\u00a0\u20bd",
+"slots":null,
+"start":1645747200,
+"tags":[
+64,
+1,
+2,
+0,
+16,
+1,
+2,
+0,
+256
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 ' \u0417\u0438\u043c\u043d\u044f\u044f \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0442\u044c \u0432\u00a0\u0422\u043e\u0440\u0436\u043a\u0435'",
+"url":"https://club-perexod.ru/marshruty/rossiya/seliger/lyzhnyy-pokhod-zimnyaya-blagodat-v-torzhke/",
+"vendor":"perehod"
+},
+{
 "created":1631566800,
 "end":1646524800,
 "for_kids":0,
 "id":"02fc7d0",
 "length":120,
-"level":1,
+"level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "price":"49\u00a0000\u00a0\u20bd",
 "slots":null,
@@ -22341,7 +22809,7 @@ const DATA={"weekendList": [
 "tags":[
 1,
 0,
-1,
+2,
 0,
 512,
 2,
@@ -22387,7 +22855,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645833600,
 "tags":[
@@ -22484,6 +22952,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645920000,
+"for_kids":0,
+"id":"75640ee",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1645833600,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1645920000,
 "for_kids":0,
@@ -22562,6 +23056,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645833600,
+"for_kids":0,
+"id":"174907c",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432 \u043b\u044b\u0447\u043d\u044b\u0439",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1645833600,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043d\u0430\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u041b\u044b\u0447\u043d\u044b\u0439",
+"url":"https://pro-adventure.ru/tours/id_2716_snegohodnoe-safari-na-ostrov-lychnyj",
+"vendor":"pro_adventure"
+},
+{
 "created":1635886800,
 "end":1646265600,
 "for_kids":0,
@@ -22600,7 +23120,7 @@ const DATA={"weekendList": [
 "start":1645833600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -22673,7 +23193,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u043f\u0435\u0441\u043d\u044c \u043b\u044c\u0434\u0430 \u0438 \u043f\u043b\u0430\u043c\u0435\u043d\u0438",
-"price":"77\u00a0889\u00a0\u20bd",
+"price":"79\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1645920000,
 "tags":[
@@ -22770,6 +23290,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1645920000,
+"for_kids":0,
+"id":"4afa8a5",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a \u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"price":"14\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1645920000,
+"tags":[
+512,
+1,
+2,
+0,
+8,
+1,
+2,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u043d\u043e\u0435 \u0441\u0430\u0444\u0430\u0440\u0438 \u043a\u00a0\u0434\u0440\u0435\u0432\u043d\u0435\u043c\u0443 \u0432\u0443\u043b\u043a\u0430\u043d\u0443",
+"url":"https://pro-adventure.ru/tours/id_2714_snegohodnoe-safari-k-drevnemu-vulkanu-1-den",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1645920000,
 "for_kids":1,
@@ -22782,7 +23328,7 @@ const DATA={"weekendList": [
 "start":1645920000,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -22829,7 +23375,7 @@ const DATA={"weekendList": [
 "length":70,
 "level":3,
 "norm":"\u043f\u043e \u0431\u0430\u0439\u043a\u0430\u043b\u0443 \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445 \u0437\u0438\u043c\u043e\u0439 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
-"price":"31\u00a0500\u00a0\u20bd",
+"price":"35\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1645920000,
 "tags":[
@@ -22855,7 +23401,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1646006400,
 "tags":[
@@ -22964,7 +23510,7 @@ const DATA={"weekendList": [
 "start":1646006400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 8,
@@ -23212,32 +23758,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1618347600,
-"end":1646784000,
-"for_kids":0,
-"id":"7a9a356",
-"length":null,
-"level":null,
-"norm":"\u0434\u043e\u043c\u0431\u0430\u0439 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 4 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"14\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1646352000,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-4,
-128,
-0
-],
-"title":"\u00ab\u0414\u043e\u043c\u0431\u0430\u0439 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 4\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f, \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/dombay-gornolyzhnyy-4-dnya-kataniya-ekskursii",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1646784000,
 "for_kids":0,
@@ -23261,6 +23781,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u0435\u0441\u043d\u0430 \u0432\u00a0\u0421\u043e\u0447\u0438 + \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
 "url":"https://strannik36.ru/vesna-v-sochi-abhaziya-4-dnya",
+"vendor":"strannik"
+},
+{
+"created":1618347600,
+"end":1646784000,
+"for_kids":0,
+"id":"7a9a356",
+"length":null,
+"level":null,
+"norm":"\u0434\u043e\u043c\u0431\u0430\u0439 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 4 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"14\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1646352000,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+4,
+128,
+0
+],
+"title":"\u00ab\u0414\u043e\u043c\u0431\u0430\u0439 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 4\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f, \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/dombay-gornolyzhnyy-4-dnya-kataniya-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -23347,7 +23893,7 @@ const DATA={"weekendList": [
 "for_kids":0,
 "id":"8fbd6c5",
 "length":120,
-"level":1,
+"level":2,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445",
 "price":"49\u00a0000\u00a0\u20bd",
 "slots":null,
@@ -23355,7 +23901,7 @@ const DATA={"weekendList": [
 "tags":[
 1,
 0,
-1,
+2,
 0,
 512,
 2,
@@ -23401,7 +23947,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1646438400,
 "tags":[
@@ -23744,7 +24290,7 @@ const DATA={"weekendList": [
 "start":1646524800,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -23921,7 +24467,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043a\u0438\u0436\u0438 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 3 \u0434\u043d\u044f",
-"price":"69\u00a0700\u00a0\u20bd",
+"price":"69\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1646524800,
 "tags":[
@@ -23978,7 +24524,7 @@ const DATA={"weekendList": [
 "start":1646524800,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 16,
@@ -24122,6 +24668,32 @@ const DATA={"weekendList": [
 "vendor":"myway"
 },
 {
+"created":1637096400,
+"end":1646784000,
+"for_kids":0,
+"id":"fc2353c",
+"length":19,
+"level":3,
+"norm":"\u044f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435 \u043d\u043e\u0447\u044c \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"price":"3\u00a0950\u00a0\u20bd",
+"slots":null,
+"start":1646611200,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+1,
+4,
+0,
+256
+],
+"title":"\u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u043e\u0435. \u041d\u043e\u0447\u044c \u0432\u00a0\u0437\u0438\u043c\u043d\u0435\u043c \u043b\u0435\u0441\u0443",
+"url":"https://turclub-pik.ru/pohod/yastrebinoe-noch-v-zimnem-lesu/200/",
+"vendor":"pik"
+},
+{
 "created":1631566800,
 "end":1647302400,
 "for_kids":0,
@@ -24129,7 +24701,7 @@ const DATA={"weekendList": [
 "length":77,
 "level":1,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0431\u0430\u0439\u043a\u0430\u043b \u0441 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043e\u043c",
-"price":"55\u00a0000\u00a0\u20bd",
+"price":"59\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1646611200,
 "tags":[
@@ -24200,6 +24772,32 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
+"created":1637096400,
+"end":1646697600,
+"for_kids":0,
+"id":"db04cef",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1646611200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+4,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1625432400,
 "end":1647129600,
 "for_kids":0,
@@ -24233,7 +24831,7 @@ const DATA={"weekendList": [
 "length":70,
 "level":3,
 "norm":"\u043f\u043e \u0431\u0430\u0439\u043a\u0430\u043b\u0443 \u043d\u0430 \u043a\u043e\u043d\u044c\u043a\u0430\u0445 \u0437\u0438\u043c\u043e\u0439 \u0441 \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u0443\u0440\u0431\u0430\u0437\u0430\u0445",
-"price":"31\u00a0500\u00a0\u20bd",
+"price":"35\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1646611200,
 "tags":[
@@ -24259,7 +24857,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":1,
 "norm":"\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u0431\u0430\u0439\u043a\u0430\u043b\u043e\u043c \u0437\u0430 5 \u0434\u043d\u0435\u0439",
-"price":"41\u00a0900\u00a0\u20bd",
+"price":"48\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1646697600,
 "tags":[
@@ -24330,6 +24928,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1632085200,
+"end":1647216000,
+"for_kids":0,
+"id":"275af14",
+"length":null,
+"level":null,
+"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1646870400,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+4,
+128,
+0
+],
+"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
 "created":1634677200,
 "end":1647216000,
 "for_kids":0,
@@ -24379,32 +25003,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u042e\u0436\u043d\u043e\u043c\u0443 \u0411\u0435\u0440\u0435\u0433\u0443 \u041a\u0440\u044b\u043c\u0430. \u0410\u043b\u0443\u0448\u0442\u0430, \u042f\u043b\u0442\u0430",
 "url":"https://strannik36.ru/puteshestvie-po-yuzhnomu-beregu-kryma-alushta-yalta",
-"vendor":"strannik"
-},
-{
-"created":1632085200,
-"end":1647216000,
-"for_kids":0,
-"id":"275af14",
-"length":null,
-"level":null,
-"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1646870400,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-4,
-128,
-0
-],
-"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -24483,6 +25081,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u0438\u0436\u0438 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1068_kizhi-na-snegokhodakh-2-dnya",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1647129600,
+"for_kids":0,
+"id":"5e7660d",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1647043200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+4,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -24772,32 +25396,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1618347600,
-"end":1647820800,
-"for_kids":0,
-"id":"80e7f78",
-"length":null,
-"level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1647475200,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-4,
-8,
-0
-],
-"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1647820800,
 "for_kids":0,
@@ -24821,6 +25419,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
 "url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
+"created":1618347600,
+"end":1647820800,
+"for_kids":0,
+"id":"80e7f78",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1647475200,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+4,
+8,
+0
+],
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -24928,6 +25552,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1647734400,
+"for_kids":0,
+"id":"07f6fb6",
+"length":null,
+"level":2,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e \u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438 2 \u0434\u043d\u044f",
+"price":"42\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1647648000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+4,
+64,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1647907200,
 "for_kids":0,
@@ -25030,6 +25680,32 @@ const DATA={"weekendList": [
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u041c\u0430\u0440\u043e\u043a\u043a\u043e",
 "url":"http://orangeked.ru/tours/item/25-puteshestvie-po-marokko",
 "vendor":"orangeked"
+},
+{
+"created":1637096400,
+"end":1648252800,
+"for_kids":0,
+"id":"0f0f987",
+"length":null,
+"level":2,
+"norm":"\u0442\u0443\u0440 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u043e\u0441\u0435\u0442\u0438\u044e + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f \u0431\u0435\u0437 \u043f\u0430\u043b\u0430\u0442\u043e\u043a \u0438 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"price":"38\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1647734400,
+"tags":[
+4,
+1,
+2,
+0,
+512,
+2,
+4,
+128,
+0
+],
+"title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e + \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f (\u0431\u0435\u0437 \u043f\u0430\u043b\u0430\u0442\u043e\u043a \u0438\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432)",
+"url":"https://cityescape.ru/tur-v-severnuyu-osetiyu-ingushetiya/",
+"vendor":"cityescape"
 },
 {
 "created":1618088400,
@@ -25396,6 +26072,32 @@ const DATA={"weekendList": [
 "vendor":"orangeked"
 },
 {
+"created":1637096400,
+"end":1648857600,
+"for_kids":0,
+"id":"a95b6cd",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
+"price":"16\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1648252800,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+12,
+0,
+1
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
+"url":"https://club-perexod.ru/marshruty/zagranitsa/blizhniy-vostok/turtsiya/pokhod-po-likiyskoy-trope/",
+"vendor":"perehod"
+},
+{
 "created":1634677200,
 "end":1648771200,
 "for_kids":0,
@@ -25552,32 +26254,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1649030400,
-"for_kids":0,
-"id":"d58b552",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1648684800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-12,
-128,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
-"vendor":"strannik"
-},
-{
 "created":1632085200,
 "end":1649030400,
 "for_kids":0,
@@ -25601,6 +26277,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1649030400,
+"for_kids":0,
+"id":"d58b552",
+"length":null,
+"level":null,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1648684800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+12,
+128,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
+"url":"https://strannik36.ru/vyhodnye-v-arhyze",
 "vendor":"strannik"
 },
 {
@@ -25708,32 +26410,6 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
-"created":1623445200,
-"end":1649635200,
-"for_kids":0,
-"id":"ab59e9d",
-"length":null,
-"level":null,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443 \u0441\u0443\u0434\u0430\u043a \u043a\u0435\u0440\u0447\u044c",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1649289600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-8,
-32,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
-"url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1649635200,
 "for_kids":0,
@@ -25757,6 +26433,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
 "url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
+"created":1623445200,
+"end":1649635200,
+"for_kids":0,
+"id":"ab59e9d",
+"length":null,
+"level":null,
+"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443 \u0441\u0443\u0434\u0430\u043a \u043a\u0435\u0440\u0447\u044c",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1649289600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+8,
+32,
+0
+],
+"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
+"url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
 "vendor":"strannik"
 },
 {
@@ -25968,6 +26670,32 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
+"created":1637096400,
+"end":1649894400,
+"for_kids":0,
+"id":"33e563f",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434-\u0440\u0430\u0437\u0432\u0435\u0434\u043a\u0430 \u0432 \u043a\u0430\u043b\u043c\u044b\u043a\u0438\u044e",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1649635200,
+"tags":[
+4,
+1,
+4,
+0,
+512,
+2,
+8,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434-\u0440\u0430\u0437\u0432\u0435\u0434\u043a\u0430 \u0432\u00a0\u041a\u0430\u043b\u043c\u044b\u043a\u0438\u044e",
+"url":"https://cityescape.ru/poxod-razvedka-v-kalmykiyu/",
+"vendor":"cityescape"
+},
+{
 "created":1630875600,
 "end":1650240000,
 "for_kids":0,
@@ -26075,32 +26803,6 @@ const DATA={"weekendList": [
 "created":1634677200,
 "end":1650240000,
 "for_kids":0,
-"id":"30065ec",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1649894400,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-8,
-32,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-mezmae",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1650240000,
-"for_kids":0,
 "id":"6954425",
 "length":null,
 "level":null,
@@ -26124,6 +26826,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1634677200,
+"end":1650240000,
+"for_kids":0,
+"id":"30065ec",
+"length":null,
+"level":null,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1649894400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+8,
+32,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
+"url":"https://strannik36.ru/vyhodnye-v-mezmae",
+"vendor":"strannik"
+},
+{
 "created":1636578000,
 "end":1651276800,
 "for_kids":0,
@@ -26136,7 +26864,7 @@ const DATA={"weekendList": [
 "start":1649894400,
 "tags":[
 256,
-1,
+0,
 8,
 0,
 512,
@@ -26651,12 +27379,12 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0432 \u0438\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441 qr-\u043a\u043e\u0434\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430 10 \u0434\u043d\u0435\u0439",
-"price":"\u20ac\u00a01\u00a0420",
+"price":"\u20ac\u00a01\u00a0490",
 "slots":null,
 "start":1651190400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -26682,7 +27410,7 @@ const DATA={"weekendList": [
 "start":1651190400,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -26704,7 +27432,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0442\u0443\u0440\u0446\u0438\u044f \u043b\u0438\u043a\u0438\u044f \u0432\u043e\u0441\u0442\u043e\u043a \u0438 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "price":"$\u00a0550",
-"slots":2,
+"slots":0,
 "start":1651276800,
 "tags":[
 2,
@@ -26823,6 +27551,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041b\u0438\u043a\u0438\u0439\u0441\u043a\u0430\u044f \u0442\u0440\u043e\u043f\u0430 (\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f) \u0437\u0430\u00a0\u043d\u0435\u0434\u0435\u043b\u044e",
 "url":"https://turclub-pik.ru/pohod/likijskaya-tropa-week/495/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1652054400,
+"for_kids":0,
+"id":"850b53d",
+"length":100,
+"level":3,
+"norm":"\u0442\u0443\u0440 \u0432 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"price":"49\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+2,
+24,
+0,
+64
+],
+"title":"\u0422\u0443\u0440 \u0432\u00a0\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"url":"https://turclub-pik.ru/pohod/kazakhstan-bez-ryukzakov/419/",
 "vendor":"pik"
 },
 {
@@ -26963,7 +27717,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0430\u043b\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u0441\u0430\u043a\u0443\u0440\u0430-1 \u0442\u0443\u0440 \u043d\u0430 \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u0435 \u043c\u0430\u0440\u0430\u043b\u044c\u043d\u0438\u043a\u0430 2022",
-"price":"\u0426\u0435\u043d\u0430 \u0431\u0443\u0434\u0435\u0442 \u0432 \u0434\u0435\u043a\u0430\u0431\u0440\u0435\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tp\u0443\u0431.\u00a0\u20bd",
+"price":"66\u00a0000\u00a0\u20bd",
 "slots":1010,
 "start":1651276800,
 "tags":[
@@ -27034,6 +27788,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1651536000,
+"for_kids":0,
+"id":"c99a879",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u043a\u0441\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 4 \u0434\u043d\u044f",
+"price":"16\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+512,
+1,
+4,
+0,
+1,
+2,
+24,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u043a\u0441\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_1368_splav-uksa-katamarany-4-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1627160400,
 "end":1651881600,
 "for_kids":0,
@@ -27058,6 +27838,32 @@ const DATA={"weekendList": [
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f: \u0421\u0442\u0430\u043c\u0431\u0443\u043b \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"https://pro-adventure.ru/tours/id_2514_puteshestvie-po-stambulu-za-4-dnya-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1634677200,
+"end":1651622400,
+"for_kids":0,
+"id":"4938aac",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438 \u0447\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
+"price":"12\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+24,
+8,
+0
+],
+"title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438\u00a0\u0427\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
+"url":"https://strannik36.ru/elbrus-i-chegemskoe-ushchele",
+"vendor":"strannik"
 },
 {
 "created":1634677200,
@@ -27112,32 +27918,6 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1634677200,
-"end":1651622400,
-"for_kids":0,
-"id":"4938aac",
-"length":null,
-"level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438 \u0447\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
-"price":"12\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1651276800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-24,
-8,
-0
-],
-"title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438\u00a0\u0427\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
-"url":"https://strannik36.ru/elbrus-i-chegemskoe-ushchele",
-"vendor":"strannik"
-},
-{
 "created":1636578000,
 "end":1652486400,
 "for_kids":0,
@@ -27150,7 +27930,7 @@ const DATA={"weekendList": [
 "start":1651276800,
 "tags":[
 256,
-1,
+0,
 8,
 0,
 512,
@@ -27684,6 +28464,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1651881600,
+"for_kids":0,
+"id":"1339aa9",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+16,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1651881600,
 "for_kids":1,
@@ -27733,6 +28539,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0421\u043e\u0447\u0438. \u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b \u0432\u00a0\u0441\u0443\u0431\u0442\u0440\u043e\u043f\u0438\u043a\u0430\u0445",
 "url":"https://pro-adventure.ru/tours/id_1860_aktivniy-otdyh-v-sochi",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1651622400,
+"for_kids":0,
+"id":"2b413be",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u043a\u0441\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 4 \u0434\u043d\u044f",
+"price":"16\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+512,
+1,
+4,
+0,
+1,
+2,
+16,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u043a\u0441\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_1368_splav-uksa-katamarany-4-dnya",
 "vendor":"pro_adventure"
 },
 {
@@ -27947,32 +28779,6 @@ const DATA={"weekendList": [
 "created":1634677200,
 "end":1652140800,
 "for_kids":0,
-"id":"6ad8c58",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1651795200,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-16,
-128,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1652140800,
-"for_kids":0,
 "id":"dbc7364",
 "length":null,
 "level":null,
@@ -27996,6 +28802,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1634677200,
+"end":1652140800,
+"for_kids":0,
+"id":"6ad8c58",
+"length":null,
+"level":null,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1651795200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+16,
+128,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
+"url":"https://strannik36.ru/vyhodnye-v-arhyze",
+"vendor":"strannik"
+},
+{
 "created":1636578000,
 "end":1652140800,
 "for_kids":0,
@@ -28008,7 +28840,7 @@ const DATA={"weekendList": [
 "start":1651795200,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -28204,6 +29036,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1652140800,
+"for_kids":0,
+"id":"9ec177f",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u043a\u0441\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 4 \u0434\u043d\u044f",
+"price":"16\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1651881600,
+"tags":[
+512,
+1,
+4,
+0,
+1,
+2,
+16,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u043a\u0441\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_1368_splav-uksa-katamarany-4-dnya",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1652400000,
 "for_kids":0,
@@ -28237,7 +29095,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0430\u043b\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u0441\u0430\u043a\u0443\u0440\u0430-2 \u0442\u0443\u0440 \u043d\u0430 \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u0435 \u043c\u0430\u0440\u0430\u043b\u044c\u043d\u0438\u043a\u0430 2022",
-"price":"\u0426\u0435\u043d\u0430 \u0431\u0443\u0434\u0435\u0442 \u0432 \u0434\u0435\u043a\u0430\u0431\u0440\u0435\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tp\u0443\u0431.\u00a0\u20bd",
+"price":"62\u00a0000\u00a0\u20bd",
 "slots":1010,
 "start":1651968000,
 "tags":[
@@ -28357,6 +29215,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0443\u0440 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u0443\u044e \u041e\u0441\u0435\u0442\u0438\u044e. \u0414\u0438\u0433\u043e\u0440\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1864_tur-v-severnuyu-osetiyu-digorskoe-ushelje",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1652486400,
+"for_kids":0,
+"id":"731dad6",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1651968000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+16,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
 "vendor":"pro_adventure"
 },
 {
@@ -28497,12 +29381,12 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0432 \u0438\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441 qr-\u043a\u043e\u0434\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430 10 \u0434\u043d\u0435\u0439",
-"price":"\u20ac\u00a01\u00a0420",
+"price":"\u20ac\u00a01\u00a0490",
 "slots":null,
 "start":1652054400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -28788,7 +29672,7 @@ const DATA={"weekendList": [
 "start":1652659200,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 512,
@@ -29218,20 +30102,20 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"created":1634677200,
-"end":1653868800,
+"created":1637096400,
+"end":1653696000,
 "for_kids":0,
-"id":"5ef825d",
+"id":"0076e40",
 "length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
+"level":2,
+"norm":"\u043a\u0440\u044b\u043c \u043c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
+"price":"10\u00a0400\u00a0\u20bd",
 "slots":null,
-"start":1653523200,
+"start":1653264000,
 "tags":[
-128,
-0,
-4,
+64,
+1,
+2,
 0,
 512,
 2,
@@ -29239,9 +30123,9 @@ const DATA={"weekendList": [
 32,
 0
 ],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-mezmae",
-"vendor":"strannik"
+"title":"\u041a\u0440\u044b\u043c. \u041c\u0435\u0441\u0442\u0430 \u0441\u0438\u043b\u044b",
+"url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-mesta-sily/",
+"vendor":"perehod"
 },
 {
 "created":1634677200,
@@ -29267,6 +30151,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u043e\u0447\u0438. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u0430",
 "url":"https://strannik36.ru/sochi-krasnaya-polyana",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1653868800,
+"for_kids":0,
+"id":"5ef825d",
+"length":null,
+"level":null,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1653523200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+16,
+32,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
+"url":"https://strannik36.ru/vyhodnye-v-mezmae",
 "vendor":"strannik"
 },
 {
@@ -29431,7 +30341,7 @@ const DATA={"weekendList": [
 "for_kids":0,
 "id":"feb5519",
 "length":null,
-"level":2,
+"level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u0432 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "price":"13\u00a0500\u00a0\u20bd",
 "slots":null,
@@ -29439,7 +30349,7 @@ const DATA={"weekendList": [
 "tags":[
 4,
 0,
-2,
+4,
 0,
 512,
 1,
@@ -29608,6 +30518,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1654300800,
+"for_kids":0,
+"id":"7ea6b7f",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1653782400,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+48,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1654300800,
 "for_kids":1,
@@ -29698,7 +30634,7 @@ const DATA={"weekendList": [
 "start":1653868800,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 512,
@@ -29762,6 +30698,32 @@ const DATA={"weekendList": [
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0412\u0430\u043b\u0434\u0430\u0439\u0441\u043a\u043e\u0439 \u0442\u0440\u043e\u043f\u0435",
 "url":"https://club-perexod.ru/marshruty/rossiya/podmoskove/peshiy-pokhod-po-valdayskoy-trope/",
 "vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1654387200,
+"for_kids":0,
+"id":"976edfc",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u043a\u0441\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 4 \u0434\u043d\u044f",
+"price":"16\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1654128000,
+"tags":[
+512,
+1,
+4,
+0,
+1,
+2,
+32,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u043a\u0441\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_1368_splav-uksa-katamarany-4-dnya",
+"vendor":"pro_adventure"
 },
 {
 "created":1634677200,
@@ -29894,6 +30856,32 @@ const DATA={"weekendList": [
 "vendor":"myway"
 },
 {
+"created":1637096400,
+"end":1654905600,
+"for_kids":0,
+"id":"5d7cf84",
+"length":270,
+"level":2,
+"norm":"\u0431\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438 \u043a\u0430\u043d\u0436\u043e\u043b - \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"price":"72\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1654300800,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+2,
+32,
+0,
+256
+],
+"title":"\u0411\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438\u00a0\u041a\u0430\u043d\u0436\u043e\u043b\u202f\u2014\u2009\u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/bermamyt-i-kanzhol-pohod-na-elektrovelosipedah/536/",
+"vendor":"pik"
+},
+{
 "created":1628629200,
 "end":1655078400,
 "for_kids":0,
@@ -30005,7 +30993,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0432\u0430\u043b\u044c\u0441 \u0446\u0432\u0435\u0442\u043e\u0432 \u0432 \u0445\u0430\u043a\u0430\u0441\u0438\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 2022",
-"price":"\u0426\u0435\u043d\u0430 \u0431\u0443\u0434\u0435\u0442 \u0432 \u0434\u0435\u043a\u0430\u0431\u0440\u0435\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tp\u0443\u0431.\u00a0\u20bd",
+"price":"78\u00a0000\u00a0\u20bd",
 "slots":1010,
 "start":1654300800,
 "tags":[
@@ -30036,7 +31024,7 @@ const DATA={"weekendList": [
 "start":1654300800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -30074,6 +31062,32 @@ const DATA={"weekendList": [
 "title":"\u0410\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u0410\u043b\u0442\u0430\u0439\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2436_letnyaya-skazka-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1654732800,
+"for_kids":0,
+"id":"8462955",
+"length":null,
+"level":1,
+"norm":"\u043a\u0440\u044b\u043c \u0434\u043b\u044f \u0441\u0430\u043c\u044b\u0445 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445",
+"price":"7\u00a0600\u00a0\u20bd",
+"slots":null,
+"start":1654300800,
+"tags":[
+64,
+1,
+1,
+0,
+512,
+2,
+32,
+32,
+0
+],
+"title":"\u041a\u0440\u044b\u043c \u0434\u043b\u044f \u0441\u0430\u043c\u044b\u0445 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445",
+"url":"https://club-perexod.ru/marshruty/rossiya/krym/krym-dlya-samyx-malenkix/",
+"vendor":"perehod"
 },
 {
 "created":1631566800,
@@ -30426,7 +31440,7 @@ const DATA={"weekendList": [
 "start":1654732800,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -30464,6 +31478,58 @@ const DATA={"weekendList": [
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430",
 "url":"https://cityescape.ru/poxod-k-gore-vottovaara/",
 "vendor":"cityescape"
+},
+{
+"created":1637096400,
+"end":1655596800,
+"for_kids":0,
+"id":"452d694",
+"length":null,
+"level":2,
+"norm":"\u0432 \u0438\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441 qr-\u043a\u043e\u0434\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430 10 \u0434\u043d\u0435\u0439",
+"price":"\u20ac\u00a01\u00a0490",
+"slots":0,
+"start":1654819200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+32,
+0,
+128
+],
+"title":"\u0412\u00a0\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441\u00a0QR-\u043a\u043e\u0434\u043e\u043c. \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1912_islandskoe-koltso",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1655078400,
+"for_kids":0,
+"id":"1228b4f",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u043a\u0441\u0435 \u0432 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 4 \u0434\u043d\u044f",
+"price":"16\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1654819200,
+"tags":[
+512,
+1,
+4,
+0,
+1,
+2,
+32,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u043a\u0441\u0435 \u0432\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_1368_splav-uksa-katamarany-4-dnya",
+"vendor":"pro_adventure"
 },
 {
 "created":1634677200,
@@ -31038,6 +32104,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1655510400,
+"for_kids":0,
+"id":"d4b5474",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1654992000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+32,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1655510400,
 "for_kids":0,
@@ -31258,7 +32350,7 @@ const DATA={"weekendList": [
 "start":1655078400,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 512,
@@ -31688,6 +32780,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1656115200,
+"for_kids":0,
+"id":"601ac52",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1655596800,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+32,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1656115200,
 "for_kids":0,
@@ -31998,6 +33116,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0438\u043b\u0438\u043c\u0430\u043d\u0434\u0436\u0430\u0440\u043e, \u0441\u0430\u0444\u0430\u0440\u0438 \u0438\u00a0\u0417\u0430\u043d\u0437\u0438\u0431\u0430\u0440 (\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f)",
 "url":"https://zovgor.com/kilimanjaro.html",
 "vendor":"zovgor"
+},
+{
+"created":1637096400,
+"end":1656460800,
+"for_kids":0,
+"id":"31c3b49",
+"length":null,
+"level":2,
+"norm":"\u0432 \u0438\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441 qr-\u043a\u043e\u0434\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430 10 \u0434\u043d\u0435\u0439",
+"price":"\u20ac\u00a01\u00a0490",
+"slots":0,
+"start":1655683200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+32,
+0,
+128
+],
+"title":"\u0412\u00a0\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044e \u0441\u00a0QR-\u043a\u043e\u0434\u043e\u043c. \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0440\u0443\u0433 \u0437\u0430\u00a010\u00a0\u0434\u043d\u0435\u0439",
+"url":"https://pro-adventure.ru/tours/id_1912_islandskoe-koltso",
+"vendor":"pro_adventure"
 },
 {
 "created":1635714000,
@@ -32398,7 +33542,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 1 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 2022",
 "price":"78\u00a0000\u00a0\u20bd",
-"slots":1415,
+"slots":1215,
 "start":1656201600,
 "tags":[
 16,
@@ -32676,6 +33820,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1656806400,
+"for_kids":0,
+"id":"f354ba9",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1656201600,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+96,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1634677200,
 "end":1657065600,
 "for_kids":0,
@@ -32896,7 +34066,7 @@ const DATA={"weekendList": [
 "start":1656374400,
 "tags":[
 64,
-1,
+0,
 4,
 0,
 512,
@@ -33118,6 +34288,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1637096400,
+"end":1657324800,
+"for_kids":0,
+"id":"6efaf81",
+"length":270,
+"level":2,
+"norm":"\u0431\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438 \u043a\u0430\u043d\u0436\u043e\u043b - \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"price":"72\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1656720000,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u0411\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438\u00a0\u041a\u0430\u043d\u0436\u043e\u043b\u202f\u2014\u2009\u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/bermamyt-i-kanzhol-pohod-na-elektrovelosipedah/536/",
+"vendor":"pik"
+},
+{
 "created":1628629200,
 "end":1657497600,
 "for_kids":0,
@@ -33177,7 +34373,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u0430\u043b\u0442\u0430\u0439-\u0442\u044b\u0432\u0430 \u0442\u0443\u0440 \u043d\u0430 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f\u0445 \u0438 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"\u0426\u0435\u043d\u0430 \u0431\u0443\u0434\u0435\u0442 \u0432 \u0434\u0435\u043a\u0430\u0431\u0440\u0435\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tp\u0443\u0431.\u00a0\u20bd",
+"price":"78\u00a0000\u00a0\u20bd",
 "slots":1010,
 "start":1656720000,
 "tags":[
@@ -33220,6 +34416,58 @@ const DATA={"weekendList": [
 "title":"\u041a\u043e\u043b\u044c\u0446\u0435\u0432\u043e\u0439 \u0430\u0432\u0442\u043e\u0442\u0443\u0440 \u00ab\u0417\u043e\u043b\u043e\u0442\u043e\u0439 \u0410\u043b\u0442\u0430\u0439\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2703_letnyaya-skazka-1-1-1-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1657324800,
+"for_kids":0,
+"id":"1767907",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u043e\u043d\u0434\u0430",
+"price":"19\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1656720000,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1657238400,
+"for_kids":0,
+"id":"5df0856",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0430\u043c \u0441\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
+"price":"15\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1656720000,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
+"vendor":"perehod"
 },
 {
 "created":1634677200,
@@ -33586,6 +34834,32 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
+"created":1637096400,
+"end":1657411200,
+"for_kids":0,
+"id":"a24e480",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1656806400,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1634677200,
 "end":1657756800,
 "for_kids":0,
@@ -33740,6 +35014,32 @@ const DATA={"weekendList": [
 "title":"\u041e\u0442\u00a0\u041a\u043b\u044e\u0447\u0435\u0432\u0441\u043a\u043e\u0439 \u0441\u043e\u043f\u043a\u0438 \u043a\u00a0\u0422\u043e\u043b\u0431\u0430\u0447\u0438\u043a\u0443: \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0441\u00a0\u0440\u044e\u043a\u0437\u0430\u043a\u0430\u043c\u0438",
 "url":"https://pro-adventure.ru/tours/id_1797_vokrug-tolbachikov-pokhod-po-kamchatke-s-ryukzakami-2",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1657411200,
+"for_kids":0,
+"id":"69b1277",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1656892800,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
 },
 {
 "created":1627938000,
@@ -33932,7 +35232,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 2 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 2022",
 "price":"78\u00a0000\u00a0\u20bd",
-"slots":1515,
+"slots":915,
 "start":1657238400,
 "tags":[
 16,
@@ -34678,6 +35978,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1658016000,
+"for_kids":0,
+"id":"a1ec2dc",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1657411200,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1635714000,
 "end":1657929600,
 "for_kids":0,
@@ -34754,6 +36080,32 @@ const DATA={"weekendList": [
 "title":"\u0427\u0443\u043a\u043e\u0442\u043a\u0430 \u0438\u00a0\u043e\u0441\u0442\u0440\u043e\u0432 \u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044f",
 "url":"https://pro-adventure.ru/tours/id_2525_chukotka-i-ostrov-vrangelya",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1658016000,
+"for_kids":0,
+"id":"713206b",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1657497600,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
 },
 {
 "created":1634677200,
@@ -35106,7 +36458,7 @@ const DATA={"weekendList": [
 "start":1657843200,
 "tags":[
 64,
-1,
+0,
 4,
 0,
 512,
@@ -35132,7 +36484,7 @@ const DATA={"weekendList": [
 "start":1657843200,
 "tags":[
 64,
-1,
+0,
 8,
 0,
 512,
@@ -35314,7 +36666,7 @@ const DATA={"weekendList": [
 "start":1657929600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -35351,6 +36703,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041b\u0430\u0434\u043e\u0436\u0441\u043a\u0438\u043c \u0448\u0445\u0435\u0440\u0430\u043c",
 "url":"https://club-perexod.ru/marshruty/rossiya/kareliya/pokhod-po-ladozhskim-shkheram/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1658534400,
+"for_kids":0,
+"id":"57f5b45",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u043e\u043d\u0434\u0430",
+"price":"19\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1657929600,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1658448000,
+"for_kids":0,
+"id":"cab0852",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0430\u043c \u0441\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
+"price":"15\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1657929600,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
 "vendor":"perehod"
 },
 {
@@ -35822,6 +37226,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1658620800,
+"for_kids":0,
+"id":"ec1cb67",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1658016000,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1634677200,
 "end":1659052800,
 "for_kids":0,
@@ -35830,7 +37260,7 @@ const DATA={"weekendList": [
 "level":4,
 "norm":"\u0442\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d \u0444\u0430\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b",
 "price":"$\u00a0590",
-"slots":1,
+"slots":0,
 "start":1658102400,
 "tags":[
 2,
@@ -35855,7 +37285,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u043e\u0439 \u0437\u0430 5 \u0434\u043d\u0435\u0439",
-"price":"54\u00a0889\u00a0\u20bd",
+"price":"56\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1658102400,
 "tags":[
@@ -36030,11 +37460,37 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1658620800,
+"for_kids":0,
+"id":"743cdde",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1658102400,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
+},
+{
 "created":1636578000,
 "end":1658620800,
 "for_kids":1,
 "id":"a0928a2",
-"length":35,
+"length":25,
 "level":2,
 "norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0442\u0443\u0440 \u0434\u043e\u043c\u0431\u0430\u0439 \u0438 \u0442\u0435\u0431\u0435\u0440\u0434\u0430",
 "price":null,
@@ -36042,7 +37498,7 @@ const DATA={"weekendList": [
 "start":1658102400,
 "tags":[
 256,
-1,
+0,
 2,
 1,
 512,
@@ -36168,7 +37624,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 3 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 2022",
 "price":"78\u00a0000\u00a0\u20bd",
-"slots":1315,
+"slots":0,
 "start":1658275200,
 "tags":[
 16,
@@ -36470,6 +37926,58 @@ const DATA={"weekendList": [
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0432\u00a0\u043e\u0442\u0435\u043b\u0435",
 "url":"https://turclub-pik.ru/pohod/elbrus-s-yuga-s-komfortom-s-otelem/244/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1659312000,
+"for_kids":0,
+"id":"7e0abda",
+"length":100,
+"level":3,
+"norm":"\u0442\u0443\u0440 \u0432 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"price":"49\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1658534400,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+2,
+192,
+0,
+64
+],
+"title":"\u0422\u0443\u0440 \u0432\u00a0\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"url":"https://turclub-pik.ru/pohod/kazakhstan-bez-ryukzakov/419/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1659225600,
+"for_kids":0,
+"id":"8e63259",
+"length":null,
+"level":3,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u0432 \u0430\u0440\u0445\u044b\u0437 \u043f\u043e \u0445\u0440\u0435\u0431\u0442\u0443 \u0430\u0431\u0438\u0448\u0438\u0440\u0430-\u0430\u0445\u0443\u0431\u0430",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1658534400,
+"tags":[
+4,
+1,
+4,
+0,
+512,
+2,
+64,
+128,
+0
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437 \u043f\u043e\u00a0\u0445\u0440\u0435\u0431\u0442\u0443 \u0410\u0431\u0438\u0448\u0438\u0440\u0430-\u0410\u0445\u0443\u0431\u0430",
+"url":"https://cityescape.ru/gornyj_poxod_arxyz/",
+"vendor":"cityescape"
 },
 {
 "created":1608152400,
@@ -37044,6 +38552,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1659225600,
+"for_kids":0,
+"id":"149c5d1",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1658620800,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+64,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1635714000,
 "end":1660176000,
 "for_kids":0,
@@ -37068,6 +38602,32 @@ const DATA={"weekendList": [
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041f\u0438\u043a \u041b\u0435\u043d\u0438\u043d\u0430",
 "url":"https://stranavetrov.ru/pik-lenina/voskhozhdenie-na-pik-lenina",
 "vendor":"stranavetrov"
+},
+{
+"created":1637096400,
+"end":1659225600,
+"for_kids":0,
+"id":"c3ce114",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1658707200,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+64,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
 },
 {
 "created":1635714000,
@@ -37460,6 +39020,32 @@ const DATA={"weekendList": [
 "vendor":"orangeked"
 },
 {
+"created":1637096400,
+"end":1659744000,
+"for_kids":0,
+"id":"3349b3c",
+"length":270,
+"level":2,
+"norm":"\u0431\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438 \u043a\u0430\u043d\u0436\u043e\u043b - \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"price":"72\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1659139200,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+2,
+192,
+0,
+256
+],
+"title":"\u0411\u0435\u0440\u043c\u0430\u043c\u044b\u0442 \u0438\u00a0\u041a\u0430\u043d\u0436\u043e\u043b\u202f\u2014\u2009\u043f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/bermamyt-i-kanzhol-pohod-na-elektrovelosipedah/536/",
+"vendor":"pik"
+},
+{
 "created":1634677200,
 "end":1659830400,
 "for_kids":0,
@@ -37628,7 +39214,7 @@ const DATA={"weekendList": [
 "start":1659139200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -37640,6 +39226,58 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u041b\u0430\u0439\u0442",
 "url":"https://pro-adventure.ru/tours/id_1235_kamchatka-bez-palatok-i-ryukzakov",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1659744000,
+"for_kids":0,
+"id":"5342039",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u043e\u043d\u0434\u0430",
+"price":"19\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1659139200,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+192,
+0,
+256
+],
+"title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1659657600,
+"for_kids":0,
+"id":"d1465df",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0430\u043c \u0441\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
+"price":"15\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1659139200,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+192,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
+"vendor":"perehod"
 },
 {
 "created":1631221200,
@@ -38058,6 +39696,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1659830400,
+"for_kids":0,
+"id":"414f3f7",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1659225600,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+192,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1631221200,
 "end":1660348800,
 "for_kids":0,
@@ -38278,7 +39942,7 @@ const DATA={"weekendList": [
 "start":1659312000,
 "tags":[
 64,
-1,
+0,
 4,
 0,
 4,
@@ -38304,7 +39968,7 @@ const DATA={"weekendList": [
 "start":1659312000,
 "tags":[
 64,
-1,
+0,
 4,
 0,
 512,
@@ -38330,7 +39994,7 @@ const DATA={"weekendList": [
 "start":1659312000,
 "tags":[
 64,
-1,
+0,
 8,
 0,
 512,
@@ -38341,6 +40005,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438",
 "url":"https://club-perexod.ru/marshruty/rossiya/sibir/altay/k-podnozhiyu-belukhi/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1659830400,
+"for_kids":0,
+"id":"44fc53a",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1659312000,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+128,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
 "vendor":"perehod"
 },
 {
@@ -38902,7 +40592,7 @@ const DATA={"weekendList": [
 "start":1659744000,
 "tags":[
 4,
-1,
+0,
 2,
 0,
 512,
@@ -39079,7 +40769,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"67\u00a0889\u00a0\u20bd",
+"price":"69\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1659830400,
 "tags":[
@@ -39384,56 +41074,30 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1631221200,
-"end":1660953600,
+"created":1637096400,
+"end":1660435200,
 "for_kids":0,
-"id":"76593ca",
-"length":120,
-"level":4,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0442\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
-"price":"46\u00a0500\u00a0\u20bd",
-"slots":0,
-"start":1659916800,
-"tags":[
-1,
-0,
-8,
-0,
-512,
-2,
-128,
-1,
-0
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
-"url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/9/",
-"vendor":"pik"
-},
-{
-"created":1634677200,
-"end":1660953600,
-"for_kids":0,
-"id":"887170c",
-"length":100,
-"level":4,
-"norm":"\u043f\u043b\u0430\u0442\u043e \u043f\u0443\u0442\u043e\u0440\u0430\u043d\u0430 \u043e\u0442 \u043b\u0430\u043c\u044b \u0434\u043e \u0441\u043e\u0431\u0430\u0447\u044c\u0435\u0433\u043e \u043e\u0437\u0435\u0440\u0430",
-"price":"81\u00a0900\u00a0\u20bd",
+"id":"106bcad",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
 "slots":null,
-"start":1659916800,
+"start":1659830400,
 "tags":[
+64,
 1,
+4,
 0,
-8,
-0,
-512,
+1,
 2,
 128,
 64,
 0
 ],
-"title":"\u041f\u043b\u0430\u0442\u043e \u041f\u0443\u0442\u043e\u0440\u0430\u043d\u0430. \u041e\u0442\u00a0\u041b\u0430\u043c\u044b \u0434\u043e\u00a0\u0421\u043e\u0431\u0430\u0447\u044c\u0435\u0433\u043e \u043e\u0437\u0435\u0440\u0430",
-"url":"https://turclub-pik.ru/pohod/putorana/488/",
-"vendor":"pik"
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
 },
 {
 "created":1632085200,
@@ -39540,6 +41204,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1660435200,
+"for_kids":0,
+"id":"31a00c6",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1659916800,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+128,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
+},
+{
 "created":1636318800,
 "end":1660521600,
 "for_kids":1,
@@ -39630,7 +41320,7 @@ const DATA={"weekendList": [
 "start":1660003200,
 "tags":[
 1,
-1,
+0,
 8,
 0,
 512,
@@ -39642,6 +41332,32 @@ const DATA={"weekendList": [
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
 "url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/9/",
 "vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1660521600,
+"for_kids":0,
+"id":"3459a42",
+"length":null,
+"level":3,
+"norm":"\u0433\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0430\u0440\u0445\u044b\u0437\u0430",
+"price":"16\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1660003200,
+"tags":[
+4,
+1,
+4,
+0,
+512,
+2,
+128,
+128,
+0
+],
+"title":"\u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0410\u0440\u0445\u044b\u0437\u0430",
+"url":"https://cityescape.ru/arhyz/",
+"vendor":"cityescape"
 },
 {
 "created":1635714000,
@@ -39729,7 +41445,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u043e\u0439 \u0437\u0430 5 \u0434\u043d\u0435\u0439",
-"price":"54\u00a0889\u00a0\u20bd",
+"price":"56\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1660089600,
 "tags":[
@@ -40072,7 +41788,7 @@ const DATA={"weekendList": [
 "start":1660262400,
 "tags":[
 4,
-1,
+0,
 2,
 0,
 512,
@@ -40254,7 +41970,7 @@ const DATA={"weekendList": [
 "start":1660348800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -40266,6 +41982,58 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u041b\u0430\u0439\u0442",
 "url":"https://pro-adventure.ru/tours/id_1235_kamchatka-bez-palatok-i-ryukzakov",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1660953600,
+"for_kids":0,
+"id":"a14cf96",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u043e\u043d\u0434\u0430",
+"price":"19\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1660348800,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u00a0\u0432\u043e\u0434\u0430\u043c \u0440\u0435\u043a\u0438 \u041e\u043d\u0434\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-vodam-reki-onda/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1660867200,
+"for_kids":0,
+"id":"cf7b5f2",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0440\u0435\u043a\u0430\u043c \u0441\u044f\u043f\u0441\u044f-\u0448\u0443\u044f",
+"price":"15\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1660348800,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+128,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0440\u0435\u043a\u0430\u043c \u0421\u044f\u043f\u0441\u044f-\u0428\u0443\u044f",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/splav-po-rekam-syapsya-shuya/",
+"vendor":"perehod"
 },
 {
 "created":1631221200,
@@ -40800,7 +42568,7 @@ const DATA={"weekendList": [
 "start":1660521600,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 512,
@@ -40812,6 +42580,32 @@ const DATA={"weekendList": [
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043d\u0430\u00a0\u0421\u0430\u0445\u0430\u043b\u0438\u043d \u0438\u00a0\u041a\u0443\u0440\u0438\u043b\u044b (\u041a\u0443\u043d\u0430\u0448\u0438\u0440, \u0418\u0442\u0443\u0440\u0443\u043f)",
 "url":"https://pro-adventure.ru/tours/id_2581_puteshestvie-kurilskie-ostrova-kunashir-i-iturup-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1661040000,
+"for_kids":0,
+"id":"5031741",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1660521600,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+128,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
 },
 {
 "created":1636318800,
@@ -40873,7 +42667,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438",
-"price":"47\u00a0889\u00a0\u20bd",
+"price":"49\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1660608000,
 "tags":[
@@ -41008,7 +42802,7 @@ const DATA={"weekendList": [
 "start":1660694400,
 "tags":[
 64,
-1,
+0,
 4,
 0,
 512,
@@ -41129,32 +42923,6 @@ const DATA={"weekendList": [
 "created":1634677200,
 "end":1661126400,
 "for_kids":0,
-"id":"5edb3a1",
-"length":null,
-"level":null,
-"norm":"\u043a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u043e\u0448\u0442\u0435\u043d",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1660780800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-128,
-0,
-256
-],
-"title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u041e\u0448\u0442\u0435\u043d",
-"url":"https://strannik36.ru/kolco-gory-oshten",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1661126400,
-"for_kids":0,
 "id":"e173093",
 "length":null,
 "level":null,
@@ -41175,6 +42943,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://strannik36.ru/vyhodnye-v-arhyze",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1661126400,
+"for_kids":0,
+"id":"5edb3a1",
+"length":null,
+"level":null,
+"norm":"\u043a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u043e\u0448\u0442\u0435\u043d",
+"price":"11\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1660780800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+128,
+0,
+256
+],
+"title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u041e\u0448\u0442\u0435\u043d",
+"url":"https://strannik36.ru/kolco-gory-oshten",
 "vendor":"strannik"
 },
 {
@@ -41331,6 +43125,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0435\u0448\u0438\u0439 \u043f\u043e\u0445\u043e\u0434 \u0438\u00a0\u0442\u0443\u0440 \u043d\u0430\u00a0\u043a\u0430\u044f\u043a\u0430\u0445 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443",
 "url":"https://turclub-pik.ru/pohod/krym-pohod-i-tur-na-kayakah/120/",
+"vendor":"pik"
+},
+{
+"created":1637096400,
+"end":1661731200,
+"for_kids":0,
+"id":"90ef3d0",
+"length":100,
+"level":3,
+"norm":"\u0442\u0443\u0440 \u0432 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"price":"49\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1660953600,
+"tags":[
+1,
+1,
+4,
+0,
+512,
+2,
+128,
+0,
+64
+],
+"title":"\u0422\u0443\u0440 \u0432\u00a0\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"url":"https://turclub-pik.ru/pohod/kazakhstan-bez-ryukzakov/419/",
 "vendor":"pik"
 },
 {
@@ -41523,7 +43343,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"67\u00a0889\u00a0\u20bd",
+"price":"69\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1661040000,
 "tags":[
@@ -41854,6 +43674,58 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1662336000,
+"for_kids":0,
+"id":"2f800ca",
+"length":null,
+"level":3,
+"norm":"\u0442\u0440\u0430\u043d\u0441\u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
+"price":"250\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1661040000,
+"tags":[
+512,
+1,
+4,
+0,
+512,
+2,
+384,
+0,
+256
+],
+"title":"\u0422\u0440\u0430\u043d\u0441\u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0430\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f",
+"url":"https://pro-adventure.ru/tours/id_2715_ekspediciya-na-kurilskie-ostrova-1-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1637096400,
+"end":1661644800,
+"for_kids":0,
+"id":"bff94bd",
+"length":null,
+"level":3,
+"norm":"\u0441\u043f\u043b\u0430\u0432 \u043f\u043e \u0441\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"price":"17\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1661040000,
+"tags":[
+64,
+1,
+4,
+0,
+1,
+2,
+128,
+64,
+0
+],
+"title":"\u0421\u043f\u043b\u0430\u0432 \u043f\u043e\u00a0\u0421\u0443\u043d\u0441\u043a\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0435",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/sunskaya-cepochka-8-dnej/",
+"vendor":"perehod"
+},
+{
 "created":1634677200,
 "end":1661904000,
 "for_kids":0,
@@ -42010,6 +43882,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1661644800,
+"for_kids":0,
+"id":"6610695",
+"length":null,
+"level":2,
+"norm":"\u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u043a\u0430\u0440\u0435\u043b\u0438\u0438 - \u0440 \u0441\u0443\u043d\u0430",
+"price":"19\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1661126400,
+"tags":[
+64,
+1,
+2,
+0,
+512,
+2,
+128,
+64,
+0
+],
+"title":"\u041f\u043e\u00a0\u0441\u0430\u043c\u043e\u0439 \u0434\u043b\u0438\u043d\u043d\u043e\u0439 \u0440\u0435\u043a\u0435 \u041a\u0430\u0440\u0435\u043b\u0438\u0438\u202f\u2014\u2009\u0440.\u00a0\u0421\u0443\u043d\u0430",
+"url":"https://club-perexod.ru/marshruty/rossiya/kareliya/po-samoy-dlinnoy-reke-karelii-r-suna/",
+"vendor":"perehod"
+},
+{
 "created":1636318800,
 "end":1661904000,
 "for_kids":0,
@@ -42100,7 +43998,7 @@ const DATA={"weekendList": [
 "start":1661212800,
 "tags":[
 256,
-1,
+0,
 8,
 0,
 512,
@@ -42126,7 +44024,7 @@ const DATA={"weekendList": [
 "start":1661299200,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -42400,6 +44298,32 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
+"created":1637096400,
+"end":1662681600,
+"for_kids":0,
+"id":"6dc6f3f",
+"length":null,
+"level":null,
+"norm":"\u0432\u043e\u043a\u0440\u0443\u0433 \u0432\u0443\u043b\u043a\u0430\u043d\u0430 \u0431\u0430\u043a\u0435\u043d\u0438\u043d\u0433 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
+"price":"46\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1661644800,
+"tags":[
+8,
+1,
+4,
+0,
+512,
+2,
+384,
+1,
+0
+],
+"title":"\u0412\u043e\u043a\u0440\u0443\u0433 \u0432\u0443\u043b\u043a\u0430\u043d\u0430 \u0411\u0430\u043a\u0435\u043d\u0438\u043d\u0433 (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
+"url":"https://zovgor.com/bakening.html",
+"vendor":"zovgor"
+},
+{
 "created":1636318800,
 "end":1662163200,
 "for_kids":0,
@@ -42612,7 +44536,7 @@ const DATA={"weekendList": [
 "end":1662681600,
 "for_kids":0,
 "id":"5bc7d96",
-"length":120,
+"length":90,
 "level":4,
 "norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0434\u0438\u043a\u043e\u0439 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0431\u0430\u043a\u0435\u043d\u0438\u043d\u0433",
 "price":"43\u00a0000\u00a0\u20bd",
@@ -43239,7 +45163,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043d\u0430\u043b\u044b\u0447\u0435\u0432\u043e",
-"price":"38\u00a0389\u00a0\u20bd",
+"price":"39\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1662336000,
 "tags":[
@@ -43374,7 +45298,7 @@ const DATA={"weekendList": [
 "start":1662595200,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 512,
@@ -43492,6 +45416,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1637096400,
+"end":1663459200,
+"for_kids":0,
+"id":"650e266",
+"length":null,
+"level":null,
+"norm":"\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043a\u0430\u0437\u0431\u0435\u043a \u0441 \u0441\u0435\u0432\u0435\u0440\u0430",
+"price":"27\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1662681600,
+"tags":[
+4,
+1,
+4,
+0,
+32,
+2,
+256,
+0,
+16
+],
+"title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u041a\u0430\u0437\u0431\u0435\u043a \u0441\u00a0\u0441\u0435\u0432\u0435\u0440\u0430",
+"url":"https://cityescape.ru/vosxozhdenie-na-kazbek-s-severa/",
+"vendor":"cityescape"
+},
+{
 "created":1636318800,
 "end":1663459200,
 "for_kids":0,
@@ -43603,7 +45553,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"67\u00a0889\u00a0\u20bd",
+"price":"69\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1662854400,
 "tags":[
@@ -43707,7 +45657,7 @@ const DATA={"weekendList": [
 "length":50,
 "level":1,
 "norm":"\u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u043e\u0439 \u0437\u0430 5 \u0434\u043d\u0435\u0439",
-"price":"54\u00a0889\u00a0\u20bd",
+"price":"56\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1662940800,
 "tags":[
@@ -43759,7 +45709,7 @@ const DATA={"weekendList": [
 "length":120,
 "level":4,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0442\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
-"price":"45\u00a0389\u00a0\u20bd",
+"price":"46\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1662940800,
 "tags":[
@@ -44201,7 +46151,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0432\u0443\u043b\u043a\u0430\u043d\u044b \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"67\u00a0889\u00a0\u20bd",
+"price":"69\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1663459200,
 "tags":[
@@ -44613,32 +46563,6 @@ const DATA={"weekendList": [
 "created":1634677200,
 "end":1664755200,
 "for_kids":0,
-"id":"90e54d0",
-"length":null,
-"level":null,
-"norm":"\u0434\u043e\u043c\u0431\u0430\u0439 \u0430\u043b\u0438\u0431\u0435\u043a",
-"price":"12\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1664409600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-768,
-128,
-0
-],
-"title":"\u0414\u043e\u043c\u0431\u0430\u0439. \u0410\u043b\u0438\u0431\u0435\u043a",
-"url":"https://strannik36.ru/dombay-alibek",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1664755200,
-"for_kids":0,
 "id":"c460f3f",
 "length":null,
 "level":null,
@@ -44659,6 +46583,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://strannik36.ru/vyhodnye-v-arhyze",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1664755200,
+"for_kids":0,
+"id":"90e54d0",
+"length":null,
+"level":null,
+"norm":"\u0434\u043e\u043c\u0431\u0430\u0439 \u0430\u043b\u0438\u0431\u0435\u043a",
+"price":"12\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1664409600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+768,
+128,
+0
+],
+"title":"\u0414\u043e\u043c\u0431\u0430\u0439. \u0410\u043b\u0438\u0431\u0435\u043a",
+"url":"https://strannik36.ru/dombay-alibek",
 "vendor":"strannik"
 },
 {
@@ -45052,6 +47002,58 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1637096400,
+"end":1666396800,
+"for_kids":0,
+"id":"c6fe3db",
+"length":null,
+"level":3,
+"norm":"\u0441\u0435\u0440\u0434\u0446\u0435 \u0442\u0430\u0432\u0440\u0438\u0434\u044b",
+"price":"9\u00a0400\u00a0\u20bd",
+"slots":null,
+"start":1665792000,
+"tags":[
+64,
+1,
+4,
+0,
+512,
+2,
+512,
+32,
+0
+],
+"title":"\u0421\u0435\u0440\u0434\u0446\u0435 \u0422\u0430\u0432\u0440\u0438\u0434\u044b",
+"url":"https://club-perexod.ru/marshruty/rossiya/krym/serdtse-tavridy/",
+"vendor":"perehod"
+},
+{
+"created":1637096400,
+"end":1666396800,
+"for_kids":0,
+"id":"9e5f114",
+"length":null,
+"level":2,
+"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0430\u0434\u044b\u0433\u0435\u044e",
+"price":"35\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1665878400,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+2,
+512,
+128,
+0
+],
+"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u044e",
+"url":"https://pro-adventure.ru/tours/id_2194_aktivnyj-tur-v-adygeyu",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1666483200,
 "for_kids":0,
@@ -45338,6 +47340,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1666483200,
+"for_kids":0,
+"id":"809279b",
+"length":null,
+"level":2,
+"norm":"\u044e\u0436\u043d\u044b\u0439 \u0431\u0435\u0440\u0435\u0433 \u043a\u0440\u044b\u043c\u0430",
+"price":"30\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1666483200,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+512,
+32,
+0
+],
+"title":"\u042e\u0436\u043d\u044b\u0439 \u0431\u0435\u0440\u0435\u0433 \u041a\u0440\u044b\u043c\u0430",
+"url":"https://pro-adventure.ru/tours/id_2591_yuzhnyj-bereg-kryma",
+"vendor":"pro_adventure"
+},
+{
 "created":1634677200,
 "end":1667174400,
 "for_kids":0,
@@ -45494,6 +47522,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1637096400,
+"end":1667088000,
+"for_kids":0,
+"id":"214bda7",
+"length":null,
+"level":2,
+"norm":"\u044e\u0436\u043d\u044b\u0439 \u0431\u0435\u0440\u0435\u0433 \u043a\u0440\u044b\u043c\u0430",
+"price":"30\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1667088000,
+"tags":[
+512,
+1,
+2,
+0,
+512,
+1,
+512,
+32,
+0
+],
+"title":"\u042e\u0436\u043d\u044b\u0439 \u0431\u0435\u0440\u0435\u0433 \u041a\u0440\u044b\u043c\u0430",
+"url":"https://pro-adventure.ru/tours/id_2591_yuzhnyj-bereg-kryma",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1667692800,
 "for_kids":0,
@@ -45584,7 +47638,7 @@ const DATA={"weekendList": [
 "start":1667347200,
 "tags":[
 1024,
-1,
+0,
 2,
 0,
 512,
@@ -45648,6 +47702,32 @@ const DATA={"weekendList": [
 "title":"\u041c\u0435\u0436\u0434\u0443 \u043d\u0435\u0431\u043e\u043c \u0438\u00a0\u043c\u043e\u0440\u0435\u043c",
 "url":"https://zovgor.com/sky.html",
 "vendor":"zovgor"
+},
+{
+"created":1637096400,
+"end":1668211200,
+"for_kids":1,
+"id":"5cb49cc",
+"length":null,
+"level":3,
+"norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e \u043f\u0430\u0440\u043a\u0430\u043c \u0438 \u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u043a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0432\u043e\u0434",
+"price":"32\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1667692800,
+"tags":[
+512,
+1,
+4,
+1,
+512,
+2,
+0,
+128,
+0
+],
+"title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
+"url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
+"vendor":"pro_adventure"
 },
 {
 "created":1635714000,
@@ -45752,6 +47832,32 @@ const DATA={"weekendList": [
 "title":"\u0421\u043e\u0447\u0438. \u041e\u0442\u00a0\u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e\u00a0\u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/sochi-ot-snezhnyh-gor-do-teplogo-morya",
 "vendor":"strannik"
+},
+{
+"created":1637096400,
+"end":1668816000,
+"for_kids":1,
+"id":"1a39bc8",
+"length":null,
+"level":3,
+"norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e \u043f\u0430\u0440\u043a\u0430\u043c \u0438 \u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u043a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0432\u043e\u0434",
+"price":"32\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1668297600,
+"tags":[
+512,
+1,
+4,
+1,
+512,
+2,
+0,
+128,
+0
+],
+"title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u043f\u043e\u00a0\u043f\u0430\u0440\u043a\u0430\u043c \u0438\u00a0\u044d\u043a\u043e\u0442\u0440\u043e\u043f\u0430\u043c \u041a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0412\u043e\u0434",
+"url":"https://pro-adventure.ru/tours/id_2474_trekking-po-parkam-i-ekotropam-kavkazskih-mineralnyh-vod",
+"vendor":"pro_adventure"
 },
 {
 "created":1630875600,
