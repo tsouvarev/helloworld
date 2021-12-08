@@ -47,58 +47,6 @@ const DATA={"weekendList": [
 ], "eventSource": [
 {
 "created":1630875600,
-"end":1638144000,
-"for_kids":0,
-"id":"c40511a",
-"length":null,
-"level":null,
-"norm":"\u0441\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a \u043a\u0438\u0442\u0430\u043c",
-"price":null,
-"slots":null,
-"start":1637539200,
-"tags":[
-32,
-0,
-4,
-0,
-512,
-2,
-0,
-0,
-256
-],
-"title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0438\u0442\u0430\u043c",
-"url":"https://team-trip.ru/secret",
-"vendor":"teamtrip"
-},
-{
-"created":1634677200,
-"end":1639094400,
-"for_kids":0,
-"id":"16fa526",
-"length":null,
-"level":null,
-"norm":"\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u044b \u043d\u043e\u0432\u044b\u0439 \u044d\u0434\u0435\u043c-2 2021",
-"price":"\u20ac\u00a01\u00a0180",
-"slots":610,
-"start":1638144000,
-"tags":[
-16,
-0,
-4,
-0,
-512,
-2,
-2048,
-0,
-32
-],
-"title":"\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b. \u041d\u043e\u0432\u044b\u0439 \u042d\u0434\u0435\u043c-2\u00a0/ 2021",
-"url":"https://www.napravlenie.info/catalog/avtorskie-tury/maldivy-novyy-edem-2-2021/",
-"vendor":"napravlenie"
-},
-{
-"created":1630875600,
 "end":1638748800,
 "for_kids":0,
 "id":"635c9b9",
@@ -122,240 +70,6 @@ const DATA={"weekendList": [
 "title":"\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u0442\u0440\u0438\u043f \u043a\u00a0\u043a\u0438\u0442\u0430\u043c",
 "url":"https://team-trip.ru/secret",
 "vendor":"teamtrip"
-},
-{
-"created":1634677200,
-"end":1638576000,
-"for_kids":0,
-"id":"61c49d5",
-"length":null,
-"level":2,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u044b\u0435 \u043a\u0438\u0436\u0438",
-"price":"1\u00a0300\u00a0\u20bd",
-"slots":null,
-"start":1638576000,
-"tags":[
-4,
-0,
-2,
-0,
-512,
-1,
-2048,
-64,
-0
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u00ab\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u044b\u0435 \u041a\u0438\u0436\u0438\u00bb",
-"url":"https://cityescape.ru/malinki/",
-"vendor":"cityescape"
-},
-{
-"created":1637096400,
-"end":1638662400,
-"for_kids":0,
-"id":"22573f6",
-"length":null,
-"level":2,
-"norm":"\u0443\u043b\u0435\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"18\u00a0100\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-2048,
-128,
-0
-],
-"title":"\u0423\u043b\u0451\u0442\u043d\u044b\u0435 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041e\u0441\u0435\u0442\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2463_komfort-tur-po-dagestanu-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1630875600,
-"end":1639180800,
-"for_kids":0,
-"id":"8de2d6f",
-"length":null,
-"level":2,
-"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440 8 \u0434\u043d\u0435\u0439",
-"price":"55\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-0,
-256
-],
-"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u043c\u0430\u0433\u0438\u044f \u0433\u043e\u0440, 8\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1285_zimny-otdih-v-adygee",
-"vendor":"pro_adventure"
-},
-{
-"created":1634677200,
-"end":1639008000,
-"for_kids":0,
-"id":"691381e",
-"length":null,
-"level":2,
-"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0430\u043b\u0442\u0430\u044f",
-"price":"30\u00a0000\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-4,
-0
-],
-"title":"\u00ab\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0410\u043b\u0442\u0430\u044f\u00bb",
-"url":"https://pro-adventure.ru/tours/id_2669_letnyaya-skazka-1-1-1-1-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1639094400,
-"for_kids":0,
-"id":"317124d",
-"length":null,
-"level":2,
-"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 7",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-0,
-256
-],
-"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20097",
-"url":"https://pro-adventure.ru/tours/id_2694_snezhnyj-kraka-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1638921600,
-"for_kids":0,
-"id":"6e4791b",
-"length":null,
-"level":2,
-"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 5",
-"price":"27\u00a0400\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-0,
-256
-],
-"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20095",
-"url":"https://pro-adventure.ru/tours/id_2693_snezhnyj-kraka-5",
-"vendor":"pro_adventure"
-},
-{
-"created":1634677200,
-"end":1638921600,
-"for_kids":0,
-"id":"f64a903",
-"length":null,
-"level":2,
-"norm":"\u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432 \u043d\u043e\u044f\u0431\u0440\u0435",
-"price":"33\u00a0500\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-64,
-0
-],
-"title":"\u0422\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u0432\u00a0\u043d\u043e\u044f\u0431\u0440\u0435",
-"url":"https://pro-adventure.ru/tours/id_2083_teriberka-v-noyabre",
-"vendor":"pro_adventure"
-},
-{
-"created":1635886800,
-"end":1639008000,
-"for_kids":0,
-"id":"bba08b2",
-"length":null,
-"level":2,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u0444\u0440\u0435\u0448 \u0430\u043b\u0442\u0430\u044f",
-"price":"46\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-4,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u0444\u0440\u0435\u0448 \u0410\u043b\u0442\u0430\u044f \u2744\ufe0f\ufe0f",
-"url":"https://pro-adventure.ru/tours/id_2701_zimnij-fresh-altaya",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1638662400,
-"for_kids":0,
-"id":"215c09a",
-"length":null,
-"level":2,
-"norm":"\u0443\u0444\u0430 - \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0435\u0432\u0440\u043e\u043f\u044b - 2",
-"price":"11\u00a0900\u00a0\u20bd",
-"slots":0,
-"start":1638576000,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-2048,
-0,
-256
-],
-"title":"\u0423\u0444\u0430\u202f\u2014\u2009\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u0430\u044f \u0442\u043e\u0447\u043a\u0430 \u0415\u0432\u0440\u043e\u043f\u044b\u202f\u2014\u20092",
-"url":"https://pro-adventure.ru/tours/id_2691_ufa-vostochnaya-tochka-evropy-2",
-"vendor":"pro_adventure"
 },
 {
 "created":1609621200,
@@ -384,162 +98,6 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"created":1634677200,
-"end":1639180800,
-"for_kids":1,
-"id":"bf601e0",
-"length":null,
-"level":2,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0433\u043e\u0440\u0430\u0445 \u0430\u0434\u044b\u0433\u0435\u0438",
-"price":"22\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438",
-"url":"https://pro-adventure.ru/tours/id_1966_aktiv-tur-v-gory-adygei",
-"vendor":"pro_adventure"
-},
-{
-"created":1627938000,
-"end":1639180800,
-"for_kids":1,
-"id":"2c483a8",
-"length":null,
-"level":2,
-"norm":"\u043c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432 \u0430\u0434\u044b\u0433\u0435\u0435",
-"price":"24\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u041c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432 \u0432\u00a0\u0410\u0434\u044b\u0433\u0435\u0435",
-"url":"https://pro-adventure.ru/tours/id_1492_multiaktiv-v-adygee",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1639094400,
-"for_kids":1,
-"id":"cf43dc1",
-"length":null,
-"level":2,
-"norm":"\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u0433\u043e\u0440\u0430\u0445 \u0430\u0434\u044b\u0433\u0435\u0438 6 \u0434\u043d\u0435\u0439",
-"price":"20\u00a0300\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u0410\u0434\u044b\u0433\u0435\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1967_aktiv-tur-v-adygee-6",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1639180800,
-"for_kids":1,
-"id":"dc709ff",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 7 \u0434\u043d\u0435\u0439",
-"price":"26\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 7\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1968_gornaya-adygeya-ekskursii-istochniki-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1639094400,
-"for_kids":1,
-"id":"8e1228f",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u0430\u044f \u0430\u0434\u044b\u0433\u0435\u044f \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 6 \u0434\u043d\u0435\u0439",
-"price":"23\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-512,
-0,
-2,
-1,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u0430\u044f \u0410\u0434\u044b\u0433\u0435\u044f: \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 + \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, 6\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_1969_gornaya-adygeya-ekskursii-istochniki-6",
-"vendor":"pro_adventure"
-},
-{
-"created":1634677200,
-"end":1639267200,
-"for_kids":0,
-"id":"7f97871",
-"length":null,
-"level":2,
-"norm":"\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432 \u0445\u0438\u0431\u0438\u043d\u044b",
-"price":"18\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1638662400,
-"tags":[
-64,
-0,
-2,
-0,
-16,
-2,
-2048,
-64,
-0
-],
-"title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0425\u0438\u0431\u0438\u043d\u044b",
-"url":"https://club-perexod.ru/marshruty/rossiya/kolskiy-poluostrov/lyzhnyy-pokhod-v-khibiny/",
-"vendor":"perehod"
-},
-{
 "created":1630875600,
 "end":1639353600,
 "for_kids":0,
@@ -566,84 +124,6 @@ const DATA={"weekendList": [
 "vendor":"teamtrip"
 },
 {
-"created":1638565200,
-"end":1639267200,
-"for_kids":1,
-"id":"a4a968d",
-"length":null,
-"level":2,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0437\u0438\u043c\u043d\u0435\u043c\u0443 \u0430\u043b\u0442\u0430\u044e",
-"price":"38\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1638748800,
-"tags":[
-512,
-1,
-2,
-1,
-512,
-2,
-2048,
-4,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0417\u0438\u043c\u043d\u0435\u043c\u0443 \u0410\u043b\u0442\u0430\u044e",
-"url":"https://pro-adventure.ru/tours/id_1824_puteshestvie-po-altayu",
-"vendor":"pro_adventure"
-},
-{
-"created":1638565200,
-"end":1639180800,
-"for_kids":1,
-"id":"88d01e9",
-"length":null,
-"level":2,
-"norm":"\u0432\u043b\u044e\u0431\u0438\u0441\u044c \u0432 \u0430\u043b\u0442\u0430\u0439 \u0437\u0430 5 \u0434\u043d\u0435\u0439",
-"price":"22\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1638748800,
-"tags":[
-512,
-1,
-2,
-1,
-512,
-2,
-2048,
-4,
-0
-],
-"title":"\u0412\u043b\u044e\u0431\u0438\u0441\u044c \u0432\u00a0\u0410\u043b\u0442\u0430\u0439 \u0437\u0430\u00a05\u00a0\u0434\u043d\u0435\u0439",
-"url":"https://pro-adventure.ru/tours/id_2732_zimnij-obzornyj-tur-po-altayu-3-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1636318800,
-"end":1638921600,
-"for_kids":0,
-"id":"e42b104",
-"length":null,
-"level":2,
-"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 3",
-"price":"15\u00a0300\u00a0\u20bd",
-"slots":null,
-"start":1638748800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-1,
-2048,
-0,
-256
-],
-"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20093",
-"url":"https://pro-adventure.ru/tours/id_2687_snezhnyj-kraka-3",
-"vendor":"pro_adventure"
-},
-{
 "created":1635714000,
 "end":1639267200,
 "for_kids":0,
@@ -652,7 +132,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0431\u0430\u0448\u043a\u0438\u0440\u0438\u044f \u0434\u043b\u044f \u0432\u0430\u0441 \u043e\u0442 \u0443\u0444\u044b \u0434\u043e \u0448\u0443\u043b\u044c\u0433\u0430\u043d-\u0442\u0430\u0448\u0430",
 "price":"25\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -678,7 +158,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0443\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u0443\u0437\u043e\u0440",
 "price":"24\u00a0300\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -704,7 +184,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u043a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440 + \u0430\u0434\u044b\u0433\u0435\u044f \u043d\u0430 5 \u0434\u043d\u0435\u0439",
 "price":"46\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -730,7 +210,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0444\u043e\u0442\u043e-\u0442\u0443\u0440 \u043d\u0430 \u0434\u0436\u0438\u043f\u0430\u0445 \u043e\u0441\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0435 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u044b",
 "price":"37\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -756,7 +236,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0444\u043e\u0442\u043e\u0441\u0435\u0441\u0441\u0438\u044f + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0432 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"37\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -781,8 +261,8 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
+"price":"39\u00a0900\u00a0\u20bd",
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -800,32 +280,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1635714000,
-"end":1639267200,
-"for_kids":0,
-"id":"a0933c0",
-"length":null,
-"level":2,
-"norm":"\u0440\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1638921600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0420\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2608_relaks-tur-otel-v-gorah-i-ekskursii-iz-goroda",
-"vendor":"pro_adventure"
-},
-{
 "created":1636318800,
 "end":1639267200,
 "for_kids":0,
@@ -834,7 +288,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u044d\u043a\u0441\u0442\u0440\u0438\u043c-\u0434\u0435\u043d\u044c + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"34\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -860,7 +314,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u044d\u043a\u0441\u0442\u0440\u0438\u043c-\u0434\u0435\u043d\u044c + 3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u043f\u043e \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438",
 "price":"34\u00a0800\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -886,7 +340,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0447\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u0443\u0440\u0430\u043b\u0430 \u0437\u0438\u043c\u0430",
 "price":"12\u00a0900\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1638921600,
 "tags":[
 512,
@@ -963,7 +417,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1067,7 +521,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1145,7 +599,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1171,7 +625,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1197,7 +651,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1223,7 +677,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1268,13 +722,13 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1637096400,
+"created":1634677200,
 "end":1639353600,
 "for_kids":0,
-"id":"ba73346",
+"id":"c7b7c7b",
 "length":null,
 "level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
 "price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
@@ -1283,14 +737,14 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-16,
+512,
 2,
 2048,
 8,
 0
 ],
-"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -1320,14 +774,14 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1634677200,
+"created":1637096400,
 "end":1639353600,
 "for_kids":0,
-"id":"c7b7c7b",
+"id":"ba73346",
 "length":null,
 "level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639008000,
 "tags":[
@@ -1335,14 +789,14 @@ const DATA={"weekendList": [
 0,
 4,
 0,
-512,
+16,
 2,
 2048,
 8,
 0
 ],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -2138,7 +1592,7 @@ const DATA={"weekendList": [
 "start":1639353600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -2190,7 +1644,7 @@ const DATA={"weekendList": [
 "start":1639353600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -2419,7 +1873,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639526400,
 "tags":[
@@ -2435,32 +1889,6 @@ const DATA={"weekendList": [
 ],
 "title":"3\u00a0\u0432\u00a01: \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f + \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0427\u0435\u0447\u043d\u044f\u202f\u2014\u20095\u00a0\u0414\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2603_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1639872000,
-"for_kids":0,
-"id":"4b000b1",
-"length":null,
-"level":2,
-"norm":"\u0440\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639526400,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0420\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2608_relaks-tur-otel-v-gorah-i-ekskursii-iz-goroda",
 "vendor":"pro_adventure"
 },
 {
@@ -2575,7 +2003,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2679,7 +2107,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2757,7 +2185,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2783,7 +2211,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2809,7 +2237,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2835,7 +2263,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1639612800,
 "tags":[
@@ -2880,58 +2308,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1632085200,
-"end":1639958400,
-"for_kids":0,
-"id":"2563a8f",
-"length":null,
-"level":null,
-"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1639612800,
-"tags":[
-128,
-0,
-4,
-0,
-16,
-2,
-2048,
-128,
-0
-],
-"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
-"created":1619557200,
-"end":1639958400,
-"for_kids":0,
-"id":"9dc72f8",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1639612800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
-"vendor":"strannik"
-},
-{
 "created":1638133200,
 "end":1639958400,
 "for_kids":0,
@@ -2955,6 +2331,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1632085200,
+"end":1639958400,
+"for_kids":0,
+"id":"2563a8f",
+"length":null,
+"level":null,
+"norm":"\u0430\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1639612800,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+2048,
+128,
+0
+],
+"title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -3452,32 +2854,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1640217600,
-"for_kids":0,
-"id":"6327625",
-"length":null,
-"level":2,
-"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0430\u043b\u0442\u0430\u044f",
-"price":"30\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1639785600,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-4,
-0
-],
-"title":"\u00ab\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0410\u043b\u0442\u0430\u044f\u00bb",
-"url":"https://pro-adventure.ru/tours/id_2669_letnyaya-skazka-1-1-1-1-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
 "created":1635714000,
 "end":1640304000,
 "for_kids":1,
@@ -3501,6 +2877,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
+"created":1634677200,
+"end":1640217600,
+"for_kids":0,
+"id":"6327625",
+"length":null,
+"level":2,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0430\u043b\u0442\u0430\u044f",
+"price":"30\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1639785600,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+2048,
+4,
+0
+],
+"title":"\u00ab\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0410\u043b\u0442\u0430\u044f\u00bb",
+"url":"https://pro-adventure.ru/tours/id_2669_letnyaya-skazka-1-1-1-1-1-1-1-1-1",
 "vendor":"pro_adventure"
 },
 {
@@ -3620,7 +3022,7 @@ const DATA={"weekendList": [
 "start":1639872000,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 16,
@@ -3854,7 +3256,7 @@ const DATA={"weekendList": [
 "start":1640131200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -3953,7 +3355,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640131200,
 "tags":[
@@ -3969,32 +3371,6 @@ const DATA={"weekendList": [
 ],
 "title":"3\u00a0\u0432\u00a01: \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f + \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0427\u0435\u0447\u043d\u044f\u202f\u2014\u20095\u00a0\u0414\u043d\u0435\u0439",
 "url":"https://pro-adventure.ru/tours/id_2603_komfort-tur-v-mini-gruppe-severnaya-osetiya-na-vyhodnye-3-dnya-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1640476800,
-"for_kids":0,
-"id":"cb35e5e",
-"length":null,
-"level":2,
-"norm":"\u0440\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432 \u043e\u0441\u0435\u0442\u0438\u0438",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1640131200,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2048,
-128,
-0
-],
-"title":"\u0420\u0435\u043b\u0430\u043a\u0441-\u0442\u0443\u0440 \u0432\u00a0\u041e\u0441\u0435\u0442\u0438\u0438",
-"url":"https://pro-adventure.ru/tours/id_2608_relaks-tur-otel-v-gorah-i-ekskursii-iz-goroda",
 "vendor":"pro_adventure"
 },
 {
@@ -4109,7 +3485,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4213,7 +3589,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4291,7 +3667,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4317,7 +3693,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4343,7 +3719,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4369,7 +3745,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4421,7 +3797,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
+"price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1640217600,
 "tags":[
@@ -4802,6 +4178,32 @@ const DATA={"weekendList": [
 "title":"\u0412\u0438\u043a\u044d\u043d\u0434 \u0432\u00a0\u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u043c \u0441\u0442\u0438\u043b\u0435, \u0438\u043b\u0438 \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441\u00a0\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u043e\u043c",
 "url":"https://pro-adventure.ru/tours/id_2632_vikend-v-evropejskom-stile-ili-znakomstvo-s-kaliningradom-mini-gruppa",
 "vendor":"pro_adventure"
+},
+{
+"created":1638910800,
+"end":1640476800,
+"for_kids":0,
+"id":"47d8019",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1640390400,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+2048,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
+"vendor":"pik"
 },
 {
 "created":1609621200,
@@ -6241,7 +5643,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":1,
 "norm":"\u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u044f\u044f \u0430\u0431\u0445\u0430\u0437\u0438\u044f \u0433\u043e\u0440\u044b \u043c\u043e\u0440\u0435 \u0438 \u0442\u0443\u0441\u043e\u0432\u043a\u0430",
-"price":"39\u00a0000\u00a0\u20bd",
+"price":"41\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1640908800,
 "tags":[
@@ -6364,29 +5766,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1641427200,
+"created":1638910800,
+"end":1641340800,
 "for_kids":0,
-"id":"9d78cc7",
+"id":"4df4693",
 "length":null,
-"level":2,
-"norm":"\u043b\u0443\u0447\u0448\u0438\u0439 \u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430 \u0441\u0430\u0445\u0430\u043b\u0438\u043d\u0435",
-"price":"114\u00a0900\u00a0\u20bd",
+"level":3,
+"norm":"\u0433\u0443\u0430\u043c\u0441\u043a\u0430\u044f \u043a\u0440\u0443\u0433\u043e\u0441\u0432\u0435\u0442\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u0442\u0443\u0440",
+"price":"39\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1640908800,
 "tags":[
 512,
-0,
-2,
+1,
+4,
 0,
 512,
 2,
 2049,
-2,
-0
+0,
+256
 ],
-"title":"\u041b\u0443\u0447\u0448\u0438\u0439 \u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430\u00a0\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0435!",
-"url":"https://pro-adventure.ru/tours/id_2675_luchshij-novyj-god-na-sahaline-komfort",
+"title":"\u0413\u0443\u0430\u043c\u0441\u043a\u0430\u044f \u043a\u0440\u0443\u0433\u043e\u0441\u0432\u0435\u0442\u043a\u0430, \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0438\u0439 \u0442\u0443\u0440",
+"url":"https://pro-adventure.ru/tours/id_2746_aktivnyj-tur-na-rozhdestvenskie-vyhodnye-v-adygee-1",
 "vendor":"pro_adventure"
 },
 {
@@ -6413,6 +5815,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
+"created":1634677200,
+"end":1641427200,
+"for_kids":0,
+"id":"9d78cc7",
+"length":null,
+"level":2,
+"norm":"\u043b\u0443\u0447\u0448\u0438\u0439 \u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430 \u0441\u0430\u0445\u0430\u043b\u0438\u043d\u0435",
+"price":"114\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1640908800,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+2049,
+2,
+0
+],
+"title":"\u041b\u0443\u0447\u0448\u0438\u0439 \u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u043d\u0430\u00a0\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0435!",
+"url":"https://pro-adventure.ru/tours/id_2675_luchshij-novyj-god-na-sahaline-komfort",
 "vendor":"pro_adventure"
 },
 {
@@ -6443,32 +5871,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1635714000,
-"end":1641427200,
-"for_kids":0,
-"id":"f14f558",
-"length":null,
-"level":2,
-"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 7",
-"price":"36\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1640908800,
-"tags":[
-512,
-0,
-2,
-0,
-512,
-2,
-2049,
-0,
-256
-],
-"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20097",
-"url":"https://pro-adventure.ru/tours/id_2694_snezhnyj-kraka-7",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
 "end":1641254400,
 "for_kids":0,
 "id":"1f33c35",
@@ -6491,6 +5893,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0423\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u043c\u0443\u043b\u044c\u0442\u0438\u0430\u043a\u0442\u0438\u0432",
 "url":"https://pro-adventure.ru/tours/id_2696_uralskij-multiaktiv",
+"vendor":"pro_adventure"
+},
+{
+"created":1635714000,
+"end":1641427200,
+"for_kids":0,
+"id":"f14f558",
+"length":null,
+"level":2,
+"norm":"\u0441\u043d\u0435\u0436\u043d\u044b\u0439 \u043a\u0440\u0430\u043a\u0430 - 7",
+"price":"36\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1640908800,
+"tags":[
+512,
+0,
+2,
+0,
+512,
+2,
+2049,
+0,
+256
+],
+"title":"\u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u041a\u0440\u0430\u043a\u0430\u202f\u2014\u20097",
+"url":"https://pro-adventure.ru/tours/id_2694_snezhnyj-kraka-7",
 "vendor":"pro_adventure"
 },
 {
@@ -6908,6 +6336,32 @@ const DATA={"weekendList": [
 "title":"\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041c\u0430\u0440\u043e\u043a\u043a\u043e. \u041f\u0443\u0441\u0442\u044b\u043d\u044f \u0421\u0430\u0445\u0430\u0440\u0430, \u0433\u043e\u043b\u0443\u0431\u043e\u0439 \u0433\u043e\u0440\u043e\u0434",
 "url":"https://stranavetrov.ru/marokko-tury-kilimandzharo-voshozhdenia/avtorsky-tur-v-marokko-pustinya-sahara",
 "vendor":"stranavetrov"
+},
+{
+"created":1638910800,
+"end":1641168000,
+"for_kids":0,
+"id":"bb317ed",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1641081600,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
+"vendor":"pik"
 },
 {
 "created":1636318800,
@@ -8366,6 +7820,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1641427200,
+"for_kids":0,
+"id":"49b745b",
+"length":15,
+"level":2,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043b\u0430\u0434\u043e\u0433\u0430 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0448\u0430\u0442\u0440\u0430\u0445",
+"price":"7\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641254400,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
+"vendor":"pik"
+},
+{
 "created":1634677200,
 "end":1641600000,
 "for_kids":0,
@@ -9302,6 +8782,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1641600000,
+"for_kids":0,
+"id":"1dc3b1c",
+"length":15,
+"level":2,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043b\u0430\u0434\u043e\u0433\u0430 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0448\u0430\u0442\u0440\u0430\u0445",
+"price":"7\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
+"vendor":"pik"
+},
+{
 "created":1635714000,
 "end":1641772800,
 "for_kids":0,
@@ -9380,32 +8886,6 @@ const DATA={"weekendList": [
 "vendor":"cityescape"
 },
 {
-"created":1634677200,
-"end":1641600000,
-"for_kids":0,
-"id":"af05470",
-"length":null,
-"level":3,
-"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a \u0433\u043e\u0440\u0435 \u0432\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430 3 \u0434\u043d\u044f",
-"price":"59\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1641427200,
-"tags":[
-512,
-0,
-4,
-0,
-512,
-1,
-1,
-0,
-256
-],
-"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
-"url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
-"vendor":"pro_adventure"
-},
-{
 "created":1638133200,
 "end":1641686400,
 "for_kids":0,
@@ -9429,6 +8909,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432\u00a0\u041a\u0440\u044b\u043c\u0443: \u043f\u0435\u0449\u0435\u0440\u043d\u044b\u0435 \u0433\u043e\u0440\u043e\u0434\u0430 (\u043e\u0442\u00a0\u043a\u043e\u043c\u0430\u043d\u0434\u044b Pro-adventure)",
 "url":"https://pro-adventure.ru/tours/id_2724_ng-v-krymu-peshery",
+"vendor":"pro_adventure"
+},
+{
+"created":1634677200,
+"end":1641600000,
+"for_kids":0,
+"id":"af05470",
+"length":null,
+"level":3,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a \u0433\u043e\u0440\u0435 \u0432\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430 3 \u0434\u043d\u044f",
+"price":"59\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1641427200,
+"tags":[
+512,
+0,
+4,
+0,
+512,
+1,
+1,
+0,
+256
+],
+"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u044d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u044f \u043a\u00a0\u0433\u043e\u0440\u0435 \u0412\u043e\u0442\u0442\u043e\u0432\u0430\u0430\u0440\u0430, 3\u00a0\u0434\u043d\u044f",
+"url":"https://pro-adventure.ru/tours/id_2470_novogonya-expedicia-k-gore-vottovaara-1",
 "vendor":"pro_adventure"
 },
 {
@@ -10276,7 +9782,7 @@ const DATA={"weekendList": [
 "start":1641945600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -10349,7 +9855,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1641945600,
 "tags":[
@@ -10453,7 +9959,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10531,7 +10037,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10557,7 +10063,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10583,7 +10089,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10609,7 +10115,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10635,7 +10141,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642032000,
 "tags":[
@@ -10729,32 +10235,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u0410\u0440\u0445\u044b\u0437 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb. 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/arhyz-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1642377600,
-"for_kids":0,
-"id":"908bcd4",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1642032000,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-1,
-128,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
 "vendor":"strannik"
 },
 {
@@ -11096,6 +10576,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1642291200,
+"for_kids":0,
+"id":"a450781",
+"length":10,
+"level":1,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"price":"2\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1642204800,
+"tags":[
+1,
+1,
+1,
+0,
+16,
+1,
+1,
+64,
+0
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
+"vendor":"pik"
+},
+{
 "created":1638133200,
 "end":1642896000,
 "for_kids":0,
@@ -11356,32 +10862,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638133200,
-"end":1642377600,
-"for_kids":0,
-"id":"756e3b0",
-"length":10,
-"level":1,
-"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"price":"2\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1642291200,
-"tags":[
-1,
-0,
-1,
-0,
-16,
-1,
-1,
-64,
-0
-],
-"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
-"vendor":"pik"
-},
-{
 "created":1611435600,
 "end":1642809600,
 "for_kids":0,
@@ -11628,7 +11108,7 @@ const DATA={"weekendList": [
 "start":1642550400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -11701,7 +11181,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642550400,
 "tags":[
@@ -11805,7 +11285,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -11883,7 +11363,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -11909,7 +11389,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -11935,7 +11415,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -11961,7 +11441,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -11987,7 +11467,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
@@ -12058,6 +11538,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1634677200,
+"end":1642982400,
+"for_kids":0,
+"id":"86b301b",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1642636800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+1,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
 "created":1618347600,
 "end":1642982400,
 "for_kids":0,
@@ -12084,29 +11590,29 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1634677200,
+"created":1638910800,
 "end":1642982400,
 "for_kids":0,
-"id":"86b301b",
+"id":"8a215cf",
 "length":null,
 "level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
 "slots":null,
 "start":1642636800,
 "tags":[
 128,
-0,
+1,
 4,
 0,
 512,
 2,
 1,
-8,
-0
+0,
+256
 ],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
 "vendor":"strannik"
 },
 {
@@ -12474,6 +11980,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1638910800,
+"end":1642896000,
+"for_kids":0,
+"id":"bfe1c57",
+"length":10,
+"level":1,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"price":"2\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1642809600,
+"tags":[
+1,
+1,
+1,
+0,
+16,
+1,
+1,
+64,
+0
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
+"vendor":"pik"
+},
+{
 "created":1638565200,
 "end":1642896000,
 "for_kids":1,
@@ -12486,7 +12018,7 @@ const DATA={"weekendList": [
 "start":1642809600,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -12497,6 +12029,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u041b\u043e\u0441\u0438\u043d\u044b\u0439 \u043e\u0441\u0442\u0440\u043e\u0432 \u00ab\u041f\u043e\u00a0\u0441\u043b\u0435\u0434\u0430\u043c \u0437\u0432\u0435\u0440\u0435\u0439\u00bb",
 "url":"https://turclub-pik.ru/pohod/semejnyj-pohod-po-sledam-zverej/551/",
+"vendor":"pik"
+},
+{
+"created":1638910800,
+"end":1642896000,
+"for_kids":0,
+"id":"e5647a2",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1642809600,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+1,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
 "vendor":"pik"
 },
 {
@@ -12864,32 +12422,6 @@ const DATA={"weekendList": [
 "vendor":"perehod"
 },
 {
-"created":1638133200,
-"end":1642982400,
-"for_kids":0,
-"id":"3e386eb",
-"length":10,
-"level":1,
-"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"price":"2\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1642896000,
-"tags":[
-1,
-0,
-1,
-0,
-16,
-1,
-1,
-64,
-0
-],
-"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
-"vendor":"pik"
-},
-{
 "created":1634677200,
 "end":1643414400,
 "for_kids":0,
@@ -13006,7 +12538,7 @@ const DATA={"weekendList": [
 "start":1642982400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -13032,7 +12564,7 @@ const DATA={"weekendList": [
 "start":1642982400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -13058,7 +12590,7 @@ const DATA={"weekendList": [
 "start":1642982400,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -13339,7 +12871,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643155200,
 "tags":[
@@ -13443,7 +12975,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13521,7 +13053,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13547,7 +13079,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13573,7 +13105,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13599,7 +13131,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13625,7 +13157,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643241600,
 "tags":[
@@ -13696,6 +13228,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1634677200,
+"end":1643587200,
+"for_kids":0,
+"id":"120716f",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1643241600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+1,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
 "created":1618347600,
 "end":1643587200,
 "for_kids":0,
@@ -13719,32 +13277,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1643587200,
-"for_kids":0,
-"id":"120716f",
-"length":null,
-"level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1643241600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-1,
-8,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -14164,6 +13696,32 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
+"created":1638910800,
+"end":1643500800,
+"for_kids":0,
+"id":"99a89d8",
+"length":10,
+"level":1,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"price":"2\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+1,
+1,
+1,
+0,
+16,
+1,
+1,
+64,
+0
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
+"vendor":"pik"
+},
+{
 "created":1637096400,
 "end":1643587200,
 "for_kids":0,
@@ -14268,6 +13826,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1643932800,
+"for_kids":1,
+"id":"5e40d89",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"31\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1643414400,
+"tags":[
+512,
+0,
+2,
+1,
+16,
+2,
+3,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1643500800,
 "for_kids":0,
@@ -14343,32 +13927,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
 "url":"https://pro-adventure.ru/tours/id_2681_gornolyzhnyj-tur-v-prielbruse",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1643932800,
-"for_kids":1,
-"id":"5e40d89",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"31\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1643414400,
-"tags":[
-512,
-0,
-2,
-1,
-16,
-2,
-3,
-8,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
 "vendor":"pro_adventure"
 },
 {
@@ -14526,32 +14084,6 @@ const DATA={"weekendList": [
 "title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441",
 "url":"https://club-perexod.ru/marshruty/rossiya/elbrus/gornolyzhnyy-tur-na-elbrus/",
 "vendor":"perehod"
-},
-{
-"created":1638133200,
-"end":1643587200,
-"for_kids":0,
-"id":"c847624",
-"length":10,
-"level":1,
-"norm":"\u043b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u043f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"price":"2\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1643500800,
-"tags":[
-1,
-0,
-1,
-0,
-16,
-1,
-1,
-64,
-0
-],
-"title":"\u041b\u044b\u0436\u043d\u044b\u0435 \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0438. \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-"url":"https://turclub-pik.ru/pohod/lyzhnye-trenirovki/549/",
-"vendor":"pik"
 },
 {
 "created":1637096400,
@@ -14800,7 +14332,7 @@ const DATA={"weekendList": [
 "start":1643760000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -14873,7 +14405,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643760000,
 "tags":[
@@ -14977,7 +14509,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15055,7 +14587,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15081,7 +14613,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15107,7 +14639,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15133,7 +14665,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15159,7 +14691,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1643846400,
 "tags":[
@@ -15253,32 +14785,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u043e\u0447\u0438. \u041e\u0442\u00a0\u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e\u00a0\u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/sochi-ot-snezhnyh-gor-do-teplogo-morya",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1644192000,
-"for_kids":0,
-"id":"1f53619",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1643846400,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-2,
-128,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
 "vendor":"strannik"
 },
 {
@@ -15502,7 +15008,7 @@ const DATA={"weekendList": [
 "start":1643932800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -15672,6 +15178,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1644105600,
+"for_kids":0,
+"id":"b519650",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1644019200,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
+"vendor":"pik"
+},
+{
 "created":1637096400,
 "end":1644105600,
 "for_kids":0,
@@ -15802,6 +15334,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1644537600,
+"for_kids":1,
+"id":"d62ee31",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"31\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1644019200,
+"tags":[
+512,
+0,
+2,
+1,
+16,
+2,
+2,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1644105600,
 "for_kids":0,
@@ -15877,32 +15435,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0422\u0443\u0440 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u043f\u043e\u00a0\u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u041a\u0430\u0440\u0435\u043b\u0438\u0438, 4\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_1284_sever-karelii-snegohody-4",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1644537600,
-"for_kids":1,
-"id":"d62ee31",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"31\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1644019200,
-"tags":[
-512,
-0,
-2,
-1,
-16,
-2,
-2,
-8,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
 "vendor":"pro_adventure"
 },
 {
@@ -16256,7 +15788,7 @@ const DATA={"weekendList": [
 "start":1644192000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -16438,7 +15970,7 @@ const DATA={"weekendList": [
 "start":1644364800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -16511,7 +16043,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644364800,
 "tags":[
@@ -16641,7 +16173,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16719,7 +16251,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16745,7 +16277,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16771,7 +16303,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16797,7 +16329,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16823,7 +16355,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -16953,7 +16485,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
+"price":"9\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644451200,
 "tags":[
@@ -17388,6 +16920,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1644796800,
+"for_kids":0,
+"id":"40d2798",
+"length":15,
+"level":2,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043b\u0430\u0434\u043e\u0433\u0430 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0448\u0430\u0442\u0440\u0430\u0445",
+"price":"7\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1644624000,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
+"vendor":"pik"
+},
+{
 "created":1631566800,
 "end":1645315200,
 "for_kids":0,
@@ -17570,6 +17128,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1645142400,
+"for_kids":1,
+"id":"bb33e06",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"31\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1644624000,
+"tags":[
+512,
+0,
+2,
+1,
+16,
+2,
+2,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1644710400,
 "for_kids":0,
@@ -17645,32 +17229,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0410\u043b\u0442\u0430\u044f\u00bb",
 "url":"https://pro-adventure.ru/tours/id_2669_letnyaya-skazka-1-1-1-1-1-1-1-1-1",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1645142400,
-"for_kids":1,
-"id":"bb33e06",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"31\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1644624000,
-"tags":[
-512,
-0,
-2,
-1,
-16,
-2,
-2,
-8,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
 "vendor":"pro_adventure"
 },
 {
@@ -18076,7 +17634,7 @@ const DATA={"weekendList": [
 "start":1644796800,
 "tags":[
 16,
-1,
+0,
 4,
 0,
 512,
@@ -18180,7 +17738,7 @@ const DATA={"weekendList": [
 "start":1644796800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -18409,7 +17967,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1644969600,
 "tags":[
@@ -18539,7 +18097,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18617,7 +18175,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18643,7 +18201,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18669,7 +18227,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18695,7 +18253,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18721,7 +18279,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645056000,
 "tags":[
@@ -18792,6 +18350,58 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1634677200,
+"end":1645401600,
+"for_kids":0,
+"id":"06e9ff6",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1645056000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+2,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1645401600,
+"for_kids":0,
+"id":"be8e338",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1645056000,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+2,
+0,
+256
+],
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
+"vendor":"strannik"
+},
+{
 "created":1618347600,
 "end":1645401600,
 "for_kids":0,
@@ -18815,32 +18425,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1645401600,
-"for_kids":0,
-"id":"06e9ff6",
-"length":null,
-"level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1645056000,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-2,
-8,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -19142,7 +18726,7 @@ const DATA={"weekendList": [
 "start":1645142400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -19480,7 +19064,7 @@ const DATA={"weekendList": [
 "start":1645228800,
 "tags":[
 16,
-1,
+0,
 4,
 0,
 512,
@@ -19584,7 +19168,7 @@ const DATA={"weekendList": [
 "start":1645228800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -19702,6 +19286,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1645747200,
+"for_kids":1,
+"id":"86a9840",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"31\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1645228800,
+"tags":[
+512,
+0,
+2,
+1,
+16,
+2,
+2,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1645315200,
 "for_kids":0,
@@ -19751,32 +19361,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1645747200,
-"for_kids":1,
-"id":"86a9840",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"31\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1645228800,
-"tags":[
-512,
-0,
-2,
-1,
-16,
-2,
-2,
-8,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
 "vendor":"pro_adventure"
 },
 {
@@ -19839,7 +19423,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645228800,
 "tags":[
@@ -20151,7 +19735,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645315200,
 "tags":[
@@ -20255,7 +19839,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645315200,
 "tags":[
@@ -20307,7 +19891,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645315200,
 "tags":[
@@ -20333,7 +19917,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645315200,
 "tags":[
@@ -20494,7 +20078,7 @@ const DATA={"weekendList": [
 "start":1645401600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -20520,7 +20104,7 @@ const DATA={"weekendList": [
 "start":1645401600,
 "tags":[
 512,
-1,
+0,
 2,
 1,
 512,
@@ -20598,7 +20182,7 @@ const DATA={"weekendList": [
 "start":1645401600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -20832,7 +20416,7 @@ const DATA={"weekendList": [
 "start":1645574400,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 512,
@@ -20843,6 +20427,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043d\u043d\u0430\u044f \u0431\u0430\u043b\u043b\u0430\u0434\u0430 \u0432\u00a0\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0417\u0438\u043c\u0430",
 "url":"https://turclub-pik.ru/pohod/konnaya-ballada-zima/553/",
+"vendor":"pik"
+},
+{
+"created":1638910800,
+"end":1645660800,
+"for_kids":0,
+"id":"d8a9d34",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1645574400,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+2,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
 "vendor":"pik"
 },
 {
@@ -20931,7 +20541,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21139,7 +20749,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f + \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f + \u0447\u0435\u0447\u043d\u044f - 5 \u0434\u043d\u0435\u0439",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21165,7 +20775,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u043c\u0443\u0440\u043c\u0430\u043d\u0441\u043a \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0430 \u044d\u0442\u043d\u043e\u0434\u0435\u0440\u0435\u0432\u043d\u044f",
-"price":"36\u00a0900\u00a0\u20bd",
+"price":"39\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21243,7 +20853,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0438\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"28\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21269,7 +20879,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"2 \u0432 1 \u0441\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f \u0438 \u0447\u0435\u0447\u043d\u044f - 4 \u0434\u043d\u044f",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"30\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21321,7 +20931,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21347,7 +20957,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645574400,
 "tags":[
@@ -21607,7 +21217,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0433\u0430\u0441\u0442\u0440\u043e\u0442\u0443\u0440 + 4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"45\u00a0900\u00a0\u20bd",
+"price":"47\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645660800,
 "tags":[
@@ -21711,7 +21321,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"\u0437\u0430\u043c\u043a\u0438 \u044f\u043d\u0442\u0430\u0440\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u044f \u043a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
-"price":"27\u00a0900\u00a0\u20bd",
+"price":"29\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645660800,
 "tags":[
@@ -21737,7 +21347,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":2,
 "norm":"3 \u0443\u0449\u0435\u043b\u044c\u044f \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043e\u0441\u0435\u0442\u0438\u0438 - 4 \u0434\u043d\u044f",
-"price":"25\u00a0900\u00a0\u20bd",
+"price":"27\u00a0900\u00a0\u20bd",
 "slots":null,
 "start":1645660800,
 "tags":[
@@ -21780,6 +21390,32 @@ const DATA={"weekendList": [
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
 "vendor":"pro_adventure"
+},
+{
+"created":1638910800,
+"end":1646006400,
+"for_kids":0,
+"id":"a47c0bb",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1645660800,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+2,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
+"vendor":"strannik"
 },
 {
 "created":1634677200,
@@ -21898,7 +21534,7 @@ const DATA={"weekendList": [
 "start":1645747200,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -22080,7 +21716,7 @@ const DATA={"weekendList": [
 "start":1645747200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -22458,6 +22094,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1635714000,
+"end":1646352000,
+"for_kids":1,
+"id":"0b1ccd1",
+"length":null,
+"level":2,
+"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"31\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1645833600,
+"tags":[
+512,
+0,
+2,
+1,
+16,
+2,
+6,
+8,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
+"vendor":"pro_adventure"
+},
+{
 "created":1631221200,
 "end":1645920000,
 "for_kids":0,
@@ -22507,32 +22169,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u00a0\u0441\u0435\u0432\u0435\u0440\u0435 \u043f\u043e\u00a0\u043a\u0430\u0440\u0435\u043b\u044c\u0441\u043a\u0438, 2\u00a0\u0434\u043d\u044f",
 "url":"https://pro-adventure.ru/tours/id_2712_vyhodnye-na-severe-po-karelski-2-dnya",
-"vendor":"pro_adventure"
-},
-{
-"created":1635714000,
-"end":1646352000,
-"for_kids":1,
-"id":"0b1ccd1",
-"length":null,
-"level":2,
-"norm":"\u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"31\u00a0900\u00a0\u20bd",
-"slots":null,
-"start":1645833600,
-"tags":[
-512,
-0,
-2,
-1,
-16,
-2,
-6,
-8,
-0
-],
-"title":"\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0442\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://pro-adventure.ru/tours/id_1815_gornolyzhnyj-tur-v-elbrus",
 "vendor":"pro_adventure"
 },
 {
@@ -23068,7 +22704,7 @@ const DATA={"weekendList": [
 "start":1646006400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -23238,32 +22874,6 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
-"created":1618002000,
-"end":1646784000,
-"for_kids":0,
-"id":"b7be980",
-"length":null,
-"level":2,
-"norm":"\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1646352000,
-"tags":[
-4,
-0,
-2,
-0,
-16,
-2,
-4,
-0,
-256
-],
-"title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
-"url":"https://cityescape.ru/lyzhnyj-poxod-po-kenozeryu/",
-"vendor":"cityescape"
-},
-{
 "created":1634677200,
 "end":1646524800,
 "for_kids":0,
@@ -23302,7 +22912,7 @@ const DATA={"weekendList": [
 "start":1646352000,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -23368,32 +22978,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1646784000,
-"for_kids":0,
-"id":"de7aadd",
-"length":null,
-"level":null,
-"norm":"\u0432\u0435\u0441\u043d\u0430 \u0432 \u0441\u043e\u0447\u0438 + \u0430\u0431\u0445\u0430\u0437\u0438\u044f",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1646352000,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-4,
-32,
-0
-],
-"title":"\u0412\u0435\u0441\u043d\u0430 \u0432\u00a0\u0421\u043e\u0447\u0438 + \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
-"url":"https://strannik36.ru/vesna-v-sochi-abhaziya-4-dnya",
-"vendor":"strannik"
-},
-{
 "created":1618347600,
 "end":1646784000,
 "for_kids":0,
@@ -23443,6 +23027,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 4\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-4-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1646784000,
+"for_kids":0,
+"id":"de7aadd",
+"length":null,
+"level":null,
+"norm":"\u0432\u0435\u0441\u043d\u0430 \u0432 \u0441\u043e\u0447\u0438 + \u0430\u0431\u0445\u0430\u0437\u0438\u044f",
+"price":"17\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1646352000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+4,
+32,
+0
+],
+"title":"\u0412\u0435\u0441\u043d\u0430 \u0432\u00a0\u0421\u043e\u0447\u0438 + \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
+"url":"https://strannik36.ru/vesna-v-sochi-abhaziya-4-dnya",
 "vendor":"strannik"
 },
 {
@@ -23654,6 +23264,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1646870400,
+"for_kids":0,
+"id":"1aef3c2",
+"length":null,
+"level":2,
+"norm":"\u043b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
+"price":"17\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1646438400,
+"tags":[
+4,
+1,
+2,
+0,
+16,
+2,
+4,
+0,
+256
+],
+"title":"\u041b\u044b\u0436\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0435\u043d\u043e\u0437\u0435\u0440\u044c\u044e",
+"url":"https://cityescape.ru/lyzhnyj-poxod-po-kenozeryu/",
+"vendor":"cityescape"
+},
+{
 "created":1630875600,
 "end":1647043200,
 "for_kids":0,
@@ -23764,7 +23400,7 @@ const DATA={"weekendList": [
 "id":"16084af",
 "length":null,
 "level":null,
-"norm":"\u043c\u0430\u0440\u0441\u0430 \u0430\u043b\u0430\u043c \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438 \u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
+"norm":"\u043c\u0430\u0440\u0441\u0430 \u0430\u043b\u0430\u043c \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430 \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441 \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438 \u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
 "price":null,
 "slots":null,
 "start":1646438400,
@@ -23779,7 +23415,7 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041c\u0430\u0440\u0441\u0430 \u0410\u043b\u0430\u043c: \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
+"title":"\u041c\u0430\u0440\u0441\u0430 \u0410\u043b\u0430\u043c: \u043a\u0443\u0440\u0441\u044b \u0444\u0440\u0438\u0434\u0430\u0439\u0432\u0438\u043d\u0433\u0430, \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0441\u00a0\u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430\u043c\u0438 \u0438\u00a0\u043f\u043e\u0438\u0441\u043a\u0438 \u0434\u044e\u0433\u043e\u043d\u044f",
 "url":"https://team-trip.ru/dugong",
 "vendor":"teamtrip"
 },
@@ -23914,6 +23550,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1647129600,
+"for_kids":0,
+"id":"2a08848",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1646438400,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+4,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
 "created":1616706000,
 "end":1646784000,
 "for_kids":0,
@@ -23992,6 +23654,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1646697600,
+"for_kids":0,
+"id":"355e04a",
+"length":15,
+"level":2,
+"norm":"\u0437\u0438\u043c\u043d\u044f\u044f \u043b\u0430\u0434\u043e\u0433\u0430 \u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441 \u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432 \u0448\u0430\u0442\u0440\u0430\u0445",
+"price":"7\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1646524800,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+1,
+4,
+64,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u044f\u044f \u041b\u0430\u0434\u043e\u0433\u0430. \u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u0441\u00a0\u043d\u043e\u0447\u0435\u0432\u043a\u043e\u0439 \u0432\u00a0\u0448\u0430\u0442\u0440\u0430\u0445",
+"url":"https://turclub-pik.ru/pohod/zimnyaya-ladoga-s-nochevkoi-v-shatrakh/478/",
+"vendor":"pik"
+},
+{
 "created":1638565200,
 "end":1647043200,
 "for_kids":0,
@@ -24004,7 +23692,7 @@ const DATA={"weekendList": [
 "start":1646524800,
 "tags":[
 1,
-1,
+0,
 1,
 0,
 512,
@@ -24330,6 +24018,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1647043200,
+"for_kids":0,
+"id":"4f5b2cb",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1646524800,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+4,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
 "created":1630875600,
 "end":1647043200,
 "for_kids":1,
@@ -24472,7 +24186,7 @@ const DATA={"weekendList": [
 "start":1646611200,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -24564,6 +24278,32 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
+"created":1638910800,
+"end":1646784000,
+"for_kids":0,
+"id":"9e4bbff",
+"length":20,
+"level":1,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a \u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0435\u0440\u0430\u043c \u043a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437 \u043f\u0438\u0442\u0435\u0440\u0430",
+"price":"2\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1646697600,
+"tags":[
+1,
+1,
+1,
+0,
+512,
+1,
+4,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0441\u0442\u0443\u043f\u0430\u0445 \u043a\u00a0\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0437\u0451\u0440\u0430\u043c \u041a\u0443\u0437\u043d\u0435\u0447\u043d\u043e\u0433\u043e. \u041e\u0434\u043d\u043e\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0438\u0437\u00a0\u041f\u0438\u0442\u0435\u0440\u0430",
+"url":"https://turclub-pik.ru/pohod/progulka-na-snegostupakh-k-skalnym-ozyoram/483/",
+"vendor":"pik"
+},
+{
 "created":1632085200,
 "end":1647216000,
 "for_kids":0,
@@ -24642,32 +24382,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1623445200,
-"end":1647216000,
-"for_kids":0,
-"id":"71debce",
-"length":null,
-"level":null,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u044e\u0436\u043d\u043e\u043c\u0443 \u0431\u0435\u0440\u0435\u0433\u0443 \u043a\u0440\u044b\u043c\u0430 \u0430\u043b\u0443\u0448\u0442\u0430 \u044f\u043b\u0442\u0430",
-"price":"13\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1646870400,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-4,
-32,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u042e\u0436\u043d\u043e\u043c\u0443 \u0411\u0435\u0440\u0435\u0433\u0443 \u041a\u0440\u044b\u043c\u0430. \u0410\u043b\u0443\u0448\u0442\u0430, \u042f\u043b\u0442\u0430",
-"url":"https://strannik36.ru/puteshestvie-po-yuzhnomu-beregu-kryma-alushta-yalta",
-"vendor":"strannik"
-},
-{
 "created":1632085200,
 "end":1647216000,
 "for_kids":0,
@@ -24694,14 +24408,14 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1634677200,
+"created":1623445200,
 "end":1647216000,
 "for_kids":0,
-"id":"7f57887",
+"id":"71debce",
 "length":null,
 "level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u0430\u0440\u0445\u044b\u0437\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
+"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u044e\u0436\u043d\u043e\u043c\u0443 \u0431\u0435\u0440\u0435\u0433\u0443 \u043a\u0440\u044b\u043c\u0430 \u0430\u043b\u0443\u0448\u0442\u0430 \u044f\u043b\u0442\u0430",
+"price":"13\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1646870400,
 "tags":[
@@ -24712,11 +24426,11 @@ const DATA={"weekendList": [
 512,
 2,
 4,
-128,
+32,
 0
 ],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-arhyze",
+"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u042e\u0436\u043d\u043e\u043c\u0443 \u0411\u0435\u0440\u0435\u0433\u0443 \u041a\u0440\u044b\u043c\u0430. \u0410\u043b\u0443\u0448\u0442\u0430, \u042f\u043b\u0442\u0430",
+"url":"https://strannik36.ru/puteshestvie-po-yuzhnomu-beregu-kryma-alushta-yalta",
 "vendor":"strannik"
 },
 {
@@ -24758,7 +24472,7 @@ const DATA={"weekendList": [
 "start":1646956800,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -25006,6 +24720,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1647993600,
+"for_kids":0,
+"id":"3c3d559",
+"length":null,
+"level":null,
+"norm":"\u043c\u0435\u043a\u0441\u0438\u043a\u0430 \u043e\u0431\u043d\u0438\u043c\u0438 \u043a\u0438\u0442\u0430",
+"price":null,
+"slots":null,
+"start":1647216000,
+"tags":[
+32,
+1,
+4,
+0,
+512,
+2,
+4,
+0,
+8
+],
+"title":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430: \u043e\u0431\u043d\u0438\u043c\u0438 \u043a\u0438\u0442\u0430!",
+"url":"https://team-trip.ru/mexico_whales",
+"vendor":"teamtrip"
+},
+{
 "created":1635714000,
 "end":1647561600,
 "for_kids":0,
@@ -25110,32 +24850,6 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"created":1634677200,
-"end":1648166400,
-"for_kids":0,
-"id":"d5eae6b",
-"length":null,
-"level":null,
-"norm":"\u043c\u0435\u043a\u0441\u0438\u043a\u0430 \u043e\u0431\u043d\u0438\u043c\u0438 \u043a\u0438\u0442\u0430",
-"price":null,
-"slots":null,
-"start":1647388800,
-"tags":[
-32,
-0,
-4,
-0,
-512,
-2,
-4,
-0,
-8
-],
-"title":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430: \u043e\u0431\u043d\u0438\u043c\u0438 \u043a\u0438\u0442\u0430!",
-"url":"https://team-trip.ru/mexico_whales",
-"vendor":"teamtrip"
-},
-{
 "created":1635714000,
 "end":1647734400,
 "for_kids":0,
@@ -25162,32 +24876,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1647820800,
-"for_kids":0,
-"id":"498e017",
-"length":null,
-"level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1647475200,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-4,
-8,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
-"vendor":"strannik"
-},
-{
 "created":1618347600,
 "end":1647820800,
 "for_kids":0,
@@ -25211,6 +24899,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1647820800,
+"for_kids":0,
+"id":"c7548ab",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1647475200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+4,
+0,
+256
+],
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1647820800,
+"for_kids":0,
+"id":"498e017",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1647475200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+4,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
 "vendor":"strannik"
 },
 {
@@ -25278,7 +25018,7 @@ const DATA={"weekendList": [
 "start":1647561600,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -25668,7 +25408,7 @@ const DATA={"weekendList": [
 "start":1647820800,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -25824,7 +25564,7 @@ const DATA={"weekendList": [
 "start":1647993600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -25835,6 +25575,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u0435\u0441\u043d\u0430. \u0426\u0432\u0435\u0442\u0443\u0449\u0438\u0439 \u041a\u0440\u044b\u043c",
 "url":"https://strannik36.ru/vesna-cvetushchiy-krym-9-dney",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1648425600,
+"for_kids":0,
+"id":"be61147",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1648080000,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+4,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
 "vendor":"strannik"
 },
 {
@@ -25876,7 +25642,7 @@ const DATA={"weekendList": [
 "start":1648166400,
 "tags":[
 512,
-1,
+0,
 4,
 0,
 8,
@@ -26072,32 +25838,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1634677200,
-"end":1649030400,
-"for_kids":0,
-"id":"890d81c",
-"length":null,
-"level":null,
-"norm":"\u0441\u043e\u0447\u0438 \u043e\u0442 \u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-"price":"13\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1648684800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-12,
-32,
-0
-],
-"title":"\u0421\u043e\u0447\u0438. \u041e\u0442\u00a0\u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e\u00a0\u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-"url":"https://strannik36.ru/sochi-ot-snezhnyh-gor-do-teplogo-morya",
-"vendor":"strannik"
-},
-{
 "created":1632085200,
 "end":1649030400,
 "for_kids":0,
@@ -26147,6 +25887,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://strannik36.ru/vyhodnye-v-arhyze",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1649030400,
+"for_kids":0,
+"id":"890d81c",
+"length":null,
+"level":null,
+"norm":"\u0441\u043e\u0447\u0438 \u043e\u0442 \u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
+"price":"13\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1648684800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+12,
+32,
+0
+],
+"title":"\u0421\u043e\u0447\u0438. \u041e\u0442\u00a0\u0441\u043d\u0435\u0436\u043d\u044b\u0445 \u0433\u043e\u0440 \u0434\u043e\u00a0\u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
+"url":"https://strannik36.ru/sochi-ot-snezhnyh-gor-do-teplogo-morya",
 "vendor":"strannik"
 },
 {
@@ -26254,58 +26020,6 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
-"created":1623445200,
-"end":1649635200,
-"for_kids":0,
-"id":"ab59e9d",
-"length":null,
-"level":null,
-"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443 \u0441\u0443\u0434\u0430\u043a \u043a\u0435\u0440\u0447\u044c",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1649289600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-8,
-32,
-0
-],
-"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
-"url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1649635200,
-"for_kids":0,
-"id":"433d538",
-"length":null,
-"level":null,
-"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1649289600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-8,
-8,
-0
-],
-"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
-"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
-"vendor":"strannik"
-},
-{
 "created":1618347600,
 "end":1649635200,
 "for_kids":0,
@@ -26329,6 +26043,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
 "url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1649635200,
+"for_kids":0,
+"id":"433d538",
+"length":null,
+"level":null,
+"norm":"\u0437\u0438\u043c\u043d\u0438\u0439 \u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1649289600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+8,
+8,
+0
+],
+"title":"\u0417\u0438\u043c\u043d\u0438\u0439 \u042d\u043b\u044c\u0431\u0440\u0443\u0441. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438",
+"url":"https://strannik36.ru/zimniy-elbrus-ekskursii",
+"vendor":"strannik"
+},
+{
+"created":1623445200,
+"end":1649635200,
+"for_kids":0,
+"id":"ab59e9d",
+"length":null,
+"level":null,
+"norm":"\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443 \u0441\u0443\u0434\u0430\u043a \u043a\u0435\u0440\u0447\u044c",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1649289600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+8,
+32,
+0
+],
+"title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443. \u0421\u0443\u0434\u0430\u043a, \u041a\u0435\u0440\u0447\u044c",
+"url":"https://strannik36.ru/puteshestvie-po-vostochnomu-krymu-sudak-kerch",
 "vendor":"strannik"
 },
 {
@@ -26514,6 +26280,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1638910800,
+"end":1650499200,
+"for_kids":0,
+"id":"bf9152e",
+"length":null,
+"level":null,
+"norm":"\u043f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0430\u044f \u0432\u0435\u0441\u043d\u0430 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432 \u0438\u0440\u0430\u043d 2022",
+"price":"\u20ac\u00a01\u00a0700",
+"slots":77,
+"start":1649548800,
+"tags":[
+16,
+1,
+4,
+0,
+64,
+2,
+8,
+0,
+32
+],
+"title":"\u041f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0430\u044f \u0432\u0435\u0441\u043d\u0430. \u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u0432\u00a0\u0418\u0440\u0430\u043d / 2022",
+"url":"https://www.napravlenie.info/catalog/ethno_tours/persidskaya-vesna-avtorskiy-tur-v-iran-2022/",
+"vendor":"napravlenie"
+},
+{
 "created":1635714000,
 "end":1650067200,
 "for_kids":0,
@@ -26670,29 +26462,29 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"created":1618347600,
-"end":1650326400,
+"created":1638910800,
+"end":1650240000,
 "for_kids":0,
-"id":"22d9a73",
+"id":"aa4327b",
 "length":null,
 "level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"price":"9\u00a0900\u00a0\u20bd",
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1649894400,
 "tags":[
 128,
-0,
+1,
 4,
 0,
-16,
+512,
 2,
 8,
-8,
+128,
 0
 ],
-"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
-"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
 "vendor":"strannik"
 },
 {
@@ -26719,6 +26511,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u043e\u0447\u0438. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u0430",
 "url":"https://strannik36.ru/sochi-krasnaya-polyana",
+"vendor":"strannik"
+},
+{
+"created":1618347600,
+"end":1650326400,
+"for_kids":0,
+"id":"22d9a73",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 3 \u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"price":"9\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1649894400,
+"tags":[
+128,
+0,
+4,
+0,
+16,
+2,
+8,
+8,
+0
+],
+"title":"\u00ab\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439\u00bb 3\u00a0\u0434\u043d\u044f \u043a\u0430\u0442\u0430\u043d\u0438\u044f",
+"url":"https://strannik36.ru/elbrus-gornolyzhnyy-3-dnya-kataniya",
 "vendor":"strannik"
 },
 {
@@ -26838,7 +26656,7 @@ const DATA={"weekendList": [
 "start":1650067200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -26968,7 +26786,7 @@ const DATA={"weekendList": [
 "start":1650240000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -27057,6 +26875,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
 "url":"https://strannik36.ru/plato-lago-naki",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1650844800,
+"for_kids":0,
+"id":"47180ef",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1650499200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+8,
+0,
+256
+],
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
 "vendor":"strannik"
 },
 {
@@ -27644,7 +27488,7 @@ const DATA={"weekendList": [
 "start":1651276800,
 "tags":[
 4,
-1,
+0,
 2,
 0,
 512,
@@ -27996,14 +27840,14 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638565200,
-"end":1651622400,
+"created":1638910800,
+"end":1651968000,
 "for_kids":0,
-"id":"2f52f5e",
+"id":"7393da5",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u043c\u0435\u0447\u0430",
-"price":"11\u00a0400\u00a0\u20bd",
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
 "slots":null,
 "start":1651276800,
 "tags":[
@@ -28017,60 +27861,8 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u041c\u0435\u0447\u0430",
-"url":"https://strannik36.ru/pohod-po-reke-krasivaya-mecha-5-dney",
-"vendor":"strannik"
-},
-{
-"created":1638133200,
-"end":1651708800,
-"for_kids":0,
-"id":"4b1f687",
-"length":null,
-"level":null,
-"norm":"\u0432\u0435\u0441\u043d\u0430 \u0432 \u0441\u043e\u0447\u0438 + \u0430\u0431\u0445\u0430\u0437\u0438\u044f",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1651276800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-24,
-32,
-0
-],
-"title":"\u0412\u0435\u0441\u043d\u0430 \u0432\u00a0\u0421\u043e\u0447\u0438 + \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
-"url":"https://strannik36.ru/vesna-v-sochi-abhaziya-4-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1651536000,
-"for_kids":0,
-"id":"6264c84",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0438 \u0434\u043e\u043d",
-"price":"9\u00a0600\u00a0\u20bd",
-"slots":null,
-"start":1651276800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-2,
-24,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-tihaya-sosna-melovye-gory-srednego-dona",
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
 "vendor":"strannik"
 },
 {
@@ -28086,7 +27878,7 @@ const DATA={"weekendList": [
 "start":1651276800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -28103,16 +27895,16 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1651622400,
 "for_kids":0,
-"id":"64d1d43",
+"id":"536dc11",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"11\u00a0000\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0445\u043e\u043f\u0440\u0443",
+"price":"11\u00a0400\u00a0\u20bd",
 "slots":null,
 "start":1651276800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -28121,34 +27913,8 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1651622400,
-"for_kids":0,
-"id":"4938aac",
-"length":null,
-"level":null,
-"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438 \u0447\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
-"price":"12\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1651276800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-24,
-8,
-0
-],
-"title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438\u00a0\u0427\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
-"url":"https://strannik36.ru/elbrus-i-chegemskoe-ushchele",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-hopru-5-dney",
 "vendor":"strannik"
 },
 {
@@ -28181,16 +27947,16 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1651622400,
 "for_kids":0,
-"id":"536dc11",
+"id":"64d1d43",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0445\u043e\u043f\u0440\u0443",
-"price":"11\u00a0400\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1651276800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -28199,8 +27965,112 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-hopru-5-dney",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1651708800,
+"for_kids":0,
+"id":"4b1f687",
+"length":null,
+"level":null,
+"norm":"\u0432\u0435\u0441\u043d\u0430 \u0432 \u0441\u043e\u0447\u0438 + \u0430\u0431\u0445\u0430\u0437\u0438\u044f",
+"price":"17\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+24,
+32,
+0
+],
+"title":"\u0412\u0435\u0441\u043d\u0430 \u0432\u00a0\u0421\u043e\u0447\u0438 + \u0410\u0431\u0445\u0430\u0437\u0438\u044f",
+"url":"https://strannik36.ru/vesna-v-sochi-abhaziya-4-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1651622400,
+"for_kids":0,
+"id":"2f52f5e",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u043a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u043c\u0435\u0447\u0430",
+"price":"11\u00a0400\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+24,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u041c\u0435\u0447\u0430",
+"url":"https://strannik36.ru/pohod-po-reke-krasivaya-mecha-5-dney",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1651622400,
+"for_kids":0,
+"id":"4938aac",
+"length":null,
+"level":null,
+"norm":"\u044d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438 \u0447\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
+"price":"12\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+24,
+8,
+0
+],
+"title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438\u00a0\u0427\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
+"url":"https://strannik36.ru/elbrus-i-chegemskoe-ushchele",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1651536000,
+"for_kids":0,
+"id":"6264c84",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0438 \u0434\u043e\u043d",
+"price":"9\u00a0600\u00a0\u20bd",
+"slots":null,
+"start":1651276800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+24,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-tihaya-sosna-melovye-gory-srednego-dona",
 "vendor":"strannik"
 },
 {
@@ -28346,7 +28216,7 @@ const DATA={"weekendList": [
 "start":1651363200,
 "tags":[
 1,
-1,
+0,
 2,
 1,
 512,
@@ -28372,7 +28242,7 @@ const DATA={"weekendList": [
 "start":1651363200,
 "tags":[
 1,
-1,
+0,
 2,
 1,
 512,
@@ -28892,7 +28762,7 @@ const DATA={"weekendList": [
 "start":1651363200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -28903,84 +28773,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1651536000,
-"for_kids":0,
-"id":"f5e7d5f",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0430",
-"price":"6\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1651363200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
-"url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638133200,
-"end":1651881600,
-"for_kids":0,
-"id":"ccabe21",
-"length":null,
-"level":null,
-"norm":"\u043e\u0442 \u043f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e \u0447\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-"price":"16\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1651363200,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-16,
-32,
-0
-],
-"title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
-"url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1651536000,
-"for_kids":0,
-"id":"b0a93dc",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1651363200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -29007,6 +28799,110 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1651536000,
+"for_kids":0,
+"id":"f5e7d5f",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0430",
+"price":"6\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
+"url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1651536000,
+"for_kids":0,
+"id":"b0a93dc",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1651881600,
+"for_kids":0,
+"id":"56f4171",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+16,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1651881600,
+"for_kids":0,
+"id":"ccabe21",
+"length":null,
+"level":null,
+"norm":"\u043e\u0442 \u043f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e \u0447\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
+"price":"16\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1651363200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+16,
+32,
+0
+],
+"title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
+"url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
 "vendor":"strannik"
 },
 {
@@ -29230,7 +29126,7 @@ const DATA={"weekendList": [
 "start":1651449600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -29256,7 +29152,7 @@ const DATA={"weekendList": [
 "start":1651536000,
 "tags":[
 8,
-1,
+0,
 4,
 0,
 512,
@@ -29308,7 +29204,7 @@ const DATA={"weekendList": [
 "start":1651622400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -29374,6 +29270,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1652140800,
+"for_kids":0,
+"id":"69c1639",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1651708800,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+16,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
+"vendor":"strannik"
+},
+{
 "created":1638133200,
 "end":1652227200,
 "for_kids":0,
@@ -29400,6 +29322,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1638565200,
+"end":1652140800,
+"for_kids":0,
+"id":"73dd061",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
+"price":"11\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1651795200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
+"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-5-dney",
+"vendor":"strannik"
+},
+{
 "created":1634677200,
 "end":1652140800,
 "for_kids":0,
@@ -29423,32 +29371,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435",
 "url":"https://strannik36.ru/vyhodnye-v-arhyze",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1652140800,
-"for_kids":0,
-"id":"73dd061",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1651795200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-2,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443",
-"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-5-dney",
 "vendor":"strannik"
 },
 {
@@ -29713,84 +29635,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1652054400,
-"for_kids":0,
-"id":"a0304a8",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1651881600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1652054400,
-"for_kids":0,
-"id":"cecf5a8",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
-"price":"6\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1651881600,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1652054400,
-"for_kids":0,
-"id":"5226181",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1651881600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
 "end":1651881600,
 "for_kids":0,
 "id":"43752b6",
@@ -29802,7 +29646,7 @@ const DATA={"weekendList": [
 "start":1651881600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -29828,7 +29672,7 @@ const DATA={"weekendList": [
 "start":1651881600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -29839,6 +29683,84 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1652054400,
+"for_kids":0,
+"id":"cecf5a8",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
+"price":"6\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1651881600,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1652054400,
+"for_kids":0,
+"id":"5226181",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1651881600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1652054400,
+"for_kids":0,
+"id":"a0304a8",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1651881600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -30140,7 +30062,7 @@ const DATA={"weekendList": [
 "start":1651968000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -30322,7 +30244,7 @@ const DATA={"weekendList": [
 "start":1652140800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -30530,7 +30452,7 @@ const DATA={"weekendList": [
 "start":1652486400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -30608,7 +30530,7 @@ const DATA={"weekendList": [
 "start":1652572800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -30660,7 +30582,7 @@ const DATA={"weekendList": [
 "start":1652659200,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -30712,7 +30634,7 @@ const DATA={"weekendList": [
 "start":1653004800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -30920,7 +30842,7 @@ const DATA={"weekendList": [
 "start":1653091200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -31116,32 +31038,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638565200,
-"end":1653177600,
-"for_kids":0,
-"id":"7a00a2f",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u0441\u043c\u0430\u043d\u043a\u0430",
-"price":"2\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1653177600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
-"url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
-"vendor":"strannik"
-},
-{
 "created":1638133200,
 "end":1653177600,
 "for_kids":0,
@@ -31165,6 +31061,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1653177600,
+"for_kids":0,
+"id":"7a00a2f",
+"length":null,
+"level":null,
+"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u0441\u043c\u0430\u043d\u043a\u0430",
+"price":"2\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1653177600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
+"url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
 },
 {
@@ -31258,7 +31180,7 @@ const DATA={"weekendList": [
 "start":1653264000,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -31388,7 +31310,7 @@ const DATA={"weekendList": [
 "start":1653609600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -31584,6 +31506,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638565200,
+"end":1653782400,
+"for_kids":0,
+"id":"1a9ae69",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1653696000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+16,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
+"vendor":"strannik"
+},
+{
 "created":1638133200,
 "end":1653782400,
 "for_kids":0,
@@ -31613,32 +31561,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1653782400,
 "for_kids":0,
-"id":"1a9ae69",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1653696000,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-16,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1653782400,
-"for_kids":0,
 "id":"8c679bb",
 "length":null,
 "level":null,
@@ -31648,7 +31570,7 @@ const DATA={"weekendList": [
 "start":1653696000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -31882,7 +31804,7 @@ const DATA={"weekendList": [
 "start":1653782400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32001,32 +31923,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1634677200,
-"end":1654387200,
-"for_kids":0,
-"id":"a576269",
-"length":null,
-"level":null,
-"norm":"\u043a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u043e\u0448\u0442\u0435\u043d",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1654128000,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-32,
-0,
-256
-],
-"title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u041e\u0448\u0442\u0435\u043d",
-"url":"https://strannik36.ru/kolco-gory-oshten",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
 "end":1654473600,
 "for_kids":0,
 "id":"8e8a7ca",
@@ -32049,6 +31945,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0438\u00a0\u0427\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u0435 \u0443\u0449\u0435\u043b\u044c\u0435",
 "url":"https://strannik36.ru/elbrus-i-chegemskoe-ushchele",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1654387200,
+"for_kids":0,
+"id":"a576269",
+"length":null,
+"level":null,
+"norm":"\u043a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u043e\u0448\u0442\u0435\u043d",
+"price":"11\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1654128000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+0,
+256
+],
+"title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u041e\u0448\u0442\u0435\u043d",
+"url":"https://strannik36.ru/kolco-gory-oshten",
 "vendor":"strannik"
 },
 {
@@ -32081,32 +32003,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1654387200,
 "for_kids":0,
-"id":"e05ccf3",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
-"price":"6\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1654214400,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1654387200,
-"for_kids":0,
 "id":"bea9abc",
 "length":null,
 "level":null,
@@ -32116,7 +32012,7 @@ const DATA={"weekendList": [
 "start":1654214400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32133,6 +32029,32 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1654387200,
 "for_kids":0,
+"id":"e05ccf3",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
+"price":"6\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1654214400,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1654387200,
+"for_kids":0,
 "id":"0197849",
 "length":null,
 "level":null,
@@ -32142,7 +32064,7 @@ const DATA={"weekendList": [
 "start":1654214400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32445,32 +32367,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1654387200,
 "for_kids":0,
-"id":"bf5c703",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436 \u043c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
-"price":"5\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1654300800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
-"url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1654387200,
-"for_kids":0,
 "id":"dedf8bf",
 "length":null,
 "level":null,
@@ -32480,7 +32376,7 @@ const DATA={"weekendList": [
 "start":1654300800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32506,7 +32402,7 @@ const DATA={"weekendList": [
 "start":1654300800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32517,6 +32413,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1654387200,
+"for_kids":0,
+"id":"bf5c703",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436 \u043c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
+"price":"5\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1654300800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
+"url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -32766,7 +32688,7 @@ const DATA={"weekendList": [
 "start":1654387200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -32777,32 +32699,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
 "url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
-"vendor":"strannik"
-},
-{
-"created":1638133200,
-"end":1654992000,
-"for_kids":0,
-"id":"463ae25",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e \u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1654387200,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-32,
-32,
-0
-],
-"title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
-"url":"https://strannik36.ru/po-gornomu-krymu-0",
 "vendor":"strannik"
 },
 {
@@ -32829,6 +32725,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
 "url":"https://strannik36.ru/gornyy-krym-i-sevastopol",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1654992000,
+"for_kids":0,
+"id":"463ae25",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e \u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443",
+"price":"17\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1654387200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+32,
+0
+],
+"title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
+"url":"https://strannik36.ru/po-gornomu-krymu-0",
 "vendor":"strannik"
 },
 {
@@ -32896,7 +32818,7 @@ const DATA={"weekendList": [
 "start":1654473600,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 1,
@@ -32991,58 +32913,6 @@ const DATA={"weekendList": [
 "created":1638133200,
 "end":1655078400,
 "for_kids":0,
-"id":"4cbb72e",
-"length":null,
-"level":null,
-"norm":"\u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"price":"12\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1654732800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-32,
-8,
-0
-],
-"title":"\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
-"url":"https://strannik36.ru/severnoe-prielbruse",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655078400,
-"for_kids":0,
-"id":"9f46fc0",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"11\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1654732800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-2,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
-"vendor":"strannik"
-},
-{
-"created":1638133200,
-"end":1655078400,
-"for_kids":0,
 "id":"8829f28",
 "length":null,
 "level":null,
@@ -33063,6 +32933,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u00a0\u042e\u0436\u043d\u043e\u043c\u0443 \u0411\u0435\u0440\u0435\u0433\u0443 \u041a\u0440\u044b\u043c\u0430. \u0410\u043b\u0443\u0448\u0442\u0430, \u042f\u043b\u0442\u0430",
 "url":"https://strannik36.ru/puteshestvie-po-yuzhnomu-beregu-kryma-alushta-yalta",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655078400,
+"for_kids":0,
+"id":"9f46fc0",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"11\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1654732800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1655078400,
+"for_kids":0,
+"id":"4cbb72e",
+"length":null,
+"level":null,
+"norm":"\u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"price":"12\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1654732800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+8,
+0
+],
+"title":"\u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435",
+"url":"https://strannik36.ru/severnoe-prielbruse",
 "vendor":"strannik"
 },
 {
@@ -33182,7 +33104,7 @@ const DATA={"weekendList": [
 "start":1654819200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -33537,6 +33459,110 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1655078400,
 "for_kids":0,
+"id":"ce2669c",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1654905600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655510400,
+"for_kids":0,
+"id":"74af5cf",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0440\u0445\u044b\u0437 \u043c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
+"price":"28\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1654905600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+128,
+0
+],
+"title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
+"url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655078400,
+"for_kids":0,
+"id":"b26387b",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1654905600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655078400,
+"for_kids":0,
+"id":"c36b2b9",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0430",
+"price":"6\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1654905600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
+"url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655078400,
+"for_kids":0,
 "id":"3b5fd74",
 "length":null,
 "level":null,
@@ -33546,7 +33572,7 @@ const DATA={"weekendList": [
 "start":1654905600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -33587,28 +33613,54 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1655078400,
+"end":1623542400,
 "for_kids":0,
-"id":"c36b2b9",
+"id":"7aa7b81",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0430",
-"price":"6\u00a0800\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0438 \u0434\u043e\u043d",
+"price":"7\u00a0100\u00a0\u20bd",
 "slots":null,
 "start":1654905600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
+1,
+0,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
+"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-i-don-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655078400,
+"for_kids":0,
+"id":"88c4bd3",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
+"price":"6\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1654905600,
+"tags":[
+128,
+0,
+4,
+0,
+1,
 1,
 32,
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
-"url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -33638,92 +33690,14 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1638565200,
-"end":1655078400,
+"created":1638910800,
+"end":1655596800,
 "for_kids":0,
-"id":"b26387b",
+"id":"77b4261",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1654905600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1623542400,
-"for_kids":0,
-"id":"7aa7b81",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0438 \u0434\u043e\u043d",
-"price":"7\u00a0100\u00a0\u20bd",
-"slots":null,
-"start":1654905600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-0,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430 \u0438\u00a0\u0414\u043e\u043d",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-i-don-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655078400,
-"for_kids":0,
-"id":"88c4bd3",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
-"price":"6\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1654905600,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655510400,
-"for_kids":0,
-"id":"74af5cf",
-"length":null,
-"level":null,
-"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0440\u0445\u044b\u0437 \u043c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
-"price":"28\u00a0000\u00a0\u20bd",
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
 "slots":null,
 "start":1654905600,
 "tags":[
@@ -33734,37 +33708,11 @@ const DATA={"weekendList": [
 512,
 2,
 32,
-128,
-0
-],
-"title":"\u00ab\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0440\u0445\u044b\u0437\u00bb. \u041c\u0443\u043b\u044c\u0442\u0438\u0442\u0443\u0440",
-"url":"https://strannik36.ru/udivitelnyy-arhyz-multitur-0",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655078400,
-"for_kids":0,
-"id":"ce2669c",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1654905600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
 "vendor":"strannik"
 },
 {
@@ -34118,7 +34066,7 @@ const DATA={"weekendList": [
 "start":1654992000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -34129,6 +34077,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0420\u0435\u0441\u0441\u0435\u0442\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-resseta-7-dney",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1655510400,
+"for_kids":0,
+"id":"d120cb2",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1654992000,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+32,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
 "vendor":"strannik"
 },
 {
@@ -34222,7 +34196,7 @@ const DATA={"weekendList": [
 "start":1655078400,
 "tags":[
 512,
-1,
+0,
 2,
 0,
 512,
@@ -34300,7 +34274,7 @@ const DATA={"weekendList": [
 "start":1655078400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -34369,32 +34343,6 @@ const DATA={"weekendList": [
 "created":1634677200,
 "end":1655683200,
 "for_kids":0,
-"id":"a302bcc",
-"length":null,
-"level":null,
-"norm":"\u043f\u043b\u0430\u0442\u043e \u043b\u0430\u0433\u043e-\u043d\u0430\u043a\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1655337600,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-32,
-128,
-0
-],
-"title":"\u041f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
-"url":"https://strannik36.ru/plato-lago-naki",
-"vendor":"strannik"
-},
-{
-"created":1634677200,
-"end":1655683200,
-"for_kids":0,
 "id":"fb96c99",
 "length":null,
 "level":null,
@@ -34415,6 +34363,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0414\u043e\u043c\u0431\u0430\u0439. \u0411\u0430\u0434\u0443\u043a\u0441\u043a\u0438\u0435 \u043e\u0437\u0451\u0440\u0430",
 "url":"https://strannik36.ru/dombay-badukskie-ozyora",
+"vendor":"strannik"
+},
+{
+"created":1634677200,
+"end":1655683200,
+"for_kids":0,
+"id":"a302bcc",
+"length":null,
+"level":null,
+"norm":"\u043f\u043b\u0430\u0442\u043e \u043b\u0430\u0433\u043e-\u043d\u0430\u043a\u0438",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1655337600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+32,
+128,
+0
+],
+"title":"\u041f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
+"url":"https://strannik36.ru/plato-lago-naki",
 "vendor":"strannik"
 },
 {
@@ -34456,7 +34430,7 @@ const DATA={"weekendList": [
 "start":1655424000,
 "tags":[
 1,
-1,
+0,
 2,
 1,
 512,
@@ -34525,32 +34499,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1655596800,
 "for_kids":0,
-"id":"d36ca73",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1655424000,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655596800,
-"for_kids":0,
 "id":"2a3b85b",
 "length":null,
 "level":null,
@@ -34560,7 +34508,7 @@ const DATA={"weekendList": [
 "start":1655424000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -34571,6 +34519,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655596800,
+"for_kids":0,
+"id":"d36ca73",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1655424000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -34733,6 +34707,32 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1655596800,
 "for_kids":0,
+"id":"65776c7",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1655510400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1655596800,
+"for_kids":0,
 "id":"9e2b1ce",
 "length":null,
 "level":null,
@@ -34742,7 +34742,7 @@ const DATA={"weekendList": [
 "start":1655510400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -34753,32 +34753,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1655596800,
-"for_kids":0,
-"id":"94170ca",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436 \u043c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
-"price":"5\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1655510400,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
-"url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -34794,7 +34768,7 @@ const DATA={"weekendList": [
 "start":1655510400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -34811,16 +34785,16 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1655596800,
 "for_kids":0,
-"id":"65776c7",
+"id":"94170ca",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"price":"6\u00a0000\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436 \u043c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
+"price":"5\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1655510400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -34829,8 +34803,8 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
+"url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -35302,32 +35276,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638565200,
-"end":1656115200,
-"for_kids":0,
-"id":"1a21fbf",
-"length":null,
-"level":null,
-"norm":"\u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438 \u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e \u0440 \u0432\u0430\u043c\u0430 \u0432\u043e\u0434\u043b\u0430 \u044e\u0436 \u043a\u0430\u0440\u0435\u043b\u0438\u044f",
-"price":"25\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1655596800,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-2,
-32,
-64,
-0
-],
-"title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0440.\u00a0\u0412\u0430\u043c\u0430, \u0412\u043e\u0434\u043b\u0430. \u042e\u0436. \u041a\u0430\u0440\u0435\u043b\u0438\u044f",
-"url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-r-vama-vodla-yuzh-kareliya",
-"vendor":"strannik"
-},
-{
 "created":1638133200,
 "end":1656115200,
 "for_kids":0,
@@ -35351,6 +35299,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041e\u0442\u00a0\u041f\u0435\u0449\u0435\u0440\u043d\u044b\u0445 \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0434\u043e\u00a0\u0427\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f",
 "url":"https://strannik36.ru/ot-peshchernyh-gorodov-do-chernogo-morya-0",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656115200,
+"for_kids":0,
+"id":"1a21fbf",
+"length":null,
+"level":null,
+"norm":"\u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438 \u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e \u0440 \u0432\u0430\u043c\u0430 \u0432\u043e\u0434\u043b\u0430 \u044e\u0436 \u043a\u0430\u0440\u0435\u043b\u0438\u044f",
+"price":"25\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1655596800,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+2,
+32,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0440.\u00a0\u0412\u0430\u043c\u0430, \u0412\u043e\u0434\u043b\u0430. \u042e\u0436. \u041a\u0430\u0440\u0435\u043b\u0438\u044f",
+"url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-r-vama-vodla-yuzh-kareliya",
 "vendor":"strannik"
 },
 {
@@ -35574,7 +35548,7 @@ const DATA={"weekendList": [
 "start":1655856000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -35730,7 +35704,7 @@ const DATA={"weekendList": [
 "start":1656028800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -35756,7 +35730,7 @@ const DATA={"weekendList": [
 "start":1656028800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -35782,7 +35756,7 @@ const DATA={"weekendList": [
 "start":1656028800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -35799,32 +35773,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1656201600,
 "for_kids":0,
-"id":"8f403cc",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1656028800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1656201600,
-"for_kids":0,
 "id":"87ecc59",
 "length":null,
 "level":null,
@@ -35834,7 +35782,7 @@ const DATA={"weekendList": [
 "start":1656028800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -35845,6 +35793,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656201600,
+"for_kids":0,
+"id":"8f403cc",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1656028800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -35860,7 +35834,7 @@ const DATA={"weekendList": [
 "start":1656115200,
 "tags":[
 1,
-1,
+0,
 2,
 0,
 512,
@@ -35886,7 +35860,7 @@ const DATA={"weekendList": [
 "start":1656115200,
 "tags":[
 1,
-1,
+0,
 4,
 0,
 512,
@@ -36030,58 +36004,6 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638565200,
-"end":1656115200,
-"for_kids":0,
-"id":"41a4b21",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436",
-"price":"2\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1656115200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
-"url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1656201600,
-"for_kids":0,
-"id":"673f794",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1656115200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-32,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
-"vendor":"strannik"
-},
-{
 "created":1638133200,
 "end":1656201600,
 "for_kids":0,
@@ -36105,6 +36027,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656201600,
+"for_kids":0,
+"id":"673f794",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1656115200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656115200,
+"for_kids":0,
+"id":"41a4b21",
+"length":null,
+"level":null,
+"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436",
+"price":"2\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1656115200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+32,
+0,
+256
+],
+"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
+"url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
 },
 {
@@ -36484,7 +36458,7 @@ const DATA={"weekendList": [
 "start":1656201600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -36848,7 +36822,7 @@ const DATA={"weekendList": [
 "start":1656547200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -36885,6 +36859,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0414\u043e\u043c\u0431\u0430\u0439. \u0410\u043b\u0438\u0431\u0435\u043a",
 "url":"https://strannik36.ru/dombay-alibek",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1656892800,
+"for_kids":0,
+"id":"f280c3a",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1656547200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+96,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
 "vendor":"strannik"
 },
 {
@@ -36967,32 +36967,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1656806400,
-"for_kids":0,
-"id":"0f37a95",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
-"price":"6\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1656633600,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
 "end":1657152000,
 "for_kids":0,
 "id":"b0d6640",
@@ -37004,7 +36978,7 @@ const DATA={"weekendList": [
 "start":1656633600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -37021,6 +36995,32 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1656806400,
 "for_kids":0,
+"id":"0f37a95",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
+"price":"6\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1656633600,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656806400,
+"for_kids":0,
 "id":"fbd1b98",
 "length":null,
 "level":null,
@@ -37030,7 +37030,7 @@ const DATA={"weekendList": [
 "start":1656633600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -37056,7 +37056,7 @@ const DATA={"weekendList": [
 "start":1656633600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -37172,6 +37172,32 @@ const DATA={"weekendList": [
 "title":"\u0412\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u00a0\u042d\u043b\u044c\u0431\u0440\u0443\u0441 \u0434\u043b\u044f \u043d\u043e\u0432\u0438\u0447\u043a\u043e\u0432",
 "url":"https://turclub-pik.ru/pohod/voskhozhdenie-na-elbrus-s-komfortom/184/",
 "vendor":"pik"
+},
+{
+"created":1638910800,
+"end":1657411200,
+"for_kids":0,
+"id":"b1e78de",
+"length":null,
+"level":3,
+"norm":"\u0433\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432 \u0431\u0435\u0437\u0435\u043d\u0433\u0438",
+"price":"21\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1656720000,
+"tags":[
+4,
+1,
+4,
+0,
+512,
+2,
+64,
+128,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043f\u043e\u0445\u043e\u0434 \u0432\u00a0\u0411\u0435\u0437\u0435\u043d\u0433\u0438",
+"url":"https://cityescape.ru/gornyj-poxod-v-bezengi/",
+"vendor":"cityescape"
 },
 {
 "created":1638133200,
@@ -37342,7 +37368,7 @@ const DATA={"weekendList": [
 "start":1656720000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -37368,7 +37394,7 @@ const DATA={"weekendList": [
 "start":1656720000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -37394,7 +37420,7 @@ const DATA={"weekendList": [
 "start":1656720000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -37411,32 +37437,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1656806400,
 "for_kids":0,
-"id":"e4d433f",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1656720000,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
-"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1656806400,
-"for_kids":0,
 "id":"0839423",
 "length":null,
 "level":null,
@@ -37446,7 +37446,7 @@ const DATA={"weekendList": [
 "start":1656720000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -37457,6 +37457,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436. \u041c\u0430\u043b\u0438\u043d\u0438\u043d\u043e",
 "url":"https://strannik36.ru/pohod-po-reke-voronezh-malinino-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1656806400,
+"for_kids":0,
+"id":"e4d433f",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0440\u0435\u043a\u0435 \u0442\u0438\u0445\u0430\u044f \u0441\u043e\u0441\u043d\u0430 \u0434\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1656720000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
+"url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -37850,6 +37876,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1638910800,
+"end":1657411200,
+"for_kids":0,
+"id":"a3ff1e2",
+"length":null,
+"level":2,
+"norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432 \u0433\u043e\u0440\u0430\u0445 \u043f\u0430\u043c\u0438\u0440\u0430 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u043f\u0430\u043c\u0438\u0440\u0441\u043a\u0438\u0445 \u0433\u043e\u0440\u0446\u0435\u0432",
+"price":"",
+"slots":null,
+"start":1656806400,
+"tags":[
+1024,
+1,
+2,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u041f\u0430\u043c\u0438\u0440\u0430. \u041f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u043f\u0430\u043c\u0438\u0440\u0441\u043a\u0438\u0445 \u0433\u043e\u0440\u0446\u0435\u0432",
+"url":"https://stranavetrov.ru/pik-lenina/trekking-v-gorakh-pamira-pogruzhenie-v-kulturu-pamirskikh-gortsev",
+"vendor":"stranavetrov"
+},
+{
 "created":1634677200,
 "end":1657756800,
 "for_kids":0,
@@ -38174,7 +38226,7 @@ const DATA={"weekendList": [
 "start":1657065600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -38200,7 +38252,7 @@ const DATA={"weekendList": [
 "start":1657152000,
 "tags":[
 1,
-1,
+0,
 4,
 0,
 512,
@@ -38278,7 +38330,7 @@ const DATA={"weekendList": [
 "start":1657238400,
 "tags":[
 4,
-1,
+0,
 2,
 0,
 512,
@@ -38326,7 +38378,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 2 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432 2022",
 "price":"78\u00a0000\u00a0\u20bd",
-"slots":715,
+"slots":415,
 "start":1657238400,
 "tags":[
 16,
@@ -38382,7 +38434,7 @@ const DATA={"weekendList": [
 "start":1657238400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -38408,7 +38460,7 @@ const DATA={"weekendList": [
 "start":1657238400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -38419,6 +38471,84 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
 "url":"https://strannik36.ru/pohod-po-sredney-vorone-7-dney",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1657670400,
+"for_kids":0,
+"id":"4e48a11",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"12\u00a0600\u00a0\u20bd",
+"slots":null,
+"start":1657238400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1657411200,
+"for_kids":0,
+"id":"d57c914",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443 \u043a\u0440\u0438\u0432\u0435\u0446",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1657238400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
+"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1657411200,
+"for_kids":0,
+"id":"474bb21",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1657238400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -38434,7 +38564,7 @@ const DATA={"weekendList": [
 "start":1657238400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -38460,7 +38590,7 @@ const DATA={"weekendList": [
 "start":1657238400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -38471,84 +38601,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0430",
 "url":"https://strannik36.ru/pohod-po-reke-vorona-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1657670400,
-"for_kids":0,
-"id":"4e48a11",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"12\u00a0600\u00a0\u20bd",
-"slots":null,
-"start":1657238400,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-2,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-6-dney",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1657411200,
-"for_kids":0,
-"id":"474bb21",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1657238400,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1657411200,
-"for_kids":0,
-"id":"d57c914",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443 \u043a\u0440\u0438\u0432\u0435\u0446",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1657238400,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
-"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -38876,7 +38928,7 @@ const DATA={"weekendList": [
 "start":1657324800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -39006,7 +39058,7 @@ const DATA={"weekendList": [
 "start":1657411200,
 "tags":[
 8,
-1,
+0,
 4,
 0,
 512,
@@ -39370,7 +39422,7 @@ const DATA={"weekendList": [
 "start":1657411200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -39382,6 +39434,32 @@ const DATA={"weekendList": [
 "title":"\u041d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u0438\u00a0\u043a\u0430\u0442\u0430\u043c\u0430\u0440\u0430\u043d\u0430\u0445 \u043f\u043e\u00a0\u0428\u0443\u0435 (\u042e.\u00a0\u041a\u0430\u0440\u0435\u043b\u0438\u044f)",
 "url":"https://strannik36.ru/na-baydarkah-i-katamaranah-po-shue-yu-kareliya7-dney",
 "vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1658016000,
+"for_kids":0,
+"id":"714cda8",
+"length":null,
+"level":2,
+"norm":"\u0442\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432 \u0433\u043e\u0440\u0430\u0445 \u043f\u0430\u043c\u0438\u0440\u0430 \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u043f\u0430\u043c\u0438\u0440\u0441\u043a\u0438\u0445 \u0433\u043e\u0440\u0446\u0435\u0432",
+"price":"",
+"slots":null,
+"start":1657411200,
+"tags":[
+1024,
+1,
+2,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0433\u043e\u0440\u0430\u0445 \u041f\u0430\u043c\u0438\u0440\u0430. \u041f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0432\u00a0\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u043f\u0430\u043c\u0438\u0440\u0441\u043a\u0438\u0445 \u0433\u043e\u0440\u0446\u0435\u0432",
+"url":"https://stranavetrov.ru/pik-lenina/trekking-v-gorakh-pamira-pogruzhenie-v-kulturu-pamirskikh-gortsev",
+"vendor":"stranavetrov"
 },
 {
 "created":1638133200,
@@ -39422,7 +39500,7 @@ const DATA={"weekendList": [
 "start":1657411200,
 "tags":[
 1024,
-1,
+0,
 4,
 0,
 512,
@@ -39708,7 +39786,7 @@ const DATA={"weekendList": [
 "start":1657670400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -39774,6 +39852,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638565200,
+"end":1658275200,
+"for_kids":0,
+"id":"d4ea6fb",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u0439 \u0432\u043e\u0440\u043e\u043d\u0435",
+"price":"14\u00a0400\u00a0\u20bd",
+"slots":null,
+"start":1657756800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
+"url":"https://strannik36.ru/pohod-po-nizhney-vorone-7-dney",
+"vendor":"strannik"
+},
+{
 "created":1634677200,
 "end":1658102400,
 "for_kids":0,
@@ -39797,32 +39901,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u0410\u0440\u0445\u044b\u0437. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://strannik36.ru/arhyz-sofiyskie-ozera",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1658275200,
-"for_kids":0,
-"id":"d4ea6fb",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u0439 \u0432\u043e\u0440\u043e\u043d\u0435",
-"price":"14\u00a0400\u00a0\u20bd",
-"slots":null,
-"start":1657756800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-2,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u0439 \u0412\u043e\u0440\u043e\u043d\u0435",
-"url":"https://strannik36.ru/pohod-po-nizhney-vorone-7-dney",
 "vendor":"strannik"
 },
 {
@@ -39864,7 +39942,7 @@ const DATA={"weekendList": [
 "start":1657843200,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -39942,7 +40020,7 @@ const DATA={"weekendList": [
 "start":1657843200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -39959,32 +40037,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1658016000,
 "for_kids":0,
-"id":"63b7cf9",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
-"price":"6\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1657843200,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1658016000,
-"for_kids":0,
 "id":"608ec74",
 "length":null,
 "level":null,
@@ -39994,7 +40046,7 @@ const DATA={"weekendList": [
 "start":1657843200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -40005,6 +40057,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1658016000,
+"for_kids":0,
+"id":"63b7cf9",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u0445\u043e\u043f\u0435\u0440",
+"price":"6\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1657843200,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0425\u043e\u043f\u0435\u0440",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-hoper-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -40269,32 +40347,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1658016000,
-"for_kids":0,
-"id":"e0e1ed5",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"5\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1657929600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
 "end":1658534400,
 "for_kids":0,
 "id":"fec8667",
@@ -40306,7 +40358,7 @@ const DATA={"weekendList": [
 "start":1657929600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -40332,7 +40384,7 @@ const DATA={"weekendList": [
 "start":1657929600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -40347,28 +40399,28 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1658448000,
+"end":1658016000,
 "for_kids":0,
-"id":"7f008c9",
+"id":"e0e1ed5",
 "length":null,
 "level":null,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"14\u00a0200\u00a0\u20bd",
+"price":"5\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1657929600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
-2,
+1,
 64,
 0,
 256
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -40395,6 +40447,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0418\u0437\u00a0\u0410\u0440\u0445\u044b\u0437\u0430 \u0432\u00a0\u0414\u043e\u043c\u0431\u0430\u0439",
 "url":"https://strannik36.ru/iz-arhyza-v-dombay",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1658448000,
+"for_kids":0,
+"id":"7f008c9",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"14\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1657929600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-7-dney",
 "vendor":"strannik"
 },
 {
@@ -40509,7 +40587,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u043a\u0443\u043d\u0430\u0448\u0438\u0440 \u0441 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u044f\u0442\u044e \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-"price":"67\u00a0700\u00a0\u20bd",
+"price":"69\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1658016000,
 "tags":[
@@ -40904,7 +40982,7 @@ const DATA={"weekendList": [
 "start":1658016000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -41268,7 +41346,7 @@ const DATA={"weekendList": [
 "start":1658275200,
 "tags":[
 8,
-1,
+0,
 4,
 0,
 512,
@@ -41372,7 +41450,7 @@ const DATA={"weekendList": [
 "start":1658275200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -41490,6 +41568,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1659312000,
+"for_kids":1,
+"id":"94d792a",
+"length":15,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u044b\u043c \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
+"price":"38\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1658448000,
+"tags":[
+1,
+1,
+2,
+1,
+512,
+2,
+192,
+32,
+0
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
+"url":"https://turclub-pik.ru/pohod/semeinyi-lager-v-krymu-plavanie-i-tvorchestvo/463/",
+"vendor":"pik"
+},
+{
 "created":1630875600,
 "end":1659052800,
 "for_kids":0,
@@ -41571,58 +41675,6 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1658620800,
 "for_kids":0,
-"id":"1ca38c6",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1658448000,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1658620800,
-"for_kids":0,
-"id":"b3916c3",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1658448000,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1658620800,
-"for_kids":0,
 "id":"5c3c8ec",
 "length":null,
 "level":null,
@@ -41632,7 +41684,7 @@ const DATA={"weekendList": [
 "start":1658448000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -41658,7 +41710,7 @@ const DATA={"weekendList": [
 "start":1658448000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -41669,6 +41721,58 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1658620800,
+"for_kids":0,
+"id":"b3916c3",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1658448000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1658620800,
+"for_kids":0,
+"id":"1ca38c6",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1658448000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -41736,7 +41840,7 @@ const DATA={"weekendList": [
 "start":1658534400,
 "tags":[
 1,
-1,
+0,
 2,
 0,
 512,
@@ -41984,29 +42088,29 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
-"created":1638565200,
-"end":1658966400,
+"created":1638133200,
+"end":1659139200,
 "for_kids":0,
-"id":"de23c47",
+"id":"53fc5e9",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
-"price":"13\u00a0200\u00a0\u20bd",
+"norm":"\u043f\u043e \u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443",
+"price":"17\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1658534400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
 2,
 64,
-0,
-256
+32,
+0
 ],
-"title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
-"url":"https://strannik36.ru/po-reke-oskol-6-dney",
+"title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
+"url":"https://strannik36.ru/po-gornomu-krymu-0",
 "vendor":"strannik"
 },
 {
@@ -42036,32 +42140,6 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1638133200,
-"end":1659139200,
-"for_kids":0,
-"id":"53fc5e9",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e \u0433\u043e\u0440\u043d\u043e\u043c\u0443 \u043a\u0440\u044b\u043c\u0443",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1658534400,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-64,
-32,
-0
-],
-"title":"\u041f\u043e\u00a0\u0413\u043e\u0440\u043d\u043e\u043c\u0443 \u041a\u0440\u044b\u043c\u0443",
-"url":"https://strannik36.ru/po-gornomu-krymu-0",
-"vendor":"strannik"
-},
-{
 "created":1638565200,
 "end":1658620800,
 "for_kids":0,
@@ -42074,7 +42152,7 @@ const DATA={"weekendList": [
 "start":1658534400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -42085,6 +42163,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0422\u0438\u0445\u0430\u044f \u0421\u043e\u0441\u043d\u0430. \u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u044c\u0435",
 "url":"https://strannik36.ru/pohod-po-reke-tihaya-sosna-divnogore-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1658966400,
+"for_kids":0,
+"id":"de23c47",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
+"price":"13\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1658534400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
+"url":"https://strannik36.ru/po-reke-oskol-6-dney",
 "vendor":"strannik"
 },
 {
@@ -42542,7 +42646,7 @@ const DATA={"weekendList": [
 "start":1658620800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -42568,7 +42672,7 @@ const DATA={"weekendList": [
 "start":1658620800,
 "tags":[
 1024,
-1,
+0,
 4,
 0,
 512,
@@ -42776,7 +42880,7 @@ const DATA={"weekendList": [
 "start":1658793600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -42813,6 +42917,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0430\u0432\u043a\u0430\u0437",
 "url":"https://zovgor.com/shaut-teberda.html",
+"vendor":"zovgor"
+},
+{
+"created":1638910800,
+"end":1659916800,
+"for_kids":0,
+"id":"f481382",
+"length":null,
+"level":null,
+"norm":"\u043a \u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0431\u0435\u043b\u0443\u0445\u0438 \u0430\u043b\u0442\u0430\u0439",
+"price":"29\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1658966400,
+"tags":[
+8,
+1,
+4,
+0,
+512,
+2,
+192,
+4,
+0
+],
+"title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
+"url":"https://zovgor.com/pohod_na_altai.html",
 "vendor":"zovgor"
 },
 {
@@ -42984,7 +43114,7 @@ const DATA={"weekendList": [
 "start":1659052800,
 "tags":[
 1,
-1,
+0,
 1,
 1,
 512,
@@ -43001,26 +43131,26 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1659225600,
 "for_kids":0,
-"id":"911c07e",
+"id":"a439700",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
-"price":"6\u00a0500\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1659052800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
-1,
+512,
 1,
 64,
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -43036,7 +43166,7 @@ const DATA={"weekendList": [
 "start":1659052800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -43053,26 +43183,26 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1659225600,
 "for_kids":0,
-"id":"a439700",
+"id":"911c07e",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
+"price":"6\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1659052800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
-512,
+1,
 1,
 64,
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-verhnemu-bityugu-3-dnya",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -43258,6 +43388,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1660348800,
+"for_kids":0,
+"id":"58e4c1c",
+"length":100,
+"level":2,
+"norm":"\u0432\u0441\u044f \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0437\u0430 14 \u0434\u043d\u0435\u0439 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"price":"116\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1659139200,
+"tags":[
+1,
+1,
+2,
+0,
+512,
+2,
+192,
+1,
+0
+],
+"title":"\u0412\u0441\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430 \u0437\u0430\u00a014\u00a0\u0434\u043d\u0435\u0439. \u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
+"url":"https://turclub-pik.ru/pohod/kamchatka-bez-ryukzakov/280/",
+"vendor":"pik"
+},
+{
 "created":1635714000,
 "end":1659744000,
 "for_kids":0,
@@ -43426,7 +43582,7 @@ const DATA={"weekendList": [
 "start":1659139200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -43452,7 +43608,7 @@ const DATA={"weekendList": [
 "start":1659139200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -43463,32 +43619,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1659225600,
-"for_kids":0,
-"id":"a3cfbe0",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"5\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1659139200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-64,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -43515,6 +43645,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0435 \u043e\u0437\u0435\u0440\u0430 \u0438\u00a0\u0432\u043e\u0434\u043e\u043f\u0430\u0434\u044b \u0410\u0440\u0445\u044b\u0437\u0430",
 "url":"https://strannik36.ru/gornye-ozera-i-vodopady-arhyza",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1659225600,
+"for_kids":0,
+"id":"a3cfbe0",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"5\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1659139200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+64,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
 "vendor":"strannik"
 },
 {
@@ -43629,7 +43785,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u043a\u0443\u043d\u0430\u0448\u0438\u0440 \u0441 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u044f\u0442\u044e \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-"price":"67\u00a0700\u00a0\u20bd",
+"price":"69\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1659225600,
 "tags":[
@@ -43660,7 +43816,7 @@ const DATA={"weekendList": [
 "start":1659225600,
 "tags":[
 4,
-1,
+0,
 2,
 0,
 512,
@@ -43998,7 +44154,7 @@ const DATA={"weekendList": [
 "start":1659225600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -44258,7 +44414,7 @@ const DATA={"weekendList": [
 "start":1659312000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -44414,7 +44570,7 @@ const DATA={"weekendList": [
 "start":1659398400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -44610,6 +44766,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1660521600,
+"for_kids":1,
+"id":"a2346b6",
+"length":15,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u044b\u043c \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
+"price":"38\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1659657600,
+"tags":[
+1,
+1,
+2,
+1,
+512,
+2,
+128,
+32,
+0
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u00a0\u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u043e",
+"url":"https://turclub-pik.ru/pohod/semeinyi-lager-v-krymu-plavanie-i-tvorchestvo/463/",
+"vendor":"pik"
+},
+{
 "created":1635714000,
 "end":1660003200,
 "for_kids":0,
@@ -44691,16 +44873,16 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1659830400,
 "for_kids":0,
-"id":"da3c531",
+"id":"694abaf",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443 \u043a\u0440\u0438\u0432\u0435\u0446",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
 "price":"6\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1659657600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -44709,8 +44891,8 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
-"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -44726,7 +44908,7 @@ const DATA={"weekendList": [
 "start":1659657600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -44743,6 +44925,32 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1659830400,
 "for_kids":0,
+"id":"da3c531",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0432\u043e\u0440\u043e\u043d\u0435\u0436\u0443 \u043a\u0440\u0438\u0432\u0435\u0446",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1659657600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
+"url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1659830400,
+"for_kids":0,
 "id":"3634dd5",
 "length":null,
 "level":null,
@@ -44752,7 +44960,7 @@ const DATA={"weekendList": [
 "start":1659657600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -44763,32 +44971,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1659830400,
-"for_kids":0,
-"id":"694abaf",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1659657600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -45116,7 +45298,7 @@ const DATA={"weekendList": [
 "start":1659744000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -45127,6 +45309,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041f\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-pra-4-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1660348800,
+"for_kids":0,
+"id":"6177b08",
+"length":null,
+"level":null,
+"norm":"\u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a \u043c\u043e\u0440\u044e",
+"price":"17\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1659744000,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+128,
+0,
+256
+],
+"title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
+"url":"https://strannik36.ru/cherez-gory-k-moryu",
 "vendor":"strannik"
 },
 {
@@ -45168,7 +45376,7 @@ const DATA={"weekendList": [
 "start":1659744000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -45194,7 +45402,7 @@ const DATA={"weekendList": [
 "start":1659744000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -45205,32 +45413,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0425\u043e\u043f\u0440\u0443",
 "url":"https://strannik36.ru/pohod-po-nizhnemu-hopru-7-dney",
-"vendor":"strannik"
-},
-{
-"created":1638133200,
-"end":1660348800,
-"for_kids":0,
-"id":"6177b08",
-"length":null,
-"level":null,
-"norm":"\u0447\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a \u043c\u043e\u0440\u044e",
-"price":"17\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1659744000,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-128,
-0,
-256
-],
-"title":"\u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e",
-"url":"https://strannik36.ru/cherez-gory-k-moryu",
 "vendor":"strannik"
 },
 {
@@ -45388,6 +45570,32 @@ const DATA={"weekendList": [
 "title":"\u0410\u043b\u0442\u0430\u0439. \u0428\u0430\u0432\u043b\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://turclub-pik.ru/pohod/altai-shavlinskie-ozera/223/",
 "vendor":"pik"
+},
+{
+"created":1638910800,
+"end":1660780800,
+"for_kids":0,
+"id":"8012235",
+"length":null,
+"level":null,
+"norm":"\u043a \u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0431\u0435\u043b\u0443\u0445\u0438 \u0430\u043b\u0442\u0430\u0439",
+"price":"29\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1659830400,
+"tags":[
+8,
+1,
+4,
+0,
+512,
+2,
+128,
+4,
+0
+],
+"title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
+"url":"https://zovgor.com/pohod_na_altai.html",
+"vendor":"zovgor"
 },
 {
 "created":1638133200,
@@ -45648,32 +45856,6 @@ const DATA={"weekendList": [
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432\u00a0\u0410\u0440\u0445\u044b\u0437\u0435. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
 "url":"https://pro-adventure.ru/tours/id_2175_gornyj-lager-v-arhyze-sofijskie-ozera",
 "vendor":"pro_adventure"
-},
-{
-"created":1638133200,
-"end":1660953600,
-"for_kids":0,
-"id":"76593ca",
-"length":120,
-"level":4,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u0442\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e",
-"price":"46\u00a0500\u00a0\u20bd",
-"slots":0,
-"start":1659916800,
-"tags":[
-1,
-0,
-8,
-0,
-512,
-2,
-128,
-1,
-0
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0435 \u00ab\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043a\u043e\u043b\u044c\u0446\u043e\u00bb",
-"url":"https://turclub-pik.ru/pohod/tihookeanskoe-koltso/9/",
-"vendor":"pik"
 },
 {
 "created":1632085200,
@@ -46151,7 +46333,7 @@ const DATA={"weekendList": [
 "length":90,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0438\u0442\u0443\u0440\u0443\u043f \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-"price":"67\u00a0700\u00a0\u20bd",
+"price":"69\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1660176000,
 "tags":[
@@ -46312,7 +46494,7 @@ const DATA={"weekendList": [
 "start":1660176000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -46442,7 +46624,7 @@ const DATA={"weekendList": [
 "start":1660262400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -46468,7 +46650,7 @@ const DATA={"weekendList": [
 "start":1660262400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -46494,7 +46676,7 @@ const DATA={"weekendList": [
 "start":1660262400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -46754,7 +46936,7 @@ const DATA={"weekendList": [
 "start":1660348800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -46765,32 +46947,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
 "url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1660348800,
-"for_kids":0,
-"id":"3ee75f6",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u0441\u043c\u0430\u043d\u043a\u0430",
-"price":"2\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1660348800,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
-"url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
 },
 {
@@ -46806,7 +46962,7 @@ const DATA={"weekendList": [
 "start":1660348800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -46817,6 +46973,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0433\u0440\u0430",
 "url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-ugra-5-dney",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1660348800,
+"for_kids":0,
+"id":"3ee75f6",
+"length":null,
+"level":null,
+"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0443\u0441\u043c\u0430\u043d\u043a\u0430",
+"price":"2\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1660348800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0423\u0441\u043c\u0430\u043d\u043a\u0430",
+"url":"https://strannik36.ru/progulka-po-reke-usmanka-1-den",
 "vendor":"strannik"
 },
 {
@@ -46879,7 +47061,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0441\u0430\u0445\u0430\u043b\u0438\u043d + \u043a\u0443\u043d\u0430\u0448\u0438\u0440 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"77\u00a0500\u00a0\u20bd",
+"price":"79\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1660435200,
 "tags":[
@@ -47144,7 +47326,7 @@ const DATA={"weekendList": [
 "start":1660435200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -47196,7 +47378,7 @@ const DATA={"weekendList": [
 "start":1660435200,
 "tags":[
 1024,
-1,
+0,
 4,
 0,
 512,
@@ -47444,6 +47626,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1638910800,
+"end":1660953600,
+"for_kids":1,
+"id":"fe9512e",
+"length":40,
+"level":2,
+"norm":"\u0442\u0443\u0440 \u0432 \u043f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u0441 \u0434\u0435\u0442\u044c\u043c\u0438",
+"price":null,
+"slots":null,
+"start":1660521600,
+"tags":[
+256,
+1,
+2,
+1,
+512,
+2,
+128,
+8,
+0
+],
+"title":"\u0422\u0443\u0440 \u0432\u00a0\u041f\u0440\u0438\u044d\u043b\u044c\u0431\u0440\u0443\u0441\u044c\u0435 \u0434\u043b\u044f \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439 \u0441\u00a0\u0434\u0435\u0442\u044c\u043c\u0438",
+"url":"https://mwtravel.ru/travel-all/trekking-tour-near-elbrus/",
+"vendor":"myway"
+},
+{
 "created":1636318800,
 "end":1661040000,
 "for_kids":1,
@@ -47598,6 +47806,32 @@ const DATA={"weekendList": [
 "title":"\u041c\u043d\u043e\u0433\u043e\u043b\u0438\u043a\u0430\u044f \u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430",
 "url":"https://pro-adventure.ru/tours/id_1792_mnogolikaya-kamchatka",
 "vendor":"pro_adventure"
+},
+{
+"created":1638910800,
+"end":1661644800,
+"for_kids":0,
+"id":"4a04aee",
+"length":null,
+"level":null,
+"norm":"\u043a \u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0431\u0435\u043b\u0443\u0445\u0438 \u0430\u043b\u0442\u0430\u0439",
+"price":"29\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1660694400,
+"tags":[
+8,
+1,
+4,
+0,
+512,
+2,
+128,
+4,
+0
+],
+"title":"\u041a\u00a0\u043f\u043e\u0434\u043d\u043e\u0436\u0438\u044e \u0411\u0435\u043b\u0443\u0445\u0438 (\u0410\u043b\u0442\u0430\u0439)",
+"url":"https://zovgor.com/pohod_na_altai.html",
+"vendor":"zovgor"
 },
 {
 "created":1635714000,
@@ -47768,7 +48002,7 @@ const DATA={"weekendList": [
 "start":1660780800,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -47889,6 +48123,110 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1661040000,
 "for_kids":0,
+"id":"bda9d33",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1660867200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1661040000,
+"for_kids":0,
+"id":"93f818a",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
+"price":"6\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1660867200,
+"tags":[
+128,
+0,
+4,
+0,
+1,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
+"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1661558400,
+"for_kids":0,
+"id":"a8cc71e",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1660867200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+128,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1661040000,
+"for_kids":0,
+"id":"fe959e5",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"6\u00a0200\u00a0\u20bd",
+"slots":null,
+"start":1660867200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1661040000,
+"for_kids":0,
 "id":"6ffb38d",
 "length":null,
 "level":null,
@@ -47898,7 +48236,7 @@ const DATA={"weekendList": [
 "start":1660867200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -47924,7 +48262,7 @@ const DATA={"weekendList": [
 "start":1660867200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -47935,84 +48273,6 @@ const DATA={"weekendList": [
 ],
 "title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0432\u0435\u0440\u0445\u043d\u0435\u043c\u0443 \u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0443. \u041a\u0440\u0438\u0432\u0435\u0446",
 "url":"https://strannik36.ru/pohod-po-verhnemu-voronezhu-krivec-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1661040000,
-"for_kids":0,
-"id":"93f818a",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e \u0440\u0435\u043a\u0435 \u043e\u0441\u043a\u043e\u043b",
-"price":"6\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1660867200,
-"tags":[
-128,
-1,
-4,
-0,
-1,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043d\u0430\u00a0\u0431\u0430\u0439\u0434\u0430\u0440\u043a\u0430\u0445 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u041e\u0441\u043a\u043e\u043b",
-"url":"https://strannik36.ru/pohod-na-baydarkah-po-reke-oskol-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1661040000,
-"for_kids":0,
-"id":"fe959e5",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0200\u00a0\u20bd",
-"slots":null,
-"start":1660867200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u043d\u0438\u0436\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-nizhnemu-bityugu-3-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
-"end":1661040000,
-"for_kids":0,
-"id":"bda9d33",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"6\u00a0000\u00a0\u20bd",
-"slots":null,
-"start":1660867200,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-3-dnya",
 "vendor":"strannik"
 },
 {
@@ -48054,7 +48314,7 @@ const DATA={"weekendList": [
 "start":1660953600,
 "tags":[
 1,
-1,
+0,
 2,
 0,
 512,
@@ -48355,32 +48615,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1660953600,
-"for_kids":0,
-"id":"7e769df",
-"length":null,
-"level":null,
-"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436",
-"price":"2\u00a0800\u00a0\u20bd",
-"slots":null,
-"start":1660953600,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
-"url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
 "end":1661385600,
 "for_kids":0,
 "id":"367b8f6",
@@ -48388,6 +48622,32 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0440\u0435\u043a\u0430 \u0445\u043e\u043f\u0435\u0440 \u0438 \u0445\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
 "price":"13\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1660953600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+128,
+0,
+256
+],
+"title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
+"url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
+"vendor":"strannik"
+},
+{
+"created":1638910800,
+"end":1661644800,
+"for_kids":0,
+"id":"172182f",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
 "slots":null,
 "start":1660953600,
 "tags":[
@@ -48401,8 +48661,34 @@ const DATA={"weekendList": [
 0,
 256
 ],
-"title":"\u0420\u0435\u043a\u0430 \u0425\u043e\u043f\u0435\u0440 \u0438\u00a0\u0425\u043e\u043f\u0435\u0440\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a",
-"url":"https://strannik36.ru/reka-hoper-i-hoperskiy-zapovednik-6-dney",
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1660953600,
+"for_kids":0,
+"id":"7e769df",
+"length":null,
+"level":null,
+"norm":"\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e \u0440\u0435\u043a\u0435 \u0432\u043e\u0440\u043e\u043d\u0435\u0436",
+"price":"2\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1660953600,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u043f\u043e\u00a0\u0440\u0435\u043a\u0435 \u0412\u043e\u0440\u043e\u043d\u0435\u0436",
+"url":"https://strannik36.ru/progulka-po-reke-voronezh-1-den",
 "vendor":"strannik"
 },
 {
@@ -48543,7 +48829,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u043a\u0443\u043d\u0430\u0448\u0438\u0440 \u0441 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0442\u044f\u0442\u044e \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-"price":"67\u00a0700\u00a0\u20bd",
+"price":"69\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1661040000,
 "tags":[
@@ -48912,7 +49198,7 @@ const DATA={"weekendList": [
 "start":1661040000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -49245,7 +49531,7 @@ const DATA={"weekendList": [
 "length":100,
 "level":2,
 "norm":"\u0441\u0430\u0445\u0430\u043b\u0438\u043d + \u043a\u0443\u043d\u0430\u0448\u0438\u0440 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0443\u0440 \u0431\u0435\u0437 \u0440\u044e\u043a\u0437\u0430\u043a\u043e\u0432",
-"price":"77\u00a0500\u00a0\u20bd",
+"price":"79\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1661385600,
 "tags":[
@@ -49290,14 +49576,14 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
-"created":1634677200,
+"created":1638565200,
 "end":1661731200,
 "for_kids":0,
-"id":"b3d18a9",
+"id":"df679b0",
 "length":null,
 "level":null,
-"norm":"\u0430\u0440\u0445\u044b\u0437 \u0441\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
-"price":"12\u00a0500\u00a0\u20bd",
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"11\u00a0000\u00a0\u20bd",
 "slots":null,
 "start":1661385600,
 "tags":[
@@ -49308,11 +49594,11 @@ const DATA={"weekendList": [
 512,
 2,
 128,
-128,
-0
+0,
+256
 ],
-"title":"\u0410\u0440\u0445\u044b\u0437. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
-"url":"https://strannik36.ru/arhyz-sofiyskie-ozera",
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
 "vendor":"strannik"
 },
 {
@@ -49342,29 +49628,29 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1638565200,
+"created":1634677200,
 "end":1661731200,
 "for_kids":0,
-"id":"df679b0",
+"id":"b3d18a9",
 "length":null,
 "level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"11\u00a0000\u00a0\u20bd",
+"norm":"\u0430\u0440\u0445\u044b\u0437 \u0441\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"price":"12\u00a0500\u00a0\u20bd",
 "slots":null,
 "start":1661385600,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
 2,
 128,
-0,
-256
+128,
+0
 ],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-5-dney",
+"title":"\u0410\u0440\u0445\u044b\u0437. \u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0438\u0435 \u043e\u0437\u0435\u0440\u0430",
+"url":"https://strannik36.ru/arhyz-sofiyskie-ozera",
 "vendor":"strannik"
 },
 {
@@ -49380,7 +49666,7 @@ const DATA={"weekendList": [
 "start":1661472000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -49406,7 +49692,7 @@ const DATA={"weekendList": [
 "start":1661472000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 1,
@@ -49498,6 +49784,32 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
+"created":1638910800,
+"end":1662336000,
+"for_kids":1,
+"id":"c3ad91c",
+"length":50,
+"level":2,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u044b\u043c \u043c\u0430\u043b\u044b\u0448\u0438 \u043d\u0430 \u0434\u0435\u043c\u0435\u0440\u0434\u0436\u0438 0+",
+"price":"27\u00a0900\u00a0\u20bd",
+"slots":null,
+"start":1661558400,
+"tags":[
+1,
+1,
+2,
+1,
+512,
+2,
+384,
+32,
+0
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041c\u0430\u043b\u044b\u0448\u0438 \u043d\u0430\u00a0\u0414\u0435\u043c\u0435\u0440\u0434\u0436\u0438 (0+)",
+"url":"https://turclub-pik.ru/pohod/detskii-krym-malyshi-na-demerdzhi/239/",
+"vendor":"pik"
+},
+{
 "created":1638133200,
 "end":1662768000,
 "for_kids":0,
@@ -49505,7 +49817,7 @@ const DATA={"weekendList": [
 "length":90,
 "level":3,
 "norm":"\u043f\u043e\u0445\u043e\u0434 \u043d\u0430 \u0438\u0442\u0443\u0440\u0443\u043f \u043a\u0443\u0440\u0438\u043b\u044c\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-"price":"67\u00a0700\u00a0\u20bd",
+"price":"69\u00a0700\u00a0\u20bd",
 "slots":null,
 "start":1661558400,
 "tags":[
@@ -49577,32 +49889,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1638565200,
-"end":1661644800,
-"for_kids":0,
-"id":"bb24dd9",
-"length":null,
-"level":null,
-"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
-"price":"5\u00a0700\u00a0\u20bd",
-"slots":null,
-"start":1661558400,
-"tags":[
-128,
-1,
-4,
-0,
-512,
-1,
-128,
-0,
-256
-],
-"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
-"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
-"vendor":"strannik"
-},
-{
-"created":1638565200,
 "end":1661558400,
 "for_kids":0,
 "id":"1bddc07",
@@ -49614,7 +49900,7 @@ const DATA={"weekendList": [
 "start":1661558400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -49640,7 +49926,7 @@ const DATA={"weekendList": [
 "start":1661558400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -49657,6 +49943,32 @@ const DATA={"weekendList": [
 "created":1638565200,
 "end":1661644800,
 "for_kids":0,
+"id":"bb24dd9",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u0445\u043e\u0434 \u043f\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0431\u0438\u0442\u044e\u0433\u0443",
+"price":"5\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1661558400,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+1,
+128,
+0,
+256
+],
+"title":"\u041f\u043e\u0445\u043e\u0434 \u043f\u043e\u00a0\u0441\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u0411\u0438\u0442\u044e\u0433\u0443",
+"url":"https://strannik36.ru/pohod-po-srednemu-bityugu-2-dnya",
+"vendor":"strannik"
+},
+{
+"created":1638565200,
+"end":1661644800,
+"for_kids":0,
 "id":"52f5bd4",
 "length":null,
 "level":null,
@@ -49666,7 +49978,7 @@ const DATA={"weekendList": [
 "start":1661558400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -50004,7 +50316,7 @@ const DATA={"weekendList": [
 "start":1661817600,
 "tags":[
 2,
-1,
+0,
 1,
 0,
 512,
@@ -50472,7 +50784,7 @@ const DATA={"weekendList": [
 "start":1662163200,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -50758,7 +51070,7 @@ const DATA={"weekendList": [
 "start":1662336000,
 "tags":[
 8,
-1,
+0,
 4,
 0,
 32,
@@ -50954,6 +51266,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1638910800,
+"end":1662940800,
+"for_kids":0,
+"id":"bc1f469",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1662595200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+256,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
+"vendor":"strannik"
+},
+{
 "created":1634677200,
 "end":1663459200,
 "for_kids":0,
@@ -51096,7 +51434,7 @@ const DATA={"weekendList": [
 "start":1662768000,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -51134,6 +51472,32 @@ const DATA={"weekendList": [
 "title":"30-\u0439 \u043c\u0430\u0440\u0448\u0440\u0443\u0442. \u0427\u0435\u0440\u0435\u0437 \u0433\u043e\u0440\u044b \u043a\u00a0\u043c\u043e\u0440\u044e \u0441\u00a0\u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043d\u0430\u00a0\u041e\u0448\u0442\u0435\u043d",
 "url":"https://stranavetrov.ru/pohody-i-aktivniye-tury-na-kavkaz/30-j-marshrut-cherez-gory-k-moryu-s-voskhozhdeniem-na-oshten",
 "vendor":"stranavetrov"
+},
+{
+"created":1638910800,
+"end":1663459200,
+"for_kids":0,
+"id":"9123d3b",
+"length":null,
+"level":1,
+"norm":"\u0433\u043e\u0440\u043d\u044b\u0439 \u043a\u0440\u044b\u043c \u0438 \u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0430\u044f\u043a\u0438\u043d\u0433",
+"price":"26\u00a0000\u00a0\u20bd",
+"slots":0,
+"start":1662854400,
+"tags":[
+2,
+1,
+1,
+0,
+512,
+2,
+256,
+32,
+0
+],
+"title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u041a\u0440\u044b\u043c \u0438\u00a0\u043c\u043e\u0440\u0441\u043a\u043e\u0439 \u043a\u0430\u044f\u043a\u0438\u043d\u0433",
+"url":"http://orangeked.ru/tours/item/31-gornyj-krym",
+"vendor":"orangeked"
 },
 {
 "created":1631221200,
@@ -51708,6 +52072,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1638910800,
+"end":1664064000,
+"for_kids":0,
+"id":"6dbb7e0",
+"length":null,
+"level":null,
+"norm":"\u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449 \u043c\u0430\u043d\u0433\u044b\u0448\u043b\u0430\u043a \u0434\u0436\u0438\u043f-\u0442\u0443\u0440 + \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
+"price":"$\u00a01\u00a0140",
+"slots":77,
+"start":1663372800,
+"tags":[
+16,
+1,
+4,
+0,
+64,
+2,
+256,
+0,
+64
+],
+"title":"\u041f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449 \u041c\u0430\u043d\u0433\u044b\u0448\u043b\u0430\u043a. \u0414\u0436\u0438\u043f-\u0442\u0443\u0440 + \u0442\u0440\u0435\u043a\u0438\u043d\u0433 / 2022",
+"url":"https://www.napravlenie.info/catalog/avtorskie-tury/poluostrov-sokrovishch-mangyshlak-dzhip-tur-treking-2022/",
+"vendor":"napravlenie"
+},
+{
 "created":1635714000,
 "end":1664150400,
 "for_kids":0,
@@ -51994,32 +52384,6 @@ const DATA={"weekendList": [
 "vendor":"stranavetrov"
 },
 {
-"created":1638133200,
-"end":1664150400,
-"for_kids":0,
-"id":"539d2fa",
-"length":null,
-"level":null,
-"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1663804800,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-256,
-32,
-0
-],
-"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
-"url":"https://strannik36.ru/vyhodnye-v-mezmae",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1664150400,
 "for_kids":0,
@@ -52043,6 +52407,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u043e\u043b\u044c\u0446\u043e \u0433\u043e\u0440\u044b \u041e\u0448\u0442\u0435\u043d",
 "url":"https://strannik36.ru/kolco-gory-oshten",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1664150400,
+"for_kids":0,
+"id":"539d2fa",
+"length":null,
+"level":null,
+"norm":"\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432 \u043c\u0435\u0437\u043c\u0430\u0435",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1663804800,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+256,
+32,
+0
+],
+"title":"\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0432\u00a0\u041c\u0435\u0437\u043c\u0430\u0435",
+"url":"https://strannik36.ru/vyhodnye-v-mezmae",
 "vendor":"strannik"
 },
 {
@@ -52150,6 +52540,32 @@ const DATA={"weekendList": [
 "vendor":"zovgor"
 },
 {
+"created":1638910800,
+"end":1664668800,
+"for_kids":0,
+"id":"ed5403f",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1663977600,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+768,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
+},
+{
 "created":1635714000,
 "end":1664582400,
 "for_kids":0,
@@ -52252,6 +52668,32 @@ const DATA={"weekendList": [
 "title":"\u0422\u0440\u0435\u043a\u043a\u0438\u043d\u0433 \u0432\u00a0\u0410\u0431\u0445\u0430\u0437\u0438\u0438",
 "url":"https://pro-adventure.ru/tours/id_2498_trekking-v-abhazii",
 "vendor":"pro_adventure"
+},
+{
+"created":1638910800,
+"end":1664582400,
+"for_kids":0,
+"id":"b687533",
+"length":null,
+"level":null,
+"norm":"\u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"price":"38\u00a0750\u00a0\u20bd",
+"slots":null,
+"start":1664064000,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+768,
+0,
+256
+],
+"title":"\u0421\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0433\u043e\u0440 \u0438\u00a0\u0431\u043e\u0435\u0432\u044b\u0445 \u0431\u0430\u0448\u0435\u043d",
+"url":"https://strannik36.ru/strana-vysokih-gor-i-boevyh-bashen",
+"vendor":"strannik"
 },
 {
 "created":1638133200,
@@ -52500,7 +52942,7 @@ const DATA={"weekendList": [
 "start":1664582400,
 "tags":[
 128,
-1,
+0,
 4,
 0,
 512,
@@ -52682,7 +53124,7 @@ const DATA={"weekendList": [
 "start":1665273600,
 "tags":[
 2,
-1,
+0,
 2,
 0,
 512,
@@ -52826,32 +53268,6 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
-"created":1638133200,
-"end":1665964800,
-"for_kids":0,
-"id":"528ab9a",
-"length":null,
-"level":null,
-"norm":"\u043f\u043b\u0430\u0442\u043e \u043b\u0430\u0433\u043e-\u043d\u0430\u043a\u0438",
-"price":"12\u00a0500\u00a0\u20bd",
-"slots":null,
-"start":1665619200,
-"tags":[
-128,
-0,
-4,
-0,
-512,
-2,
-512,
-128,
-0
-],
-"title":"\u041f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
-"url":"https://strannik36.ru/plato-lago-naki",
-"vendor":"strannik"
-},
-{
 "created":1634677200,
 "end":1665964800,
 "for_kids":0,
@@ -52875,6 +53291,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u0421\u043e\u0447\u0438. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u041f\u043e\u043b\u044f\u043d\u0430",
 "url":"https://strannik36.ru/sochi-krasnaya-polyana",
+"vendor":"strannik"
+},
+{
+"created":1638133200,
+"end":1665964800,
+"for_kids":0,
+"id":"528ab9a",
+"length":null,
+"level":null,
+"norm":"\u043f\u043b\u0430\u0442\u043e \u043b\u0430\u0433\u043e-\u043d\u0430\u043a\u0438",
+"price":"12\u00a0500\u00a0\u20bd",
+"slots":null,
+"start":1665619200,
+"tags":[
+128,
+0,
+4,
+0,
+512,
+2,
+512,
+128,
+0
+],
+"title":"\u041f\u043b\u0430\u0442\u043e \u041b\u0430\u0433\u043e-\u041d\u0430\u043a\u0438",
+"url":"https://strannik36.ru/plato-lago-naki",
 "vendor":"strannik"
 },
 {
@@ -52994,7 +53436,7 @@ const DATA={"weekendList": [
 "start":1665878400,
 "tags":[
 8,
-1,
+0,
 4,
 0,
 512,
@@ -53164,6 +53606,32 @@ const DATA={"weekendList": [
 "vendor":"strannik"
 },
 {
+"created":1638910800,
+"end":1666569600,
+"for_kids":0,
+"id":"b9b7182",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1666224000,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+512,
+0,
+256
+],
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
+"vendor":"strannik"
+},
+{
 "created":1634677200,
 "end":1667174400,
 "for_kids":0,
@@ -53202,7 +53670,7 @@ const DATA={"weekendList": [
 "start":1666483200,
 "tags":[
 2,
-1,
+0,
 2,
 0,
 512,
@@ -53214,6 +53682,32 @@ const DATA={"weekendList": [
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0437\u0430\u043f\u0430\u0434) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
 "url":"http://orangeked.ru/tours/item/127-likia-west",
 "vendor":"orangeked"
+},
+{
+"created":1638910800,
+"end":1667174400,
+"for_kids":1,
+"id":"e1039f2",
+"length":50,
+"level":1,
+"norm":"\u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u044b\u043c \u043e\u0441\u0435\u043d\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 6+",
+"price":"33\u00a0700\u00a0\u20bd",
+"slots":null,
+"start":1666483200,
+"tags":[
+1,
+1,
+1,
+1,
+512,
+2,
+512,
+32,
+0
+],
+"title":"\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u041a\u0440\u044b\u043c. \u041e\u0441\u0435\u043d\u043d\u0435\u0435 \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 (6+)",
+"url":"https://turclub-pik.ru/pohod/detskij-krym-osennee-priklyuchenie/531/",
+"vendor":"pik"
 },
 {
 "created":1634677200,
@@ -53396,6 +53890,32 @@ const DATA={"weekendList": [
 "title":"\u0422\u0443\u0440\u0446\u0438\u044f, \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 \u043d\u0430\u043b\u0435\u0433\u043a\u0435 \u043f\u043e\u00a0\u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u0438",
 "url":"https://stranavetrov.ru/pohody-po-turtsii-trekking-tur/turtsiya-magicheskaya-kappadokiya-pohod-nalegke",
 "vendor":"stranavetrov"
+},
+{
+"created":1638910800,
+"end":1667174400,
+"for_kids":0,
+"id":"2777367",
+"length":null,
+"level":null,
+"norm":"\u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043e\u0441\u0435\u0442\u0438\u044f",
+"price":"15\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1666828800,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+512,
+128,
+0
+],
+"title":"\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f",
+"url":"https://strannik36.ru/udivitelnaya-osetiya",
+"vendor":"strannik"
 },
 {
 "created":1638133200,
@@ -54020,6 +54540,32 @@ const DATA={"weekendList": [
 "title":"\u041d\u0435\u043f\u0430\u043b. \u0412\u043e\u043b\u0448\u0435\u0431\u043d\u044b\u0439 \u0442\u0440\u0435\u043a \u0432\u043e\u043a\u0440\u0443\u0433 \u0410\u043d\u043d\u0430\u043f\u0443\u0440\u043d\u044b \u0438\u00a0\u043e\u0437\u0435\u0440\u043e \u0422\u0438\u043b\u0438\u0447\u043e",
 "url":"https://stranavetrov.ru/trekking-tury-v-nepal/trekking-vokrug-annapurny",
 "vendor":"stranavetrov"
+},
+{
+"created":1638910800,
+"end":1668988800,
+"for_kids":0,
+"id":"6ff9a36",
+"length":null,
+"level":null,
+"norm":"\u043a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a \u043f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a \u0431\u0435\u0448\u0442\u0430\u0443",
+"price":"11\u00a0800\u00a0\u20bd",
+"slots":null,
+"start":1668643200,
+"tags":[
+128,
+1,
+4,
+0,
+512,
+2,
+1024,
+0,
+256
+],
+"title":"\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a, \u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a, \u0411\u0435\u0448\u0442\u0430\u0443",
+"url":"https://strannik36.ru/kislovodsk-pyatigorsk-beshtau",
+"vendor":"strannik"
 },
 {
 "created":1638133200,
