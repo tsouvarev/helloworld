@@ -19,7 +19,7 @@ from .text import format_price, int_or_none, normalize, re_digits  # noqa
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)
-warn = partial(click.secho, color='yellow')
+warn = partial(click.secho, fg='yellow')
 error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compact = partial(filter, bool)
@@ -116,7 +116,7 @@ def sorter(func):
 def zip_safe(*its: Iterable):
     for item in zip_longest(*its, fillvalue=EMPTY):
         if EMPTY in item:
-            raise ValueError('Failed safe zip')
+            raise ValueError(f'failed zip_safe: {item!r}')
         yield item
 
 

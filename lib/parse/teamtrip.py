@@ -3,12 +3,13 @@ from datetime import datetime
 from functools import partial
 from typing import Iterator
 
+from funcy import first
 from lxml import html
 
-from ..config import MONTHS, TODAY, Vendor
+from ..config import MONTHS, MONTHS_NORM, TODAY, Vendor
 from ..models import Item
 from ..parse import client
-from ..utils import error, mapv, zip_safe
+from ..utils import content, css, error, mapv, warn
 
 
 async def parse_teamtrip() -> Iterator[Item]:
@@ -18,19 +19,27 @@ async def parse_teamtrip() -> Iterator[Item]:
 
 def parse_page(text):
     tree = html.fromstring(text.encode())
-    paths = (
-        '//*[@class="t404__tag"]/text()',
-        '//*[@class="t404__title t-heading t-heading_xs"]/text()',
-        '//*[@class="t404__link"]/@href',
-    )
-    for dates, title, url in zip_safe(*map(tree.xpath, paths)):
-        for start, end in parse_dates(dates):
+    for link in tree.xpath(css('.t404__link')):
+        # import ipdb
+        # ipdb.set_trace()
+        href = link.attrib['href']
+        wrapper = first(link.find_class('t404__textwrapper'))
+        if not wrapper:
+            warn('skip teamtrip item cause cant find wrapper')
+            continue
+
+        dates, title = wrapper.getchildren()[:2]
+        if 't404__uptitle' not in dates.attrib['class']:
+            warn('skip teamtrip item cause invalid state')
+            continue
+
+        for start, end in parse_dates(content(dates)):
             yield Item(
                 vendor=Vendor.TEAMTRIP,
                 start=start,
                 end=end,
-                title=title,
-                url='https://team-trip.ru' + url,
+                title=content(title),
+                url='https://team-trip.ru' + href,
             )
 
 
@@ -69,13 +78,20 @@ def parse_date(src: str, today: datetime):
     data = re.split(r'\W+', src)
     if len(data) == 3:
         day, month, year = data
-        return datetime(
-            day=int(day), month=MONTHS.index(month) + 1, year=int(year)
-        )
+        return datetime(day=int(day), month=month_int(month), year=int(year))
     elif len(data) == 2:
         day, month = data
-        if not month.isdigit():
-            month = MONTHS.index(month) + 1  # type: ignore
-        return today.replace(day=int(day), month=int(month))
+        return today.replace(day=int(day), month=month_int(month))
     else:
         return today.replace(day=int(data[0]))
+
+
+def month_int(value: str) -> int:
+    if value.isdigit():
+        return int(value)
+
+    val = value.lower()
+    try:
+        return MONTHS.index(val) + 1
+    except ValueError:
+        return MONTHS_NORM.index(val) + 1
