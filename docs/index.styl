@@ -240,6 +240,7 @@ html, body, #app, .gant, .aside, .detail
         display inline-block
         overflow hidden
         margin 10px 0 0 10px
+        transition opacity .15s ease-in
         opacity 1
 
         &.inactive
@@ -247,7 +248,7 @@ html, body, #app, .gant, .aside, .detail
 
         &__inner
             padding 1px 11px
-            border-radius 3px
+            border-radius 5px
             color #0066ff
             background lighten(@color, 90%)
             cursor pointer
@@ -321,7 +322,7 @@ input.search__input
         margin-left 20px
 
 .btn
-    color #444 !important
+    color #444
     font-size 15px
     cursor pointer
     padding 8px 14px 10px
@@ -331,13 +332,18 @@ input.search__input
     user-select none
     text-align center
     white-space nowrap
+    transition opacity .15s ease-in
 
     &:hover
-        background rgba(0,0,0,.08)
+        opacity .8
 
     &--inactive
         opacity .5
         cursor default
+
+    &--primary
+        background-color #06f
+        color white
 
     &--disabled
         opacity .5

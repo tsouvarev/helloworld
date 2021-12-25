@@ -964,7 +964,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0440\u0438\u0431\u0435\u0440\u043a\u0435 \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u0441\u0435\u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0441\u0438\u044f\u043d\u0438\u044f",
 "price":"27\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1640822400,
 "tags":[
 1,
@@ -2524,7 +2524,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043d\u0441\u043a\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430 \u0432 \u0430\u0440\u043c\u0435\u043d\u0438\u0438 2022",
 "price":"$\u00a0670",
-"slots":23,
+"slots":0,
 "start":1641081600,
 "tags":[
 16,
@@ -4414,10 +4414,10 @@ const DATA={"weekendList": [
 "vendor":"pik"
 },
 {
-"created":1636318800,
+"created":1640379600,
 "end":1641600000,
 "for_kids":0,
-"id":"5e7a343",
+"id":"4af9b1c",
 "length":14,
 "level":2,
 "norm":"\u0440\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432 \u0441\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e \u043f\u043e\u0445\u043e\u0434 \u0438\u0433\u0440\u044b \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
@@ -4426,7 +4426,7 @@ const DATA={"weekendList": [
 "start":1641340800,
 "tags":[
 1,
-0,
+1,
 2,
 0,
 512,
@@ -4436,7 +4436,7 @@ const DATA={"weekendList": [
 256
 ],
 "title":"\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e \u0432\u00a0\u0421\u0432\u044f\u0442\u043e\u0433\u043e\u0440\u043e\u0432\u043e: \u043f\u043e\u0445\u043e\u0434, \u0438\u0433\u0440\u044b, \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
-"url":"https://turclub-pik.ru/pohod/rozhdestvo-v-svyatogorovo/532/",
+"url":"https://turclub-pik.ru/pohod/rozhdestvo-v-svyatogorovo-pohod-igry-atmosfera/532/",
 "vendor":"pik"
 },
 {
@@ -9848,6 +9848,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1640379600,
+"end":1643760000,
+"for_kids":0,
+"id":"3cb82b4",
+"length":null,
+"level":3,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0445\u0438\u0431\u0438\u043d\u044b \u043a \u0431\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"price":"118\u00a0000\u00a0\u20bd",
+"slots":0,
+"start":1643328000,
+"tags":[
+512,
+1,
+4,
+0,
+8,
+2,
+3,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0425\u0438\u0431\u0438\u043d\u044b \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"url":"https://pro-adventure.ru/tours/id_1171_na-snegokhodakh-cherez-khibini-k-belomu-morju",
+"vendor":"pro_adventure"
+},
+{
 "created":1636578000,
 "end":1643500800,
 "for_kids":0,
@@ -9882,7 +9908,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b \u043d\u0430 \u043a\u043e\u043b\u044c\u0441\u043a\u043e\u043c 3 \u0434\u043d\u044f",
 "price":"66\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1643328000,
 "tags":[
 512,
@@ -11145,6 +11171,32 @@ const DATA={"weekendList": [
 ],
 "title":"\u041a\u0430\u0440\u0435\u043b\u0438\u044f: \u043a\u0430\u0442\u0430\u043d\u0438\u0435 \u043d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 2\u00a0\u0447\u0430\u0441\u0430",
 "url":"https://pro-adventure.ru/tours/id_2710_karelia-katanie-na-snegokhodakh-2-chasa-1",
+"vendor":"pro_adventure"
+},
+{
+"created":1640379600,
+"end":1644278400,
+"for_kids":0,
+"id":"46ecaa7",
+"length":null,
+"level":3,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0445\u0438\u0431\u0438\u043d\u044b \u043a \u0431\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"price":"118\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1643846400,
+"tags":[
+512,
+1,
+4,
+0,
+8,
+2,
+2,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0425\u0438\u0431\u0438\u043d\u044b \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"url":"https://pro-adventure.ru/tours/id_1171_na-snegokhodakh-cherez-khibini-k-belomu-morju",
 "vendor":"pro_adventure"
 },
 {
@@ -12760,6 +12812,32 @@ const DATA={"weekendList": [
 "vendor":"pro_adventure"
 },
 {
+"created":1640379600,
+"end":1644796800,
+"for_kids":0,
+"id":"c1b661b",
+"length":null,
+"level":3,
+"norm":"\u043d\u0430 \u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0445\u0438\u0431\u0438\u043d\u044b \u043a \u0431\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"price":"118\u00a0000\u00a0\u20bd",
+"slots":null,
+"start":1644364800,
+"tags":[
+512,
+1,
+4,
+0,
+8,
+2,
+2,
+64,
+0
+],
+"title":"\u041d\u0430\u00a0\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u0430\u0445 \u0447\u0435\u0440\u0435\u0437 \u0425\u0438\u0431\u0438\u043d\u044b \u043a\u00a0\u0411\u0435\u043b\u043e\u043c\u0443 \u043c\u043e\u0440\u044e",
+"url":"https://pro-adventure.ru/tours/id_1171_na-snegokhodakh-cherez-khibini-k-belomu-morju",
+"vendor":"pro_adventure"
+},
+{
 "created":1635714000,
 "end":1644710400,
 "for_kids":0,
@@ -13470,7 +13548,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b \u043d\u0430 \u043a\u043e\u043b\u044c\u0441\u043a\u043e\u043c 3 \u0434\u043d\u044f",
 "price":"66\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1644537600,
 "tags":[
 512,
@@ -15602,7 +15680,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b \u043d\u0430 \u043a\u043e\u043b\u044c\u0441\u043a\u043e\u043c 3 \u0434\u043d\u044f",
 "price":"66\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1645142400,
 "tags":[
 512,
@@ -18358,7 +18436,7 @@ const DATA={"weekendList": [
 "level":3,
 "norm":"\u0441\u043d\u0435\u0433\u043e\u0445\u043e\u0434\u044b \u043d\u0430 \u043a\u043e\u043b\u044c\u0441\u043a\u043e\u043c 3 \u0434\u043d\u044f",
 "price":"66\u00a0000\u00a0\u20bd",
-"slots":null,
+"slots":0,
 "start":1645660800,
 "tags":[
 512,

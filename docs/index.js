@@ -225,6 +225,10 @@ function renderTripper(weekendList, noWeekendList, eventSource, tagGroups) {
                 updateUrl(null, '');
             },
             hideMenu: function () {
+                if (!this.filterCounter) {
+                    // Do not hide menu if no filter set up
+                    return
+                }
                 this.menu.mobile = false;
                 updateUrl(null, '');
             },

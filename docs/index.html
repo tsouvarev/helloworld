@@ -226,7 +226,12 @@
     <aside class="aside" :class="{'aside--mobile': menu.mobile}">
         <div class="aside__sticky sticky">
             <div class="btn-group">
-                <div class="btn" v-on:click="hideMenu">применить</div>
+                <div
+                    role="botton"
+                    :disabled="!filterCounter"
+                    :class="[{'btn--inactive': !filterCounter}, 'btn btn--primary']"
+                    v-on:click="hideMenu"
+                >применить</div>
             </div>
             <h1 class="logo">
                 <span class="logo__link">
