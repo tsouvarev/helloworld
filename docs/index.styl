@@ -327,7 +327,9 @@ input.search__input
     cursor pointer
     padding 8px 14px 10px
     border-radius 200px
-    background rgba(0,0,0,.05)
+    border-style solid
+    border-width 1px
+    border-color #ddd
     line-height 1
     user-select none
     text-align center
@@ -337,13 +339,13 @@ input.search__input
     &:hover
         opacity .8
 
-    &--inactive
-        opacity .5 !important
-        cursor default
-
     &--primary
-        background-color #06f
-        color white
+        border-color #06f
+        color @border-color
+
+    &--inactive
+        opacity .4 !important
+        cursor disabled
 
 
 .detail
