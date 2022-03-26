@@ -8,7 +8,7 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import content, css, gather_chunks, int_or_none
+from ..utils import content, css, error, gather_chunks, int_or_none
 from . import client
 
 MENU_ITEM = css('.menu-item.menu-item-type-post_type.menu-item-object-post a')
@@ -63,13 +63,14 @@ def parse_dates(
 ) -> Iterable[Tuple[datetime, datetime]]:
     dates = src.replace('/', ',').split(',')
     for pair in dates:
-        splitted = pair.split('-')
+        splitted = pair.split('-')[-2:]
 
         if len(splitted) == 1:
             start_src, end_src = None, splitted[0]
         elif len(splitted) == 2:
             start_src, end_src = splitted
         else:
+            error(f'[cityescape]: Failed to parse data "{pair}"')
             continue
 
         start = end = parse_date(end_src, today)
