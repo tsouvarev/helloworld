@@ -44,7 +44,7 @@ class TagGroup:
             tag.bit = 1 << i
 
     def __iter__(self):
-        return iter(self.tags)
+        return (x for x in self.tags if x.active)
 
     def for_json(self):
         return {

@@ -1,73 +1,60 @@
 import re
 from datetime import datetime
-from typing import Iterable, Iterator, Optional, Tuple
+from itertools import starmap
+from typing import Iterable, Iterator, List, Optional, Tuple
 
 from funcy import cat, first
 from lxml import html
 
 from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import css, gather_chunks, int_or_none
+from ..utils import content, css, gather_chunks, int_or_none
 from . import client
 
+MENU_ITEM = css('.menu-item.menu-item-type-post_type.menu-item-object-post a')
 MONTHS_JOINED = '|'.join(MONTHS)
 PRICE_RE = re.compile(r'((?=[1-9])[0-9 ]+)\s+(р\.|\$|€)')
 TITLE_RE = re.compile(r'(.+?) ([1-9][0-9 -]+(?:%s).+)$' % MONTHS_JOINED)
 DATE_RE = re.compile(r'([0-9]+) ?(%s)? ?([0-9]{4})?' % MONTHS_JOINED)
 LEVELS_MAP = {
-    '>Легкий': Level.EASY,
-    '>Несложный': Level.EASY,
-    '>Средний': Level.MEDIUM,
-    '>Сложный': Level.HARD,
+    'Легкий': Level.EASY,
+    'Несложный': Level.EASY,
+    'Средний': Level.MEDIUM,
+    'Сложный': Level.HARD,
 }
 
 
 async def parse_cityescape() -> Iterator[Item]:
     page = await client.get('https://cityescape.ru/')
-    tree = html.fromstring(page.text.encode())
-
-    items = cat(
-        x.xpath('a/@href')
-        for x in tree.xpath(css('.menu-item-object-post'))
-        if 'Ожидается' not in x.text_content()
-    )
-
-    return cat(await gather_chunks(5, *map(parse_page, items)))
+    tree = html.fromstring(page.text.encode('utf_8_sig'))
+    items = ((content(x), x.attrib['href']) for x in tree.xpath(MENU_ITEM))
+    return cat(await gather_chunks(5, *starmap(parse_page, items)))
 
 
-async def parse_page(url: str):
+async def parse_page(page_title: str, url: str) -> List[Item]:
+    data = first(TITLE_RE.findall(page_title))
+    if not data:
+        return []
+
+    title, dates = data
+
     page = await client.get(url)
     text = page.text.replace('&nbsp;', ' ')
+    tree = html.fromstring(text.encode('utf_8_sig'))
+    price = parse_price(content(tree.xpath(css('#content-tab2'))[0]))
+
     items = []
-    tree = html.fromstring(text.encode())
-    price = parse_price(
-        ''.join(tree.xpath('//*[@id="content-tab2"]')[0].itertext())
-    )
-
-    level = None
-    for k, v in LEVELS_MAP.items():
-        if k in text:
-            level = v
-            break
-
-    for page_title in tree.xpath('//*[@class="page__title"]/text()'):
-        data = first(TITLE_RE.findall(page_title))
-        if not data:
-            # fixme: warn
-            continue
-
-        title, dates = data
-        for start, end in parse_dates(dates):
-            item = Item(
-                vendor=Vendor.CITYESCAPE,
-                start=start,
-                end=end,
-                title=title,
-                url=url,
-                price=price and '{} {}'.format(*price),
-                level=level,
-            )
-            items.append(item)
+    for start, end in parse_dates(dates):
+        item = Item(
+            vendor=Vendor.CITYESCAPE,
+            start=start,
+            end=end,
+            title=title,
+            url=url,
+            price=price and '{} {}'.format(*price),
+            level=first(v for k, v in LEVELS_MAP.items() if k in text),
+        )
+        items.append(item)
     return items
 
 
@@ -80,8 +67,10 @@ def parse_dates(
 
         if len(splitted) == 1:
             start_src, end_src = None, splitted[0]
-        else:
+        elif len(splitted) == 2:
             start_src, end_src = splitted
+        else:
+            continue
 
         start = end = parse_date(end_src, today)
         if start_src:
