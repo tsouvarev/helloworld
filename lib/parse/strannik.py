@@ -7,7 +7,7 @@ from lxml import html
 
 from ..config import Vendor
 from ..models import Item
-from ..utils import error, zip_safe
+from ..utils import error, guess_currency, parse_int, zip_safe
 from . import client
 
 find_dates = re.compile(r'([0-9]+)\.([0-9]+)\.([0-9]+)').findall
@@ -40,7 +40,8 @@ def parse_page(text):
             vendor=Vendor.STRANNIK,
             title=clear_days(title),
             url=href,
-            price=price,
+            price=parse_int(price),
+            currency=guess_currency(price),
             start=start,
             end=end,
         )

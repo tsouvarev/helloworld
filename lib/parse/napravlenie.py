@@ -5,8 +5,7 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
-from ..utils import content, int_or_none, zip_safe
-from ..utils.text import guess_currency
+from ..utils import content, guess_currency, int_or_none, parse_int, zip_safe
 from . import client
 
 
@@ -30,9 +29,12 @@ def parse_page(text):
     )
     titles = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/text()')
     hrefs = tree.xpath(f'{prefix}//*[@class="abody"]/h2/a/@href')
-    for date, price, slot, title, href in zip_safe(
+    for date, price_src, slot, title, href in zip_safe(
         dates, prices, slots, titles, hrefs
     ):
+        # Comma separates children price,
+        # Currency is somewhere
+        price = price_src.split(',', 1)[0]
         start, end = parse_dates(TODAY, date)
         yield Item(
             vendor=Vendor.NAPRAVLENIE,
@@ -40,9 +42,8 @@ def parse_page(text):
             end=end,
             title=title.replace(' / 2020', ''),
             url='https://www.napravlenie.info' + href,
-            # Comma separates children price,
-            # Currency is somewhere
-            price=guess_currency(price).format(price.split(',', 1)[0]),
+            price=parse_int(price),
+            currency=guess_currency(price),
             slots=int_or_none(slot) or 0,
         )
 

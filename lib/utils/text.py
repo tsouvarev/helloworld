@@ -1,7 +1,10 @@
 import re
-from typing import Optional
+from contextlib import suppress
+from typing import Dict, Optional
 
 from funcy import compact, joining, partial
+
+from ..config import Currency
 
 NBSP = '\u00A0'
 NORM = str.maketrans(
@@ -24,6 +27,7 @@ NORM = str.maketrans(
 RE_MISTYPES = re.compile(r'\b()\b', re.I)
 RE_SPLIT = re.compile(r'[^\w\+-]+', re.U).split
 RE_CYRILLIC = re.compile(r'[а-яё]').findall
+RE_DIGITS = partial(re.compile(r'\D+').sub, '')
 
 
 @joining(' ')
@@ -40,34 +44,38 @@ def format_int(src: int) -> str:
     return '{:,}'.format(src).replace(',', NBSP)
 
 
-re_digits = partial(re.compile(r'\D+').sub, '')
-DEFAULT_CURRENCY = f'{{}}{NBSP}₽'
-CURRENCIES = {
-    f'€{NBSP}{{}}': re.compile(r'(€|евро|eur)', re.I),
-    f'${NBSP}{{}}': re.compile(r'(\$|дол|usd)', re.I),
-    DEFAULT_CURRENCY: re.compile(r'(₽|руб|р\.?)', re.I),
+CURRENCIES: Dict[Currency, re.Pattern] = {
+    Currency.EUR: re.compile(r'(€|евро|eur)', re.I),
+    Currency.USD: re.compile(r'(\$|дол|usd)', re.I),
+    Currency.RUB: re.compile(r'(₽|руб|р\.?)', re.I),
+}
+
+CURRENCIES_FORMATS: Dict[Currency, str] = {
+    Currency.EUR: f'{Currency.EUR}{NBSP}{{}}',
+    Currency.USD: f'{Currency.USD}{NBSP}{{}}',
+    Currency.RUB: f'{{}}{NBSP}{Currency.RUB}',
 }
 
 
-def guess_currency(src: str, default=DEFAULT_CURRENCY) -> str:
+def guess_currency(src: str) -> Currency:
     for key, value in CURRENCIES.items():
         if value.search(src):
             return key
-    return default
+    return Currency.RUB
 
 
-def format_price(src: str):
-    price = int_or_none(src)
-    if not price:
-        # nothing found
-        return src
-
-    currency = guess_currency(src)
-    return currency.format(format_int(price))
+def format_price(price: int, currency: Currency) -> str:
+    return CURRENCIES_FORMATS[currency].format(format_int(price))
 
 
 def int_or_none(src: str) -> Optional[int]:
     try:
-        return int(re_digits(src))
+        return int(RE_DIGITS(src))
     except ValueError:
         return None
+
+
+def parse_int(src: str) -> int:
+    with suppress(ValueError):
+        return int(RE_DIGITS(src))
+    return 0

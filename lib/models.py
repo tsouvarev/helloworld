@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field, validator
 
-from .config import Level, Vendor
+from .config import Currency, Level, Vendor
 from .utils import hash_uid, utcnow
 
 
@@ -19,7 +19,8 @@ class Item(BaseModel):
     end: datetime
     for_kids: bool = False
     level: Optional[Level] = None
-    price: Optional[str] = None
+    price: int = 0
+    currency: Currency = Currency.RUB
     length: Optional[int] = None
     slots: Optional[int] = None
     id: Optional[str] = None

@@ -30,7 +30,8 @@ ITEM_SOURCE = {
 def test_parse_item():
     item = parse_item(ITEM_SOURCE)
     assert item.title == 'Активный Сочи'
-    assert item.price == '15 000 ₽'
+    assert item.price == 15000
+    assert item.currency == '₽'
     assert item.start == datetime(2021, 2, 20)
     assert item.end == datetime(2021, 2, 24)
     assert item.length == 20

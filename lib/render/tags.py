@@ -2,11 +2,13 @@ import re
 from dataclasses import asdict, dataclass, field
 from functools import partial, reduce
 from itertools import count
-from typing import Callable, Dict, List
+from typing import Callable, Dict, Iterable, List, Tuple
 
 from funcy import post_processing
 
-from ..config import SHORT_DURATION, TODAY, Level, Vendor
+from ..config import SHORT_DURATION, TODAY, Currency, Level, Vendor
+from ..utils import format_int
+from .exchange import get_exchange, to_rub
 
 
 @dataclass
@@ -28,14 +30,17 @@ class Tag:
         return hash(self.slug)
 
 
-@dataclass(frozen=True)
+@dataclass
 class TagGroup:
     slug: str
-    tags: List[Tag]
+    tags: Iterable[Tag]
     title: str = ''
     index: int = field(  # type: ignore
         init=False,
         default_factory=partial(next, count(0)),
+    )
+    processors: List[Callable[['TagGroup'], None]] = field(
+        default_factory=list
     )
 
     def __post_init__(self):
@@ -47,6 +52,9 @@ class TagGroup:
         return (x for x in self.tags if x.active)
 
     def for_json(self):
+        for p in self.processors:
+            p(self)
+
         return {
             'title': self.title,
             'slug': self.slug,
@@ -370,7 +378,31 @@ MONTH_TAGS = [
     Tag(slug='month_12', text='дек'),
 ]
 
-TAGS = (
+PRICE_TAGS = {
+    5000: Tag(slug='5000', text='до ' + format_int(5000)),
+    10000: Tag(slug='10000', text='до ' + format_int(10000)),
+    30000: Tag(slug='30000', text='до ' + format_int(30000)),
+    50000: Tag(slug='50000', text='до ' + format_int(50000)),
+    70000: Tag(slug='70000', text='до ' + format_int(70000)),
+    100000: Tag(slug='100000', text='до ' + format_int(100000)),
+    999999: Tag(slug='999999', text='от ' + format_int(100000)),
+}
+
+
+def set_exchange(g: TagGroup):
+    """
+    Sets Central Bank Exchange rate as tag group title
+    """
+
+    g.title = '{} {}, {} {}'.format(
+        Currency.USD,
+        get_exchange()[Currency.USD],
+        Currency.EUR,
+        get_exchange()[Currency.EUR],
+    )
+
+
+TAGS: Tuple[TagGroup, ...] = (
     TagGroup(slug='vendors', tags=VENDOR_TAGS),
     TagGroup(slug='new', tags=[NEW]),
     TagGroup(slug='levels', title='Сложность', tags=LEVELS_TAGS),
@@ -382,6 +414,12 @@ TAGS = (
         tags=[SHORT, LONG],
     ),
     TagGroup(title='Месяц', slug='months', tags=MONTH_TAGS),
+    TagGroup(
+        title='Стоимость в рублях',
+        slug='price',
+        tags=PRICE_TAGS.values(),
+        processors=[set_exchange],
+    ),
     TagGroup(title='Россия', slug='places', tags=list(PLACES_RF)),
     TagGroup(
         title='Мир', slug='places', tags=list(PLACES_WORLD) + [OTHER_PLACES]
@@ -450,3 +488,11 @@ def get_tags(src: dict):
 
         if start <= date <= end:
             yield month
+
+    price = to_rub(src['price'], src['currency'])
+    if price:
+        for k, v in PRICE_TAGS.items():
+            tag = v
+            if k >= price:
+                yield tag
+                break

@@ -15,7 +15,14 @@ from cssselect import GenericTranslator
 from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
-from .text import format_price, int_or_none, normalize, re_digits  # noqa
+from .text import (  # noqa
+    format_int,
+    format_price,
+    guess_currency,
+    int_or_none,
+    normalize,
+    parse_int,
+)
 
 debug = click.secho
 info = partial(click.secho, color='white', bold=True)

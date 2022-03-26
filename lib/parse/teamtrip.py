@@ -1,46 +1,64 @@
 import re
 from datetime import datetime
 from functools import partial
-from typing import Iterator
+from itertools import starmap
+from typing import Iterator, List
 
-from funcy import first
+from funcy import cat, first
 from lxml import html
 
 from ..config import MONTHS, MONTHS_NORM, TODAY, Vendor
 from ..models import Item
 from ..parse import client
-from ..utils import content, css, error, mapv, warn
+from ..utils import (
+    content,
+    css,
+    error,
+    gather_chunks,
+    guess_currency,
+    mapv,
+    parse_int,
+    warn,
+    zip_safe,
+)
 
 
 async def parse_teamtrip() -> Iterator[Item]:
     page = await client.get('https://team-trip.ru/')
-    return parse_page(page.text)
-
-
-def parse_page(text):
-    tree = html.fromstring(text.encode())
-    for link in tree.xpath(css('.t404__link')):
-        # import ipdb
-        # ipdb.set_trace()
+    tree = html.fromstring(page.text.encode())
+    items = []
+    links = tree.xpath(css('.t404__link'))
+    dates = tree.xpath(css('.t404__tag'))
+    for link, date in zip_safe(links, dates):
         href = link.attrib['href']
         wrapper = first(link.find_class('t404__textwrapper'))
-        if not wrapper:
+        if wrapper is None:
             warn('skip teamtrip item cause cant find wrapper')
             continue
+        items.append(('https://team-trip.ru' + href, content(date)))
+    return cat(await gather_chunks(5, *starmap(parse_page, items)))
 
-        dates, title = wrapper.getchildren()[:2]
-        if 't404__uptitle' not in dates.attrib['class']:
-            warn('skip teamtrip item cause invalid state')
-            continue
 
-        for start, end in parse_dates(content(dates)):
-            yield Item(
+async def parse_page(url: str, date: str) -> List[Item]:
+    page = await client.get(url)
+    tree = html.fromstring(page.text.encode())
+    title = content(tree.xpath(css('.t-cover .t-title'))[0])
+    *_, price = map(content, tree.xpath(css('.t498 .t-name_xl')))
+
+    items = []
+    for start, end in parse_dates(date):
+        items.append(
+            Item(
                 vendor=Vendor.TEAMTRIP,
                 start=start,
                 end=end,
-                title=content(title),
-                url='https://team-trip.ru' + href,
+                title=title,
+                price=parse_int(price),
+                currency=guess_currency(price),
+                url=url,
             )
+        )
+    return items
 
 
 re_by_year = partial(

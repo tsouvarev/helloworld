@@ -104,3 +104,9 @@ class Level(IntEnum):
     @classmethod
     def index(cls, key: int):
         return nth(key, iter(Level))
+
+
+class Currency(str, Enum):
+    RUB = '₽'
+    EUR = '€'
+    USD = '$'

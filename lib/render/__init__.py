@@ -21,7 +21,6 @@ from ..config import (
     src_path,
 )
 from ..utils import (
-    debug,
     format_price,
     json_dumps,
     json_loads,
@@ -42,19 +41,19 @@ sort_items = sorter(itemgetter('start'))
 
 def pre_filter(item: dict):
     if item['end'] > LAST_DATE:
-        debug('Skip too far "{url}"'.format_map(item))
+        warn('Skip too far "{url}"'.format_map(item))
         return False
 
     is_long = item['end'] - item['start'] >= TOO_LONG
     if is_long:
-        debug('Skip too long "{url}"'.format_map(item))
+        warn('Skip too long "{url}"'.format_map(item))
         return False
     return True
 
 
 def post_filter(date, item: dict):
     if item['start'] < date:
-        debug('Skip already started "{url}"'.format_map(item))
+        warn('Skip already started "{url}"'.format_map(item))
         return False
     return True
 
@@ -70,7 +69,6 @@ def parse_item(item: dict):
 def render_item(meta: dict, item: dict):
     created = meta[item['id']]
     item.update(
-        price=item['price'] and format_price(item['price']),
         title=ru_typus(item['title'].strip('.')),
         norm=normalize(item['title']),
         new=created >= NEW_INT,
@@ -83,6 +81,11 @@ def render_item(meta: dict, item: dict):
         tags=item_tags,
         for_kids=item_tags[3] & KIDS,
     )
+
+    price = item.pop('price')
+    currency = item.pop('currency')
+    if price:
+        item['price'] = format_price(price, currency)
 
     # fixme: time for pydantic
     item.pop('new')

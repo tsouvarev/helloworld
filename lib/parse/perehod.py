@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import Level, Vendor
 from ..models import Item
-from ..utils import content, zip_safe
+from ..utils import content, guess_currency, parse_int, zip_safe
 from . import client
 
 MONTHS = 'янв фев мар апр ма июн июл авг сен окт ноя дек'.split()
@@ -44,7 +44,8 @@ def parse_page(text):
             vendor=Vendor.PEREHOD,
             title=title,
             url='https://club-perexod.ru' + href,
-            price=price,
+            price=parse_int(price),
+            currency=guess_currency(price),
             start=start,
             end=end,
             level=Level.index(level),

@@ -7,7 +7,7 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import css, gather_chunks, silent
+from ..utils import css, gather_chunks, guess_currency, parse_int, silent
 from . import client
 
 find_dates = compose(
@@ -47,7 +47,8 @@ async def parse_page(path: str) -> Item:
         end=end,
         url=url,
         title=title,
-        price=price,
+        price=parse_int(price),
+        currency=guess_currency(price),
         slots=slots - slots_taken,
     )
     return item

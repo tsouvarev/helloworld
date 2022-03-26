@@ -6,6 +6,7 @@ from funcy import cat
 
 from ..config import Level, Vendor
 from ..models import Item
+from ..utils import guess_currency, parse_int
 from . import client
 
 PIK_URL = 'https://turclub-pik.ru/api/v1/public/search/'
@@ -62,7 +63,8 @@ def parse_item(item: dict) -> Item:
         start=start,
         end=end,
         title=route['name'],
-        price=price,
+        price=parse_int(price),
+        currency=guess_currency(price),
         url='https://turclub-pik.ru/pohod/{slug}/{id}/'.format_map(route),
         level=LEVELS[route['difficulty']['slug']],
         length=route['path_length'],

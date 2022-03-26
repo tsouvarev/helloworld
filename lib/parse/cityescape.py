@@ -1,14 +1,21 @@
 import re
 from datetime import datetime
 from itertools import starmap
-from typing import Iterable, Iterator, List, Optional, Tuple
+from typing import Iterable, Iterator, List, Tuple
 
 from funcy import cat, first
 from lxml import html
 
-from ..config import MONTHS, TODAY, Level, Vendor
+from ..config import MONTHS, TODAY, Currency, Level, Vendor
 from ..models import Item
-from ..utils import content, css, error, gather_chunks, int_or_none
+from ..utils import (
+    content,
+    css,
+    error,
+    gather_chunks,
+    guess_currency,
+    int_or_none,
+)
 from . import client
 
 MENU_ITEM = css('.menu-item.menu-item-type-post_type.menu-item-object-post a')
@@ -41,7 +48,9 @@ async def parse_page(page_title: str, url: str) -> List[Item]:
     page = await client.get(url)
     text = page.text.replace('&nbsp;', ' ')
     tree = html.fromstring(text.encode('utf_8_sig'))
-    price = parse_price(content(tree.xpath(css('#content-tab2'))[0]))
+    price, currency = parse_price(
+        content(tree.xpath(css('#content-tab2'))[0])
+    )
 
     items = []
     for start, end in parse_dates(dates):
@@ -51,7 +60,8 @@ async def parse_page(page_title: str, url: str) -> List[Item]:
             end=end,
             title=title,
             url=url,
-            price=price and '{} {}'.format(*price),
+            price=price,
+            currency=currency,
             level=first(v for k, v in LEVELS_MAP.items() if k in text),
         )
         items.append(item)
@@ -92,14 +102,14 @@ def parse_date(src: str, today: datetime) -> datetime:
     return date
 
 
-def parse_price(src: str) -> Optional[Tuple[int, int]]:
+def parse_price(src: str) -> Tuple[int, Currency]:
     price = currency = None
     for x, y in PRICE_RE.findall(src):
         price = max(price or 0, int_or_none(x) or 0)
         if not currency:
             currency = y
 
-    if not price or not currency:
-        return None
+    if not (price and currency):
+        return 0, Currency.RUB
 
-    return price, currency
+    return price, guess_currency(currency)

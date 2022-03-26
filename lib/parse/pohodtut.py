@@ -6,7 +6,7 @@ from funcy import first, post_processing
 
 from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
-from ..utils import error, json_loads
+from ..utils import error, guess_currency, json_loads, parse_int
 from . import client
 
 DATE_RE = re.compile(r'([0-9]+)\s*([а-я]+)')
@@ -66,7 +66,8 @@ def parse_page(text):
             start=start,
             end=end,
             title=data['title'],
-            price=data['price'],
+            price=parse_int(data['price']),
+            currency=guess_currency(data['price']),
             url='https://www.pohodtut.ru/' + url,
         )
 

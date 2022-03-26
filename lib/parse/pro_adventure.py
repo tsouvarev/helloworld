@@ -7,7 +7,7 @@ from lxml import html
 
 from ..config import MONTHS_NORM, TODAY, Level, Vendor
 from ..models import Item
-from ..utils import content, int_or_none
+from ..utils import content, guess_currency, int_or_none, parse_int
 from . import client
 
 find_dates = re.compile(r'\'?\w+', re.I | re.M).findall
@@ -60,7 +60,7 @@ def parse_page(text: str) -> Iterator[Item]:
                     slots = 0
 
                 level = int_or_none(difficult.get('class'))
-
+                price = content(cost)
                 item = Item(
                     vendor=Vendor.PRO_ADVENTURE,
                     level=level and LEVELS_MAP[level],
@@ -68,7 +68,8 @@ def parse_page(text: str) -> Iterator[Item]:
                     end=start + offset,
                     url='https://pro-adventure.ru' + item_title.get('href'),
                     title=content(item_title),
-                    price=content(cost),
+                    price=parse_int(price),
+                    currency=guess_currency(price),
                     for_kids=age <= 5,
                     slots=slots,
                 )
