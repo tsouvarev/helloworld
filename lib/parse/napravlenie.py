@@ -1,3 +1,4 @@
+import re
 from datetime import datetime
 from typing import Iterator
 
@@ -5,8 +6,10 @@ from lxml import html
 
 from ..config import MONTHS, TODAY, Vendor
 from ..models import Item
-from ..utils import content, guess_currency, int_or_none, parse_int, zip_safe
+from ..utils import content, guess_currency, parse_int, zip_safe
 from . import client
+
+digits = re.compile(r'[0-9]+').findall
 
 
 async def parse_napravlenie() -> Iterator[Item]:
@@ -43,7 +46,7 @@ def parse_page(text):
             # Currency is somewhere
             price=parse_int(price_src.split(',', 1)[0]),
             currency=guess_currency(price_src),
-            slots=int_or_none(slot) or 0,
+            slots=parse_slots(slot),
         )
 
 
@@ -66,3 +69,10 @@ def parse_date(now: datetime, src: str) -> datetime:
         return now.replace(day=int(day), month=MONTHS.index(month) + 1)
     else:
         return now.replace(day=int(data[0]))
+
+
+def parse_slots(src: str) -> int:
+    parsed = digits(src)
+    if not parsed:
+        return 0
+    return parse_int(parsed[0])
