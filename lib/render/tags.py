@@ -50,7 +50,7 @@ class TagGroup:
         return {
             'title': self.title,
             'slug': self.slug,
-            'tags': self.tags,
+            'tags': iter(self),
             'bits': reduce(lambda a, b: a | b.bit, self.tags, 0),
         }
 
