@@ -3805,7 +3805,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u0440\u043c\u0435\u043d\u0438\u0438-1 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0438 \u043b\u0435\u0433\u043a\u0438\u0439 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"695\u00a0\u20bd",
+"price":"$\u00a0695",
 "slots":610,
 "start":1651276800,
 "tags":[
@@ -3816,7 +3816,7 @@ const DATA={"weekendList": [
 512,
 2,
 24,
-1,
+16,
 0,
 16
 ],
@@ -5344,7 +5344,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0435\u0433\u0438\u043f\u0435\u0442 \u043f\u043e\u0437\u043d\u0430\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0442\u0443\u0440 2022",
-"price":"1\u00a0850\u00a0\u20bd",
+"price":"$\u00a01\u00a0850",
 "slots":1,
 "start":1651363200,
 "tags":[
@@ -5355,7 +5355,7 @@ const DATA={"weekendList": [
 64,
 2,
 16,
-1,
+64,
 0,
 4
 ],
@@ -7773,7 +7773,7 @@ const DATA={"weekendList": [
 "level":null,
 "norm":"\u0430\u043b\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u0441\u0430\u043a\u0443\u0440\u0430-2 \u0442\u0443\u0440 \u043d\u0430 \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u0435 \u043c\u0430\u0440\u0430\u043b\u044c\u043d\u0438\u043a\u0430 2022",
 "price":"62\u00a0000\u00a0\u20bd",
-"slots":1,
+"slots":2,
 "start":1651968000,
 "tags":[
 16,
@@ -9551,7 +9551,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u043e\u0442 \u0445\u0438\u0432\u044b \u0434\u043e \u0430\u0440\u0430\u043b\u0430 \u0434\u0436\u0438\u043f-\u0442\u0443\u0440 \u043f\u043e \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u043c\u0443 \u0443\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0443 2022",
-"price":"795\u00a0\u20bd",
+"price":"$\u00a0795",
 "slots":1010,
 "start":1653091200,
 "tags":[
@@ -9562,7 +9562,7 @@ const DATA={"weekendList": [
 64,
 2,
 16,
-1,
+32,
 0,
 64
 ],
@@ -11926,7 +11926,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u0440\u043c\u0435\u043d\u0438\u0438-2 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0438 \u043b\u0435\u0433\u043a\u0438\u0439 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"695\u00a0\u20bd",
+"price":"$\u00a0695",
 "slots":1010,
 "start":1654300800,
 "tags":[
@@ -11937,7 +11937,7 @@ const DATA={"weekendList": [
 512,
 2,
 32,
-1,
+16,
 0,
 16
 ],
@@ -16136,7 +16136,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u0440\u043c\u0435\u043d\u0438\u0438-3 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0438 \u043b\u0435\u0433\u043a\u0438\u0439 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"695\u00a0\u20bd",
+"price":"$\u00a0695",
 "slots":1010,
 "start":1655424000,
 "tags":[
@@ -16147,7 +16147,7 @@ const DATA={"weekendList": [
 512,
 2,
 32,
-1,
+16,
 0,
 16
 ],
@@ -35945,7 +35945,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0443\u0440 \u043f\u043e \u0430\u0440\u043c\u0435\u043d\u0438\u0438-4 \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0438 \u043b\u0435\u0433\u043a\u0438\u0439 \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"695\u00a0\u20bd",
+"price":"$\u00a0695",
 "slots":1010,
 "start":1660262400,
 "tags":[
@@ -35956,7 +35956,7 @@ const DATA={"weekendList": [
 512,
 2,
 128,
-1,
+16,
 0,
 16
 ],
@@ -43768,7 +43768,7 @@ const DATA={"weekendList": [
 "length":null,
 "level":null,
 "norm":"\u043f\u043e\u043b\u0443\u043e\u0441\u0442\u0440\u043e\u0432 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449 \u043c\u0430\u043d\u0433\u044b\u0448\u043b\u0430\u043a \u0434\u0436\u0438\u043f-\u0442\u0443\u0440 + \u0442\u0440\u0435\u043a\u0438\u043d\u0433 2022",
-"price":"1\u00a0140\u00a0\u20bd",
+"price":"$\u00a01\u00a0140",
 "slots":77,
 "start":1663372800,
 "tags":[
@@ -43779,7 +43779,7 @@ const DATA={"weekendList": [
 64,
 2,
 256,
-1,
+64,
 0,
 64
 ],

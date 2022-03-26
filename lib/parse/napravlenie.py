@@ -32,9 +32,6 @@ def parse_page(text):
     for date, price_src, slot, title, href in zip_safe(
         dates, prices, slots, titles, hrefs
     ):
-        # Comma separates children price,
-        # Currency is somewhere
-        price = price_src.split(',', 1)[0]
         start, end = parse_dates(TODAY, date)
         yield Item(
             vendor=Vendor.NAPRAVLENIE,
@@ -42,8 +39,10 @@ def parse_page(text):
             end=end,
             title=title.replace(' / 2020', ''),
             url='https://www.napravlenie.info' + href,
-            price=parse_int(price),
-            currency=guess_currency(price),
+            # Comma separates children price,
+            # Currency is somewhere
+            price=parse_int(price_src.split(',', 1)[0]),
+            currency=guess_currency(price_src),
             slots=int_or_none(slot) or 0,
         )
 
