@@ -18,6 +18,7 @@ from .pro_adventure import parse_pro_adventure
 from .stranavetrov import parse_stranavetrov
 from .strannik import parse_strannik
 from .teamtrip import parse_teamtrip
+from .vpoxod import parse_vpoxod
 from .zovgor import parse_zovgor
 
 # Parsers should fetch pages immediately and postpone parsing
@@ -34,6 +35,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.STRANNIK: parse_strannik,
     Vendor.MYWAY: parse_myway,
     Vendor.STRANAVETROV: parse_stranavetrov,
+    Vendor.VPOXOD: parse_vpoxod,
 }
 
 unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))

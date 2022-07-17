@@ -80,7 +80,7 @@ FinderDict = Dict[Tag, Callable[[str], bool]]
 
 TYPES: FinderDict = {
     Tag(slug='rafting', title='сплав', text='🛶'): finder(
-        r'\b(сплав|водн|байдар)'
+        r'\b(сплав|водн|байдар|каяк|sup|сапах)'
     ),
     Tag(slug='bicycle', title='велопоход', text='🚴'): finder(r'\bвело'),
     Tag(slug='horse', title='конный', text='🐎'): finder(r'\bконны'),
@@ -352,6 +352,7 @@ VENDOR_TAGS = [
     Tag(slug=Vendor.MYWAY, text='myway'),
     Tag(slug=Vendor.PRO_ADVENTURE, text='pro-adventure'),
     Tag(slug=Vendor.STRANAVETROV, text='страна ветров'),
+    Tag(slug=Vendor.VPOXOD, text='клуб приключений'),
 ]
 VENDOR_MAP = {t.slug: t for t in VENDOR_TAGS}
 

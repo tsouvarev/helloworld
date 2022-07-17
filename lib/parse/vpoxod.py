@@ -1,0 +1,78 @@
+import re
+from datetime import datetime
+from typing import Iterator
+
+from funcy import cat, first
+from lxml import html
+
+from ..config import Level, Vendor
+from ..models import Item
+from ..utils import css, guess_currency, parse_int, zip_safe
+from . import client
+
+find_int = re.compile(r'\d+').findall
+
+
+async def parse_vpoxod() -> Iterator[Item]:
+    index = 1
+    items = []
+    seen = set()
+    while True:
+        url = f'https://www.vpoxod.ru/types/13-Vyihodnogo-dnya?sort=date&per-page=48&page={index}'
+        page = await client.get(
+            url,
+            headers={
+                "x-pjax": 'true',
+                'x-pjax-container': '#routes-container',
+                'x-requested-with': 'XMLHttpRequest',
+            },
+        )
+
+        # this is stupid
+        if page.text in seen:
+            break
+
+        seen.add(page.text)
+        items.append(parse_page(page.text))
+        index += 1
+
+    return cat(items)
+
+
+def parse_page(text):
+    tree = html.fromstring(text)
+    props = tree.xpath('//*[@itemtype="https://schema.org/Event"]')
+    headers = tree.find_class('item_header')
+    bodies = tree.xpath(css('.item_header+tr'))
+
+    for prop, header, body in zip_safe(props, headers, bodies):
+        title = prop.find('meta[@itemprop="name"]').attrib['content']
+        url = prop.find('meta[@itemprop="url"]').attrib['content']
+        start = prop.find('meta[@itemprop="startDate"]').attrib['content']
+        end = prop.find('meta[@itemprop="endDate"]').attrib['content']
+        difficulty = len(header.find_class('difficulty-square fill'))
+        price = body.find_class('table_price_right')[0].text_content()
+        currency = prop.find('div/meta[@itemprop="priceCurrency"]').attrib[
+            'content'
+        ]
+        slots = body.find_class('table_places')[0].text_content()
+        if "мест нет" in slots:
+            slots = 0
+        else:
+            slots = first(find_int(slots))
+
+        yield Item(
+            vendor=Vendor.VPOXOD,
+            title=title,
+            url=url,
+            price=parse_int(price),
+            currency=guess_currency(currency),
+            start=parse_date(start),
+            end=parse_date(end),
+            slots=slots,
+            level=Level.index(max(0, difficulty - 1)),
+        )
+
+
+def parse_date(src: str) -> datetime:
+    return datetime.strptime(src, '%Y-%m-%d')
