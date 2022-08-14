@@ -7,14 +7,14 @@ from datetime import date, datetime, timezone
 from functools import partial, update_wrapper, wraps
 from inspect import iscoroutinefunction
 from itertools import cycle, zip_longest
-from typing import Callable, Iterable, Iterator, Optional
+from typing import Callable, Iterable, Iterator, Optional, List, Tuple
 
-import click
 import simplejson
 from cssselect import GenericTranslator
 from funcy import cat, chunks, compose
 from funcy.primitives import EMPTY
 
+from . import secho
 from .text import (  # noqa
     format_int,
     format_price,
@@ -24,22 +24,45 @@ from .text import (  # noqa
     parse_int,
 )
 
-debug = click.secho
-info = partial(click.secho, color='white', bold=True)
-warn = partial(click.secho, fg='yellow')
-error = partial(click.secho, fg='red', err=True, bold=True)
 filterv = compose(list, filter)
 compact = partial(filter, bool)
 compactv = compose(list, compact)
 mapv = compose(list, map)
 css = GenericTranslator().css_to_xpath
 
-ERASE_LINE = '\x1b[2K'
+
+@dataclass
+class Echo:
+    msgs: List[Tuple[str, str]] = field(default_factory=list)
+    lock: bool = False
+
+    def echo(self, level: str, msg: str):
+        if not self.lock:
+            getattr(secho, level)(msg)
+        else:
+            self.msgs.append((level, msg))
+
+    def __enter__(self):
+        self.lock = True
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.lock = False
+        for level, msg in self.msgs:
+            self.echo(level, msg)
+        self.msgs = []
+
+
+echo = Echo()
+debug = partial(echo.echo, "debug")
+info = partial(echo.echo, "info")
+warn = partial(echo.echo, "warn")
+error = partial(echo.echo, "error")
 
 
 @dataclass
 class progress:
     spinner: Iterator = field(default_factory=partial(cycle, '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'))
+    ERASE_LINE = '\x1b[2K'
 
     def __new__(cls, func: Optional[Callable] = None):
         inst = super().__new__(cls)
@@ -60,11 +83,11 @@ class progress:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        print(ERASE_LINE, end='\r', flush=True)
+        print(f'{self.ERASE_LINE}', end='\r', flush=True)
 
     def __call__(self, msg: str):
         spin = next(self.spinner)
-        print(f'{ERASE_LINE}\r{spin} {msg}', end='')
+        print(f'{self.ERASE_LINE}\r{spin} {msg}', end='')
 
 
 def utcnow() -> datetime:

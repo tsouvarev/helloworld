@@ -6,7 +6,7 @@ from typing import Awaitable, Callable, Dict, Iterator, Sequence
 
 from ..config import Vendor, src_path
 from ..models import Item
-from ..utils import compact, distinctv, info, json_dumps, progress
+from ..utils import compact, distinctv, info, json_dumps, progress, echo
 from .cityescape import parse_cityescape
 from .client import Progress
 from .myway import parse_myway
@@ -44,7 +44,7 @@ unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))
 async def parse_gather(names: Sequence[str]):
     os.makedirs(src_path(), exist_ok=True)
 
-    with progress() as p:
+    with echo, progress() as p:
         Progress.set(p)
         results = await asyncio.gather(*(VENDORS[n]() for n in names))
 

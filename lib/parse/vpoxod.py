@@ -18,7 +18,7 @@ async def parse_vpoxod() -> Iterator[Item]:
     items = []
     seen = set()
     while True:
-        url = f'https://www.vpoxod.ru/types/13-Vyihodnogo-dnya?sort=date&per-page=48&page={index}'
+        url = f'https://www.vpoxod.ru/allroutes?sort=date&per-page=48&page={index}'
         page = await client.get(
             url,
             headers={
