@@ -6992,7 +6992,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u0433\u0440\u044f\u0434\u0430 \u0432\u044f\u0440\u044f\u043c\u044f\u043d\u0441\u0435\u043b\u044c\u043a\u044f",
 "price":"1\u00a0700\u00a0\u20bd",
-"slots":8,
+"slots":9,
 "start":1660694400,
 "tags":[
 2048,
@@ -35609,7 +35609,7 @@ const DATA={"weekendList": [
 "level":1,
 "norm":"\u0433\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432 \u0430\u0434\u044b\u0433\u0435\u0435",
 "price":"32\u00a0600\u00a0\u20bd",
-"slots":12,
+"slots":15,
 "start":1662249600,
 "tags":[
 2048,
@@ -86173,7 +86173,7 @@ const DATA={"weekendList": [
 "level":2,
 "norm":"\u0433\u043e\u0440\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c \u0432 \u0447\u0435\u0433\u0435\u043c\u0441\u043a\u043e\u043c \u0443\u0449\u0435\u043b\u044c\u0435 \u0437\u0438\u043c\u043d\u044f\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
 "price":"37\u00a0900\u00a0\u20bd",
-"slots":10,
+"slots":11,
 "start":1672444800,
 "tags":[
 2048,
