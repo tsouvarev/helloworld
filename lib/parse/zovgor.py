@@ -6,7 +6,7 @@ from lxml import html
 
 from ..config import TODAY, Vendor
 from ..models import Item
-from ..utils import content, guess_currency, mapv, parse_int, zip_safe
+from ..utils import content, guess_currency, mapv, parse_int, zip_safe, warn
 from . import client
 
 
@@ -31,7 +31,12 @@ def parse_page(text):
     data = (tree.xpath(path + t) for t in tails)
     for title, url, date, price in zip_safe(titles, *data):
         price = content(price)
-        start, end = parse_dates(content(date))
+        try:
+            start, end = parse_dates(content(date))
+        except ValueError as e:
+            warn(f"failed to parse {date}: {e}")
+            continue
+
         yield Item(
             vendor=Vendor.ZOVGOR,
             title=title,
