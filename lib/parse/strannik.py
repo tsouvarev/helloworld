@@ -25,11 +25,10 @@ def parse_page(text):
         '//*[@class="upcoming-hikes__item__name"]/div[1]/a/span/text()',
         '//*[@class="upcoming-hikes__item__name"]/div[1]/a/@href',
         '//*[@class="upcoming-hikes__item__dates"]/text()',
-        '//*[@class="upcoming-hikes__item__price"]/span[2]/text()',
     )
 
     data = map(tree.xpath, tails)
-    for title, href, dates, price in zip_safe(*data):
+    for title, href, dates in zip_safe(*data):
         try:
             start, end = parse_dates(dates)
         except Exception as e:
@@ -40,8 +39,6 @@ def parse_page(text):
             vendor=Vendor.STRANNIK,
             title=clear_days(title),
             url=href,
-            price=parse_int(price),
-            currency=guess_currency(price),
             start=start,
             end=end,
         )

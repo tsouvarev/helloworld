@@ -35,7 +35,7 @@ VENDORS: Dict[str, Callable[[], Awaitable[Iterator[Item]]]] = {
     Vendor.STRANNIK: parse_strannik,
     Vendor.MYWAY: parse_myway,
     Vendor.STRANAVETROV: parse_stranavetrov,
-    Vendor.VPOXOD: parse_vpoxod,
+    # Vendor.VPOXOD: parse_vpoxod,
 }
 
 unique_items = partial(distinctv, attrgetter('url', 'start', 'end'))

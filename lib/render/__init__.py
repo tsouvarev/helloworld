@@ -95,7 +95,10 @@ def render_item(meta: dict, item: dict):
 def get_source():
     for v in Vendor:
         with open(src_path(v + '.json'), 'r') as f:
-            yield from map(parse_item, json.load(f))
+            try:
+                yield from map(parse_item, json.load(f))
+            except Exception as e:
+                warn(f"Failed to parse {v}: {e}")
 
 
 def render():
