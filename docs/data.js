@@ -99254,33 +99254,6 @@ const DATA={"weekendList": [
 },
 {
 "created":1674082800,
-"end":1697155200,
-"for_kids":0,
-"id":"b597038",
-"length":null,
-"level":2,
-"norm":"\u0442\u0443\u0440\u0446\u0438\u044f \u043b\u0438\u043a\u0438\u044f \u0432\u043e\u0441\u0442\u043e\u043a \u0438 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
-"price":"$\u00a0630",
-"slots":14,
-"start":1696204800,
-"tags":[
-2,
-1,
-2,
-0,
-512,
-2,
-512,
-8,
-0,
-1
-],
-"title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0432\u043e\u0441\u0442\u043e\u043a) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
-"url":"http://orangeked.ru/tours/item/129-likia-east",
-"vendor":"orangeked"
-},
-{
-"created":1674082800,
 "end":1696723200,
 "for_kids":0,
 "id":"4575311",
@@ -99304,6 +99277,33 @@ const DATA={"weekendList": [
 ],
 "title":"\u0413\u043e\u0440\u043d\u044b\u0439 \u043a\u044d\u043c\u043f \u043d\u0430\u00a0\u041a\u0430\u0432\u043a\u0430\u0437\u0435",
 "url":"http://orangeked.ru/tours/item/65-pohod-kavkaz",
+"vendor":"orangeked"
+},
+{
+"created":1674082800,
+"end":1697155200,
+"for_kids":0,
+"id":"b597038",
+"length":null,
+"level":2,
+"norm":"\u0442\u0443\u0440\u0446\u0438\u044f \u043b\u0438\u043a\u0438\u044f \u0432\u043e\u0441\u0442\u043e\u043a \u0438 \u043a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
+"price":"$\u00a0630",
+"slots":14,
+"start":1696204800,
+"tags":[
+2,
+1,
+2,
+0,
+512,
+2,
+512,
+8,
+0,
+1
+],
+"title":"\u0422\u0443\u0440\u0446\u0438\u044f \u041b\u0438\u043a\u0438\u044f (\u0432\u043e\u0441\u0442\u043e\u043a) \u0438\u00a0\u041a\u0430\u043f\u043f\u0430\u0434\u043e\u043a\u0438\u044f",
+"url":"http://orangeked.ru/tours/item/129-likia-east",
 "vendor":"orangeked"
 },
 {

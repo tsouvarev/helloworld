@@ -28,10 +28,8 @@ async def parse_vpoxod() -> Iterator[Item]:
             },
         )
 
-        seen.add(page.text)
-        batch = parse_page(page.text)
         was = len(items)
-        for item in batch:
+        for item in parse_page(page.text):
             if item.id in seen:
                 continue
 
