@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 from typing import Iterator
 
-from funcy import cat, first
+from funcy import first, collecting
 from lxml import html
 
 from ..config import Level, Vendor
@@ -28,18 +28,25 @@ async def parse_vpoxod() -> Iterator[Item]:
             },
         )
 
-        # this is stupid
-        if page.text in seen:
+        seen.add(page.text)
+        batch = parse_page(page.text)
+        was = len(items)
+        for item in batch:
+            if item.id in seen:
+                continue
+
+            seen.add(item.id)
+            items.append(item)
+
+        if was == len(items):
             break
 
-        seen.add(page.text)
-        items.append(parse_page(page.text))
         index += 1
 
-    return cat(items)
+    return items
 
 
-def parse_page(text):
+def parse_page(text) -> Item:
     tree = html.fromstring(text)
     props = tree.xpath('//*[@itemtype="https://schema.org/Event"]')
     headers = tree.find_class('item_header')
