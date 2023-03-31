@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 from typing import Iterator
 
-from funcy import first, collecting
+from funcy import first
 from lxml import html
 
 from ..config import Level, Vendor
